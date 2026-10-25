@@ -147,6 +147,30 @@ if(sn){
   if(!sn.registar_slika||sn.registar_slika.length!==31)greske.push('registar slika mora imati 31 unos (Sl. 1-31)');
 }
 
+// v0.12: crtezi sloj (kote iscitane sa vektorskih crteza Starinara 64/2014)
+const cr=ucitaj('crtezi_sloj.json');
+if(cr){
+  if(cr.verzija!==baza?.verzija)greske.push(`crtezi sloj verzija ${cr.verzija} != ${baza?.verzija}`);
+  const brProfila=(cr.profili||[]).length;
+  if(brProfila<6)greske.push(`crtezi sloj: ocekivano >=6 profila, ima ${brProfila}`);
+  const stubIds=new Set((prostor?.objekti_3d_stubi||[]).map(o=>o.id));
+  for(const p of cr.profili||[]){
+    if(!p.id||!p.naslov||!p.poverenje)greske.push(`crtezi: profil bez id/naslov/poverenje`);
+    for(const ref of p.stub_veza||[]){
+      if(!stubIds.has(ref))greske.push(`crtezi: profil ${p.id} referencira nepostojeci stub: ${ref}`);
+    }
+    for(const k of [...(p.kote||[]), ...(p.kote_zapadna_strana||[]), ...(p.kote_istocna_strana||[])]){
+      if(typeof k.kota!=='number'||k.kota<194||k.kota>212)greske.push(`crtezi: kota van opsega (${k.kota} u ${p.id})`);
+    }
+  }
+  // opseg kota mora pokrivati i dno jame i asfalt
+  const op=cr.kota_dem_veza?.opseg_svih_kota_crteza;
+  if(!op||op[0]>197.38||op[1]<200.6)greske.push('crtezi: opseg kota ne pokriva jamu 197.38 ni asfalt 200.6');
+  // numeracija prostorija W/E mora postojati
+  if(!cr.plan_vile_sl1?.prostorije_zapadni?.u_planu?.length||!cr.plan_vile_sl1?.prostorije_istocni?.u_planu?.length)
+    greske.push('crtezi: nedostaje numeracija prostorija W/E sa Sl. 1');
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

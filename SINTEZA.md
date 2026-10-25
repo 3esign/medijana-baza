@@ -116,3 +116,30 @@ Validator: **0 grešaka / 0 upozorenja.** Otvoreno: sonde sektora 2–5 u tekstu
 - **Kota-DEM veza:** sve izmerene kote (197,94-200,6) potvrdjuju DEM opseg 195-199 za vilu; castellum ~206 i dalje iznad — gravitacija vazi.
 - **Registar slika Sl. 1-31** popisan iz potpisa; Sl. 1 (situacioni plan sa sondama) i dalje bez geometrije.
 - Prerimski nalaz: **kasnolatenska fibula** (sl. 31) — zivot na Medijani pre Rima.
+
+## v0.12 — crtezi iz Starinara 64/2014 iscrtani i ocitani (Sl. 1-4, 7, 8, 11)
+
+Vektorski crtezi nemaju tekstualni sloj, pa su strane renderovane u PNG (200 dpi, `crtezi/`) i citane vizuelno; kote prepisane sa izdavackih crteza (autor crteza: I. Bjelic, N. Stankovic, J. Pesic). Novi fajl **`crtezi_sloj.json`**.
+
+**Sl. 1 — prvi puni situacioni plan vile u bazi:**
+- Numeracija prostorija: **W-1..W-25** (zapadni trakt) i **E-1..E-24** (+ E-16a, E-24a) (istocni trakt) — do sada prostorije nisu imale pojedinacne ID-jeve; sada vezuju sve nalaze (kote, fresko, novac) na konkretne sobe u 3D.
+- Zidovi z-22..z-53; z-38/z-39 aula sa apsidom, z-50 baza zapadnog stuba ulaza.
+- Sonde po godinama na jednom planu: 1959, 1969, 1972, 1976, 1978-1979, 1980, 2003-2005, 2008, 2010, 2011.
+
+**Profili sa kotama (R=1:25):**
+- **Sl. 2** (severni, sonde 73/90/87): krune zidova **198,40-198,46**, a **recentni asfaltni put preko profila na 200,04-200,25** — moderni put direktno nad antickim zidovima, ~1,7 m zembelja. Rizik po nalaziste, upisano.
+- **Sl. 3** (zapadni, sonda 86): zid kruzne gradjevine (stibadium B) sa horizontale 199,56 — graficka potvrda kruzne osnove O ~7 m.
+- **Sl. 4** (istocni, sonda 87): apsida i zid 1; rusevinski sloj pada 199,2 ka 198,80.
+- **Sl. 7** (istocni, sonda 103): jama od 199,73 do **197,38** (zdravica na dnu) — poklapa se sa tekstom iz v0.11.
+- **Sl. 8** (sonda 46, w-24): horizontala 199,58; Tabela 3: put +/-200,6, kraj puta +/-200,17 — **200,64 najvisa kota baze** (humus+A).
+- **Sl. 11** (sonda 81, juzni trem): trasa zida Z-50a, juzni zid trema, dno profila **197,28**; slojevi I-V.
+
+**Provera:**
+- Kote iz teksta str. 236-237 (w-1 pod 198,70, Venera 199,12, koplje 199,14, fresko 199,33) poklapaju se sa sektorom 3 iz v0.11 — nezavisna provera prosla.
+- Opseg svih kota crteza **197,28-200,64** — temelji i jame idu u zdravicu; 3D osnova ostaje na 198; asfalt/put je recentni horizont i NE ulazi u 3D.
+- Stibadium B sada potvrdjen iz **tri nezavisna profila** (86 zapadni, 87 istocni, 73/90 severni).
+- Slojevna oznaka A/B/C/D/E konzistentna kroz sonde 46, 81, 103 — vertikalna stratigrafija spremana za slojevni 3D model.
+
+Validator prosiren (crtezi sloj: verzija, profili, kote u opsegu, veze na stubove, opseg 197,38-200,6, numeracija W/E): **0 gresaka / 0 upozorenja.**
+
+Otvoreno: Sl. 1 u vektorskom obliku (za GIS uvoz) postoji samo u PDF-u koji nema vektorsku ekstrakciju linija — ostaje rutina; vezivanje nalaza (novac, fresko, keramika) na nove W/E ID-jeve prostorija je sledeci prirodni talas.

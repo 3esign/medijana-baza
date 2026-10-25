@@ -1,0 +1,251 @@
+{
+  "svrha": "Crteži iz Starinara 64/2014 (Vasić, Milošević, Gavrilović, Iskopavanja Medijane u 2010. i 2011. godini, 231-263): vektorski crteži su renderovani u PNG (crtezi/), pregledani vizuelno i kote i oznake prepisane ručno. Crteži nemaju tekstualni sloj unutar vektora - kote su čitane sa slike.",
+  "verzija": "0.12",
+  "datum": "2026-10-25",
+  "autor": "Svemir / dr Poturak Semir",
+  "izvor_glavni": {
+    "rad": "M. Vasić, G. Milošević, V. Gavrilović, Iskopavanja Medijane u 2010. i 2011. godini, Starinar LXIV/2014, 231-263",
+    "fajl": "pdf/milosevic_iskopi_2010_2011.pdf",
+    "render": "pymupdf 200 dpi, isečci u crtezi/*_crop.png",
+    "nacin_citanja": "vizuelni pregled renderovanih strana; kote prepisane sa crteža (autor crteža: I. Bjelić, N. Stanković, J. Pešić)"
+  },
+  "plan_vile_sl1": {
+    "opis": "Sl. 1 - osnova vile sa obeleženim sondama istraženim u 2010. i 2011. (merilo 1:1 na originalu, str. 232). Prvi puni situacioni plan u bazi sa numeracijom prostorija.",
+    "traktovi": ["zapadni trakt", "istočni trakt"],
+    "prostorije_zapadni": {
+      "sistem": "W-1 .. W-25",
+      "u_planu": ["W-1", "W-2", "W-3", "W-4", "W-5", "W-6", "W-7", "W-8", "W-9", "W-10", "W-11", "W-12", "W-13", "W-14", "W-15", "W-16", "W-17", "W-18", "W-19", "W-20", "W-21", "W-22", "W-23", "W-24", "W-25"],
+      "napomena": "W-22, W-23, W-24, W-24a = severne prostorije uz aulu (sondirane 2010); W-13 ka zapadnom traktu"
+    },
+    "prostorije_istocni": {
+      "sistem": "E-1 .. E-24",
+      "u_planu": ["E-1", "E-2", "E-3", "E-4", "E-5", "E-6", "E-7", "E-8", "E-9", "E-10", "E-11", "E-12", "E-13", "E-14", "E-15", "E-16", "E-17", "E-18", "E-19", "E-20", "E-21", "E-22", "E-23", "E-24", "E-16a", "E-24a"],
+      "napomena": "E-22, E-23, E-24 severne prostorije; E-16a prolaz ka peristilu; E-12 sonda 80, prostorija 12 sonda 107"
+    },
+    "zidovi": {
+      "sistem": "z-numeracija",
+      "vidljivi_na_planu": ["z-22", "z-23", "z-24", "z-25", "z-26", "z-27", "z-28", "z-29", "z-31", "z-33", "z-36", "z-38", "z-39", "z-41", "z-43", "z-44", "z-45", "z-46", "z-47", "z-48", "z-49", "z-50", "z-52", "z-53"],
+      "napomena": "z-38/z-39 = aula sa apsidom na severu; z-50 = baza zapadnog stuba ulaza (otisak u zidu, sonda 101)"
+    },
+    "sonde_po_godinama": {
+      "1959": ["stariji sondiranja uz severnu fasadu (oznaka 1959.)"],
+      "1969": ["istočni trakt, prostorije E-13/E-14 i dalje ka jugu"],
+      "1972": ["istocni trakt i deo peristila (1969/1972 zajedno označeno)"],
+      "1976": ["aula sa apsidom (centralno severno)"],
+      "1978-1979": ["peristil i obe trakte - glavna iskopavanja prikazana zelenim"],
+      "1980": ["jugozapadni deo, uz W-9/W-10"],
+      "2003": ["uz zapadni zid aleje"],
+      "2004": ["jugozapad, sonda 104 zona"],
+      "2005": ["zapadni trakt W-22/W-23/W-24 zona i W-1"],
+      "2008": ["severna zona: sonda B i sonde 98/103/104 okolina"],
+      "2010": ["73", "90", "91", "92", "94", "95", "96", "101 (nije na Sl.1 već u tekstu)", "102", "46 (w-24)"],
+      "2011": ["97", "98", "99", "103", "104", "106", "71", "81", "83", "84", "85", "86", "87", "88", "89"]
+    },
+    "implikacija_3d": "Numeracija prostorija W/E je ključ za vezu svih daljih nalaza (kote, fresko, novac) na konkretne sobe u 3D modelu - do sada su prostorije postojale samo kao 'severne prostorije' bez pojedinačnih ID-jeva."
+  },
+  "profili": [
+    {
+      "id": "sl2-severni-73-90-87",
+      "slika": "crtezi/sl2_severni_profil_73_90_87_crop.png",
+      "naslov": "Sl. 2 - severni profil sondi 73, 90, 87 (skice 239-250/11), R=1:25",
+      "stub_veza": ["stibadium-B", "zgrade-oko-stibadiuma-B"],
+      "kote_zapadna_strana": [
+        { "kota": 198.84, "kontekst": "dno profila, severno od zgrade" },
+        { "kota": 198.94, "kontekst": "kruna/zapadni rub" },
+        { "kota": 198.83, "kontekst": "zapadni rub" },
+        { "kota": 198.94, "kontekst": "zapadni rub, drugi nivo" },
+        { "kota": 198.92, "kontekst": "zapadni rub" },
+        { "kota": 198.93, "kontekst": "zapadni rub" },
+        { "kota": 198.85, "kontekst": "oslonac I (granica sonda 90 blok B)" },
+        { "kota": 199.93, "kontekst": "površina terena" },
+        { "kota": 200.04, "kontekst": "asfalt - recentni put" },
+        { "kota": 200.14, "kontekst": "asfalt" },
+        { "kota": 200.21, "kontekst": "asfalt" },
+        { "kota": 200.25, "kontekst": "asfalt, najviša tačka profila" },
+        { "kota": 200.20, "kontekst": "asfalt, kraj" }
+      ],
+      "kote_istocna_strana": [
+        { "kota": 199.75, "kontekst": "površina" },
+        { "kota": 199.15, "kontekst": "površina" },
+        { "kota": 199.11, "kontekst": "površina" },
+        { "kota": 199.05, "kontekst": "površina" },
+        { "kota": 199.02, "kontekst": "površina" },
+        { "kota": 198.93, "kontekst": "granica" },
+        { "kota": 198.40, "kontekst": "slojevi A, B, C - krune zidova sonde 90 blok B" },
+        { "kota": 199.40, "kontekst": "površina" },
+        { "kota": 198.44, "kontekst": "sonda 73 - krune zidova" },
+        { "kota": 198.45, "kontekst": "sonda 73" },
+        { "kota": 198.46, "kontekst": "sonda 73" },
+        { "kota": 198.43, "kontekst": "sonda 90 blok B" },
+        { "kota": 198.44, "kontekst": "sonda 90 blok B, kraj" }
+      ],
+      "slojevi_legenda": ["opeka", "kamen", "malter", "gar"],
+      "nalaz": "Recentni asfaltni put prelazi preko severnog profila vile na ~200,04-200,25 m - moderni put direktno nad antičkim zidovima (krune zidova sonde 73/90 na 198,40-198,46, ispod asfalta ~1,7 m zembelja).",
+      "poverenje": "A - kote sa izdavačkog crteža, prepisano vizuelno"
+    },
+    {
+      "id": "sl3-zapadni-86",
+      "slika": "crtezi/sl3_zapadni_profil_86_crop.png",
+      "naslov": "Sl. 3 - zapadni profil sonde 86 (skica 109/11), R=1:25, terenska skica 109",
+      "stub_veza": ["stibadium-B"],
+      "kote": [
+        { "kota": 199.56, "kontekst": "horizontala, obe strane profila" }
+      ],
+      "slojevi": [
+        { "naziv": "recentni sloj", "opis": "humus + naboj zemlje od puta" },
+        { "naziv": "B1", "opis": "intenzivni šut: krečni malter, opeka, kamen" },
+        { "naziv": "B2", "opis": "sivomrka: kamen, lomljena opeka" }
+      ],
+      "nalaz": "Zid kružne građevine (stibadium B) vidljiv u zapadnom profilu sonde 86, sa zidom koji se spušta ispod horizontale 199,56 - grafička potvrda kružne osnove Ø ~7 m.",
+      "poverenje": "A"
+    },
+    {
+      "id": "sl4-istocni-87",
+      "slika": "crtezi/sl4_istocni_profil_87_crop.png",
+      "naslov": "Sl. 4 - istočni profil sonde 87 (skica 81/10), R=1:25, terenska skica 81",
+      "stub_veza": ["stibadium-B"],
+      "kote_zapadna_strana": [
+        { "kota": 199.87, "kontekst": "površina" },
+        { "kota": 199.42, "kontekst": "granica sloja" },
+        { "kota": 199.18, "kontekst": "granica sloja" },
+        { "kota": 198.64, "kontekst": "dno sonde" }
+      ],
+      "kote_istocna_strana": [
+        { "kota": 200.19, "kontekst": "površina" },
+        { "kota": 199.79, "kontekst": "horizontala" },
+        { "kota": 198.88, "kontekst": "dno" }
+      ],
+      "slojevi": ["humus+A", "humus+A1 (lomljeni kamen i opeka)", "sivomrka sa grumenjem maltera", "sivomrka", "glina", "intenzivni šut"],
+      "elementi": ["ruševinski sloj 199,2 / 198,80", "zid 1", "apsida"],
+      "nalaz": "Apsida stibadijuma B i zid 1 grafički potvrđeni u istočnom profilu sonde 87; ruševinski sloj pada sa 199,2 na 198,80 ka apsidi.",
+      "poverenje": "A"
+    },
+    {
+      "id": "sl7-istocni-103",
+      "slika": "crtezi/sl7_istocni_profil_103_crop.png",
+      "naslov": "Sl. 7 - istočni profil sonde 103 (skica 241/11), R=1:25, terenska skica 241",
+      "stub_veza": ["zgrade-oko-stibadiuma-B"],
+      "kote": [
+        { "kota": 199.49, "kontekst": "rub D (jug)" },
+        { "kota": 199.56, "kontekst": "površina" },
+        { "kota": 199.63, "kontekst": "površina" },
+        { "kota": 199.66, "kontekst": "površina" },
+        { "kota": 199.73, "kontekst": "površina i rub B (sever)" },
+        { "kota": 199.02, "kontekst": "granica sloja II/III" },
+        { "kota": 198.83, "kontekst": "granica" },
+        { "kota": 198.60, "kontekst": "dno profila, obe strane" },
+        { "kota": 198.62, "kontekst": "dno" },
+        { "kota": 199.60, "kontekst": "vrh svetlomrke zemlje sa malterom" },
+        { "kota": 197.38, "kontekst": "dno jame (zdravica)" }
+      ],
+      "slojevi": [
+        { "naziv": "I", "opis": "humus + A" },
+        { "naziv": "II", "opis": "sloj B" },
+        { "naziv": "III", "opis": "sloj C" },
+        { "naziv": "dopuna", "opis": "svetlomrka zemlja sa malterom; tamnomrka zemlja sa malterom; zdravica" }
+      ],
+      "nalaz": "Jama u sondi 103 grafički potvrđena: od površine 199,73 do dna 197,38 (2,35 m dubine), sa zdravicom na dnu - poklapa se sa tekston upisanim u v0.11.",
+      "poverenje": "A"
+    },
+    {
+      "id": "sl8-istocni-46-w24",
+      "slika": "crtezi/sl8_istocni_profil_46_w24_crop.png",
+      "naslov": "Sl. 8 - istočni profil sonde prostorije w-24 (sonda 46) (skica 33/10), R=1:25, terenska skica 33",
+      "stub_veza": ["vila-peristil"],
+      "prostorija_veza": "W-24",
+      "kote": [
+        { "kota": 199.58, "kontekst": "horizontala" }
+      ],
+      "slojevi": ["ukop 1a", "ukop 1b", "humus+A", "sloj B", "sloj C", "sloj D", "sloj E"],
+      "tabela3_delimicno": [
+        { "kota": 200.6, "kontekst": "put (±)", "sonda": "46, p. 22; 24" },
+        { "kota": 200.17, "kontekst": "kraj puta (±)", "sonda": "46, p. 22; 24" },
+        { "kota": 200.3, "kontekst": "humus + A (+)", "sonda": "46" },
+        { "kota": 200.64, "kontekst": "humus + A (+)", "sonda": "46" }
+      ],
+      "nalaz": "Najviša kota baze do sada: 200,64 (humus+A u sondi 46). Put na 200,6 potvrđuje Sl. 2 asfalt - moderni put je najviši horizont celog nalazišta.",
+      "poverenje": "A (crtež) / B (Tabela 3, znaci ± i + prepisani sa ekranskog reza)"
+    },
+    {
+      "id": "sl11-istocni-81",
+      "slika": "crtezi/sl11_istocni_profil_81_crop.png",
+      "naslov": "Sl. 11 - istočni profil sonde 81, južni trem (jugozapadni deo vile) (skica 201/11), R=1:25, terenska skica 201",
+      "stub_veza": ["kapija-aleja", "vila-peristil"],
+      "kote": [
+        { "kota": 199.60, "kontekst": "površina zapad" },
+        { "kota": 199.50, "kontekst": "površina istok" },
+        { "kota": 199.37, "kontekst": "rub B istok" },
+        { "kota": 199.07, "kontekst": "horizontala, obe strane" },
+        { "kota": 198.59, "kontekst": "granica" },
+        { "kota": 198.54, "kontekst": "granica" },
+        { "kota": 198.10, "kontekst": "dno zapad" },
+        { "kota": 197.93, "kontekst": "dno ukopa" },
+        { "kota": 197.64, "kontekst": "dno ukopa" },
+        { "kota": 197.65, "kontekst": "dno" },
+        { "kota": 197.28, "kontekst": "najniža tačka profila, ispod južnog zida trema" }
+      ],
+      "elementi": ["trasa zida Z-50a", "južni zid trema", "ukop", "asfalt"],
+      "slojevi": [
+        { "naziv": "I", "opis": "humus + A" },
+        { "naziv": "II", "opis": "sloj B" },
+        { "naziv": "III", "opis": "sloj C" },
+        { "naziv": "IV", "opis": "sloj D" },
+        { "naziv": "V", "opis": "zdravica" }
+      ],
+      "nalaz": "Trasa zida Z-50a uništi ukopom do 197,64; južni zid trema stoji na 197,28-199,07. Olovne cevi od fontane vide se u rovovima profila (tekst str. 244) - vodeni sloj dobija grafičku potvrdu.",
+      "poverenje": "A"
+    }
+  ],
+  "kote_iz_teksta_str12": {
+    "izvor": "isti rad, str. 236-237 (prostorije w-1, w-22, w-24a)",
+    "w1": {
+      "malterna_podnica": 198.70,
+      "sloj_d_proslojak_debqina": 0.05,
+      "sloj_c_kota": 199.18,
+      "baza_stuba": 199.33,
+      "rusevinski_nivo_jug": 198.99,
+      "rusevinski_nivo_sever": 199.08,
+      "vrh_koplja": 199.14,
+      "glava_venere": 199.12,
+      "zid_istok_zapad_kruna": 199.71,
+      "istocni_zid_ochuvan": 199.66,
+      "sloj_b1_b2": 199.74,
+      "malterni_pod_komad": 199.30,
+      "fresko_in_situ": 199.33,
+      "jame_recentne": [
+        { "naziv": "JAMA 1", "od": 199.83, "do": 199.58, "sadrzaj": "ukop za betonski stub" },
+        { "naziv": "JAMA 2", "na": 199.7, "sadrzaj": "ukop za betonski stub" },
+        { "naziv": "JAMA 3", "na": 199.77, "sadrzaj": "u severnom delu sonde" }
+      ]
+    },
+    "w22": {
+      "malterna_podnica": 198.70,
+      "pad": "ka zapadu i severu",
+      "garez_na_podu": 198.81,
+      "kamen_opeka_koncentracija": 199.79,
+      "zid33_kruna": 199.56,
+      "zid32_kruna": 199.66,
+      "ugao_jz": 199.52,
+      "ugao_ji": 199.41
+    },
+    "w24a": {
+      "pod_ka_istoku": 198.79,
+      "pod_ka_zapadu": 198.78,
+      "pod_sredina": 198.81
+    },
+    "provera_sa_v011": "Kote poklapaju se sa sektorom 3 iz v0.11 (podovi 198,70-198,81; Venera 199,12; koplje 199,14; fresko 199,33) - nezavisna provera prošla."
+  },
+  "kota_dem_veza": {
+    "opseg_svih_kota_crteza": [197.28, 200.64],
+    "dem_opseg_vile": [195, 199],
+    "zakljucak": "Sve kote crteža (uključujući dno jame 197,38 i dno ukopa 197,28) padaju u ili odmah ispod DEM opsega vile - temelji i jame idu u zdravicu ispod površine, 3D osnova ostaje na 198. Asfalt/put 200,04-200,64 je recentni horizont i NE ulazi u 3D.",
+    "upozorenje_obal": "Moderni asfaltni put prelazi preko severnog dela vile ~1,7 m iznad kruna zidova - rizik po nalazište, upisati u SINTEZU."
+  },
+  "implikacije_3d": [
+    "Numeracija prostorija W-1..W-25 / E-1..E-24 sa Sl. 1 postaje ID sloj za sve nalaze u bazi (novac, fresko, skulptura) - vezuje se na prostorne stubove.",
+    "Krune zidova sonde 73/90 (198,40-198,46) ispod asfalta 200,04-200,25: severni deo vile je zatrpan ~1,6-1,7 m - za 3D znači sačuvanost zidova ispod modernog puta.",
+    "Stibadium B potvrđen iz tri nezavisna profila (86 zapadni, 87 istočni, 73/90 severni) - osnova Ø ~7 m sada ima tri krstačka profila.",
+    "Slojevna oznaka A/B/C/D/E je konzistentna kroz sonde 46, 81, 103 - vertikalna stratigrafija može ići u 3D kao slojevni model."
+  ],
+  "nacin_daljeg_rada": "Vezati prostorije W/E na konkretne nalaze iz teksta (novac po sondama, fresko, keramika); ostale figure Starinara 64 (Sl. 5, 6, 9, 10, 12-31 su fotografije - već pokrivene vizuelnim slojem); dalji lov na Sl. 1 u vektorskom obliku (AI monografije) za GIS uvoz."
+}
