@@ -1,6 +1,6 @@
 {
  "sloj": "dem_glo30",
- "verzija": "0.22",
+ "verzija": "0.23",
  "izvor": "Copernicus GLO-30 (DSM, 30 m GSD), AWS opendata copernicus-dem-30m",
  "licence": "Copernicus/ESA besplatna javna upotreba",
  "tiles": [
@@ -188,5 +188,211 @@
   "nadlezno": "poništava i v0.18 i v0.20 vrednosti",
   "nalaz": "obe prethodne kote vile bile su uzorkovane sa pogrešnih koordinata (~2,5 km NE od lokaliteta). Prava pozicija: OSM way centroid 43.30957N, 21.94854E → GLO-30 198.2 m, Open-Meteo 198.0 m (slaganje 0.2 m). Kote iz v0.18 (200,6 — blizu) i v0.20 (187,8 — pogrešno) obe su bile uzete van poligona.",
   "dokaz": "dem/izvorista? v. dem_izvorista_v021.json; ukršteni test na 6 nezavisnih tačaka (tvrđava 198.7/198.0, aerodrom 192.1/192.0, Suva Planina 597.3/602.0) potvrđuje da TIFF čitanje i Open-Meteo daju iste vrednosti — greška je bila u koordinatama, ne u rasteru."
+ },
+ "izvorista_kandidati_v023": {
+  "metoda": "Overpass natural=spring (http fallback, https TLS blokiran iz ove mreze) -> GLO-30 kote -> ocena gradijenta ka vili",
+  "vila_referenca": {
+   "lat": 43.30957,
+   "lon": 21.94854,
+   "kota_glo30": 198.2,
+   "izvor": "v0.21 korekcija, OSM centroid poligona"
+  },
+  "kandidati": [
+   {
+    "osm_node": "4027319493",
+    "ime": "Срећково врело",
+    "lat": 43.38523,
+    "lon": 21.94579,
+    "kota_glo30": 431.9,
+    "udaljenost_km": 8.37,
+    "visinska_razlika_m": 233.7,
+    "kota_susedna": 456.8
+   },
+   {
+    "osm_node": "4115176757",
+    "ime": null,
+    "lat": 43.31663,
+    "lon": 21.96736,
+    "kota_glo30": 212.4,
+    "udaljenost_km": 1.71,
+    "visinska_razlika_m": 14.2,
+    "kota_susedna": 217.7
+   },
+   {
+    "osm_node": "4632285830",
+    "ime": "Рупчина",
+    "lat": 43.26197,
+    "lon": 21.92822,
+    "kota_glo30": 383.0,
+    "udaljenost_km": 5.51,
+    "visinska_razlika_m": 184.8,
+    "kota_susedna": 406.2
+   },
+   {
+    "osm_node": "7433265872",
+    "ime": null,
+    "lat": 43.37794,
+    "lon": 21.9696,
+    "kota_glo30": 470.5,
+    "udaljenost_km": 7.75,
+    "visinska_razlika_m": 272.3,
+    "kota_susedna": 477.2
+   },
+   {
+    "osm_node": "8224021244",
+    "ime": null,
+    "lat": 43.33528,
+    "lon": 22.02805,
+    "kota_glo30": 295.9,
+    "udaljenost_km": 7.04,
+    "visinska_razlika_m": 97.7,
+    "kota_susedna": 301.9
+   },
+   {
+    "osm_node": "8443391562",
+    "ime": "Бела вода",
+    "lat": 43.23713,
+    "lon": 21.97277,
+    "kota_glo30": 825.3,
+    "udaljenost_km": 8.25,
+    "visinska_razlika_m": 627.1,
+    "kota_susedna": 776.5
+   }
+  ],
+  "profil_najbolji_kandidat": {
+   "osm_node": "4115176757",
+   "ime": null,
+   "lat": 43.31663,
+   "lon": 21.96736,
+   "kota_glo30": 212.4,
+   "udaljenost_km": 1.71,
+   "pad_procenat": 0.83,
+   "profil": [
+    {
+     "f": 0.0,
+     "lat": 43.31663,
+     "lon": 21.96736,
+     "m": 207.6
+    },
+    {
+     "f": 0.056,
+     "lat": 43.31624,
+     "lon": 21.96631,
+     "m": 198.3
+    },
+    {
+     "f": 0.111,
+     "lat": 43.31585,
+     "lon": 21.96527,
+     "m": 202.8
+    },
+    {
+     "f": 0.167,
+     "lat": 43.31545,
+     "lon": 21.96422,
+     "m": 199.2
+    },
+    {
+     "f": 0.222,
+     "lat": 43.31506,
+     "lon": 21.96318,
+     "m": 199.4
+    },
+    {
+     "f": 0.278,
+     "lat": 43.31467,
+     "lon": 21.96213,
+     "m": 199.1
+    },
+    {
+     "f": 0.333,
+     "lat": 43.31428,
+     "lon": 21.96109,
+     "m": 199.4
+    },
+    {
+     "f": 0.389,
+     "lat": 43.31388,
+     "lon": 21.96004,
+     "m": 200.7
+    },
+    {
+     "f": 0.444,
+     "lat": 43.31349,
+     "lon": 21.959,
+     "m": 198.7
+    },
+    {
+     "f": 0.5,
+     "lat": 43.3131,
+     "lon": 21.95795,
+     "m": 199.1
+    },
+    {
+     "f": 0.556,
+     "lat": 43.31271,
+     "lon": 21.9569,
+     "m": 198.5
+    },
+    {
+     "f": 0.611,
+     "lat": 43.31232,
+     "lon": 21.95586,
+     "m": 198.9
+    },
+    {
+     "f": 0.667,
+     "lat": 43.31192,
+     "lon": 21.95481,
+     "m": 198.9
+    },
+    {
+     "f": 0.722,
+     "lat": 43.31153,
+     "lon": 21.95377,
+     "m": 198.6
+    },
+    {
+     "f": 0.778,
+     "lat": 43.31114,
+     "lon": 21.95272,
+     "m": 198.4
+    },
+    {
+     "f": 0.833,
+     "lat": 43.31075,
+     "lon": 21.95168,
+     "m": 198.6
+    },
+    {
+     "f": 0.889,
+     "lat": 43.31035,
+     "lon": 21.95063,
+     "m": 199.0
+    },
+    {
+     "f": 0.944,
+     "lat": 43.30996,
+     "lon": 21.94959,
+     "m": 198.8
+    },
+    {
+     "f": 1.0,
+     "lat": 43.30957,
+     "lon": 21.94854,
+     "m": 198.2
+    }
+   ],
+   "prepreka_iznad_vrela": false,
+   "max_medjukota": 202.8,
+   "napomena": "Cist monoton pad 212.4 -> 198.2 m na 1.71 km; bez grebenske prepreke. Najblizi i fizicki najrazumniji kandidat do sada."
+  },
+  "ocena": {
+   "kandidat_1": "node 4115176757 — 1.71 km, pad 0.83%, idealno za rimski akvadukt",
+   "kandidat_2": "Sreckovo vrelo (4027319493) — 8.37 km, pad 2.8%, granicno strmo (kaskade ili zaobidjanje)",
+   "odbaceni": "Rupcina i Bela voda sa druge strane Suve Planine (pad >3%), dva nenazucena cvora na grebenu >290 m",
+   "upozorenje": "GLO-30 kota node-a je kota terena, ne visina istoka; anticki vrela mogu biti nize/dalje od oznacenog node-a"
+  },
+  "vreme": "2026-10-26"
  }
 }

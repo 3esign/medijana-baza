@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-25T23:51:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4027319493,
+  "lat": 43.3852340,
+  "lon": 21.9457915,
+  "tags": {
+    "int_name": "Sreckovo vrelo",
+    "name": "Срећково врело",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 4115176757,
+  "lat": 43.3166304,
+  "lon": 21.9673646,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 4632285830,
+  "lat": 43.2619740,
+  "lon": 21.9282241,
+  "tags": {
+    "int_name": "Rupcina",
+    "name": "Рупчина",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 7433265872,
+  "lat": 43.3779395,
+  "lon": 21.9696031,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 8224021244,
+  "lat": 43.3352781,
+  "lon": 22.0280477,
+  "tags": {
+    "drinking_water": "no",
+    "drinking_water:legal": "no",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 8443391562,
+  "lat": 43.2371337,
+  "lon": 21.9727687,
+  "tags": {
+    "int_name": "Bela voda",
+    "name": "Бела вода",
+    "natural": "spring"
+  }
+}
+
+  ]
+}
