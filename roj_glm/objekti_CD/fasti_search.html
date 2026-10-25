@@ -1,0 +1,147 @@
+
+<!DOCTYPE html><html lang="en">    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1">        <title>Home · Fasti · FastiOnline</title>        <link href="&#x2F;&#x2F;fonts.googleapis.com&#x2F;css&#x3F;family&#x3D;Open&#x2B;Sans&#x3A;400,400italic,600,600italic,700italic,700" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;application&#x2F;asset&#x2F;css&#x2F;iconfonts.css&#x3F;v&#x3D;4.2.1" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;themes&#x2F;fasti&#x2F;asset&#x2F;css&#x2F;fasti.css&#x3F;v&#x3D;0.3.0" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;application&#x2F;asset&#x2F;css&#x2F;page-blocks.css&#x3F;v&#x3D;4.2.1" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;modules&#x2F;Multilingual&#x2F;asset&#x2F;css&#x2F;multilingual-locale-selector.css&#x3F;v&#x3D;0.1.0" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;modules&#x2F;Fasti&#x2F;asset&#x2F;css&#x2F;fasti-site-selector.css&#x3F;v&#x3D;0.1.0" media="screen" rel="stylesheet" type="text&#x2F;css">                <script  src="https&#x3A;&#x2F;&#x2F;code.jquery.com&#x2F;jquery-3.7.1.min.js"></script>
+<script  src="&#x2F;modules&#x2F;AdvancedResourceTemplate&#x2F;asset&#x2F;js&#x2F;global.js&#x3F;v&#x3D;3.4.53"></script>
+<script  src="&#x2F;themes&#x2F;fasti&#x2F;asset&#x2F;js&#x2F;default.js&#x3F;v&#x3D;0.3.0"></script>
+<script  src="&#x2F;modules&#x2F;Multilingual&#x2F;asset&#x2F;js&#x2F;multilingual-locale-selector.js&#x3F;v&#x3D;0.1.0"></script>
+<script  src="&#x2F;modules&#x2F;Fasti&#x2F;asset&#x2F;js&#x2F;fasti-site-selector.js&#x3F;v&#x3D;0.1.0"></script>
+<script >
+    //<!--
+    
+Omeka.jsTranslate = function(str) {
+    var jsTranslations = {"Something went wrong":"Something went wrong","Make private":"Make private","Make public":"Make public","Expand":"Expand","Collapse":"Collapse","You have unsaved changes.":"You have unsaved changes.","Restore item set":"Restore item set","Close icon set":"Close icon set","Open icon set":"Open icon set","[Untitled]":"[Untitled]","Failed loading resource template from API":"Failed loading resource template from API","Restore property":"Restore property","There are no available pages.":"There are no available pages.","Please enter a valid language tag":"Please enter a valid language tag","Title":"Title","Description":"Description","Unknown block layout":"Unknown block layout","Required field must be completed":"Required field must be completed","New item":"New item","New item set":"New item set","New value":"New value","No results":"No results","Cancel":"Cancel","Class":"Class","Collapse the list of groups of blocks":"Collapse the list of groups of blocks","Confirm download":"Confirm download","Download":"Download","Expand to display the list of groups of blocks":"Expand to display the list of groups of blocks","Insert Footnotes":"Insert Footnotes","Next":"Next","No next":"No next","No previous":"No previous","Page metadata":"Page metadata","Please wait for previous group of blocks to be prepared before adding a new one.":"Please wait for previous group of blocks to be prepared before adding a new one.","Previous":"Previous","This group does not contain any block.":"This group does not contain any block.","Url (deprecated)":"Url (deprecated)","An error occurred.":"An error occurred.","Apply":"Apply","Close":"Close","Information":"Information","No":"No","OK":"OK","Warning":"Warning","Yes":"Yes","Geographic coordinates":"Geographic coordinates","Geography":"Geography","Geometric coordinates":"Geometric coordinates","Geometric position":"Geometric position","Geometry":"Geometry","Please enter a latitude.":"Please enter a latitude.","Please enter a longitude.":"Please enter a longitude.","Please enter a radius.":"Please enter a radius.","Please enter a valid latitude.":"Please enter a valid latitude.","Please enter a valid longitude.":"Please enter a valid longitude.","Please enter a valid radius.":"Please enter a valid radius.","Please enter a valid radius in m.":"Please enter a valid radius in m.","Please enter a valid radius in km.":"Please enter a valid radius in km.","Please enter a valid wkt for the geometry.":"Please enter a valid wkt for the geometry.","\"multipoint\", \"multiline\" and \"multipolygon\" are not supported for now. Use collection instead.":"\"multipoint\", \"multiline\" and \"multipolygon\" are not supported for now. Use collection instead.","Error in input.":"Error in input.","A facet must have a name.":"A facet must have a name.","A column must have a name.":"A column must have a name.","A column must have a property.":"A column must have a property.","Error fetching browse markup.":"Error fetching browse markup.","Error fetching facet markup.":"Error fetching facet markup.","Error fetching category markup.":"Error fetching category markup.","Cannot show all. The result set is likely too large.":"Cannot show all. The result set is likely too large.","Loading results\u2026":"Loading results\u2026","Geographic Point":"Geographic Point","Copy":"Copy","Message copied":"Message copied"};
+    return (str in jsTranslations) ? jsTranslations[str] : str;
+};
+    //-->
+</script>
+        <style>
+                        a:link,
+            a:visited {
+                color: #51767C            }
+
+            a:active,
+            a:hover {
+                color: #51767C;
+                opacity: .75;
+            }
+            
+            .banner {
+                /* FASTI start */
+                background: #51767C url(https://www.fastionline.org/files/asset/db9f98c7df76fd4dbbf7d6815d50fd955a4bf075.png) right top no-repeat;
+                /* FASTI end */
+                height: 100px;
+                align-items: center;
+            }
+                    </style>
+    </head>
+
+    <body class="page&#x20;&#x20;site-page-home&#x20;body-truncate-fade">        <a id="skipnav" href="#content">Skip to main content</a>
+        
+        <!-- FASTI start -->
+        <div id="site-bar">
+            
+<div class="fasti-site-selector">
+    <form id="fasti-site-selector" name="fasti-site-selector">
+        <i class="fa fa-sign-out-alt fa-lg"></i>
+        <select id="fasti-site-select" name="fasti-site-select">
+            <option value="">Select site…</option>
+                            <option value="fasti">Fasti</option>
+                            <option value="excavation">Excavation</option>
+                            <option value="conservation">Conservation</option>
+                            <option value="survey">Survey</option>
+                            <option value="folder">FOLD&R</option>
+                    </select>
+    </form>
+</div>
+            
+<div class="multilingual-locale-selector">
+    <form id="multilingual-locale-selector" name="multilingual-locale-selector">
+        <i class="fa fa-language fa-lg"></i>
+        <select id="multilingual-locale-select" name="multilingual-locale-select">
+            <option value="auto">Auto</option>
+                            <option value="en" selected>English</option>
+                            <option value="it">italiano</option>
+                            <option value="es">español</option>
+                            <option value="fr">français</option>
+                            <option value="ar">العربية</option>
+                            <option value="bg">български</option>
+                            <option value="hr">hrvatski</option>
+                            <option value="me">me</option>
+                            <option value="mk">македонски</option>
+                            <option value="ro">română</option>
+                            <option value="ru">русский</option>
+                            <option value="sl">slovenščina</option>
+                            <option value="sq">shqip</option>
+                            <option value="sr">српски</option>
+                            <option value="uk">українська</option>
+                    </select>
+    </form>
+</div>
+        </div>
+        <div>
+            <h2 class="subtitle">Fasti</h2>
+            <div class="banner">&nbsp;</div>
+        </div>
+                <header style="margin-top: -32px; margin-bottom: 0px; border-bottom-width: 0px">
+            <nav style="background: #b5cbcf;">
+            <p>Welcome to the new FastiOnline! We are live beta-testing our new website so a few things are different and some things may not work as we would like. For more information or to report any problems, please see the <a href="/s/fasti/page/announcement">announcement page</a>.</p>            </nav>
+        </header>
+        <!-- FASTI end -->
+
+        <div id="content" role="main">
+            
+
+
+<div class="blocks">
+    <div class="blocks-inner grid-column-layout" style=""><div class="block block-blockGroup grid-column-left-third" style=""><div class="block block-fastiSiteBlock" style="">
+<div class="aspect-square">
+    <a title="Excavation" href="/s/excavation" class="fasti-site-block-content" style="background-image: url(https://www.fastionline.org/files/asset/fd7ace249b421e2a4117ac3547a7f18583590e4c.jpg);">
+        <h1>Excavation</h1>
+    </a>
+</div>
+</div></div><div class="block block-blockGroup grid-column-mid-third" style=""><div class="block block-fastiSiteBlock" style="">
+<div class="aspect-square">
+    <a title="Conservation" href="/s/conservation" class="fasti-site-block-content" style="background-image: url(https://www.fastionline.org/files/asset/2106d618493620d95246d184767166e90228317b.jpg);">
+        <h1>Conservation</h1>
+    </a>
+</div>
+</div></div><div class="block block-blockGroup grid-column-right-third" style=""><div class="block block-fastiSiteBlock" style="">
+<div class="aspect-square">
+    <a title="Survey" href="/s/survey" class="fasti-site-block-content" style="background-image: url(https://www.fastionline.org/files/asset/c8597b712933869eaf9098aa80e6d77e5147bca0.jpg);">
+        <h1>Survey</h1>
+    </a>
+</div>
+</div></div><div class="block block-blockGroup grid-column-left-third" style=""><div class="block block-asset" style="">
+<div class="assets">
+        <div class="asset">
+                    <a href="&#x2F;s&#x2F;folder">
+                <img loading="lazy" src="https&#x3A;&#x2F;&#x2F;www.fastionline.org&#x2F;files&#x2F;asset&#x2F;8605326d9406908826ba7e958779a0d2b6c6608a.png" alt="">                            </a>
+                    </div>
+    </div>
+</div></div><div class="block block-blockGroup grid-column-mid-third" style=""><div class="block block-multilingualKeyword" style=""><p>Fasti Online is a project of the <a href="http://www.aiac.org">International Association of Classical Archaeology (AIAC)</a></p></div></div><div class="block block-blockGroup grid-column-right-third" style=""><div class="block block-asset fasti-logo-block-content" style="">
+<div class="assets">
+        <div class="asset">
+                    <a href="http&#x3A;&#x2F;&#x2F;www.aiac.org" target="_blank" rel="noopener">
+                <img loading="lazy" src="https&#x3A;&#x2F;&#x2F;www.fastionline.org&#x2F;files&#x2F;asset&#x2F;5c2d58044a788955749853ce8ca30bd85dc258e6.png" alt="AIAC">                            </a>
+                    </div>
+        <div class="asset">
+                    <a href="http&#x3A;&#x2F;&#x2F;www.mola.org.uk" target="_blank" rel="noopener">
+                <img loading="lazy" src="https&#x3A;&#x2F;&#x2F;www.fastionline.org&#x2F;files&#x2F;asset&#x2F;9304cb701e95d9ff470df7d4fd8851af6e879caa.png" alt="">                            </a>
+                    </div>
+        <div class="asset">
+                    <a href="http&#x3A;&#x2F;&#x2F;www.ariadne-infrastructure.eu&#x2F;" target="_blank" rel="noopener">
+                <img loading="lazy" src="https&#x3A;&#x2F;&#x2F;www.fastionline.org&#x2F;files&#x2F;asset&#x2F;cf829df43c47aa8087191db61671271571c3d88d.jpg" alt="">                            </a>
+                    </div>
+    </div>
+</div></div></div></div>
+        </div>
+        <footer>
+                        © 2004-2026 <a title="AIAC" href="https://www.aiac.org">AIAC</a>. Licensed as <a title="CC BY-SA" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Developed by <a title="MOLA" href="https://www.mola.org.uk">MOLA</a>. Powered by <a title="Omeka S" href="https://omeka.org/s/">Omeka S</a>                    </footer>
+    </body>
+</html>

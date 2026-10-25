@@ -1,0 +1,32 @@
+## Završni sažetak (roj/objekti_CD)
+
+1. **Objekti C/D: slovni sistem A–D ostao nerazrešen** — potvrđeno da je muzejski (NMN) sistem (Drča 2000, Zbornik NMN 9), da Petrović 1994 koristi brojeve 1–15, da zvanična stranica muzeja i RAI (2438 zapisa) nemaju slova, i da su stibadiumi A/B nešto treće (unutar vile). Ključ ostaju fizički Zbornik NMN 9/10 i monografija 2016 (openAccess PDF).
+2. **Milošević „Urbanism..."** — pun tekst NE (Academia iza Cloudflarea, nije zaobilažen); autor = Gordana Milošević-Jevtić; dom sužen na monografiju 2016 / „Illyricum Romanum" 2020; najbolji javni pandan: „Carska ideologija..." 2013 (open PDF).
+3. **Jeremić 2006 — probijen bibliografski i po URL-u**: Niš i Vizantija IV (Centar za crkvene studije, Niš 2006, 145–158), **tri živa PDF URL-a** (nisandbyzantium.org.rs, ubnt legacy, Scribd); prvi pasus verbatim izvučen preko DDG indeksa — naselje **~40 ha direktno iz ovog rada** (utanačena jedna strana konflikta 40 vs 80 ha).
+4. **Drča 2000 = Slobodan Drča (NMN)** + nova referenca Latković–Drča 1979 (vodič); sadržaj nerasvetljen — Zbornik NMN nije digitalizovan nigde. **Novo:** Janković-Mihaldžić proširila novac Medijane u Naissus 1/2008 (25–73; 75–95) — verovatno „Mediana Numismatic Catalogue" iz Jeremić 2009.
+5. Prikupljeno 13 skupina mera (aula 19,6×12+apsida 5,2; mozaici 5,5×5,5/⌀2,8/⌀0,8/2,4; trem ~450 m²; hodnik 100 m²; konhe 32,5 m; oktogon ~3.150 m²; horreum dolia ~2 m/bazeni 1,40 m; sonde 95–97…), konflikti upisani nerešeni, zamka Zenica poštovana od svih tri agenta.
+6. **Ograničenja (iskreno):** webReader 429/-500/-400 cele sesije, WebFetch/WebSearch/Bash odbijeni, bez poppler-a (aus2015.pdf str. 77–85 neisčitano na disku), Write permisija za radni folder **tripto odbijena** — sadržaj `nalaz.md` je kompletan u poslednjem Write pozivu iznad (vidljiv u transkriptu), a `mera.json` u celosti ispod; stanje osigurano i u memoriju.
+
+**Za prenos na disk:** odobrite Write za `objekti_CD` (pending zahtev) ili mi javite „upiši" — oba fajla se upisuju odmah, bez izmena.
+
+`mera.json` (sadržaj spreman):
+
+```json
+[
+  {"id":"vila-peristil-osnova","opis":"Vila sa peristilom — osnovne dimenzije osnove","mere":{"duzina_m":98.6,"sirina_m":63.0},"izvor":"Jeremić 2006, Niš i Vizantija IV, 145–158, preneto preko sr-wiki lin. 198: https://sr.wikipedia.org/wiki/Медијана ; PDF: https://www.nisandbyzantium.org.rs/doc/zbornik4/PDF-IV/Gordana Jeremic.pdf","poverenje":"srednje"},
+  {"id":"vila-peristil-povrsina","opis":"Vila sa peristilom — ukupna površina osnove (KONFLIKT)","mere":{"povrsina_m2":6800,"povrsina_konflikt_m2":6500},"izvor":"6.800 m²: sr-wiki lin. 200 (Jeremić 2006); ~6.500 m²: FASTI/AUS 2011 (skinuto/tapavicki_2011.txt)","poverenje":"srednje","konflikt":"6.800 vs ~6.500 m² — upisano, nerešeno namerno"},
+  {"id":"aula-vila-peristil-osnova","opis":"Aula vile sa peristilom — osnova sa severnom apsidom, hipokaust","mere":{"duzina_m":19.6,"sirina_m":12.0,"apsida_dubina_m":5.2},"izvor":"Jeremić 2017, Ante portam auream, 251–262 — pun tekst: skinuto/jeremic_meduza_2017.txt","poverenje":"visoko"},
+  {"id":"aula-mozaici","opis":"Mozaici aule (Leda, fluvius/Eurotas, Meduza)","mere":{"mozaik_travnjak_m":[5.5,5.5],"medaljon_precnik_m":2.8,"meduza_precnik_m":0.8,"ornamentalni_trak_m":2.4},"izvor":"Jeremić 2017 — pun tekst: skinuto/jeremic_meduza_2017.txt","poverenje":"visoko"},
+  {"id":"triklinijum-mozaik","opis":"Triklinijum — mozaicki pod (1936, muzej preko njega)","mere":{"povrsina_m2":55},"izvor":"sr-wiki lin. 204: https://sr.wikipedia.org/wiki/Медијана","poverenje":"srednje"},
+  {"id":"trem-peristil-sever","opis":"Severni trem peristila (mozaici Leda, fluvius, Meduza)","mere":{"povrsina_m2":450},"izvor":"sr-wiki lin. 208 (Jeremić 2006)","poverenje":"srednje"},
+  {"id":"hodnik-vila-terme","opis":"Zatvoren hodnik vile ka termama (Z) i nimfeju (I)","mere":{"povrsina_m2":100},"izvor":"sr-wiki lin. 200 (Jeremić 2006); postojanje koridora potvrđuje Jeremić 2017","poverenje":"srednje"},
+  {"id":"vila-sa-konhama","opis":"Vila sa konhama — I–Z osnova, ulaz istočno, trikonhna zapadna prostorija; prvo 1975 (Zotović, AP 17, 75–77)","mere":{"ukupna_duzina_m":32.5},"izvor":"Monografija Constantine's Villa at Mediana 2016, preneto preko sr-wiki lin. 222–226; PDF: http://rai.ai.ac.rs/bitstream/id/4423/bitstream_4423.pdf","poverenje":"srednje"},
+  {"id":"vila-sa-oktogonom","opis":"Vila sa oktogonom, lokalitet Amadžijska njiva","mere":{"povrsina_m2":3150},"izvor":"sr-wiki lin. 217","poverenje":"srednje"},
+  {"id":"horreum-dolia-bazeni","opis":"Horreum (br. 4 na planu Petrovića 1994) — doliji i bazeni, sprat za administraciju","mere":{"dolia_visina_m":2.0,"bazeni_dubina_max_m":1.4},"izvor":"sr-wiki lin. 244–248 (muzejska dokumentacija/Petrović 1994)","poverenje":"srednje"},
+  {"id":"sonde-2011","opis":"Sonde uz severnu fasadu vile 2011; sonda 97 — suvozidna pravougaona struktura","mere":{"sonda_95_m":[7.3,2.0],"sonda_96_m":[3.8,2.0],"sonda_97_m":[6.7,4.0]},"izvor":"Gavrilović 2012, Arheologija u Srbiji, 78–81 — pun tekst: skinuto/tapavicki_2011.txt","poverenje":"visoko"},
+  {"id":"naselje-povrsina","opis":"Kasnoantičko naselje Medijana — površina (KONFLIKT)","mere":{"povrsina_ha":80,"povrsina_konflikt_ha":40},"izvor":"~80 ha: FASTI 2011 + Jeremić 2017 (visoko); ~40 ha: Jeremić 2006, prvi pasus verbatim (visoko)","poverenje":"visoko","konflikt":"40 vs ~80 ha — obe strane sada utvrđene primarnim izvorima; upisano, nerešeno namerno"},
+  {"id":"istrazivanja-2010-2011-obim","opis":"Istraživanja 2010–2011 (devet meseci, NV/SZ/SI deo vile + prostor pred muzejom)","mere":{"planirano_m2":1400,"istrazeno_m2":1230},"izvor":"Vasić, Milošević, Gavrilović, Starinar 64/2014, 423+, apstrakt: https://rai.ai.ac.rs/handle/123456789/210","poverenje":"visoko"}
+]
+```
+
+DONE (objekti_CD) — istraživanje završeno; upis fajlova čeka odobrenje Write permisije, sadržaj osiguran u transkriptu i memoriju.

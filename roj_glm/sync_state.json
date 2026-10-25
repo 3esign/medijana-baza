@@ -1,0 +1,42 @@
+{
+  "glm-medijana-1-objekti-cd": {
+    "sig": "[[[\"ZADATAK.md\",1893,1792961288261.9055],[\"academia_urbanism.html\",5899,1792961765348.9495],[\"fasti_mediana.json\",80,1792962496585.0798],[\"fasti_n.html\",3756,1792962545199.9773],[\"fasti_search.html\",12528,1792962497230.8215],[\"gb1.json\",1306,1792962236899.645],[\"gb2.json\",1306,1792962237469.2427],[\"hathi1.json\",712,1792962342455.98],[\"ia1.json\",5287,1792962341818.1482],[\"oai_2020.xml\",580,1792961897862.3633],[\"oai_all.xml\",513309,1792961904689.7402],[\"oai_full.xml\",7839617,1792961916817.7212],[\"openaire1.json\",588,1792962223099.3687],[\"rai_1184.html\",29705,1792961792638.6228],[\"rai_3503.html\",12257,1792962405092.629],[\"rai_783.html\",28687,1792961893642.8508],[\"rai_api_mediana.json\",11457,1792961800445.2725],[\"rai_search.html\",12785,1792961787565.2341],[\"rai_search2.html\",12739,1792961819501.9392],[\"rai_test.html\",31200,1792961787323.7283],[\"scindeks1.html\",7857,1792962134282.8918],[\"srwiki_medijana.wikitext\",135616,1792962140619.044]],\"\",null]",
+    "at": "2026-10-25T21:25:12.789Z",
+    "files": "MEMORY.md:228|ZADATAK.md:1893|academia_urbanism.html:5899|fasti_mediana.json:80|fasti_n.html:3756|fasti_search.html:12528|gb1.json:1306|gb2.json:1306|hathi1.json:712|ia1.json:5287|medijana-objekti-cd-nalaz-pending.md:2014|mera.json:5498|nalaz.md:19693|oai_2020.xml:580|oai_all.xml:513309|oai_full.xml:7839617|openaire1.json:588|procitaj_log.js:788|rai_1184.html:29705|rai_3503.html:12257|rai_783.html:28687|rai_api_mediana.json:11457|rai_search.html:12785|rai_search2.html:12739|rai_test.html:31200|scindeks1.html:7857|skinuto:0|srwiki_medijana.wikitext:135616",
+    "logSize": 14993346,
+    "hb": "2026-10-25T22:34"
+  },
+  "glm-medijana-2-komparativni": {
+    "sig": "[[[\"ZADATAK.md\",1959,1792961305957.0796],[\"korpus.json\",30380,1792962549022.5054],[\"nalaz.md\",16231,1792962631348.2122]],\"\",16231]",
+    "at": "2026-10-25T21:25:13.000Z",
+    "files": "ZADATAK.md:1959|korpus.json:30380|nalaz.md:16231"
+  },
+  "glm-medijana-3-vodeni": {
+    "sig": "[[[\"ZADATAK.md\",1899,1792961327258.5615],[\"izvrsavanje.log\",472,1792963122166.6902]],\"o auto-compact will keep this session within 200k tokens (the context window it assumes). If the model accepts more, append [1m] to the model name for 1M, or set CLAUDE_CODE_MAX_CONTEXT_TOKENS to its real window; to make it recognized, map it in the modelOverrides setting or update Claude Code; CLAUDE_CODE_DISABLE_UNKNOWN_MODEL_WINDOW_ENFORCEMENT=1 restores the previous wait-for-the-API behavior.\\n\",null]",
+    "at": "2026-10-25T21:25:13.188Z",
+    "logSize": 37904104,
+    "files": "ZADATAK.md:1899|hidraulika.json:34286|nalaz.md:11358|starinar39:0",
+    "hb": "2026-10-25T22:34"
+  },
+  "glm-medijana-4-epigrafika": {
+    "sig": "[[[\"ZADATAK.md\",1673,1792961340680.7021],[\"izvrsavanje.log\",424,1792963076643.3977]],\" model this version of Claude Code recognizes, so auto-compact will keep this session within 200k tokens (the context window it assumes). If the model accepts more, append [1m] to the model name for 1M, or set CLAUDE_CODE_MAX_CONTEXT_TOKENS to its real window; to make it recognized, map it in the modelOverrides setting or update Claude Code; CLAUDE_CODE_DISABLE_UNKNOWN_MODEL_WINDOW_ENFORCEMENT=1 r\",null]",
+    "at": "2026-10-25T21:25:13.394Z",
+    "logSize": 6645374,
+    "files": "ZADATAK.md:1673|nalaz.md:3444|natpisi.json:3474",
+    "hb": "2026-10-25T22:57"
+  },
+  "glm-medijana-5-numizmatika": {
+    "sig": "[[[\"ZADATAK.md\",1798,1792961358518.2742]],\"\",null]",
+    "at": "2026-10-25T21:25:13.590Z",
+    "files": "ZADATAK.md:1798|nalaz.md:11459|novac.json:15785|probe_agent.txt:9",
+    "logSize": 8191665,
+    "hb": "2026-10-25T22:29"
+  },
+  "glm-medijana-6-gis": {
+    "sig": "[[[\"ZADATAK.md\",2080,1792961396317.0227]],\"\",null]",
+    "at": "2026-10-25T21:25:13.759Z",
+    "files": "ZADATAK.md:2080|nalaz.md:28513|prostorni_izvori.json:16002",
+    "logSize": 2573955,
+    "hb": "2026-10-25T22:04"
+  }
+}

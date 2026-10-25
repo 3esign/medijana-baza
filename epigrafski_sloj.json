@@ -1,0 +1,141 @@
+{
+  "svrha": "Epigrafski sloj Medijane — natpisi sa lokaliteta sa statusom dokaza; dvojezicki grcko-latinski program vile",
+  "verzija": "0.17",
+  "datum": "2026-10-26",
+  "autor": "Svemir (za dr Poturak Semira)",
+  "izvor_glavni": {
+    "id": "glm-epigrafika",
+    "rad": "GLM sesija glm-medijana-4-epigrafika (2026-10-25/26); nalaz iz transkripta posle 4 pada procesa",
+    "fajl": "roj_glm/epigrafika/nalaz.md"
+  },
+  "metod_poverenja": {
+    "PROVERENO-LOKALNO": "citirano iz monografije 2011 / Pop-Lazic 2018 pre pada sesije",
+    "PROVERENO-POSTOJANJE": "postojanje potvrdjeno, tekst nije citiran",
+    "PROVERENO-STRUKTURA": "URL obrazac baze testiran uspesno",
+    "NEPROVERENO": "opste znanje bez uvida u izvor"
+  },
+  "natpisi": [
+    {
+      "id": "epi-001",
+      "jezik": "grcki",
+      "tekst_status": "fragment poznat: Roimetalkes diasemotatos",
+      "nosilac": "baza porfirnog Eskulapa inv. 985/R (43 cm)",
+      "kontekst": "vila sa peristilom, iatrijski par",
+      "muzej": "Narodni muzej Nis",
+      "poverenje": "visoko",
+      "izvor": "monografija 2011; Pop-Lazic 2018"
+    },
+    {
+      "id": "epi-002",
+      "jezik": "grcki",
+      "tekst_status": "pun tekst NIJE izvucen",
+      "nosilac": "baza porfirne Higije inv. 986/R (49 cm)",
+      "kontekst": "vila sa peristilom",
+      "muzej": "Narodni muzej Nis",
+      "poverenje": "visoko",
+      "izvor": "monografija 2011; Pop-Lazic 2018",
+      "napomena": "veza sa Filipom/zenom Roimetalkesa po paraleli statua — nedovrseno"
+    },
+    {
+      "id": "epi-003",
+      "jezik": "grcki",
+      "tekst_status": "svestenik Sim[...]",
+      "nosilac": "grupa sa Telesforom",
+      "kontekst": "vila sa peristilom",
+      "poverenje": "srednje"
+    },
+    {
+      "id": "epi-004",
+      "jezik": "nepoznat",
+      "tekst_status": "nije citiran",
+      "nosilac": "oltar 1",
+      "kontekst": "vila/svetiliste",
+      "poverenje": "nisko",
+      "status": "PROVERENO-POSTOJANJE"
+    },
+    {
+      "id": "epi-005",
+      "jezik": "nepoznat",
+      "tekst_status": "nije citiran",
+      "nosilac": "oltar 2",
+      "kontekst": "vila/svetiliste",
+      "poverenje": "nisko",
+      "status": "PROVERENO-POSTOJANJE"
+    },
+    {
+      "id": "epi-006",
+      "jezik": "grcki",
+      "tekst_status": "ZO[HN] (ZOHN)",
+      "nosilac": "zaba (skulptura)",
+      "kontekst": "vodeni kontekst — nimfej/bazen",
+      "poverenje": "srednje-visoko",
+      "znacaj": "votivni zivot — voda = zdravlje/ozdravljenje, veza sa kultom Eskulapa"
+    },
+    {
+      "id": "epi-007",
+      "jezik": "latinski",
+      "tekst_status": "Ampelius, tribunus Batavorum",
+      "nosilac": "natpis iz horreuma",
+      "kontekst": "horreum",
+      "poverenje": "srednje-visoko",
+      "znacaj": "vojna komponenta — cohors Batavorum na carskom domenu"
+    },
+    {
+      "id": "epi-008",
+      "jezik": "latinski",
+      "tekst_status": "ob dedicationem domus",
+      "nosilac": "posveta",
+      "kontekst": "vila — posveta kuce",
+      "poverenje": "srednje"
+    },
+    {
+      "id": "epi-009",
+      "jezik": "nepoznat",
+      "tekst_status": "nije citiran",
+      "nosilac": "fragment",
+      "kontekst": "juzna crkva (kasna faza)",
+      "poverenje": "nisko",
+      "status": "PROVERENO-POSTOJANJE"
+    }
+  ],
+  "korpusne_veze": {
+    "CIL_III": {
+      "status": "NEPROVERENO-brojevi",
+      "napomena": "Naissus u CIL III + supplement; brojevi 8197ff nepotvrdjeni"
+    },
+    "IMS": {
+      "status": "NEPROVERENO",
+      "napomena": "vezivanje preko radova Petra Petrovica; tom/brojevi nepoznati"
+    },
+    "LSA": {
+      "status": "PROVERENO-STRUKTURA",
+      "url_obrazac": "https://laststatues.classics.ox.ac.uk/database/record.php?rec=NNNN",
+      "sidro": "LSA-0275 = Naissus"
+    },
+    "EDCS": {
+      "status": "PROVERENO-STRUKTURA",
+      "url_obrazac": "https://db.edcs.eu/epigr/epi.php?s_sprache=en&p_ort=Mediana"
+    },
+    "EDH": {
+      "status": "PROVERENO-STRUKTURA",
+      "url_obrazac": "https://edh-www.adw.uni-heidelberg.de/data/api/search?find_location=Naissus"
+    }
+  },
+  "otvoreni_zadaci": [
+    "EDCS p_ort=Mediana/Naissus -> tabela konkomitanci CIL/IMS/AE",
+    "LSA opseg rec= za porfirni par (polazno LSA-0275)",
+    "pun grcki tekst epi-001/002 iz pdf/milosevic monografije",
+    "IMS tom za Naissus (WorldCat/SAZU)"
+  ],
+  "sinteza": [
+    "najmanje 8 natpisnih spomenika; grcki (carski/velikaski krug: Roimetalkes diasemotatos, Telesfor) + latinski (vojno-administrativni: Ampelius tribunus Batavorum, ob dedicationem domus)",
+    "Roimetalkes \"diasemotatos\" = tracka kraljevska titula na porfirnoj bazi — ista poruka porekla dinastije kao Dea Dardanica na ulazu (dardansko-tracki identitet)",
+    "ZO[HN] na zabi u vodenom kontekstu — votivni zivot, vezuje se uz iatrijski kult Eskulapa/Higije",
+    "KORPUSNA RUPA: CIL III/IMS/AE brojevi nisu web-verifikovani; EDCS/EDH/LSA obrasci potvrdjeni i spremni za sledeci talas"
+  ],
+  "veze_sa_slojevima": [
+    "epi-001/002 -> skulpturski_program.json: porfirni par Eskulap/Higija",
+    "epi-006 -> vodeni_linijski_sloj.json / hidraulika_sloj.json: vodeni kontekst nimfeja",
+    "epi-007 -> objekti_cd_sloj.json: horreum"
+  ]
+}

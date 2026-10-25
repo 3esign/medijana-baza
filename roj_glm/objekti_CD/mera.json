@@ -1,0 +1,95 @@
+[
+  {
+    "id": "vila-peristil-osnova",
+    "opis": "Vila sa peristilom — osnovne dimenzije osnove",
+    "mere": { "duzina_m": 98.6, "sirina_m": 63.0 },
+    "izvor": "Jeremić 2006, Niš i Vizantija IV, 145–158, preneto preko sr-wiki (lin. 198): https://sr.wikipedia.org/wiki/Медијана ; PDF (nepreuzet ove sesije): http://www.ubnt.ni.ac.rs/images/pdf/nisivizantija/Nis%20i%20Vizantija%20-%2004_2005/10_Jeremic_Gordana.pdf",
+    "poverenje": "srednje"
+  },
+  {
+    "id": "vila-peristil-povrsina",
+    "opis": "Vila sa peristilom — ukupna površina osnove (KONFLIKT)",
+    "mere": { "povrsina_m2": 6800, "povrsina_konflikt_m2": 6500 },
+    "izvor": "6.800 m²: sr-wiki lin. 200 (poziva Jeremić 2006) https://sr.wikipedia.org/wiki/Медијана ; ~6.500 m²: FASTI/AUS 2011 (lokalna kopija skinuto/tapavicki_2011.txt)",
+    "poverenje": "srednje",
+    "konflikt": "6.800 m² (wiki/Jeremić 2006) vs ~6.500 m² (FASTI 2011) — upisano, nerešeno namerno"
+  },
+  {
+    "id": "aula-vila-peristil-osnova",
+    "opis": "Aula vile sa peristilom — osnova sa apsidom na severu, hipokaust",
+    "mere": { "duzina_m": 19.6, "sirina_m": 12.0, "apsida_dubina_m": 5.2 },
+    "izvor": "Jeremić 2017, Representation of Medusa on a Mosaic Floor in Mediana, u: Ante portam auream (ur. M. B. Vujović), 2017 — pun tekst, lokalna kopija skinuto/jeremic_meduza_2017.txt",
+    "poverenje": "visoko"
+  },
+  {
+    "id": "aula-mozaici",
+    "opis": "Mozaici aule vile sa peristilom (Leda, fluvius/Eurotas, Meduza)",
+    "mere": { "mozaik_travnjak_m": [5.5, 5.5], "medaljon_precnik_m": 2.8, "meduza_precnik_m": 0.8, "ornamentalni_trak_m": 2.4 },
+    "izvor": "Jeremić 2017, Ante portam auream — pun tekst, lokalna kopija skinuto/jeremic_meduza_2017.txt",
+    "poverenje": "visoko"
+  },
+  {
+    "id": "triklinijum-mozaik",
+    "opis": "Triklinijum vile — mozaicki pod (pronađen 1936, muzej preko njega)",
+    "mere": { "povrsina_m2": 55 },
+    "izvor": "sr-wiki lin. 204 (poziva muzejsku dokumentaciju / Jeremić 2006): https://sr.wikipedia.org/wiki/Медијана",
+    "poverenje": "srednje"
+  },
+  {
+    "id": "trem-peristil-sever",
+    "opis": "Severni trem peristila — površina (mozaici Leda, fluvius, Meduza)",
+    "mere": { "povrsina_m2": 450 },
+    "izvor": "sr-wiki lin. 208 (poziva Jeremić 2006): https://sr.wikipedia.org/wiki/Медијана",
+    "poverenje": "srednje"
+  },
+  {
+    "id": "hodnik-vila-terme",
+    "opis": "Zatvoren hodnik (koridor) vile ka termama na zapadu i nimfeju na istoku",
+    "mere": { "povrsina_m2": 100 },
+    "izvor": "sr-wiki lin. 200 (poziva Jeremić 2006): https://sr.wikipedia.org/wiki/Медијана ; potvrda postojanja koridora u Jeremić 2017 (lokalna kopija)",
+    "poverenje": "srednje"
+  },
+  {
+    "id": "vila-sa-konhama",
+    "opis": "Vila sa konhama — osnova istok–zapad, ulaz na istoku, trikonhna zapadna prostorija; južna konha mozaik u kasnijoj fazi; prvo istraživanje 1975 (Zotović, Arheološki pregled 17, 75–77)",
+    "mere": { "ukupna_duzina_m": 32.5 },
+    "izvor": "monografija Constantine's Villa at Mediana, Niš 2016 — preneto preko sr-wiki lin. 222–226: https://sr.wikipedia.org/wiki/Медијана ; monografija PDF: http://rai.ai.ac.rs/bitstream/id/4423/bitstream_4423.pdf",
+    "poverenje": "srednje"
+  },
+  {
+    "id": "vila-sa-oktogonom",
+    "opis": "Vila sa oktogonom, lokalitet Amadžijska njiva (jugozapadno od centra kompleksa)",
+    "mere": { "povrsina_m2": 3150 },
+    "izvor": "sr-wiki lin. 217 (poziva izveštaje muzeja): https://sr.wikipedia.org/wiki/Медијана",
+    "poverenje": "srednje"
+  },
+  {
+    "id": "horreum-dolia-bazeni",
+    "opis": "Horreum (istančni magacin, br. 4 na planu Petrovića 1994) — doliji i bazeni sa spratnim traktom za carsku administraciju",
+    "mere": { "dolia_visina_m": 2.0, "bazeni_dubina_max_m": 1.4 },
+    "izvor": "sr-wiki lin. 244–248 (poziva muzejsku dokumentaciju / Petrović 1994): https://sr.wikipedia.org/wiki/Медијана",
+    "poverenje": "srednje"
+  },
+  {
+    "id": "sonde-2011",
+    "opis": "Kontrolne sonde uz severnu fasadu vile 2011: 95 i 96 uz NE ćošak, 97 — pravougaona suvozidna struktura uz severnu fasadu",
+    "mere": { "sonda_95_m": [7.3, 2.0], "sonda_96_m": [3.8, 2.0], "sonda_97_m": [6.7, 4.0] },
+    "izvor": "Gavrilović N., Arheološka istraživanja na Medijani u 2011. godini, Arheologija u Srbiji, Beograd 2012, 78–81 — pun tekst preko FASTI 2011, lokalna kopija skinuto/tapavicki_2011.txt",
+    "poverenje": "visoko"
+  },
+  {
+    "id": "naselje-povrsina",
+    "opis": "Kasnoantičko naselje Medijana — ukupna površina (KONFLIKT)",
+    "mere": { "povrsina_ha": 80, "povrsina_konflikt_ha": 40 },
+    "izvor": "~80 ha, >20 objekata + geomagnetske strukture: Jeremić 2017 (lokalna kopija) i FASTI 2011; ~40 ha: sr-wiki lin. 198 (poziva Jeremić 2006): https://sr.wikipedia.org/wiki/Медијана",
+    "poverenje": "srednje",
+    "konflikt": "~80 ha (Jeremić 2017, FASTI) vs ~40 ha (wiki/Jeremić 2006) — upisano, nerešeno namerno"
+  },
+  {
+    "id": "istrazivanja-2010-2011-obim",
+    "opis": "Obim istraživanja 2010–2011 (devet meseci, NV/SZ/SI deo vile + prostor pred muzejom)",
+    "mere": { "planirano_m2": 1400, "istrazeno_m2": 1230 },
+    "izvor": "Vasić, Milošević, Gavrilović, Excavations of Mediana in 2010 and 2011, Starinar 64/2014, 423+, apstrakt: https://rai.ai.ac.rs/handle/123456789/210 (PDF http://rai.ai.ac.rs/bitstream/id/92/207.pdf)",
+    "poverenje": "visoko"
+  }
+]

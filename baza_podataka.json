@@ -1,7 +1,7 @@
 {
   "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
-  "verzija": "0.16",
-  "datum": "2026-10-25",
+  "verzija": "0.17",
+  "datum": "2026-10-26",
   "autor": "Svemir / dr Poturak Semir",
   "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
   "izvori": [
@@ -152,6 +152,13 @@
       "tip": "katalog (Naissus 1/2008, 25-73 i 75-95, ISSN 1820-9025; COBISS.SR-ID 157322252, 157323532)",
       "pristup": "2026-10-25",
       "napomena": "D. Janković-Mihaldžić, Pojedinačni nalazi rimskog novca na Mediani + Skupni nalaz — verovatno \"Mediana Numismatic Catalogue\"; nedigitalizovano; ključ za zatvaranje Vicennalia/Tricennalia i datovanje po objektima"
+    },
+    {
+      "id": "glm-epigrafika",
+      "rad": "GLM roj: epigrafika Medijane (nalaz iz transkripta)",
+      "put": "roj_glm/epigrafika/nalaz.md",
+      "tip": "primarni-pregled",
+      "datum": "2026-10-26"
     }
   ],
   "osnova": {
@@ -932,5 +939,8 @@
     "Nabaviti fizički Zbornik NMN 9/10 + Naissus 1/2008 (Janković-Mihaldžić katalog) — jedini put do sadržaja objekta B i zatvaranja Vicennalia/Tricennalia",
     "GIS: dem-uzorkovanje GLO-30 vs SRTM vs AW3D30 za kote vode (vila, castellum, 3-4 tačke ka Nišavi) — 0 piksela urađeno; redosled u gis_izvori_sloj.json",
     "Identifikovati časopis Gavrilović-Vitas 2019 (sv. 35, 65-83, terme)"
+  ],
+  "napredak_v017": [
+    "v0.17: epigrafski sloj — 9 natpisa sa statusima dokaza; korpusni brojevi (CIL III/IMS/AE) ostaju OTVORENA RUPA sa potvrdjenim EDCS/EDH/LSA obrascima za sledeci talas"
   ]
 }

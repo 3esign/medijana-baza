@@ -379,6 +379,18 @@ if (vod) {
   if (!vod.hidraulika_v016?.pad_linije) greske.push('vodeni sloj: bez hidraulickog rezimea v0.16 (pad linije 8,87 m)');
 }
 
+// v0.17: epigrafski sloj (epigrafski_sloj.json)
+{
+  const ep = ucitaj('epigrafski_sloj.json');
+  if (ep.verzija !== baza?.verzija) greske.push(`epigrafski sloj verzija ${ep.verzija} != ${baza?.verzija}`);
+  if (!Array.isArray(ep.natpisi) || ep.natpisi.length < 8) greske.push(`epigrafski sloj: ocekivano >=8 natpisa, ima ${Array.isArray(ep.natpisi) ? ep.natpisi.length : 0}`);
+  const epi = new Set((ep.natpisi || []).map(n => n.id));
+  for (const need of ['epi-001', 'epi-006', 'epi-007']) if (!epi.has(need)) greske.push('epigrafski sloj: nedostaje ' + need);
+  for (const n of (ep.natpisi || [])) if (!n.status_dokaza && !n.poverenje) greske.push('epigrafski sloj: natpis bez poverenja/statusa: ' + (n.id || '?'));
+  if (!ep.korpusne_veze || !ep.korpusne_veze.EDCS) greske.push('epigrafski sloj: bez korpusnih veza (EDCS obrazac)');
+  console.log(`epigrafski sloj: ${(ep.natpisi || []).length} natpisa`);
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

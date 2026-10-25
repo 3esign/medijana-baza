@@ -1,7 +1,7 @@
 {
   "svrha": "Hidraulicki linijski model vodenog sistema Medijane za 3D: izvor -> kaptaza -> kanal C/D -> castellum aquae (bazeni A+B, ustave) -> kanal E -> vila (nimfej, terme, fontane). Niz cvorova sa kotama + racunica protoka. Dopuna vodeni_linijski_sloj.json v0.15 — ne menja ga.",
-  "verzija": "0.16",
-  "datum": "2026-10-25",
+  "verzija": "0.17",
+  "datum": "2026-10-26",
   "autor": "Svemir / dr Poturak Semir; očitavanje i računica: GLM roj (Claude Agent SDK, model glm-5.3-flash)",
   "primarni_izvor": {
     "opis": "Miroslav Jeremic, Castellum aquae anticke Medijane, Starinar XXXIX (1988), Arheoloski institut Beograd, str. 59-84 (sr) + francuski rezime, pristiglo 10.02.1989, UDK 904(497.11)652:711.5.032(497.11)",
