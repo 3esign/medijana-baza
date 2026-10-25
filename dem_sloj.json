@@ -1,0 +1,109 @@
+{
+  "sloj": "dem_glo30",
+  "verzija": "0.18",
+  "izvor": "Copernicus GLO-30 (DSM, 30 m GSD), AWS opendata copernicus-dem-30m",
+  "licence": "Copernicus/ESA besplatna javna upotreba",
+  "tiles": [
+    "Copernicus_DSM_COG_10_N43_00_E021_00_DEM.tif (44 MB)",
+    "Copernicus_DSM_COG_10_N43_00_E022_00_DEM.tif (44 MB)"
+  ],
+  "napomena": "DSM ukljucuje visok rast i objekte; kote su gornja granica terena. [PROVERENO rasterio ocitavanje 2026-10-26]",
+  "kote_tacaka": {
+    "centar_baze": 198.2,
+    "vila_peristil": 200.6,
+    "severni_deo": 198.1,
+    "jug": 197.7,
+    "niska_banja_centar": 222.0
+  },
+  "profil_akvedukt_medjana_niska_banja": {
+    "duzina_km": 4.55,
+    "kote_krajnje": {
+      "medjana_vila": 200.6,
+      "niska_banja": 222.0
+    },
+    "uzvisina_na_trasi_max": 203.4,
+    "zakljucak": "Gravitacioni dovod izvodiv: izvor ~222 m > medjugrebenski prag ~203 m > vila ~198 m; potreban pad kanala ~0.4% preko praga. Nezavisno potvrdjuje Jeremica 1988 (izvoriste u pravcu Niske Banje), suprotno starijoj hipotezi o ogranku vodovoda Naissusa.",
+    "tacke": [
+      {
+        "km": 0.0,
+        "kota": 197.8
+      },
+      {
+        "km": 0.25,
+        "kota": 198.7
+      },
+      {
+        "km": 0.51,
+        "kota": 201.5
+      },
+      {
+        "km": 0.76,
+        "kota": 202.4
+      },
+      {
+        "km": 1.01,
+        "kota": 202.2
+      },
+      {
+        "km": 1.26,
+        "kota": 202.8
+      },
+      {
+        "km": 1.52,
+        "kota": 202.9
+      },
+      {
+        "km": 1.77,
+        "kota": 202.3
+      },
+      {
+        "km": 2.02,
+        "kota": 201.9
+      },
+      {
+        "km": 2.27,
+        "kota": 203.4
+      },
+      {
+        "km": 2.53,
+        "kota": 199.5
+      },
+      {
+        "km": 2.78,
+        "kota": 203.1
+      },
+      {
+        "km": 3.03,
+        "kota": 203.8
+      },
+      {
+        "km": 3.29,
+        "kota": 212.6
+      },
+      {
+        "km": 3.54,
+        "kota": 218.0
+      },
+      {
+        "km": 3.79,
+        "kota": 219.2
+      },
+      {
+        "km": 4.04,
+        "kota": 220.5
+      },
+      {
+        "km": 4.3,
+        "kota": 221.8
+      },
+      {
+        "km": 4.55,
+        "kota": 222.0
+      }
+    ]
+  },
+  "otvorena_pitanja": [
+    "tacna izvorista (Rautnik/ostale kaptaZe) nisu tackasto locirana; GSD 30 m ne razlaze prag kanala",
+    "nimfej kota ~195-197 po Jeremicu 1988 vs DSM ~198 (DSM cita izgradjeno stanje posle premestanja)"
+  ]
+}

@@ -235,3 +235,9 @@ Integracija pet istraživačkih grana roja (vodeni_sistem, numizmatika, objekti_
 **Validator prosiren (v0.16):** hidraulika (verzija, ≥25 čvorova, jedinstveni id, izvor + poverenje, kote u 194-212, ≥6 konflikata, ograničenja, računica), numizmatika (≥20 unosa, id/izvor/poverenje/značaj, ≥3 konflikta), objekti_cd (status sistema, ≥12 mera, ≥3 konflikta, zamka Zenica obavezna), gis izvori (≥25 izvora, status_provere obavezno, kandidat ne sme nositi visoko poverenje), komparativni (≥12 lokaliteta, tipologija aule, visinska sidra), vodeni sloj (novi čvorovi + premeštanje + hidraulički rezime). **0 grešaka / 0 upozorenja.**
 
 **Iskreno stanje / otvoreno:** tačna kaptaza i trasa akvadukta (nikad iskopana — 3D isprekidano); gde je danas premešteni kastelum (neidentifikovano); uvodne strane Jeremića 59-61 nisu renderovane; Vicennalia/Tricennalia čeka katalog 2008; objekat B čeka fizički Zbornik NMN 9; puni PDF Jeremić 2006 skinuti ručno (webReader pada); fasti_mediana.json = dokumentovan API-kvar, ne podatak; dem-uzorkovanje 0 piksela; epigrafika roja još radi — njen sloj NIJE u ovom talasu.
+
+## v0.18 — GLO-30 DEM sloj (2026-10-26)
+- **dem_sloj.json**: Copernicus GLO-30 (AWS, 2 lista N43E021+E022, 88 MB, javna licenca), kote: vila-peristil 200,6 m, centar 198,2, sever 198,1, jug 197,7, Niška Banja 222,0.
+- **Profil akvaduktske trase (4,55 km)**: međugrebenski prag ~203,4 m — gravitacioni dovod iz Niške Banje izvodiv (pad ~0,4%); nezavisna potvrda Jeremića 1988 protiv hipoteze o ogranku naissuskog vodovoda.
+- Jeremić 2006 (*Mozaici Medijane*, Niš i Vizantija 4) i dalje iza zatvorenih vrata (nisandbyzantium, Scribd); umesto njega skinut [Jeremić 2017, Meduza (PDF)](https://www.joycerain.com/uploads/2/3/2/0/23207256/05_ante_portam_auream_2017_representation_of_medusa_on_a_mosaic_floor.pdf).
+- EDCS `p_ort=Mediana` — hostovi nedostupni (DNS odbijaju oba; Wayback 429); ostaje otvoreno za sledeći talas.

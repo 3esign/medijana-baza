@@ -391,6 +391,19 @@ if (vod) {
   console.log(`epigrafski sloj: ${(ep.natpisi || []).length} natpisa`);
 }
 
+// v0.18: DEM sloj (dem_sloj.json)
+{
+  const dm = ucitaj('dem_sloj.json');
+  if (dm.verzija !== baza?.verzija) greske.push(`dem sloj verzija ${dm.verzija} != ${baza?.verzija}`);
+  const kote = dm.kote_tacaka || {};
+  for (const need of ['vila_peristil', 'niska_banja_centar']) if (!(need in kote)) greske.push('dem sloj: nedostaje kota ' + need);
+  const prof = dm.profil_akvedukt_medjana_niska_banja || {};
+  if (!prof.tacke || prof.tacke.length < 10) greske.push('dem sloj: profil akvadukta bez tacaka');
+  if (prof.kote_krajnje && prof.kote_krajnje.niska_banja <= prof.kote_krajnje.medjana_vila) greske.push('dem sloj: izvoriste nize od vile — gravitacioni dovod nemoguc');
+  if (typeof prof.uzvisina_na_trasi_max !== 'number') greske.push('dem sloj: bez praga na trasi');
+  console.log(`dem sloj: ${Object.keys(kote).length} kotnih tacaka, prag trase ${prof.uzvisina_na_trasi_max} m`);
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

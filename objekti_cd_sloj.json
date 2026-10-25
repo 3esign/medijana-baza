@@ -1,6 +1,6 @@
 {
   "svrha": "Objekti van vile (muzejska slova A-D) i skup mera za 3D: stanje saznanja o slovnom sistemu, 13 skupina mera sa izvorima, konflikti i status zatvorenih radova",
-  "verzija": "0.17",
+  "verzija": "0.18",
   "datum": "2026-10-26",
   "autor": "Svemir / dr Poturak Semir; istraživanje: GLM roj (objekti_CD + tri pozadinska agenta: Milošević-Urbanism, Jeremić-2006, Drča-2000)",
   "izvor_glavni": "roj_glm/objekti_CD/nalaz.md (RAI harvest 2438 zapisa, DuckDuckGo indeksi, lokalni izvodi) + mera.json",
