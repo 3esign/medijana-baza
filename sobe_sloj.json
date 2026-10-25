@@ -1,0 +1,712 @@
+{
+  "svrha": "Soba-po-soba sloj vile sa peristilom: svaka prostorija sa svojim sondama, zidovima, kotama i nalazima — jedinica 3D modela. Nalazi (novac, skulptura, fresko, cevi) vezani su na konkretne prostorije preko numeracije iz Sl. 1 i sekcija 3-5 rada Starinar 64/2014.",
+  "verzija": "0.13",
+  "datum": "2026-10-25",
+  "autor": "Svemir (za dr Poturak Semira)",
+  "izvori": [
+    {
+      "id": "iskopavanja-2010-2011",
+      "rad": "M. Vasic, G. Milosevic, N. Gavrilovic, Iskopavanja Medijane u 2010. i 2011. godini, Starinar 64/2014, 231-263",
+      "tekst": "pdf/milosevic_iskopi.txt",
+      "napomena": "sekcije 3 (severozapadne prostorije), 4 (severoistocne) i 5 (jugozapadne/jugoistocne, trem, ulaz, portik) + tabele novca 1a/2a/8"
+    },
+    {
+      "id": "crtezi-starinar-2014",
+      "rad": "Sl. 1 - osnova vile sa obelezenim sondama (renderovano u crtezi/)",
+      "tekst": "crtezi_sloj.json"
+    }
+  ],
+  "sistem_numeracije": {
+    "opis": "Rad Starinara 64/2014 sam koristi w-/e- numeraciju prostorija (mala slova u tekstu, velika na Sl. 1); jugozapadne prostorije u sekciji 5.1 eksplicitno imaju prefiks (w-21, w-9, w-10, w-11, w-12), jugoistocne dele prostoriju 12 na zapadni (w-12) i istocni deo (e-12).",
+    "zapadni_trakt": "W-1 .. W-25",
+    "istocni_trakt": "E-1 .. E-24 (+ E-16a, E-24a)",
+    "prostorije_sa_eksplicitnim_id_u_tekstu": [
+      "w-1",
+      "w-9",
+      "w-10",
+      "w-11",
+      "w-12",
+      "w-21",
+      "w-22",
+      "w-24",
+      "w-24a",
+      "w-25",
+      "e-12",
+      "e-22",
+      "e-23",
+      "e-24"
+    ],
+    "poverenje": "visoko"
+  },
+  "veza_sonda_prostorija": [
+    {
+      "sonda": 45,
+      "prostorija": [
+        "w-24",
+        "w-24a"
+      ],
+      "napomena": "Tabela 4: 'Sonda 45, p. 24 i 24a'",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 46,
+      "prostorija": [
+        "w-24"
+      ],
+      "napomena": "ulaz u stibadium B; Sl. 8 = sonda 46 (w-24)",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 42,
+      "prostorija": [
+        "aula-triklinijum"
+      ],
+      "napomena": "prefurnijum ispred lozista hipokausta svecane dvorane (z-38/39); aula nema W/E id",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 75,
+      "prostorija": [
+        "w-9"
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 76,
+      "prostorija": [
+        "w-10"
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 77,
+      "prostorija": [
+        "w-11"
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 78,
+      "prostorija": [
+        "w-21"
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 79,
+      "prostorija": [
+        "w-12"
+      ],
+      "napomena": "zapadni deo w-12",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 107,
+      "prostorija": [
+        "w-12"
+      ],
+      "napomena": "srednji deo prostorije 12",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 80,
+      "prostorija": [
+        "e-12"
+      ],
+      "napomena": "istocni deo prostorije 12 = e-12; tu su kada, zid 59 i bunar 196.05",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 70,
+      "prostorija": [
+        "e-24"
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 101,
+      "prostorija": [
+        "ulazni-deo-trema"
+      ],
+      "napomena": "ulaz u vilu, zid z-50a",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 81,
+      "prostorija": [
+        "trem-juzni"
+      ],
+      "napomena": "jugozapadna polovina portika",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": 105,
+      "prostorija": [
+        "portik-juzni-istocni-deo"
+      ],
+      "napomena": "bunara jama 5",
+      "poverenje": "visoko"
+    }
+  ],
+  "prostorije": [
+    {
+      "id": "w-1",
+      "trakt": "zapadni",
+      "sonde": [
+        45,
+        46
+      ],
+      "zidovi": [
+        "z-29",
+        "z-32",
+        "z-41"
+      ],
+      "pod": "malterna podnica",
+      "kote": {
+        "rusevinski_nivo_jug": 198.99,
+        "rusevinski_nivo_sever": 199.08
+      },
+      "nalazi": [
+        {
+          "tip": "skulptura",
+          "opis": "glava mermerne skulpture Venere (C-4), polozena na desni obraz, licem ka severu",
+          "kota": 199.12,
+          "pozicija": "0,5 m istocno od zida z-41, 3,50 m severno od zida z-29",
+          "izvor": "iskopavanja-2010-2011, sekcija 3.1.3"
+        },
+        {
+          "tip": "metal",
+          "opis": "veoma korodirani gvozdeni vrh koplja (C-2)",
+          "kota": 199.14,
+          "pozicija": "pored zida z-32, 0,60 m juzno od z-32, 1,40 m istocno od z-41",
+          "izvor": "iskopavanja-2010-2011, sekcija 3.1.3"
+        },
+        {
+          "tip": "arhitektura",
+          "opis": "fragment baze stuba (AR-1)",
+          "kota": 199.33,
+          "pozicija": "uz lice zida z-41, 0,70 m severno od z-29",
+          "izvor": "iskopavanja-2010-2011, sekcija 3.1.3"
+        },
+        {
+          "tip": "stratigrafija",
+          "opis": "proslojak zazarene zemlje debljine 0,05 m preko poda — ostatak meduspratne konstrukcije stradale u pozaru; DOKAZ SPRATNOSTI nad w-1",
+          "izvor": "iskopavanja-2010-2011, sekcija 3.1.2"
+        }
+      ],
+      "stub": "vila-peristil",
+      "implikacija_3d": "jedina prostorija sa dokazom spratnosti; skulptura i koplje vezuju dekor i dogadjaj (pozar?) na konkretan prostor",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-9",
+      "trakt": "zapadni (jugozapadni sektor)",
+      "sonde": [
+        75
+      ],
+      "pod": "nabijena zemlja (gornji nivo sloja D) — bez podova od opeka ili maltera",
+      "stanje_1972": "intaktna (nije ranije istrazivana)",
+      "nalazi": [
+        {
+          "tip": "novac",
+          "period": "335-336",
+          "sloj": "B",
+          "kota": 198.75,
+          "izvor": "iskopavanja-2010-2011, tabela novca jugozapadni sektor 2010"
+        },
+        {
+          "tip": "novac",
+          "period": "271-275",
+          "sloj": "C",
+          "kota": 198.49,
+          "izvor": "iskopavanja-2010-2011, tabela novca jugozapadni sektor 2010"
+        }
+      ],
+      "implikacija_3d": "novac 271-275 u sloju C = aktivnost pre izgradnje vile na ovom mestu; intaktna sonda = cista stratigrafija za 3D vertikalu",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-10",
+      "trakt": "zapadni (jugozapadni sektor)",
+      "sonde": [
+        76
+      ],
+      "pod": "nabijena zemlja",
+      "stanje_1972": "delom intaktna",
+      "nalazi": [
+        {
+          "tip": "novac",
+          "period": "355-361",
+          "sloj": "B",
+          "kota": 198.52,
+          "izvor": "iskopavanja-2010-2011, tabela novca jugozapadni sektor 2010"
+        },
+        {
+          "tip": "novac",
+          "period": "355-361",
+          "sloj": "B",
+          "kota": 198.53,
+          "izvor": "iskopavanja-2010-2011, tabela novca jugozapadni sektor 2010"
+        },
+        {
+          "tip": "novac",
+          "period": "355-361",
+          "sloj": "B",
+          "kota": 198.54,
+          "izvor": "iskopavanja-2010-2011, tabela novca jugozapadni sektor 2010"
+        },
+        {
+          "tip": "novac",
+          "period": "355-361",
+          "sloj": "B",
+          "kota": 198.54,
+          "izvor": "iskopavanja-2010-2011, tabela novca jugozapadni sektor 2010"
+        }
+      ],
+      "implikacija_3d": "4 novca 355-361 u jednom sloju — koncentracija aktivnosti u w-10 neposredno pre rusenja",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-11",
+      "trakt": "zapadni (jugozapadni sektor)",
+      "sonde": [
+        77
+      ],
+      "pod": "nabijena zemlja",
+      "stanje_1972": "reviziona iskopavanja (nije dokopano 1972)",
+      "nalazi": [],
+      "napomena": "sonda 77 istrazivana, ali u izvucenim tabelama novca nema nalaza za ovu prostoriju — upisano kao prazno, ne izmisljeno",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-12",
+      "trakt": "zapadni (jugozapadni sektor)",
+      "sonde": [
+        79,
+        107
+      ],
+      "pod": "nabijena zemlja",
+      "stanje_1972": "reviziona iskopavanja",
+      "delovi": {
+        "zapadni": "sonda 79",
+        "srednji": "sonda 107",
+        "istocni": "e-12 (sonda 80) — istocni deo iste prostorije nosi posebnu oznaku e-12"
+      },
+      "nalazi": [
+        {
+          "tip": "infrastruktura",
+          "opis": "olovna vodovodna cev na koti 198.49 uz jugoistocni ugao, prolazi i kroz sondi 80; postavljena kroz osnovu zida z-59 za vreme gradnje (osnova zida 198.40)",
+          "kota": 198.49,
+          "izvor": "iskopavanja-2010-2011, sekcija 5.1.1 i 5.2"
+        }
+      ],
+      "veza_vodeni_sloj": "vodeni_linijski_sloj.json (cev-kroz-zid-59)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "e-12",
+      "trakt": "istocni deo prostorije 12 (jugoistocni sektor)",
+      "sonde": [
+        80
+      ],
+      "pod": "nabijena zemlja",
+      "nalazi": [
+        {
+          "tip": "arhitektura",
+          "opis": "malo postrojenje 'kada' (za kupanje?), dimenzije 1,6 x 1,5 m, izmedju zidova z-17, z-19 i z-59; oplate od krecnog maltera povezana sa sva tri zida; srednji i jugozapadni deo unisten ukopavanjem bunara",
+          "izvor": "iskopavanja-2010-2011, sekcija 5.2"
+        },
+        {
+          "tip": "bunara",
+          "opis": "bunar presecan 'kadu': gornja ivica 198.2, dno 196.05 (u zdravici), dubina ~2,15 m, gornji precnik 1,35 m; na dnu cetiri nagorele daske u kvadratnoj konstrukciji; kasnosrednjovekovna zeleno glazirana keramika u gornjim slojevima",
+          "kote": {
+            "vrh": 198.2,
+            "dno": 196.05
+          },
+          "izvor": "iskopavanja-2010-2011, sekcija 5.2"
+        }
+      ],
+      "hronologija": "kada pripada medijanskom horizontu 3 (posle 380) — sagradjena na garezi koja lezi na sloju D",
+      "veza_vodeni_sloj": "vodeni_linijski_sloj.json (kada-e12, bunar-e12)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-21",
+      "trakt": "zapadni (jugozapadni sektor)",
+      "sonde": [
+        78
+      ],
+      "pod": "nabijena zemlja",
+      "stanje_1972": "intaktna",
+      "nalazi": [
+        {
+          "tip": "novac",
+          "period": "364-375",
+          "sloj": "sokl",
+          "kota": 198.59,
+          "izvor": "iskopavanja-2010-2011, tabela novca jugozapadni sektor 2010"
+        }
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-22",
+      "trakt": "zapadni (severozapadne prostorije)",
+      "sonde": [
+        45,
+        46
+      ],
+      "nalazi": [],
+      "napomena": "sekcija 3.2 opisuje stratigrafiju (glinoviti sloj D sa proslojkom zazarene zemlje), izvucene tabele ne vezuju novac za w-22 pojedinacno — upisano kao prazno",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-24",
+      "trakt": "zapadni (severozapadne prostorije)",
+      "sonde": [
+        46
+      ],
+      "nalazi": [
+        {
+          "tip": "novac",
+          "period": "382-389",
+          "sloj": "-",
+          "kota": 198.85,
+          "opis": "najmladji datirani novac u bazama sondi 45/46 — posle rusenja vile 378",
+          "izvor": "iskopavanja-2010-2011, tabela novca (Sonda 46 - ulaz u stibadijum B)"
+        }
+      ],
+      "crtez": "Sl. 8 = istocni profil sonde 46 (w-24); najvisa kota crteza 200.64 (recentni put)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-24a",
+      "trakt": "zapadni (severozapadne prostorije)",
+      "sonde": [
+        45
+      ],
+      "nalazi": [
+        {
+          "tip": "novac",
+          "period": "364-367",
+          "sloj": "-",
+          "kota": 198.96,
+          "izvor": "iskopavanja-2010-2011, tabela novca (Sonda 45 - prostorija 24a)"
+        }
+      ],
+      "stratigrafija": "Tabela 4: humus+A 200.46; sloj B 200.13-199.06; sloj C 199.63-198.86; zazarena zemlja 198.84",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-25",
+      "trakt": "zapadni (severozapadne prostorije)",
+      "sonde": [
+        45,
+        46
+      ],
+      "nalazi": [],
+      "napomena": "samo deo prostorije ispod kontrolnog profila istraživan — svesno neistrazena, granica rekonstrukcije",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "e-22",
+      "trakt": "istocni (severoistocne prostorije)",
+      "sonde": [],
+      "kontrolne_sonde": [
+        1,
+        2
+      ],
+      "nalazi": [
+        {
+          "tip": "arhitektura",
+          "opis": "malterni pod na 198.94, ispod njega supstrukcija kamena i opeke na starijem podu od opeka; stariji pod lezi na dva paralelna omalterisana zida pravca S-J sa stubicima izmedju; na ulazu (jug) stubici hipokausta",
+          "kota": 198.94,
+          "izvor": "iskopavanja-2010-2011, sekcija 4.1"
+        },
+        {
+          "tip": "stratigrafija",
+          "opis": "proslojak podnice (?) precnika ~2 m na koti 198.60 u sredini kontrolne sonde 1; ispod hipokausta podnica na 198.29 — najniza kota poda u severoistocnim prostorijama",
+          "kota": 198.29,
+          "izvor": "iskopavanja-2010-2011, sekcija 4.1"
+        },
+        {
+          "tip": "arhitektura",
+          "opis": "kontrolna sonda 2: dovratnik sacuvan kao deo poplocanja od malterske supstrukcije uz jug zida z-3; poplocanje jug 198.77, kamena i osnova zapad 198.77/198.70/198.78, podnica istok 198.75",
+          "kote": [
+            198.77,
+            198.7,
+            198.78,
+            198.75
+          ],
+          "izvor": "iskopavanja-2010-2011, sekcija 4.2"
+        }
+      ],
+      "implikacija_3d": "hipokaust potvrdjen na ulazu u e-22 — zidno i podno grejanje u severnom traktu",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "e-23",
+      "trakt": "istocni (severoistocne prostorije)",
+      "sonde": [
+        71
+      ],
+      "kontrolne_sonde": [
+        1,
+        2
+      ],
+      "nalazi": [
+        {
+          "tip": "arhitektura",
+          "opis": "kontrolna sonda 1 (severozapadni deo): opeke ispod sloja rusevina na 198.51; hipokaust ocuvan na razlicitim nivoima — opeke pored zida 198.52, velika opeka u juznom profilu 198.74, opeka u istocnom delu 198.33; izmedju stubica nabijena tamnocrvena zemlja sa malterom",
+          "kote": [
+            198.51,
+            198.52,
+            198.74,
+            198.33
+          ],
+          "izvor": "iskopavanja-2010-2011, sekcija 4.4"
+        },
+        {
+          "tip": "arhitektura",
+          "opis": "kontrolna sonda 2: DVOSTRUKE PODNICE — gornja malterna 198.95 preko nize od opeka 198.82, medju njima sut supstrukcije; ispod starijeg poda zdravica. Hipokaust negiran pa novi pod",
+          "kote": {
+            "pod_gornji": 198.95,
+            "pod_stariji": 198.82
+          },
+          "izvor": "iskopavanja-2010-2011, sekcija 4.5"
+        },
+        {
+          "tip": "arhitektura",
+          "opis": "sonda 71: konstrukcija prefurnijuma (Sl. 10) — grejanje vatio se iz jugoistoka",
+          "izvor": "iskopavanja-2010-2011, potpis Sl. 10"
+        }
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "id": "e-24",
+      "trakt": "istocni (severoistocne prostorije)",
+      "sonde": [
+        70
+      ],
+      "nalazi": [
+        {
+          "tip": "stratigrafija",
+          "opis": "sut sa krupnim fragmentima kamena, opeke, maltera i recentnim predmetima kroz celu sondu — ostaci gradnje muzejske zgrade 1936; podnica od opeka, ispod nje podnica zute boje ~198.9",
+          "kota": 198.9,
+          "izvor": "iskopavanja-2010-2011, sekcija 4.6"
+        },
+        {
+          "tip": "granica",
+          "opis": "sonda 3,07-7,70 m; uglovi 199.5/199.5/199.81/199.8 — muzej 1936 unistio gornje slojeve, granica rekonstrukcije",
+          "izvor": "iskopavanja-2010-2011, sekcija 4.6"
+        }
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "id": "prostorija-23-jug",
+      "trakt": "istocni (severoistocne prostorije, jug)",
+      "sonde": [],
+      "napomena": "rad je naziva 'prostorija 23' bez prefiksa — najverovatnije juzni deo e-23, veza oznacena kao srednje poverenje",
+      "nalazi": [
+        {
+          "tip": "arhitektura",
+          "opis": "originalni deo zida Z7 na 198.67; supstrukcija poda od krečnog maltera sa kamenom i lomljenom opekom (198.52-198.63); opeka in situ na 198.70 — ostatak originalnog poda",
+          "kote": [
+            198.67,
+            198.63,
+            198.52,
+            198.7
+          ],
+          "izvor": "iskopavanja-2010-2011, sekcija 4.3"
+        }
+      ],
+      "poverenje": "srednje"
+    },
+    {
+      "id": "aula-triklinijum",
+      "trakt": "centralni (bez W/E id; zidovi z-38/z-39)",
+      "sonde": [
+        42
+      ],
+      "nalazi": [
+        {
+          "tip": "arhitektura",
+          "opis": "hipokaust svecane dvorane/triklinijuma; prefurnijum ispred lozista: podloga 198.54, dno ka otvorima hipokausta 198.36; zidovi prefurnijuma I i II sruseni i iznivelisani na ~198.6 posle gubitka funkcije; ostaci zatrpani zemljom",
+          "kote": {
+            "podloga_prefurnijuma": 198.54,
+            "dno_ka_hipokaustu": 198.36,
+            "nivelacija_zidova": 198.6
+          },
+          "izvor": "iskopavanja-2010-2011, sekcije 1.2 i 2.1"
+        }
+      ],
+      "stub": "vila-peristil",
+      "veza_sonde": "sonde_sloj.json (sonda 42)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "trem-juzni",
+      "trakt": "jug vile (portik)",
+      "sonde": [
+        81,
+        83,
+        84,
+        86,
+        82
+      ],
+      "pod": "nabijena zemlja",
+      "nalazi": [
+        {
+          "tip": "novac",
+          "period": "364-375",
+          "sloj": "B",
+          "kota": 198.59,
+          "izvor": "iskopavanja-2010-2011, tabela novca trem 2010 (sonda 81)"
+        },
+        {
+          "tip": "novac",
+          "period": "367-375",
+          "sloj": "B",
+          "kota": 198.59,
+          "izvor": "iskopavanja-2010-2011, tabela novca trem 2010 (sonda 81)"
+        },
+        {
+          "tip": "novac",
+          "period": "355-361",
+          "sloj": "D",
+          "kota": 198.41,
+          "izvor": "iskopavanja-2010-2011, tabela novca trem 2011 (sonda 81)"
+        }
+      ],
+      "stratigrafija": "sonda 81: moderni put 199.5-199.6 (kraj puta 199.37-198.34); sloj D do kraja iskopa 197.64; dvostruki sloj rusevina (nivo a + sloj B) od pada krova, zidova i stubaca trema — citavi delovi zidova i stubaca pale u poziciji pada",
+      "implikacija_3d": "rusenje trema uhvaceno u poziciji pada — visina i raspored stubaca trema mogu se citati iz rusevinskog nivoa",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "ulazni-deo-trema",
+      "trakt": "jug vile (ulaz u vilu)",
+      "sonde": [
+        101
+      ],
+      "nalazi": [
+        {
+          "tip": "arhitektura",
+          "opis": "kruna zida z-50a na 198.49; osnova iskopa 198.34; garež uz zapadnu bazu stuba ulaza u vilu (sloj C)",
+          "kote": {
+            "kruna_z50a": 198.49,
+            "dno_iskopa": 198.34
+          },
+          "izvor": "iskopavanja-2010-2011, sekcija 5.4"
+        }
+      ],
+      "veza_crtez": "Sl. 11 - trasa Z-50a, juzni zid trema, dno 197.28",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "portik-juzni-istocni-deo",
+      "trakt": "jug vile (istocni deo portika)",
+      "sonde": [
+        105
+      ],
+      "nalazi": [
+        {
+          "tip": "bunara",
+          "opis": "bunar (jama 5) precnika ~2,00 m; u njemu sut i fragmenti kasnosrednjovekovne keramike; na 196.12 cetiri drvene daske sirine 10-15 cm, debljine ~5 cm, poredane u kvadrat; dno (pesak i sljunak) na 195.96",
+          "kote": {
+            "daske": 196.12,
+            "dno": 195.96
+          },
+          "izvor": "iskopavanja-2010-2011, sekcija 5.5"
+        }
+      ],
+      "implikacija_3d": "NOVA NAJNIZA KOTA CELE BAZE (195.96) — prevojila bunar u e-12 (196.05); oba bunara kasnosrednjovekovni, ne pripadaju antickom vodovodu",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "prostorija-bez-broja-ulaz-peristil",
+      "trakt": "zapadni (uz ulazni prostor peristila)",
+      "sonde": [],
+      "napomena": "prostorija otvorena ka ulaznom prostoru peristila; u tekstu bez w-/e- oznake (fusnota 14, kv. Q/11/72 i 12/72) — nema je u sistemu Sl. 1 pa nema veze na id",
+      "nalazi": [
+        {
+          "tip": "novac",
+          "period": "366-367",
+          "opis": "novac Valensa, revers GLORIA ROMANORUM, nadjen na nivou poda u SZ delu prostorije (Jankovic-Mihaldzic 2008, 51, br. 111/448)",
+          "izvor": "iskopavanja-2010-2011, fusnota 14"
+        },
+        {
+          "tip": "stratigrafija",
+          "opis": "teren nasut 1933. prilikom iskopavanja statue Dea Dardanica (Aleksandar Nenadovic)",
+          "izvor": "iskopavanja-2010-2011, fusnota 14"
+        }
+      ],
+      "poverenje": "visoko"
+    }
+  ],
+  "novac_zbirno": {
+    "opis": "svi novci vezani na prostorije iz tabula rada; zatvorene celine jugozapadnog sektora (novac u sloju D ispod sloja rusevina krova) datiraju rusanje vile na 378 (provali Gota posle hadrijanopolske bitke)",
+    "po_prostoriji": {
+      "w-9": 2,
+      "w-10": 4,
+      "w-21": 1,
+      "w-24": 1,
+      "w-24a": 1,
+      "trem-juzni": 3,
+      "prostorija-bez-broja-ulaz-peristil": 1
+    },
+    "opsezi_datuma": [
+      "271-275",
+      "294-307 (sonda 104, van prostorija)",
+      "330-335",
+      "335-336",
+      "341-346",
+      "355-361",
+      "364-375",
+      "366-367",
+      "367-375",
+      "382-389",
+      "404-406",
+      "425-450 (kaseta)"
+    ],
+    "zakljucak": "najmladji novac u zatvorenim celinama 364-375 => rusanje 378; novac 382-389 i kasniji = zivot u rusevinama i horizont 3"
+  },
+  "kote_ekstremi": {
+    "najniza": {
+      "vrednost": 195.96,
+      "gde": "dno bunara (jama 5) u sonda 105",
+      "predjena": "196.05 (bunar u e-12) — raniji unos ispravljen"
+    },
+    "najvisa": {
+      "vrednost": 200.64,
+      "gde": "recentni asfaltni put (Sl. 8) — ne ulazi u 3D model"
+    },
+    "najniza_antickeKonstrukcije": {
+      "vrednost": 197.28,
+      "gde": "dno trase Z-50a (Sl. 11)"
+    },
+    "opseg_za_3d": [
+      197.28,
+      200.64
+    ]
+  },
+  "pravila": [
+    "svaki nalaz nosi prostoriju, kotu (ako postoji) i izvor — bez izuzetka",
+    "prostorije bez nalaza upisuju se kao prazne sa razlogom, ne izostavljaju",
+    "kada izvuce tabela ne vezuje novac za prostoriju pojedinacno (sonde 42, 45 zona SZ sektora, 97-104), takav novac ostaje u sonde_sloj.json i ovde se NE ponavlja",
+    "novac datira sloj u kojem je nadjen, ne gradnju — kota novca je gornja granica za sloj, ne za objekat",
+    "moderni slojevi (put, nasip 1933, muzej 1936) ne ulaze u 3D model"
+  ],
+  "implikacije_3d": [
+    "prostorija je jedinica 3D modela: osnova iz Sl. 1, vertikala iz kontrolnih sondi, nalazi kao sadrzaj",
+    "dvostruke podnice e-23 (198.95/198.82) i proslojak pozara u w-1 = argumenti za faze i spratnost po prostoriji, ne za celu vilu odjednom",
+    "novac iz zatvorenih celina trem/w-9/w-10/w-21 vezuje rusenje 378 na jugozapadni sektor konkretno",
+    "olovna cev kroz zid z-59 vezuje vodeni linijski sloj na konkretan zid u w-12/e-12 — prva tacka prikljucka vode na arhitekturu sobe"
+  ],
+  "nacin_daljeg_rada": [
+    "sonda 42/45 zona: tabele daju novac po slojevima bez pojedinacnih sondi — potrebna Tabela 1 (str. sa tabelom 1) u punoj formi za vezu sonda<=>kota",
+    "izvuci prostorije E-1..E-21 sa Sl. 1 (render) i vezati za nalaze monografije (mozaici, Venera, porfir)",
+    "soba-po-soba osnove uvesti u GIS (vektori Sl. 1 i dalje bez tekstualnog sloja)"
+  ]
+}

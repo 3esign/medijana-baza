@@ -1,4 +1,4 @@
-# Medijana — baza podataka v0.10 (2026-10-25)
+# Medijana — baza podataka v0.13 (2026-10-25)
 
 Svemir / dr Poturak Semir. Cilj: ozbiljna baza za poređenje izvora i rekonstrukciju samo iz dostupnih podataka.
 
@@ -143,3 +143,29 @@ Vektorski crtezi nemaju tekstualni sloj, pa su strane renderovane u PNG (200 dpi
 Validator prosiren (crtezi sloj: verzija, profili, kote u opsegu, veze na stubove, opseg 197,38-200,6, numeracija W/E): **0 gresaka / 0 upozorenja.**
 
 Otvoreno: Sl. 1 u vektorskom obliku (za GIS uvoz) postoji samo u PDF-u koji nema vektorsku ekstrakciju linija — ostaje rutina; vezivanje nalaza (novac, fresko, keramika) na nove W/E ID-jeve prostorija je sledeci prirodni talas.
+
+## v0.13 — soba-po-soba sloj: nalazi vezani na prostorije W/E
+
+Novi fajl `sobe_sloj.json` — prostorija postaje jedinica 3D modela: sonde, zidovi, kote i nalazi po sobi (iz sekcija 3-5 i tabela novca Starinara 64/2014).
+
+**Veze sonda ⇄ prostorija — sada eksplicitne iz teksta rada:**
+- Jugozapadne prostorije: **w-21 (sonda 78), w-9 (75), w-10 (76), w-11 (77), zapadni deo w-12 (79)**.
+- Jugoistocne: **srednji deo prostorije 12 (107)** i **istocni deo prostorije 12 = e-12 (80)** — prostorija 12 se deli na w-12 i e-12; dvoumice iz crteza razresene.
+- Severozapadne: **sonda 45 = prostorije 24 i 24a**, **sonda 46 = w-24** (ulaz u stibadium B), **sonda 42 = aula/triklinijum** (z-38/39).
+- Severoistocne: **e-22, e-23, e-24 (sonda 70)** — kontrolne sonde 1 i 2.
+- Trem/ulaz: **sonda 81 (juzni trem), 101 (ulaz, zid z-50a), 105 (istocni portik)**.
+
+**Nalazi po prostorijama (20 prostorija upisano, prazne takodje):**
+- **w-1**: Venera (C-4, 199,12), koplje (C-2, 199,14), baza stuba (AR-1, 199,33), proslojak pozara = dokaz spratnosti.
+- **w-9**: novac **271-275** (pre vile) i 335-336; **w-10**: 4 novca 355-361; **w-21**: 364-375; **w-24**: 382-389 (posle rusenja); **w-24a**: 364-367.
+- **e-12**: kada 1,6x1,5 m (zidovi z-17/z-19/z-59, horizont 3) + bunar 196,05; **w-12**: olovna cev 198,49 kroz osnovu zida z-59.
+- **e-22**: pod 198,94, hipokaust na ulazu, podnica ispod hipokausta **198,29**; **e-23**: dvostruke podnice 198,95/198,82, prefurnijum (sonda 71).
+- **trem**: novac 364-375 u zatvorenoj celini ispod rusevine krova => rusenje 378 (Goti, Hadrijanopol) vezano na konkretne sonde.
+
+**Nova najniza kota baze: 195,96** (dno bunara jama 5, sonda 105) — prevojila 196,05 (bunar u e-12); oba bunara kasnosrednjovekovna. Opseg za 3D ostaje **197,28-200,64** (bunari ne ulaze u model).
+
+**Ispravke:** `sonde_sloj` i `vodeni_sloj` — 196,05 vise nije najniza (napomena dopisana); `crtezi_sloj` — W-24a dopisan u numeraciju; vizuelni sloj — polje `version` uskladjeno na 0.13.
+
+**Validator prosiren (v0.13):** svaki nalaz mora imati tip + (opis ili period) + izvor; kote u opsegu; id prostorije mora postojati u W/E numeraciji sa Sl. 1 ili u slobodnim oznakama (aula, trem, ulaz, portik); veza sonda ⇄ prostorija mora postojati u sonde_sloj; najniza kota mora biti 195,96. Posle tri korigovane greske: **0 gresaka / 0 upozorenja**.
+
+**Iskreno stanje:** novac iz tabula SZ sektora (sonde 42/45 zona) i ne-sektorskih sondi (97-104) ostaje u `sonde_sloj` bez pojedinacne prostorije — tabela ne vezuje ga po sobi; prostorije E-1..E-21 bez sondi 2010/11 jos nemaju nalaze. Sledeci talas: vezati nalaze monografije (mozaici, skulpture, porfir) na W/E prostorije, i vektori Sl. 1 za GIS uvoz.

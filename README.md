@@ -17,10 +17,13 @@ materijali, uticaji, graditelji, alati, voda, dekor — tako da se objekat može
 | `vizuelni_sloj.json` | 45 strukturno vrednih slika sa Wikimedia Commonsa (URL, licenca, datum) |
 | `vizuelni_nalazi.json` | pregled slika po slici: šta potvrđuje, šta opovrgava, šta ne sme da se koristi |
 | `skulpturski_program.json` | program skulptura, mozaika i fresaka po lokaciji (forum Naisusa / ulaz / vila) — v0.10 |
-| `sonde_sloj.json` | sonde iskopa 2010/2011 ⇄ stubovi, stratigrafija A–D sa kotama, tri horizonta — v0.10 |
+| `sonde_sloj.json` | sonde iskopa 2010/2011 ⇄ stubovi, stratigrafija A–D sa kotama, tri horizonta |
+| `crtezi_sloj.json` | situacioni plan Sl. 1 (numeracija W/E) + profili sa kotama, očitano sa renderovanih crteža — v0.12 |
+| `sobe_sloj.json` | soba-po-soba sloj: svaka prostorija sa sondama, zidovima, kotama i nalazima — jedinica 3D modela — v0.13 |
 | `SINTEZA.md` | ljudski pregled i spisak otvorenih konflikata |
-| `validator.js` | provera celog paketa: `node validator.js` — verzije, izvori, koordinate, poverenja, voda |
+| `validator.js` | provera celog paketa: `node validator.js` — verzije, izvori, koordinate, poverenja, voda, sobe |
 | `slike/` | 8 ključnih kadrova (nimfej I–VII, vila oktogonalnog oblika), CC BY / CC BY-SA, atribucija u `vizuelni_sloj.json` |
+| `crtezi/` | renderovane strane Starinara 64/2014 sa crtežima (Sl. 1–31) — izvor za `crtezi_sloj.json` |
 
 ## Šta je lokalno, a nije u repozi
 
@@ -34,12 +37,13 @@ Srpski, **latinica**. Strukovno: **osnova** (pojedinačni objekat, parter), **si
 (celi kompleks), **presek** (vertikalni rez). Zvanične oznake iz izvora transliterovane
 (АН 22 → AN 22); sirovi izlazi API-ja i izvorni tekst čuvaju se netaknuti kao dokaz.
 
-## Stanje (v0.10)
+## Stanje (v0.13)
 
 - Validator: 0 grešaka / 0 upozorenja.
-- **19 3D stubova**; apsolutne kote imaju stibadium B (198,32–198,92 m n.m.v.) i zgrade oko stibadiuma B (sokl 198,65 / kruna 199,13 m).
-- Konflikti rešeni u v0.10: početak istraživanja (**1864, Feliks Kanic** — 1803/04 greška agregata), datum bronzane ograde (izrada pre 325 / postavka 361 / zakop 378), hronologija vile (osnova u horizontu 1, prve decenije 4. veka; prepravke 330–378).
-- Otvoreno: Vicennalia vs Tricennalia; izvor vode (Oblik vs Niška Banja); osnova objekata C–D; zapis AN 22 (nasledje.gov.rs van mreže); sonde sektora 2–5 i Sl. 1–5 iz Starinara 64/2014 još nisu izvučene.
+- **19 3D stubova**; apsolutne kote imaju stibadium B (198,32–198,92 m n.m.v.), zgrade oko stibadiuma B i **20 prostorija** sa sonde-po-sonde vertikalom.
+- **Numeracija prostorija W-1..W-25 / E-1..E-24** sa Sl. 1 povezana sa sondama i nalazima (`sobe_sloj.json`); rusenje vile 378 vezano na zatvorene celine novca u tremu, w-9, w-10, w-21.
+- Opseg kota za 3D: **197,28–200,64** m n.m.v.; najniža kota baze 195,96 (kasnosrednjovekovni bunar, van modela).
+- Otvoreno: Vicennalia vs Tricennalia; izvor vode (Oblik vs Niška Banja); osnova objekata C–D; zapis AN 22 (nasledje.gov.rs); nalazi monografije (mozaici, porfir) još nisu vezani na W/E prostorije; vektori Sl. 1 za GIS uvoz.
 
 ## Autorstvo
 

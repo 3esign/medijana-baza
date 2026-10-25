@@ -1,74 +1,74 @@
 {
- "verzija": "0.12",
- "datum": "2026-10-25",
- "svrha": "vizuelna provera mera iz prostornog sloja",
- "preuzeto": {
-  "folder": "slike/",
-  "broj": 8,
-  "set": "nimfej I-VII + vila oktogonalnog oblika",
-  "licence": "CC BY / CC BY-SA (Wikimedia Commons)"
- },
- "opazanja": [
-  {
-   "slika": "The_Nymphaeum_at_Mediana_(I)",
-   "nalaz": "Sadrzaj NE odgovara nazivu seta — kad je prikazuje mozaicni pod sa centralnim medaljonom (peristil/sofa), ne fontanu. Flickr set 7183949/7369183 meša motiv; naziv slike nije pouzdan dokaz lokacije.",
-   "poverenje": "A (direktno videno)",
-   "implikacija": "geotag/naslov slika ne sme se koristiti kao prostorna veza bez cross-check sadrzaja"
+  "verzija": "0.13",
+  "datum": "2026-10-25",
+  "svrha": "vizuelna provera mera iz prostornog sloja",
+  "preuzeto": {
+    "folder": "slike/",
+    "broj": 8,
+    "set": "nimfej I-VII + vila oktogonalnog oblika",
+    "licence": "CC BY / CC BY-SA (Wikimedia Commons)"
   },
-  {
-   "slika": "Nis,_vila_oktogonalnog_oblika.JPG",
-   "nalaz": "Temelji u izdignutoj zidnoj traci: opus mixtum — redovi opeke (~4-5 cm) na ~60-80 cm u kamenoj breči; zid debljine ~60-70 cm; unutrasnji prostori sitni (1,5-2,5 m); stepenasti ulaz sa opekom na JZ strani. Rekonstrukcija visine ostaje bez dokaza — slika pokazuje samo zidnu strukturu i materijal.",
-   "poverenje": "A za materijal/tehniku, C za mere (bez lenjira u kadru)",
-   "implikacija": "digitalni pasos: opus mixtum potvrdjen vizuelno; visina ostaje [min,max] opseg"
-  },
-  {
-   "slika": "The_Nymphaeum_at_Mediana_(II)",
-   "nalaz": "Uzazan bazen/predeo sa tamnim mozaikom meandra (svastika-lanac) — sporedni bazen kompleksa, ne centralna fontana.",
-   "poverenje": "A (direktno videno)",
-   "implikacija": "kompleks nimfeja ima vise vodenih povrsina; centralna fontana nije jedini bazen"
-  },
-  {
-   "slika": "The_Nymphaeum_at_Mediana_(III)",
-   "nalaz": "Siroki kadar: oktogonalna prostorija sa heksagonalnim mozaik poljem u centru, u njemu uzdignut heksagonalni bazen od svetlog maltera; konhe (apse) sa mozaicima po strani; stepenik/prelaz izmedju nivoa podova.",
-   "poverenje": "A (direktno videno)",
-   "implikacija": "prostorna veza kadar<->osnova: centralna fontana sedi u heksagonalnom polju unutar oktogonalne sale — geometrija heksagon-u-oktagonu potvrdjena"
-  },
-  {
-   "slika": "The_Nymphaeum_at_Mediana_(IV)",
-   "nalaz": "Konha (polukruzna apsida) sa tamnim mozaikom u nijansama — geometrijski obrazac, kalcnificiran/povrsinski ostecen.",
-   "poverenje": "A (direktno videno)",
-   "implikacija": "apsidalne nise imale svoje mozaicne podove; ikonografija nečitljiva na fotografiji"
-  },
-  {
-   "slika": "The_Nymphaeum_at_Mediana_(V)",
-   "nalaz": "Cosak sa geometrijskim mozaikom sestougaone mreze (heksagoni u nizu), vidljiv prelaz malter-mozaik na podu.",
-   "poverenje": "A (direktno videno)",
-   "implikacija": "sporedne povrsine dekorativne, ali podredjene centralnom heksagonalnom polju"
-  },
-  {
-   "slika": "The_Nymphaeum_at_Mediana_(VI)",
-   "nalaz": "Detalj centralnog bazena: heksagonalni, hidroizolovan malter (opus signinus karakter), u sredini OTVOR CEVI (olovna cev — napajanje/odvod) vidljiv na dnu.",
-   "poverenje": "A (direktno videno)",
-   "implikacija": "VIZUELNA POTVRDA digitalnog pasosa: olovne cevi + vodeni bazen; otvor cevi = tacka prikljucka za 3D model vodovoda"
-  },
-  {
-   "slika": "The_Nymphaeum_at_Mediana_(VII)",
-   "nalaz": "Najsiroki kadar: cela sala — oktagon, centralni heksagonalni bazen, konhe sa mozaicima, stepenasti pristup; omogucava grubu procenu odnosa dimenzija (bazen prema sali).",
-   "poverenje": "A (direktno videno)",
-   "implikacija": "relativna geometrija za 3D: sirina bazena ~ 1/3 sirine sale (gruba procena iz kadra, ne merenje)"
+  "opazanja": [
+    {
+      "slika": "The_Nymphaeum_at_Mediana_(I)",
+      "nalaz": "Sadrzaj NE odgovara nazivu seta — kad je prikazuje mozaicni pod sa centralnim medaljonom (peristil/sofa), ne fontanu. Flickr set 7183949/7369183 meša motiv; naziv slike nije pouzdan dokaz lokacije.",
+      "poverenje": "A (direktno videno)",
+      "implikacija": "geotag/naslov slika ne sme se koristiti kao prostorna veza bez cross-check sadrzaja"
+    },
+    {
+      "slika": "Nis,_vila_oktogonalnog_oblika.JPG",
+      "nalaz": "Temelji u izdignutoj zidnoj traci: opus mixtum — redovi opeke (~4-5 cm) na ~60-80 cm u kamenoj breči; zid debljine ~60-70 cm; unutrasnji prostori sitni (1,5-2,5 m); stepenasti ulaz sa opekom na JZ strani. Rekonstrukcija visine ostaje bez dokaza — slika pokazuje samo zidnu strukturu i materijal.",
+      "poverenje": "A za materijal/tehniku, C za mere (bez lenjira u kadru)",
+      "implikacija": "digitalni pasos: opus mixtum potvrdjen vizuelno; visina ostaje [min,max] opseg"
+    },
+    {
+      "slika": "The_Nymphaeum_at_Mediana_(II)",
+      "nalaz": "Uzazan bazen/predeo sa tamnim mozaikom meandra (svastika-lanac) — sporedni bazen kompleksa, ne centralna fontana.",
+      "poverenje": "A (direktno videno)",
+      "implikacija": "kompleks nimfeja ima vise vodenih povrsina; centralna fontana nije jedini bazen"
+    },
+    {
+      "slika": "The_Nymphaeum_at_Mediana_(III)",
+      "nalaz": "Siroki kadar: oktogonalna prostorija sa heksagonalnim mozaik poljem u centru, u njemu uzdignut heksagonalni bazen od svetlog maltera; konhe (apse) sa mozaicima po strani; stepenik/prelaz izmedju nivoa podova.",
+      "poverenje": "A (direktno videno)",
+      "implikacija": "prostorna veza kadar<->osnova: centralna fontana sedi u heksagonalnom polju unutar oktogonalne sale — geometrija heksagon-u-oktagonu potvrdjena"
+    },
+    {
+      "slika": "The_Nymphaeum_at_Mediana_(IV)",
+      "nalaz": "Konha (polukruzna apsida) sa tamnim mozaikom u nijansama — geometrijski obrazac, kalcnificiran/povrsinski ostecen.",
+      "poverenje": "A (direktno videno)",
+      "implikacija": "apsidalne nise imale svoje mozaicne podove; ikonografija nečitljiva na fotografiji"
+    },
+    {
+      "slika": "The_Nymphaeum_at_Mediana_(V)",
+      "nalaz": "Cosak sa geometrijskim mozaikom sestougaone mreze (heksagoni u nizu), vidljiv prelaz malter-mozaik na podu.",
+      "poverenje": "A (direktno videno)",
+      "implikacija": "sporedne povrsine dekorativne, ali podredjene centralnom heksagonalnom polju"
+    },
+    {
+      "slika": "The_Nymphaeum_at_Mediana_(VI)",
+      "nalaz": "Detalj centralnog bazena: heksagonalni, hidroizolovan malter (opus signinus karakter), u sredini OTVOR CEVI (olovna cev — napajanje/odvod) vidljiv na dnu.",
+      "poverenje": "A (direktno videno)",
+      "implikacija": "VIZUELNA POTVRDA digitalnog pasosa: olovne cevi + vodeni bazen; otvor cevi = tacka prikljucka za 3D model vodovoda"
+    },
+    {
+      "slika": "The_Nymphaeum_at_Mediana_(VII)",
+      "nalaz": "Najsiroki kadar: cela sala — oktagon, centralni heksagonalni bazen, konhe sa mozaicima, stepenasti pristup; omogucava grubu procenu odnosa dimenzija (bazen prema sali).",
+      "poverenje": "A (direktno videno)",
+      "implikacija": "relativna geometrija za 3D: sirina bazena ~ 1/3 sirine sale (gruba procena iz kadra, ne merenje)"
+    }
+  ],
+  "promene": [
+    "digitalni_pasos: materijali +opus mixtum (zidovi, vizuelna potvrda)",
+    "vizuelni_sloj: upozorenje da Flickr naslovi ne odgovaraju uvek sadrzaju (nimfej I = mozaik)"
+  ],
+  "vez_kadar_mera": {
+    "datum": "0.6",
+    "fontana": {
+      "id_stub": "fontana-nimfej",
+      "mera": "3.2 m (izvor: baza_podataka)",
+      "potvrda": "VI+VII: heksagonalni bazen u heksagonalnom polju — oblik potvrdjen, mera iz fotografije ne izvodljiva bez referentnog lenjira u kadru",
+      "nivo_poverenja": "oblik A, dimenzija ostaje iz literature"
+    }
   }
- ],
- "promene": [
-  "digitalni_pasos: materijali +opus mixtum (zidovi, vizuelna potvrda)",
-  "vizuelni_sloj: upozorenje da Flickr naslovi ne odgovaraju uvek sadrzaju (nimfej I = mozaik)"
- ],
- "vez_kadar_mera": {
-  "datum": "0.6",
-  "fontana": {
-   "id_stub": "fontana-nimfej",
-   "mera": "3.2 m (izvor: baza_podataka)",
-   "potvrda": "VI+VII: heksagonalni bazen u heksagonalnom polju — oblik potvrdjen, mera iz fotografije ne izvodljiva bez referentnog lenjira u kadru",
-   "nivo_poverenja": "oblik A, dimenzija ostaje iz literature"
-  }
- }
 }

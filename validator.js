@@ -171,6 +171,37 @@ if(cr){
     greske.push('crtezi: nedostaje numeracija prostorija W/E sa Sl. 1');
 }
 
+// v0.13: soba-po-soba sloj (sobe_sloj.json)
+{
+  const sb=JSON.parse(fs.readFileSync('sobe_sloj.json','utf8'));
+  if(!sb.prostorije?.length)greske.push('sobe: nema prostorija');
+  const dozvoljene=new Set();
+  (cr.plan_vile_sl1?.prostorije_zapadni?.u_planu||[]).forEach(x=>dozvoljene.add(x.toLowerCase()));
+  (cr.plan_vile_sl1?.prostorije_istocni?.u_planu||[]).forEach(x=>dozvoljene.add(x.toLowerCase()));
+  const slobodne=new Set(['aula-triklinijum','trem-juzni','ulazni-deo-trema','portik-juzni-istocni-deo','prostorija-bez-broja-ulaz-peristil','prostorija-23-jug']);
+  for(const p of sb.prostorije||[]){
+    if(!p.id||!p.poverenje)greske.push('sobe: prostorija bez id/poverenja');
+    for(const n of p.nalazi||[]){
+      if(!n.tip||!(n.opis||n.period)||!n.izvor)greske.push('sobe: '+p.id+' nalaz bez tip/opis-ili-period/izvor');
+      if(typeof n.kota==='number'&&(n.kota<194||n.kota>212))greske.push('sobe: '+p.id+' kota van opsega ('+n.kota+')');
+      if(n.kote&&typeof n.kote==='object')for(const [kk,vv] of Object.entries(n.kote)){
+        if(typeof vv==='number'&&(vv<194||vv>212))greske.push('sobe: '+p.id+' kota '+kk+' van opsega ('+vv+')');
+        if(vv&&typeof vv==='object')for(const [k2,v2] of Object.entries(vv)){
+          if(typeof v2==='number'&&(v2<194||v2>212))greske.push('sobe: '+p.id+' kota '+kk+'.'+k2+' van opsega ('+v2+')');
+        }
+      }
+    }
+    if(!dozvoljene.has(p.id)&&!slobodne.has(p.id))greske.push("sobe: id '"+p.id+"' nije ni u W ni u E numeraciji ni u slobodnim oznakama");
+  }
+  const sondaIds=new Set((sn.sonde_sa_vezom||[]).map(s=>String(s.sonda||s.id)));
+  (sn.sektori||[]).forEach(sek=>(sek.sonde||[]).forEach(sd=>{const m=String(sd).match(/\d+/);if(m)sondaIds.add(m[0]);}));
+  for(const vsp of sb.veza_sonda_prostorija||[]){
+    if(typeof vsp.sonda==='number'&&!sondaIds.has(String(vsp.sonda)))greske.push('sobe: veza referencira sondu koja nije u sonde_sloj: '+vsp.sonda);
+    if(!vsp.poverenje)greske.push('sobe: veza bez poverenja');
+  }
+  if(sb.kote_ekstremi?.najniza?.vrednost!==195.96)greske.push('sobe: najniza kota mora biti 195.96 (bunara jama 5, sonda 105)');
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));
