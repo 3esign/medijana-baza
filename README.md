@@ -9,13 +9,15 @@ materijali, uticaji, graditelji, alati, voda, dekor — tako da se objekat može
 
 | Fajl | Sadržaj |
 |---|---|
-| `baza_podataka.json` | hronologija 306–442, objekti, nalazi, genetika — jezgro baze (v0.8) |
-| `prostorni_sloj.json` | 14 objekta kao 3D stubovi: `poverenje_osnove` visoko, `poverenje_visina` samo gde postoji dokaz |
+| `baza_podataka.json` | hronologija 269–8. vek, objekti, nalazi, genetika — jezgro baze (v0.10) |
+| `prostorni_sloj.json` | 19 objekata kao 3D stubovi: `poverenje_osnove` visoko, `poverenje_visina` samo gde postoji dokaz |
 | `vodeni_linijski_sloj.json` | castellum aquae → vodovod → nimfej: mreža čvorova + pravila gravitacione konzistentnosti |
 | `komparativni_lokaliteti.json` | kalibracija: Felix Romuliana, Villa del Casale — pravila pozajmljivanja proporcija |
 | `digitalni_pasos.json` | vila znanja: materijali, uticaji, graditelji/alati; merilo ka teoretskom idealu rekonstrukcije |
 | `vizuelni_sloj.json` | 45 strukturno vrednih slika sa Wikimedia Commonsa (URL, licenca, datum) |
 | `vizuelni_nalazi.json` | pregled slika po slici: šta potvrđuje, šta opovrgava, šta ne sme da se koristi |
+| `skulpturski_program.json` | program skulptura, mozaika i fresaka po lokaciji (forum Naisusa / ulaz / vila) — v0.10 |
+| `sonde_sloj.json` | sonde iskopa 2010/2011 ⇄ stubovi, stratigrafija A–D sa kotama, tri horizonta — v0.10 |
 | `SINTEZA.md` | ljudski pregled i spisak otvorenih konflikata |
 | `validator.js` | provera celog paketa: `node validator.js` — verzije, izvori, koordinate, poverenja, voda |
 | `slike/` | 8 ključnih kadrova (nimfej I–VII, vila oktogonalnog oblika), CC BY / CC BY-SA, atribucija u `vizuelni_sloj.json` |
@@ -32,11 +34,12 @@ Srpski, **latinica**. Strukovno: **osnova** (pojedinačni objekat, parter), **si
 (celi kompleks), **presek** (vertikalni rez). Zvanične oznake iz izvora transliterovane
 (АН 22 → AN 22); sirovi izlazi API-ja i izvorni tekst čuvaju se netaknuti kao dokaz.
 
-## Stanje (v0.8)
+## Stanje (v0.10)
 
 - Validator: 0 grešaka / 0 upozorenja.
-- 14 3D stubova; jedino stibadium B ima apsolutne visinske nivoe iz merenja (198,32–198,92 m n.m.v.).
-- Otvoreno: Vicennalia vs Tricennalia; izvor vode (Oblik vs Niška Banja); osnova objekata C–D; zapis АН 22 (nasledje.gov.rs van mreže).
+- **19 3D stubova**; apsolutne kote imaju stibadium B (198,32–198,92 m n.m.v.) i zgrade oko stibadiuma B (sokl 198,65 / kruna 199,13 m).
+- Konflikti rešeni u v0.10: početak istraživanja (**1864, Feliks Kanic** — 1803/04 greška agregata), datum bronzane ograde (izrada pre 325 / postavka 361 / zakop 378), hronologija vile (osnova u horizontu 1, prve decenije 4. veka; prepravke 330–378).
+- Otvoreno: Vicennalia vs Tricennalia; izvor vode (Oblik vs Niška Banja); osnova objekata C–D; zapis AN 22 (nasledje.gov.rs van mreže); sonde sektora 2–5 i Sl. 1–5 iz Starinara 64/2014 još nisu izvučene.
 
 ## Autorstvo
 

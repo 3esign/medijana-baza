@@ -1,4 +1,4 @@
-# Medijana — baza podataka v0.2 (2026-10-25)
+# Medijana — baza podataka v0.10 (2026-10-25)
 
 Svemir / dr Poturak Semir. Cilj: ozbiljna baza za poređenje izvora i rekonstrukciju samo iz dostupnih podataka.
 
@@ -87,3 +87,21 @@ Proboj: cela monografija (108 str., Vasić/Milošević/Gavrilović Vitas/Crnogla
 **Novi stubovi:** `kapija-aleja`, `javne-terme-istocne`, `vila-ogradni-zid`, `ogradni-zid-geofizika`.
 
 **Otvoreno i dalje:** Jeremićev *Castellum aquae* (sken bez teksta, čeka OCR); rad *Urbanism and Architecture* bez otvorenog punog teksta (Academia iza prijave, RAI ga nema); vodeni izvor (Oblik vs Niška Banja) monografija ne rešava.
+
+## v0.10 — skulpturni program + sonde⇄stubovi (2026-10-25)
+
+Dva nova sloja, oba iz primarnih radova već skinutih sa Arheološkog instituta:
+
+- **`skulpturski_program.json`** (iz Milošević, *Carska ideologija*) — program po lokaciji: forum Naisusa (porfirna kompozicija dijarhije Konstantin–Licinije 311–316; pozlaćena bronzana statua Konstantina, posveta 329 ili 334), **Dea Dardanica na ulazu vile** (~330, dea patriae, veza sa Konstancijem Hlorom), iatrijski par **Eskulap–Higija** kao najbrojnija grupa (porfirne statue sa grčkim natpisima = **uvoz**), Dionis–Herkul–Merkur u istom skupnom nalazu, Artemida/Dijana, bahanantkinje, Afrodita Sosandra, Venera/Dijana. **Pravilo za rekonstrukciju:** skulpture uglavnom dekapitirane — broj glava NI merilo broja statua. Mozaik program sa pozicijama: **Fluvius na ulazu u aulu, Meduza u središnjem delu**, freske 4 SZ prostorije imitiraju parapetne mermerne ploče (nezavisna potvrda mermernе oplate), pozlata kupole zapadnog stibadijuma.
+- **`sonde_sloj.json`** (iz Vasić/Milošević/Gavrilović, Starinar 64/2014) — 5 iskopnih sektora; veza sondi na stubove (sonda 42 → hipokaust aule, 45 → prostorija 24a, 46 → ulaz u stibadium B, 88/90 → zgrade oko stibadijuma B); slojevi A–D sa kotama; **tri horizonta**: 1) prve decenije 4. veka — osnovni plan vile (suprotno ranijim mišljenjima), 2) 330–378 — prepravke (stibadijumi A i B), 3) 380–441/443. Novac iz sondi datira NIVOE, ne gradnju.
+
+**19. 3D stub:** `zgrade-oko-stibadiuma-B` — temelji od oblutaka, kruna zida 199.13 m, sokl 198.65 m (sonde 88 i 90) — drugi objekat uz stibadium B sa stvarnim kotama.
+
+**Konflikti rešeni (3):**
+- *Početak istraživanja* → **1864, Feliks Kanic** (150 godina 2014) — 1803/04 bez primarnog izvora, greška agregata.
+- *Datum bronzane ograde* → tri datuma jedan predmet: izrada pre 325, postavka **361** (boravak Julijana), zakop **378**.
+- *Hronologija vile* → horizont 1 (osnova pre 330, na mestu starija izdužena građevina — pretorium?) + prepravka oko 330 + horizont 2.
+
+**Digitalni pasoš:** + porfir (uvoz dokazan natpisima), + uticaji: carski adventus i ceremonijal Dioklecijana (kapija-slavoluk → salutatorium → peristil → consitorium, proskineza), solarni kult uz dvorsko hrišćanstvo, dardanska dinastijska ideologija.
+
+Validator: **0 grešaka / 0 upozorenja.** Otvoreno: sonde sektora 2–5 u tekstu još nisu izvučene; Sl. 1–5 (plan sa sondama + profili) čekaju uvlačenje iz PDF-a.

@@ -1,0 +1,149 @@
+{
+  "svrha": "Veza iskopnih sondi 2010/2011 sa objektima (stubovima) i stratigrafijom — vertikalna osnova za 3D: kote, slojevi i horizonti kao dokaz visina i hronologije",
+  "verzija": "0.10",
+  "datum": "2026-10-25",
+  "autor": "Svemir (za dr Poturak Semira)",
+  "izvor_glavni": {
+    "id": "iskopavanja-2010-2011",
+    "rad": "M. Vasic, G. Milosevic, N. Gavrilovic, Iskopavanja Medijane u 2010. i 2011. godini, Starinar 64/2014, 231-263",
+    "url": "https://rai.ai.ac.rs/handle/123456789/210",
+    "tekst": "pdf/milosevic_iskopi.txt",
+    "doi": "10.2298/STA1464231V",
+    "napomena": "devet meseci iskopavanja; plan vile sa obelezenim sondama (Sl. 1) — slika jos nije uvucena, samo tekst"
+  },
+  "hakatski_okvir": "2014. navrsava se 150 godina istrazivackih radova — iskopavanja zapoceta 1864. skromnim iskopavanjima Feliksa Kanica",
+  "hronologija_horizonti": [
+    {
+      "horizont": 1,
+      "period": "prve decenije 4. veka",
+      "sadrzaj": "vila sa peristilom u svom OSNOVNOM planu — suprotno ranijim misljenjima",
+      "implikacija": "osnova vile starija od 330; prepravke dolaze tek u horizontu 2",
+      "poverenje": "visoko",
+      "izvor": "apstrakt Starinar 64/2014"
+    },
+    {
+      "horizont": 2,
+      "period": "330-378",
+      "sadrzaj": "naknadne prepravke: stibadijumi A i B, severne prostorije",
+      "poverenje": "visoko",
+      "poklapanje": "identicno opsegu 'druga faza AD 330-378' iz Stibadium B 2016 — dva nezavisna rada, isti opseg"
+    },
+    {
+      "horizont": 3,
+      "period": "380 - 441/443",
+      "sadrzaj": "zgrade podignute posle 380 (sloj tegula i imbreksa njihovih krovova u sondama severozapadnog sektora)",
+      "poverenje": "visoko"
+    }
+  ],
+  "sektori": [
+    {
+      "id": "sektor-1-severozapadno",
+      "naziv": "Sonde severozapadno od severne fasade vile",
+      "sonde": ["72", "73", "88", "90", "86", "87", "42/2004", "89", "91"],
+      "redosled": "od zapada ka istoku: 72 i 73; 88 i 90; 86 i 87; 42/2004, 89 i 91",
+      "napomena": "iznad sondi 72, 73, 88 i 90 prolazio je noviji put ka selu Donji Vrezina i Dokumentacionom centru — recentni slojevi; nad sondama 42, 89, delom 90 (mozda 86, 87) deponovana zemlja sa iskopavanja svecane dvorane",
+      "veze_na_stubove": ["vila-peristil", "stibadium-B"],
+      "poverenje": "visoko"
+    },
+    {
+      "id": "sektor-2-severoistocno",
+      "naziv": "Sonde severoistocno od severne fasade vile",
+      "sonde": [],
+      "napomena": "sektor postoji u podeli, sonde iz teksta jos nisu izvucene",
+      "poverenje": "srednje"
+    },
+    {
+      "id": "sektor-3-severozapadne-prostorije",
+      "naziv": "Severozapadne prostorije",
+      "sonde": [],
+      "napomena": "sektor postoji u podeli, sonde iz teksta jos nisu izvucene",
+      "poverenje": "srednje"
+    },
+    {
+      "id": "sektor-4-severoistocne-prostorije",
+      "naziv": "Severoistocne prostorije",
+      "sonde": [],
+      "napomena": "sektor postoji u podeli, sonde iz teksta jos nisu izvucene",
+      "poverenje": "srednje"
+    },
+    {
+      "id": "sektor-5-jugozapadne-prostorije",
+      "naziv": "Jugozapadne prostorije",
+      "sonde": [],
+      "napomena": "sektor postoji u podeli, sonde iz teksta jos nisu izvucene",
+      "poverenje": "srednje"
+    }
+  ],
+  "sonde_sa_vezom": [
+    {
+      "sonda": "42/2004",
+      "objekat": "vila-peristil (svecana dvorana/aula)",
+      "sadrzaj": "prefurnijum i otvor hipokausta svecane dvorane/triklinijuma; nivo se spusta ka otvoru hipokausta",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": "45",
+      "objekat": "vila-peristil (prostorija 24a)",
+      "kota_m_nmv": 198.96,
+      "novac": "364-367",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": "46",
+      "objekat": "stibadium-B",
+      "sadrzaj": "ulaz u stibadijum B",
+      "kota_m_nmv": 198.85,
+      "novac": "382-389",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": "88",
+      "objekat": "zgrade oko stibadiuma B (zidovi 2 i 3)",
+      "sadrzaj": "temelji zidova od oblutaka vezanih blatom, ukopani u sloj D; kruna zida kota 199.13, sokl 198.65; gornji nivo sloja D stambeni nivo",
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": "90",
+      "objekat": "zgrade oko stibadiuma B (zid)",
+      "kota_kruna_m_nmv": 199.13,
+      "kota_sokl_m_nmv": 198.65,
+      "poverenje": "visoko"
+    },
+    {
+      "sonda": "prefurnijum stibadijuma B",
+      "objekat": "stibadium-B",
+      "kota_m_nmv": 198.51,
+      "novac": "364-375",
+      "poverenje": "visoko"
+    }
+  ],
+  "stratigrafija_sektor_1": [
+    {
+      "sloj": "A",
+      "sadrzaj": "humus mesan sa slojem šuta (noviji put + deponovana zemlja sa iskopavanja)",
+      "poverenje": "visoko"
+    },
+    {
+      "sloj": "B",
+      "sadrzaj": "jak sloj šuta — nastao vadjenjem zidova vile",
+      "poverenje": "visoko"
+    },
+    {
+      "sloj": "C",
+      "sadrzaj": "sloj tegula i imbreksa sa krovova zgrada podignutih u TRECEM horizontu, posle ~380 (u dnevnicima prvobitno 'nivo a' i 'nivo b'); najvisi u sondama 88 i 90, pada ka zapadnoj ivici sondi 72/3",
+      "poverenje": "visoko"
+    },
+    {
+      "sloj": "D",
+      "sadrzaj": "u njega ukopani temelji zida 1 pravca severoistok-jugozapad, severno od stibadijuma B; gornji nivo sloja D = stambeni nivo zgrada oko stibadijuma B; u sondama 72 i 73 dostizao do kote ~198.7 i nalegao na najstariju malterenu podnicu",
+      "poverenje": "visoko"
+    }
+  ],
+  "implikacije_3d": [
+    "vertikalna stratigrafija (slojevi A-D sa kotama) daje pravi vertikalni resek poloZaja — temelji, nivoi hodanja i rušenja po objektima, ne samo osnove",
+    "novac iz sondi (364-367, 364-375, 382-389) datira NIVOE, ne gradnju — granica izmedju datuma upotrebe i datuma izgradnje",
+    "horizont 1 (osnova vile pre 330) pomera hronologiju stuba vila-peristil: osnova 'prve decenije 4. veka', prepravke 330-378",
+    "zgrade oko stibadijuma B (zidovi 2 i 3, zid u sondi 90) su nova mikrotvorba severno od stibadijuma — kandidat za dodatni stub"
+  ],
+  "nacin_daljeg_rada": "izvuci sonde sektora 2-5 iz teksta (ostatak rada); uvuci Sl. 1 (plan sa sondama) i profile (Sl. 2-5) iz PDF-a kao slike; povezati kote sa DEM procenama prostornog sloja"
+}

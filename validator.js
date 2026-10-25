@@ -10,7 +10,7 @@ function ucitaj(f) {
   catch (e) { greske.push(`${f}: JSON nevaljan — ${e.message}`); return null; }
 }
 
-const VALIDNO_POVERENJE = ['visoko', 'srednje', 'nisko', 'nisko-srednje', 'tipolosko visoko, za konkretan objekat nisko'];
+const VALIDNO_POVERENJE = ['visoko', 'srednje', 'nisko', 'nisko-srednje', 'srednje-visoko', 'tipolosko visoko, za konkretan objekat nisko'];
 
 function proveriPoverenje(obj, putanja) {
   if (obj && typeof obj === 'object') {
@@ -81,6 +81,41 @@ if(vod){
   const sv=prostor?.objekti_3d_stubi||[];
   const ids=new Set(sv.map(o=>o.id));
   for(const ref of ['fontana-nimfej']) if(!ids.has(ref))greske.push(`vodeni sloj referencira nepostojeci stub: ${ref}`);
+}
+
+// v0.10: skulpturni program
+const sk=ucitaj('skulpturski_program.json');
+if(sk){
+  if(sk.verzija!==baza?.verzija)greske.push(`skulpturni program verzija ${sk.verzija} != ${baza?.verzija}`);
+  const programi=sk.program_po_lokaciji||{};
+  let broj=0;
+  for(const [lok, unos] of Object.entries(programi)){
+    for(const s of Array.isArray(unos)?unos:[unos]){
+      broj++;
+      if(!s.id)greske.push(`skulpturni program ${lok}: unos bez id`);
+      if(!s.poverenje)upozorenja.push(`skulpturni predmet ${s.id||'?'} bez poverenja`);
+      if(!s.izvor&&!sk.izvor_glavni)greske.push(`skulpturni predmet ${s.id} bez izvora`);
+    }
+  }
+  if(broj<8)greske.push(`skulpturni program premalen (${broj} predmeta) — ocekivano >=8`);
+}
+
+// v0.10: sonde⇄stubovi sloj
+const sn=ucitaj('sonde_sloj.json');
+if(sn){
+  if(sn.verzija!==baza?.verzija)greske.push(`sonde sloj verzija ${sn.verzija} != ${baza?.verzija}`);
+  if(!sn.hronologija_horizonti||sn.hronologija_horizonti.length!==3)greske.push('sonde sloj: ocekivana 3 horizonta');
+  const ids=new Set((prostor?.objekti_3d_stubi||[]).map(o=>o.id));
+  for(const s of sn.sektori||[]){
+    for(const ref of s.veze_na_stubove||[]){
+      if(!ids.has(ref))greske.push(`sonde sloj: sektor ${s.id} referencira nepostojeci stub: ${ref}`);
+    }
+  }
+  // kote stibadiuma B moraju se poklapati sa prostornim slojem (198.92 temelj)
+  const st=(prostor?.objekti_3d_stubi||[]).find(o=>o.id==='stibadium-B');
+  const s46=(sn.sonde_sa_vezom||[]).find(x=>x.sonda==='46');
+  if(st&&s46&&st.visine_m_nmv&&st.visine_m_nmv.temelj_dno!==198.92)greske.push('stibadium B temelj 198.92 izgubljen — poklapanje sonde sloja i prostornog sloja naruseno');
+  if(!s46)greske.push('sonde sloj: nema sonde 46 (ulaz u stibadium B)');
 }
 
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
