@@ -1,6 +1,6 @@
 {
  "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
- "verzija": "0.10",
+ "verzija": "0.11",
  "datum": "2026-10-25",
  "autor": "Svemir / dr Poturak Semir",
  "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
@@ -471,6 +471,56 @@
    "nalaz": "skulpturni program vile medju najbogatijim u celom carstvu (mermer + porfir)",
    "izvor": "Vasic 1975 (Starinar n.s. XXIV-XXV, 58-60) preko carska-ideologija",
    "poverenje": "visoko"
+  },
+  {
+   "nalaz": "marmerna glava Venere (S-4/11, sl. 30)",
+   "kontekst": "prostorija w-1, sloj C, polozena na desni obraz, lice ka severu, kota 199.12",
+   "izvor": "iskopi-2010-2011",
+   "poverenje": "visoko"
+  },
+  {
+   "nalaz": "gvozdeni vrh koplja (C-2)",
+   "kontekst": "prostorija w-1, sloj C, kota 199.14",
+   "izvor": "iskopi-2010-2011",
+   "poverenje": "visoko"
+  },
+  {
+   "nalaz": "dve gvozdene strelce plosnatog trouglastog oblika (S-327/10, S-332/10)",
+   "kontekst": "sonda 88, sloj A; analogije Pontes i Ušce Porecke reke",
+   "znacaj": "sloj najkasnijeg vadjenja zidova — oruzje u sloju koji zatvara zivot vile",
+   "izvor": "iskopi-2010-2011",
+   "poverenje": "visoko"
+  },
+  {
+   "nalaz": "kasnolatenska fibula s posuvracenom nogom (sl. 31)",
+   "znacaj": "PRERIMSKI nalaz na Medijani — naselje pre rimskog perioda",
+   "izvor": "iskopi-2010-2011",
+   "poverenje": "visoko"
+  },
+  {
+   "nalaz": "novac 271-275 u sloju C sonde 75 (w-9)",
+   "znacaj": "najstariji novac u bazi — dokaz aktivnosti PRE izgradnje vile",
+   "izvor": "iskopi-2010-2011, tabela 6",
+   "poverenje": "visoko"
+  },
+  {
+   "nalaz": "novac 294-307 u sloju C sonde 104 (sektor 2)",
+   "znacaj": "drugi pre-vila novac — potvrda aktivnosti pre prve decenije 4. veka",
+   "izvor": "iskopi-2010-2011, tabela 2a",
+   "poverenje": "visoko"
+  },
+  {
+   "nalaz": "proslaak zapecene zemlje 0,05 m preko poda w-1 sa vecim komadima fresaka",
+   "znacaj": "DOKAZ MEDJUSPRATNE KONSTRUKCIJE stradale u pozaru — argument za spratnost vile",
+   "izvor": "iskopi-2010-2011, 3.1.2",
+   "poverenje": "srednje-visoko",
+   "napomena_poverenja": "jedan proslojak u jednoj prostoriji; obim spratnosti ostaje otvoren"
+  },
+  {
+   "nalaz": "bronzana drska u obliku poprsja zenske figure (sl. 28)",
+   "kontekst": "pokretni materijal 2010/11",
+   "izvor": "iskopi-2010-2011",
+   "poverenje": "visoko"
   }
  ],
  "genetika": {
@@ -654,6 +704,14 @@
    "status": "resen",
    "poverenje": "visoko",
    "izvor": "iskopi-2010-2011 + carska-ideologija"
+  },
+  {
+   "tema": "spratnost vile sa peristilom",
+   "a": "analogija Casale: 1 sprat + moguci termalni sprat (prostorni sloj v0.3, poverenje NISKO)",
+   "b": "proslojak zapecene zemlje 0,05 m preko poda w-1 tretiran kao ostatak medjuspratne konstrukcije stradale u pozaru (Starinar 64/2014, 3.1.2)",
+   "status": "delimicno resen",
+   "resenje": "postojanje medjuspratne konstrukcije u w-1 sada ima terenski dokaz; opseg spratnosti (deba vile?) ostaje otvoren — poverenje podize se sa nisko na srednje za \"barem jedan sprat iznad w-1\"",
+   "poverenje": "srednje"
   }
  ],
  "rupe_za_rekonstrukciju": [

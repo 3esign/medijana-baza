@@ -1,6 +1,6 @@
 {
  "svrha": "Digitalni pasos Konstantinove vile (Medijana) — strukturisana 'vila znanja': materijali, uticaji, graditelji/alati, slojevi poverenja. Cilj: da iz ovog fajla (uz ostale u folderu) 3D rekonstrukcija moze nastati bez dodatnog coveka-u-petlji.",
- "verzija": "0.10",
+ "verzija": "0.11",
  "datum": "2026-10-25",
  "autor": "Svemir / dr Poturak Semir",
  "identitet": {
@@ -169,6 +169,24 @@
   {
    "tekst": "mozaik sobe 2 vile sa oktogonom: sredina mramorne ploce sa fontanom — kombinacija mramor + mozaik + voda u jednoj sobi (v0.9, monografija)",
    "poverenje": "srednje"
+  },
+  {
+   "nalaz": "tubulusima — zidno grejanje potvrdjeno revizionim iskopavanjima sektora 4",
+   "izvor": "iskopi-2010-2011",
+   "poverenje": "visoko",
+   "3d_hint": "sistem cevi u debeljini zidova, paralelno sa hipokaustom poda"
+  },
+  {
+   "nalaz": "dvostruke podnice e-23 (malmerna 198.95 preko opeka 198.82)",
+   "znacaj": "rekonstrukcija faza: stariji hipokaust negiran, novi pod preko",
+   "izvor": "iskopi-2010-2011",
+   "poverenje": "visoko"
+  },
+  {
+   "nalaz": "stubovi juznog tremca od OPEKE na kamenim bazama; baza zapadnog stuba ulaza u sondi 101 sa otiskom u zidu z-50",
+   "znacaj": "prvi materijal i presek stubova vile iz terena",
+   "izvor": "iskopi-2010-2011",
+   "poverenje": "visoko"
   }
  ],
  "teorije_rekonstrukcije": {
@@ -209,13 +227,15 @@
     "naziv": "vizuelni izvori (Commons, iskopni planovi)",
     "opis": "potrebno jos",
     "postignuto": false,
-    "napomena_v010": "dekorativni sloj dobio prvi program: skulpturni program (skulpturski_program.json) + mozaicki motivi Fluvius i Meduza sa pozicijama"
+    "napomena_v010": "dekorativni sloj dobio prvi program: skulpturni program (skulpturski_program.json) + mozaicki motivi Fluvius i Meduza sa pozicijama",
+    "napomena_v011": "registar svih 31 slike Starinara 64/2014 popisan iz potpisa (sonde_sloj.registar_slika): profili sondi 2,3,4,7,8,11 + situacioni plan Sl. 1 — slike i dalje bez geometrije, samo opisi"
    },
    {
     "nivo": 6,
     "naziv": "GIS osnova objekata A-D",
     "opis": "nigde javno — rupe",
-    "postignuto": false
+    "postignuto": false,
+    "napomena_v011": "temelj severnog zida 197.94 + sokl 198.02 + podovi 198.70-198.94 (v0.11): vertikalna osnova vile sada izmerena i povezana sa DEM"
    },
    {
     "nivo": 7,

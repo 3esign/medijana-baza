@@ -1,149 +1,657 @@
 {
-  "svrha": "Veza iskopnih sondi 2010/2011 sa objektima (stubovima) i stratigrafijom — vertikalna osnova za 3D: kote, slojevi i horizonti kao dokaz visina i hronologije",
-  "verzija": "0.10",
-  "datum": "2026-10-25",
-  "autor": "Svemir (za dr Poturak Semira)",
-  "izvor_glavni": {
-    "id": "iskopavanja-2010-2011",
-    "rad": "M. Vasic, G. Milosevic, N. Gavrilovic, Iskopavanja Medijane u 2010. i 2011. godini, Starinar 64/2014, 231-263",
-    "url": "https://rai.ai.ac.rs/handle/123456789/210",
-    "tekst": "pdf/milosevic_iskopi.txt",
-    "doi": "10.2298/STA1464231V",
-    "napomena": "devet meseci iskopavanja; plan vile sa obelezenim sondama (Sl. 1) — slika jos nije uvucena, samo tekst"
+ "svrha": "Veza iskopnih sondi 2010/2011 sa objektima (stubovima) i stratigrafijom — vertikalna osnova za 3D: kote, slojevi i horizonti kao dokaz visina i hronologije",
+ "verzija": "0.11",
+ "datum": "2026-10-25",
+ "autor": "Svemir (za dr Poturak Semira)",
+ "izvor_glavni": {
+  "id": "iskopavanja-2010-2011",
+  "rad": "M. Vasic, G. Milosevic, N. Gavrilovic, Iskopavanja Medijane u 2010. i 2011. godini, Starinar 64/2014, 231-263",
+  "url": "https://rai.ai.ac.rs/handle/123456789/210",
+  "tekst": "pdf/milosevic_iskopi.txt",
+  "doi": "10.2298/STA1464231V",
+  "napomena": "devet meseci iskopavanja; registar svih 31 slike izvucen iz potpisa (slike_zvezda_register); Sl. 1 (plan vile sa sondama) i dalje slika bez tekstualnog sloja — geometrija seka jos nije uvucena"
+ },
+ "hakatski_okvir": "2014. navrsava se 150 godina istrazivackih radova — iskopavanja zapoceta 1864. skromnim iskopavanjima Feliksa Kanica",
+ "hronologija_horizonti": [
+  {
+   "horizont": 1,
+   "period": "prve decenije 4. veka",
+   "sadrzaj": "vila sa peristilom u svom OSNOVNOM planu — suprotno ranijim misljenjima",
+   "implikacija": "osnova vile starija od 330; prepravke dolaze tek u horizontu 2",
+   "poverenje": "visoko",
+   "izvor": "apstrakt Starinar 64/2014"
   },
-  "hakatski_okvir": "2014. navrsava se 150 godina istrazivackih radova — iskopavanja zapoceta 1864. skromnim iskopavanjima Feliksa Kanica",
-  "hronologija_horizonti": [
+  {
+   "horizont": 2,
+   "period": "330-378",
+   "sadrzaj": "naknadne prepravke: stibadijumi A i B, severne prostorije",
+   "poverenje": "visoko",
+   "poklapanje": "identicno opsegu 'druga faza AD 330-378' iz Stibadium B 2016 — dva nezavisna rada, isti opseg"
+  },
+  {
+   "horizont": 3,
+   "period": "380 - 441/443",
+   "sadrzaj": "zgrade podignute posle 380 (sloj tegula i imbreksa njihovih krovova u sondama severozapadnog sektora)",
+   "poverenje": "visoko"
+  }
+ ],
+ "sektori": [
+  {
+   "id": "sektor-1-severozapadno",
+   "naziv": "Sonde severozapadno od severne fasade vile",
+   "sonde": [
+    "72",
+    "73",
+    "88",
+    "90",
+    "86",
+    "87",
+    "42/2004",
+    "89",
+    "91"
+   ],
+   "redosled": "od zapada ka istoku: 72 i 73; 88 i 90; 86 i 87; 42/2004, 89 i 91",
+   "napomena": "iznad sondi 72, 73, 88 i 90 prolazio je noviji put ka selu Donji Vrezina i Dokumentacionom centru — recentni slojevi; nad sondama 42, 89, delom 90 (mozda 86, 87) deponovana zemlja sa iskopavanja svecane dvorane",
+   "veze_na_stubove": [
+    "vila-peristil",
+    "stibadium-B"
+   ],
+   "poverenje": "visoko"
+  },
+  {
+   "id": "sektor-2-severoistocno",
+   "naziv": "Sonde severoistocno od severne fasade vile",
+   "sonde": [
+    "71",
+    "97",
+    "98",
+    "103",
+    "104"
+   ],
+   "napomena": "nasuti sloj ranijih iskopavanja + bastavrt i voćnjak porodice Milic; stratigrafija jednostavnija nego u sektoru 1",
+   "poverenje": "visoko",
+   "prostor": "istočno od istočne fasade zgrade Muzeja i severni deo fasade vile",
+   "veze_na_stubove": [
+    "vila-peristil",
+    "zgrade-oko-stibadiuma-B"
+   ],
+   "kljucevi_nalazi": [
+    "temelj severnog zida vile ispitan: ukopan do kote 197.94 — PRVA DUBINA TEMELJA u bazi",
+    "sokl severne fasade na koti 198.02",
+    "prefurnijum za prostorije 22 i 23 (nije zabelezen u iskopavanjima 1978-1979, konzervacijom negiran): malterna podloga 198.54 (sever) → 198.36 (jug, otvori hipokausta)",
+    "zid 7d od oblutaka vezanih blatom, prolazi kroz sonde 97, 98, 104, kruna ~198.8 — odgovara zidovima 2 i 3 (sonde 72/3, 88, 90) i zidu u sondi 91",
+    "jama za otpatke u sondi 103: 198.76 → dno 197.38, srednjovekovna keramika — kasnoanticki horizonti 2 i 3 sastaju se sa srednjim vekom na istom nivou"
+   ],
+   "novac": [
     {
-      "horizont": 1,
-      "period": "prve decenije 4. veka",
-      "sadrzaj": "vila sa peristilom u svom OSNOVNOM planu — suprotno ranijim misljenjima",
-      "implikacija": "osnova vile starija od 330; prepravke dolaze tek u horizontu 2",
-      "poverenje": "visoko",
-      "izvor": "apstrakt Starinar 64/2014"
+     "sonda": "97",
+     "sloj": "C",
+     "kota_m_nmv": 198.86,
+     "dateranje": "355-361"
     },
     {
-      "horizont": 2,
-      "period": "330-378",
-      "sadrzaj": "naknadne prepravke: stibadijumi A i B, severne prostorije",
-      "poverenje": "visoko",
-      "poklapanje": "identicno opsegu 'druga faza AD 330-378' iz Stibadium B 2016 — dva nezavisna rada, isti opseg"
+     "sonda": "97",
+     "sloj": "C",
+     "kota_m_nmv": 198.91,
+     "dateranje": "364-375"
     },
     {
-      "horizont": 3,
-      "period": "380 - 441/443",
-      "sadrzaj": "zgrade podignute posle 380 (sloj tegula i imbreksa njihovih krovova u sondama severozapadnog sektora)",
-      "poverenje": "visoko"
+     "sonda": "98",
+     "sloj": "C",
+     "kota_m_nmv": 198.84,
+     "dateranje": "4. vek"
+    },
+    {
+     "sonda": "98",
+     "sloj": "C",
+     "kota_m_nmv": 198.76,
+     "dateranje": "355-361"
+    },
+    {
+     "sonda": "103",
+     "sloj": "C",
+     "kota_m_nmv": 198.85,
+     "dateranje": "330-335"
+    },
+    {
+     "sonda": "104",
+     "sloj": "C",
+     "kota_m_nmv": 198.81,
+     "dateranje": "294-307 (najstariji novac sektora 2)"
     }
-  ],
-  "sektori": [
+   ],
+   "slike": [
+    "sl.7",
+    "sl.10",
+    "sl.18"
+   ]
+  },
+  {
+   "id": "sektor-3-severozapadne-prostorije",
+   "naziv": "Severozapadne prostorije",
+   "sonde": [
+    "45",
+    "46"
+   ],
+   "napomena": "sve prostorije imaju podove od opeka ili maltera; na podove padala konstrukcija tavanice pa krovna konstrukcija; u w-24a, delu w-24 i w-22 rusenje racisceno do podova, drugde ostavljeno kao gazna povrsina horizonta 3",
+   "poverenje": "visoko",
+   "prostorije": [
+    "w-1",
+    "w-22",
+    "w-24",
+    "w-24a",
+    "deo w-25"
+   ],
+   "veze_na_stubove": [
+    "vila-peristil",
+    "stibadium-B"
+   ],
+   "podovi_m_nmv": {
+    "w-1": 198.7,
+    "w-22": 198.7,
+    "w-24 istok": 198.79,
+    "w-24 zapad": 198.78,
+    "w-24a": 198.81
+   },
+   "kljucevi_nalazi": [
+    "w-1: baza stuba peristila u sekundarnoj upotrebi (kota 199.33) i glava mramorne skulpture Venere (S-4/11, sl. 30) polozena na desni obraz, lice ka severu, kota 199.12",
+    "w-1: gvozdeni vrh koplja (C-2) na koti 199.14; ostaci fresko-maltera in situ na licu zidova 29, 32 i 41 na koti 199.33",
+    "w-1: proslojak zapecene zemlje 0,05 m preko poda — ostatak medjuspratne konstrukcije stradale u pozaru (DOKAZ SPRATNOSTI)",
+    "w-22: kruna zida 33 na 199.56, zida 32 na 199.66; hipokaust probijan i koriscen, u ukopu srednjovekovna keramika",
+    "w-24/24a: sloj D sadrzi nivo intenzivnog rusenja sa obrasenim krovnim opekama, malternom podnicom i fragmentima mramorne obloge (zona 1) + velike kolicine mozaickih kockica"
+   ],
+   "slojevi_tabela3_sonda46_p22_24": [
     {
-      "id": "sektor-1-severozapadno",
-      "naziv": "Sonde severozapadno od severne fasade vile",
-      "sonde": ["72", "73", "88", "90", "86", "87", "42/2004", "89", "91"],
-      "redosled": "od zapada ka istoku: 72 i 73; 88 i 90; 86 i 87; 42/2004, 89 i 91",
-      "napomena": "iznad sondi 72, 73, 88 i 90 prolazio je noviji put ka selu Donji Vrezina i Dokumentacionom centru — recentni slojevi; nad sondama 42, 89, delom 90 (mozda 86, 87) deponovana zemlja sa iskopavanja svecane dvorane",
-      "veze_na_stubove": ["vila-peristil", "stibadium-B"],
-      "poverenje": "visoko"
+     "sloj": "humus+A",
+     "od_m_nmv": 200.6
     },
     {
-      "id": "sektor-2-severoistocno",
-      "naziv": "Sonde severoistocno od severne fasade vile",
-      "sonde": [],
-      "napomena": "sektor postoji u podeli, sonde iz teksta jos nisu izvucene",
-      "poverenje": "srednje"
+     "sloj": "B",
+     "od_m_nmv": 199.99,
+     "do_m_nmv": 199.79
     },
     {
-      "id": "sektor-3-severozapadne-prostorije",
-      "naziv": "Severozapadne prostorije",
-      "sonde": [],
-      "napomena": "sektor postoji u podeli, sonde iz teksta jos nisu izvucene",
-      "poverenje": "srednje"
+     "sloj": "C",
+     "od_m_nmv": 199.99,
+     "do_m_nmv": 199.09
     },
     {
-      "id": "sektor-4-severoistocne-prostorije",
-      "naziv": "Severoistocne prostorije",
-      "sonde": [],
-      "napomena": "sektor postoji u podeli, sonde iz teksta jos nisu izvucene",
-      "poverenje": "srednje"
+     "sloj": "D",
+     "do_m_nmv": 198.8
     },
     {
-      "id": "sektor-5-jugozapadne-prostorije",
-      "naziv": "Jugozapadne prostorije",
-      "sonde": [],
-      "napomena": "sektor postoji u podeli, sonde iz teksta jos nisu izvucene",
-      "poverenje": "srednje"
+     "sloj": "E",
+     "do_m_nmv": 198.7
     }
-  ],
-  "sonde_sa_vezom": [
+   ],
+   "slojevi_tabela4_sonda45_p24_24a": [
     {
-      "sonda": "42/2004",
-      "objekat": "vila-peristil (svecana dvorana/aula)",
-      "sadrzaj": "prefurnijum i otvor hipokausta svecane dvorane/triklinijuma; nivo se spusta ka otvoru hipokausta",
-      "poverenje": "visoko"
+     "sloj": "humus+A",
+     "od_m_nmv": 200.46,
+     "do_m_nmv": 200.13
     },
     {
-      "sonda": "45",
-      "objekat": "vila-peristil (prostorija 24a)",
-      "kota_m_nmv": 198.96,
-      "novac": "364-367",
-      "poverenje": "visoko"
+     "sloj": "B",
+     "od_m_nmv": 200.13,
+     "do_m_nmv": 199.63
     },
     {
-      "sonda": "46",
-      "objekat": "stibadium-B",
-      "sadrzaj": "ulaz u stibadijum B",
-      "kota_m_nmv": 198.85,
-      "novac": "382-389",
-      "poverenje": "visoko"
+     "sloj": "C",
+     "od_m_nmv": 199.63,
+     "do_m_nmv": 199.43
     },
     {
-      "sonda": "88",
-      "objekat": "zgrade oko stibadiuma B (zidovi 2 i 3)",
-      "sadrzaj": "temelji zidova od oblutaka vezanih blatom, ukopani u sloj D; kruna zida kota 199.13, sokl 198.65; gornji nivo sloja D stambeni nivo",
-      "poverenje": "visoko"
-    },
-    {
-      "sonda": "90",
-      "objekat": "zgrade oko stibadiuma B (zid)",
-      "kota_kruna_m_nmv": 199.13,
-      "kota_sokl_m_nmv": 198.65,
-      "poverenje": "visoko"
-    },
-    {
-      "sonda": "prefurnijum stibadijuma B",
-      "objekat": "stibadium-B",
-      "kota_m_nmv": 198.51,
-      "novac": "364-375",
-      "poverenje": "visoko"
+     "sloj": "zapečena zemlja",
+     "do_m_nmv": 198.84
     }
-  ],
-  "stratigrafija_sektor_1": [
+   ],
+   "slike": [
+    "sl.8",
+    "sl.12",
+    "sl.13",
+    "sl.14"
+   ]
+  },
+  {
+   "id": "sektor-4-severoistocne-prostorije",
+   "naziv": "Severoistocne prostorije",
+   "sonde": [
+    "e-22 kontrolna 1",
+    "e-22 kontrolna 2",
+    "e-23 kontrolna 1",
+    "e-23 kontrolna 2",
+    "70"
+   ],
+   "napomena": "prostorije iskopavane u ranijim istrazivanjima — 2010/11 samo reviziona iskopavanja; potvrdjen hipokaustni sistem podnog i zidnog grejanja tubulusima",
+   "poverenje": "visoko",
+   "prostorije": [
+    "e-22",
+    "e-23",
+    "e-24"
+   ],
+   "veze_na_stubove": [
+    "vila-peristil"
+   ],
+   "kote_m_nmv": {
+    "e-22 malterni pod": 198.94,
+    "e-22 proslojak podnice (?)": 198.6,
+    "e-22 podnica ispod hipokausta": 198.29,
+    "e-22 ks-2 poplocanje jug": 198.77,
+    "e-22 ks-2 podnica istok": 198.75,
+    "e-23 zid Z7": 198.67,
+    "e-23 supstrukcija poda": 198.63,
+    "e-23 opeka in situ (originalni pod)": 198.7,
+    "e-23 ks-2 gornja maltarna podnica": 198.95,
+    "e-23 ks-2 donja podnica od opeka": 198.82,
+    "e-24 sonda 70 pod od opeka / zuta podnica": 198.9
+   },
+   "kljucevi_nalazi": [
+    "DVOSTRUKE PODNICE u e-23 (malmerna 198.95 preko opeka 198.82) — hipokaust u jednom trenutku negiran, na stariji postavljen novi pod; sloj sut izmedju njih = supstrukcija",
+    "e-22: stariji pod od opeka lezi na DVA paralelna zida sa stubicima izmedju — hipokaustna konstrukcija",
+    "e-24 (sonda 70): sut sa krupnim fragmentima kamena, opeke i maltera = ostaci gradnje muzejske zgrade 1936; sonde dimenzije AB 3,20 / CD 3,07 / AC 7,70 / BD 7,53 m"
+   ],
+   "slike": [
+    "sl.9",
+    "sl.10"
+   ]
+  },
+  {
+   "id": "sektor-5-jugozapadne-prostorije",
+   "naziv": "Jugozapadne prostorije",
+   "sonde": [
+    "78 (w-21)",
+    "75 (w-9)",
+    "76 (w-10)",
+    "77 (w-11)",
+    "79 (w-12 zapad)",
+    "107 (sredina 12)",
+    "80 (e-12)",
+    "81",
+    "83",
+    "84",
+    "86",
+    "101 (ulaz)",
+    "82 (revizija)",
+    "105 (revizija)"
+   ],
+   "napomena": "jedini sektor BEZ podova od opeka ili maltera — nabijena zemlja (gornji nivo sloja D); novac iz ZATVORENE celine (sloj C preko sloja D) vecina 364-375 → rusenje vile 378 (provala Gota posle hadrijanopolske bitke) — najjaca hronoloska sidra u bazi",
+   "poverenje": "visoko",
+   "veze_na_stubove": [
+    "vila-peristil",
+    "kapija-aleja"
+   ],
+   "kljucevi_nalazi": [
+    "olovna vodovodna cev u prostoriji 12 (sonda 107): kota 198.49, provlaci se kroz sondu 80 — DRUGA fizicka tacka olovnog vodovoda u bazi (posle fontane nimfej)",
+    "sonda 80 (e-12): cev u blagom luku ~5 m, pravac SZ-JI, PROLAZI KROZ OSNOVU zida 59 → postavljena u toku izgradnje zida; osnova zida na 198.40",
+    "\"kada\" izmedju zidova 17, 19 i 59: 1,6 × 1,5 m, obloga od krecnog maltera vezana za sva tri zida; pripada medijanskom horizontu 3 (posle 380); presecena bunarom",
+    "bunar: gornja ivica 198.2, dno 196.05 — NAJNIZA KOTA U CEOJ BAZI; dubina ~2,15 m, gornji precnik 1,35 m; na dnu cetiri nagorele daske (kvadratna konstrukcija); kasnosrednjovekovna zelenglasana keramika u gornjim slojevima",
+    "juzni tremca: stubovi od OPEKE na kamenim bazama sacuvanim duz juznog zida; prvobitni tremca bio PROSIREN prema jugu (od starijeg sacuvan temelj)",
+    "sonda 101 (ulaz u vilu): baza zapadnog stuba ulaza + OTISAK stuba u zidu z-50 — direktno merilo preseka stuba"
+   ],
+   "slojevi_tabela5": [
     {
-      "sloj": "A",
-      "sadrzaj": "humus mesan sa slojem šuta (noviji put + deponovana zemlja sa iskopavanja)",
-      "poverenje": "visoko"
+     "sloj": "put (recentni)",
+     "od_m_nmv": 199.6
     },
     {
-      "sloj": "B",
-      "sadrzaj": "jak sloj šuta — nastao vadjenjem zidova vile",
-      "poverenje": "visoko"
+     "sloj": "humus+A",
+     "od_m_nmv": 199.37
     },
     {
-      "sloj": "C",
-      "sadrzaj": "sloj tegula i imbreksa sa krovova zgrada podignutih u TRECEM horizontu, posle ~380 (u dnevnicima prvobitno 'nivo a' i 'nivo b'); najvisi u sondama 88 i 90, pada ka zapadnoj ivici sondi 72/3",
-      "poverenje": "visoko"
+     "sloj": "B",
+     "od_m_nmv": 199.43,
+     "do_m_nmv": 198.55
     },
     {
-      "sloj": "D",
-      "sadrzaj": "u njega ukopani temelji zida 1 pravca severoistok-jugozapad, severno od stibadijuma B; gornji nivo sloja D = stambeni nivo zgrada oko stibadijuma B; u sondama 72 i 73 dostizao do kote ~198.7 i nalegao na najstariju malterenu podnicu",
-      "poverenje": "visoko"
+     "sloj": "C",
+     "od_m_nmv": 198.55,
+     "do_m_nmv": 198.39
+    },
+    {
+     "sloj": "D",
+     "od_m_nmv": 198.39,
+     "do_m_nmv": 197.45
     }
+   ],
+   "novac": [
+    {
+     "sonda": "78",
+     "prostorija": "w-21/22",
+     "sloj": "sokl",
+     "kota_m_nmv": 198.59,
+     "dateranje": "364-375"
+    },
+    {
+     "sonda": "75",
+     "prostorija": "w-9",
+     "sloj": "B",
+     "kota_m_nmv": 198.75,
+     "dateranje": "335-336"
+    },
+    {
+     "sonda": "75",
+     "prostorija": "w-9",
+     "sloj": "C",
+     "kota_m_nmv": 198.49,
+     "dateranje": "271-275 (najstariji novac u celoj bazi — pre vile)"
+    },
+    {
+     "sonda": "76",
+     "prostorija": "w-10",
+     "sloj": "B",
+     "kota_m_nmv": 198.52,
+     "dateranje": "355-361"
+    },
+    {
+     "sonda": "76",
+     "prostorija": "w-10",
+     "sloj": "B",
+     "kota_m_nmv": 198.54,
+     "dateranje": "355-361"
+    },
+    {
+     "sonda": "w-21",
+     "prostorija": "w-21",
+     "sloj": "D",
+     "kota_m_nmv": 198.45,
+     "dateranje": "364-375 (2011, vise primeraka 198.45-198.52)"
+    },
+    {
+     "sonda": "w-21",
+     "prostorija": "w-21",
+     "sloj": "D",
+     "kota_m_nmv": 198.52,
+     "dateranje": "360-361"
+    }
+   ],
+   "slike": [
+    "sl.11",
+    "sl.19",
+    "sl.20",
+    "sl.21",
+    "sl.22",
+    "sl.23",
+    "sl.24"
+   ]
+  }
+ ],
+ "sonde_sa_vezom": [
+  {
+   "sonda": "42/2004",
+   "objekat": "vila-peristil (svecana dvorana/aula)",
+   "sadrzaj": "prefurnijum i otvor hipokausta svecane dvorane/triklinijuma; nivo se spusta ka otvoru hipokausta",
+   "poverenje": "visoko"
+  },
+  {
+   "sonda": "45",
+   "objekat": "vila-peristil (prostorija 24a)",
+   "kota_m_nmv": 198.96,
+   "novac": "364-367",
+   "poverenje": "visoko"
+  },
+  {
+   "sonda": "46",
+   "objekat": "stibadium-B",
+   "sadrzaj": "ulaz u stibadijum B",
+   "kota_m_nmv": 198.85,
+   "novac": "382-389",
+   "poverenje": "visoko"
+  },
+  {
+   "sonda": "88",
+   "objekat": "zgrade oko stibadiuma B (zidovi 2 i 3)",
+   "sadrzaj": "temelji zidova od oblutaka vezanih blatom, ukopani u sloj D; kruna zida kota 199.13, sokl 198.65; gornji nivo sloja D stambeni nivo",
+   "poverenje": "visoko"
+  },
+  {
+   "sonda": "90",
+   "objekat": "zgrade oko stibadiuma B (zid)",
+   "kota_kruna_m_nmv": 199.13,
+   "kota_sokl_m_nmv": 198.65,
+   "poverenje": "visoko"
+  },
+  {
+   "sonda": "prefurnijum stibadijuma B",
+   "objekat": "stibadium-B",
+   "kota_m_nmv": 198.51,
+   "novac": "364-375",
+   "poverenje": "visoko"
+  }
+ ],
+ "stratigrafija_sektor_1": [
+  {
+   "sloj": "A",
+   "sadrzaj": "humus mesan sa slojem šuta (noviji put + deponovana zemlja sa iskopavanja)",
+   "poverenje": "visoko"
+  },
+  {
+   "sloj": "B",
+   "sadrzaj": "jak sloj šuta — nastao vadjenjem zidova vile",
+   "poverenje": "visoko"
+  },
+  {
+   "sloj": "C",
+   "sadrzaj": "sloj tegula i imbreksa sa krovova zgrada podignutih u TRECEM horizontu, posle ~380 (u dnevnicima prvobitno 'nivo a' i 'nivo b'); najvisi u sondama 88 i 90, pada ka zapadnoj ivici sondi 72/3",
+   "poverenje": "visoko"
+  },
+  {
+   "sloj": "D",
+   "sadrzaj": "u njega ukopani temelji zida 1 pravca severoistok-jugozapad, severno od stibadijuma B; gornji nivo sloja D = stambeni nivo zgrada oko stibadijuma B; u sondama 72 i 73 dostizao do kote ~198.7 i nalegao na najstariju malterenu podnicu",
+   "poverenje": "visoko"
+  }
+ ],
+ "implikacije_3d": [
+  "vertikalna stratigrafija (slojevi A-D sa kotama) daje pravi vertikalni resek poloZaja — temelji, nivoi hodanja i rušenja po objektima, ne samo osnove",
+  "novac iz sondi (364-367, 364-375, 382-389) datira NIVOE, ne gradnju — granica izmedju datuma upotrebe i datuma izgradnje",
+  "horizont 1 (osnova vile pre 330) pomera hronologiju stuba vila-peristil: osnova 'prve decenije 4. veka', prepravke 330-378",
+  "zgrade oko stibadijuma B (zidovi 2 i 3, zid u sondi 90) su nova mikrotvorba severno od stibadijuma — kandidat za dodatni stub"
+ ],
+ "nacin_daljeg_rada": "izvuci sonde sektora 2-5 iz teksta (ostatak rada); uvuci Sl. 1 (plan sa sondama) i profile (Sl. 2-5) iz PDF-a kao slike; povezati kote sa DEM procenama prostornog sloja",
+ "registar_slika": [
+  {
+   "sl": 1,
+   "sadrzaj": "plan vile sa obelezenim sondama istrazenim u 2010. i 2011.",
+   "tip": "situacioni plan",
+   "status": "slika bez tekstualnog sloja — geometrija nije uvucena",
+   "poverenje": "-"
+  },
+  {
+   "sl": 2,
+   "sadrzaj": "severni profil sondi 73, 90, 87 (skice 239-250/11)",
+   "tip": "profil",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 3,
+   "sadrzaj": "zapadni profil sonde 86 (skica 109/11)",
+   "tip": "profil",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 4,
+   "sadrzaj": "istocni profil sonde 87 (skica 81/10)",
+   "tip": "profil",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 5,
+   "sadrzaj": "sonda 72, severni deo, nivo rusenja u sloju B-C, snimak sa istoka",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 6,
+   "sadrzaj": "severozapadni deo vile, van severne fasade",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 7,
+   "sadrzaj": "istocni profil sonde 103 (skica 241/11)",
+   "tip": "profil",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 8,
+   "sadrzaj": "istocni profil sonde prostorije w-24 (sonda 46) (skica 33/10)",
+   "tip": "profil",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 9,
+   "sadrzaj": "severoistocne prostorije: prostorija e-23, kontrolna sonda 1, osnova iskopa, snimak sa zapada",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 10,
+   "sadrzaj": "severoistocne prostorije: sonda 71, konstrukcija prefurnijuma, sa severa",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 11,
+   "sadrzaj": "istocni profil sonde 81 (skica 201/11)",
+   "tip": "profil",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 12,
+   "sadrzaj": "severozapadne prostorije 24 i 24a, snimak sa severa",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 13,
+   "sadrzaj": "sonda 45, prostorija w-24a, deo sloja rusenja sa fragmentima fresaka, snimak sa istoka",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 14,
+   "sadrzaj": "deo hipokausta i otvor zatranog prefurnijuma u prostoriji w-22, snimak s juga",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 15,
+   "sadrzaj": "severozapadni deo vile, van severne fasade, stibadijum B, pogled sa severa",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 16,
+   "sadrzaj": "detalj ornamenta mozaika iz istocnog dela stibadijuma B",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 17,
+   "sadrzaj": "sonda 90, blok A, zid z-2",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 18,
+   "sadrzaj": "severoistocni deo, van severne fasade, ostaci prostorije posle 380. godine; zid pravca sever-jug duzine 17,00 m",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 19,
+   "sadrzaj": "jugozapadni deo vile, sonda 78 - prostorija w-21 i 81, nivo rusenja",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 20,
+   "sadrzaj": "sonda 81, jugozapadni ugao vile, nivo rusenja (u pozadini sonda 78)",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 21,
+   "sadrzaj": "sonda 81, situacija na jugozapadnom uglu vile, snimak sa jugoistoka",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 22,
+   "sadrzaj": "sonda 82, u toku iskopavanja, snimak sa juga",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 23,
+   "sadrzaj": "sonda 101, osnova sonde nakon iskopavanja (u drugom planu zapadni deo juznog tremca vile), snimak sa severoistoka",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 24,
+   "sadrzaj": "sonda 101, baza zapadnog stuba ulaza u vilu, otisak u zidu z-50, snimak sa juga",
+   "tip": "snimak",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 25,
+   "sadrzaj": "fragment mermarne glave (S-282/11)",
+   "tip": "nalaz",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 26,
+   "sadrzaj": "fragment porfirne leve sake",
+   "tip": "nalaz",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 27,
+   "sadrzaj": "marmerni deo leve sake",
+   "tip": "nalaz",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 28,
+   "sadrzaj": "bronzana drska u obliku poprsja zenske figure",
+   "tip": "nalaz",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 29,
+   "sadrzaj": "kostani predmet (S-268/11)",
+   "tip": "nalaz",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 30,
+   "sadrzaj": "marmerna glava Venere (S-4/11)",
+   "tip": "nalaz",
+   "poverenje": "visoko"
+  },
+  {
+   "sl": 31,
+   "sadrzaj": "kasnolatenska fibula s posuvracenom nogom (prerimski nalaz na Medijani)",
+   "tip": "nalaz",
+   "poverenje": "visoko"
+  }
+ ],
+ "kota_dem_veza": {
+  "metod": "izmerene kote (n.m.v.) iz iskopavanja 2010/2011 proveravaju DEM procene iz v0.3",
+  "potvrde": [
+   "stibadium B temelj dno 198.92 (v0.8) — u opsegu DEM vile 195-199",
+   "severni zid vile temelj dno 197.94, sokl 198.02 — dno temelja ISPOD srednje DEM vrednosti (~197-198): temelji idu u zdravicu, 3D osnova mora kreniti sa 198, ne sa terenom",
+   "podovi prostorija vile 198.70-198.94 (sek. 3 i 4) — uz板 ~0,7-0,9 m iznad dna temelja",
+   "castellum aquae procena 206 m (DEM, srednje) ostaje iznad svih kota vile — gravitaciona konzistentnost vodenog sloja i dalje vazi"
   ],
-  "implikacije_3d": [
-    "vertikalna stratigrafija (slojevi A-D sa kotama) daje pravi vertikalni resek poloZaja — temelji, nivoi hodanja i rušenja po objektima, ne samo osnove",
-    "novac iz sondi (364-367, 364-375, 382-389) datira NIVOE, ne gradnju — granica izmedju datuma upotrebe i datuma izgradnje",
-    "horizont 1 (osnova vile pre 330) pomera hronologiju stuba vila-peristil: osnova 'prve decenije 4. veka', prepravke 330-378",
-    "zgrade oko stibadijuma B (zidovi 2 i 3, zid u sondi 90) su nova mikrotvorba severno od stibadijuma — kandidat za dodatni stub"
-  ],
-  "nacin_daljeg_rada": "izvuci sonde sektora 2-5 iz teksta (ostatak rada); uvuci Sl. 1 (plan sa sondama) i profile (Sl. 2-5) iz PDF-a kao slike; povezati kote sa DEM procenama prostornog sloja"
+  "najniza_kota_baze": {
+   "vrednost_m_nmv": 196.05,
+   "sta": "dno bunara u e-12 (kasni srednji vek)",
+   "napomena": "nije anticka konstrukcija — ne ulazi u 3D vile"
+  },
+  "najvisa_kota_baze": {
+   "vrednost_m_nmv": 200.6,
+   "sta": "recentni put iznad sonde 46 (sektor 3)"
+  }
+ }
 }

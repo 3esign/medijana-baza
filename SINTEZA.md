@@ -92,7 +92,7 @@ Proboj: cela monografija (108 str., Vasić/Milošević/Gavrilović Vitas/Crnogla
 
 Dva nova sloja, oba iz primarnih radova već skinutih sa Arheološkog instituta:
 
-- **`skulpturski_program.json`** (iz Milošević, *Carska ideologija*) — program po lokaciji: forum Naisusa (porfirna kompozicija dijarhije Konstantin–Licinije 311–316; pozlaćena bronzana statua Konstantina, posveta 329 ili 334), **Dea Dardanica na ulazu vile** (~330, dea patriae, veza sa Konstancijem Hlorom), iatrijski par **Eskulap–Higija** kao najbrojnija grupa (porfirne statue sa grčkim natpisima = **uvoz**), Dionis–Herkul–Merkur u istom skupnom nalazu, Artemida/Dijana, bahanantkinje, Afrodita Sosandra, Venera/Dijana. **Pravilo za rekonstrukciju:** skulpture uglavnom dekapitirane — broj glava NI merilo broja statua. Mozaik program sa pozicijama: **Fluvius na ulazu u aulu, Meduza u središnjem delu**, freske 4 SZ prostorije imitiraju parapetne mermerne ploče (nezavisna potvrda mermernе oplate), pozlata kupole zapadnog stibadijuma.
+- **`skulpturski_program.json`** (iz Milošević, *Carska ideologija*) — program po lokaciji: forum Naisusa (porfirna kompozicija dijarhije Konstantin–Licinije 311–316; pozlaćena bronzana statua Konstantina, posveta 329 ili 334), **Dea Dardanica na ulazu vile** (~330, dea patriae, veza sa Konstancijem Hlorom), iatrijski par **Eskulap–Higija** kao najbrojnija grupa (porfirne statue sa grčkim natpisima = **uvoz**), Dionis–Herkul–Merkur u istom skupnom nalazu, Artemida/Dijana, bahanantkinje, Afrodita Sosandra, Venera/Dijana. **Pravilo za rekonstrukciju:** skulpture uglavnom dekapitirane — broj glava NI merilo broja statua. Mozaik program sa pozicijama: **Fluvius na ulazu u aulu, Meduza u središnjem delu**, freske 4 SZ prostorije imitiraju parapetne mermerne ploče (nezavisna potvrda mermerne oplate), pozlata kupole zapadnog stibadijuma.
 - **`sonde_sloj.json`** (iz Vasić/Milošević/Gavrilović, Starinar 64/2014) — 5 iskopnih sektora; veza sondi na stubove (sonda 42 → hipokaust aule, 45 → prostorija 24a, 46 → ulaz u stibadium B, 88/90 → zgrade oko stibadijuma B); slojevi A–D sa kotama; **tri horizonta**: 1) prve decenije 4. veka — osnovni plan vile (suprotno ranijim mišljenjima), 2) 330–378 — prepravke (stibadijumi A i B), 3) 380–441/443. Novac iz sondi datira NIVOE, ne gradnju.
 
 **19. 3D stub:** `zgrade-oko-stibadiuma-B` — temelji od oblutaka, kruna zida 199.13 m, sokl 198.65 m (sonde 88 i 90) — drugi objekat uz stibadium B sa stvarnim kotama.
@@ -105,3 +105,14 @@ Dva nova sloja, oba iz primarnih radova već skinutih sa Arheološkog instituta:
 **Digitalni pasoš:** + porfir (uvoz dokazan natpisima), + uticaji: carski adventus i ceremonijal Dioklecijana (kapija-slavoluk → salutatorium → peristil → consitorium, proskineza), solarni kult uz dvorsko hrišćanstvo, dardanska dinastijska ideologija.
 
 Validator: **0 grešaka / 0 upozorenja.** Otvoreno: sonde sektora 2–5 u tekstu još nisu izvučene; Sl. 1–5 (plan sa sondama + profili) čekaju uvlačenje iz PDF-a.
+
+## v0.11 — sonde sektora 2-5, izmerena vertikala vile (Starinar 64/2014, tekst)
+
+- **Sektor 2 (severoistocno):** sonde 71, 97, 98, 103, 104. Temelj severnog zida ukopan do **197,94** — prva dubina temelja u bazi; sokl 198,02; prefurnijum za prostorije 22/23 (nije bio zabelezen 1978-79): podloga 198,54 ka 198,36; zid 7d od oblutaka, kruna ~198,8; jama u sondi 103 do 197,38 sa srednjovekovnom keramikom.
+- **Sektor 3 (severozapadne prostorije):** sonde 45, 46; prostorije w-1, w-22, w-24, w-24a. Podovi 198,70-198,81. Glava Venere na 199,12; vrh koplja na 199,14; fresko in situ na 199,33. **Proslojak zapecene zemlje 0,05 m preko poda w-1 = dokaz medjuspratne konstrukcije** (novi konflikt "spratnost" — delimicno resen).
+- **Sektor 4 (severoistocne prostorije, revizija):** e-22, e-23, e-24. Dvostruke podnice e-23 (198,95 preko 198,82) — hipokaust negiran pa novi pod; potvrdjeni tubulusima (zidno grejanje).
+- **Sektor 5 (jugozapad + ulaz):** jedini sektor bez podova — nabijena zemlja; novac iz zatvorene celine 364-375 → rusenje **378**. **Olovna cev** kota 198,49 (sonda 107) koja **prolazi kroz osnovu zida 59** (198,40) — voda uvadjena u zid. Kada 1,6x1,5 m i bunar do 196,05 (najniza kota baze, kasni srednji vek). Stubovi tremca od opeke na kamenim bazama; otisak stuba u zidu z-50 (sonda 101).
+- **Novac pre vile:** 271-275 (sonda 75) i 294-307 (sonda 104) — aktivnost na Medijani pre prve decenije 4. veka.
+- **Kota-DEM veza:** sve izmerene kote (197,94-200,6) potvrdjuju DEM opseg 195-199 za vilu; castellum ~206 i dalje iznad — gravitacija vazi.
+- **Registar slika Sl. 1-31** popisan iz potpisa; Sl. 1 (situacioni plan sa sondama) i dalje bez geometrije.
+- Prerimski nalaz: **kasnolatenska fibula** (sl. 31) — zivot na Medijani pre Rima.

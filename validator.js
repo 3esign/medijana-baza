@@ -118,6 +118,35 @@ if(sn){
   if(!s46)greske.push('sonde sloj: nema sonde 46 (ulaz u stibadium B)');
 }
 
+
+// v0.11: sektori 2-5 popunjeni, kote u fizickom opsegu, veza kota⇄DEM
+{
+  for(const s of sn.sektori||[]){
+    if(!Array.isArray(s.sonde)||s.sonde.length===0)greske.push('sonde sloj: sektor '+(s.id||'?')+' i dalje bez sondi');
+  }
+  // kote u fizickom opsegu Niske kotline (~196-212)
+  const kote=[];
+  const seti=(o)=>{ if(typeof o==='number')return; if(Array.isArray(o)){o.forEach(seti);return;} if(o&&typeof o==='object'){for(const [k,v] of Object.entries(o)){ if(/kota|m_nmv/.test(k)&&typeof v==='number')kote.push({gde:k,v}); else seti(v);} } };
+  seti(sn); seti(vod);
+  for(const {gde,v} of kote){
+    if(v<194||v>212)greske.push('kota van opsega ('+v+' m u '+gde+') — proveri jedinicu');
+  }
+  // vila: izmerena vertikala mora postojati i slaziti se sa sektorom 2
+  const vp=(prostor?.objekti_3d_stubi||[]).find(o=>o.id==='vila-peristil');
+  if(!vp||!vp.izmerene_kote_m_nmv)greske.push('vila-peristil bez izmerenih kota (v0.11)');
+  else{
+    const tk=vp.izmerene_kote_m_nmv;
+    if(tk.temelj_severnog_zida_dno!==197.94)greske.push('temelj severnog zida mora biti 197.94 (sonde sektor 2 ⇄ prostorni sloj)');
+    if(tk.sokl_severne_fasade!==198.02)greske.push('sokl severne fasade mora biti 198.02');
+    if(!(tk.temelj_severnog_zida_dno < tk.podovi_prostorija.opseg[0]))greske.push('vertikalna logika: temelj mora biti ispod najnizeg poda');
+  }
+  // vodeni sloj: fizicke olovne cevi + kada + bunar
+  const vid=new Set((vod.vodena_mreza?.cvorovi||[]).map(c=>c.id));
+  for(const need of ['olovna-cev-prostorija-12','kada-e-12','bunar-e-12']) if(!vid.has(need))greske.push('vodeni sloj: nedostaje cvor '+need);
+  // registar slika
+  if(!sn.registar_slika||sn.registar_slika.length!==31)greske.push('registar slika mora imati 31 unos (Sl. 1-31)');
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

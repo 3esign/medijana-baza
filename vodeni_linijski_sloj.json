@@ -1,6 +1,6 @@
 {
  "svrha": "Linijski vodeni sloj Medijane: castellum aquae -> naselje -> fontane, kao deo 3D rekonstrukcije",
- "verzija": "0.10",
+ "verzija": "0.11",
  "datum": "2026-10-25",
  "autor": "Svemir / dr Poturak Semir",
  "primarni_izvor": {
@@ -67,7 +67,9 @@
    "tvrdnja": "Obimni i brzi radovi na rekonstrukciji i podizanje monumentalnih gradjevina u vezi sa pripremama proslave trideset godina vladavine Konstantina (Vicennalia)",
    "poverenje": "visoko",
    "implikacija": "datira glavnu fazu dekoracije na ~325/326 (vicennalia = 20 godina? autor pise 'trideset' — napomena: Vicennalia je 325/326 (20+), Tricennalia 335/336; tekst kaze 'trideset' sto odgovara Tricennaliji — konflikt za proveru)"
-  }
+  },
+  "olovna cev kroz osnovu zida 59 (sektor 5) — voda uvadjena u zid, ne preko: argument za skrivene vodove u zidovima vile (3D: cevi ne idu po podovima)",
+  "kada 1,6 x 1,5 m u e-12 na garezi nad slojem D — vodeni program horizonta 3 i posle rusenja 378"
  ],
  "vodena_mreza": {
   "cvorovi": [
@@ -133,6 +135,29 @@
     "tip": "krajnji-cvor-tehnoloski",
     "opis": "zapadni deo horreuma kasnije pregradjen pręgradnim zidovima u bazene za cedjenje i proizvodnju vina (cella vinaria); dubina bazena 1,40 m (v0.1)",
     "poverenje": "visoko"
+   },
+   {
+    "id": "olovna-cev-prostorija-12",
+    "tip": "linija-fizicki-dokaz",
+    "opis": "olovna vodovodna cev u prostoriji 12: sonda 107 kota 198.49, nastavlja se kroz sondu 80; u sonda 80 luk ~5 m pravac SZ-JI i PROLAZI KROZ OSNOVU zida 59 (postavljena pri gradnji zida), osnova 198.40",
+    "izvor": "Starinar 64/2014, sektor 5 (5.1.1 i 5.2.1)",
+    "poverenje": "visoko (izmereno, iskop)",
+    "veza_3d": "druga fizicka tacka olovnog vodovoda posle fontane-nimfej (v0.6, kadrovi VI-VII) — trasa unutar vile dobija dva zemljista tacaka"
+   },
+   {
+    "id": "kada-e-12",
+    "tip": "krajnji-cvor",
+    "opis": "\"kada\" 1,6 x 1,5 m izmedju zidova 17, 19 i 59, obloga kreznak malterom; autori pitaju \"za kupanje? kada?\"; pripada medijanskom horizontu 3 (posle 380); presecena bunarom",
+    "izvor": "Starinar 64/2014, 5.2.1",
+    "poverenje": "visoko (dimenzije), srednje (funkcija)"
+   },
+   {
+    "id": "bunar-e-12",
+    "tip": "kasnosrednjovekovni-ukop",
+    "opis": "bunar presecen sa \"kada\": gornja ivica 198.2, dno 196.05 (najniza kota u bazi), dubina ~2,15 m, precnik 1,35 m, kvadratna drvena konstrukcija na dnu; kasnosrednjovekovna zelenglasana keramika",
+    "izvor": "Starinar 64/2014, 5.2.1",
+    "poverenje": "visoko",
+    "napomena_3d": "NE ulazi u 3D antickog kompleksa — dokaz nastavka zivota na rusevinama"
    }
   ],
   "pravila_konzistentnosti_3d": [

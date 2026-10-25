@@ -1,6 +1,6 @@
 {
  "svrha": "Prostorni sloj — spaja tekstualne tvrdnje sa koordinatama, visinama i orijentacijom; polaz za 3D rekonstrukciju (digital twin).",
- "verzija": "0.10",
+ "verzija": "0.11",
  "datum": "2026-10-25",
  "autor": "Svemir / dr Poturak Semir",
  "referentni_sistem": "EPSG:4326 (WGS84), visine m n.m.v.",
@@ -66,9 +66,27 @@
    ],
    "osa": "S-J",
    "poverenje_osnove": "visoko (monografija: izduzena osnova ~6000 m2, orijentacija SZ sa blagim otklonom severnog dela ka istoku; centralno dvoriste sa peristilom i impluviumom; sobe u dva niza istocno i zapadno; ulazi u dve male cetvrtaste sobe na zapadnom i istocnom kraju tremca; sredisnji deo juznog tremca 12 m sirok; ulaz oznacen sa DVA masivna pilona, deo monumentalne polukruzne strukture; 2 m juznije na ulaznoj osi cetvrtasta sporedna soba — vestibul; naspram ulaza na severu sala za prijem sa podijumom od 3 stepenika; istocno i zapadno od sale 14 soba; druga faza: trem obnovljen, drveni stubovi zamenjeni mramornima, impluvium, mreza vodovodnih i odvodnih kanala)",
-   "poverenje_visina": "nisko (analogija Casale: 1 sprat + possible termalni sprat)",
-   "izvor": "monografija-vila-2011 + Pop-Lazic 2018 + Stibadium B 2016 + iskopi-2010-2011",
-   "hronologija": "horizont 1 (prve decenije 4. veka): osnovni plan, suprotno ranijim misljenjima; pre toga na mestu monumentalna zgrada izduzene forme sa velikim dvoristem (pretorium?, vreme dvovlasca Konstantin-Licinije); oko 330 velika prepravka (trem, piloni, vestibul, dva triklinijuma, mermer umesto drveta, impluvium, vodovod); horizont 2 (330-378): prepravke — stibadijumi A i B; horizont 3 (380-441/443): kraj funkcije vile, nove zgrade"
+   "poverenje_visina": "nadzemne visine i dalje NISKO (analogija Casale); vertikala u zemlji od v0.11 IZMERENA — temelj dno 197.94, sokl 198.02, podovi 198.70-198.94",
+   "izvor": "monografija-vila-2011 + Pop-Lazic 2018 + Stibadium B 2016 + iskopi-2010-2011 (Starinar 64/2014)",
+   "hronologija": "horizont 1 (prve decenije 4. veka): osnovni plan, suprotno ranijim misljenjima; pre toga na mestu monumentalna zgrada izduzene forme sa velikim dvoristem (pretorium?, vreme dvovlasca Konstantin-Licinije); oko 330 velika prepravka (trem, piloni, vestibul, dva triklinijuma, mermer umesto drveta, impluvium, vodovod); horizont 2 (330-378): prepravke — stibadijumi A i B; horizont 3 (380-441/443): kraj funkcije vile, nove zgrade",
+   "izmerene_kote_m_nmv": {
+    "izvor": "Vasic/Milosevic/Gavrilovic, Starinar 64/2014 (iskopi 2010-2011, sektori 2-5)",
+    "temelj_severnog_zida_dno": 197.94,
+    "sokl_severne_fasade": 198.02,
+    "sokl_severna_fasada_sektor_1": 198.6,
+    "podovi_prostorija": {
+     "opseg": [
+      198.7,
+      198.94
+     ],
+     "detalj": "w-1 198,70; w-22 198,70; w-24 198,78-198,79; w-24a 198,81; e-22 198,94; e-23 198,82-198,95 (dvostruka podnica); e-24 198,90"
+    },
+    "prefurnijum_podloga": {
+     "sever": 198.54,
+     "jug_ka_hipokaustu": 198.36
+    },
+    "poverenje": "visoko"
+   }
   },
   {
    "id": "horreum",
