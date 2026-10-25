@@ -202,6 +202,45 @@ if(cr){
   if(sb.kote_ekstremi?.najniza?.vrednost!==195.96)greske.push('sobe: najniza kota mora biti 195.96 (bunara jama 5, sonda 105)');
 }
 
+// v0.14: mozaicki sloj (mozaici_sloj.json)
+const mz = ucitaj('mozaici_sloj.json');
+if (mz) {
+  if ((mz.verzija || mz.version) !== baza?.verzija) greske.push(`mozaici sloj verzija ${mz.verzija || mz.version} != ${baza?.verzija}`);
+  if (!mz.izvor_glavni?.id) greske.push('mozaici sloj: bez glavnog izvora');
+  const stubIds = new Set((prostor?.objekti_3d_stubi || []).map(o => o.id));
+  const sobaIds = new Set((JSON.parse(fs.readFileSync('sobe_sloj.json', 'utf8')).prostorije || []).map(p => p.id));
+  const vidjeni = new Set();
+  let zbir = 0;
+  for (const m of mz.mozaici || []) {
+    if (!m.id) greske.push('mozaici: unos bez id');
+    if (vidjeni.has(m.id)) greske.push('mozaici: dupliran id ' + m.id);
+    vidjeni.add(m.id);
+    if (!m.poverenje) greske.push('mozaici: ' + m.id + ' bez poverenja');
+    if (!m.izvor) greske.push('mozaici: ' + m.id + ' bez izvora');
+    const veza = m.veza_na_stub || m.veza_na_prostoriju;
+    if (!veza && !m.veza_napomena) greske.push('mozaici: ' + m.id + ' bez veze na stub/prostoriju i bez obrazlozenja');
+    if (m.veza_na_stub && !stubIds.has(m.veza_na_stub)) greske.push('mozaici: ' + m.id + ' referencira nepostojeci stub: ' + m.veza_na_stub);
+    if (m.veza_na_prostoriju && !sobaIds.has(m.veza_na_prostoriju)) greske.push('mozaici: ' + m.id + ' referencira nepostojecu prostoriju: ' + m.veza_na_prostoriju);
+    if (typeof m.povrsina_m2 === 'number') zbir += m.povrsina_m2;
+    if (typeof m.povrsina_zajedno_sa_moz19_m2 === 'number') zbir += m.povrsina_zajedno_sa_moz19_m2;
+  }
+  const deklarisano = mz.zbirna_provera?.zbir_pojedinacnih_m2;
+  if (typeof deklarisano !== 'number' || Math.abs(zbir - deklarisano) > 0.05)
+    greske.push(`mozaici: zbir povrsina (${zbir.toFixed(1)}) ne poklapa se sa deklarisanim (${deklarisano})`);
+  // kalibracija: dekodirani brojevi moraju biti oznaceni niskim poverenjem
+  for (const m of mz.mozaici || []) {
+    if (m.povrsina_napomena && /dekodiran/.test(m.povrsina_napomena) && !/srednje/.test(m.poverenje))
+      greske.push('mozaici: ' + m.id + ' dekodirana povrsina bez poverenja srednje');
+  }
+  if (!mz.figuralni_rezime?.sad?.length) greske.push('mozaici: figuralni rezime prazan');
+  // vodeni sloj mora znati za fontanu stibadiuma A (moz-10)
+  const vid = new Set((vod.vodena_mreza?.cvorovi || []).map(c => c.id));
+  if (!vid.has('fontana-stibadium-A')) greske.push('vodeni sloj: nedostaje fontana-stibadium-A (veza sa moz-10)');
+  // sobe moraju znati za w-4 (skulpture iz kataloga monografije)
+  if (!sobaIds.has('w-4')) greske.push('sobe: nedostaje w-4 (porfirne skulpture, katalog monografije)');
+  console.log(`mozaici: ${(mz.mozaici || []).length} unosa, zbir ${zbir.toFixed(1)} m2`);
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

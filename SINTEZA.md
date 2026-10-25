@@ -169,3 +169,21 @@ Novi fajl `sobe_sloj.json` — prostorija postaje jedinica 3D modela: sonde, zid
 **Validator prosiren (v0.13):** svaki nalaz mora imati tip + (opis ili period) + izvor; kote u opsegu; id prostorije mora postojati u W/E numeraciji sa Sl. 1 ili u slobodnim oznakama (aula, trem, ulaz, portik); veza sonda ⇄ prostorija mora postojati u sonde_sloj; najniza kota mora biti 195,96. Posle tri korigovane greske: **0 gresaka / 0 upozorenja**.
 
 **Iskreno stanje:** novac iz tabula SZ sektora (sonde 42/45 zona) i ne-sektorskih sondi (97-104) ostaje u `sonde_sloj` bez pojedinacne prostorije — tabela ne vezuje ga po sobi; prostorije E-1..E-21 bez sondi 2010/11 jos nemaju nalaze. Sledeci talas: vezati nalaze monografije (mozaici, skulpture, porfir) na W/E prostorije, i vektori Sl. 1 za GIS uvoz.
+
+## v0.14 — mozaicki katalog monografije + porfirne skulpture sobe w-4
+
+Novi fajl `mozaici_sloj.json` — 25 unosa iz kataloga podova monografije *Constantine's Villa at Mediana*, svaki vezan na stub ili prostoriju.
+
+**Katalog:** peristil moz-01..06 (238+18,4+5+38+2,5+215 = 516,9 m2), aula moz-07..08 (centar ~47 m2, 50% in situ + apsida), stibadium A moz-09..13 (~68 m2, unisten 1936 — granica), stibadium B moz-14..17 (45 m2, konzerviran 2015), trem ka termama moz-18/19 (104 m2), terme moz-20, vila sa oktogonom moz-21/22, vila sa konhama moz-23.
+
+**Konflikt 945 vs 1000 RESEN** — tri recenice o istoj stvari: 450 m2 (en-wiki) je sacuvani peristil, 945 m2 (sr-wiki) zbir kompleksa, monografija kaze 'oko 1.000 m2'; zbir katalogizovanih 780,9 m2 + apsida + terme + vile popunjava do ~1.000.
+
+**Figuralni mozaici — rupa iz digitalnog pasosova popunjena:** Leda sa labudom i recni bog na podijumu ulaza u aulu (moz-03); **glava Meduze** u medaljonu centra aule (moz-07, potvrda ranijeg nalaza iz skulpturskog programa); ptice sa biljnim ukrasima po uglovima aule; **morski crv na postolju mermerne fontane** stibadiuma A (moz-10) — nova tacka vodenog sloja (fontana-stibadium-A).
+
+**Porfirne skulpture — nalaziste vezano na prostoriju w-4** (iskopi 1971, katalog monografije): Asklepije 43 cm (inv. 985/R), Higija 49 cm (inv. 986/R), grupa Asklepije sa Telesforom — sve tri sa grckim posvetnim natpisima poklonika Roimetalka; moguce svetiste leciteljskih bozanstava (sacrarium). Sobni sloj: **21 prostorija**. Bronzana ograda: monografija precizira polozaj — prohod ka auli, deljenje na dve polovine; ostava 250 m SZ (2000).
+
+**Kalibracija dekodiranja:** srpski deo dvoyazicnog izdanja u PDF ekstrakciji ima zamenjene glifove cifara; kalibrisano po datumima (1974-1976, 1978-1979) — dekodirane povrsine (47 aule, 68 stibadiuma A) nose poverenje 'srednje' dok se ne provere u stampanom izdanju.
+
+**Validator prosiren (v0.14):** id jedinstven, poverenje i izvor obavezni, veza na postojeci stub/prostoriju ili obrazlozena granica, zbir povrsina mora poklapati deklarisani (780,9), dekodirane povrsine moraju nositi nisko/srednje poverenje, vodeni sloj mora znati fontanu stibadiuma A, sobe moraju znati w-4. **0 gresaka / 0 upozorenja.**
+
+**Iskreno stanje:** povrsine terme i apside aule nečitljive u ekstrakciji; dekodirane povrsine (47, 68) za proveru; srpski deo monografije citljiv teksto u stampanom izdanju. Otvoreno i dalje: objekti C-D bez osnove, vektori Sl. 1 za GIS, Vicennalia/Tricennalia, izvor vode (Oblik vs Niska Banja), zapis AN 22.

@@ -1,6 +1,6 @@
 {
   "svrha": "Digitalni pasos Konstantinove vile (Medijana) — strukturisana 'vila znanja': materijali, uticaji, graditelji/alati, slojevi poverenja. Cilj: da iz ovog fajla (uz ostale u folderu) 3D rekonstrukcija moze nastati bez dodatnog coveka-u-petlji.",
-  "verzija": "0.13",
+  "verzija": "0.14",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "identitet": {
@@ -254,5 +254,17 @@
     "UNESCO",
     "OSM",
     "Wikidata"
-  ]
+  ],
+  "figuralni_dekor": {
+    "dopuna": "v0.14 — ikonografija figuralnih mozaika, do tada otvorena rupa, delimicno popunjena iz monografije",
+    "scene": [
+      "Leda sa labudom i recni bog — podijum ulaza u aulu (moz-03)",
+      "glava Meduze u kruznom medaljonu — centar aule (moz-07)",
+      "ptice sa biljnim ukrasima — uglovi aule (moz-07)",
+      "morski crv — postolje mermerne fontane stibadijuma A (moz-10)"
+    ],
+    "poruka_programa": "mitoloski+apotropejski program na hoda-osi posetioca: ulaz (Leda, recni bog) -> centar (Meduza) -> trpezarija (fontana sa morskim crvom)",
+    "poverenje": "visoko",
+    "izvor": "monografija-vila-2011"
+  }
 }

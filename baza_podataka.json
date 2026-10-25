@@ -1,6 +1,6 @@
 {
   "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
-  "verzija": "0.13",
+  "verzija": "0.14",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
@@ -404,7 +404,13 @@
       "recno bozanstvo (Fluvius)",
       "glava Meduze"
     ],
-    "izvor": "wiki-sr"
+    "izvor": "wiki-sr",
+    "figuralni_izvor_v014": "svi motivi potvrdjeni nezavisno u monografiji-vila-2011 (ranije samo wiki-sr); novi: ptice sa biljnim ukrasima (uglovi aule), morski crv (postolje fontane stibadiuma A), ptica u mozaiku 6 peristila",
+    "zbirna_povrsina_m2": {
+      "monografija": "oko 1000",
+      "zbir_kataloga": 780.9,
+      "napomena": "bez apside aule, terme i vila sa oktogonom/konhama"
+    }
   },
   "nalazi": [
     {
@@ -712,6 +718,14 @@
       "status": "delimicno resen",
       "resenje": "postojanje medjuspratne konstrukcije u w-1 sada ima terenski dokaz; opseg spratnosti (deba vile?) ostaje otvoren — poverenje podize se sa nisko na srednje za \"barem jedan sprat iznad w-1\"",
       "poverenje": "srednje"
+    },
+    {
+      "tema": "ukupna povrsina mozaika",
+      "a": "945 m2 (wiki-sr)",
+      "b": "450 m2 (wiki-en, samo peristil) i \"oko 1.000 m2\" (monografija)",
+      "resenje": "RESENO v0.14: to su tri recenice o istoj stvari — 450 m2 je sacuvani deo peristila, 945 m2 wiki-sr zbir za kompleks, monografija kaze \"oko 1.000 m2\"; zbir pojedinacnih katalogizovanih povrsina iz monografije 780,9 m2 + apsida aule + terme (povrsine ne citljive) + vila sa oktogonom/konhama popunjava do ~1.000",
+      "poverenje": "visoko",
+      "detalji": "mozaici_sloj.json, zbirna_provera"
     }
   ],
   "rupe_za_rekonstrukciju": [

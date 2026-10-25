@@ -1,6 +1,6 @@
 {
   "svrha": "Linijski vodeni sloj Medijane: castellum aquae -> naselje -> fontane, kao deo 3D rekonstrukcije",
-  "verzija": "0.13",
+  "verzija": "0.14",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "primarni_izvor": {
@@ -158,6 +158,14 @@
         "izvor": "Starinar 64/2014, 5.2.1",
         "poverenje": "visoko",
         "napomena_3d": "NE ulazi u 3D antickog kompleksa — dokaz nastavka zivota na rusevinama"
+      },
+      {
+        "id": "fontana-stibadium-A",
+        "tip": "fontana",
+        "opis": "mermerna fontana na postolju ukrasenom morskim crvom, u sredini sestoougaone centralne sale stibadijuma A (podni mozaik 10); druga fontana u kompleksu pored nimfeja i sobe 2 vile sa oktogonom",
+        "poverenje": "visoko (postojanje); polozaj unutar sale visoko; prikljucak na vodovod nepoznat",
+        "status": "objekat unisten 1936 — rekonstrukcija samo iz literature i crteza Bratanica iz 1936",
+        "izvor": "monografija-vila-2011"
       }
     ],
     "pravila_konzistentnosti_3d": [

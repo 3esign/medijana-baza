@@ -1,6 +1,6 @@
 {
   "svrha": "Soba-po-soba sloj vile sa peristilom: svaka prostorija sa svojim sondama, zidovima, kotama i nalazima — jedinica 3D modela. Nalazi (novac, skulptura, fresko, cevi) vezani su na konkretne prostorije preko numeracije iz Sl. 1 i sekcija 3-5 rada Starinar 64/2014.",
-  "verzija": "0.13",
+  "verzija": "0.14",
   "datum": "2026-10-25",
   "autor": "Svemir (za dr Poturak Semira)",
   "izvori": [
@@ -642,6 +642,36 @@
           "izvor": "iskopavanja-2010-2011, fusnota 14"
         }
       ],
+      "poverenje": "visoko"
+    },
+    {
+      "id": "w-4",
+      "trakt": "zapadni",
+      "sonde": [],
+      "zidovi": [],
+      "pod": null,
+      "napomena_osnove": "prostorija istrazivana starijim iskopima (1971); u sondama 2010/2011 nije bila obuhvacena — postoji u numeraciji Sl. 1 (crtezi_sloj) i ovde kao nosilac nalaza",
+      "nalazi": [
+        {
+          "tip": "skulptura",
+          "opis": "porfirna statua boga Asklepija, h 43 cm, inv. 985/R; bez glave i desne ruke, kontrapost, himatij; na pravougaonom postolju sa grckim posvetnim natpisom: \"Asklepiju Spasitelju, Roimetalk i supruga mu Filipa zahvalno podizaju spomenik\"",
+          "period": "2. pol. 2. - poc. 4. v.",
+          "izvor": "monografija-vila-2011, katalog skulptura br. 1 (iskopi 1971)"
+        },
+        {
+          "tip": "skulptura",
+          "opis": "porfirna statua boginje Higije, h 49 cm, inv. 986/R; bez glave, hiton i himatij, u levoj ruci patera, oko desne ruke zmija; na postolju sa grckim natpisom: \"Higiji, Roimetalk diasemotatos i supruga mu Filipa...\"",
+          "period": "2. pol. 3. - poc. 4. v.",
+          "izvor": "monografija-vila-2011, katalog skulptura br. 2 (iskopi 1971)"
+        },
+        {
+          "tip": "skulptura",
+          "opis": "skulpturna grupa Asklepije sa sinom Telesforom (porfir); glava delomicno sacuvana — duga kosa, kratka brada; na postolju sa grckim natpisom: \"Asklepiju Spasitelju, Sim[...]a svestenik\"; telesfor (dete sa kukulom (oglavljem)) nije sacuvan",
+          "period": "kasna antika (analogni datiraju 3. v.)",
+          "izvor": "monografija-vila-2011, katalog skulptura br. 3 (iskopi 1971)"
+        }
+      ],
+      "tumacenje": "tri kultne statue istog poklonika (Roimetalka) u jednoj prostoriji — monografija izvodi mogucnost postojanja svetista (sacrarium) leciteljskih bozanstava u delu vile; za 3D: soba sa postoljima i statue, neobicno za stambeni trakt",
       "poverenje": "visoko"
     }
   ],

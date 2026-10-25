@@ -1,6 +1,6 @@
 {
   "svrha": "Skulpturni i ideoloski program Medijane — koji su predmeti gde stajali, od cega, kada i sta porucuju; ulaz za 3D dekorativni sloj i digitalni pasos",
-  "verzija": "0.13",
+  "verzija": "0.14",
   "datum": "2026-10-25",
   "autor": "Svemir (za dr Poturak Semira)",
   "izvor_glavni": {
@@ -103,7 +103,22 @@
       "polozaj": "ulaz apside sale za gozbe (vila sa konhama)",
       "poverenje": "visoko",
       "razresenje_ranijeg_datuma": "raniji upis 'oko 324' bio je datum IZRade; novi izvor dodaje postavku 361 i zakopavanje 378 — tri datuma, jedan predmet",
-      "implikacija_3d": "precizna pozicija + celokupan zivotni vek elementa (izrada -> postavka -> zakop)"
+      "implikacija_3d": "precizna pozicija + celokupan zivotni vek elementa (izrada -> postavka -> zakop)",
+      "polozaj_v014": "monografija precizira: ograda je stajala u prohodu ka sali za prijem (auli) i delila ga na dve polovine — herme su nosile ploce (cancelli); raniji zapis (ulaz apside sale za gozbe) zadrzan kao ranija interpretacija",
+      "nalaz_lokacija": "ostava pronadjena oko 250 m SZ od vile sa peristilom (2000)"
+    },
+    "soba-w-4": {
+      "id": "kultne-skulpture-w-4",
+      "lokacija": "soba w-4 vile sa peristilom",
+      "nalaz": "iskopi 1971",
+      "predmeti": [
+        "porfirna statua Asklepija (43 cm, inv. 985/R) sa natpisom Roimetalka i Filipa",
+        "porfirna statua Higije (49 cm, inv. 986/R) sa natpisom Roimetalka i Filipa",
+        "porfirna grupa Asklepije sa Telesforom, natpis \"svestenik Sim[...]\""
+      ],
+      "tumacenje": "uvozni radovi (porfir) sa grckim posvetnim natpisima; moguce svetiste leciteljskih bozanstava u rezidencijalnom delu — potvrdjuje nalaz iz Carske ideologije da su porfirne statue uvoz",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
     }
   },
   "mozaicki_i_fresko_program": [
