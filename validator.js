@@ -400,6 +400,10 @@ if (vod) {
   const prof = dm.profil_akvedukt_medjana_niska_banja || {};
   if (!prof.tacke || prof.tacke.length < 10) greske.push('dem sloj: profil akvadukta bez tacaka');
   if (prof.kote_krajnje && prof.kote_krajnje.niska_banja <= prof.kote_krajnje.medjana_vila) greske.push('dem sloj: izvoriste nize od vile — gravitacioni dovod nemoguc');
+  // v0.21: ukrstena provera kote vile sa opsegom kota iz crteza (197.38-200.6)
+  const kVila = kote.vila_peristil?.m;
+  if (typeof kVila === 'number' && (kVila < 197.38 || kVila > 200.6)) greske.push(`dem sloj: kota vile ${kVila} van opsega crteza (197.38-200.6) — koordinate verovatno van poligona`);
+  if (prof.kote_krajnje && prof.pad_proc !== undefined && (prof.pad_proc <= 0 || prof.pad_proc > 2)) greske.push(`dem sloj: pad ${prof.pad_proc}% van fizicki razumog opsega (0-2%)`);
   if (typeof prof.uzvisina_na_trasi_max !== 'number') greske.push('dem sloj: bez praga na trasi');
   console.log(`dem sloj: ${Object.keys(kote).length} kotnih tacaka, prag trase ${prof.uzvisina_na_trasi_max} m`);
 }

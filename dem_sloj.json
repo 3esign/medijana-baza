@@ -1,6 +1,6 @@
 {
  "sloj": "dem_glo30",
- "verzija": "0.20",
+ "verzija": "0.21",
  "izvor": "Copernicus GLO-30 (DSM, 30 m GSD), AWS opendata copernicus-dem-30m",
  "licence": "Copernicus/ESA besplatna javna upotreba",
  "tiles": [
@@ -9,164 +9,184 @@
  ],
  "napomena": "DSM ukljucuje visok rast i objekte; kote su gornja granica terena. [PROVERENO rasterio ocitavanje 2026-10-26]",
  "kote_tacaka": {
-  "vila_peristil": 187.8,
-  "centar_baze": 188.5,
-  "severni_deo": 190.0,
-  "jug": 187.3,
-  "niska_banja_centar": 200.0,
-  "niska_banja_izvorisna_zona_kontakt": 248.0,
-  "napomena_koordinate": "niska_banja_centar = dolinsko dno naselja (~43.31 N, 21.95 E); izvorisna zona = kontakt fliša/krečnjaka na podnožju Suve Planije (~43.30 N, 21.951 E)"
+  "vila_peristil": {
+   "naziv": "Vila s peristilom (OSM way centroid)",
+   "lon": 21.94854,
+   "lat": 43.30957,
+   "m": 198.2,
+   "provera": [
+    "GLO-30 tiff 198.2",
+    "Open-Meteo 198.0"
+   ],
+   "poverenje": "PROVERENO"
+  },
+  "niska_banja_centar": {
+   "naziv": "Niška Banja (Nominatim centroid naselja)",
+   "lon": 22.0072312,
+   "lat": 43.2933122,
+   "m": 253.6,
+   "provera": [
+    "GLO-30 tiff"
+   ],
+   "poverenje": "PROVERENO"
+  }
  },
  "profil_akvedukt_medjana_niska_banja": {
-  "dist_km": 7.8,
-  "kote_krajnje": {
-   "medjana_vila": 187.8,
-   "niska_banja_izvorisna_zona": 248.0
-  },
-  "uzvisina_na_trasi_max": 289.4,
+  "svrha": "gravitacioni dovod vrelo→vila, sidreno na tačne pozicije (ispravka v0.18 i v0.20)",
+  "vrelo_m": 253.6,
+  "vila_m": 198.2,
+  "pravolinijski_km": 5.09,
+  "pad_m": 55.4,
+  "pad_proc": 1.089,
+  "max_prag_na_trasi_m": 253.6,
+  "zakljucak": "pad 1,09% bez prepreke — gravitacioni dovod iz Banje izvodljiv sa velikom marginom; konzistentno sa Jeremić 1988 (izvorište u pravcu Niške Banje)",
   "tacke": [
    {
-    "km": 0.0,
-    "kota": 187.8
+    "f": 0,
+    "lon": 22.0072312,
+    "lat": 43.2933122,
+    "m": 253.6
    },
    {
-    "km": 0.24,
-    "kota": 190.1
+    "f": 0.05,
+    "lon": 22.0043,
+    "lat": 43.29412,
+    "m": 240.3
    },
    {
-    "km": 0.49,
-    "kota": 187.9
+    "f": 0.1,
+    "lon": 22.00136,
+    "lat": 43.29494,
+    "m": 228.3
    },
    {
-    "km": 0.73,
-    "kota": 184.5
+    "f": 0.15,
+    "lon": 21.99843,
+    "lat": 43.29575,
+    "m": 210.9
    },
    {
-    "km": 0.98,
-    "kota": 186.5
+    "f": 0.2,
+    "lon": 21.99549,
+    "lat": 43.29656,
+    "m": 206.1
    },
    {
-    "km": 1.22,
-    "kota": 186.9
+    "f": 0.25,
+    "lon": 21.99256,
+    "lat": 43.29738,
+    "m": 207.1
    },
    {
-    "km": 1.46,
-    "kota": 186.4
+    "f": 0.3,
+    "lon": 21.98962,
+    "lat": 43.29819,
+    "m": 207.2
    },
    {
-    "km": 1.71,
-    "kota": 191.0
+    "f": 0.35,
+    "lon": 21.98669,
+    "lat": 43.299,
+    "m": 208.7
    },
    {
-    "km": 1.95,
-    "kota": 190.6
+    "f": 0.4,
+    "lon": 21.98375,
+    "lat": 43.29981,
+    "m": 207.7
    },
    {
-    "km": 2.19,
-    "kota": 192.9
+    "f": 0.45,
+    "lon": 21.98082,
+    "lat": 43.30063,
+    "m": 206.9
    },
    {
-    "km": 2.44,
-    "kota": 193.2
+    "f": 0.5,
+    "lon": 21.97789,
+    "lat": 43.30144,
+    "m": 204.9
    },
    {
-    "km": 2.68,
-    "kota": 194.2
+    "f": 0.55,
+    "lon": 21.97495,
+    "lat": 43.30225,
+    "m": 204.9
    },
    {
-    "km": 2.93,
-    "kota": 194.0
+    "f": 0.6,
+    "lon": 21.97202,
+    "lat": 43.30306,
+    "m": 206
    },
    {
-    "km": 3.17,
-    "kota": 192.9
+    "f": 0.65,
+    "lon": 21.96908,
+    "lat": 43.30388,
+    "m": 204.3
    },
    {
-    "km": 3.41,
-    "kota": 192.9
+    "f": 0.7,
+    "lon": 21.96615,
+    "lat": 43.30469,
+    "m": 203.2
    },
    {
-    "km": 3.66,
-    "kota": 191.3
+    "f": 0.75,
+    "lon": 21.96321,
+    "lat": 43.3055,
+    "m": 204.7
    },
    {
-    "km": 3.9,
-    "kota": 191.3
+    "f": 0.8,
+    "lon": 21.96028,
+    "lat": 43.30631,
+    "m": 203.3
    },
    {
-    "km": 4.14,
-    "kota": 194.4
+    "f": 0.85,
+    "lon": 21.95734,
+    "lat": 43.30713,
+    "m": 201.1
    },
    {
-    "km": 4.39,
-    "kota": 196.5
+    "f": 0.9,
+    "lon": 21.95441,
+    "lat": 43.30794,
+    "m": 199
    },
    {
-    "km": 4.63,
-    "kota": 198.3
+    "f": 0.95,
+    "lon": 21.95147,
+    "lat": 43.30875,
+    "m": 198.4
    },
    {
-    "km": 4.88,
-    "kota": 214.1
-   },
-   {
-    "km": 5.12,
-    "kota": 211.3
-   },
-   {
-    "km": 5.36,
-    "kota": 207.7
-   },
-   {
-    "km": 5.61,
-    "kota": 208.5
-   },
-   {
-    "km": 5.85,
-    "kota": 220.4
-   },
-   {
-    "km": 6.09,
-    "kota": 227.2
-   },
-   {
-    "km": 6.34,
-    "kota": 232.4
-   },
-   {
-    "km": 6.58,
-    "kota": 250.2
-   },
-   {
-    "km": 6.83,
-    "kota": 270.0
-   },
-   {
-    "km": 7.07,
-    "kota": 258.5
-   },
-   {
-    "km": 7.31,
-    "kota": 289.4
-   },
-   {
-    "km": 7.56,
-    "kota": 273.6
-   },
-   {
-    "km": 7.8,
-    "kota": 248.6
+    "f": 1,
+    "lon": 21.94854,
+    "lat": 43.30957,
+    "m": 198.2
    }
   ],
-  "zakljucak": "Pravolinijska trasa vila→izvorišna zona: 7,8 km, uspon na severnom podnožju (max 289 m na trasi je bočno brdo, ne prag na pravcu kanala). Gravitacioni dovod izvodiv: izvorišna zona ~248 m → vila ~188 m, raspoloživ pad ~60 m (~0,8%). Jeremić 1988 navodi dovodni kanal sa istoka ~4,5 km — razlika sugerira da antička izvorišta leže zapadnije od današnje glavne česme; trasa kroz dolinsko dno (~200 m) ostaje izvodiva."
+  "kote_krajnje": {
+   "niska_banja": 253.6,
+   "medjana_vila": 198.2
+  },
+  "uzvisina_na_trasi_max": 253.6
  },
  "otvorena_pitanja": [
   "tacna izvorista (Rautnik/ostale kaptaZe) nisu tackasto locirana; GSD 30 m ne razlaze prag kanala",
-  "nimfej kota ~195-197 po Jeremicu 1988 vs DSM ~198 (DSM cita izgradjeno stanje posle premestanja)"
+  "nimfej kota ~195-197 po Jeremicu 1988 vs DSM ~198 (DSM cita izgradjeno stanje posle premestanja)",
+  "tačna pozicija antičkog vrela (Glavno vrelo vs. zapadnija antička izvorišta) — nivo 253,6 m je centroid današnjeg naselja, ne samo vrelo"
  ],
  "korekcija_v020": {
   "sta": "Kote i profil iz v0.18 bili pogrešno uzorkovani (pogrešne koordinate Niške Banje, ~43.27 N umesto ~43.30 N; vila 200.6 umesto 187.8).",
   "dokaz": "Nezavisna provera Open-Meteo Elevation API (Copernicus DEM): vila 43.3269/21.8625 = 188-189 m; dolinsko dno Banje 43.31/21.95 = 198-202 m — poklapa se sa novim rasterio čitanjem istih TIFF ploča.",
   "posledica": "Smer zaključka nepromenjen i pojačan (gravitacioni dovod izvodiv), ali su sve apsolutne kote iz v0.18 zamenjene. Fizička provera 'izvorište više od vile' prolazi: 248 > 188."
+ },
+ "korekcija_v021": {
+  "nadlezno": "poništava i v0.18 i v0.20 vrednosti",
+  "nalaz": "obe prethodne kote vile bile su uzorkovane sa pogrešnih koordinata (~2,5 km NE od lokaliteta). Prava pozicija: OSM way centroid 43.30957N, 21.94854E → GLO-30 198.2 m, Open-Meteo 198.0 m (slaganje 0.2 m). Kote iz v0.18 (200,6 — blizu) i v0.20 (187,8 — pogrešno) obe su bile uzete van poligona.",
+  "dokaz": "dem/izvorista? v. dem_izvorista_v021.json; ukršteni test na 6 nezavisnih tačaka (tvrđava 198.7/198.0, aerodrom 192.1/192.0, Suva Planina 597.3/602.0) potvrđuje da TIFF čitanje i Open-Meteo daju iste vrednosti — greška je bila u koordinatama, ne u rasteru."
  }
 }

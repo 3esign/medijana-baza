@@ -27,6 +27,7 @@ materijali, uticaji, graditelji, alati, voda, dekor — tako da se objekat može
 | `objekti_cd_sloj.json` | status slovnog sistema A–D (negativni nalaz + ključevi), 13 skupina mera za 3D, konflikti površina — v0.16 |
 | `gis_izvori_sloj.json` | prostorni izvori (GIS, DEM, istorijske karte, aerofoto): 27 izvora sa oštro razdvojenim [PROVERENO] vs kandidat statusom — v0.16 |
 | `SINTEZA.md` | ljudski pregled i spisak otvorenih konflikata |
+| `dem_izvorista_v021.json` | korekcija korekcije: kote sidrene na OSM/Nominatim pozicije (vila 198,2 m — obe prethodne kote bile uzorkovane ~2,5 km van poligona); profil vrelo Banja→vila 5,09 km, pad 1,09% — v0.21 |
 | `validator.js` | provera celog paketa: `node validator.js` — verzije, izvori, koordinate, poverenja, voda, sobe |
 | `slike/` | 8 ključnih kadrova (nimfej I–VII, vila oktogonalnog oblika), CC BY / CC BY-SA, atribucija u `vizuelni_sloj.json` |
 | `crtezi/` | renderovane strane Starinara 64/2014 sa crtežima (Sl. 1–31) — izvor za `crtezi_sloj.json` |

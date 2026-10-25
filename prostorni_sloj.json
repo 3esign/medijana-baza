@@ -1,6 +1,6 @@
 {
  "svrha": "Prostorni sloj — spaja tekstualne tvrdnje sa koordinatama, visinama i orijentacijom; polaz za 3D rekonstrukciju (digital twin).",
- "verzija": "0.20",
+ "verzija": "0.21",
  "datum": "2026-10-26",
  "autor": "Svemir / dr Poturak Semir",
  "referentni_sistem": "EPSG:4326 (WGS84), visine m n.m.v.",

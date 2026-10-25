@@ -1,6 +1,6 @@
 {
  "svrha": "Katalog mozaickih podova Medijane iz monografije 'Constantine's Villa at Mediana' (Vasic/Milosevic/Gavrilovic Vitas/Crnoglavac, Narodni muzej Nis) — svaki mozaik vezan na prostorni stub ili sobu; ulaz za 3D podni sloj i kalibraciju ukupne povrsine",
- "verzija": "0.20",
+ "verzija": "0.21",
  "datum": "2026-10-26",
  "autor": "Svemir (za dr Poturka Semira)",
  "izvor_glavni": {
@@ -448,6 +448,25 @@
    "uporediti meduzu Medijane sa poredbenim mozaicima sa ploca img_04/img_05 kad se identifikuju",
    "pribaviti citljivo izdanje zbornika za datiranje i konzervaciju embleme"
   ],
-  "poverenje": "srednje (vizuelno potvrđene ploce: visoko za identifikaciju, nisko za tvrdnje iz teksta)"
+  "poverenje": "srednje (vizuelno potvrđene ploce: visoko za identifikaciju, nisko za tvrdnje iz teksta)",
+  "vizuelni_pregled_ploca": {
+   "datum": "2026-10-26",
+   "metod": "direktan vizuelni pregled izvučenih ploča",
+   "nalazi": [
+    {
+     "ploca": "img_04",
+     "sadrzaj": "detalj glave Meduze (emblema) — krupni kadar, zmije u kosi vidljive",
+     "komparativni": false,
+     "napomena": "NIJE poredbeni mozaik iz drugog lokaliteta"
+    },
+    {
+     "ploca": "img_05",
+     "sadrzaj": "isti medaljon u kontekstu poda — oktagonalno polje sa medaljonom u sredini, trougaona (ugonentа) polja oko njega",
+     "komparativni": false,
+     "napomena": "kontekst istog medijanskog poda — potvrđuje da je emblema bila u medaljonu poligonalnog panela"
+    }
+   ],
+   "zakljucak": "pretpostavka iz v0.19 da ploče img_04/05 nose komparativni materijal je POGREŠNA — obe su Mediana. Komparativni korpus Meduza mozaika (Stobi, Herakleia, Panonija) ostaje otvoren i traži nove izvore."
+  }
  }
 }
