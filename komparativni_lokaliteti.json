@@ -1,6 +1,6 @@
 {
   "svrha": "Komparativni korpus — lokaliteti istog perioda i bliske geografije, za kalibraciju rekonstrukcije Medijane gde je Primarni izvor tih. Svaki red: sta poredimo, po cemu je slican, sta se moze pozajmiti u 3D model.",
-  "verzija": "0.15",
+  "verzija": "0.16",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "lokaliteti": [
@@ -30,7 +30,56 @@
         "https://whc.unesco.org/en/list/1253",
         "https://en.wikipedia.org/wiki/Gamzigrad"
       ],
-      "poverenje": "visoko"
+      "poverenje": "visoko",
+      "korpus_v016": {
+        "region": "Srbija — Mezija Superior / kasnije Dakija Ripensis",
+        "period": "298–311 (tetrarhijska palata Galerija); slojevi naseljavanja do 11. veka",
+        "tip": "utvrdjena carska palata + memorijalni kompleks (mauzoleji na brdu Magura, tetrapilon)",
+        "mere": [
+          {
+            "element": "bedemi utvrdjenja — osnova (nepravilan pravougaonik)",
+            "sirina_m": 190,
+            "duzina_m": 240,
+            "izvor_url": "https://sr.wikipedia.org/wiki/%D0%93%D0%B0%D0%BC%D0%B7%D0%B8%D0%B3%D1%80%D0%B0%D0%B4",
+            "poverenje": "srednje",
+            "napomena": "izvor: „na prostoru oko 6,5 ha, sa dimenzijama 240x190 m” — 240x190 daje 4,56 ha, ne 6,5 ha; vidi konflikt"
+          },
+          {
+            "element": "glavni kompleks — povrsina",
+            "povrsina_m2": 40000,
+            "izvor_url": "https://en.wikipedia.org/wiki/Gamzigrad",
+            "poverenje": "srednje",
+            "napomena": "„The main area covers 10 acres (40,000 m2)”; vidi konflikt povrsine"
+          },
+          {
+            "element": "UNESCO imovina — ukupna povrsina (palata + Magura)",
+            "povrsina_m2": 179000,
+            "izvor_url": "https://whc.unesco.org/en/list/1253",
+            "poverenje": "srednje",
+            "napomena": "vrednost 17,9 ha iz baze komparativni_lokaliteti v0.15; sami UNESCO tekst preuzet 2026-10-25 ne navodi brojku — drzi srednje"
+          },
+          {
+            "element": "naselje uz palatu, severna padina (geofizika, iskop 2024)",
+            "povrsina_m2": 60000,
+            "izvor_url": "https://sveoarheologiji.com/arheolozi-otkrili-naselje-pored-carske-palate-feliks-romulijane/",
+            "poverenje": "srednje",
+            "napomena": "„razlicitim gradjevinama na povrsini od preko 6 ha”; geofizika ukupno preko 40 ha"
+          },
+          {
+            "element": "zgrada istocno od palate (iskop 2024)",
+            "sirina_m": 15,
+            "izvor_url": "https://sveoarheologiji.com/arheolozi-otkrili-naselje-pored-carske-palate-feliks-romulijane/",
+            "poverenje": "srednje",
+            "napomena": "„sirine 15 metara sa centralnim nizom krovnih nosaca”; duzina neobjavljena"
+          }
+        ],
+        "konflikti_korpusa": [
+          "povrsina utvrdjenja: ~4,0 ha (en-wiki „main area 10 acres”) vs 240x190 m = 4,56 ha (sr-wiki) vs „oko 6,5 ha” (ista recenica sr-wiki) vs 4,5 ha (baza v0.15) vs 17,9 ha (UNESCO imovina) — u 3D model ici sa osnovom 240x190 m i opsegom povrsine [4,0–6,5] ha",
+          "broj kula: „oko 20” (sr-wiki, felixromuliana.rs) vs 16 kula ranije faze utvrdjenja (UNESCO nominacioni dokument, pretraga) — dve faze bedema",
+          "mere same palate, aule, portala i tetrapilona NISU javno objavljene na obradjenim izvorima (monografija RAI handle 1687 ima planove; PDF 15,77 MB nije raclanjen u ovom prolazu)"
+        ],
+        "relevantnost_za_medijanu": "Najbliza velika tetrarhijska rezidencija (~110 km istocno od Nisa). Utvrdjenje sa ~20 kula i memorijalni program (mauzoleji, tetrapilon) — kontrast Medijani, koja po sadasnjim dokazima nema bedeme ni mauzolej; ta razlika je HIPOTEZA O RANGU, ne manjak istrazenosti. Kalibriše: merilo utvrdjene vs otvorene rezidencije, mozaicku produkciju iste generacije. Ne kalibrise visine (nema objavljenih visina)."
+      }
     },
     {
       "id": "piazza-armerina",
@@ -67,7 +116,75 @@
         "https://en.wikipedia.org/wiki/Villa_Romana_del_Casale",
         "https://whc.unesco.org/en/list/1024"
       ],
-      "poverenje": "visoko"
+      "poverenje": "visoko",
+      "korpus_v016": {
+        "region": "Italija — Sicilija",
+        "period": "kraj 3 – pocetak 4. veka (prva faza ~310–330; naseljenost ~150 godina)",
+        "tip": "velika vila sa peristilom (verovatno tetrarhijskog vlasnika; atribucija Maximijanu sporna)",
+        "mere": [
+          {
+            "element": "gradevinski kompleks — povrsina",
+            "povrsina_m2": 15000,
+            "izvor_url": "https://de.wikipedia.org/wiki/Villa_Romana_del_Casale",
+            "poverenje": "srednje",
+            "napomena": "„etwa 1,5 Hektar”; vidi konflikt sa 8,92 ha UNESCO parcele"
+          },
+          {
+            "element": "mozaci i opus sectile — ukupna povrsina",
+            "povrsina_m2": 3500,
+            "izvor_url": "https://en.wikipedia.org/wiki/Villa_Romana_del_Casale",
+            "poverenje": "visoko",
+            "napomena": "de-wiki dodaje: ~120 miliona tesera; jednospratna vila centrirana na peristil"
+          },
+          {
+            "element": "ambulak Velikog lova (koridor)",
+            "sirina_m": 5,
+            "duzina_m": 65.93,
+            "povrsina_m2": 350,
+            "izvor_url": "https://it.wikipedia.org/wiki/Villa_romana_del_Casale",
+            "poverenje": "visoko",
+            "napomena": "it: 65,93x5 m; fr-wiki zaokruzuje na 66 m / 350 m2; apside na oba kraja; tesere 5–8 mm"
+          },
+          {
+            "element": "veliki peristil — dvoriste",
+            "sirina_m": 18,
+            "duzina_m": 38,
+            "izvor_url": "https://fr.wikipedia.org/wiki/Villa_romaine_du_Casale",
+            "poverenje": "srednje",
+            "napomena": "KONFLIKT: 40x30 m trapezoidno (N40/E30/S38/W31) zabelezeno u bazi v0.15 (seindal.dk, u ovom prolazu neprovereno direktnim URL-om); za 3D ici sa opsegom sirine [18–30] i duzine [38–40]"
+          },
+          {
+            "element": "monumentalni ulazni trijumfalni luk",
+            "sirina_m": 27.75,
+            "visina_m": 6,
+            "izvor_url": "https://de.wikipedia.org/wiki/Villa_Romana_del_Casale",
+            "poverenje": "srednje",
+            "napomena": "27,75 m sirine, tri prolaza do 6 m visine; visina 6 m odnosi se na propsece prolaza, ne na gabarit luka"
+          },
+          {
+            "element": "palestra termi",
+            "sirina_m": 6,
+            "duzina_m": 15,
+            "izvor_url": "https://de.wikipedia.org/wiki/Villa_Romana_del_Casale",
+            "poverenje": "srednje",
+            "napomena": "završava se sa dve apside; frigidarijum osmougaona sala sa 6 apsidnih nisa; tri grejana prostora"
+          },
+          {
+            "element": "zidovi kompleksa — ocuvana visina",
+            "visina_m": "2-8",
+            "izvor_url": "https://de.wikipedia.org/wiki/Villa_Romana_del_Casale",
+            "poverenje": "srednje",
+            "napomena": "OCUVANO stanje 2–8 m — ne originalna visina; ipak najbolji pokazatelj raspona ocuvanja kod velike vile"
+          }
+        ],
+        "konflikti_korpusa": [
+          "peristil: 38x18 m (fr-wiki) vs 40x30 m trapezoidno N40/E30/S38/W31 (seindal.dk preko baze v0.15) — verovatno dvoriste vs celokupan gabarit sa portikom",
+          "broj soba: ~45 ocuvanih (de-wiki) vs 60+ (agregat en-wiki u bazi v0.15)",
+          "povrsina: ~1,5 ha gradevinskog kompleksa (de-wiki) vs 8,92 ha UNESCO parcele (en-wiki infoboks) — objekat vs parcela",
+          "bazilika (svecano dvoriste): mere nisu javno dostupne u obradjenim izvorima (en/it/de/fr wiki bez brojki; ulaz na 4 stepenika, dva stuba od roze egipatskog granita, geometrija po planovima u stampi)"
+        ],
+        "relevantnost_za_medijanu": "Glavni analog za PROPORCIJE PO RANGU SOBE (pravilo baze v0.15): auditorijum ~ Casale triclinijum, ne po apsolutnoj velicini. Gustina dekoracije: 3.500 m2 mozaika na ~1,5 ha objekta vs Medijana ~945–1.000 m2 na 6.000–6.800 m2 vile — Medijana skalno manja, ne skromnija po rangu. Ulazni luk 27,75 m sa tri prolaza — kalibar za „trijumfalnu kapiju” Medijane; ambulak 5 m sirine sa apsidama — za hodnik/aleju; palestra 15x6 sa dva apsida — za termalne objekte; zidovi ocuvani 2–8 m — realan raspon i za Medijanu (cija nadzemna konstrukcija nije sacuvana, vidi konflikt zidovi-pre-1930)."
+      }
     },
     {
       "id": "naissus-kontekst",
@@ -77,11 +194,531 @@
       "za_sistem_3d": "minimax granice za logistiku gradnje: ciglana, krecna jama, kamena — sve lokalno; merzilo za aproksimaciju radne snage i trajanja gradnje",
       "izvor": "wiki-sr + wiki-en (agregat, poverenje: srednje)",
       "poverenje": "srednje"
+    },
+    {
+      "id": "sarkamen",
+      "naziv": "Vrelo–Sarkamen (kod Negotina)",
+      "period": "kraj 3 – pocetak 4. veka (tetrarhijska)",
+      "mere": [
+        {
+          "element": "ceo arhitektonski kompleks — povrsina",
+          "povrsina_m2": 250000,
+          "izvor_url": "https://sr.wikipedia.org/wiki/%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%D0%A8%D0%B0%D1%80%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD",
+          "poverenje": "srednje",
+          "napomena": "25 ha na strmoj levoj obali reke Vrelo, terasasto nasipanje; 20 km od Negotina"
+        },
+        {
+          "element": "mauzolej — osnova (kvadrat) i ocuvana visina",
+          "sirina_m": 10.5,
+          "duzina_m": 10.5,
+          "visina_m": 3,
+          "izvor_url": "https://sveoarheologiji.com/sarkamen-skriveni-dragulj-na-istoku-srbije",
+          "poverenje": "srednje",
+          "napomena": "visina ~3 m je OCUVANO stanje, ne originalna visina; ispod kruzna kripta zidana kupolom; u kripti kremirana osoba sa zlatnim nakitom od 250 g"
+        },
+        {
+          "element": "kula 10 (jugozapadna kula utvrdjenja) — ocuvana visina",
+          "visina_m": "6-8",
+          "izvor_url": "https://sveoarheologiji.com/sarkamen-skriveni-dragulj-na-istoku-srbije",
+          "poverenje": "srednje",
+          "napomena": "ocuvano sa prizemljem do poda kule, na nivou druge etaze; 6 zasvoenih prozora (jedan u celosti) — OCUVANO, ne puna visina kule"
+        }
+      ],
+      "konflikti": [
+        "dimenzije bedema i same palate nisu publikovane na obradjenim izvorima (sr-wiki nema mera; LIDAR skeniranje 2021. objavljeno 2024. u RAI handle 1858 — planovi u PDF-u od 10,92 MB, mere nisu na strani repozitorijuma)",
+        "pripisa vlasnika (Maksimin Daia) ostaje radna hipoteza literature"
+      ],
+      "relevantnost_za_medijanu": "Druga utvrdjena tetrarhijska rezidencija u Srbiji; sr-wiki navodi da je ona „jedna od samo cetiri carske palate van Rima”. Mauzolej 10,5x10,5 m sa kriptom i zlatnim nakitom — kalibar grobne arhitekture dinastije (Medijana mauzolej nema → razlika programa). Kula sa 6 prozora = rezidencijalna, ne cisto odbrambena funkcija kula; koristan podatak za 3D interpretacije kula uopste. Terme (balneum) istrazene 2022–2024 — paralela za terme Medijane. Kada se objave mere bedema, uci u korpus kao druga tacka za pitanje utvrdjenosti.",
+      "izvor": [
+        "https://sr.wikipedia.org/wiki/%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%D0%A8%D0%B0%D1%80%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD",
+        "https://sveoarheologiji.com/sarkamen-skriveni-dragulj-na-istoku-srbije",
+        "https://sveoarheologiji.com/sarkamen-skriveni-dragulj-na-istoku-srbije"
+      ]
+    },
+    {
+      "id": "sirmium",
+      "naziv": "Sirmium (Sremska Mitrovica) — carska palata",
+      "period": "4. vek (carski boravci od tetrarhije do Valentinijana I)",
+      "mere": [
+        {
+          "element": "palata — istrazen/prikazan deo sa mozaicima",
+          "povrsina_m2": 2500,
+          "izvor_url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%B8%D1%80%D0%BC%D0%B8%D1%98%D1%83%D0%BC",
+          "poverenje": "srednje",
+          "napomena": "„na povrsini od 2.500 kvadrata izlozeno 250 kvadrata podnih mozaika”; mozaici na mnogim mestima u TRI sloja — visefaznost poda"
+        },
+        {
+          "element": "hipodrom uz palatu",
+          "sirina_m": 150,
+          "duzina_m": 450,
+          "izvor_url": "https://en.wikipedia.org/wiki/Sirmium",
+          "poverenje": "srednje",
+          "napomena": "en-wiki „about 150m wide and 450m long”; sr-wiki „450–500 m duzine i 150 m sirine”; ~4 m ispod danasnje Mitrovice"
+        },
+        {
+          "element": "akvedukt ka Sirmijumu",
+          "duzina_m": 14000,
+          "visina_m": 10,
+          "izvor_url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%B8%D1%80%D0%BC%D0%B8%D1%98%D1%83%D0%BC",
+          "poverenje": "srednje",
+          "napomena": "od izvora Vranjas, „10 m visoki akvedukti” — paralela za gravitacionu shemu Medijane (castellum 500 m JZ od vile)"
+        }
+      ],
+      "konflikti": [
+        "hipodrom: duzina 450 m (en-wiki) vs 450–500 m (sr-wiki) — u korpus ici sa opsegom",
+        "mere pojedinacnih sala carske palate (aula) nisu javno objavljene u obradjenim izvorima — palata je vecinom ispod modernog grada"
+      ],
+      "relevantnost_za_medijanu": "Carska rezidencija na panonskom strategijskom pravcu u koji su ulazili i Konstantinovi pohodi. Najbliza paralela po slojevima poda: mozaici u TRI sloja direktno odgovaraju trima nivoima poda u termama Medijane (Zotovic-Petrovic 1969) — potvrda da se visefaznost poda modeluje slojevito. Hipodrom (uz palatu, 150x450+) je element ceremonijala koji Medijana nema — merilo razlike funkcija (boravak vs stalna rezidencija).",
+      "izvor": [
+        "https://sr.wikipedia.org/wiki/%D0%A1%D0%B8%D1%80%D0%BC%D0%B8%D1%98%D1%83%D0%BC",
+        "https://en.wikipedia.org/wiki/Sirmium",
+        "https://sr.wikipedia.org/wiki/%D0%A1%D0%B8%D1%80%D0%BC%D0%B8%D1%98%D1%83%D0%BC"
+      ]
+    },
+    {
+      "id": "solun-galerijev-kompleks",
+      "naziv": "Solun (Thessaloniki) — Galerijev palatijalni kompleks",
+      "period": "298/299–311+ (luk posvecen 303; rotunda ~306; palata i oktogon do 313. i kasnije)",
+      "mere": [
+        {
+          "element": "aula (bazilika) palate — osnova",
+          "sirina_m": 24,
+          "duzina_m": 67,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "srednje",
+          "napomena": "„The building measured 24 x 67 meters on its exterior” — spoljasnje mere"
+        },
+        {
+          "element": "aula (bazilika) palate — visina",
+          "visina_m": 30,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "nisko",
+          "napomena": "REKONSTRUKCIJA visine („rose to a height of around 30 meters”) — zato nisko"
+        },
+        {
+          "element": "centralni gradevinski blok (peristil-blok)",
+          "sirina_m": 30,
+          "duzina_m": 40,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "srednje",
+          "napomena": "11 prostorija oko tri strane dvorista; monumentalno mermerno stepeniste ka hodniku"
+        },
+        {
+          "element": "hodnik bloka — sirina",
+          "sirina_m": 9,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "srednje",
+          "napomena": "hodnik 9 m sa mozaickim podom; izmedju bazilike i bloka put sirine 9 m"
+        },
+        {
+          "element": "oktogon — zgrade/peristil celina",
+          "sirina_m": 47,
+          "duzina_m": 88,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "srednje",
+          "napomena": "dvoriste sa peristilom (sirina 47 m, duzina 88 m)"
+        },
+        {
+          "element": "oktogonalna sala — povrsina",
+          "povrsina_m2": 875,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "srednje",
+          "napomena": "7 polukruznih nisa, dva spiralna stepenista; superstruktura prve faze izvedena samo do 1,20 m visine (gradnja prekinuta)"
+        },
+        {
+          "element": "oktogonalna sala — kupola",
+          "precnik_m": 23,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "nisko",
+          "napomena": "REKONSTRUKCIJA (kupola nije sacuvana/izvedena do kraja)"
+        },
+        {
+          "element": "oktogonalna sala — visina od poda do kljucnika svoda",
+          "visina_m": 29,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "nisko",
+          "napomena": "REKONSTRUKCIJA visine"
+        },
+        {
+          "element": "rotunda — precnik",
+          "precnik_m": 24.5,
+          "izvor_url": "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+          "poverenje": "visoko",
+          "napomena": "OCUVANA gradjevina; izvor ne precizira unutrasnji/spoljasnji precnik; 8 pravougaonih otvora (zapadni = ulaz)"
+        },
+        {
+          "element": "rotunda — zidovi debljina",
+          "debljina_m": 6,
+          "izvor_url": "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+          "poverenje": "visoko",
+          "napomena": "„more than 6 metres thick” — 6 m je donja granica"
+        },
+        {
+          "element": "rotunda — kupola, visina u vrhu",
+          "visina_m": 30,
+          "izvor_url": "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+          "poverenje": "visoko",
+          "napomena": "„A flat brick dome, 30 metres high at the peak” — OCUVANO, prava visinska kalibracija"
+        },
+        {
+          "element": "trijumfalni luk (oktopilon) — centralni prolaz",
+          "sirina_m": 9.7,
+          "visina_m": 12.5,
+          "izvor_url": "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+          "poverenje": "visoko",
+          "napomena": "ocuvano oko dve trecine lukovi stupaca (8 stubova)"
+        },
+        {
+          "element": "trijumfalni luk — sporedni prolazi",
+          "sirina_m": 4.8,
+          "visina_m": 6.5,
+          "izvor_url": "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+          "poverenje": "visoko"
+        },
+        {
+          "element": "prostorija sa mermerom (nalaz 1939. kod kompleksa)",
+          "sirina_m": 10.4,
+          "duzina_m": 10,
+          "izvor_url": "https://www.thebyzantinelegacy.com/galerius-palace",
+          "poverenje": "srednje",
+          "napomena": "ostaci dvorane sa mermernom dekoracijom"
+        },
+        {
+          "element": "svecana osa: rotunda — luk (rastojanje)",
+          "duzina_m": 125,
+          "izvor_url": "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+          "poverenje": "visoko"
+        },
+        {
+          "element": "svecana osa: luk — palata (rastojanje)",
+          "duzina_m": 235,
+          "izvor_url": "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+          "poverenje": "visoko",
+          "napomena": "put rotunda–palata ukupno ~360 m kroz luk — tipoloski paralel za osovinu kapija–aleja–vila Medijane"
+        }
+      ],
+      "konflikti": [
+        "precnik rotunde 24,5 m — izvor ne precizira unutrasnji ili spoljasnji; u 3D koristiti kao unutrasnji sa napomenom",
+        "ukupna povrsina kompleksa (~120.000 m2 po jednom preglednom sajt-u iz pretrage) NIJE potvrdjena na preuzetim stranama — nije uvrscena u mere",
+        "zvanicni sajt galeriuspalace.culture.gr ne navodi brojke na pocetnoj strani; svi brojevi ovde su iz thebyzantinelegacy.com (srednje) i en-wiki (visoko)"
+      ],
+      "relevantnost_za_medijanu": "NAJPOTPUNIJI skup mera palatijalne arhitekture ranog 4. veka u korpusu. (1) Aula 24x67 m — gotovo identicna proporcija Trieru (26x67) → aula ranog 4. veka je standardizovan tip ~24–26 x 67 m; za manju aulu Medijane (z-38/39 sa apsidom i podijumom) posudjivati PROPORCIJU, ne apsolutnu meru. (2) Oktogon sa kupolom (dvoriste 47x88, sala 875 m2, kupola Ø23/visina 29 rekonstrukcija) — direktan tipoloski par za VILU SA OKTOGONOM na Medijani (330–334). (3) Rotunda Ø24,5 + kupola 30 m — kalibar za centralne/apsidalne objekte. (4) Osa rotunda–luk(125 m)–palata(235 m) paralel za kapija (trijumfalna kapija) – aleja (~80 m) – vila na Medijani. (5) Luk: centralni prolaz 9,7x12,5 m, sporedni 4,8x6,5 m — merilo za carski ulaz.",
+      "izvor": [
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+        "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+        "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+        "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+        "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+        "https://www.thebyzantinelegacy.com/galerius-palace",
+        "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+        "https://en.wikipedia.org/wiki/Arch_of_Galerius"
+      ]
+    },
+    {
+      "id": "trier-aula-palatina",
+      "naziv": "Trier — Aula Palatina (Konstantinova bazilika)",
+      "period": "300–310 (Konstantije Hlor i Konstantin)",
+      "mere": [
+        {
+          "element": "sala — osnova i visina",
+          "sirina_m": 26.05,
+          "duzina_m": 67,
+          "visina_m": 33,
+          "izvor_url": "https://en.wikipedia.org/wiki/Aula_Palatina",
+          "poverenje": "visoko",
+          "napomena": "OCUVANA gradjevina (delimicno anticke supstancije) — jedina u korpusu sa sigurnom visinom carske aule; izvor ne precizira unutrasnje/spoljasnje mere"
+        }
+      ],
+      "konflikti": [
+        "en-wiki ne precizira da li su 67x26,05x33 m unutrasnje ili spoljasnje mere; stariji pregledi navode i ~27,2 m sirine — uzeti 26,05 uz napomenu"
+      ],
+      "relevantnost_za_medijanu": "JEDINO SIGURNO VISINSKO SIDRO korpusa: 33 m ocuvane aule. Aula ranog 4. veka: Trier 67x26 (odnos ~2,6:1), Solun 67x24 (~2,8:1) — standardizovan tip. Za 3D Medijane: visina aule (z-38/39, sa apsidom i podijumom od 3 stepenika) modelovati kao PROCENAT visine Tiera (recimo 40–60% za dvoranu unutar vile), sa poverenjem NIZKO i eksplicitnom napomenom pozajmice. Trier je drzavna aula prestonice — gornja granica, ne direktan kalibar za privatnu vilu.",
+      "izvor": [
+        "https://en.wikipedia.org/wiki/Aula_Palatina"
+      ]
+    },
+    {
+      "id": "nikomedija-antiohija",
+      "naziv": "Nikomedija i Antiohija — carske palate ranog 4. veka (tipoloski presedan)",
+      "period": "284–305 Dioklecijanova Nikomedija; palata u Antiohiji posvedocena u 4. veku (Libanije)",
+      "mere": [
+        {
+          "element": "Nikomedija — Dioklecijanova palata, procena povrsine nalazista",
+          "povrsina_m2": 60000,
+          "izvor_url": "https://en.wikipedia.org/wiki/Nicomedia",
+          "poverenje": "srednje",
+          "napomena": "procena muzeja (Kocaeli) za lokalisano nalaziste palate; iskopavanja od 2016; nije izmerena osnova"
+        }
+      ],
+      "konflikti": [
+        "Antiohija: palata poznata SAMO iz knjizevnih izvora — Libanije: velicinom nadmascuje svaku poredbu, lepotom neuporediva (en-wiki Antioch); nijedna mera",
+        "Nikomedija: 60.000 m2 je procena pre/nos tokom iskopavanja — moze se menjati; poznata i vatra u palati 303. (progoni)",
+        "Konstantin umro 337. u „royal villa” kod Nikomedije/Akyrona — bez mera u izvoru (dodirna tacka sa sudbinom carskih vila)"
+      ],
+      "relevantnost_za_medijanu": "Tipoloski lanac presedana za SALU ZA PRIJEM: Nikomedija (Dioklecijanova prestonica, palata ~6 ha) i Antiohija (Libanijeva palata bez premca) → Solun aula 24x67 → Trier 26x67 → Medijana aula sa apsidom. Velicinska klasa: 60.000 m2 palate Nikomedije blizu je Medijaninom jezgru 5,7 ha (57.000 m2) — rezidencijalne zone ranog 4. veka su istog reda velicine; cela zona Medijane (40 ha) je nadredjena jer ukljucuje horreume, barake i terme.",
+      "izvor": [
+        "https://en.wikipedia.org/wiki/Nicomedia"
+      ]
+    },
+    {
+      "id": "villa-armira",
+      "naziv": "Villa Armira (Ivajlovgrad)",
+      "period": "1–4. vek (prosirenje sa triklinijumom i hipokaustom u 3. veku); unistena kraj 4. veka (verovatno ~378)",
+      "mere": [
+        {
+          "element": "vila — ukupna povrsina osnove",
+          "povrsina_m2": 3600,
+          "izvor_url": "https://en.wikipedia.org/wiki/Villa_Armira",
+          "poverenje": "visoko",
+          "napomena": "dvospratna U-osnova; 22 posebne prostorije u prizemlju + panorama terasa; prosirena ka istoku u 3. veku"
+        }
+      ],
+      "konflikti": [
+        "datum razaranja: „late 4th century (possibly ~378, Battle of Adrianople)” — izvor oprezan; ne izmereni peristil ni pojedinacne prostorije u en-wiki"
+      ],
+      "relevantnost_za_medijanu": "Najsrodnija SEOSKA vila po rangu i sudbini: 3.600 m2 ≈ 55–60% vile sa peristilom Medijane (6.000–6.800 m2) — donji kalibar za razmeru. Unistena u gotskom upadu krajem 4. veka — hronoloska paralela sa rušenjem Medijane 378. (novac u zatvorenoj celini trema). Drugi sprat + terasa — nezavisna potvrda spratnosti koju na Medijani dokazuje proslojak zapecene zemlje u sobi w-1 (Starinar 64/2014).",
+      "izvor": [
+        "https://en.wikipedia.org/wiki/Villa_Armira"
+      ]
+    },
+    {
+      "id": "split-dijoklecijanova-palata",
+      "naziv": "Split — Dioklecijanova palata",
+      "period": "295–305",
+      "mere": [
+        {
+          "element": "osnova — istocna strana bedema",
+          "duzina_m": 214.97,
+          "izvor_url": "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+          "poverenje": "visoko",
+          "napomena": "nepravilan pravougaonik; ~215x180 m ≈ 3,8–4 ha"
+        },
+        {
+          "element": "osnova — severna strana bedema",
+          "duzina_m": 174.74,
+          "izvor_url": "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+          "poverenje": "visoko"
+        },
+        {
+          "element": "osnova — juzna strana bedema",
+          "duzina_m": 181.65,
+          "izvor_url": "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+          "poverenje": "visoko",
+          "napomena": "jug prilagodjen terenu; zapadna strana bez objavljene mere u izvoru"
+        },
+        {
+          "element": "carev apartman — dubina uz celu juznu fasadu",
+          "sirina_m": 40,
+          "izvor_url": "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+          "poverenje": "srednje",
+          "napomena": "42 prozora i 3 balkona prema moru; 16 kula na fasadama + 4 ugaone"
+        }
+      ],
+      "konflikti": [
+        "zapadna strana osnove i visine bedema nisu navedene u en-wiki (podatak postoji u literaturi o palati — za svesku otvoreno)",
+        "ukupna povrsina se u literaturi navodi razlicito (~3,8 ha do preko 4 ha u zavisnosti da li se racunaju kule/substrukcije)"
+      ],
+      "relevantnost_za_medijanu": "Referentna utvrdjena palata tetrarhijskog doba. Kalibriše ODNOS utvrdjenje:rezidencija koji Medijana nema — dokaz da je carska rezidencija ~300. mogla funkcionisati i kao otvoren (neutvrdjen) kompleks kada nije bila prestonica. Apartman 40 m dubok sa 42 prozora — merilo za stambeni/rezidencijalni trakt vrhovnog ranga (zapadni trakt vile Medijane W-1..W-25). Dinasticka nota: Dioklecijanov savremenik i Medijanin pokrovitelj Konstantin — ista generacija graditelja.",
+      "izvor": [
+        "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+        "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+        "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+        "https://en.wikipedia.org/wiki/Diocletian%27s_Palace"
+      ]
+    },
+    {
+      "id": "rim-bazilika-maksencija",
+      "naziv": "Rim — Bazilika Maksencija (Basilica Nova)",
+      "period": "308–312",
+      "mere": [
+        {
+          "element": "platforma — osnova",
+          "sirina_m": 65,
+          "duzina_m": 100,
+          "izvor_url": "https://en.wikipedia.org/wiki/Basilica_of_Maxentius",
+          "poverenje": "visoko"
+        },
+        {
+          "element": "sredisnji brod — osnova",
+          "sirina_m": 25,
+          "duzina_m": 80,
+          "povrsina_m2": 2000,
+          "izvor_url": "https://en.wikipedia.org/wiki/Basilica_of_Maxentius",
+          "poverenje": "visoko",
+          "napomena": "odnos ~3,2:1; zapadna apsida (kolos Konstantina)"
+        },
+        {
+          "element": "sredisnji brod — visina (rekonstrukcija na osnovu ocuvanih delova)",
+          "visina_m": 35,
+          "izvor_url": "https://en.wikipedia.org/wiki/Basilica_of_Maxentius",
+          "poverenje": "nisko",
+          "napomena": "REKONSTRUKCIJA; izvor pominje i 39 m (donji rub krstastih svodova na stubovima iznad poda)"
+        },
+        {
+          "element": "bocni brodovi — sirina i visina",
+          "sirina_m": 16,
+          "visina_m": 24.5,
+          "izvor_url": "https://en.wikipedia.org/wiki/Basilica_of_Maxentius",
+          "poverenje": "srednje",
+          "napomena": "severni bocni brod delom stoji; u clanku i varia „23x17 m” bez reference"
+        }
+      ],
+      "konflikti": [
+        "visina stubova: 14,5 m vs 20 m — NESLAGANJE UNUTAR istog en-wiki clanka (druga vrednost bez reference)",
+        "bočni brod: 16 m sirine / 24,5 m visine vs „23x17 m” (bez reference)"
+      ],
+      "relevantnost_za_medijanu": "Gornja granica tipa: apsidna aula istih decenija, 80x25 m sa visinom ~35 m. Proporcije aula ranog 4. veka: Trier 2,6:1, Solun 2,8:1, Maksencije 3,2:1 — za 3D aule Medijane (manja, sa apsidom) usvojiti proporciju ~2,6–3,2:1 i visinu kao frakciju od 30–35 m, poverenje NIZKO.",
+      "izvor": [
+        "https://en.wikipedia.org/wiki/Basilica_of_Maxentius",
+        "https://en.wikipedia.org/wiki/Basilica_of_Maxentius",
+        "https://en.wikipedia.org/wiki/Basilica_of_Maxentius",
+        "https://en.wikipedia.org/wiki/Basilica_of_Maxentius"
+      ]
+    },
+    {
+      "id": "viminacium",
+      "naziv": "Viminacium (Stari Kostolac)",
+      "period": "1–4. vek (logor legije VII Claudia; grad; carski mauzoleji 3. veka)",
+      "mere": [
+        {
+          "element": "arheolosko nalaziste — ukupna povrsina",
+          "povrsina_m2": 4500000,
+          "izvor_url": "https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D1%83%D0%BC",
+          "poverenje": "srednje",
+          "napomena": "450 ha — za poredbu: cela zona Medijane 40 ha"
+        },
+        {
+          "element": "principij (sab logora)",
+          "sirina_m": 50,
+          "duzina_m": 70,
+          "povrsina_m2": 3500,
+          "izvor_url": "https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D1%83%D0%BC",
+          "poverenje": "srednje",
+          "napomena": "„najmanje 50x70 m”, 40 prostorija"
+        },
+        {
+          "element": "carski mauzolej (otkriven 2018)",
+          "sirina_m": 15,
+          "duzina_m": 15,
+          "izvor_url": "https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D1%83%D0%BC",
+          "poverenje": "srednje",
+          "napomena": "centralna prostorija 6x8 m; 830 m severno od Hostilijanovog mauzoleja; cetiri sloja hidraulicnog maltera 5–10 cm"
+        }
+      ],
+      "konflikti": [
+        "palata i hipodrom Viminacijuma potvrdjeni GEOFIZIKOM ali neiskopani — nema mera (sr-wiki); terme bez kvadrature (sest bazena, akvedukt 10 km)"
+      ],
+      "relevantnost_za_medijanu": "Vojno-logisticka infrastruktura Moezije. Principij 50x70 m sa 40 prostorija — kalibar za korpus zgrada Medijane: zapadne barake (4 ha) i istocne barake (~7 ha, sobe ~8x4,5 m iz geofizike 2010) su ista klasa objekata. Carski mauzoleji pokazuju da je carski sahranjeni protokol u ovom delu carstva vezan za gradove/logore, ne za privatne rezidencije — potvrda da odsustvo mauzoleja na Medijani nije anomalija. Akvedukt 10 km paralel za vodovod Medijane.",
+      "izvor": [
+        "https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D1%83%D0%BC",
+        "https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D1%83%D0%BC",
+        "https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D1%83%D0%BC"
+      ]
+    },
+    {
+      "id": "timacum-minus-ravna",
+      "naziv": "Timacum Minus (Ravna, kod Knjazevca)",
+      "period": "1–4. vek; bedem znatno ojacan u 4. veku",
+      "mere": [
+        {
+          "element": "kastel — povrsina",
+          "povrsina_m2": 20000,
+          "izvor_url": "https://sr.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BC%D0%B0%D0%BA%D1%83%D0%BC_%D0%9C%D0%B8%D0%BD%D1%83%D1%81",
+          "poverenje": "srednje",
+          "napomena": "cetvrtasta osnova ~2 ha"
+        },
+        {
+          "element": "bedem — debljina (poslednja faza, 4. vek)",
+          "debljina_m": 3,
+          "izvor_url": "https://sr.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BC%D0%B0%D0%BA%D1%83%D0%BC_%D0%9C%D0%B8%D0%BD%D1%83%D1%81",
+          "poverenje": "srednje"
+        }
+      ],
+      "konflikti": [
+        "nema objavljenih visina bedema ni mera unutrasnjih objekata (terme, principij, horreum) u obradjenom izvoru"
+      ],
+      "relevantnost_za_medijanu": "Merna tacka za pitanje utvrdjenosti: kastel 4. veka u neposrednom zaledu Naissusa ima bedem debljine 3 m i ~2 ha — kad bi Medijana bila utvrdjena, ocekivala bi se makar takva supstancija zida; geofizika 16 ha (Starinar 61/2011) takav bedem NIJE pokazala. Kalibriše argument „Medijana = otvorena rezidencija”.",
+      "izvor": [
+        "https://sr.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BC%D0%B0%D0%BA%D1%83%D0%BC_%D0%9C%D0%B8%D0%BD%D1%83%D1%81",
+        "https://sr.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BC%D0%B0%D0%BA%D1%83%D0%BC_%D0%9C%D0%B8%D0%BD%D1%83%D1%81"
+      ]
     }
   ],
   "kalibraciona_pravila": [
     "Proporcije prostorija Medijane gde meru fale: posudjivati iz Casale-a po rangu sobe (auditorijum ~ Casale triclinium), ne po apsolutnoj velicini.",
     "Visine objekata nigde javno nisu dokumentovane za Medijanu — jedina kalibracija je analogija (Casale spratnost, Romuliana zidine) => svi visinski podaci u 3D idu sa poverenjem NIZOKE.",
-    "Kad dva komparativna lokaliteta daju razlicite vrednosti, u 3D model ide opseg [min, max] sa obe oznake izvora."
-  ]
+    "Kad dva komparativna lokaliteta daju razlicite vrednosti, u 3D model ide opseg [min, max] sa obe oznake izvora.",
+    "v0.16: aula — proporcija 2,6-3,2:1 iz pojasa Trier/Solun/Maksencije; visina aule vile kao frakcija (40-60%) sidra 33 m, poverenje nisko.",
+    "v0.16: oktogon vile sa oktogonom (330-334) — kupola prema Solunu (Ø 23 m / visina 29 m), obe nisko.",
+    "v0.16: odsustvo bedema na Medijani ima pozitivan komparativni dokaz — Timacum Minus (bedem 3 m, ~2 ha), Romuliana, Split i Šarkamen svi imaju bedeme; geofizika 16 ha takav zid NIJE pokazala → Medijana = otvorena rezidencija, ne neistražena."
+  ],
+  "tipologija_aule": {
+    "izvor": "GLM roj komparativni korpus (2026-10-25)",
+    "pojas": [
+      {
+        "objekat": "Trier, aula palatina",
+        "osnova_m": [
+          26.05,
+          67
+        ],
+        "odnos": "2,6:1",
+        "visina_m": 33,
+        "status_visine": "očuvano — visoko"
+      },
+      {
+        "objekat": "Solun, aula palate",
+        "osnova_m": [
+          24,
+          67
+        ],
+        "odnos": "2,8:1",
+        "visina_m": 30,
+        "status_visine": "rekonstrukcija — nisko"
+      },
+      {
+        "objekat": "Rim, Bazilika Maksencija (brod)",
+        "osnova_m": [
+          25,
+          80
+        ],
+        "odnos": "3,2:1",
+        "visina_m": 35,
+        "status_visine": "rekonstrukcija — nisko"
+      },
+      {
+        "objekat": "Nikomedija / Antiohija",
+        "osnova_m": null,
+        "odnos": null,
+        "visina_m": null,
+        "status_visine": "književno — nisko"
+      }
+    ],
+    "pravilo": "aula Medijane (z-38/z-39, sa apsidom, podijum od 3 stepenika, Fluvius na ulazu, Meduza u sredini) modelovati po proporciji 2,6-3,2:1 iz ovog pojasa; visinu izvesti kao frakciju Trier/Solun (~30-33 m) sa poverenjem nisko; apsidu i podijum iz vlastitih izvora baze (monografija + Starinar 64/2014), ne iz analogije"
+  },
+  "visinska_sidra": {
+    "ocuvano_visoko": [
+      "Trier aula 33 m",
+      "Solun rotunda — kupola na 30 m, zid >6 m",
+      "luk Galerija — prolazi 12,5 / 6,5 m"
+    ],
+    "delimicno_srednje": [
+      "kula 10 Šarkamena 6-8 m (2. etaža)",
+      "mauzolej Šarkamena ~3 m",
+      "zidovi Casalea 2-8 m",
+      "bočni brod Maksencijeve bazilike 24,5 m"
+    ],
+    "rekonstrukcija_nisko": [
+      "Solun aula ~30 m",
+      "Solun oktogon 29 m + kupola Ø 23 m",
+      "Maksencije 35/39 m"
+    ]
+  }
 }

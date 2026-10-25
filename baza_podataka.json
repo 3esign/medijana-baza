@@ -1,6 +1,6 @@
 {
   "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
-  "verzija": "0.15",
+  "verzija": "0.16",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
@@ -128,6 +128,30 @@
       "tip": "iskopni izvestaj (Arheoloski pregled 11, 1969, 185-186)",
       "pristup": "2026-10-25",
       "napomena": "Lj. Zotovic i N. Petrovic; iskopavanja 1969: severni deo peristila, juzni deo centralne sale, ekonomske prostorije; konzervacija termi iz 1967"
+    },
+    {
+      "id": "jeremic-1988-castellum",
+      "url": "https://viminacium.org.rs (arhiva Starinara — sken bez tekstualnog sloja)",
+      "jezik": "sr+fr",
+      "tip": "monografska iskopna obrada (Starinar XXXIX/1988, 59-84)",
+      "pristup": "2026-10-25",
+      "napomena": "M. Jeremić, Castellum aquae antičke Medijane; očitano vizuelno sa rendera str. 62-81 (starinar39/); jedina monografska obrada kasteluma sa merenjima i kotama"
+    },
+    {
+      "id": "jeremic-2006-mozaici",
+      "url": "https://www.nisandbyzantium.org.rs/doc/zbornik4/PDF-IV/Gordana Jeremic.pdf",
+      "jezik": "sr",
+      "tip": "članak (Niš i Vizantija IV, 2006, 145-158)",
+      "pristup": "2026-10-25",
+      "napomena": "G. Jeremić, Mozaici Medijane — neka razmatranja; bibliografski rešen, tri živa URL-a PDF-a; prvi pasus (naselje ~40 ha) verbatim preko DDG indeksa; pun tekst skinuti ručno"
+    },
+    {
+      "id": "jankovic-mihaldzic-2008",
+      "url": "https://bibliografije.nb.rs/bibliografija/tekuca/clanci/serijaA/y2007/zapisi027.html",
+      "jezik": "sr",
+      "tip": "katalog (Naissus 1/2008, 25-73 i 75-95, ISSN 1820-9025; COBISS.SR-ID 157322252, 157323532)",
+      "pristup": "2026-10-25",
+      "napomena": "D. Janković-Mihaldžić, Pojedinačni nalazi rimskog novca na Mediani + Skupni nalaz — verovatno \"Mediana Numismatic Catalogue\"; nedigitalizovano; ključ za zatvaranje Vicennalia/Tricennalia i datovanje po objektima"
     }
   ],
   "osnova": {
@@ -774,13 +798,113 @@
         }
       ],
       "status": "otvoreno: razaranje pre 1930 + gradnja muzeja 1936 preko bazena — delovi palate uništeni pre i tokom prvih istraživanja; za 3D: nadzemni zidovi palate NE SMEJU se rekonstruisati kao sačuvani"
+    },
+    {
+      "id": "izvor-vode-oblik-vs-niska-banja",
+      "tema": "izvor vodovoda Medijane",
+      "varijante": [
+        {
+          "stavka": "Oblik (wiki-sr) — bez poznatog primarnog izvora; u Jeremiću se ne pominje",
+          "izvor": "wiki-sr"
+        },
+        {
+          "stavka": "NIJE ogranak vodovoda Naissusa; dovodni kanal C prilazi sa istoka; izvorište u pravcu Niške Banje, ~4,5 km; kalcinacija u bazenu B = tvrda kraško-termalna voda",
+          "izvor": "jeremic-1988-castellum (str. 64)"
+        }
+      ],
+      "status": "REŠENO ZA SMER (v0.16): Niška Banja (visoko — jedini iskopni izvor); tačna kaptaza otvorena (trasa nikad iskopana); prethodni otvoreni konflikti o izvoru vode ostaju zabeleženi",
+      "izvor": "jeremic-1988-castellum"
+    },
+    {
+      "id": "dva-kanala-dovod-vs-odvod",
+      "tema": "dva kanala kod kasteluma",
+      "varijante": [
+        {
+          "stavka": "glavni + revizioni kanal PREMA naselju (izlazna strana)",
+          "izvor": "poplazic-2018 / monografija-vila-2011"
+        },
+        {
+          "stavka": "DVA DOVODNA kanala (C glavni + D negirani, sa fazama) + izlazni E distributivni + F drenažni + cev G",
+          "izvor": "jeremic-1988-castellum (str. 71-79)"
+        }
+      ],
+      "status": "RAZLIČIT OPIS, NE PROTIVREČJE — Pop-Lazić opisuje izlaznu, Jeremić dovodnu stranu; za 3D: 2 dovodne + 1 izlazna + 1 drenažna linija",
+      "izvor": "jeremic-1988-castellum"
+    },
+    {
+      "id": "pad-vodovoda-2-ili-1-8-posto",
+      "tema": "pad vodovodne linije kastelum-vila",
+      "varijante": [
+        {
+          "stavka": "~10 m na ~500 m ≈ 2% (procena po terenu, starija baza)",
+          "izvor": "web-sr-sinteza"
+        },
+        {
+          "stavka": "8,87 m na ~500 m ≈ 17,7‰ (~1,8%) — dno kanala E 207,36 → olovna cev u vili 198,49 (voda putuje po dnu kanala)",
+          "izvor": "jeremic-1988-castellum"
+        }
+      ],
+      "status": "REŠENO PRECIZNOM KOTOM (v0.16): koristiti 8,9 m pad linije i 2,4‰ lokalni nagib E; strmi linijski nagib = VIŠE dostupne statike, ne problem",
+      "izvor": "jeremic-1988-castellum"
+    },
+    {
+      "id": "vicennalia-tricennalia",
+      "tema": "Vicennalia (325/6) vs Tricennalia (335/6) kao datum glavne faze",
+      "varijante": [
+        {
+          "stavka": "novac 335-336 u zatvorenoj celini w-9 (sloj B, 198,75) — saglasno Tricennaliji i fazi 2 (330-378)",
+          "izvor": "iskopi-2010-2011"
+        },
+        {
+          "stavka": "tekst Pop-Lazića \"trideset godina vladavine\" uz termin Vicennalia — protivurečje u okviru samog teksta",
+          "izvor": "poplazic-2018"
+        }
+      ],
+      "status": "OTVORENO — presudan revers zavetnog novca (VOT XX vs VOT XXX) iz kataloga Janković-Mihaldžić 2008; zavetne emisije cirkulišu i po deset godina posle slavlja, pa VOT XX ne bi značio gradnju 325/6",
+      "izvor": "numizmaticki_sloj.json (num-005)"
+    },
+    {
+      "id": "povrsina-naselja-40-vs-80-ha",
+      "tema": "površina kasnoantičkog naselja Medijana",
+      "varijante": [
+        {
+          "stavka": "~40 ha (prvi pasus verbatim: \"Prostire se na površini od oko 40 hektara\")",
+          "izvor": "jeremic-2006-mozaici"
+        },
+        {
+          "stavka": "~80 ha",
+          "izvor": "FASTI/AUS 2011; jeremic-2017 (Ante portam auream)"
+        }
+      ],
+      "status": "OTVORENO — \"~80 građevina\" (Drča 2004, SANU) je broj objekata, ne hektara; pazi na mešanje ova dva broja",
+      "izvor": "jeremic-2006-mozaici"
+    },
+    {
+      "id": "povrsina-vile-6500-vs-6800",
+      "tema": "površina vile sa peristilom — suženje postojećeg konflikta 6000/6800",
+      "varijante": [
+        {
+          "stavka": "6.800 m² (poziva Jeremić 2006)",
+          "izvor": "wiki-sr → jeremic-2006-mozaici"
+        },
+        {
+          "stavka": "~6.500 m²",
+          "izvor": "FASTI/AUS 2011"
+        },
+        {
+          "stavka": "6.000 m² (starija stavka baze)",
+          "izvor": "wiki-en"
+        }
+      ],
+      "status": "OTVORENO — razlika ~5-13%, verovatno različite definicije obrisa; mere osnove 98,6×63,0 m (Jeremić 2006) upisane na stub vila-peristil",
+      "izvor": "jeremic-2006-mozaici"
     }
   ],
   "rupe_za_rekonstrukciju": [
-    "nema digitalne osnove/GIS objekata A-D kao otvorenih podataka (OSM daje samo spoljasnje jezgro) [v0.9: delimicno popunjeno — situacioni plan monografije daje raspored 9 elemenata; numericke mere za C-D i dalje bez javne osnove]",
+    "nema digitalne osnove/GIS objekata A-D kao otvorenih podataka (OSM daje samo spoljasnje jezgro) [v0.9: delimicno popunjeno — situacioni plan monografije daje raspored 9 elemenata; numericke mere za C-D i dalje bez javne osnove] [v0.16: slovni sistem A-D i dalje nerešen iz otvorenih izvora — negativni nalaz, ključevi Zbornik NMN 9/10 i monografija 2016; 13 skupina mera upisano u objekti_cd_sloj.json]",
     "dimenzije vile sa oktogonom (samo 3.150 m2 istrazeno) i ekonomskih objekata V/G/D",
     "kompletan opis figuralnih mozaika (ikonografija, datum, sadašnja lokacija) — Leda, Fluvius, Medusa",
-    "vodozahvat — trasa i kapacitet (Oblik vs Niska Banja)",
+    "vodozahvat — trasa i kapacitet (Oblik vs Niska Banja) [v0.16: smer rešen — pravac Niške Banje ~4,5 km, Jeremić 1988; kaptaza, trasa i kapacitet i dalje otvoreni — hidraulika_sloj.json]",
     "3D rekonstrukcija — nigde javno dostupan model",
     "spisak svih nalaza po muzejima (NM Niš, NM Beograd, lokalni lapidarijum)",
     "primarni registar nasledje.gov.rs — trenutno van mreze; ponoviti za zvanicne granice i dokument",
@@ -801,6 +925,12 @@
     "Drča S. 2000, Medijana — objekat B, Zbornik Narodnog muzeja Niš 9, 21-36 + Janković-Mihaldžić 2001 (novac sa objekta B), Zbornik NN 10, 27-38",
     "Jeremić G. 2006, Mozaici Medijane — neka razmatranja, Niš i Vizantija 4, 145-158",
     "Vasić M. 2007, Mediana — Die kaiserliche Villa bei Niš, u: Roms Erbe auf dem Balkan, Mainz, 96-107",
-    "Vasić M. 2005, Mediana — domaine impérial ou bien privé?, Beograd, 167-176"
+    "Vasić M. 2005, Mediana — domaine impérial ou bien privé?, Beograd, 167-176",
+    "Skinuti ručno (browser) tri PDF-a Jeremić 2006 (nisandbyzantium.org.rs / ubnt legacy / Scribd) — otvara šest objekata sa mozaicima i nepouzdani trag \"objekta C\"",
+    "Otvoriti monografiju 2016 (rai.ai.ac.rs/bitstream/id/4423/bitstream_4423.pdf) — proverava hipotezu doma rada Milošević \"Urbanism...\" + terme i antičku kapiju kao kandidate za muzejska slova",
+    "Pročitati skinuto/aus2015.pdf str. 77-85 (bilo kojim čitačem) — stibadium B, grejanje definisano 2015",
+    "Nabaviti fizički Zbornik NMN 9/10 + Naissus 1/2008 (Janković-Mihaldžić katalog) — jedini put do sadržaja objekta B i zatvaranja Vicennalia/Tricennalia",
+    "GIS: dem-uzorkovanje GLO-30 vs SRTM vs AW3D30 za kote vode (vila, castellum, 3-4 tačke ka Nišavi) — 0 piksela urađeno; redosled u gis_izvori_sloj.json",
+    "Identifikovati časopis Gavrilović-Vitas 2019 (sv. 35, 65-83, terme)"
   ]
 }

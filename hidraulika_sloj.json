@@ -1,0 +1,377 @@
+{
+  "svrha": "Hidraulicki linijski model vodenog sistema Medijane za 3D: izvor -> kaptaza -> kanal C/D -> castellum aquae (bazeni A+B, ustave) -> kanal E -> vila (nimfej, terme, fontane). Niz cvorova sa kotama + racunica protoka. Dopuna vodeni_linijski_sloj.json v0.15 — ne menja ga.",
+  "verzija": "0.16",
+  "datum": "2026-10-25",
+  "autor": "Svemir / dr Poturak Semir; očitavanje i računica: GLM roj (Claude Agent SDK, model glm-5.3-flash)",
+  "primarni_izvor": {
+    "opis": "Miroslav Jeremic, Castellum aquae anticke Medijane, Starinar XXXIX (1988), Arheoloski institut Beograd, str. 59-84 (sr) + francuski rezime, pristiglo 10.02.1989, UDK 904(497.11)652:711.5.032(497.11)",
+    "url": "https://viminacium.org.rs — arhiva Starinara (sken bez tekstualnog sloja, 206 strana; tacan deep-link nije razresen u ovoj sesiji)",
+    "radna_kopija": "starinar39/str065-str087.png — renderovane strane, ocitano vizuelno (bez OCR-a); stamp. str. 62-81 pokrivaju tekst od 'Polojaj kasteluma' do zakljucka; uvodne strane stamp. 59-61 NISU renderovane",
+    "poverenje": "visoko — primarna monografska obrada iskopavanja, sa merenjima, kotama i autorevom racunicom"
+  },
+  "kratki_izvori": {
+    "jeremic1988": "Starinar XXXIX (1988), 59-84 — vidi primarni_izvor",
+    "poplazic2018": "https://rai.ai.ac.rs/bitstream/id/2194/ROMAN_LIMES_AND_CITIES_ON_THE_TERRITORY.pdf",
+    "monografija2011": "https://rai.ai.ac.rs/handle/123456789/1539",
+    "stibadiumB2016": "https://doi.org/10.2298/STA1666081G",
+    "starinar64_2014": "sonde sloj; iskopni izvestaj 2010/2011 (u bazi od v0.11-v0.13)",
+    "wiki_sr": "https://sr.wikipedia.org/wiki/Medijana_(Ni%C5%A1)",
+    "wiki_en": "https://en.wikipedia.org/wiki/Mediana",
+    "osm": "https://www.openstreetmap.org/way/296184228",
+    "unesco_romuliana": "https://whc.unesco.org/en/list/1253",
+    "bezurla": "bez URL-a — knjizevnost citirana preko Jeremica 1988 (fn 11-34): Petrovic, Nis u anticko doba (1979); M. Riznic, Dopis iz Kamenice, Starinar VI (1889) 62; A. Grenier, Manuel d'archeologie gallo-romaine IV: Les monuments des eaux, Paris 1960; B. Ilakovac, Rimski akvedukti na podrucju severne Dalmacije, Zagreb 1982; A.T. Hodge, Siphons in Roman Aqueducts, PBSR LI (1983) 174-222; F. Rakob, L'aqueduc de Carthage, Les dossiers de l'archeologie 38 (1979); R. Fabretti, Rimae MDCLXXX (1690), 407-416; Vitruvije, O arhitekturi VIII.6; H. Eschebach (Pompeji)"
+  },
+  "cvorovi": [
+    {
+      "id": "izvor-kaptaza-niska-banja",
+      "tip": "hipoteza-izvora",
+      "opis": "Jeremic 1988 (str. 64): gravitacioni kanal C svojim pravcem i padom pokazuje da izvoriste medijanskog vodovoda treba traziti u pravcu Niske Banje, okolica bogata hladnim i termalnim izvorima; rastojanje kaptaza-kastelum oko 4,5 km. Trasa vodovoda NIKAD istrazivana ('Do sada nisu bila preduzimana nikakva istrazivanja moguce trase vodovoda, ni kroz rekognosciranja ni kroz manje sondazne radove'). U Niskoj Banji ranije otkrivena 'rimska kaptaza izvora' (fn 12, preko A. Nenadovica). Smer dovoda potvrdjen merenjem: kanal C i D pristizu SA ISTOKA, pravac istok-zapad.",
+      "kota_mnm": null,
+      "kota_pretpostavka": "izvor ~250 m n.m.v. (kotlina Niske Banje, opseg +-30) — NEMA merenja u izvoru, procena za racunicu nagiba",
+      "izvor_url": "jeremic1988; fn 12",
+      "poverenje": "srednje (smer istok / Niska Banja visoko; tacna kaptaza nepotvrdjena iskopavanjem)"
+    },
+    {
+      "id": "izvor-hipoteza-oblik",
+      "tip": "hipoteza-izvora",
+      "opis": "wiki-sr tvrdi vodozahvat na Obliku. U ocitanom delu Jeremica 1988 (stamp. 62-81) Oblik SE NE POMINJE; jedini primarni izvor o kastelumu izricito zagovara pravac Niske Banje. 'Oblik' ostaje bez poznatog primarnog izvora; moguce da je kasniji agregat ili lokalni predelni naziv na pravcu Niska Banja-Medijana — spekulacija, ne tvrdnja.",
+      "izvor_url": "wiki_sr (tvrdnja); jeremic1988 (protiv)",
+      "poverenje": "nisko",
+      "konflikt": "KONFLIKT IZVORA VODE RESAVAN U KORIST NISKE BANJE: jedini iskopni izvor (Jeremic 1988) daje smer istok/Niska Banja, ~4,5 km, kanal C, i negira ogranak vodovoda Naissusa. Ostaje otvoreno dok se trasa ne iskopa."
+    },
+    {
+      "id": "kaptaza-naissus-kamenica",
+      "tip": "susedni-sistem",
+      "opis": "Vodovod Medijane NIJE ogranak vodovoda Naissusa (Jeremic 1988, str. 64: 'pokazalo se da vodovod Medijane ne predstavlja ogranak vodovoda Naissusa'). Izvoriste vodovoda Naissusa blizu sela Kamenice (fn 11: Petrovic, Nis u anticko doba, 57-58); kaptazu u klisuri Devojacko zdrelo opisao je M. Riznic 1889 (Dopis iz Kamenice, Starinar VI, 62): otvor kroz sredinu zida debljine 1,65 m, probuseni 'cunji' 1,25 x 0,54 x 0,35 m u obliku trube.",
+      "izvor_url": "jeremic1988; fn 11, fn 16 (bezurla)",
+      "poverenje": "srednje (primarni izvestaj 1889 citiran preko Jeremica; original nije otvoren u ovoj sesiji)"
+    },
+    {
+      "id": "kanal-c-dovodni",
+      "tip": "linija-dovodna",
+      "opis": "GLAVNI DOVODNI GRAVITACIONI KANAL C: pravac istok-zapad, paralelno sa juznim zidom bazena A, 2,5 m odmaknut; otkriven u duzini ~33 m + trasa razaznata ~10 m; sirina dna 60 cm; zidovi 50-100 cm (zapad) / 60 cm (istok); dno i zidovi od vodootpornog ruzicastog maltera (opus signinum, 2 cm). Dno KONKAVNO: od 209,50 (istocni kraj) pada nagibom 2-13 promila do najnize tacke 208,92 na osnovini kasteluma, pa se ka zapadu DIGE 2,7 promila do 209,16 (razlika 34 cm) — poslednja talozna depresija pre bazena. Faza 2 sistema: preuzeo funkciju negiranog kanala D preko dodatog prikljucka na bazen A i dve ustave.",
+      "kota_mnm": [
+        208.92,
+        209.5
+      ],
+      "izvor_url": "jeremic1988 (str. 71-73, sl. 2, 16-19)",
+      "poverenje": "visoko (izmereno, iskop)",
+      "napomena_3d": "uspon dna ka zapadu zapadno od ustave I hidraulicki neobjasnjiv kao dovod — moguc ostatak faze 1 (voda za objekte zapadno od kasteluma) ili greska ocitavanja; u 3D crtati kao iscekana trasa sa oznakom nesigurnosti"
+    },
+    {
+      "id": "ustava-I",
+      "tip": "uredjaj-regulacije",
+      "opis": "Kameni blok 90 x 64 x 15 cm u ravni dna kanala C, nasuprot jugozapadnom uglu kasteluma; na gornjoj povrsini zljeb 58 x 6 x 5 cm upravan pravcu kanala — leziste ustave (zatvaraca). Povremenim podizanjem i spustanjem regulisano napajanje kasteluma. Paralele: B. Ilakovac zabelezio pet primera kamenih lezista ustava slicnih dimenzija na akveduktima severne Dalmacije (Ilakovac 1982, 115-120).",
+      "izvor_url": "jeremic1988 (str. 72, sl. 16, 19, 20); fn 15",
+      "poverenje": "visoko",
+      "napomena_3d": "funkcionalni detalj za animaciju: pokretna zastica u zljebu"
+    },
+    {
+      "id": "ustava-II",
+      "tip": "uredjaj-regulacije",
+      "opis": "Druga ustava na kanalu-priklucku od kanala C do juznog zida bazena A (duzina priklucka ~4,00 m, pad min. 2-3 promila). Smenjivala se u ritmu otvaranja/zatvaranja sa ustavom I. Kota pretpostavljenog dna otvora u juznom zidu bazena A: 208,84 ili 208,80 m.",
+      "kota_mnm": [
+        208.8,
+        208.84
+      ],
+      "izvor_url": "jeremic1988 (str. 73, sl. 26)",
+      "poverenje": "visoko (postojanje), srednje (kota — graficka rekonstrukcija)"
+    },
+    {
+      "id": "kanal-d-dovodni",
+      "tip": "linija-dovodna-negirana",
+      "opis": "DRUGI DOVODNI KANAL D: duz severnog bocnog zida kanala C (zajednicki zid), nasuprot jugoistocnom uglu kasteluma; sacuvano dno 1,50 m, sirina 60 cm; pad istok-zapad: dno 209,42 (istok) -> 209,26 (zapad). Definitivno negiran zidanom konstrukcijom novog kanala manjih dimenzija sa dnom ~30 cm vise, koji nije vodio u kastelum (verovatno odvod atmosferske vode). TUMACENJE: faza 1 — D glavni snabdevac (ili je C snabdevao objekte zapadno od kasteluma); faza 2 — D van funkcije, C preuzeo sa ustavama.",
+      "kota_mnm": [
+        209.26,
+        209.42
+      ],
+      "izvor_url": "jeremic1988 (str. 74, sl. 2, 17)",
+      "poverenje": "visoko (nalaz), srednje (fazna interpretacija — autoreva pretpostavka)"
+    },
+    {
+      "id": "bazen-a-talozenje",
+      "tip": "cvor-talozenje-filtriranje",
+      "opis": "VELIKI BAZEN A: nepravilna izduzena 'organska' osnova, unutrasnja duzina 37,20 m; pet delova po poduznoj osi: a trapezast (jug, sirina 16,10) -> b i d ovalni (14,10 / 11,50) -> c pravougaoni srednji (7,00) -> e izduzeni pravougaoni (sever, 4,55). Ukupna spoljna duzina objekta 47 m, sirina 18,50 (jug) -> 7,00 (sever). Zidovi 1,0-1,5 m (u uglovima stepenasto suzeni sa 1,60 na 0,95 m preko 69 cm visine), sacuvani 1-1,60 m (uglovi juza 2,30 m); temeljna stopa ~1,50 m ispod poda A / ~2,00 m ispod poda B. Zidano: lomljeni krecnjak i pescar + oblutci u licu, jezgro kamen+krecni malter. Unutrasnjost: ruzicasti vodootporni malter (opus signinum) + SLOJ FILTERA (svetlomrka zemlja sa oblutcima, koncentracija lomljenog pescara/krecnjaka pri podu) — barijera za mehanicku necistocu. DNO bez posebno izvedenog poda; pada od juga ka severu: razlika 1,08 m na 37,20 m (u tekstu stamp. '2,9 promila (2,26 promila)'; aritmetika 1,08/37,20 = 29 promila = 2,9% — nekonzistentnost oznake u samom izvoru, upisana). Verovatno NEPOKRIVEN (praksa za akumulacione bazene vecih dimenzija; sacuvano nekoliko fragmenata tegule).",
+      "kota_mnm": {
+        "pod_jug": 207.06,
+        "pod_sever": 205.98,
+        "maks_nivo_vode": 208.05,
+        "dubina_vode_prosecna": 1.65,
+        "kapacitet_m3": 584
+      },
+      "izvor_url": "jeremic1988 (str. 65-69, 78-79; sl. 2, 3, 8)",
+      "poverenje": "visoko (mere), srednje (kapacitet — autoreva graficka rekonstrukcija prelivnika 2; umanjeno najmanje 20% zbog filtera cija je zapremina nepoznata)"
+    },
+    {
+      "id": "bazen-b-distribucija",
+      "tip": "cvor-distribucija",
+      "opis": "DISTRIBUCIONI BAZEN B: priblizno kvadratan, 5,28 x 4,74 m; zidovi 1,30 m (juzni, pregradni prema A, 1,70 m — trpi pritisak vodene mase iz A); temeljna stopa 2,00 m ispod poda; severni zid sacuvan 90 cm, prvi lica pojas od opeke od 85 cm iznad poda; opeke 26 x 42 x 5 cm. Pod: opus signinum 10 cm, 50 cm IZNAD poda bazena A (severni kraj), blago utegnut na dva mesta simetricno poduznoj osi — privlaci talog od otvora cevi. Zidovi omalterisani vodootpornim ruzicastim malterom 2 cm. BOJENI SOKL tamne boje 45 cm, gornja povrsina strogo horizontalna — verovatno marks minimalnog nivoa vode / kriticna zona vodostaja.",
+      "kota_mnm": {
+        "pod": 206.39,
+        "maks_nivo_vode": 207.6,
+        "dubina_vode": 1.21,
+        "kapacitet_m3": 30.2
+      },
+      "izvor_url": "jeremic1988 (str. 69-71, 78; sl. 4, 12-14)",
+      "poverenje": "visoko (mere), visoko (kapacitet B — direktna racunica iz kota)"
+    },
+    {
+      "id": "kanal-e-odvodni",
+      "tip": "linija-glavna-distributivna",
+      "opis": "GLAVNI ODVODNI KANAL E — JEDINI kanal kasteluma koji je naselje snabdevao preciscenom pitkom vodom. Polazi iz srednjeg dela severnog zida bazena B (dno na startu 207,36 m, 97 cm iznad dna otvora drenazne cevi B); skrece ka istoku 23 stepena (duzina 18 m) do revizionog sahta H, pa naglo jos 38 stepeni prema palati. Sacuvano 26 m; temeljni zid sirine 1,40 m od oblutaka; puna sirina dna 32 cm; dno ruzicasti malter preko reda opeke. Nivo vode u B se prelivao u E kroz prelivnik 3 (kota dna 207,36). MERNI PAD: 2,4 promila na deonici B-saht H (9 m, po otiscima opeke u podlozi dna). Noseci zid savladjivao visinsku razliku stepenastim spustanjem u donjoj zoni. Trag pokrivaca nema (mozda presveden). E, F i G mogli su se provuci DUBLJE ispod trase rimskog puta — cesta praksa kod rimskih vodovodnih sifona (fn 34: Hodge 1983).",
+      "kota_mnm": {
+        "dno_start": 207.36,
+        "dno_saht": 205.24
+      },
+      "izvor_url": "jeremic1988 (str. 74-76; sl. 2, 21-23, 25)",
+      "poverenje": "visoko (nalaz, kote), srednje (trasa ka vili — crta se upravno ka palati, tacan polozaj neiskopan)",
+      "napomena_3d": "dve linije u 3D: vidljivi zidani deo (26 m kod kasteluma) + hipoteticka nastavna trasa ka vili (isprekidano)"
+    },
+    {
+      "id": "saht-h-revizioni",
+      "tip": "cvor-revizija",
+      "opis": "REVIZIONI SAHT H na mestu skretanja trase kanala E: zidana masa oblutci+krecni malter, osnova priblizno kvadratna 2,80 x 2,40 m; fragment poda od ruzicastog vodootpornog maltera; KOTA DNA 205,24 m. Dno sahtova obicno NIZE od dna kanala — usporava tok i prikuplja talog (praksa; primer: sahtovi akvedukta Kartagine na razmaku ~40 m, Rakob 1979).",
+      "kota_mnm": 205.24,
+      "izvor_url": "jeremic1988 (str. 75-76, 79-80; sl. 21-22)",
+      "poverenje": "visoko (nalaz), srednje (funkcija — praksa)"
+    },
+    {
+      "id": "kanal-f-drenazni",
+      "tip": "linija-drenazna",
+      "opis": "DRENAZNI KANAL F — najbolje ocuvan element kasteluma, duzina 31,50 m; presek blago trapezast: sirina na dnu 25,5 cm, gore 23,5 cm, visina bocnih zidova 39 cm; po citavoj duzini presveden plitkim svodom (unutrasnja visina do temena 44 cm; svod liven preko oplate od zakrivljenih opeka, debljina 15-20 cm). Voda iz bazena B prelazi u F komadom OLOVNE CEVI precnika 95 mm; tacka spaja na polovini visine kanala. Funkcija: BRZO PRAZNJENJE bazena za ciscenje/popravku (Vitruvijeva sema VIII.6: drenazni kanal u donjoj zoni pored distributivnog). Kanali F/G dole u naselju mogli su sluziti navodnjavanju, ribnjacima, pojilima.",
+      "kota_mnm": null,
+      "izvor_url": "jeremic1988 (str. 77-79; sl. 14, 22-25)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "cev-g-olovna-155",
+      "tip": "linija-fizicki-dokaz",
+      "opis": "OLOVNA CEV G, PRECNIK 155 mm — drenazna (praznjaca) cev bazena A: otvor na nivou poda bazena A, provucena ISPOD PODA bazena B po citavoj njegovoj duzini, na severnom kraju se ulivala u zidani odvodni kanal (ostaci nisu registrovani). Na oba kraja provucena kroz rupe u kamenim blokovima zidne mase (zastita od sleganja); na startu zasticena polukruzim lukom od opeke i oslonjena na platformu od opeka 26x42x5 cm u krecnom malteru. Najveci mereni precnik fistule na Medijani.",
+      "kota_mnm": 205.88,
+      "izvor_url": "jeremic1988 (str. 67-69, sl. 6, 8-10)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "cev-b-olovna-95",
+      "tip": "linija-fizicki-dokaz",
+      "opis": "Olovna drenazna cev bazena B, PRECNIK 95 mm: otvor sa juzne strane, neznatno iznad nivoa poda (dno otvora ~206,39 m = 207,36 - 0,97); uliva se u zidani drenazni kanal F. Tragovi mehanizma zatvaranja nema — uporedivo: u drenaznom otvoru rimskog kasteluma u Francuskoj sacuvan DRVENI CEP (Grenier 1960, 166).",
+      "kota_mnm": 206.39,
+      "izvor_url": "jeremic1988 (str. 70, 77-78; sl. 13-14)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "kalcinacija-dokaz-protoka",
+      "tip": "dokaz-fizicki",
+      "opis": "SLOJ KALCINACIJE (krecni talog) na unutrasnjim povrsinama zidova i dnu bazena B (najjasnije na severnom zidu, sl. 15) — fizicki dokaz da je bazen duzo drzao tecucu/tvrdu vodu; u bazenu A kalcinacije nema na ocuvanim povrsinama (talog ostavljen pre filtracije). Podrzava karsno/termalno poreklo vode (krecnjak — pravac Suva planina/Niska Banja).",
+      "izvor_url": "jeremic1988 (str. 71-72, 79; sl. 13, 15)",
+      "poverenje": "visoko (nalaz); srednje (zakljucak o tvrdocci vode — interpretacija)"
+    },
+    {
+      "id": "vodovodna-linija-kastelum-vila",
+      "tip": "linija-transportna",
+      "opis": "Trasa od kasteluma do naselja: kastelum na blagoj padini Vlaskog brda, ~500 m JZ od palate, osa sever-jug sa odstupanjem 11 stepeni ka istoku; padina se spusta ka putu Nis-Pirot nagibom 3 promila (prvih ~200 m od kasteluma), dalje prirubni plato ka Nisavi sa kotama 199,00 i 198,60; VISINSKA RAZLIKA terena kastelum-podnozje ~10,00 m. Na situacionom planu (sl. 1) trase ka kompleksu oznacene isprekidanim linijama; Jeremic ocekuje bolje ocuvane deonice akvedukta uz trasu rimskog puta (uz današnji put Nis-Pirot) i SEKUNDARNE VODOTORNEVE u samom naselju, kojima su regulisani pritisak i kolicina vode ka tocnim mestima. Olovna cev in situ u juznom delu atrijuma palate, usmerena ka Vlaskom brdu — vodila je k otkricu kasteluma.",
+      "kota_mnm": {
+        "start_kanal_e": 207.36,
+        "kraj_u_vili": [
+          198.49,
+          198.92
+        ]
+      },
+      "izvor_url": "jeremic1988 (str. 62-64, 80; sl. 1)",
+      "poverenje": "visoko (visinske razlike, smer), nisko (tacna trasa — neiskopana)"
+    },
+    {
+      "id": "premestanje-kasteluma",
+      "tip": "sudbinska-cinjenica",
+      "opis": "NEPOSREDNO POSLE iskopavanja kastelum je ISECEN NA KOMADE i preseljen nekoliko stotina metara ka severozapadu na 'mnogo nizi plato', gde je ponovo 'sklopljen' (Jeremic 1988, str. 81). Povod: gradnja fabrike katodnih cevi Elektronske industrije na mestu nalaza (francuski rezime); 1980. zabelezena i nelegalna gradnja preko dela terena (fn 19: Jacanovic, Arheoloski pregled 22, 1981, 162). Posledica za model: danasnji spomenik NIJE na originalnoj lokaciji — kote u ovom fajlu su kote ORIGINALNE pozicije iz dokumentacije 1988, ne danasnjeg nalaza.",
+      "izvor_url": "jeremic1988 (str. 81 + francuski rezime, fn 13, 14, 19)",
+      "poverenje": "visoko",
+      "napomena_3d": "3D model kasteluma postavljati na originalnu poziciju (padina Vlaskog brda, sl. 1), ne na danasnju lokaciju spomenika; danasnja lokacija = zaseban objekat muzejskog karaktera"
+    },
+    {
+      "id": "datovanje-kasteluma",
+      "tip": "hronologija",
+      "opis": "Nekoliko primeraka Konstantinovih malih bronza + jedan primerak srednje bronze Aurelijana; novac NIJE iz zatvorenih celina pa datuje samo relativno. Objekat 'izgradjen za potrebe naselja Medijana, ciji su objekti datovani u vreme s kraja treceg ili prve polovine IV veka' (Jeremic 1988, str. 78) — saglasno sa 'kraj III veka' iz Pop-Lazica 2018 u vodeni_linijski_sloj.json. Koriscen uporedo sa naseljem.",
+      "izvor_url": "jeremic1988 (str. 77-78); poplazic2018",
+      "poverenje": "srednje (novac bez zatvorenih celina); period: kraj III - prva polovina IV veka"
+    },
+    {
+      "id": "tocno-mesto-nimfej",
+      "tip": "krajnji-cvor",
+      "opis": "Jedno od DVA poznata tocna mesta (zavrsenih ogranka) u naselju: SREDNJI DEO NIMFEJA (Jeremic 1988, str. 64). Nimfej je polupodzemni, na severnoj strani kompleksa palate; heksagonalni bazen sa olovnim cevima (vodeni_linijski_sloj.json v0.6, kadrovi VI-VII). Kota poda/nivoa vode ~198,30 m (sl. 1 Jeremica, kota kod Nympheum-a).",
+      "kota_mnm": 198.3,
+      "izvor_url": "jeremic1988 (str. 62-64, sl. 1); monografija2011",
+      "poverenje": "visoko (tocno mesto potvrdjeno); srednje (kota procitana sa sl. 1)"
+    },
+    {
+      "id": "tocno-mesto-kadijunica",
+      "tip": "krajnji-cvor",
+      "opis": "DRUGO poznato tocno mesto: zapadni zid SPOREDNE KADIJUNICE (vrucе prostorije) TERME (Jeremic 1988, str. 64) — voda uvadjena direktno u zid terme, analogno olovnoj cevi kroz osnovu zida 59 u palati. Ovo je hidraulicka veza castellum -> terme koja do sada u bazi nije bila eksplicitna.",
+      "kota_mnm": null,
+      "izvor_url": "jeremic1988 (str. 64)",
+      "poverenje": "visoko (tocno mesto); kota nepoznata (terme nije vertikalno merena u bazi)"
+    },
+    {
+      "id": "olovna-cev-zid-59",
+      "tip": "linija-fizicki-dokaz",
+      "opis": "Olovna cev u prostoriji 12 vile: sonda 107, kota 198,49; nastavlja se kroz sondu 80 (luk ~5 m, pravac SZ-JI) i PROLAZI KROZ OSNOVU zida 59 (postavljena pri gradnji zida) — voda uvadjena u zid, ne preko podova. Veza sa transportnom linijom: spust od nivoa kanala E (207,36) do ove cevi = 8,87 m.",
+      "kota_mnm": 198.49,
+      "izvor_url": "starinar64_2014 (sektor 5); upisano u vodeni_linijski_sloj.json",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "sekundarni-vodotoranji",
+      "tip": "hipoteza-mreze",
+      "opis": "Jeremic 1988 (str. 80): u daljim istrazivanjima 'mogu se ocekivati tragovi uobicajenih hidrotehnickih resenja kao sto su SEKUNDARNI VODOTORNEVI izgradjeni u samom naselju, kojima su regulisani, kako pritisak tako i kolicina vode koja je bila usmerena prema tocnim mestima.' Na sl. 1 izmedju kasteluma i palate postoji mala kvadratna struktura na trasi — kandidat, ne identifikacija.",
+      "izvor_url": "jeremic1988 (str. 80, sl. 1)",
+      "poverenje": "nisko (hipoteza izvora), srednje (tipoloska ocekivanost)"
+    },
+    {
+      "id": "odvodnja-palata-impluvium",
+      "tip": "krajnji-cvor-odvodnja",
+      "opis": "Palata: u drugoj fazi drveni stubovi -> mramorni, DODAT IMPLUVIUM i MREZA VODOVODNIH I ODVODNIH KANALA (monografija 2011). Jeremic 1988 (str. 64): 'nalazima delova olovnih i keramickih cevi, kao i delovima odvodnih zidanih kanala u vecini pomenutih objekata: palati, termama, nimfeju i oktagonalnom objektu' — zidana kanalizacija kroz citav kompleks. Kada 1,6 x 1,5 m u e-12 (kreznak malter, horizont 3, posle 380) i olovna cev 198,49 kroz zid 59 — mikro-dokazi iste mreze.",
+      "izvor_url": "monografija2011; jeremic1988 (str. 64); starinar64_2014",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "odvodnja-terme",
+      "tip": "krajnji-cvor-odvodnja",
+      "opis": "Privatne terme: 7 prostorija, frigidarium/tepidarium/caldarium/laconicum; Zotovic-Petrovic 1969: TRI nivoa poda u severoistocnom odeljenju = tri faze (3D model terme mora u slojevima); tocno mesto vode: zapadni zid sporedne kadijunice (vidi tocno-mesto-kadijunica). Odvodni zidani kanali terme potvrdjeni (Jeremic 1988).",
+      "izvor_url": "monografija2011; Zotovic-Petrovic 1969 (Arheoloski pregled 11, 185-186, preko SINTEZA.md); jeremic1988 (str. 64)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "horreum-cella-vinaria",
+      "tip": "krajnji-cvor-tehnoloski",
+      "opis": "Zapadni horreum 91 x 27 m: 2 reda x 11 opekarskih stubova, tri bazena uz zapadni zid; zapadni deo pregradjen u cella vinaria — bazeni za cedjenje vina dubine 1,40 m, dolia ~2 m; istocni horreum (geofizika, 180 m istocno) ista organizacija sa 'rezervoarima' i lezistima dolia. Vodni zahtev: tehnoloski potrosac, ne reprezentativni.",
+      "izvor_url": "monografija2011; geofizika Starinar 61/2011 (preko SINTEZA.md)",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "fontana-nimfej",
+      "tip": "fontana",
+      "opis": "Nimfej: polupodzemni, severna strana palate, heksagonalni bazen, olovne cevi u dnu (vizuelni sloj v0.6). Vrh distributivne piramide sistema: voda sa ~8-9 m staticke visine. Paralela oblika: Fabrettijev kastelum (sl. 27 Jeremica) ima SESTOUGAONI bazen u lancu talozenje-filtriranje-distribucija — heksagon kao funkcionalni oblik vodenih objekata, ne samo reprezentativni.",
+      "kota_mnm": 198.3,
+      "izvor_url": "jeremic1988 (sl. 26-27); monografija2011; vizuelni sloj v0.6",
+      "poverenje": "visoko (postojanje), srednje (kota)"
+    },
+    {
+      "id": "fontana-stibadium-a",
+      "tip": "fontana",
+      "opis": "Mermerna fontana na postolju sa morskim crvom, u sredini sestoougaone sale stibadiuma A (podni mozaik 10); objekat unisten 1936 (Muzej nad bazenom) — rekonstrukcija iz literature i crteza Bratanica 1936. Prikljucak na vodovod nepoznat; sa statickom visinom od ~8 m dostizan je i visok mlaz — ali bez dokaza o visini mlaza.",
+      "izvor_url": "monografija2011 (moz-10)",
+      "poverenje": "visoko (postojanje); nisko (prikljucak i visina mlaza)"
+    },
+    {
+      "id": "fontana-oktagon",
+      "tip": "fontana",
+      "opis": "Vila sa oktogonom (330-334): dvoriste ~40 m istocno sa kolonadom, mramornim plocama i FONTANOM; i soba 2 ima fontanu (druga fontana u kompleksu pored nimfeja). Oktogonalni objekat u vodenoj mrezi potvrdjen i od Jeremica: 'odvodnih zidanih kanala... oktagonalnom objektu'.",
+      "izvor_url": "monografija2011; jeremic1988 (str. 64)",
+      "poverenje": "visoko (postojanje), nisko (dimenzije/polozaj fontane)"
+    }
+  ],
+  "racunica": {
+    "napomena": "Sve racunice ispod su NEZAVISNA PROVERA (GLM; Manning/Darcy-Weisbach), uz Jeremiceve brojeve kao referencu. Pretpostavke su eksplicitne; gde procena ne postoji, dat je opseg.",
+    "nivo_linije": {
+      "opis": "Visinska razlika izlaznog dna kanala E (207,36) i tocne tacke u vili (olovna cev 198,49; podovi 198,40-198,92; nimfej ~198,30)",
+      "delta_H_m": 8.87,
+      "duzina_trase_m": 500,
+      "prosecan_nagib_promila": 17.7,
+      "poredjenje": "Tipicni rimski akvedukti 0,1-5 promila (Nimes ~0,34 promila proseka; kanal C na Medijani 2-13 promila). Linijski nagib Medijane ~18 promila je STRM za rimsku praksu (kratka linija niz padinu), ali to NIJE problem: strmiji nagib znaci VISE dostupne staticke visine na dnu linije, ne manje. Pad se odvija u terenu; kroz kanal E voda ide kontrolisanim nagibom ~2-3 promila (mereno 2,4), a visinska razlika se savladjuje u zavrsnoj, verovatno cevnoj (fistula) deonici ka tocnim mestima — potvrda: sekundarni vodotoranji za regulaciju (Jeremic str. 80) i Hodge 1983 o sifonima.",
+      "poverenje": "visoko (kote izmerene); srednje (interpretacija raspodele nagiba)"
+    },
+    "protok_kanal_e": {
+      "model": "Manning-Strickler, pravougaoni zidani kanal, sirina dna 0,32 m (mereno), n=0,014 (malterisani kanal), S=0,0024 (mereno 2,4 promila)",
+      "slucaj_dubina_0_10_m": "A=0,032 m2, R=0,0615 m -> v=0,55 m/s -> Q=17,5 l/s (~1.510 m3/dan)",
+      "slucaj_dubina_0_20_m": "A=0,064 m2, R=0,0889 m -> v=0,70 m/s -> Q=44,8 l/s (~3.870 m3/dan)",
+      "zakljucak": "Kanal E mogao je da dostavi ~20-45 l/s stalno, tj. 1.700-3.900 m3/dan — desetputa vise od realne potraznje kompleksa. Zato ustave I/II i prelivnici 1-2-3 NISU detalj, nego glavna regulacija: sistem je projektovan sa velikom rezervom, kapacitet > potraznja.",
+      "poverenje": "srednje (dubina vode u kanalu E nije merena — opseg pretpostavljen)"
+    },
+    "jeremic_protok_referenca": {
+      "opis": "Jeremiceva racunica (str. 79) formulom v=sqrt(2*g*H*d/(lambda*L)) (Grenier/Ilakovac, op.cit., 225) ZA PRAZNJENJE (drenazu), ne za snabdevanje:",
+      "cev_B_F_95mm": "H=0,03 m, d=0,095 m, L=1,30 m, lambda=0,03 -> v=1,19 m/s, Q=8,2 l/s = 29,5 m3/h = 708 m3/dan",
+      "cev_A_G_155mm": "H=0,12 m, d=0,155 m, L=4,00 m, lambda=0,03 -> v=1,71 m/s, Q=31 l/s = 111 m3/h = 2.678 m3/dan",
+      "tumacenje": "To su brzine PRAZNJENJA bazena (kapacitet ispraznjanja), saglasne sa mojim opsegom za kanal E (20-45 l/s). NISU prosecna dnevna potrosnja naselja.",
+      "poverenje": "visoko (prenos racunice), srednje (njen znacaj — tumacenje)"
+    },
+    "kapacitet_akumulacije": {
+      "bazen_a": "584 m3 nominalno; sa filter slojem (nepoznata zapremina, >=20%) efektivno ~470 m3",
+      "bazen_b": "30,2 m3 (visina vode 1,21 m)",
+      "ukupno": "~614 m3 nominalno / ~500 m3 efektivno",
+      "saglasnost": "Pri protoku 20 l/s bazeni se prazne za ~7 h — dovod je morao biti kontinuiran ili regulisan ustavama; pri prekidu dotoka naselje ima ~12-24 h rezerve na realnoj potrosnji",
+      "poverenje": "visoko (B), srednje (A)"
+    },
+    "potraznja": {
+      "parametri": "Pompeji: ~4.000 m3/dan za 8.000 stanovnika = 500 l/st/dan (Eschebach, preko Jeremica fn 22); Nimes: 20.000 m3/dan / 50.000 st = 400 l/st/dan (Grenier, preko Jeremica fn 22)",
+      "procena_medijana": "Vrhunac: palata + terme + vila sa oktogonom + vila sa konhama + horreumi + barake (~300-800 ljudi koncentrisano u sezoni boravka dvora) -> 150-400 m3/dan",
+      "rezerva": "Kapacitet E (1.700-3.900 m3/dan) >> potraznja; akumulacija ~500 m3 pokriva ~1,5-3 dana potraznje bez dotoka",
+      "poverenje": "srednje (broj korisnika je procena — nikad publikovana)"
+    },
+    "pritisak_fontane": {
+      "staticka_visina": "Maksimalni nivo vode u B (207,60) ili dno E (207,36) -> nimfej 198,30 / cev u zidu 59 (198,49): staticka visina ~8,9-9,3 m (~0,85-0,9 bar)",
+      "gubici": "Fistula Ø 50 mm, zavrsna grana 100 m, v=0,7 m/s, f~0,025 (Darcy): gubitak ~0,63 m. Za grane 10-30 m: 0,06-0,19 m — zanemarljivo. ZA CELOU 500 m liniju u Ø 50 mm cevi gubitak bi bio ~3,1 m — zato finalna distribucija NE ide jednom tankom cevi, nego zidanim kanalom do naselja + kratkim granama (po potrebi preko sekundarnog vodotoranja)",
+      "mlaz": "Teorijski max mlaz = staticka visina minus gubici: ~6-8 m. REALNO: fontane vila istog ranga rade sa 1-3 m mlaza; na ~9 m dostupne visine i najveci dekorativni mlaz je izvodljiv sa rezervom. ODGOVOR: DA — pad od ~10 m na ~500 m daje DOSTA vise pritiska nego sto fontane trebaju; pravi inzenjerski problem je VISAK pritiska i protoka, resen ustavama, prelivnicima i sekundarnim vodotoranjvima.",
+      "poverenje": "visoko (statika), srednje (gubici — precnik zavrsnih grana nije meren)"
+    },
+    "fistule_precnici": {
+      "mereno_na_medijani": "155 mm (cev G, drenaza A) i 95 mm (cev B) — Jeremic 1988; plus olovne cevi nimfeja (vizuelni sloj) i cev kroz zid 59 (precnik nije publikovan)",
+      "rimski_standard": "Frontinova skala: quinaria ~2,31 cm nazivno (povrsina ~4,2 cm2); distributivne cevi 5/10/20/25... quinariae. Cev 155 mm ~45 quinariae, cev 95 mm ~17 quinariae — srednje distributivne cevi, saglasne ulozi privatno-carskog kompleksa (ne gradskog akvedukta)",
+      "protok_fistule_50mm": "Pod 1 m visinske razlike na 100 m: v~0,9 m/s (Darcy), Q~1,8 l/s; pod ~9 m visine na kratkoj grani 20 m: Q ~10-20 l/s po grani — dovoljno za fontanu i kadijunicu istovremeno",
+      "poverenje": "srednje (Frontinova skala poznata, ali u ovoj sesiji bez mrezne provere; mereni precnici 95/155 visoko)"
+    },
+    "nagib_izvorske_linije": {
+      "opis": "Ako je kaptaza u pravcu Niske Banje (~4,5 km po Jeremicu; izvor ~250 m n.m.v. — procena): pad ~40 m na 4.500 m ~ 9 promila proseka — UMEREN rimski nagib, saglasan sa merenim 2-13 promila na kanalu C. Hidraulika STOJI za Nisku Banju. Za 'Oblik': bez lokacije i kote u dostupnim izvorima, racunica neuporediva.",
+      "poverenje": "nisko (kota i tacna pozicija kaptaze nepoznati; smer visoko)"
+    }
+  },
+  "konflikti": [
+    {
+      "id": "izvor-vode-oblik-vs-niska-banja",
+      "status": "RESEN U KORIST NISKE BANJE (smer), otvorena tacna kaptaza",
+      "obrazlozenje": "Jeremic 1988 (str. 64) — jedini primarni iskopni izvor — izricito: vodovod Medijane nije ogranak Naissusa; kanal C (dovodni, meren) pristizi SA ISTOKA; izvoriste traziti pravcu Niske Banje, ~4,5 km; termalni/hladni izvori; kalcinacija (krecni talog) podrzava tvrdu vodu karsno-termalnog tipa. 'Oblik' (wiki-sr) nema poznat primarni izvor i u Jeremicu se ne pominje.",
+      "ostaje_otvoreno": "tacna pozicija i kota kaptaze; iskop trase nikad izveden"
+    },
+    {
+      "id": "dva-kanala-dovod-vs-odvod",
+      "status": "RAZLICIT OPIS, NE PROTIVURECJE",
+      "obrazlozenje": "Pop-Lazic 2018 (vodeni_linijski_sloj.json): 'glavnim kanalom i jednim revizionim (rezervnim) kanalom prema naselju' — opisuje IZLAZNU stranu. Jeremic 1988 dokumentuje DVA DOVODNA (C + D, sa fazom) i izlazne E (+F drenazni, + izgubljeni odvod cevi G). Za 3D: modelovati 2 dovodne + 1 glavnu izlaznu + 1 drenaznu liniju kod kasteluma.",
+      "poverenje": "visoko (oba izvora saglasna da su dva kanala; razlika je strana posmatranja)"
+    },
+    {
+      "id": "pad-2-ili-3-odsto",
+      "status": "RESEN PRECIZNOM KOTOM",
+      "obrazlozenje": "Polazna procena '~10 m na ~500 m ~2%'. Sa Jeremicevim kotama: dno kanala E 207,36 -> cev u vili 198,49 = 8,87 m => ~17,7 promila (~1,8%). Razlika terena kastelum-podnozje je ~10,00 m (str. 64), ali voda putuje po dnu kanala, ne po terenu. Za 3D: koristiti 8,9 m pad linije i 2,4 promila lokalni nagib E.",
+      "poverenje": "visoko"
+    },
+    {
+      "id": "nagib-dna-bazena-a-jedinica",
+      "status": "NEKONZISTENTNOST U SAMOM IZVORU",
+      "obrazlozenje": "Tekst (str. 65): razlika 1,08 m na 37,20 m 'daje pad od 2,9 promila (2,26 promila)'. Aritmetika: 1,08/37,20 = 29 promila = 2,9%. Verovatno greska znaka u stampi. U modelu koristiti 29 promila (iz mera), uz upozorenje.",
+      "poverenje": "srednje (mere visoko, oznaka jedinice nekonzistentna)"
+    },
+    {
+      "id": "kota-dna-kanala-e-sl13-vs-tekst",
+      "status": "RESEN — TEKST JE AUTORITET",
+      "obrazlozenje": "Na preseku b-b (sl. 13) ocitano ~206,30 za 'dno kanala E', ali tekst (str. 78) eksplicitno: 'Kota dna kanala E, u prelivnom otvoru 3, iznosi 207,36 m', i str. 75: dno na startu kanala 207,36. Uzeto 207,36; ocitavanje crteza smatrati greskom citanja.",
+      "poverenje": "visoko (tekst > crtez)"
+    },
+    {
+      "id": "danasnja-pozicija-kasteluma",
+      "status": "OTVORENO — gde je danas spomenik?",
+      "obrazlozenje": "Premesten 'nekoliko stotina metara ka severozapadu na mnogo nizi plato' posle iskopavanja (str. 81). Danasnja lokacija reasembliranog objekta nije identifikovana (nema mreznog pristupa u sesiji). Za GIS/3D obavezno odvojiti originalnu i danasnju poziciju.",
+      "poverenje": "visoko (da je premesten); nisko (gde je danas)"
+    }
+  ],
+  "ogranicenja": [
+    "Mrezni pristup (WebSearch/WebFetch) NIJE bio odobren u ovoj sesiji — tvrdje se oslanjaju na: (a) primarni izvor Starinar 39/1988 ocitan vizuelno sa lokalnih rendera, (b) izvore vec zabelezene u bazi sa URL-ovima, (c) knjizevnost citiranu preko Jeremicevih fusnota (Grenier, Hodge, Ilakovac, Rakob, Eschebach, Frontin, Vitruvije, Petrovic, Riznic) — originali nisu otvarani.",
+    "Uvodne strane Jeremicevog rada (stamp. 59-61: naslov, uvod, okolnosti otkrica) NISU renderovane ni ocitane; ocitano je stamp. 62-81.",
+    "Ocitavanje je vizuelno sa skena bez tekstualnog sloja: pojedine cifre kota na crtezima (sl. 2, 13, 18) mogu biti ocitane sa greskom +-0,05 m; u konfliktima tekst ima prednost nad crtezom.",
+    "Tacna trasa kanala C od kaptaze i kanala E ka vili NIJE iskopana — u 3D se crtaju isprekidano, na osnovu smera, izohipsi sl. 1 i trase rimskog puta (uz put Nis-Pirot).",
+    "Precnik olovne cevi kroz zid 59 (198,49) i precnici cevi nimfeja nisu publikovani — u racunici gubitaka koriscen Ø 50 mm kao konzervativna pretpostavka.",
+    "Kota izvora/kaptaze (~250 m) je procena bez izvora; racunica nagiba izvorske linije je zato niskog poverenja.",
+    "Dubina vode u kanalu E nije merena — protok kanala dat je kao opseg za dubine 0,10-0,20 m.",
+    "Broj korisnika kompleksa (300-800) je autorska procena za red velicine potraznje; nikad publikovana.",
+    "Starinar 39/1988 postoji samo kao lokalni renderi (starinar39/*.png) — reprodukcija sloja zahteva taj folder; tacan URL skena na viminacium.org.rs ostaje za razresiti (arhiva, 206 strana bez tekstualnog sloja)."
+  ],
+  "odnos_prema_vodenom_sloju": "dopuna vodeni_linijski_sloj.json (v0.16): ne menja ga — ovaj sloj je puna hidraulička mreža 27 čvorova sa kotama i računicom; vodeni_linijski_sloj zadržava stavove Pop-Lazića 2018 uz upisane konflikte gde se izvori razilaze"
+}

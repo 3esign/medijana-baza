@@ -273,6 +273,112 @@ if (gf) {
   console.log(`geofizika: ${gfIds.size} struktura`);
 }
 
+// v0.16: hidraulicki sloj (hidraulika_sloj.json, Jeremić 1988)
+const hyd = ucitaj('hidraulika_sloj.json');
+if (hyd) {
+  if ((hyd.verzija || hyd.version) !== baza?.verzija) greske.push(`hidraulika sloj verzija ${hyd.verzija || hyd.version} != ${baza?.verzija}`);
+  const n = (hyd.cvorovi || []).length;
+  if (n < 25) greske.push(`hidraulika: ocekivano >=25 cvorova, ima ${n}`);
+  const vidi = new Set();
+  for (const c of hyd.cvorovi || []) {
+    if (!c.id || !c.poverenje) greske.push('hidraulika: cvor bez id/poverenja');
+    if (vidi.has(c.id)) greske.push('hidraulika: dupliran id ' + c.id);
+    vidi.add(c.id);
+    const k = c.kota_mnm;
+    const proveriKotu = v => { if (typeof v === 'number' && (v < 194 || v > 212)) greske.push(`hidraulika: kota van opsega (${v} u ${c.id})`); };
+    if (typeof k === 'number') proveriKotu(k);
+    else if (Array.isArray(k)) k.forEach(proveriKotu);
+    if (typeof c.izvor_url !== 'string' || !c.izvor_url) greske.push(`hidraulika: ${c.id} bez izvora`);
+  }
+  if ((hyd.konflikti || []).length < 6) greske.push(`hidraulika: ocekivano >=6 konflikata, ima ${(hyd.konflikti || []).length}`);
+  if (!(hyd.ogranicenja || []).length) greske.push('hidraulika: bez ogranicenja');
+  if (!hyd.racunica?.nivo_linije?.delta_H_m) greske.push('hidraulika: bez racunice nivoa linije (pad 8,87 m)');
+  console.log(`hidraulika: ${n} cvorova, ${(hyd.konflikti || []).length} konflikata`);
+}
+
+// v0.16: numizmaticki sloj (numizmaticki_sloj.json, Starinar LXIV/2014)
+const num = ucitaj('numizmaticki_sloj.json');
+if (num) {
+  if (num.verzija !== baza?.verzija) greske.push(`numizmaticki sloj verzija ${num.verzija} != ${baza?.verzija}`);
+  if (!num.izvor_glavni) greske.push('numizmaticki sloj: bez glavnog izvora');
+  const unosa = (num.novac || []).length;
+  if (unosa < 20) greske.push(`numizmaticki sloj: ocekivano >=20 unosa, ima ${unosa}`);
+  const vidi = new Set();
+  for (const u of num.novac || []) {
+    if (!u.id || !u.carevi_period) greske.push('numizmaticki sloj: unos bez id/carevi_period');
+    if (vidi.has(u.id)) greske.push('numizmaticki sloj: dupliran id ' + u.id);
+    vidi.add(u.id);
+    if (typeof u.izvor_url !== 'string' || !u.izvor_url) greske.push(`numizmaticki sloj: ${u.id} bez izvora`);
+    if (!u.poverenje) greske.push(`numizmaticki sloj: ${u.id} bez poverenja`);
+    if (!u.znacaj_za_hronologiju) greske.push(`numizmaticki sloj: ${u.id} bez znacaja za hronologiju`);
+  }
+  if ((num.konflikti || []).length < 3) greske.push('numizmaticki sloj: ocekivano >=3 konflikta');
+  if (!num.ogranicenja?.length) greske.push('numizmaticki sloj: bez ogranicenja');
+  console.log(`numizmatika: ${unosa} unosa, ${(num.konflikti || []).length} konflikata`);
+}
+
+// v0.16: objekti C-D sloj (objekti_cd_sloj.json)
+const ocd = ucitaj('objekti_cd_sloj.json');
+if (ocd) {
+  if (ocd.verzija !== baza?.verzija) greske.push(`objekti_cd sloj verzija ${ocd.verzija} != ${baza?.verzija}`);
+  if (!ocd.izvor_glavni) greske.push('objekti_cd sloj: bez glavnog izvora');
+  if (!ocd.status_slovnog_sistema?.negativni_nalaz) greske.push('objekti_cd sloj: bez statusa slovnog sistema');
+  const m = (ocd.mere || []).length;
+  if (m < 12) greske.push(`objekti_cd sloj: ocekivano >=12 skupina mera, ima ${m}`);
+  const vidi = new Set();
+  for (const x of ocd.mere || []) {
+    if (!x.id || !x.opis) greske.push('objekti_cd sloj: mera bez id/opisa');
+    if (vidi.has(x.id)) greske.push('objekti_cd sloj: dupliran id ' + x.id);
+    vidi.add(x.id);
+    if (typeof x.izvor !== 'string' || !x.izvor) greske.push(`objekti_cd sloj: ${x.id} bez izvora`);
+    if (!x.poverenje) greske.push(`objekti_cd sloj: ${x.id} bez poverenja`);
+  }
+  if ((ocd.konflikti || []).length < 3) greske.push('objekti_cd sloj: ocekivano >=3 konflikta');
+  if (!/Zenice/.test(ocd.zamka_zenica || '')) greske.push('objekti_cd sloj: zamka Zenica mora ostati upisana');
+  console.log(`objekti_cd: ${m} skupina mera, ${(ocd.konflikti || []).length} konflikata`);
+}
+
+// v0.16: GIS izvori sloj (gis_izvori_sloj.json) — kandidati moraju ostati vidljivo neprovereni
+const gis = ucitaj('gis_izvori_sloj.json');
+if (gis) {
+  if (gis.verzija !== baza?.verzija) greske.push(`gis izvori sloj verzija ${gis.verzija} != ${baza?.verzija}`);
+  if (!gis.upozorenje) greske.push('gis izvori sloj: bez upozorenja o neproverenim kandidatima');
+  const n = (gis.izvori || []).length;
+  if (n < 25) greske.push(`gis izvori sloj: ocekivano >=25 izvora, ima ${n}`);
+  const vidi = new Set();
+  for (const iz of gis.izvori || []) {
+    if (!iz.id || !iz.status_provere) greske.push('gis izvori sloj: izvor bez id/status_provere');
+    if (vidi.has(iz.id)) greske.push('gis izvori sloj: dupliran id ' + iz.id);
+    vidi.add(iz.id);
+    if (!iz.vrednost_za_3d) greske.push(`gis izvori sloj: ${iz.id} bez vrednost_za_3d`);
+    // kandidat ne sme nositi visoko poverenje
+    if (/^kandidat/.test(iz.status_provere) && /^visoko/.test(iz.poverenje || ''))
+      greske.push(`gis izvori sloj: kandidat ${iz.id} ne sme nositi visoko poverenje`);
+  }
+  if (!(gis.otvoreni_zadaci || []).length) greske.push('gis izvori sloj: bez otvorenih zadataka');
+  const kand = (gis.izvori || []).filter(i => /^kandidat/.test(i.status_provere)).length;
+  console.log(`gis izvori: ${n} izvora (${kand} kandidata, ${n - kand} provereno ranije)`);
+}
+
+// v0.16: komparativni korpus prosiren
+if (kompar) {
+  if ((kompar.lokaliteti || []).length < 12) greske.push(`komparativni sloj: ocekivano >=12 lokaliteta posle v0.16, ima ${(kompar.lokaliteti || []).length}`);
+  if (!kompar.tipologija_aule?.pojas?.length) greske.push('komparativni sloj: bez tipologije aule (v0.16)');
+  if (!kompar.visinska_sidra?.ocuvano_visoko?.length) greske.push('komparativni sloj: bez visinskih sidara (v0.16)');
+  const trogirani = (kompar.lokaliteti || []).filter(l => l.id === 'trier-aula-palatina' || l.korpus_v016).length;
+  console.log(`komparativni sloj: ${(kompar.lokaliteti || []).length} lokaliteta`);
+}
+
+// v0.16: vodeni sloj mora znati za novonastale cvorove i korekcije
+if (vod) {
+  const vid = new Set((vod.vodena_mreza?.cvorovi || []).map(c => c.id));
+  for (const need of ['kanal-e-distributivni', 'tocno-mesto-kadijunica-terme', 'premestanje-kasteluma', 'fontana-oktagon'])
+    if (!vid.has(need)) greske.push('vodeni sloj: nedostaje cvor ' + need + ' (v0.16)');
+  const cast = (vod.vodena_mreza?.cvorovi || []).find(c => c.id === 'castellum-aquae');
+  if (cast && !cast.premestanje_posle_iskopa) greske.push('vodeni sloj: castellum bez napomene o premeštanju posle iskopavanja (v0.16)');
+  if (!vod.hidraulika_v016?.pad_linije) greske.push('vodeni sloj: bez hidraulickog rezimea v0.16 (pad linije 8,87 m)');
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

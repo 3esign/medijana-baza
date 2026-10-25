@@ -1,6 +1,6 @@
 {
   "svrha": "Prostorni sloj — spaja tekstualne tvrdnje sa koordinatama, visinama i orijentacijom; polaz za 3D rekonstrukciju (digital twin).",
-  "verzija": "0.15",
+  "verzija": "0.16",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "referentni_sistem": "EPSG:4326 (WGS84), visine m n.m.v.",
@@ -95,6 +95,12 @@
         "zidovi": "povađeni do temelja (lomljeni kamen) još pre 1930; freske sa crvenom, plavom i zelenom samo na porušenom malteru",
         "glavni_deo": "prema podacima iz 1969 glavni deo objekta pruža se ka severu; bazen sa mozaikom preko koga je podignut muzej (1936) sastavni je deo palate",
         "za_3d": "prva konkretna veza sala-peristil sa brojem stepenika i tri strane ispada — direktan ulaz za 3D kretanje nivoa (sala viša od peristila za \"nekoliko stepenika\")"
+      },
+      "mere_jeremic_2006": {
+        "duzina_m": 98.6,
+        "sirina_m": 63,
+        "izvor": "jeremic-2006-mozaici (Niš i Vizantija IV, 145-158; preneto preko sr-wiki)",
+        "napomena": "površina 6.800 m² (isti izvor) vs ~6.500 m² (FASTI/AUS 2011) — konflikt povrsina-vile-6500-vs-6800 upisan u objekti_cd_sloj.json"
       }
     },
     {
@@ -129,7 +135,12 @@
         "revizioni"
       ],
       "poverenje_struktura": "visoko",
-      "izvor": "Pop-Lazic 2018 (rai.ai.ac.rs)"
+      "izvor": "Pop-Lazic 2018 (rai.ai.ac.rs)",
+      "premestanje_posle_iskopa": {
+        "opis": "posle iskopavanja kastelum isečen na komade i premešten nekoliko stotina metara ka SZ na niži plato (fabrika katodnih cevi EI); današnja lokacija neidentifikovana",
+        "izvor": "jeremic-1988-castellum (str. 81)",
+        "za_3d": "stub i kote odnose se na originalnu poziciju na padini Vlaškog brda"
+      }
     },
     {
       "id": "vila-konhe",
