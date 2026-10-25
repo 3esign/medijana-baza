@@ -241,6 +241,38 @@ if (mz) {
   console.log(`mozaici: ${(mz.mozaici || []).length} unosa, zbir ${zbir.toFixed(1)} m2`);
 }
 
+// v0.15: geofizicki sloj (geofizika_sloj.json)
+const gf = ucitaj('geofizika_sloj.json');
+if (gf) {
+  if ((gf.verzija || gf.version) !== baza?.verzija) greske.push(`geofizika sloj verzija ${gf.verzija || gf.version} != ${baza?.verzija}`);
+  if (!gf.izvor_glavni) greske.push('geofizika sloj: bez glavnog izvora');
+  const stubIds = new Set((prostor?.objekti_3d_stubi || []).map(o => o.id));
+  const gfIds = new Set();
+  for (const s of gf.strukture || []) {
+    if (!s.id || !s.naziv) greske.push('geofizika: struktura bez id/naziv');
+    if (gfIds.has(s.id)) greske.push('geofizika: dupliran id ' + s.id);
+    gfIds.add(s.id);
+    if (!s.opis) greske.push('geofizika: ' + s.id + ' bez opisa');
+    if (!s.poverenje_osnove || !s.poverenje_visine) greske.push('geofizika: ' + s.id + ' bez obe oznake poverenja (osnove + visine)');
+    // geofizika nikad ne daje visoko poverenje osnove bez iskopa
+    if (/visoko/.test(s.poverenje_osnove || '')) greske.push('geofizika: ' + s.id + ' osnova ne sme biti visoko (nije iskopano)');
+    if (s.vezan_stub && !stubIds.has(s.vezan_stub)) greske.push('geofizika: ' + s.id + ' referencira nepostojeci stub: ' + s.vezan_stub);
+    if (!s.interpretacija) greske.push('geofizika: ' + s.id + ' bez interpretacije (makar "nepoznato")');
+    if (!s.za_3d) greske.push('geofizika: ' + s.id + ' bez za_3d implikacije');
+  }
+  if (gfIds.size !== 16) greske.push(`geofizika: ocekivano 16 struktura, nadjeno ${gfIds.size}`);
+  // novi stubovi iz geofizike moraju postojati u prostornom sloju
+  for (const obavezan of ['horreum-istocni', 'vojni-logor-istocni']) {
+    if (!stubIds.has(obavezan)) greske.push('geofizika: prostorni sloj bez stuba ' + obavezan);
+  }
+  // vila-peristil mora nositi detalje iz 1969
+  const vp = (prostor?.objekti_3d_stubi || []).find(o => o.id === 'vila-peristil');
+  if (vp && !vp.detalji_1969) greske.push('geofizika/vila: nedostaju detalji_1969 (Zotovic-Petrovic)');
+  // istorijat otkrica mozaika mora postojati od v0.15
+  if (mz && !(mz.istorijat_otkrica || []).length) greske.push('mozaici: nedostaje istorijat_otkrica (1969)');
+  console.log(`geofizika: ${gfIds.size} struktura`);
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

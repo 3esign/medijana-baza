@@ -21,6 +21,7 @@ materijali, uticaji, graditelji, alati, voda, dekor — tako da se objekat može
 | `crtezi_sloj.json` | situacioni plan Sl. 1 (numeracija W/E) + profili sa kotama, očitano sa renderovanih crteža — v0.12 |
 | `sobe_sloj.json` | soba-po-soba sloj: svaka prostorija sa sondama, zidovima, kotama i nalazima — jedinica 3D modela — v0.13 |
 | `mozaici_sloj.json` | katalog mozaika iz monografije: 25 unosa sa povrsinama, tehnikama i vezom na stubove/prostorije; figuralni program (Leda, rečni bog, Meduza) — v0.14 |
+| `geofizika_sloj.json` | strukture 1–16 iz geomagnetne prospekcije 2010 (16 ha istočno od vile): mere, interpretacije, veze na stubove — prvi sloj neiskopanog prostora — v0.15 |
 | `SINTEZA.md` | ljudski pregled i spisak otvorenih konflikata |
 | `validator.js` | provera celog paketa: `node validator.js` — verzije, izvori, koordinate, poverenja, voda, sobe |
 | `slike/` | 8 ključnih kadrova (nimfej I–VII, vila oktogonalnog oblika), CC BY / CC BY-SA, atribucija u `vizuelni_sloj.json` |

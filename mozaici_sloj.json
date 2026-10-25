@@ -1,6 +1,6 @@
 {
   "svrha": "Katalog mozaickih podova Medijane iz monografije 'Constantine's Villa at Mediana' (Vasic/Milosevic/Gavrilovic Vitas/Crnoglavac, Narodni muzej Nis) — svaki mozaik vezan na prostorni stub ili sobu; ulaz za 3D podni sloj i kalibraciju ukupne povrsine",
-  "verzija": "0.14",
+  "verzija": "0.15",
   "datum": "2026-10-25",
   "autor": "Svemir (za dr Poturka Semira)",
   "izvor_glavni": {
@@ -348,5 +348,13 @@
     "proveriti dekodirane povrsine (47, 68) u stampanom izdanju ili PDF-u sa ispravnim fontom",
     "veza moz-18/19 na zapadni hodnik otvara pitanje: da li hodnik ima svoju prostoriju-ID u Sl. 1 numeraciji (proveriti na crtezu)",
     "mozaici spremni za vizuelnu proveru: porediti in situ fotografije (Commons) sa opisima kompozicija"
+  ],
+  "istorijat_otkrica": [
+    {
+      "godina": 1969,
+      "opis": "prvi figuralni mozaici na Medijani otkriveni u centralnoj sali — mitološke teme; ~50 m² mozaika te godine; peristil sa geometrijskim ornamentom",
+      "izvor": "ap11-zotovic-1969",
+      "poverenje": "visoko"
+    }
   ]
 }

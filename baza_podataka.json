@@ -1,6 +1,6 @@
 {
   "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
-  "verzija": "0.14",
+  "verzija": "0.15",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
@@ -112,6 +112,22 @@
       "tip": "rad",
       "pristup": "2026-10-25",
       "napomena": "pdf/milosevic_ideologija.txt; bronzana ograda sa hermama, skulpturski program"
+    },
+    {
+      "id": "geofizika-2011",
+      "url": "https://doiserbia.nb.rs/ft.aspx?id=0350-02411161275M",
+      "jezik": "en+sr",
+      "tip": "clanak (Starinar LXI/2011, 275-284)",
+      "pristup": "2026-10-25",
+      "napomena": "Gordana Milosevic (Arhitektonski fakultet) + RGK DAI (Peters, Wendling); geomagnetna prospekcija april 2010, 16 ha; DOI 10.2298/STA1161275M"
+    },
+    {
+      "id": "ap11-zotovic-1969",
+      "url": "https://files.catbox.moe/0j6r0o.pdf",
+      "jezik": "sr",
+      "tip": "iskopni izvestaj (Arheoloski pregled 11, 1969, 185-186)",
+      "pristup": "2026-10-25",
+      "napomena": "Lj. Zotovic i N. Petrovic; iskopavanja 1969: severni deo peristila, juzni deo centralne sale, ekonomske prostorije; konzervacija termi iz 1967"
     }
   ],
   "osnova": {
@@ -389,6 +405,13 @@
       "polozaj": "istočno",
       "mozaik": "stilizovani lotos, trostruki unutrasnji okvir",
       "izvor": "wiki-en"
+    },
+    "ostava_zito_1969": {
+      "naziv": "Ostava za žitarice u zapadnom krilu palate",
+      "opis": "u malternom podu kružna ležišta za pitose prečnika 1,50 m",
+      "izvor": "ap11-zotovic-1969",
+      "poverenje": "visoko",
+      "za_3d": "pod sa kružnim udubljenjima Ø 1,50 m + pitosi u zapadnom krilu"
     }
   },
   "mozaici_motivi": {
@@ -599,6 +622,12 @@
       "godina": "~2012-2022",
       "opis": "park zatvoren ~10 godina (rekonstrukcija), otvoren krajem decembra 2022",
       "izvor": "wiki-sr"
+    },
+    {
+      "godina": 1969,
+      "opis": "Zotović i Petrović (Arheološki institut + SO Niš, 45.000 dinara): severni deo peristila atrijuma, južni deo centralne sale, ekonomske prostorije; ~50 m² mozaika otkriveno; PRVI figuralni mozaici na Medijani (mitološke teme, centralna sala); konzervacija severnog dela termi (otkrivene 1967) — utvrđena TRI nivoa poda = faze kupatila",
+      "izvor": "ap11-zotovic-1969",
+      "poverenje": "visoko"
     }
   ],
   "strojno_citljiv_sloj": {
@@ -726,6 +755,25 @@
       "resenje": "RESENO v0.14: to su tri recenice o istoj stvari — 450 m2 je sacuvani deo peristila, 945 m2 wiki-sr zbir za kompleks, monografija kaze \"oko 1.000 m2\"; zbir pojedinacnih katalogizovanih povrsina iz monografije 780,9 m2 + apsida aule + terme (povrsine ne citljive) + vila sa oktogonom/konhama popunjava do ~1.000",
       "poverenje": "visoko",
       "detalji": "mozaici_sloj.json, zbirna_provera"
+    },
+    {
+      "id": "zidovi-pre-1930",
+      "tema": "kada su zidovi palate razoreni",
+      "varijante": [
+        {
+          "stavka": "zidovi palate povađeni do nivoa temelja još PRE 1930. godine (nerazjašnjeno ko; temelji mestimično uopšte ne postoje, mozaici na nivou iznad ostataka zidova nezaštićeni)",
+          "izvor": "ap11-zotovic-1969"
+        },
+        {
+          "stavka": "iskopavanja počela 1933/34 (Oršić-Slavetić)",
+          "izvor": "geofizika-2011, f. 3"
+        },
+        {
+          "stavka": "Muzej podignut 1936 (bazen sa mozaikom preko koga je podignut muzej = sastavni deo palate)",
+          "izvor": "sr-wiki + ap11-zotovic-1969"
+        }
+      ],
+      "status": "otvoreno: razaranje pre 1930 + gradnja muzeja 1936 preko bazena — delovi palate uništeni pre i tokom prvih istraživanja; za 3D: nadzemni zidovi palate NE SMEJU se rekonstruisati kao sačuvani"
     }
   ],
   "rupe_za_rekonstrukciju": [
@@ -735,7 +783,12 @@
     "vodozahvat — trasa i kapacitet (Oblik vs Niska Banja)",
     "3D rekonstrukcija — nigde javno dostupan model",
     "spisak svih nalaza po muzejima (NM Niš, NM Beograd, lokalni lapidarijum)",
-    "primarni registar nasledje.gov.rs — trenutno van mreze; ponoviti za zvanicne granice i dokument"
+    "primarni registar nasledje.gov.rs — trenutno van mreze; ponoviti za zvanicne granice i dokument",
+    {
+      "id": "zenica-zamka",
+      "tema": "zamka pri pretrazi: \"objekat A 17,20×14,60 m, objekat B 20,30×14,18, objekat C delimično\" je iz Mlinčića-Tisina kod Zenice (D. i C. Trajković, Arheološki pregled 11), NE sa Medijane — ne uvoziti u bazu",
+      "status": "zabeleženo da se ne ponovi"
+    }
   ],
   "nacin_daljeg_rada": [
     "1. uvuci OpenStreetMap/ Wikidata entitet i koordinate kao strojno citljiv sloj — URADJENO (v0.2)",
@@ -743,6 +796,11 @@
     "3. svaki novi izvor ide u ovaj JSON sa izvorom i nivoom poverenja",
     "4. rekonstrukcija (crtezi/3D) se pravi SAMO iz polja sa poverenjem visoko/srednje",
     "5. ponovno citanje nasledje.gov.rs kad portal proradi",
-    "6. slika iz Wikimedia Commons (P18: Medijana mozaik.jpg) — vizuelni sloj"
+    "6. slika iz Wikimedia Commons (P18: Medijana mozaik.jpg) — vizuelni sloj",
+    "Petrović P. 1994, Mediana — rezidencija rimskih careva, Beograd — standardna monografija, tražiti pun tekst",
+    "Drča S. 2000, Medijana — objekat B, Zbornik Narodnog muzeja Niš 9, 21-36 + Janković-Mihaldžić 2001 (novac sa objekta B), Zbornik NN 10, 27-38",
+    "Jeremić G. 2006, Mozaici Medijane — neka razmatranja, Niš i Vizantija 4, 145-158",
+    "Vasić M. 2007, Mediana — Die kaiserliche Villa bei Niš, u: Roms Erbe auf dem Balkan, Mainz, 96-107",
+    "Vasić M. 2005, Mediana — domaine impérial ou bien privé?, Beograd, 167-176"
   ]
 }

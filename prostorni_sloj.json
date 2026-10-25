@@ -1,6 +1,6 @@
 {
   "svrha": "Prostorni sloj — spaja tekstualne tvrdnje sa koordinatama, visinama i orijentacijom; polaz za 3D rekonstrukciju (digital twin).",
-  "verzija": "0.14",
+  "verzija": "0.15",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "referentni_sistem": "EPSG:4326 (WGS84), visine m n.m.v.",
@@ -86,6 +86,15 @@
           "jug_ka_hipokaustu": 198.36
         },
         "poverenje": "visoko"
+      },
+      "detalji_1969": {
+        "izvor": "ap11-zotovic-1969 (Lj. Zotović i N. Petrović, Medijana, Brzi Brod, Niš — antička carska palata, Arheološki pregled 11, Beograd 1969, 185-186)",
+        "stepeniste_sala_peristil": "centralna sala povezana sa severnim peristilom pravougaonim ispadom podnog dela u sredini južne strane; silazilo se na niži nivo peristila preko nekoliko stepenika koji obuhvataju TRI strane pravougaonog ispada; stepenici od tesanih kamenih blokova, mestimično očuvani",
+        "figuralni_mozaici": "u centralnoj sali otkriveni prvi figuralni mozaici na Medijani — mitološke teme (1969); ukupno ~50 m² mozaika te godine; peristil: višebojni geometrijski ornament (kvadratna i romboidna polja, rozete, svastike, meandri, pletenice)",
+        "istočno_krilo": "pod od opeka velikim delom očuvan",
+        "zidovi": "povađeni do temelja (lomljeni kamen) još pre 1930; freske sa crvenom, plavom i zelenom samo na porušenom malteru",
+        "glavni_deo": "prema podacima iz 1969 glavni deo objekta pruža se ka severu; bazen sa mozaikom preko koga je podignut muzej (1936) sastavni je deo palate",
+        "za_3d": "prva konkretna veza sala-peristil sa brojem stepenika i tri strane ispada — direktan ulaz za 3D kretanje nivoa (sala viša od peristila za \"nekoliko stepenika\")"
       }
     },
     {
@@ -105,7 +114,8 @@
         "zapadni_deo": "samostalna celina, 6 soba u dva reda, masivni prag na zapadnom zidu; kasnije podeljen zidovima — svrha vezana za proizvodnju vina",
         "krov": "dvodnevni (gable) krov na masivnim zidovima, stubovima i stupovima tremca; velika visina sale omogucila sobe u uglovima tremca"
       },
-      "izvor": "monografija-vila-2011 + Pop-Lazic 2018"
+      "izvor": "monografija-vila-2011 + Pop-Lazic 2018",
+      "povezanost_geofizika": "istočni horeum (geof-01, 180 m istočno) ima identičnu unutrašnju organizaciju: tri broda, dva reda stubova, ležišta dolia, rezervoari na zapadnom kraju — nezavisna potvrda da su oba horeuma istog projekta; geofizika-2011 (Milosevic G., Peters, Wendling, Geophysical Survey at Late Roman Mediana, Starinar LXI/2011, 275-284, DOI 10.2298/STA1161275M)"
     },
     {
       "id": "castellum",
@@ -146,7 +156,12 @@
       "naziv": "Terme",
       "status": "postojanje potvrdjeno, dimenzije nisu javno dokumentovane",
       "poverenje_osnove": "srednje (zapadni deo neistrazen — ukupna povrsina NEPOZNATA; centralna organizacija: hladne i tople sobe severno/juzno od zajednicke sredine; frigidarium, tepidarium, caldarium, laconicum; originalni ulaz istocno; kasnije hodnik ka SZ sobama vile i novi ulaz na juznom zidu JI sobe)",
-      "izvor": "monografija-vila-2011"
+      "izvor": "monografija-vila-2011",
+      "faze_1969": {
+        "izvor": "ap11-zotovic-1969 (Lj. Zotović i N. Petrović, Medijana, Brzi Brod, Niš — antička carska palata, Arheološki pregled 11, Beograd 1969, 185-186)",
+        "opis": "konzervacija severnog dela termi (otkriven 1967): u severoistočnom odeljenju TRI nivoa poda povezana sa odgovarajućim zidovima — objašnjavaju pregradnje i dogradnje kupatila; prepravke nisu rađene u velikom vremenskom razmaku; konačna hronologija tek sa potpunim otkrivanjem",
+        "za_3d": "terme imaju najmanje tri poda jedan preko drugog — 3D model treba slojeve, ne jedan pod"
+      }
     },
     {
       "id": "fontana-nimfej",
@@ -197,7 +212,8 @@
       "opis": "prva graditeljska faza; organizacija i konstrukcija analogna zapadnom",
       "poverenje_osnove": "srednje (kompleks ~7 ha sa horreumom; prolazi 12 m siroki na severnom i istocnom kompleksu, ugaono ucvrseni pilonima; uz njih javne terme za vojsku)",
       "poverenje_visina": "nisko",
-      "izvor": "monografija-vila-2011 + Pop-Lazic 2018"
+      "izvor": "monografija-vila-2011 + Pop-Lazic 2018",
+      "povezanost_geofizika": "geof-04: prostorije ~8×4,5 m, portik uz unutrašnje dvorište ~6 ha, ukupan niz ~400 m, ulaz kroz pukotinu od 5 m na severu; geofizika-2011 (Milosevic G., Peters, Wendling, Geophysical Survey at Late Roman Mediana, Starinar LXI/2011, 275-284, DOI 10.2298/STA1161275M)"
     },
     {
       "id": "villa-oktagon",
@@ -303,7 +319,8 @@
       "opis": "posebna vila sa ogradnim zidom, oznacena na situacionom planu monografije kao elemenat 7; u tekstu bez posebnog poglavlja — postojanje potvrdjeno samo planom",
       "poverenje_osnove": "nisko (samo pozicija na planu, bez mera i opisa)",
       "poverenje_visina": "nisko",
-      "izvor": "monografija-vila-2011"
+      "izvor": "monografija-vila-2011",
+      "povezanost_geofizika": "kuće 6 i 7 (geof-06/07, ~14 m, okrenute ka istoku) odgovaraju formi i veličini vili sa ogradnim zidom — serijska gradnja istog tipa na istoku; geofizika-2011 (Milosevic G., Peters, Wendling, Geophysical Survey at Late Roman Mediana, Starinar LXI/2011, 275-284, DOI 10.2298/STA1161275M)"
     },
     {
       "id": "ogradni-zid-geofizika",
@@ -328,6 +345,32 @@
       "poverenje_osnove": "visoko (iskop 2010-2011, sonde 88 i 90)",
       "poverenje_visina": "srednje-visoko (stvarne kote krune i sokla — samo visine temelja, ne nadzemnih zidova)",
       "izvor": "iskopi-2010-2011 (Starinar 64/2014)"
+    },
+    {
+      "id": "horreum-istocni",
+      "naziv": "Istočni horeum (geof-01)",
+      "dimenzije_m": {
+        "sirina_zapadne_fronte": 27
+      },
+      "osa": "Z-I",
+      "poverenje_osnove": "srednje (geomagnetna prospekcija 2010; unutrašnja organizacija jasna: tri broda, dva reda stubova, dolia ležišta, rezervoari, trem, administrativni deo sa pilonima na ulazu)",
+      "poverenje_visina": "nisko (neiskopano)",
+      "izvor": "geofizika-2011 (Milosevic G., Peters, Wendling, Geophysical Survey at Late Roman Mediana, Starinar LXI/2011, 275-284, DOI 10.2298/STA1161275M)",
+      "veza": "identičan projekat kao zapadni horeum (iskopan 1980-82) — plansko privredno krilo na obe strane kompleksa",
+      "za_3d": "kopirati tipologiju zapadnog horeuma (91×27 m) sa oprezom; samo zapadna fronta 27 m je izmerena anomalija"
+    },
+    {
+      "id": "vojni-logor-istocni",
+      "naziv": "Vojni logor (geof-10)",
+      "dimenzije_m": {
+        "stranica": 160
+      },
+      "osa": "kvadrat",
+      "poverenje_osnove": "srednje (jarak kvadrata 160 m čitljiv; kapije sa okruglim kulama na E i W strani; bez kamenog zida — privremeno ili nedovršeno)",
+      "poverenje_visina": "nisko (drveno ili nikad završeno)",
+      "izvor": "geofizika-2011 (Milosevic G., Peters, Wendling, Geophysical Survey at Late Roman Mediana, Starinar LXI/2011, 275-284, DOI 10.2298/STA1161275M)",
+      "hronologija": "kule okruglog Severovog tipa = 3. vek; paralele i 4-5. vek (Diana, Novae); dioklecijanski kontekst moguć — autori rada vide mogući odgovor za ranu fazu Medijane (možda fazu 1, ~317)",
+      "za_3d": "faza pre/preko kompleksa: samo jarak i kapije, bez unutrašnjosti; ne uklapati se sa barakama dok se ne reši hronologija"
     }
   ],
   "orijentacija": {

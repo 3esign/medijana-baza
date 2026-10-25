@@ -187,3 +187,28 @@ Novi fajl `mozaici_sloj.json` — 25 unosa iz kataloga podova monografije *Const
 **Validator prosiren (v0.14):** id jedinstven, poverenje i izvor obavezni, veza na postojeci stub/prostoriju ili obrazlozena granica, zbir povrsina mora poklapati deklarisani (780,9), dekodirane povrsine moraju nositi nisko/srednje poverenje, vodeni sloj mora znati fontanu stibadiuma A, sobe moraju znati w-4. **0 gresaka / 0 upozorenja.**
 
 **Iskreno stanje:** povrsine terme i apside aule nečitljive u ekstrakciji; dekodirane povrsine (47, 68) za proveru; srpski deo monografije citljiv teksto u stampanom izdanju. Otvoreno i dalje: objekti C-D bez osnove, vektori Sl. 1 za GIS, Vicennalia/Tricennalia, izvor vode (Oblik vs Niska Banja), zapis AN 22.
+
+## v0.15 — geofizicki sloj (16 struktura) + Zotovic-Petrovic 1969
+
+**Novi fajl `geofizika_sloj.json`** — geomagnetna prospekcija april 2010 (RGK DAI + Arheoloski institut + Arhitektonski fakultet, Starinar 61/2011): preko 16 ha, uglavnom istocno od vile, 16 struktura sa merama i interpretacijama.
+
+**Najvaznije za situacioni plan:**
+- **geof-01 istočni horeum** (180 m istocno, zapadna fronta 27 m): identicna unutrasnja organizacija kao zapadni (iskopan 1980-82) — tri broda, dva reda stubova, lezista dolia, rezervoari, piloni na ulazu. Nezavisna potvrda 'dva horeuma' iz v0.7; novi stub `horreum-istocni`.
+- **geof-04 istocne barake**: prostorije ~8x4,5 m, portik uz unutrasnje dvoriste od ~6 ha, niz ~400 m, ulaz kroz 5 m pukotinu na severu.
+- **geof-10 vojni logor**: kvadrat 160 m, jarak bez kamenog zida, kapije sa okruglim kulama (Severov tip, 3. vek; paralele do 5. veka) — privremen ili nedovrsen; autori vide moguci odgovor za fazu 1 (~317). Novi stub `vojni-logor-istocni`.
+- **geof-16 apsidalni objekat 10x5 m** kod modernog rezervoara: isti oblik kao crkva iskopana 2001 (kraj 4. veka) — ali funkcija se ne nasledjuje iz analogije; kandidat, ne tvrdnja.
+- **geof-02 gradska vila** 16x45 m (fauces + atrijum 5-6 m + zadnji peristil ~20 m) i **geof-06/07** dve kuce tipa 'vile sa ogradnim zidom' (~14 m) — serijska gradnja na istoku.
+- Faze iz geofizike (317/330-ih; 378; ruralno naselje sa apsidalnom crkvom) poklapaju se sa horizonata 1-3 iz stratigrafije — nezavisna potvrda metoda.
+
+**Zotovic-Petrovic 1969 (Arheoloski pregled 11, 185-186)** — primarni izvestaj sa iskopavanja:
+- **Stepeniste sala-peristil:** pravougaoni ispad podnog dela u sredini juzne strane centrale sale; silazak na nizi nivo peristila preko stepenika sa TRI strane ispada, tesani kameni blokovi — direktan ulaz za 3D kretanje nivoa.
+- **Prvi figuralni mozaici na Medijani otkriveni 1969** (centralna sala, mitoloske teme, ~50 m2 te godine) — upisano u `istorijat_otkrica` mozaickog sloja.
+- **Ostava zitara u zapadnom krilu** sa kruznim lezistima za pitose Ø 1,50 m.
+- **Terme: TRI nivoa poda = faze** (severnoistocno odeljenje) — 3D model terme mora u slojevima.
+- **Bazen sa mozaikom preko koga je podignut Muzej (1936) sastavni deo palate**; zidovi palace povadjeni do temelja jos PRE 1930 — novi konflikt `zidovi-pre-1930` (razaranje pre prvih iskopavanja; nadzemni zidovi se ne rekonstruisu kao sacuvani).
+
+**Zamka iz pretrage zabelezena:** 'objekat A 17,20x14,60 m / B 20,30x14,18 / C delimicno' je iz Mlincica-Tisine kod Zenice (Arheoloski pregled 11), NE sa Medijane — upisano kao upozorenje da se ne uveze.
+
+**Validator prosiren (v0.15):** 16 struktura obavezno, dupli id-i, obe oznake poverenja, osnova iz geofizike nikad 'visoko', vezan_stub mora postojati, interpretacija i za_3d obavezni, novi stubovi obavezni u prostornom sloju, detalji_1969 na vili, istorijat otkrica u mozaicima. **0 gresaka / 0 upozorenja.**
+
+**Iskreno stanje:** konture struktura su na Sl. 2 PDF-a (mozaik anomalija) — vektorizacija za GIS i dalje nije izvodljiva alatima na sistemu; hronologija logora okvirna (3. vek do valentinijanski); vizuelni_sloj zaostajao na 0.13 pa uskladen. Nove reference za lov: Petrovic 1994 (monografija), Drca 2000 (objekat B, Zbornik NMN 9), Jeremic G. 2006 (mozaici, Nis i Vizantija 4), Vasic 2005/2007.
