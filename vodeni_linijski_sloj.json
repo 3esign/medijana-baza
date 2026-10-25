@@ -1,0 +1,150 @@
+{
+  "svrha": "Linijski vodeni sloj Medijane: castellum aquae -> naselje -> fontane, kao deo 3D rekonstrukcije",
+  "verzija": "0.8",
+  "datum": "2026-10-25",
+  "autor": "Svemir / dr Poturak Semir",
+  "primarni_izvor": {
+    "opis": "S. Pop-Lazic, Roman Limes and Cities on the Territory of Serbia, Gallery of SANU, Beograd 2018 (tekst na srpskom i engleskom), odlomak o Medijani",
+    "fajl": "pdf/pop-lazic_limes_2018.pdf",
+    "tekst": "pdf/pop_lazic.txt (862.918 znakova, 392 strane)",
+    "url": "https://rai.ai.ac.rs/bitstream/id/2194/ROMAN_LIMES_AND_CITIES_ON_THE_TERRITORY.pdf",
+    "poverenje": "visoko (recenzirana publikacija Arheoloskog instituta, otvoreni pristup)"
+  },
+  "novi_citativni_dokazi": [
+    {
+      "id": "castellum-dva-bazena",
+      "tvrdnja": "Vodotoranj (castellum aquae) je rezervoar sa DVA bazena: za talozenje, filtriranje i distribuciju vode",
+      "period": "kraj III veka",
+      "lokacija": "na padini Vlaskog brda",
+      "poverenje": "visoko",
+      "implikacija_3d": "castellum nije jedan zdenac nego dvocleni hidraulicki objekat — modelovati dva bazena u kaskadi (talozenje pa distribucija)"
+    },
+    {
+      "id": "dva-kanala",
+      "tvrdnja": "Iz kule vodotornja na severnom delu objekta voda se sprovodi GLAVNIM kanalom i JEDNIM REVIZIONIM (rezervnim) kanalom prema naselju",
+      "poverenje": "visoko",
+      "implikacija_3d": "DVE paralelne linije trase u modelu: primarna + rezervna; oboje polaze sa severne strane castelluma"
+    },
+    {
+      "id": "villa-oktagon-2000m2",
+      "tvrdnja": "Vila sa oktogonom: istrazena povrsina oko 2000 m2; zapadni deo kompleksa oblikovan kao oktagon; prostorni parkovi i vrtovi povezani tremovima",
+      "poverenje": "visoko",
+      "konflikt": "stara procena 6.000–6.800 m2 se odnosila na vilu sa peristilom, NE na vilu sa oktogonom — konflikt povrsine iz v0.2 se ovim resava: dve razlicite gradjevine"
+    },
+    {
+      "id": "barake-4ha",
+      "tvrdnja": "Vojne barake i radionice oruzja i alata istocno i zapadno od vile sa peristilom; zapadni kompleks oko 4 ha; barake sa drvenim tremovima, mermerne oplata i freske i unutar baraka",
+      "poverenje": "visoko",
+      "implikacija_3d": "novo: dva kompleksa baraka kao 3D stubovi niskog ranga dekoracije ali visokog kvaliteta gradnje"
+    },
+    {
+      "id": "crkve-50m-istok",
+      "tvrdnja": "Dve ranohriscanske crkve ~50 m istocno od istoecnog zida vile sa peristilom; istok-zapad orijentacija; od spolija i drveta; jednobrodne sa apsidom na istoku; u juznoj (starijoj) mozaik Hristograma na ambonu",
+      "period": "kraj IV – pocetak V veka",
+      "poverenje": "visoko",
+      "implikacija_3d": "nova dva 3D stuba sa orijentacijom i relativnom pozicijom (50 m od zida)"
+    },
+    {
+      "id": "broncana-ograda-324",
+      "tvrdnja": "B ronzana ograda (cancelli) sa plocama i hermama; ukupno 4 herme sa bistovima (Asclepius, Hygieia, Sol, Luna — Hygieia i Sol nadeni nisu); najverovatnije oko 324; stajala na ulazu apside sale za gozbe",
+      "poverenje": "visoko",
+      "implikacija_3d": "fiksna pozicija i datum za dekorativni element — vezuje se na vilu sa konhama (sala za gozbe)"
+    },
+    {
+      "id": "porfirne-skulpture-1972",
+      "tvrdnja": "Nalaz 1972: porfirne skulpture Asclepiusa sa Telesforom, Hygieie, Afrodite Sosandre, Herkula, Merkura, Dionisa i Dionisove triade (Menada, Satir)",
+      "poverenje": "visoko",
+      "napomena": "dopunjuje postojeci zapis o skulpturama 1972 iz wiki-sr — sada imenovane figure"
+    },
+    {
+      "id": "dea-dardanica",
+      "tvrdnja": "Medijana lezila pored javnog puta; posetioci na ulazu u administrativno-rezidencijalni kompleks docekivani statuom Dea Dardanica, zastitnice Dardanaca",
+      "poverenje": "srednje (interpretacija autora rada)",
+      "implikacija_3d": "programming ulazne tačke sa strane javnog puta"
+    },
+    {
+      "id": "vicennalia",
+      "tvrdnja": "Obimni i brzi radovi na rekonstrukciji i podizanje monumentalnih gradjevina u vezi sa pripremama proslave trideset godina vladavine Konstantina (Vicennalia)",
+      "poverenje": "visoko",
+      "implikacija": "datira glavnu fazu dekoracije na ~325/326 (vicennalia = 20 godina? autor pise 'trideset' — napomena: Vicennalia je 325/326 (20+), Tricennalia 335/336; tekst kaze 'trideset' sto odgovara Tricennaliji — konflikt za proveru)"
+    }
+  ],
+  "vodena_mreza": {
+    "cvorovi": [
+      {
+        "id": "izvor-hipoteza-oblik",
+        "tip": "hipoteza",
+        "opis": "vodozahvat na Obliku (wiki-sr)",
+        "poverenje": "nisko",
+        "status": "nepotvrdjeno — Pop-Lazic ne navodi izvor"
+      },
+      {
+        "id": "izvor-hipoteza-niska-banja",
+        "tip": "hipoteza",
+        "opis": "vodozahvat pravcem Niske Banje (drugi izvori)",
+        "poverenje": "nisko",
+        "status": "nepotvrdjeno"
+      },
+      {
+        "id": "castellum-aquae",
+        "tip": "cvor-distribucije",
+        "period": "kraj III veka",
+        "lokacija": "padina Vlaskog brda, ~500 m JZ od vile (Prostorni sloj + repozitorijum AI zrvnji rad)",
+        "struktura": "kula sa dva bazena (talozenje + distribucija/filtriranje)",
+        "izlazi": [
+          "kanal-glavni",
+          "kanal-revizioni"
+        ],
+        "visina_mnv": {
+          "procena": 206,
+          "opseg": [
+            204,
+            210
+          ],
+          "izvor": "DEM procena iz prostorni_sloj v0.3",
+          "poverenje": "srednje"
+        },
+        "poverenje_struktura": "visoko (Pop-Lazic 2018)"
+      },
+      {
+        "id": "kanal-glavni",
+        "tip": "linija",
+        "od": "castellum-aquae (severna strana)",
+        "ka": "naselje/vila sa peristilom",
+        "geometrija": "gravitaciona; pad ~8-10 m na ~500 m",
+        "poverenje": "visoko (postojanje), nisko (tacna trasa)"
+      },
+      {
+        "id": "kanal-revizioni",
+        "tip": "linija",
+        "od": "castellum-aquae (severna strana)",
+        "ka": "naselje",
+        "uloga": "rezervni/pomoćni kanal",
+        "poverenje": "visoko (postojanje), nisko (tacna trasa)"
+      },
+      {
+        "id": "fontana-nimfej",
+        "tip": "krajnji-cvor",
+        "veza": "prostorni_sloj.objekti_3d_stubi.fontana-nimfej; vizuelna potvrda olovne cevi u dnu bazena (v0.6, kadrovi VI-VII)",
+        "poverenje": "visoko (postojanje i oblik), nisko (visina)"
+      },
+      {
+        "id": "horreum-cella-vinaria",
+        "tip": "krajnji-cvor-tehnoloski",
+        "opis": "zapadni deo horreuma kasnije pregradjen pręgradnim zidovima u bazene za cedjenje i proizvodnju vina (cella vinaria); dubina bazena 1,40 m (v0.1)",
+        "poverenje": "visoko"
+      }
+    ],
+    "pravila_konzistentnosti_3d": [
+      "svaki vodeni cvor mora imati visinu iznad sledeceg cvora nizvodno (gravitacija bez sifona)",
+      "fontana-nimfej i svi bazeni u vili moraju biti ispod nivoa castellum-a (~206 m)",
+      "dva kanala se modeluju kao odvojene linije, ne grananje jednog kanala"
+    ]
+  },
+  "otvorena_pitanja": [
+    "izvor vode: Oblik vs Niska Banja — nijedan primarni izvor jos ne resava; Pop-Lazic 2018 ne navodi",
+    "tacna trasa kanala (georeferencirani iskopni plan nedostupan)",
+    "'trideset godina vladavine' — Vicennalia (325/6) vs Tricennalia (335/6) — protivurecje u okviru samog teksta (engleski deo teksta proveriti)",
+    "Starinar 39 (1988) Jeremic 'Castellum aquae anticke Medijane' postoji u arhivi viminacium.org.rs ali je sken BEZ tekstualnog sloja (206 strana) — ceka OCR; svemirski alat za OCR ne postoji"
+  ]
+}

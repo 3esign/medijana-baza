@@ -1,0 +1,256 @@
+{
+  "svrha": "Prostorni sloj — spaja tekstualne tvrdnje sa koordinatama, visinama i orijentacijom; polaz za 3D rekonstrukciju (digital twin).",
+  "verzija": "0.8",
+  "datum": "2026-10-25",
+  "autor": "Svemir / dr Poturak Semir",
+  "referentni_sistem": "EPSG:4326 (WGS84), visine m n.m.v.",
+  "geometrija": {
+    "center": {
+      "lat": 43.3095654,
+      "lon": 21.9485401,
+      "izvor": "osm way 296184228"
+    },
+    "poligon_osm": "osm_way_coords.json — 6 cvorova, ~5,7 ha zastcenog jezgra",
+    "bbox": {
+      "min_lat": 43.3084686,
+      "min_lon": 21.9470328,
+      "max_lat": 43.3113572,
+      "max_lon": 21.9504661
+    },
+    "zona_40ha": {
+      "status": "NE DOKUMENTOVANA javno kao poligon; samo ~40 ha ukupno (wiki)",
+      "rupe": "granice zone cekaju nasledje.gov.rs / prostorni plan Bresje"
+    }
+  },
+  "tereni_visine": {
+    "metod": "PROCENJENO iz open-elevation tipa servisa 2026-10-25; nisu terenske merne; sluze za smerni pravac, ne za geodeziju",
+    "vila_sa_peristilom_m": {
+      "vrednost": 197,
+      "opseg": [
+        195,
+        199
+      ],
+      "poverenje": "nisko-srednje"
+    },
+    "vodotoranj_castellum_m": {
+      "vrednost": 206,
+      "opseg": [
+        203,
+        210
+      ],
+      "poverenje": "nisko-srednje",
+      "napomena": "pad ~8-10 m na ~500 m JZ zrtve — nezavisno potvrdjuje tvrdnju da gravitacija daje pritisak fontanama (wiki-sr: 10 m pad)"
+    },
+    "arheolski_nivoi_stibadium_B": {
+      "dno_temelja_m_nmv": 198.92,
+      "poklopac_grejnog_kanala_m_nmv": 198.73,
+      "napomena": "prvi stvarni apsolutni nivoi; slazu se sa DEM procenom vile 197 m [195-199] — poverenje DEM procene za podnicu vidi se sada srednje",
+      "poverenje": "visoko"
+    }
+  },
+  "vodovod": {
+    "trasa": {
+      "hipoteza": "izvor vodozahvat JZ od vile, gravitaciona trasa ka castellum aquae pa ka fontanama",
+      "poverenje": "srednje",
+      "konflikt": "izvor vode: Oblik (wiki-sr) vs Niska Banja (drugi izvori) — mozda dva nezavisna sistema; ne resavati, modelovati kao DVE hipoteze"
+    },
+    "implication_3d": "svaka fontana i bazen mora imati nodalnu tacku iznad ~200 m n.m.v. da bi gravitacija radila — provera konzistentnosti 3D modela"
+  },
+  "objekti_3d_stubi": [
+    {
+      "id": "vila-peristil",
+      "naziv": "Vila sa peristilom",
+      "dimenzije_m": [
+        98.6,
+        63
+      ],
+      "osa": "S-J",
+      "poverenje_osnove": "visoko",
+      "poverenje_visina": "nisko (analogija Casale: 1 sprat + possible termalni sprat)"
+    },
+    {
+      "id": "horreum",
+      "naziv": "Horreum",
+      "dimenzije_m": [
+        91,
+        27
+      ],
+      "bazeni_dubina_m": 1.4,
+      "poverenje_osnove": "visoko",
+      "poverenje_visina": "nisko"
+    },
+    {
+      "id": "castellum",
+      "naziv": "Castellum aquae (vodotoranj)",
+      "period_upotrebe": "kraj 3 - sredina 4 v",
+      "poverenje_osnove": "srednje",
+      "poverenje_visina": "nisko",
+      "struktura": "kula sa dva bazena: talozenje + distribucija/filtriranje (Pop-Lazic 2018)",
+      "izlazni_kanali": [
+        "glavni",
+        "revizioni"
+      ],
+      "poverenje_struktura": "visoko",
+      "izvor": "Pop-Lazic 2018 (rai.ai.ac.rs)"
+    },
+    {
+      "id": "vila-konhe",
+      "naziv": "Vila sa konhama (iskop 1975)",
+      "duzina_m": 32.5,
+      "poverenje_osnove": "srednje",
+      "poverenje_visina": "nisko"
+    },
+    {
+      "id": "bazilika-1",
+      "naziv": "Ranohriscanska bazilika 1",
+      "period": "posle 378 (ili 361-425 — konflikt otvoren)",
+      "poverenje_osnove": "nisko"
+    },
+    {
+      "id": "bazilika-2",
+      "naziv": "Ranohriscanska bazilika 2",
+      "period": "posle 378 (ili 361-425)",
+      "poverenje_osnove": "nisko"
+    },
+    {
+      "id": "terme",
+      "naziv": "Terme",
+      "status": "postojanje potvrdjeno, dimenzije nisu javno dokumentovane",
+      "poverenje_osnove": "nisko"
+    },
+    {
+      "id": "fontana-nimfej",
+      "naziv": "Heksagonalna fontana nimfeja",
+      "oblik": "heksagon",
+      "sirina_m": 3.2,
+      "poverenje_osnove": "visoko (oblik vizuelno potvrdjen — kadar VI/VII)",
+      "poverenje_visina": "nisko (nigde dokumentovano)",
+      "geometrija_kontekst": "heksagon-u-oktagonu, centralno u sali nimfeja",
+      "vodni_prikljucki": "otvor cevi vidljiv na dnu bazena (kadar VI) — vezuje se na olovne cevi iz digitalnog pasosa",
+      "izvor": "baza_podataka.json + vizuelni_nalazi.json (kadrovi VI,VII)"
+    },
+    {
+      "id": "crkva-juzna",
+      "naziv": "ranohriscanska crkva (juzna, starija)",
+      "pozicija": "~50 m istocno od istocnog zida vile sa peristilom",
+      "orijentacija": "istok-zapad, apsida na istoku",
+      "gradnja": "spolije + drvo, jednobrodna",
+      "dekor": "mozaik Hristograma na ambonu",
+      "period": "kraj IV - pocetak V veka",
+      "poverenje_osnove": "srednje (relativna pozicija, bez osnove)",
+      "poverenje_visina": "nisko",
+      "izvor": "Pop-Lazic 2018"
+    },
+    {
+      "id": "crkva-severna",
+      "naziv": "ranohriscanska crkva (severna)",
+      "pozicija": "~50 m istocno od istocnog zida vile sa peristilom, severno od juzne",
+      "orijentacija": "istok-zapad, apsida na istoku",
+      "gradnja": "spolije + drvo, jednobrodna",
+      "period": "kraj IV - pocetak V veka",
+      "poverenje_osnove": "srednje",
+      "poverenje_visina": "nisko",
+      "izvor": "Pop-Lazic 2018"
+    },
+    {
+      "id": "barake-zapadne",
+      "naziv": "zapadni kompleks vojnih baraka i radionica",
+      "povrsina_ha": 4,
+      "opis": "uske duge gradjevine sa drvenim tremovima; mermer oplata i freske unutra; radionice oruzja i alata",
+      "poverenje_osnove": "srednje",
+      "poverenje_visina": "nisko",
+      "izvor": "Pop-Lazic 2018"
+    },
+    {
+      "id": "barake-istocne",
+      "naziv": "istocni kompleks vojnih baraka",
+      "opis": "prva graditeljska faza; organizacija i konstrukcija analogna zapadnom",
+      "poverenje_osnove": "nisko",
+      "poverenje_visina": "nisko",
+      "izvor": "Pop-Lazic 2018"
+    },
+    {
+      "id": "villa-oktagon",
+      "naziv": "vila sa oktogonom",
+      "istrazena_povrsina_m2": 2000,
+      "opis": "zapadni deo kompleksa oblikovan kao oktagon; parkovi i vrtovi povezani tremovima; mermer oplata, geometrijski mozaici, mitoloske skulpture",
+      "napomena": "NE mesati sa vilom sa peristilom (6000-6800 m2) — konflikt povrsine iz v0.2 resen: dve gradjevine",
+      "poverenje_osnove": "srednje",
+      "poverenje_visina": "nisko",
+      "izvor": "Pop-Lazic 2018"
+    },
+    {
+      "id": "stibadium-B",
+      "naziv": "stibadijum B vile sa peristilom",
+      "tip": "stibadium (bankska/svecana prostorija)",
+      "polozaj": "JZ izmedju velike aule i termi, naslonjen na SZ deo vile sa peristilom; severno od sobe w-24",
+      "mere": {
+        "centralna_sala": {
+          "oblik": "skoro kruzna (kruzna sa polukalotom)",
+          "promjer_m": 7,
+          "poverenje": "visoko"
+        },
+        "aneks_istok_m": [
+          2.1,
+          2.9
+        ],
+        "aneks_zapad_m": [
+          2.15,
+          3.2
+        ],
+        "hodnik_jug_m": [
+          2.6,
+          "sirina 1.65"
+        ],
+        "dodata_soba_m": [
+          2.2,
+          2.8
+        ],
+        "praefurnium": {
+          "duzina_m": 1.05,
+          "sirina_m": 0.5
+        },
+        "grejni_kanal": {
+          "debljina_zida_m": 0.2,
+          "ocuvana_visina_m": 0.45,
+          "poklopac_cigla": "0.60x0.60x0.06 m",
+          "nivo_poklopca_m_nmv": 198.73
+        }
+      },
+      "visine_m_nmv": {
+        "temelj_dno": 198.92,
+        "kanal_dno_198_32": "198.32",
+        "poklopac_kanala": 198.73,
+        "izvor": "Gavrilovic-Vitas 2016, opisi i fusnote; nivoi Vasic/Milosevic/Gavrilovic 2014"
+      },
+      "dekor": {
+        "zidovi": "beli mermer sa svetlo zuto-oker nijansom, donje zone; fresko gore (bela, plava, crvena); polukalota pozlaćen stakleni mozaik; opus sectile (listoliki mermer)",
+        "pod": "kvalitetan geometrijsko-floralni mozaik, kruzni motivi sa spiralama; stakleni tesere sa zlatnom folijom",
+        "stolarija": "hipoteza: drvene klupe/klinai u aneksima"
+      },
+      "konstrukcija": "opus mixtum ocuvan u SZ sobama ka termi; prvi red cigle datira analizu",
+      "hronologija": "druga gradjevinska faza vile, AD 330-378 (stibadia A i B pridodata severnom delu)",
+      "napomena": "stibadium A (oktagonalna centralna + 2 kvadratne + 1 polukruzna soba) unistio Muzej 1936 — veza ka severnom delu vile negirana",
+      "poverenje_osnove": "visoko (arheoloski iskop 2010-2015)",
+      "poverenje_visina": "srednje-visoko (apsolutni nivoi m n.m.v. iz iskopa — jedini objekat u bazi sa stvarnim visinama)",
+      "izvor": "Gavrilovic-Vitas, Milosevic Jevtic, Crnoglavac 2016, Starinar LXVI, 81-102 (pdf/stibadium_B_gavrilovic_2016.pdf)"
+    }
+  ],
+  "orijentacija": {
+    "vila": "sever-jug (glavna osa), auditorijum-fontana u osi",
+    "hipoteza_provere": "da li je orijentacija vezana za put Niš-Banja (≈SI-SJ) ili solarno (ekvinocij) — proveriti kad stigne GIS osnova"
+  },
+  "prostorne_implikacije_3d": [
+    "Pad 8-10 m na 500 m => fontane rade gravitacijom; 3D mora postovati relativne visine, ne apsolutne.",
+    "Lesna terasa 35 m iznad Nisave => temelji na lesu; rizik sedanja; deo razloga sto je lokalitet napusten posle 441.",
+    "5,7 ha jezgro vs 40 ha zona: 3D model pokriva jezgro (objekti A-D), zona ostaje hladni sloj sa oznakom NE-ISTRAZENO."
+  ],
+  "izvor": [
+    "osm way 296184228",
+    "wikidata Q960839",
+    "wiki-sr",
+    "wiki-en",
+    "open-elevation (procena)",
+    "Gavrilovic-Vitas et al. 2016 (Starinar LXVI)"
+  ]
+}

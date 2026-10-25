@@ -1,0 +1,87 @@
+{
+  "svrha": "Komparativni korpus — lokaliteti istog perioda i bliske geografije, za kalibraciju rekonstrukcije Medijane gde je Primarni izvor tih. Svaki red: sta poredimo, po cemu je slican, sta se moze pozajmiti u 3D model.",
+  "verzija": "0.8",
+  "datum": "2026-10-25",
+  "autor": "Svemir / dr Poturak Semir",
+  "lokaliteti": [
+    {
+      "id": "felix-romuliana",
+      "naziv": "Felix Romuliana (Gamzigrad), Zajecar, Srbija",
+      "period": "298-311 (tetrarhijski), kasnija 5-v. naselbina",
+      "udaljenost_od_medijane": "~110 km istocno",
+      "povrsina_ha": [
+        {
+          "vrednost": 4.5,
+          "opis": "glavni palata-kompleks (utvrdjeni)",
+          "izvor": "wiki-en Gamzigrad",
+          "poverenje": "srednje"
+        },
+        {
+          "vrednost": 17.9,
+          "opis": "UNESCO property ukupno (palata + memrijalni kompleks Magura)",
+          "izvor": "UNESCO whc.unesco.org/en/list/1253",
+          "poverenje": "visoko"
+        }
+      ],
+      "karakteristike": "utvrdjenje sa 20 odbrambenih kula; ranije tumaceno kao vojni logor upravo zbog utvrdjenja — paralela sa pitanjem fortifikacije Medijane",
+      "za_sistem_3d": "merezilo za tetrarhijsko/konstantinovsku rezidencijalnu arhitekturu u Srbiji; kalibracija visine zidina i rasporeda kula; mozaici iste radionice-generacije",
+      "razlika": "Romuliana je mauzolejsko-memrijalni + palata kompleks cara u penziji; Medijana je privatno-drzavna rezidencija bez utvrdjenja (trenutno stanje dokaza)",
+      "izvor": [
+        "https://whc.unesco.org/en/list/1253",
+        "https://en.wikipedia.org/wiki/Gamzigrad"
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "id": "piazza-armerina",
+      "naziv": "Villa Romana del Casale, Piazza Armerina, Sicilija",
+      "period": "kraj 3 / pocetak 4. v, moguci vlasnik tetrarh (attribucija Maximianus Herculius — sporna)",
+      "udaljenost_od_medijane": "~800 km (iste imperijske kulturne sfere)",
+      "povrsina": {
+        "mozaici_opus_sectile_m2": {
+          "vrednost": 3500,
+          "izvor": "wiki-en Villa Romana del Casale",
+          "poverenje": "visoko"
+        },
+        "sobe": "60+ na vise nivoa",
+        "peristil_veliki_m": {
+          "dimenzije": "40x30 (trapezan: N40 E30 S38 W31)",
+          "izvor": "seindal.dk photo archive",
+          "poverenje": "srednje"
+        },
+        "peristil_ovalni_m": {
+          "precnik": 46,
+          "izvor": "wiki-en agregat",
+          "poverenje": "srednje"
+        },
+        "hodnik_velikog_lova_m": {
+          "duzina": 60,
+          "napomena": "najduza kontinuirana figuralna mozaicka scena carstva, apsida na oba kraja",
+          "izvor": "wiki-en",
+          "poverenje": "visoko"
+        }
+      },
+      "za_sistem_3d": "najbolji analog za proporciju peristil:trem:triklinijum i za figuralne mozaike ciji ikonografski program na Medijani nije javno dokumentovan; kalibracija gustine dekoracije po m2 poda",
+      "razlika_kvanti": "Medijana: 945 m2 mozaika na ~6.000-6.800 m2 vile (15-16% poda). Casale: 3.500 m2 na znatno vecoj vili — Medijana je skalno manja, ne skromnija po rangu",
+      "izvor": [
+        "https://en.wikipedia.org/wiki/Villa_Romana_del_Casale",
+        "https://whc.unesco.org/en/list/1024"
+      ],
+      "poverenje": "visoko"
+    },
+    {
+      "id": "naissus-kontekst",
+      "naziv": "Naissus (Nis) — urbani kontekst",
+      "period": "1-6. v",
+      "podaci": "rimski Nis tada 20-25 ha; Medijana 40 ha rezidencijalne zone — rezidencija je bila skoro duplo veca od grada koji je opsluzuje (pokazatelj ranga i drzavnog ulaganja)",
+      "za_sistem_3d": "minimax granice za logistiku gradnje: ciglana, krecna jama, kamena — sve lokalno; merzilo za aproksimaciju radne snage i trajanja gradnje",
+      "izvor": "wiki-sr + wiki-en (agregat, poverenje: srednje)",
+      "poverenje": "srednje"
+    }
+  ],
+  "kalibraciona_pravila": [
+    "Proporcije prostorija Medijane gde meru fale: posudjivati iz Casale-a po rangu sobe (auditorijum ~ Casale triclinium), ne po apsolutnoj velicini.",
+    "Visine objekata nigde javno nisu dokumentovane za Medijanu — jedina kalibracija je analogija (Casale spratnost, Romuliana zidine) => svi visinski podaci u 3D idu sa poverenjem NIZOKE.",
+    "Kad dva komparativna lokaliteta daju razlicite vrednosti, u 3D model ide opseg [min, max] sa obe oznake izvora."
+  ]
+}
