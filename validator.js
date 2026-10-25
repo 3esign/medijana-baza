@@ -408,6 +408,23 @@ if (vod) {
   console.log(`dem sloj: ${Object.keys(kote).length} kotnih tacaka, prag trase ${prof.uzvisina_na_trasi_max} m`);
 }
 
+// v0.22: komparativni korpus Meduza mozaika
+const kmz = mz?.komparativni_korpus;
+if (kmz) {
+  const idovi = new Set();
+  (kmz.stavke || []).forEach((s, i) => {
+    if (!s.id) greske.push(`komparativni korpus[${i}]: bez id`);
+    else if (idovi.has(s.id)) greske.push(`komparativni korpus: dupliran id ${s.id}`);
+    else idovi.add(s.id);
+    if (!s.lokalitet) greske.push(`${s.id || i}: bez lokaliteta`);
+    if (!s.izvori || !s.izvori.length) greske.push(`${s.id}: bez izvora`);
+    if (!(s.izvori || []).every(z => /\[(PROVERENO|NEPROVERENO)/.test(z) || /WebSearch/.test(z)))
+      upozorenja.push(`${s.id}: izvor bez statusa dokaza`);
+  });
+  if (!kmz.sudar_tvrdnji) upozorenja.push('komparativni korpus: bez sudara tvrdnji');
+  console.log(`komparativni korpus: ${(kmz.stavke || []).length} stavki`);
+}
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

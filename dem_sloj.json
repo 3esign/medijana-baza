@@ -1,6 +1,6 @@
 {
  "sloj": "dem_glo30",
- "verzija": "0.21",
+ "verzija": "0.22",
  "izvor": "Copernicus GLO-30 (DSM, 30 m GSD), AWS opendata copernicus-dem-30m",
  "licence": "Copernicus/ESA besplatna javna upotreba",
  "tiles": [

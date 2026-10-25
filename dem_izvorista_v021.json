@@ -1,12 +1,12 @@
 {
- "verzija": "0.21",
+ "verzija": "0.22",
  "metoda": "GLO-30 tiff uzorkovanje, rasterio; sidra: Nominatim (niska banja) + OSM way (mediana)",
  "vila": {
   "lon": 21.9485401,
   "lat": 43.3095654,
   "m": 198.2,
   "osm_centroid_proveren": true,
-  "open_meteo_m": 198.0
+  "open_meteo_m": 198
  },
  "vrelo": {
   "lon": 22.0072312,
@@ -20,7 +20,7 @@
  "max_prag_na_trasi_m": 253.6,
  "profil": [
   {
-   "f": 0.0,
+   "f": 0,
    "lon": 22.0072312,
    "lat": 43.2933122,
    "m": 253.6
@@ -95,7 +95,7 @@
    "f": 0.6,
    "lon": 21.97202,
    "lat": 43.30306,
-   "m": 206.0
+   "m": 206
   },
   {
    "f": 0.65,
@@ -131,7 +131,7 @@
    "f": 0.9,
    "lon": 21.95441,
    "lat": 43.30794,
-   "m": 199.0
+   "m": 199
   },
   {
    "f": 0.95,
@@ -140,7 +140,7 @@
    "m": 198.4
   },
   {
-   "f": 1.0,
+   "f": 1,
    "lon": 21.94854,
    "lat": 43.30957,
    "m": 198.2
