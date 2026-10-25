@@ -1,242 +1,242 @@
 {
-  "svrha": "Linijski vodeni sloj Medijane: castellum aquae -> naselje -> fontane, kao deo 3D rekonstrukcije",
-  "verzija": "0.18",
-  "datum": "2026-10-26",
-  "autor": "Svemir / dr Poturak Semir",
-  "primarni_izvor": {
-    "opis": "S. Pop-Lazic, Roman Limes and Cities on the Territory of Serbia, Gallery of SANU, Beograd 2018 (tekst na srpskom i engleskom), odlomak o Medijani",
-    "fajl": "pdf/pop-lazic_limes_2018.pdf",
-    "tekst": "pdf/pop_lazic.txt (862.918 znakova, 392 strane)",
-    "url": "https://rai.ai.ac.rs/bitstream/id/2194/ROMAN_LIMES_AND_CITIES_ON_THE_TERRITORY.pdf",
-    "poverenje": "visoko (recenzirana publikacija Arheoloskog instituta, otvoreni pristup)"
+ "svrha": "Linijski vodeni sloj Medijane: castellum aquae -> naselje -> fontane, kao deo 3D rekonstrukcije",
+ "verzija": "0.19",
+ "datum": "2026-10-26",
+ "autor": "Svemir / dr Poturak Semir",
+ "primarni_izvor": {
+  "opis": "S. Pop-Lazic, Roman Limes and Cities on the Territory of Serbia, Gallery of SANU, Beograd 2018 (tekst na srpskom i engleskom), odlomak o Medijani",
+  "fajl": "pdf/pop-lazic_limes_2018.pdf",
+  "tekst": "pdf/pop_lazic.txt (862.918 znakova, 392 strane)",
+  "url": "https://rai.ai.ac.rs/bitstream/id/2194/ROMAN_LIMES_AND_CITIES_ON_THE_TERRITORY.pdf",
+  "poverenje": "visoko (recenzirana publikacija Arheoloskog instituta, otvoreni pristup)"
+ },
+ "novi_citativni_dokazi": [
+  {
+   "id": "castellum-dva-bazena",
+   "tvrdnja": "Vodotoranj (castellum aquae) je rezervoar sa DVA bazena: za talozenje, filtriranje i distribuciju vode",
+   "period": "kraj III veka",
+   "lokacija": "na padini Vlaskog brda",
+   "poverenje": "visoko",
+   "implikacija_3d": "castellum nije jedan zdenac nego dvocleni hidraulicki objekat — modelovati dva bazena u kaskadi (talozenje pa distribucija)"
   },
-  "novi_citativni_dokazi": [
-    {
-      "id": "castellum-dva-bazena",
-      "tvrdnja": "Vodotoranj (castellum aquae) je rezervoar sa DVA bazena: za talozenje, filtriranje i distribuciju vode",
-      "period": "kraj III veka",
-      "lokacija": "na padini Vlaskog brda",
-      "poverenje": "visoko",
-      "implikacija_3d": "castellum nije jedan zdenac nego dvocleni hidraulicki objekat — modelovati dva bazena u kaskadi (talozenje pa distribucija)"
-    },
-    {
-      "id": "dva-kanala",
-      "tvrdnja": "Iz kule vodotornja na severnom delu objekta voda se sprovodi GLAVNIM kanalom i JEDNIM REVIZIONIM (rezervnim) kanalom prema naselju",
-      "poverenje": "visoko",
-      "implikacija_3d": "DVE paralelne linije trase u modelu: primarna + rezervna; oboje polaze sa severne strane castelluma"
-    },
-    {
-      "id": "villa-oktagon-2000m2",
-      "tvrdnja": "Vila sa oktogonom: istrazena povrsina oko 2000 m2; zapadni deo kompleksa oblikovan kao oktagon; prostorni parkovi i vrtovi povezani tremovima",
-      "poverenje": "visoko",
-      "konflikt": "stara procena 6.000–6.800 m2 se odnosila na vilu sa peristilom, NE na vilu sa oktogonom — konflikt povrsine iz v0.2 se ovim resava: dve razlicite gradjevine"
-    },
-    {
-      "id": "barake-4ha",
-      "tvrdnja": "Vojne barake i radionice oruzja i alata istocno i zapadno od vile sa peristilom; zapadni kompleks oko 4 ha; barake sa drvenim tremovima, mermerne oplata i freske i unutar baraka",
-      "poverenje": "visoko",
-      "implikacija_3d": "novo: dva kompleksa baraka kao 3D stubovi niskog ranga dekoracije ali visokog kvaliteta gradnje"
-    },
-    {
-      "id": "crkve-50m-istok",
-      "tvrdnja": "Dve ranohriscanske crkve ~50 m istocno od istoecnog zida vile sa peristilom; istok-zapad orijentacija; od spolija i drveta; jednobrodne sa apsidom na istoku; u juznoj (starijoj) mozaik Hristograma na ambonu",
-      "period": "kraj IV – pocetak V veka",
-      "poverenje": "visoko",
-      "implikacija_3d": "nova dva 3D stuba sa orijentacijom i relativnom pozicijom (50 m od zida)"
-    },
-    {
-      "id": "broncana-ograda-324",
-      "tvrdnja": "B ronzana ograda (cancelli) sa plocama i hermama; ukupno 4 herme sa bistovima (Asclepius, Hygieia, Sol, Luna — Hygieia i Sol nadeni nisu); najverovatnije oko 324; stajala na ulazu apside sale za gozbe",
-      "poverenje": "visoko",
-      "implikacija_3d": "fiksna pozicija i datum za dekorativni element — vezuje se na vilu sa konhama (sala za gozbe)"
-    },
-    {
-      "id": "porfirne-skulpture-1972",
-      "tvrdnja": "Nalaz 1972: porfirne skulpture Asclepiusa sa Telesforom, Hygieie, Afrodite Sosandre, Herkula, Merkura, Dionisa i Dionisove triade (Menada, Satir)",
-      "poverenje": "visoko",
-      "napomena": "dopunjuje postojeci zapis o skulpturama 1972 iz wiki-sr — sada imenovane figure"
-    },
-    {
-      "id": "dea-dardanica",
-      "tvrdnja": "Medijana lezila pored javnog puta; posetioci na ulazu u administrativno-rezidencijalni kompleks docekivani statuom Dea Dardanica, zastitnice Dardanaca",
-      "poverenje": "srednje (interpretacija autora rada)",
-      "implikacija_3d": "programming ulazne tačke sa strane javnog puta"
-    },
-    {
-      "id": "vicennalia",
-      "tvrdnja": "Obimni i brzi radovi na rekonstrukciji i podizanje monumentalnih gradjevina u vezi sa pripremama proslave trideset godina vladavine Konstantina (Vicennalia)",
-      "poverenje": "visoko",
-      "implikacija": "datira glavnu fazu dekoracije na ~325/326 (vicennalia = 20 godina? autor pise 'trideset' — napomena: Vicennalia je 325/326 (20+), Tricennalia 335/336; tekst kaze 'trideset' sto odgovara Tricennaliji — konflikt za proveru)"
-    },
-    "olovna cev kroz osnovu zida 59 (sektor 5) — voda uvadjena u zid, ne preko: argument za skrivene vodove u zidovima vile (3D: cevi ne idu po podovima)",
-    "kada 1,6 x 1,5 m u e-12 na garezi nad slojem D — vodeni program horizonta 3 i posle rusenja 378"
-  ],
-  "vodena_mreza": {
-    "cvorovi": [
-      {
-        "id": "izvor-hipoteza-oblik",
-        "tip": "hipoteza",
-        "opis": "vodozahvat na Obliku (wiki-sr)",
-        "poverenje": "nisko",
-        "status": "nepotvrdjeno — Pop-Lazic ne navodi izvor; Jeremić 1988 (str. 64) u očitanom delu (str. 62-81) Oblik NE POMINJE — tvrdnja ostaje bez poznatog primarnog izvora",
-        "konflikt": "KONFLIKT REŠEN U KORIST NISKE BANJE (smer), v0.16 — Jeremić 1988: vodovod Medijane nije ogranak vodovoda Naissusa, dovodni kanal C prilazi SA ISTOKA, izvorište tražiti u pravcu Niške Banje (~4,5 km); v. hidraulika_sloj.json konflikt izvor-vode-oblik-vs-niska-banja"
-      },
-      {
-        "id": "izvor-hipoteza-niska-banja",
-        "tip": "hipoteza",
-        "opis": "vodozahvat pravcem Niske Banje — POTVRDJEN U SMERU (v0.16): Jeremić 1988 (str. 64) — gravitacioni kanal C svojim pravcem i padom pokazuje izvorište u pravcu Niške Banje (~4,5 km; trasa nikad istraživana); sloj kalcinacije u bazenu B = duga protočnost tvrde krečnjačke vode (kraško-termalno zaleđe Suve planine/Niške Banje)",
-        "poverenje": "visoko (smer dovoda, izmereno — Jeremić 1988); nisko (tačna kaptaza)",
-        "status": "nepotvrdjeno",
-        "izvor": "jeremic-1988-castellum (Starinar XXXIX/1988, 59-84, str. 64)"
-      },
-      {
-        "id": "castellum-aquae",
-        "tip": "cvor-distribucije",
-        "period": "kraj III veka",
-        "lokacija": "padina Vlaskog brda, ~500 m JZ od vile (Prostorni sloj + repozitorijum AI zrvnji rad)",
-        "struktura": "kula sa dva bazena (talozenje + distribucija/filtriranje)",
-        "izlazi": [
-          "kanal-glavni",
-          "kanal-revizioni"
-        ],
-        "visina_mnv": {
-          "procena": 206,
-          "opseg": [
-            204,
-            210
-          ],
-          "izvor": "DEM procena iz prostorni_sloj v0.3",
-          "poverenje": "srednje"
-        },
-        "poverenje_struktura": "visoko (Pop-Lazic 2018)",
-        "premestanje_posle_iskopa": {
-          "opis": "NEPOSREDNO POSLE iskopavanja kastelum je ISECEN NA KOMADE i premešten nekoliko stotina metara ka severozapadu na niži plato (gradnja fabrike katodnih cevi EI); današnja lokacija reasembliranog objekta nije identifikovana",
-          "izvor": "jeremic-1988-castellum (str. 81 + francuski rezime)",
-          "za_3d": "sve kote u bazi su kote ORIGINALNE pozicije (dokumentacija 1988), ne današnjeg spomenika; u GIS-u obavezno odvojiti originalnu i današnju poziciju"
-        },
-        "detalji_1988": "bazen A: 37,20 m unutrašnje dužine, pod 207,06 (jug) → 205,98 (sever), maks. nivo 208,05, 584 m³, opus signinum + filter-sloj, verovatno nepokriven; bazen B: 5,28×4,74 m, pod 206,39 (50 cm iznad poda A), maks. nivo 207,60, 30,2 m³, bojeni sokl 45 cm = oznaka minimalnog nivoa; višeprostorni lanac taloženje→filtriranje→distribucija (paralele: Lion, Béziers, Sens, Fabretti 1690); Vitruvije VIII.6 — ista šema; puna mreža: hidraulika_sloj.json"
-      },
-      {
-        "id": "kanal-glavni",
-        "tip": "linija",
-        "od": "castellum-aquae (severna strana)",
-        "ka": "naselje/vila sa peristilom",
-        "geometrija": "gravitaciona; pad ~8-10 m na ~500 m",
-        "poverenje": "visoko (postojanje), nisko (tacna trasa)",
-        "konflikt": "KONFLIKT dva-kanala-dovod-vs-odvod (v0.16): Pop-Lazić 2018 opisuje IZLAZNU stranu (glavni + revizioni ka naselju); Jeremić 1988 dokumentuje DVA DOVODNA kanala (C glavni + D negirani, sa fazama) i izlazne: E distributivni, F drenažni, cev G. Nije protivrečje nego različita strana posmatranja; za 3D: 2 dovodne + 1 glavna izlazna + 1 drenažna linija kod kasteluma. Detalji: hidraulika_sloj.json"
-      },
-      {
-        "id": "kanal-revizioni",
-        "tip": "linija",
-        "od": "castellum-aquae (severna strana)",
-        "ka": "naselje",
-        "uloga": "rezervni/pomoćni kanal",
-        "poverenje": "visoko (postojanje), nisko (tacna trasa)",
-        "konflikt": "v. kanal-glavni — Pop-Lazićeva \"reviziona\" linija po Jeremiću odgovara kanalu E (jedini distributivni izlaz) uz prelivnike 1-2-3 i revizioni šaht H (dno 205,24)"
-      },
-      {
-        "id": "fontana-nimfej",
-        "tip": "krajnji-cvor",
-        "veza": "prostorni_sloj.objekti_3d_stubi.fontana-nimfej; vizuelna potvrda olovne cevi u dnu bazena (v0.6, kadrovi VI-VII)",
-        "poverenje": "visoko (postojanje i oblik), nisko (visina)"
-      },
-      {
-        "id": "horreum-cella-vinaria",
-        "tip": "krajnji-cvor-tehnoloski",
-        "opis": "zapadni deo horreuma kasnije pregradjen pręgradnim zidovima u bazene za cedjenje i proizvodnju vina (cella vinaria); dubina bazena 1,40 m (v0.1)",
-        "poverenje": "visoko"
-      },
-      {
-        "id": "olovna-cev-prostorija-12",
-        "tip": "linija-fizicki-dokaz",
-        "opis": "olovna vodovodna cev u prostoriji 12: sonda 107 kota 198.49, nastavlja se kroz sondu 80; u sonda 80 luk ~5 m pravac SZ-JI i PROLAZI KROZ OSNOVU zida 59 (postavljena pri gradnji zida), osnova 198.40",
-        "izvor": "Starinar 64/2014, sektor 5 (5.1.1 i 5.2.1)",
-        "poverenje": "visoko (izmereno, iskop)",
-        "veza_3d": "druga fizicka tacka olovnog vodovoda posle fontane-nimfej (v0.6, kadrovi VI-VII) — trasa unutar vile dobija dva zemljista tacaka"
-      },
-      {
-        "id": "kada-e-12",
-        "tip": "krajnji-cvor",
-        "opis": "\"kada\" 1,6 x 1,5 m izmedju zidova 17, 19 i 59, obloga kreznak malterom; autori pitaju \"za kupanje? kada?\"; pripada medijanskom horizontu 3 (posle 380); presecena bunarom",
-        "izvor": "Starinar 64/2014, 5.2.1",
-        "poverenje": "visoko (dimenzije), srednje (funkcija)"
-      },
-      {
-        "id": "bunar-e-12",
-        "tip": "kasnosrednjovekovni-ukop",
-        "opis": "bunar presecen sa \"kada\": gornja ivica 198.2, dno 196.05 (od v0.13 druga najniza — najniza je 195.96, bunara jama 5 u sonda 105, vidi sobe_sloj.json), dubina ~2,15 m, precnik 1,35 m, kvadratna drvena konstrukcija na dnu; kasnosrednjovekovna zelenglasana keramika",
-        "izvor": "Starinar 64/2014, 5.2.1",
-        "poverenje": "visoko",
-        "napomena_3d": "NE ulazi u 3D antickog kompleksa — dokaz nastavka zivota na rusevinama"
-      },
-      {
-        "id": "fontana-stibadium-A",
-        "tip": "fontana",
-        "opis": "mermerna fontana na postolju ukrasenom morskim crvom, u sredini sestoougaone centralne sale stibadijuma A (podni mozaik 10); druga fontana u kompleksu pored nimfeja i sobe 2 vile sa oktogonom",
-        "poverenje": "visoko (postojanje); polozaj unutar sale visoko; prikljucak na vodovod nepoznat",
-        "status": "objekat unisten 1936 — rekonstrukcija samo iz literature i crteza Bratanica iz 1936",
-        "izvor": "monografija-vila-2011"
-      },
-      {
-        "id": "kanal-e-distributivni",
-        "tip": "linija-glavna-distributivna",
-        "opis": "JEDINI kanal kasteluma koji je naselje snabdevao pročišćenom vodom: polazi iz srednjeg dela severnog zida bazena B (prelivnik 3, dno na startu 207,36), skreće ka istoku 23° do revizionog šahta H (dno 205,24), pa naglo još 38° prema palati; sačuvano 26 m; širina dna 32 cm; mereni pad 2,4‰",
-        "kota_mnv": {
-          "dno_start": 207.36,
-          "dno_saht": 205.24
-        },
-        "izvor": "jeremic-1988-castellum (str. 74-76, sl. 2, 21-23, 25)",
-        "poverenje": "visoko (nalaz i kote), nisko (trasa ka vili — neiskopana, u 3D isprekidano)"
-      },
-      {
-        "id": "tocno-mesto-kadijunica-terme",
-        "tip": "krajnji-cvor",
-        "opis": "DRUGO poznato točno mesto sistema (uz srednji deo nimfeja): zapadni zid sporedne kadijunice (vruće prostorije) TERME — voda uvođena direktno u zid, analogno olovnoj cevi kroz osnovu zida 59 u palati; hidraulička veza castellum → terme do sada nije bila eksplicitna u bazi",
-        "izvor": "jeremic-1988-castellum (str. 64)",
-        "poverenje": "visoko (točno mesto); kota nepoznata (terme nije vertikalno merena u bazi)"
-      },
-      {
-        "id": "sekundarni-vodotoranji",
-        "tip": "hipoteza-mreze",
-        "opis": "Jeremić 1988 (str. 80): u naselju se mogu očekivati tragovi SEKUNDARNIH VODOTORANJEVA (castella secundaria) kojima su regulisani pritisak i količina vode ka točnim mestima; na sl. 1 mala kvadratna struktura na trasi između kasteluma i palate — kandidat, ne identifikacija",
-        "izvor": "jeremic-1988-castellum (str. 80, sl. 1)",
-        "poverenje": "nisko (hipoteza izvora), srednje (tipološka očekivanost — paralela Pompeji)"
-      },
-      {
-        "id": "premestanje-kasteluma",
-        "tip": "sudbinska-cinjenica",
-        "opis": "kastelum posle iskopavanja isečen na komade i premešten nekoliko stotina metara ka SZ na niži plato (fabrika katodnih cevi EI); 1980. zabeležena i nelegalna gradnja preko dela terena; današnja lokacija spomenika neidentifikovana — KOTE U BAZI SU KOTE ORIGINALNE POZICIJE (1988)",
-        "izvor": "jeremic-1988-castellum (str. 81 + francuski rezime, fn 13, 14, 19)",
-        "poverenje": "visoko (da je premešten); nisko (gde je danas)",
-        "napomena_3d": "3D model kasteluma na originalnu poziciju (padina Vlaškog brda, sl. 1), ne na današnju lokaciju"
-      },
-      {
-        "id": "fontana-oktagon",
-        "tip": "fontana",
-        "opis": "vila sa oktogonom: dvorište ~40 m istočno sa kolonadom, mermernim pločama i fontanom; fontana i u sobi 2 — druga i treba fontana kompleksa pored nimfeja; oktagonalni objekat potvrđen i od Jeremića (odvodni zidani kanali \"oktagonalnom objektu\")",
-        "izvor": "monografija-vila-2011; jeremic-1988-castellum (str. 64)",
-        "poverenje": "visoko (postojanje), nisko (dimenzije/polozaj fontane)"
-      }
+  {
+   "id": "dva-kanala",
+   "tvrdnja": "Iz kule vodotornja na severnom delu objekta voda se sprovodi GLAVNIM kanalom i JEDNIM REVIZIONIM (rezervnim) kanalom prema naselju",
+   "poverenje": "visoko",
+   "implikacija_3d": "DVE paralelne linije trase u modelu: primarna + rezervna; oboje polaze sa severne strane castelluma"
+  },
+  {
+   "id": "villa-oktagon-2000m2",
+   "tvrdnja": "Vila sa oktogonom: istrazena povrsina oko 2000 m2; zapadni deo kompleksa oblikovan kao oktagon; prostorni parkovi i vrtovi povezani tremovima",
+   "poverenje": "visoko",
+   "konflikt": "stara procena 6.000–6.800 m2 se odnosila na vilu sa peristilom, NE na vilu sa oktogonom — konflikt povrsine iz v0.2 se ovim resava: dve razlicite gradjevine"
+  },
+  {
+   "id": "barake-4ha",
+   "tvrdnja": "Vojne barake i radionice oruzja i alata istocno i zapadno od vile sa peristilom; zapadni kompleks oko 4 ha; barake sa drvenim tremovima, mermerne oplata i freske i unutar baraka",
+   "poverenje": "visoko",
+   "implikacija_3d": "novo: dva kompleksa baraka kao 3D stubovi niskog ranga dekoracije ali visokog kvaliteta gradnje"
+  },
+  {
+   "id": "crkve-50m-istok",
+   "tvrdnja": "Dve ranohriscanske crkve ~50 m istocno od istoecnog zida vile sa peristilom; istok-zapad orijentacija; od spolija i drveta; jednobrodne sa apsidom na istoku; u juznoj (starijoj) mozaik Hristograma na ambonu",
+   "period": "kraj IV – pocetak V veka",
+   "poverenje": "visoko",
+   "implikacija_3d": "nova dva 3D stuba sa orijentacijom i relativnom pozicijom (50 m od zida)"
+  },
+  {
+   "id": "broncana-ograda-324",
+   "tvrdnja": "B ronzana ograda (cancelli) sa plocama i hermama; ukupno 4 herme sa bistovima (Asclepius, Hygieia, Sol, Luna — Hygieia i Sol nadeni nisu); najverovatnije oko 324; stajala na ulazu apside sale za gozbe",
+   "poverenje": "visoko",
+   "implikacija_3d": "fiksna pozicija i datum za dekorativni element — vezuje se na vilu sa konhama (sala za gozbe)"
+  },
+  {
+   "id": "porfirne-skulpture-1972",
+   "tvrdnja": "Nalaz 1972: porfirne skulpture Asclepiusa sa Telesforom, Hygieie, Afrodite Sosandre, Herkula, Merkura, Dionisa i Dionisove triade (Menada, Satir)",
+   "poverenje": "visoko",
+   "napomena": "dopunjuje postojeci zapis o skulpturama 1972 iz wiki-sr — sada imenovane figure"
+  },
+  {
+   "id": "dea-dardanica",
+   "tvrdnja": "Medijana lezila pored javnog puta; posetioci na ulazu u administrativno-rezidencijalni kompleks docekivani statuom Dea Dardanica, zastitnice Dardanaca",
+   "poverenje": "srednje (interpretacija autora rada)",
+   "implikacija_3d": "programming ulazne tačke sa strane javnog puta"
+  },
+  {
+   "id": "vicennalia",
+   "tvrdnja": "Obimni i brzi radovi na rekonstrukciji i podizanje monumentalnih gradjevina u vezi sa pripremama proslave trideset godina vladavine Konstantina (Vicennalia)",
+   "poverenje": "visoko",
+   "implikacija": "datira glavnu fazu dekoracije na ~325/326 (vicennalia = 20 godina? autor pise 'trideset' — napomena: Vicennalia je 325/326 (20+), Tricennalia 335/336; tekst kaze 'trideset' sto odgovara Tricennaliji — konflikt za proveru)"
+  },
+  "olovna cev kroz osnovu zida 59 (sektor 5) — voda uvadjena u zid, ne preko: argument za skrivene vodove u zidovima vile (3D: cevi ne idu po podovima)",
+  "kada 1,6 x 1,5 m u e-12 na garezi nad slojem D — vodeni program horizonta 3 i posle rusenja 378"
+ ],
+ "vodena_mreza": {
+  "cvorovi": [
+   {
+    "id": "izvor-hipoteza-oblik",
+    "tip": "hipoteza",
+    "opis": "vodozahvat na Obliku (wiki-sr)",
+    "poverenje": "nisko",
+    "status": "nepotvrdjeno — Pop-Lazic ne navodi izvor; Jeremić 1988 (str. 64) u očitanom delu (str. 62-81) Oblik NE POMINJE — tvrdnja ostaje bez poznatog primarnog izvora",
+    "konflikt": "KONFLIKT REŠEN U KORIST NISKE BANJE (smer), v0.16 — Jeremić 1988: vodovod Medijane nije ogranak vodovoda Naissusa, dovodni kanal C prilazi SA ISTOKA, izvorište tražiti u pravcu Niške Banje (~4,5 km); v. hidraulika_sloj.json konflikt izvor-vode-oblik-vs-niska-banja"
+   },
+   {
+    "id": "izvor-hipoteza-niska-banja",
+    "tip": "hipoteza",
+    "opis": "vodozahvat pravcem Niske Banje — POTVRDJEN U SMERU (v0.16): Jeremić 1988 (str. 64) — gravitacioni kanal C svojim pravcem i padom pokazuje izvorište u pravcu Niške Banje (~4,5 km; trasa nikad istraživana); sloj kalcinacije u bazenu B = duga protočnost tvrde krečnjačke vode (kraško-termalno zaleđe Suve planine/Niške Banje)",
+    "poverenje": "visoko (smer dovoda, izmereno — Jeremić 1988); nisko (tačna kaptaza)",
+    "status": "nepotvrdjeno",
+    "izvor": "jeremic-1988-castellum (Starinar XXXIX/1988, 59-84, str. 64)"
+   },
+   {
+    "id": "castellum-aquae",
+    "tip": "cvor-distribucije",
+    "period": "kraj III veka",
+    "lokacija": "padina Vlaskog brda, ~500 m JZ od vile (Prostorni sloj + repozitorijum AI zrvnji rad)",
+    "struktura": "kula sa dva bazena (talozenje + distribucija/filtriranje)",
+    "izlazi": [
+     "kanal-glavni",
+     "kanal-revizioni"
     ],
-    "pravila_konzistentnosti_3d": [
-      "svaki vodeni cvor mora imati visinu iznad sledeceg cvora nizvodno (gravitacija bez sifona)",
-      "fontana-nimfej i svi bazeni u vili moraju biti ispod nivoa castellum-a (~206 m)",
-      "dva kanala se modeluju kao odvojene linije, ne grananje jednog kanala"
-    ]
-  },
-  "otvorena_pitanja": [
-    "izvor vode: Oblik vs Niska Banja — nijedan primarni izvor jos ne resava; Pop-Lazic 2018 ne navodi [v0.16: SMER REŠEN — Jeremić 1988: nije ogranak Naissusa, dovod sa istoka, pravac Niške Banje ~4,5 km; tačna kaptaza i dalje otvorena]",
-    "tacna trasa kanala (georeferencirani iskopni plan nedostupan)",
-    "'trideset godina vladavine' — Vicennalia (325/6) vs Tricennalia (335/6) — protivurecje u okviru samog teksta (engleski deo teksta proveriti) [v0.16: konflikt ostaje OTVOREN — novac 335-336 (num-005) saglasan sa Tricennalijom; presudan revers iz kataloga Janković-Mihaldžić 2008]",
-    "Starinar 39 (1988) Jeremić Castellum aquae — štamp. str. 62-81 OČITANE sa rendera (v0.16, hidraulika_sloj.json); uvodne str. 59-61 nisu renderovane; tačan deep-link na viminacium.org.rs i dalje nerazrešen (206 strana bez tekstualnog sloja)",
-    "danasnja pozicija kasteluma — gde je reasemblirani spomenik (premešten nekoliko stotina m ka SZ posle iskopavanja); za GIS odvojiti originalnu (1988) i današnju poziciju",
-    "trasa kanala C od kaptaze i E ka vili nikad iskopana — u 3D isprekidano"
+    "visina_mnv": {
+     "procena": 206,
+     "opseg": [
+      204,
+      210
+     ],
+     "izvor": "DEM procena iz prostorni_sloj v0.3",
+     "poverenje": "srednje"
+    },
+    "poverenje_struktura": "visoko (Pop-Lazic 2018)",
+    "premestanje_posle_iskopa": {
+     "opis": "NEPOSREDNO POSLE iskopavanja kastelum je ISECEN NA KOMADE i premešten nekoliko stotina metara ka severozapadu na niži plato (gradnja fabrike katodnih cevi EI); današnja lokacija reasembliranog objekta nije identifikovana",
+     "izvor": "jeremic-1988-castellum (str. 81 + francuski rezime)",
+     "za_3d": "sve kote u bazi su kote ORIGINALNE pozicije (dokumentacija 1988), ne današnjeg spomenika; u GIS-u obavezno odvojiti originalnu i današnju poziciju"
+    },
+    "detalji_1988": "bazen A: 37,20 m unutrašnje dužine, pod 207,06 (jug) → 205,98 (sever), maks. nivo 208,05, 584 m³, opus signinum + filter-sloj, verovatno nepokriven; bazen B: 5,28×4,74 m, pod 206,39 (50 cm iznad poda A), maks. nivo 207,60, 30,2 m³, bojeni sokl 45 cm = oznaka minimalnog nivoa; višeprostorni lanac taloženje→filtriranje→distribucija (paralele: Lion, Béziers, Sens, Fabretti 1690); Vitruvije VIII.6 — ista šema; puna mreža: hidraulika_sloj.json"
+   },
+   {
+    "id": "kanal-glavni",
+    "tip": "linija",
+    "od": "castellum-aquae (severna strana)",
+    "ka": "naselje/vila sa peristilom",
+    "geometrija": "gravitaciona; pad ~8-10 m na ~500 m",
+    "poverenje": "visoko (postojanje), nisko (tacna trasa)",
+    "konflikt": "KONFLIKT dva-kanala-dovod-vs-odvod (v0.16): Pop-Lazić 2018 opisuje IZLAZNU stranu (glavni + revizioni ka naselju); Jeremić 1988 dokumentuje DVA DOVODNA kanala (C glavni + D negirani, sa fazama) i izlazne: E distributivni, F drenažni, cev G. Nije protivrečje nego različita strana posmatranja; za 3D: 2 dovodne + 1 glavna izlazna + 1 drenažna linija kod kasteluma. Detalji: hidraulika_sloj.json"
+   },
+   {
+    "id": "kanal-revizioni",
+    "tip": "linija",
+    "od": "castellum-aquae (severna strana)",
+    "ka": "naselje",
+    "uloga": "rezervni/pomoćni kanal",
+    "poverenje": "visoko (postojanje), nisko (tacna trasa)",
+    "konflikt": "v. kanal-glavni — Pop-Lazićeva \"reviziona\" linija po Jeremiću odgovara kanalu E (jedini distributivni izlaz) uz prelivnike 1-2-3 i revizioni šaht H (dno 205,24)"
+   },
+   {
+    "id": "fontana-nimfej",
+    "tip": "krajnji-cvor",
+    "veza": "prostorni_sloj.objekti_3d_stubi.fontana-nimfej; vizuelna potvrda olovne cevi u dnu bazena (v0.6, kadrovi VI-VII)",
+    "poverenje": "visoko (postojanje i oblik), nisko (visina)"
+   },
+   {
+    "id": "horreum-cella-vinaria",
+    "tip": "krajnji-cvor-tehnoloski",
+    "opis": "zapadni deo horreuma kasnije pregradjen pręgradnim zidovima u bazene za cedjenje i proizvodnju vina (cella vinaria); dubina bazena 1,40 m (v0.1)",
+    "poverenje": "visoko"
+   },
+   {
+    "id": "olovna-cev-prostorija-12",
+    "tip": "linija-fizicki-dokaz",
+    "opis": "olovna vodovodna cev u prostoriji 12: sonda 107 kota 198.49, nastavlja se kroz sondu 80; u sonda 80 luk ~5 m pravac SZ-JI i PROLAZI KROZ OSNOVU zida 59 (postavljena pri gradnji zida), osnova 198.40",
+    "izvor": "Starinar 64/2014, sektor 5 (5.1.1 i 5.2.1)",
+    "poverenje": "visoko (izmereno, iskop)",
+    "veza_3d": "druga fizicka tacka olovnog vodovoda posle fontane-nimfej (v0.6, kadrovi VI-VII) — trasa unutar vile dobija dva zemljista tacaka"
+   },
+   {
+    "id": "kada-e-12",
+    "tip": "krajnji-cvor",
+    "opis": "\"kada\" 1,6 x 1,5 m izmedju zidova 17, 19 i 59, obloga kreznak malterom; autori pitaju \"za kupanje? kada?\"; pripada medijanskom horizontu 3 (posle 380); presecena bunarom",
+    "izvor": "Starinar 64/2014, 5.2.1",
+    "poverenje": "visoko (dimenzije), srednje (funkcija)"
+   },
+   {
+    "id": "bunar-e-12",
+    "tip": "kasnosrednjovekovni-ukop",
+    "opis": "bunar presecen sa \"kada\": gornja ivica 198.2, dno 196.05 (od v0.13 druga najniza — najniza je 195.96, bunara jama 5 u sonda 105, vidi sobe_sloj.json), dubina ~2,15 m, precnik 1,35 m, kvadratna drvena konstrukcija na dnu; kasnosrednjovekovna zelenglasana keramika",
+    "izvor": "Starinar 64/2014, 5.2.1",
+    "poverenje": "visoko",
+    "napomena_3d": "NE ulazi u 3D antickog kompleksa — dokaz nastavka zivota na rusevinama"
+   },
+   {
+    "id": "fontana-stibadium-A",
+    "tip": "fontana",
+    "opis": "mermerna fontana na postolju ukrasenom morskim crvom, u sredini sestoougaone centralne sale stibadijuma A (podni mozaik 10); druga fontana u kompleksu pored nimfeja i sobe 2 vile sa oktogonom",
+    "poverenje": "visoko (postojanje); polozaj unutar sale visoko; prikljucak na vodovod nepoznat",
+    "status": "objekat unisten 1936 — rekonstrukcija samo iz literature i crteza Bratanica iz 1936",
+    "izvor": "monografija-vila-2011"
+   },
+   {
+    "id": "kanal-e-distributivni",
+    "tip": "linija-glavna-distributivna",
+    "opis": "JEDINI kanal kasteluma koji je naselje snabdevao pročišćenom vodom: polazi iz srednjeg dela severnog zida bazena B (prelivnik 3, dno na startu 207,36), skreće ka istoku 23° do revizionog šahta H (dno 205,24), pa naglo još 38° prema palati; sačuvano 26 m; širina dna 32 cm; mereni pad 2,4‰",
+    "kota_mnv": {
+     "dno_start": 207.36,
+     "dno_saht": 205.24
+    },
+    "izvor": "jeremic-1988-castellum (str. 74-76, sl. 2, 21-23, 25)",
+    "poverenje": "visoko (nalaz i kote), nisko (trasa ka vili — neiskopana, u 3D isprekidano)"
+   },
+   {
+    "id": "tocno-mesto-kadijunica-terme",
+    "tip": "krajnji-cvor",
+    "opis": "DRUGO poznato točno mesto sistema (uz srednji deo nimfeja): zapadni zid sporedne kadijunice (vruće prostorije) TERME — voda uvođena direktno u zid, analogno olovnoj cevi kroz osnovu zida 59 u palati; hidraulička veza castellum → terme do sada nije bila eksplicitna u bazi",
+    "izvor": "jeremic-1988-castellum (str. 64)",
+    "poverenje": "visoko (točno mesto); kota nepoznata (terme nije vertikalno merena u bazi)"
+   },
+   {
+    "id": "sekundarni-vodotoranji",
+    "tip": "hipoteza-mreze",
+    "opis": "Jeremić 1988 (str. 80): u naselju se mogu očekivati tragovi SEKUNDARNIH VODOTORANJEVA (castella secundaria) kojima su regulisani pritisak i količina vode ka točnim mestima; na sl. 1 mala kvadratna struktura na trasi između kasteluma i palate — kandidat, ne identifikacija",
+    "izvor": "jeremic-1988-castellum (str. 80, sl. 1)",
+    "poverenje": "nisko (hipoteza izvora), srednje (tipološka očekivanost — paralela Pompeji)"
+   },
+   {
+    "id": "premestanje-kasteluma",
+    "tip": "sudbinska-cinjenica",
+    "opis": "kastelum posle iskopavanja isečen na komade i premešten nekoliko stotina metara ka SZ na niži plato (fabrika katodnih cevi EI); 1980. zabeležena i nelegalna gradnja preko dela terena; današnja lokacija spomenika neidentifikovana — KOTE U BAZI SU KOTE ORIGINALNE POZICIJE (1988)",
+    "izvor": "jeremic-1988-castellum (str. 81 + francuski rezime, fn 13, 14, 19)",
+    "poverenje": "visoko (da je premešten); nisko (gde je danas)",
+    "napomena_3d": "3D model kasteluma na originalnu poziciju (padina Vlaškog brda, sl. 1), ne na današnju lokaciju"
+   },
+   {
+    "id": "fontana-oktagon",
+    "tip": "fontana",
+    "opis": "vila sa oktogonom: dvorište ~40 m istočno sa kolonadom, mermernim pločama i fontanom; fontana i u sobi 2 — druga i treba fontana kompleksa pored nimfeja; oktagonalni objekat potvrđen i od Jeremića (odvodni zidani kanali \"oktagonalnom objektu\")",
+    "izvor": "monografija-vila-2011; jeremic-1988-castellum (str. 64)",
+    "poverenje": "visoko (postojanje), nisko (dimenzije/polozaj fontane)"
+   }
   ],
-  "hidraulika_v016": {
-    "pad_linije": "8,87 m na ~500 m ≈ 17,7‰ (~1,8%) — dno kanala E 207,36 → olovna cev u vili 198,49 (voda putuje po dnu kanala, ne po terenu; terenska razlika ~10,00 m nije linijski pad)",
-    "protok_kanala_e": "~17,5 l/s (dubina 0,10 m) do 44,8 l/s (0,20 m) ≈ 1.510-3.870 m³/dan (Manning, n=0,014, S=2,4‰) — kapacitet >> potražnja; ustave I/II i prelivnici 1-2-3 su glavna regulacija (višak, ne manjak)",
-    "pritisak_fontane": "statika ~8,9-9,3 m (~0,9 bar) — pritisak dostatan sa rezervom za fontane 1-3 m mlaza; pravi problem je VIŠAK protoka i pritiska",
-    "jeremicevi_brojevi": "8,2 i 31 l/s su PRAŽNJENJE (drenaža cevi B→F Ø 95 i A→G Ø 155), ne dnevna potrošnja",
-    "izvor": "jeremic-1988-castellum; puna računica: hidraulika_sloj.json (racunica)"
-  }
+  "pravila_konzistentnosti_3d": [
+   "svaki vodeni cvor mora imati visinu iznad sledeceg cvora nizvodno (gravitacija bez sifona)",
+   "fontana-nimfej i svi bazeni u vili moraju biti ispod nivoa castellum-a (~206 m)",
+   "dva kanala se modeluju kao odvojene linije, ne grananje jednog kanala"
+  ]
+ },
+ "otvorena_pitanja": [
+  "izvor vode: Oblik vs Niska Banja — nijedan primarni izvor jos ne resava; Pop-Lazic 2018 ne navodi [v0.16: SMER REŠEN — Jeremić 1988: nije ogranak Naissusa, dovod sa istoka, pravac Niške Banje ~4,5 km; tačna kaptaza i dalje otvorena]",
+  "tacna trasa kanala (georeferencirani iskopni plan nedostupan)",
+  "'trideset godina vladavine' — Vicennalia (325/6) vs Tricennalia (335/6) — protivurecje u okviru samog teksta (engleski deo teksta proveriti) [v0.16: konflikt ostaje OTVOREN — novac 335-336 (num-005) saglasan sa Tricennalijom; presudan revers iz kataloga Janković-Mihaldžić 2008]",
+  "Starinar 39 (1988) Jeremić Castellum aquae — štamp. str. 62-81 OČITANE sa rendera (v0.16, hidraulika_sloj.json); uvodne str. 59-61 nisu renderovane; tačan deep-link na viminacium.org.rs i dalje nerazrešen (206 strana bez tekstualnog sloja)",
+  "danasnja pozicija kasteluma — gde je reasemblirani spomenik (premešten nekoliko stotina m ka SZ posle iskopavanja); za GIS odvojiti originalnu (1988) i današnju poziciju",
+  "trasa kanala C od kaptaze i E ka vili nikad iskopana — u 3D isprekidano"
+ ],
+ "hidraulika_v016": {
+  "pad_linije": "8,87 m na ~500 m ≈ 17,7‰ (~1,8%) — dno kanala E 207,36 → olovna cev u vili 198,49 (voda putuje po dnu kanala, ne po terenu; terenska razlika ~10,00 m nije linijski pad)",
+  "protok_kanala_e": "~17,5 l/s (dubina 0,10 m) do 44,8 l/s (0,20 m) ≈ 1.510-3.870 m³/dan (Manning, n=0,014, S=2,4‰) — kapacitet >> potražnja; ustave I/II i prelivnici 1-2-3 su glavna regulacija (višak, ne manjak)",
+  "pritisak_fontane": "statika ~8,9-9,3 m (~0,9 bar) — pritisak dostatan sa rezervom za fontane 1-3 m mlaza; pravi problem je VIŠAK protoka i pritiska",
+  "jeremicevi_brojevi": "8,2 i 31 l/s su PRAŽNJENJE (drenaža cevi B→F Ø 95 i A→G Ø 155), ne dnevna potrošnja",
+  "izvor": "jeremic-1988-castellum; puna računica: hidraulika_sloj.json (racunica)"
+ }
 }

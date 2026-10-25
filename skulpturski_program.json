@@ -1,159 +1,159 @@
 {
-  "svrha": "Skulpturni i ideoloski program Medijane — koji su predmeti gde stajali, od cega, kada i sta porucuju; ulaz za 3D dekorativni sloj i digitalni pasos",
-  "verzija": "0.18",
-  "datum": "2026-10-26",
-  "autor": "Svemir (za dr Poturak Semira)",
-  "izvor_glavni": {
-    "id": "carska-ideologija",
-    "rad": "G. Milosevic, Neki aspekti carske ideologije u arhitekturi, umetnosti i skulpturi rimske vile na Medijani",
-    "url": "https://rai.ai.ac.rs/handle/123456789/1555",
-    "tekst": "pdf/milosevic_ideologija.txt",
-    "napomena": "tekst izvucen iz PDF-a; dijakritika delom izgubljena u ekstrakciji — citati se proveravaju uz original"
-  },
-  "program_po_lokaciji": {
-    "forum_Naisusa": [
-      {
-        "id": "porfirna-kompozicija-dvojna-herma",
-        "naziv": "Porfirna glava (deo) — kompozicija dijarhije Konstantin i Licinije",
-        "materijal": "porfir",
-        "ikonografija": "carski portreti; ideoloska predstava Iovii et Herculii",
-        "hronologija": "311–316 (vreme dobrih odnosa suvladara; proslava decenije vladavine Konstantina 315)",
-        "polozaj": "predvorje ili unutrasnjost hrama na forumu Naisusa (NE na Medijani)",
-        "znacaj": "stilske odlike i nacin obrade bliski venecijanskim portretima tetrarha; vise autora slaze se da je portret Konstantina",
-        "poverenje": "srednje",
-        "napomena_poverenja": "identifikacija stilski argumentovana, kompozicija 'dvojna herma?' je hipoteza samog autora (upitnik u originalu)",
-        "implikacija_3d": "van lokaliteta — kalibracioni kontekst, ne stub"
-      },
-      {
-        "id": "bronzana-glava-konstantina",
-        "naziv": "Pozlacena bronzana statua Konstantina Velikog (ocuvana glava)",
-        "materijal": "bronza, pozlata",
-        "ikonografija": "imperator u oklopu, prirodna velicina, 'u punoj snazi, u trijumfu' — novi lik monarha, bozansko lice i apsolutni gospodar sveta",
-        "hronologija": "dva predlozena datuma posvete: 334 (povod pobede nad Gotima) ili 329 (duzi boravak cara u Naisusu po povratku iz Serdike)",
-        "polozaj": "istaknuto mesto ispred hrama na forumu Naisusa",
-        "nalaz": "1900, pri gradnji mosta",
-        "poverenje": "visoko",
-        "implikacija_3d": "kalibracija portretne ikonografije za eventualne statue na Medijani"
-      }
-    ],
-    "ulaz_u_vilu": [
-      {
-        "id": "dea-dardanica",
-        "naziv": "Statua Dea Dardanica",
-        "materijal": "skulptura (materijal nije preciziran u izvoru)",
-        "ikonografija": "vrhovna boginja i zastitnica dardanskog naroda, dea patriae",
-        "hronologija": "pripisana velikoj prepravci i prosirenju trema i ulaznog dela zapocete oko 330",
-        "polozaj": "ulazni deo vile, sa javnog puta — prvo sto posetilac susrece",
-        "znacaj": "poruka o poreklu dinastije: rodonačelnik Konstancije Hlor iz ugledne dardanske porodice; postovana od Konstancija Hlora, verovatno i od Konstantina",
-        "poverenje": "srednje-visoko",
-        "napomena_poverenja": "nalaz na ulazu 'nepogresivo ukazuje' na namernu postavku (jak argument autora); pripisivanje prepravci oko 330 je 'moguce je da' formulacija",
-        "implikacija_3d": "fiksna skulptura na ulaznoj osi — mesto poznato, sama statua za 3D po opisu i literaturi"
-      }
-    ],
-    "vila_sa_peristilom": [
-      {
-        "id": "eskulap-i-higija",
-        "naziv": "Iatrijski par Eskulap i Higija — najbrojnija grupa",
-        "materijal": "mermer; uz njih i PORFIRNE statue boga i boginje sa grckim natpisima na bazama",
-        "znacaj": "najveci broj fragmentovanih i celih skulptura vile; dozvoljava pretpostavku kulta i svetilista; porfirne statue sa grckim natpisima ukazuju na UVOZENA dela umesnih skulptora visokog kvaliteta",
-        "kontekst": "kult Eskulapa naroito izlozen kritikama hriscanskih apologeta (bliske analogije Eskulap—Hrist)",
-        "poverenje": "visoko",
-        "implikacija_3d": "skulpturna oprema sale/pretorijuma; uvoz potvrdjen natpisima"
-      },
-      {
-        "id": "dionis-herkul-merkur",
-        "naziv": "Fragmentovane skulpture Dionisa, Herakla i Merkura",
-        "materijal": "mermer",
-        "znacaj": "nadjene U OKVIRU skupnog nalaza Eskulapa i Higije — iatrijska (isceliteljska) dimenzija postovanja; Medijana u blizini termalnih izvora Niske Banje, bogovi i kao zastitnici zdravlja",
-        "poverenje": "visoko",
-        "implikacija_vodeni_sloj": "sam izvor spaja lokalitet sa termalnim izvorima Niske Banje (mikroklima i kult) — prilog otvorenom pitanju izvora vodovoda, ne resenje"
-      },
-      {
-        "id": "ostale-skulpture",
-        "naziv": "Artemida/Dijana, bahanantkinje, Afrodita Sosandra, glava Venere ili Dijane",
-        "materijal": "mermer",
-        "poverenje": "srednje",
-        "izvor_dodatni": "M. Vasic, N. Gavrilovic, Venus or Diana from Mediana, Starinar LXII, 2012, 137-149"
-      },
-      {
-        "id": "uslov-nalaza-dekapitacija",
-        "naziv": "Uslov nalaza: skulpture uglavnom DEKAPITIRANE",
-        "razlog": "netrpeljivost hriscana prema paganskim kultovima",
-        "znacaj_za_rekonstrukciju": "broj glava NI merilo broja statua; rekonstrukcija opreme ne sme polaziti od broja ocuvanih portreta",
-        "poverenje": "visoko"
-      }
-    ],
-    "broncana_ograda": {
-      "id": "broncana-ograda-herme",
-      "naziv": "Visekraka bronzana ograda (cancelli) sa hermama sa bistama",
-      "nalaz": "2000, deo vise kraka",
-      "potvrdjene_biste": [
-        "Asklepijos (Eskulap)",
-        "Luna"
-      ],
-      "nedostajuce_pandani": [
-        "Higija",
-        "Sol"
-      ],
-      "hronologija": {
-        "izrada": "pre 325. n.e.",
-        "postavka_na_medijanu": "361. n.e., tokom boravka cara Julijana u Nisu",
-        "sakrivanje": "378. n.e., pred gotsku invaziju"
-      },
-      "polozaj": "ulaz apside sale za gozbe (vila sa konhama)",
-      "poverenje": "visoko",
-      "razresenje_ranijeg_datuma": "raniji upis 'oko 324' bio je datum IZRade; novi izvor dodaje postavku 361 i zakopavanje 378 — tri datuma, jedan predmet",
-      "implikacija_3d": "precizna pozicija + celokupan zivotni vek elementa (izrada -> postavka -> zakop)",
-      "polozaj_v014": "monografija precizira: ograda je stajala u prohodu ka sali za prijem (auli) i delila ga na dve polovine — herme su nosile ploce (cancelli); raniji zapis (ulaz apside sale za gozbe) zadrzan kao ranija interpretacija",
-      "nalaz_lokacija": "ostava pronadjena oko 250 m SZ od vile sa peristilom (2000)"
-    },
-    "soba-w-4": {
-      "id": "kultne-skulpture-w-4",
-      "lokacija": "soba w-4 vile sa peristilom",
-      "nalaz": "iskopi 1971",
-      "predmeti": [
-        "porfirna statua Asklepija (43 cm, inv. 985/R) sa natpisom Roimetalka i Filipa",
-        "porfirna statua Higije (49 cm, inv. 986/R) sa natpisom Roimetalka i Filipa",
-        "porfirna grupa Asklepije sa Telesforom, natpis \"svestenik Sim[...]\""
-      ],
-      "tumacenje": "uvozni radovi (porfir) sa grckim posvetnim natpisima; moguce svetiste leciteljskih bozanstava u rezidencijalnom delu — potvrdjuje nalaz iz Carske ideologije da su porfirne statue uvoz",
-      "poverenje": "visoko",
-      "izvor": "monografija-vila-2011"
-    }
-  },
-  "mozaicki_i_fresko_program": [
-    {
-      "id": "mozaik-fluvijus",
-      "naziv": "Kompozicija sa predstavom.recnog bozanstva Fluviusa",
-      "polozaj": "na ulazu u aulu (salu za audijenciju)",
-      "poverenje": "visoko",
-      "implikacija_3d": "tematska veza voda—vlast na ulaznoj osi; par sa fontanom i castellum-om"
-    },
-    {
-      "id": "mozaik-meduza",
-      "naziv": "Glava Meduze",
-      "polozaj": "u sredisnjem delu sale za audijenciju",
-      "poverenje": "visoko"
-    },
-    {
-      "id": "freske-parapetne-ploce",
-      "naziv": "Freske in situ u cetiri prostorije severozapadnog dela",
-      "sadrzaj": "linearni i geometrijski ornamenti razlicitih boja — prikazi PARAPETNIH MERMERNIH PLOCA (iluzionizam mermerne oplate u slici)",
-      "poverenje": "visoko",
-      "implikacija_3d": " nezavisna potvrda da je zidna oplata bila mermerna u tim prostorijama — fresko imitira mermer"
-    },
-    {
-      "id": "pozlate-kupole-stibadium-zapad",
-      "naziv": "Delovi mozaika sa pozlatom — kupola iznad zapadnog stibadijuma",
-      "poverenje": "visoko",
-      "implikacija_3d": "potvrdjuje polukalotu/kupolu zapadnog stibadijuma B sa pozlacenim staklenim mozaikom (poklapanje sa Stibadium B 2016)"
-    }
+ "svrha": "Skulpturni i ideoloski program Medijane — koji su predmeti gde stajali, od cega, kada i sta porucuju; ulaz za 3D dekorativni sloj i digitalni pasos",
+ "verzija": "0.19",
+ "datum": "2026-10-26",
+ "autor": "Svemir (za dr Poturak Semira)",
+ "izvor_glavni": {
+  "id": "carska-ideologija",
+  "rad": "G. Milosevic, Neki aspekti carske ideologije u arhitekturi, umetnosti i skulpturi rimske vile na Medijani",
+  "url": "https://rai.ai.ac.rs/handle/123456789/1555",
+  "tekst": "pdf/milosevic_ideologija.txt",
+  "napomena": "tekst izvucen iz PDF-a; dijakritika delom izgubljena u ekstrakciji — citati se proveravaju uz original"
+ },
+ "program_po_lokaciji": {
+  "forum_Naisusa": [
+   {
+    "id": "porfirna-kompozicija-dvojna-herma",
+    "naziv": "Porfirna glava (deo) — kompozicija dijarhije Konstantin i Licinije",
+    "materijal": "porfir",
+    "ikonografija": "carski portreti; ideoloska predstava Iovii et Herculii",
+    "hronologija": "311–316 (vreme dobrih odnosa suvladara; proslava decenije vladavine Konstantina 315)",
+    "polozaj": "predvorje ili unutrasnjost hrama na forumu Naisusa (NE na Medijani)",
+    "znacaj": "stilske odlike i nacin obrade bliski venecijanskim portretima tetrarha; vise autora slaze se da je portret Konstantina",
+    "poverenje": "srednje",
+    "napomena_poverenja": "identifikacija stilski argumentovana, kompozicija 'dvojna herma?' je hipoteza samog autora (upitnik u originalu)",
+    "implikacija_3d": "van lokaliteta — kalibracioni kontekst, ne stub"
+   },
+   {
+    "id": "bronzana-glava-konstantina",
+    "naziv": "Pozlacena bronzana statua Konstantina Velikog (ocuvana glava)",
+    "materijal": "bronza, pozlata",
+    "ikonografija": "imperator u oklopu, prirodna velicina, 'u punoj snazi, u trijumfu' — novi lik monarha, bozansko lice i apsolutni gospodar sveta",
+    "hronologija": "dva predlozena datuma posvete: 334 (povod pobede nad Gotima) ili 329 (duzi boravak cara u Naisusu po povratku iz Serdike)",
+    "polozaj": "istaknuto mesto ispred hrama na forumu Naisusa",
+    "nalaz": "1900, pri gradnji mosta",
+    "poverenje": "visoko",
+    "implikacija_3d": "kalibracija portretne ikonografije za eventualne statue na Medijani"
+   }
   ],
-  "ideoloski_okvir": {
-    "ceremonijal": "prilazni svecani put: monumentalna kapija u izgledu slavoluka -> prostorije za predstavljanje (salutatorium) i cekanje -> peristil -> consitorium (sala za audijenciju) i triclinium; ceremonijal uveden od Dioklecijana, zavrsavao se proskinezom — arhitektura podredjena carskom adventusu",
-    "dualizam": "Medijana mesto dualizma solarnih kultova i hriscanstva; naklonost Konstantina bogu Solu (radialna kruna na slavoluku u Rimu, zajednicki prikazi na novcu)",
-    "obim_programa": "veliki broj mermernih i porfirnih skulptura svrstava vilu sa peristilom u vile sa NAJVECIM brojem skulptura ne samo u balkanskim provincijama nego na teritoriji celog Rimskog carstva (Vasic 1975, Starinar n.s. XXIV-XXV, 58-60)",
+  "ulaz_u_vilu": [
+   {
+    "id": "dea-dardanica",
+    "naziv": "Statua Dea Dardanica",
+    "materijal": "skulptura (materijal nije preciziran u izvoru)",
+    "ikonografija": "vrhovna boginja i zastitnica dardanskog naroda, dea patriae",
+    "hronologija": "pripisana velikoj prepravci i prosirenju trema i ulaznog dela zapocete oko 330",
+    "polozaj": "ulazni deo vile, sa javnog puta — prvo sto posetilac susrece",
+    "znacaj": "poruka o poreklu dinastije: rodonačelnik Konstancije Hlor iz ugledne dardanske porodice; postovana od Konstancija Hlora, verovatno i od Konstantina",
+    "poverenje": "srednje-visoko",
+    "napomena_poverenja": "nalaz na ulazu 'nepogresivo ukazuje' na namernu postavku (jak argument autora); pripisivanje prepravci oko 330 je 'moguce je da' formulacija",
+    "implikacija_3d": "fiksna skulptura na ulaznoj osi — mesto poznato, sama statua za 3D po opisu i literaturi"
+   }
+  ],
+  "vila_sa_peristilom": [
+   {
+    "id": "eskulap-i-higija",
+    "naziv": "Iatrijski par Eskulap i Higija — najbrojnija grupa",
+    "materijal": "mermer; uz njih i PORFIRNE statue boga i boginje sa grckim natpisima na bazama",
+    "znacaj": "najveci broj fragmentovanih i celih skulptura vile; dozvoljava pretpostavku kulta i svetilista; porfirne statue sa grckim natpisima ukazuju na UVOZENA dela umesnih skulptora visokog kvaliteta",
+    "kontekst": "kult Eskulapa naroito izlozen kritikama hriscanskih apologeta (bliske analogije Eskulap—Hrist)",
+    "poverenje": "visoko",
+    "implikacija_3d": "skulpturna oprema sale/pretorijuma; uvoz potvrdjen natpisima"
+   },
+   {
+    "id": "dionis-herkul-merkur",
+    "naziv": "Fragmentovane skulpture Dionisa, Herakla i Merkura",
+    "materijal": "mermer",
+    "znacaj": "nadjene U OKVIRU skupnog nalaza Eskulapa i Higije — iatrijska (isceliteljska) dimenzija postovanja; Medijana u blizini termalnih izvora Niske Banje, bogovi i kao zastitnici zdravlja",
+    "poverenje": "visoko",
+    "implikacija_vodeni_sloj": "sam izvor spaja lokalitet sa termalnim izvorima Niske Banje (mikroklima i kult) — prilog otvorenom pitanju izvora vodovoda, ne resenje"
+   },
+   {
+    "id": "ostale-skulpture",
+    "naziv": "Artemida/Dijana, bahanantkinje, Afrodita Sosandra, glava Venere ili Dijane",
+    "materijal": "mermer",
+    "poverenje": "srednje",
+    "izvor_dodatni": "M. Vasic, N. Gavrilovic, Venus or Diana from Mediana, Starinar LXII, 2012, 137-149"
+   },
+   {
+    "id": "uslov-nalaza-dekapitacija",
+    "naziv": "Uslov nalaza: skulpture uglavnom DEKAPITIRANE",
+    "razlog": "netrpeljivost hriscana prema paganskim kultovima",
+    "znacaj_za_rekonstrukciju": "broj glava NI merilo broja statua; rekonstrukcija opreme ne sme polaziti od broja ocuvanih portreta",
     "poverenje": "visoko"
+   }
+  ],
+  "broncana_ograda": {
+   "id": "broncana-ograda-herme",
+   "naziv": "Visekraka bronzana ograda (cancelli) sa hermama sa bistama",
+   "nalaz": "2000, deo vise kraka",
+   "potvrdjene_biste": [
+    "Asklepijos (Eskulap)",
+    "Luna"
+   ],
+   "nedostajuce_pandani": [
+    "Higija",
+    "Sol"
+   ],
+   "hronologija": {
+    "izrada": "pre 325. n.e.",
+    "postavka_na_medijanu": "361. n.e., tokom boravka cara Julijana u Nisu",
+    "sakrivanje": "378. n.e., pred gotsku invaziju"
+   },
+   "polozaj": "ulaz apside sale za gozbe (vila sa konhama)",
+   "poverenje": "visoko",
+   "razresenje_ranijeg_datuma": "raniji upis 'oko 324' bio je datum IZRade; novi izvor dodaje postavku 361 i zakopavanje 378 — tri datuma, jedan predmet",
+   "implikacija_3d": "precizna pozicija + celokupan zivotni vek elementa (izrada -> postavka -> zakop)",
+   "polozaj_v014": "monografija precizira: ograda je stajala u prohodu ka sali za prijem (auli) i delila ga na dve polovine — herme su nosile ploce (cancelli); raniji zapis (ulaz apside sale za gozbe) zadrzan kao ranija interpretacija",
+   "nalaz_lokacija": "ostava pronadjena oko 250 m SZ od vile sa peristilom (2000)"
   },
-  "nacin_daljeg_rada": "vezati svaki predmet sa mestom nalaza na stub iz prostornog sloja; porfirne statue sa natpisima traziti u IM (Inscriptions de la Mesie Superieure) za baze; za Dea Dardanicu pronaci inv. broj NM Nisa"
+  "soba-w-4": {
+   "id": "kultne-skulpture-w-4",
+   "lokacija": "soba w-4 vile sa peristilom",
+   "nalaz": "iskopi 1971",
+   "predmeti": [
+    "porfirna statua Asklepija (43 cm, inv. 985/R) sa natpisom Roimetalka i Filipa",
+    "porfirna statua Higije (49 cm, inv. 986/R) sa natpisom Roimetalka i Filipa",
+    "porfirna grupa Asklepije sa Telesforom, natpis \"svestenik Sim[...]\""
+   ],
+   "tumacenje": "uvozni radovi (porfir) sa grckim posvetnim natpisima; moguce svetiste leciteljskih bozanstava u rezidencijalnom delu — potvrdjuje nalaz iz Carske ideologije da su porfirne statue uvoz",
+   "poverenje": "visoko",
+   "izvor": "monografija-vila-2011"
+  }
+ },
+ "mozaicki_i_fresko_program": [
+  {
+   "id": "mozaik-fluvijus",
+   "naziv": "Kompozicija sa predstavom.recnog bozanstva Fluviusa",
+   "polozaj": "na ulazu u aulu (salu za audijenciju)",
+   "poverenje": "visoko",
+   "implikacija_3d": "tematska veza voda—vlast na ulaznoj osi; par sa fontanom i castellum-om"
+  },
+  {
+   "id": "mozaik-meduza",
+   "naziv": "Glava Meduze",
+   "polozaj": "u sredisnjem delu sale za audijenciju",
+   "poverenje": "visoko"
+  },
+  {
+   "id": "freske-parapetne-ploce",
+   "naziv": "Freske in situ u cetiri prostorije severozapadnog dela",
+   "sadrzaj": "linearni i geometrijski ornamenti razlicitih boja — prikazi PARAPETNIH MERMERNIH PLOCA (iluzionizam mermerne oplate u slici)",
+   "poverenje": "visoko",
+   "implikacija_3d": " nezavisna potvrda da je zidna oplata bila mermerna u tim prostorijama — fresko imitira mermer"
+  },
+  {
+   "id": "pozlate-kupole-stibadium-zapad",
+   "naziv": "Delovi mozaika sa pozlatom — kupola iznad zapadnog stibadijuma",
+   "poverenje": "visoko",
+   "implikacija_3d": "potvrdjuje polukalotu/kupolu zapadnog stibadijuma B sa pozlacenim staklenim mozaikom (poklapanje sa Stibadium B 2016)"
+  }
+ ],
+ "ideoloski_okvir": {
+  "ceremonijal": "prilazni svecani put: monumentalna kapija u izgledu slavoluka -> prostorije za predstavljanje (salutatorium) i cekanje -> peristil -> consitorium (sala za audijenciju) i triclinium; ceremonijal uveden od Dioklecijana, zavrsavao se proskinezom — arhitektura podredjena carskom adventusu",
+  "dualizam": "Medijana mesto dualizma solarnih kultova i hriscanstva; naklonost Konstantina bogu Solu (radialna kruna na slavoluku u Rimu, zajednicki prikazi na novcu)",
+  "obim_programa": "veliki broj mermernih i porfirnih skulptura svrstava vilu sa peristilom u vile sa NAJVECIM brojem skulptura ne samo u balkanskim provincijama nego na teritoriji celog Rimskog carstva (Vasic 1975, Starinar n.s. XXIV-XXV, 58-60)",
+  "poverenje": "visoko"
+ },
+ "nacin_daljeg_rada": "vezati svaki predmet sa mestom nalaza na stub iz prostornog sloja; porfirne statue sa natpisima traziti u IM (Inscriptions de la Mesie Superieure) za baze; za Dea Dardanicu pronaci inv. broj NM Nisa"
 }

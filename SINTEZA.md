@@ -241,3 +241,10 @@ Integracija pet istraživačkih grana roja (vodeni_sistem, numizmatika, objekti_
 - **Profil akvaduktske trase (4,55 km)**: međugrebenski prag ~203,4 m — gravitacioni dovod iz Niške Banje izvodiv (pad ~0,4%); nezavisna potvrda Jeremića 1988 protiv hipoteze o ogranku naissuskog vodovoda.
 - Jeremić 2006 (*Mozaici Medijane*, Niš i Vizantija 4) i dalje iza zatvorenih vrata (nisandbyzantium, Scribd); umesto njega skinut [Jeremić 2017, Meduza (PDF)](https://www.joycerain.com/uploads/2/3/2/0/23207256/05_ante_portam_auream_2017_representation_of_medusa_on_a_mosaic_floor.pdf).
 - EDCS `p_ort=Mediana` — hostovi nedostupni (DNS odbijaju oba; Wayback 429); ostaje otvoreno za sledeći talas.
+
+
+## v0.19 (2026-10-26) — Meduza 2017 obrađena
+- **Jeremić 2017 (Meduza na mozaiku, Ante portam auream 251-262) u bazi**: PDF dissectiran — tekstni sloj ostecen (podskupni fontovi), ali **10 ploča izvučeno** u `pdf/meduza_slike/`; vizuelno potvrđene: glava Meduze (emblema), plan vile sa peristilom, aerofotografija lokaliteta.
+- `mozaici_sloj.json` dopunjen sekcijom `meduza_2017` (veza na moz-07, citljivi fragmenti referenci, UDC, nove niti); pošteno: sadržajne tvrdnje iz teksta [NEPROVERENO] do čitljivog izdanja.
+- **EDCS ponovni pokušaj: i dalje mrtav** (DNS odbija db.edcs.eu i suim.uni-hd.de iz ove mreže) — ostaje otvoreno.
+- Sve verzije slojeva usklađene na 0.19; validator 0 grešaka / 0 upozorenja.
