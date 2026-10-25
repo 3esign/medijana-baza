@@ -1,5 +1,5 @@
 {
-  "version": "0.8",
+  "version": "0.9",
   "srpski": "Vizuelni sloj — Wikimedia Commons, strukturno vredne fotografije",
   "datum_upisa": "2026-10-25T17:25:55.721Z",
   "kategorija": "Category:Mediana (200 fajlova ukupno, popis u vizuelni_commons_popis.txt)",
@@ -469,5 +469,6 @@
       "File:The Villa at Mediana (XXVII) (7369179830).jpg"
     ]
   },
-  "verzija": "0.8"
+  "verzija": "0.9",
+  "datum": "2026-10-25"
 }

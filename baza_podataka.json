@@ -1,6 +1,6 @@
 {
   "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
-  "verzija": "0.8",
+  "verzija": "0.9",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
@@ -83,6 +83,35 @@
       "url": "https://doiserbia.nb.rs/ft.aspx?id=0350-02411666081G",
       "dostupnost": "open access, tekst + figure, lokalno pdf/stibadium_B_gavrilovic_2016.pdf",
       "novine": "stibadijum A i B, mere, apsolutni nivoi m n.m.v., grejanje, opus mixtum, druga faza AD 330-378"
+    },
+    {
+      "id": "monografija-vila-2011",
+      "naziv": "Constantine's Villa at Mediana (Vasic, Milosevic, Gavrilovic Vitas, Crnoglavac)",
+      "izdavac": "Narodni muzej Nis",
+      "strana": 108,
+      "url": "https://rai.ai.ac.rs/handle/123456789/1539",
+      "jezik": "en",
+      "tip": "monografija",
+      "pristup": "2026-10-25",
+      "napomena": "puni tekst izvucen lokalno: pdf/milosevic_vila.txt (161.700 znakova); nosi situacioni plan sa 9 elemenata i osnovu rezidencijalnog kompleksa"
+    },
+    {
+      "id": "iskopi-2010-2011",
+      "naziv": "Iskopavanja Medijane u 2010. i 2011. godini (Vasic, Milosevic, Gavrilovic)",
+      "url": "https://rai.ai.ac.rs/handle/123456789/210",
+      "jezik": "sr",
+      "tip": "iskopni izvestaj",
+      "pristup": "2026-10-25",
+      "napomena": "pdf/milosevic_iskopi.txt; 9 meseci iskopavanja, plan vile sa sondama"
+    },
+    {
+      "id": "carska-ideologija",
+      "naziv": "Carska ideologija u arhitekturi, umetnosti i skulpturi rimske vile na Medijani (Milosevic)",
+      "url": "https://rai.ai.ac.rs/handle/123456789/1555",
+      "jezik": "sr",
+      "tip": "rad",
+      "pristup": "2026-10-25",
+      "napomena": "pdf/milosevic_ideologija.txt; bronzana ograda sa hermama, skulpturski program"
     }
   ],
   "osnova": {
@@ -243,6 +272,12 @@
       "dogadjaj": "prestanak zivota na lokalitetu",
       "poverenje": "srednje",
       "izvor": "wiki-sr"
+    },
+    {
+      "period": "330-334",
+      "dogadjaj": "prva gradjevinska faza vile sa oktogonom (datiranje iz monografije; mozaik sobe 2 isto iz te faze)",
+      "izvor": "monografija-vila-2011",
+      "poverenje": "srednje"
     }
   ],
   "objekti": {
@@ -549,10 +584,22 @@
       "a": "40 ha zona",
       "b": "OSM poligon ~5,7 ha jezgro",
       "resenje": "razliciti nivoi: zona vs fizicki ogradjen lokalitet"
+    },
+    {
+      "tema": "vodeni izvor — Niška Banja",
+      "opis": "monografija put via publica opisuje \"od Nais do termalnih izvora Niške Banje\" kao mikro-klimatski povoljan pojas, ali NE tvrdi da vodovod vodi iz Banje; konflikt Oblik vs Niška Banja ostaje otvoren",
+      "izvor": "monografija-vila-2011",
+      "status": "otvoren"
+    },
+    {
+      "tema": "broj horreuma",
+      "opis": "ranije baza: jedan horreum 91x27 m; monografija: DVA — zapadni (150 m od vile, centar dvorista) i istocni (u istocnom kompleksu baraka, sa javnim termama)",
+      "izvor": "monografija-vila-2011",
+      "status": "resen (dva objekta)"
     }
   ],
   "rupe_za_rekonstrukciju": [
-    "nema digitalne osnove/GIS objekata A-D kao otvorenih podataka (OSM daje samo spoljasnje jezgro)",
+    "nema digitalne osnove/GIS objekata A-D kao otvorenih podataka (OSM daje samo spoljasnje jezgro) [v0.9: delimicno popunjeno — situacioni plan monografije daje raspored 9 elemenata; numericke mere za C-D i dalje bez javne osnove]",
     "dimenzije vile sa oktogonom (samo 3.150 m2 istrazeno) i ekonomskih objekata V/G/D",
     "kompletan opis figuralnih mozaika (ikonografija, datum, sadašnja lokacija) — Leda, Fluvius, Medusa",
     "vodozahvat — trasa i kapacitet (Oblik vs Niska Banja)",

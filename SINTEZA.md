@@ -70,3 +70,20 @@ Izvor: Gavrilović-Vitas, Milošević Jevtić, Crnoglavac 2016, *Stibadium B of 
 - **Dekor sa dokazom:** polukalota pozlaćenim staklenim mozaikom, mermerne oplata (bela/zuto-oker), fresko bela-plava-crvena, opus sectile listoliki mermer, prozorsko staklo, staklene tesere sa zlatnom folijom. Hronologija: druga faza vile **AD 330–378**.
 - **Stibadium A uništio Muzej 1936** — veza ka severnom delu vile trajno negirana; to je fizička granica rekonstrukcije, ne rupa u istraživanju.
 - Kalibracija ponašanja: polukalota + kružni pod + grejanje → organizacija gozbe po tetrarhijskom modelu (klinai u aneksima = hipoteza, označeno).
+
+## v0.9 — monografija "Constantine's Villa at Mediana" (2026-10-25)
+
+Proboj: cela monografija (108 str., Vasić/Milošević/Gavrilović Vitas/Crnoglavac, Narodni muzej Niš) iz repozitorijuma Arheološkog instituta ([RAI handle 1539](https://rai.ai.ac.rs/handle/123456789/1539)) + iskopni izveštaj 2010/2011 + rad *Carska ideologija*. Autor potrage popravljen: "Urbanism and Architecture" je Gordana/Goran Milošević, ne Jeremić — i taj rad i dalje nema otvoren pun tekst, ali monografija ga po sadržaju nadmašuje.
+
+**Novo u bazi (18 stubova, 15 izvora):**
+- **Situacioni plan sa 9 elemenata** — prvi put ceo kompleks u jednom planu: rezidencijalni kompleks, vila sa oktogonom, horreum, barake, crkve, vila sa konhama, vila sa ogradnim zidom, ogradni zid (geofizika), vodotoranj.
+- **Rezidencijalni kompleks raščlanjen:** kapija kao trijumfalna kapija + svečana aleja (~80 m podvlake) + sobe uz kapiju na 30 m razmaka; vestibul 2 m od tremca; južni trem 12 m sa dva masivna pilona; sala za prijem sa podijumom od 3 stepenika; 14 soba oko sale; druga faza: drveni stubovi → mramorni, impluvium, mreža vodovodnih i odvodnih kanala.
+- **Vila sa oktogonom datirana: 330–334** (prva faza) — oktagon+krug sa kontraforama, dvorište ~40 m istočno sa kolonadom, mramornim pločama i fontanom; mozaik paneli sa merama (1,70×1,50 i 2,50×5,50 m).
+- **Horreum 91×27 potvrđen sa unutrašnjošću:** 2 reda × 11 opekarskih stubova, tri bazena uz zapadni zid, dolia, vino u zapadnom delu; ~150 m od vile. **Konflikt broja horreuma rešen — postoje DVA** (zapadni + istočni sa ~7 ha kompleksom baraka i javnim termama).
+- **Barake:** zapadne 4 ha, istočne ~7 ha, prolazi 12 m sa pilonima; freske i mermer i u barakama (potvrda iz monografije).
+- **Terme (privatne):** centralna organizacija, frigidarium/tepidarium/caldarium/laconicum; zapadni deo neistražen — ukupna površina nepoznata.
+- **Vila sa konhama:** sezonska (bez grejanja), mozaik 15 m², nađen 1975, restavriran 2015, skroman karakter.
+
+**Novi stubovi:** `kapija-aleja`, `javne-terme-istocne`, `vila-ogradni-zid`, `ogradni-zid-geofizika`.
+
+**Otvoreno i dalje:** Jeremićev *Castellum aquae* (sken bez teksta, čeka OCR); rad *Urbanism and Architecture* bez otvorenog punog teksta (Academia iza prijave, RAI ga nema); vodeni izvor (Oblik vs Niška Banja) monografija ne rešava.

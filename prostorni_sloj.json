@@ -1,6 +1,6 @@
 {
   "svrha": "Prostorni sloj — spaja tekstualne tvrdnje sa koordinatama, visinama i orijentacijom; polaz za 3D rekonstrukciju (digital twin).",
-  "verzija": "0.8",
+  "verzija": "0.9",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "referentni_sistem": "EPSG:4326 (WGS84), visine m n.m.v.",
@@ -65,8 +65,9 @@
         63
       ],
       "osa": "S-J",
-      "poverenje_osnove": "visoko",
-      "poverenje_visina": "nisko (analogija Casale: 1 sprat + possible termalni sprat)"
+      "poverenje_osnove": "visoko (monografija: izduzena osnova ~6000 m2, orijentacija SZ sa blagim otklonom severnog dela ka istoku; centralno dvoriste sa peristilom i impluviumom; sobe u dva niza istocno i zapadno; ulazi u dve male cetvrtaste sobe na zapadnom i istocnom kraju tremca; sredisnji deo juznog tremca 12 m sirok; ulaz oznacen sa DVA masivna pilona, deo monumentalne polukruzne strukture; 2 m juznije na ulaznoj osi cetvrtasta sporedna soba — vestibul; naspram ulaza na severu sala za prijem sa podijumom od 3 stepenika; istocno i zapadno od sale 14 soba; druga faza: trem obnovljen, drveni stubovi zamenjeni mramornima, impluvium, mreza vodovodnih i odvodnih kanala)",
+      "poverenje_visina": "nisko (analogija Casale: 1 sprat + possible termalni sprat)",
+      "izvor": "monografija-vila-2011 + Pop-Lazic 2018 + Stibadium B 2016"
     },
     {
       "id": "horreum",
@@ -76,8 +77,16 @@
         27
       ],
       "bazeni_dubina_m": 1.4,
-      "poverenje_osnove": "visoko",
-      "poverenje_visina": "nisko"
+      "poverenje_osnove": "visoko (91x27 m potvrdjeno u monografiji; unutrasnja organizacija opisana detaljno)",
+      "poverenje_visina": "nisko",
+      "detalji_osnove": {
+        "poloza": "~150 m zapadno od vile sa peristilom, izduzena pravougaona osnova, smer SZ-JI",
+        "glavna_sala": "tripartitna podela sa DVA reda po 11 opekarskih stubova; dolia (zrnni sudovi) uz istocni zid; TRI bazena uz zapadni zid",
+        "juzni_trem": "dubok trem, po dve manje sobe u uglovima; stepenice na zapadnom delu tremca; vojni put na sredini juznog zida",
+        "zapadni_deo": "samostalna celina, 6 soba u dva reda, masivni prag na zapadnom zidu; kasnije podeljen zidovima — svrha vezana za proizvodnju vina",
+        "krov": "dvodnevni (gable) krov na masivnim zidovima, stubovima i stupovima tremca; velika visina sale omogucila sobe u uglovima tremca"
+      },
+      "izvor": "monografija-vila-2011 + Pop-Lazic 2018"
     },
     {
       "id": "castellum",
@@ -97,8 +106,9 @@
       "id": "vila-konhe",
       "naziv": "Vila sa konhama (iskop 1975)",
       "duzina_m": 32.5,
-      "poverenje_osnove": "srednje",
-      "poverenje_visina": "nisko"
+      "poverenje_osnove": "srednje (poznat samo juzni deo: apsidalna soba-triklinijum, dve cetvrtaste sobe, deo dvorista i peristila; ulaz istocno, uzduzna osnova I-J; BEZ grejanja — sezonska upotreba; mozaik 15 m2 opus tessellatum belo/oker/crveno, mreza rombova + loza, nadjen 1975, restavriran 2015; skroman karakter)",
+      "poverenje_visina": "nisko",
+      "izvor": "monografija-vila-2011"
     },
     {
       "id": "bazilika-1",
@@ -116,7 +126,8 @@
       "id": "terme",
       "naziv": "Terme",
       "status": "postojanje potvrdjeno, dimenzije nisu javno dokumentovane",
-      "poverenje_osnove": "nisko"
+      "poverenje_osnove": "srednje (zapadni deo neistrazen — ukupna povrsina NEPOZNATA; centralna organizacija: hladne i tople sobe severno/juzno od zajednicke sredine; frigidarium, tepidarium, caldarium, laconicum; originalni ulaz istocno; kasnije hodnik ka SZ sobama vile i novi ulaz na juznom zidu JI sobe)",
+      "izvor": "monografija-vila-2011"
     },
     {
       "id": "fontana-nimfej",
@@ -157,17 +168,17 @@
       "naziv": "zapadni kompleks vojnih baraka i radionica",
       "povrsina_ha": 4,
       "opis": "uske duge gradjevine sa drvenim tremovima; mermer oplata i freske unutra; radionice oruzja i alata",
-      "poverenje_osnove": "srednje",
+      "poverenje_osnove": "srednje-visoko (4 ha potvrdjeno; uzak izduzeni objekti sa drvenim tremom na duzoj strani; granici sa zapadnim ogradnim zidom rezidencije)",
       "poverenje_visina": "nisko",
-      "izvor": "Pop-Lazic 2018"
+      "izvor": "monografija-vila-2011 + Pop-Lazic 2018"
     },
     {
       "id": "barake-istocne",
       "naziv": "istocni kompleks vojnih baraka",
       "opis": "prva graditeljska faza; organizacija i konstrukcija analogna zapadnom",
-      "poverenje_osnove": "nisko",
+      "poverenje_osnove": "srednje (kompleks ~7 ha sa horreumom; prolazi 12 m siroki na severnom i istocnom kompleksu, ugaono ucvrseni pilonima; uz njih javne terme za vojsku)",
       "poverenje_visina": "nisko",
-      "izvor": "Pop-Lazic 2018"
+      "izvor": "monografija-vila-2011 + Pop-Lazic 2018"
     },
     {
       "id": "villa-oktagon",
@@ -175,9 +186,25 @@
       "istrazena_povrsina_m2": 2000,
       "opis": "zapadni deo kompleksa oblikovan kao oktagon; parkovi i vrtovi povezani tremovima; mermer oplata, geometrijski mozaici, mitoloske skulpture",
       "napomena": "NE mesati sa vilom sa peristilom (6000-6800 m2) — konflikt povrsine iz v0.2 resen: dve gradjevine",
-      "poverenje_osnove": "srednje",
+      "poverenje_osnove": "srednje-visoko (iskop + monografija: raspored soba 1, 1a, 2, 2a; oktagon sa kontraforama; dvoriste ~40 m istocno sa kolonadom, mramornim plocama i fontanom na jugu; trem \"prostor 3\" spaja dvoriste i oktagon)",
       "poverenje_visina": "nisko",
-      "izvor": "Pop-Lazic 2018"
+      "izvor": "Pop-Lazic 2018 + monografija-vila-2011",
+      "detalji_osnove": {
+        "zapadni_deo": "oktagon + krug probijeni jedan u drugi, zid-delilac na preseku; kontrafore; soba 1 (prohodna, triclinijum) + soba 1a (zapadna, privatnija)",
+        "istocno_dvoriste": "~40 m istočno; soba sa kružnom osnovom; dvorište sa kolonadom, sredina popločana mramornim pločama, fontana na jugu; trem (prostor 3) kao veza",
+        "mozaik_paneli": [
+          {
+            "mere": "1,70 x 1,50 m",
+            "motiv": "zvonoliki motivi u sinusoidi"
+          },
+          {
+            "mere": "2,50 x 5,50 m",
+            "motiv": "mreza oktagona sa peltama sa krstom"
+          }
+        ],
+        "rekonstrukcija_sobe_2": "sredina mramorne ploce sa fontanom, tri strane mozaik pravougaonici sa geometrijskim okvirima, heksalna rozeta (jug), mreza kvadrata i cetvorouckastih rombova (zapad)"
+      },
+      "datiranje": "prva faza 330-334; soba 2 mozaik iz iste faze"
     },
     {
       "id": "stibadium-B",
@@ -234,6 +261,38 @@
       "poverenje_osnove": "visoko (arheoloski iskop 2010-2015)",
       "poverenje_visina": "srednje-visoko (apsolutni nivoi m n.m.v. iz iskopa — jedini objekat u bazi sa stvarnim visinama)",
       "izvor": "Gavrilovic-Vitas, Milosevic Jevtic, Crnoglavac 2016, Starinar LXVI, 81-102 (pdf/stibadium_B_gavrilovic_2016.pdf)"
+    },
+    {
+      "id": "kapija-aleja",
+      "naziv": "monumentalna kapija i sveca aleja",
+      "opis": "kapija u obliku trijumfalne kapije sa pratecim prijemnim sobama; podvlaga aleje ~80 m dugacka, juzno i zapadno od kapije; sobe na JZ i JI kraju kapije na ~30 m medjusobnog razmaka, organizacijom slicne vojnim barakama; aleja deli severno i juzno dvoriste",
+      "poverenje_osnove": "srednje (opis monografije, bez numericke osnove osim 80 m i 30 m)",
+      "poverenje_visina": "nisko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "javne-terme-istocne",
+      "naziv": "javne terme (istočni kompleks)",
+      "opis": "ostaci vecih termi javnog karaktera u JZ delu istocnog kompleksa vojnih baraka; namenjene stacioniranoj vojsci i sluzbi Medijane",
+      "poverenje_osnove": "nisko (samo pominjanje \"probably belong\" — bez osnove)",
+      "poverenje_visina": "nisko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "vila-ogradni-zid",
+      "naziv": "vila sa ogradnim zidom (elemenat 7 situacionog plana)",
+      "opis": "posebna vila sa ogradnim zidom, oznacena na situacionom planu monografije kao elemenat 7; u tekstu bez posebnog poglavlja — postojanje potvrdjeno samo planom",
+      "poverenje_osnove": "nisko (samo pozicija na planu, bez mera i opisa)",
+      "poverenje_visina": "nisko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "ogradni-zid-geofizika",
+      "naziv": "ogradni zid kompleksa (geofizicka snimanja)",
+      "opis": "zid ograde koji deli rezidencijalni kompleks od baraka i skladista; potvrdjen geofizickim snimanjima (elemenat 8 situacionog plana); teodolitski oblik: rezidencija u centru, dva monumentalna dvorista zapadno i istocno sa horreumima u sredini",
+      "poverenje_osnove": "srednje (geofizika — kontinuitet zida, bez osnove u metrima)",
+      "poverenje_visina": "nisko",
+      "izvor": "monografija-vila-2011"
     }
   ],
   "orijentacija": {
@@ -243,7 +302,10 @@
   "prostorne_implikacije_3d": [
     "Pad 8-10 m na 500 m => fontane rade gravitacijom; 3D mora postovati relativne visine, ne apsolutne.",
     "Lesna terasa 35 m iznad Nisave => temelji na lesu; rizik sedanja; deo razloga sto je lokalitet napusten posle 441.",
-    "5,7 ha jezgro vs 40 ha zona: 3D model pokriva jezgro (objekti A-D), zona ostaje hladni sloj sa oznakom NE-ISTRAZENO."
+    "5,7 ha jezgro vs 40 ha zona: 3D model pokriva jezgro (objekti A-D), zona ostaje hladni sloj sa oznakom NE-ISTRAZENO.",
+    "v0.9: rezidencijalni kompleks ima SLOZEN SASTAV — kapija + aleja (80 m) + vestibul + peristil + sala sa podijumom + 2 stibadija + officium + terme, sve unutar ogradnog zida; to je osnova za 3D odvajanje javnog od privatnog sloja",
+    "v0.9: simetrija severnog dela — rezidencija u centru, horreum u sredini svakog od dva dvorista (zapad/istok), barake na ivicama; centricnost je planer princip, ne slucajnost",
+    "v0.9: prolazi 12 m izmedju baraka ucvrseni pilonima — jedina dokumentovana sirina komunikacija u vojnom delu"
   ],
   "izvor": [
     "osm way 296184228",

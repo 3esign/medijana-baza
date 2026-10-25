@@ -1,6 +1,6 @@
 {
   "svrha": "Digitalni pasos Konstantinove vile (Medijana) — strukturisana 'vila znanja': materijali, uticaji, graditelji/alati, slojevi poverenja. Cilj: da iz ovog fajla (uz ostale u folderu) 3D rekonstrukcija moze nastati bez dodatnog coveka-u-petlji.",
-  "verzija": "0.8",
+  "verzija": "0.9",
   "datum": "2026-10-25",
   "autor": "Svemir / dr Poturak Semir",
   "identitet": {
@@ -95,7 +95,8 @@
       "uticaj": "imperijalna rezidencija Naissus",
       "dokaz": "boravci Konstantina 315-334, Julijan 361, podela carstva 364 — vila je bila drzavni objekat, ne samo villa",
       "poverenje": "visoko"
-    }
+    },
+    "carska ideologija Konstantina I u arhitekturi Medijane — kapija kao trijumfalna kapija, dinasticki program urodjen u Naisu (v0.9, monografija + rad \"Carska ideologija\")"
   ],
   "graditelji_alati": {
     "status": "Imena arhitekata i majstora NISU zabelezena nigde za Medijanu — ocekivano za period; unos je inferencija",
@@ -137,7 +138,11 @@
       "implikacija": "kontekst populacije, ne objekta",
       "poverenje": "srednje"
     },
-    "Vizuelna provera v0.5: Flickr set naslovi nisu pouzdana prostorna veza (nimfej I = mozaik pod) — vidi vizuelni_nalazi.json"
+    "Vizuelna provera v0.5: Flickr set naslovi nisu pouzdana prostorna veza (nimfej I = mozaik pod) — vidi vizuelni_nalazi.json",
+    {
+      "tekst": "mozaik sobe 2 vile sa oktogonom: sredina mramorne ploce sa fontanom — kombinacija mramor + mozaik + voda u jednoj sobi (v0.9, monografija)",
+      "poverenje": "srednje"
+    }
   ],
   "teorije_rekonstrukcije": {
     "ideal": "TEORETSKI ORIJENTIR: sveobuhvatna super-inteligencija bi iz ovog pasoša + literature mogla rekonstruisati 3D sa maksimalno inferencijom. Nije dostignuce, jeste mera koliko smo blizu.",
