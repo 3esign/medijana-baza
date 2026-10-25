@@ -1,6 +1,6 @@
 {
  "sloj": "dem_glo30",
- "verzija": "0.19",
+ "verzija": "0.20",
  "izvor": "Copernicus GLO-30 (DSM, 30 m GSD), AWS opendata copernicus-dem-30m",
  "licence": "Copernicus/ESA besplatna javna upotreba",
  "tiles": [
@@ -9,101 +9,164 @@
  ],
  "napomena": "DSM ukljucuje visok rast i objekte; kote su gornja granica terena. [PROVERENO rasterio ocitavanje 2026-10-26]",
  "kote_tacaka": {
-  "centar_baze": 198.2,
-  "vila_peristil": 200.6,
-  "severni_deo": 198.1,
-  "jug": 197.7,
-  "niska_banja_centar": 222
+  "vila_peristil": 187.8,
+  "centar_baze": 188.5,
+  "severni_deo": 190.0,
+  "jug": 187.3,
+  "niska_banja_centar": 200.0,
+  "niska_banja_izvorisna_zona_kontakt": 248.0,
+  "napomena_koordinate": "niska_banja_centar = dolinsko dno naselja (~43.31 N, 21.95 E); izvorisna zona = kontakt fliša/krečnjaka na podnožju Suve Planije (~43.30 N, 21.951 E)"
  },
  "profil_akvedukt_medjana_niska_banja": {
-  "duzina_km": 4.55,
+  "dist_km": 7.8,
   "kote_krajnje": {
-   "medjana_vila": 200.6,
-   "niska_banja": 222
+   "medjana_vila": 187.8,
+   "niska_banja_izvorisna_zona": 248.0
   },
-  "uzvisina_na_trasi_max": 203.4,
-  "zakljucak": "Gravitacioni dovod izvodiv: izvor ~222 m > medjugrebenski prag ~203 m > vila ~198 m; potreban pad kanala ~0.4% preko praga. Nezavisno potvrdjuje Jeremica 1988 (izvoriste u pravcu Niske Banje), suprotno starijoj hipotezi o ogranku vodovoda Naissusa.",
+  "uzvisina_na_trasi_max": 289.4,
   "tacke": [
    {
-    "km": 0,
-    "kota": 197.8
+    "km": 0.0,
+    "kota": 187.8
    },
    {
-    "km": 0.25,
-    "kota": 198.7
+    "km": 0.24,
+    "kota": 190.1
    },
    {
-    "km": 0.51,
-    "kota": 201.5
+    "km": 0.49,
+    "kota": 187.9
    },
    {
-    "km": 0.76,
-    "kota": 202.4
+    "km": 0.73,
+    "kota": 184.5
    },
    {
-    "km": 1.01,
-    "kota": 202.2
+    "km": 0.98,
+    "kota": 186.5
    },
    {
-    "km": 1.26,
-    "kota": 202.8
+    "km": 1.22,
+    "kota": 186.9
    },
    {
-    "km": 1.52,
-    "kota": 202.9
+    "km": 1.46,
+    "kota": 186.4
    },
    {
-    "km": 1.77,
-    "kota": 202.3
+    "km": 1.71,
+    "kota": 191.0
    },
    {
-    "km": 2.02,
-    "kota": 201.9
+    "km": 1.95,
+    "kota": 190.6
    },
    {
-    "km": 2.27,
-    "kota": 203.4
+    "km": 2.19,
+    "kota": 192.9
    },
    {
-    "km": 2.53,
-    "kota": 199.5
+    "km": 2.44,
+    "kota": 193.2
    },
    {
-    "km": 2.78,
-    "kota": 203.1
+    "km": 2.68,
+    "kota": 194.2
    },
    {
-    "km": 3.03,
-    "kota": 203.8
+    "km": 2.93,
+    "kota": 194.0
    },
    {
-    "km": 3.29,
-    "kota": 212.6
+    "km": 3.17,
+    "kota": 192.9
    },
    {
-    "km": 3.54,
-    "kota": 218
+    "km": 3.41,
+    "kota": 192.9
    },
    {
-    "km": 3.79,
-    "kota": 219.2
+    "km": 3.66,
+    "kota": 191.3
    },
    {
-    "km": 4.04,
-    "kota": 220.5
+    "km": 3.9,
+    "kota": 191.3
    },
    {
-    "km": 4.3,
-    "kota": 221.8
+    "km": 4.14,
+    "kota": 194.4
    },
    {
-    "km": 4.55,
-    "kota": 222
+    "km": 4.39,
+    "kota": 196.5
+   },
+   {
+    "km": 4.63,
+    "kota": 198.3
+   },
+   {
+    "km": 4.88,
+    "kota": 214.1
+   },
+   {
+    "km": 5.12,
+    "kota": 211.3
+   },
+   {
+    "km": 5.36,
+    "kota": 207.7
+   },
+   {
+    "km": 5.61,
+    "kota": 208.5
+   },
+   {
+    "km": 5.85,
+    "kota": 220.4
+   },
+   {
+    "km": 6.09,
+    "kota": 227.2
+   },
+   {
+    "km": 6.34,
+    "kota": 232.4
+   },
+   {
+    "km": 6.58,
+    "kota": 250.2
+   },
+   {
+    "km": 6.83,
+    "kota": 270.0
+   },
+   {
+    "km": 7.07,
+    "kota": 258.5
+   },
+   {
+    "km": 7.31,
+    "kota": 289.4
+   },
+   {
+    "km": 7.56,
+    "kota": 273.6
+   },
+   {
+    "km": 7.8,
+    "kota": 248.6
    }
-  ]
+  ],
+  "zakljucak": "Pravolinijska trasa vila→izvorišna zona: 7,8 km, uspon na severnom podnožju (max 289 m na trasi je bočno brdo, ne prag na pravcu kanala). Gravitacioni dovod izvodiv: izvorišna zona ~248 m → vila ~188 m, raspoloživ pad ~60 m (~0,8%). Jeremić 1988 navodi dovodni kanal sa istoka ~4,5 km — razlika sugerira da antička izvorišta leže zapadnije od današnje glavne česme; trasa kroz dolinsko dno (~200 m) ostaje izvodiva."
  },
  "otvorena_pitanja": [
   "tacna izvorista (Rautnik/ostale kaptaZe) nisu tackasto locirana; GSD 30 m ne razlaze prag kanala",
   "nimfej kota ~195-197 po Jeremicu 1988 vs DSM ~198 (DSM cita izgradjeno stanje posle premestanja)"
- ]
+ ],
+ "korekcija_v020": {
+  "sta": "Kote i profil iz v0.18 bili pogrešno uzorkovani (pogrešne koordinate Niške Banje, ~43.27 N umesto ~43.30 N; vila 200.6 umesto 187.8).",
+  "dokaz": "Nezavisna provera Open-Meteo Elevation API (Copernicus DEM): vila 43.3269/21.8625 = 188-189 m; dolinsko dno Banje 43.31/21.95 = 198-202 m — poklapa se sa novim rasterio čitanjem istih TIFF ploča.",
+  "posledica": "Smer zaključka nepromenjen i pojačan (gravitacioni dovod izvodiv), ali su sve apsolutne kote iz v0.18 zamenjene. Fizička provera 'izvorište više od vile' prolazi: 248 > 188."
+ }
 }

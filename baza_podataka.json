@@ -1,6 +1,6 @@
 {
  "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
- "verzija": "0.19",
+ "verzija": "0.20",
  "datum": "2026-10-26",
  "autor": "Svemir / dr Poturak Semir",
  "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
@@ -942,5 +942,12 @@
  ],
  "napredak_v017": [
   "v0.17: epigrafski sloj — 9 natpisa sa statusima dokaza; korpusni brojevi (CIL III/IMS/AE) ostaju OTVORENA RUPA sa potvrdjenim EDCS/EDH/LSA obrascima za sledeci talas"
+ ],
+ "changelog": [
+  {
+   "verzija": "0.20",
+   "datum": "2026-10-26",
+   "sadrzaj": "KOREKCIJA DEM sloja: kote iz v0.18 pogrešno uzorkovane (pogrešne koordinate Niške Banje). Nove kote potvrđene nezavisno (Open-Meteo/Copernicus): vila 187,8 m, izvorišna zona Banje ~248 m, dolinsko dno ~200 m. Profil trase rebuilt 7,8 km, pad ~60 m. EDH Heidelberg živ ali 0 pogodaka za Mediana (negativan nalaz); EDCS i dalje nedostupan iz ove mreže."
+  }
  ]
 }
