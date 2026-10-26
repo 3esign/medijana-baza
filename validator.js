@@ -449,6 +449,40 @@ if (kmz) {
   }
   }
 }
+// v0.26: iskopani segmenti akvadukta Naisus (ZZSK 2020-2025)
+{
+  const tr = ucitaj('akvadukt_trasa_v026.json');
+  if (!tr.segmenti?.length) greske.push('trasa: bez segmenata');
+  const vila = tr.segmenti.find(s => s.id === 'tr-00') || null;
+  const ids = new Set();
+  for (const s of tr.segmenti || []) {
+    if (!s.id || ids.has(s.id)) greske.push(`trasa: segment bez/dupliran id (${s.id})`);
+    ids.add(s.id);
+    if (!s.izvori === false) {} // segmenti nemaju svoj izvor — pokriveno na nivou sloja
+    if (!Array.isArray(s.koordinate) || s.koordinate.length !== 2) greske.push(`trasa: ${s.id} bez koordinata`);
+    else {
+      const [lon, lat] = s.koordinate;
+      if (lat < 43.25 || lat > 43.45 || lon < 21.80 || lon > 22.10) greske.push(`trasa: ${s.id} koordinate van Nisa (${lat},${lon})`);
+    }
+  }
+  // smer trase: svi iskopani (bez hipoteze terminusa) severno od vile
+  const villaLat = 43.3163;
+  for (const s of (tr.segmenti || []).filter(s => s.id !== 'tr-05')) {
+    if (s.koordinate?.[1] <= villaLat) greske.push(`trasa: ${s.id} nije severno od vile — ruse utvrdjeni smer Vinik->grad`);
+  }
+  if (!tr.izvori?.length) greske.push('trasa: sloj bez izvora');
+  if (!(tr.izvori || []).every(z => /https?:\/\//.test(z.url || ''))) greske.push('trasa: izvor bez URL');
+  if (!tr.hronologija?.length) greske.push('trasa: bez hronologije');
+  if (!tr.hipoteza_izvor_zzsk || tr.hipoteza_izvor_zzsk.osm_node !== '4027319493')
+    greske.push('trasa: hipoteza izvora ne poklapa Sreckovo vrelo (node 4027319493)');
+  if (!tr.sukob_sa_medijanskom_granom || tr.sukob_sa_medijanskom_granom.status !== 'otvoren')
+    greske.push('trasa: sukob vinik-vs-banja obavezan i otvoren');
+  if (tr.sukob_sa_medijanskom_granom?.mere) {
+    for (const [k, v] of Object.entries(tr.sukob_sa_medijanskom_granom.mere))
+      if (!(v > 0 && v < 20)) greske.push(`trasa: udaljenost ${k}=${v} van razumog opsega`);
+  }
+  console.log(`trasa: ${ids.size} segmenata, obilje ${tr.obilje_iskopano_m} m, sukob otvoren`);
+}
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

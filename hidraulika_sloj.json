@@ -1,6 +1,6 @@
 {
  "svrha": "Hidraulicki linijski model vodenog sistema Medijane za 3D: izvor -> kaptaza -> kanal C/D -> castellum aquae (bazeni A+B, ustave) -> kanal E -> vila (nimfej, terme, fontane). Niz cvorova sa kotama + racunica protoka. Dopuna vodeni_linijski_sloj.json v0.15 — ne menja ga.",
- "verzija": "0.25",
+ "verzija": "0.26",
  "datum": "2026-10-26",
  "autor": "Svemir / dr Poturak Semir; očitavanje i računica: GLM roj (Claude Agent SDK, model glm-5.3-flash)",
  "primarni_izvor": {
