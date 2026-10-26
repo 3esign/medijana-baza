@@ -543,6 +543,24 @@ try {
   console.log(`kasarna-gravitacija: Pod Vinik ${kotPod} m -> kasarna ${kotKas} m, monoton silazak, terminus fizicki izvodljiv`);
 } catch (e) { greske.push('v029: ' + e.message); }
 
+// --- v0.30: treca nezavisna kota vrela (SRTM) ---
+try {
+  const t30 = JSON.parse(fs.readFileSync(path.join(__dirname, 'treca_kota_vrela_v030.json'), 'utf8'));
+  const vrelo = t30.citanja.find(x => /4027319493/.test(x.objekat));
+  if (!vrelo) greske.push('v030: nema citanja za node 4027319493');
+  else {
+    const tri = [vrelo.kota_glo30_openmeteo_v023, vrelo.kota_copernicus30_v027, vrelo.kota_srtm90m];
+    if (Math.abs(vrelo.raspon_m - (Math.max(...tri) - Math.min(...tri))) > 0.05) greske.push('v030: raspon se ne slaze sa tri citanja');
+    const kas = t30.citanja.find(x => /302167418/.test(x.objekat));
+    if (!kas || kas.kota_srtm90m !== 206) greske.push('v030: SRTM kota kasarne mora potvrditi 206 m iz v0.29');
+  }
+  if (!/442,6/.test(t30.zakljucak.kota_vrela_prihvacena)) greske.push('v030: prihvacena kota mora biti medijana 442,6 m');
+  if (!/NEIZVODLJIVA/.test(t30.zakljucak.uticaj_na_v027)) greske.push('v030: zakljucak v0.27 mora ostati neizvodljivost bez tunela na celom opsegu citanja');
+  if (!/OTVOREN|otvoren/.test(t30.sukob_vinik_vs_banja)) greske.push('v030: sukob vinik-vs-banja mora ostati otvoren');
+  if (!t30.izvori?.length || !/opentopodata/.test(t30.izvori[0].url)) greske.push('v030: fali izvor SRTM citanja');
+  console.log('treca-kota-vrela: 431,9 / 442,6 / 450,0 m — medijana 442,6, zakljucak v0.27 robustan');
+} catch (e) { greske.push('v030: ' + e.message); }
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));
