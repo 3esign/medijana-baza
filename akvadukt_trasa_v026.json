@@ -66,12 +66,13 @@
    "id": "tr-05",
    "lokalitet": "pretpostavljen rezervoar (terminus)",
    "godina": null,
-   "napomena": "verovatno na prostoru Pantelejske kasarne; nije iskopan",
+   "napomena": "Kasarna Knjaz Mihailo (OSM way 302167418), kota ~206 m; korigovano u v0.29 (originalna koordinate [21.921,43.356] je padala na viniksku padinu 399 m); status: HIPOTEZA ZZSK, nedokazano",
    "koordinate": [
-    21.921,
-    43.356
+    21.8971,
+    43.3341
    ],
-   "geokod": "APROKSIMACIJA; status: HIPOTEZA ZZSK, nedokazano"
+   "geokod": "APROKSIMACIJA; status: HIPOTEZA ZZSK, nedokazano",
+   "korekcija_v029": "tacan geokod preko Nominatim, gravitacioni test u pantelej_kasarna_gravitacija_v029.json"
   }
  ],
  "hronologija": [

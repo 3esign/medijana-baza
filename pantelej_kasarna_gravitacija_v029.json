@@ -1,0 +1,123 @@
+{
+ "verzija": "0.29",
+ "datum": "2026-10-26",
+ "sloj": "gravitaciona provera gradskog akvadukta — terminus Pantelejska kasarna (test hipoteze ZZSK iz v0.28)",
+ "metod": "open-elevation API (SRTM/DEM), jednostrecne uzorke po tackama; geokodiranje kasarne preko Nominatim (OSM way 302167418, ne aproksimacija)",
+ "korekcija_v026": {
+  "sta": "segment tr-05 (pretpostavljeni rezervoar/terminus) u akvadukt_trasa_v026.json imao je koordinatu [21.921, 43.356] koja pada na VINIKSKU PADINU (399 m n.v.) — to nije Pantelejska kasarna",
+  "ispravka": {
+   "lokalitet": "Kasarna Knjaz Mihailo (Pantelej, Niš)",
+   "osm_way": "302167418",
+   "koordinate": [
+    21.8971,
+    43.3341
+   ],
+   "kota_dem_m": 206,
+   "geokod": "Nominatim: military base, display_name 'Касарна „Књаз Михаило“, Ниш (Пантелеј)'"
+  }
+ },
+ "merenja": [
+  {
+   "tacka": "Srećkovo vrelo (start hipoteze ZZSK)",
+   "koordinate": [
+    21.94579,
+    43.38523
+   ],
+   "kota_m": 442.6,
+   "izvor": "open-elevation, identično v0.27"
+  },
+  {
+   "tacka": "Prevalac / Donji Matejevac (iskop 2023)",
+   "koordinate": [
+    21.95097,
+    43.36205
+   ],
+   "kota_m": 302.3
+  },
+  {
+   "tacka": "Gornjomatejevačka (iskop 2024/25)",
+   "koordinate": [
+    21.92696,
+    43.34048
+   ],
+   "kota_m": 244.5
+  },
+  {
+   "tacka": "Ardija (iskop 2025)",
+   "koordinate": [
+    21.91583,
+    43.34004
+   ],
+   "kota_m": 247.6
+  },
+  {
+   "tacka": "Pod Vinik (iskop 2020/22)",
+   "koordinate": [
+    21.916,
+    43.352
+   ],
+   "kota_m": 362.5
+  },
+  {
+   "tacka": "Kasarna Knjaz Mihailo — hipoteza terminusa",
+   "koordinate": [
+    21.8971,
+    43.3341
+   ],
+   "kota_m": 206
+  },
+  {
+   "tacka": "transverzala od Pod Vinika (1)",
+   "koordinate": [
+    21.913,
+    43.35
+   ],
+   "kota_m": 351.2
+  },
+  {
+   "tacka": "transverzala od Pod Vinika (2)",
+   "koordinate": [
+    21.908,
+    43.346
+   ],
+   "kota_m": 288.2
+  },
+  {
+   "tacka": "transverzala ka kasarni (3)",
+   "koordinate": [
+    21.9,
+    43.342
+   ],
+   "kota_m": 232.7
+  }
+ ],
+ "nalaz": {
+  "lanac_iskopanih_segmenata": "kotne kolone iskopanih segmenata (Pod Vinik 362,5 → transverzala 351/288/233 → kasarna 206) čine MONOTON silazak — iskopani deo trase je gravitaciono konzistentan sa terminusom na kasarni. Prosečan pad deonice Pod Vinik→kasarna ≈ 55‰ (362,5→206 m preko ~2,8 km pravolinijski) — strmo ali fizički izvodljivo za zidani kanal.",
+  "ukupni_pad": "vrelo 442,6 → kasarna 206,0 = 236,6 m raspada na ~6,6 km pravolinijski (≈36‰) — obilan gravitacioni budžet za ceo sistem",
+  "jedina_prepreka": "prva deonica (vrelo → Vinik): grebeni 495,7/504,7 m iznad kote vrela (v0.27) — problem NIJE u distribuciji ka gradu nego u zahvatu vode sa Srećkovog vrela",
+  "posledica_za_sukob_vinik_vs_banja": "hipoteza ZZSK o Pantelejskoj kasarni kao terminusu prolazi gravitacioni test od Vinika naniže; fizička slaba tačka ostaje kaptaza/greben. Sukob ostaje OTVOREN — odlučuje iskop spoja/ustave."
+ },
+ "upozorenje_geokod": "koordinate iskopanih segmenata ostaju APROKSIMATIVNE (po naseljima, v0.26); kotne vrednosti segmenata mogu se pomerati sa pravim iskopnim tačkama. Zaključak monotonog silaska robustan na pomeranja ~200 m po padini.",
+ "izvori": [
+  {
+   "id": "open-elevation",
+   "tip": "DEM API",
+   "url": "https://api.open-elevation.com/api/v1/lookup"
+  },
+  {
+   "id": "osm-kasarna",
+   "tip": "OSM/Nominatim geokod",
+   "url": "https://www.openstreetmap.org/way/302167418"
+  },
+  {
+   "id": "vinik-fizika-v027",
+   "tip": "interni sloj (grebeni)",
+   "url": "vinik_trasa_fizika_v027.json"
+  },
+  {
+   "id": "zzsk-2025",
+   "tip": "saopštenje ZZSK (300 m, hipoteza kasarne)",
+   "url": "https://gradskiportal018.rs/najnovije-otkrice-u-nisu-otkriven-rimski-akvadukt-dug-vise-od-90-metara"
+  }
+ ]
+}

@@ -518,6 +518,31 @@ try {
   console.log(`vodosnabdevanje: kaptaza ${vod.kaptaza_sreckovo_vrelo?.nazivi?.[0]} — ${vod.segmenti_trase_ne.length} segmenta, 2 faze, medijanski sistem odvojen`);
 } catch (e) { greske.push('v028: ' + e.message); }
 
+// --- v0.29: gravitacioni test gradskog sistema — Pantelejska kasarna ---
+try {
+  const kg = JSON.parse(fs.readFileSync(path.join(__dirname, 'pantelej_kasarna_gravitacija_v029.json'), 'utf8'));
+  if (kg.verzija !== baza?.verzija) greske.push(`kasarna-gravitacija verzija ${kg.verzija} != ${baza?.verzija}`);
+  const k = kg.korekcija_v026?.ispravka;
+  if (!k || k.osm_way !== '302167418') greske.push('v029: korekcija kasarne mora biti vezana za OSM way 302167418 (Knjaz Mihailo)');
+  if (!k || !(k.kota_dem_m > 180 && k.kota_dem_m < 230)) greske.push('v029: kota kasarne van opsega 180-230 m');
+  const m = kg.merenja || [];
+  const kotPod = m.find(x => /Pod Vinik/.test(x.tacka))?.kota_m;
+  const kotKas = k?.kota_dem_m;
+  if (!(kotPod > kotKas)) greske.push('v029: Pod Vinik mora biti iznad kasarne (gravitacija ka gradu)');
+  const tv = m.filter(x => /transverzala/.test(x.tacka)).map(x => x.kota_m);
+  if (tv.length < 3 || !(tv[0] > tv[1] && tv[1] > tv[2]) || !(kotPod > tv[0]) || !(tv[2] > kotKas))
+    greske.push('v029: transverzala nije monoton silazak ka kasarni');
+  if (!kg.nalaz?.posledica_za_sukob_vinik_vs_banja || !/OTVOREN/.test(kg.nalaz.posledica_za_sukob_vinik_vs_banja))
+    greske.push('v029: sukob vinik-vs-banja mora ostati otvoren');
+  if (!kg.nalaz?.jedina_prepreka || !/greben/.test(kg.nalaz.jedina_prepreka))
+    greske.push('v029: fali nalaz da prepreka ostaje samo na deonici vrelo-Vinik');
+  if (!m.some(x => /Sre/.test(x.tacka || ''))) greske.push('v029: bez kote vrela u merenjima');
+  const tr = JSON.parse(fs.readFileSync(path.join(__dirname, 'akvadukt_trasa_v026.json'), 'utf8'));
+  const s5 = tr.segmenti?.find(x => x.id === 'tr-05');
+  if (!s5 || s5.koordinate[0] !== 21.8971) greske.push('v029: segment tr-05 u v026 nije korigovan na kasarnu Knjaz Mihailo');
+  console.log(`kasarna-gravitacija: Pod Vinik ${kotPod} m -> kasarna ${kotKas} m, monoton silazak, terminus fizicki izvodljiv`);
+} catch (e) { greske.push('v029: ' + e.message); }
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));
