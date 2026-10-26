@@ -1,6 +1,6 @@
 {
  "svrha": "Hidraulicki linijski model vodenog sistema Medijane za 3D: izvor -> kaptaza -> kanal C/D -> castellum aquae (bazeni A+B, ustave) -> kanal E -> vila (nimfej, terme, fontane). Niz cvorova sa kotama + racunica protoka. Dopuna vodeni_linijski_sloj.json v0.15 — ne menja ga.",
- "verzija": "0.24",
+ "verzija": "0.25",
  "datum": "2026-10-26",
  "autor": "Svemir / dr Poturak Semir; očitavanje i računica: GLM roj (Claude Agent SDK, model glm-5.3-flash)",
  "primarni_izvor": {
@@ -486,5 +486,90 @@
    "zakljucak_kapaciteta": "U izvodljivim scenarijima (kota 212,4, nagib 2,6 promila): 42-184 l/s (3.600-15.900 m3/dan) — najmanji scenarij (0,3 x 0,2 m) vec duplo preko kapaciteta merenog kanal E (17-45 l/s). Dovod nikad nije bio usko grlo; regulacija ustavama je bila obavezna, sto potvrdjuje arheologiju (ustave I/II, prelivnici 1-2-3)."
   },
   "poverenje": "srednje — kota vrela je kota terena (ne istoca), dimenzije kanala pretpostavljene, trasa pravolinijska (stvarna duzina do ~+15%)"
+ },
+ "dovod_v025": {
+  "svrha": "Razresenje nesklada kote vrela iz v0.24 nezavisnim ukrstenim DEM testom; Manning proracun na razresenoj koti.",
+  "ukrstteni_test": {
+   "opis": "Vise nezavisnih DEM servisa na koordinati node 4115176757 (43.31663N, 21.96736E) + 3x3 grid ±50 m.",
+   "tacke": [
+    {
+     "izvor": "open-meteo (Copernicus GLO-30)",
+     "kota": 211
+    },
+    {
+     "izvor": "srtm90m",
+     "kota": 209
+    },
+    {
+     "izvor": "srtm30m",
+     "kota": 209
+    },
+    {
+     "izvor": "open-elevation (SRTM)",
+     "kota": 202.284439
+    }
+   ],
+   "opseg_m": [
+    202.284439,
+    211
+   ],
+   "grid_nalaz": "3x3 grid (±50 m): 210-211 m na 6 juznih celija, 218 m na 3 severne — vrelo sedi u podnozju strme banke (+7 m na 50 m). Svaki mali pomak koordinate menja kotu za ±5 m; TO je koren nesklada 212,4/207,6 iz v0.24, ne kvar rastera.",
+   "razresenje": "Vrednost 207,6 m odbijena (ispod svih nezavisnih izvora); 212,4 m malo visoko. Prihvacena procena 209,5 m (SRTM 90/30: 209; GLO-30: 211)."
+  },
+  "kandidat_razresen": {
+   "osm_node": "4115176757",
+   "kota_prihvacena_m": 209.5,
+   "opseg_neizvesnosti_m": [
+    202.284439,
+    211
+   ],
+   "status": "VALIDAN — sve tri dimenzije izvodljive, ali nagib na samom dnu fizickog opsega"
+  },
+  "nagibi_promila": {
+   "vrelo_ka_kastelumu": 0.88,
+   "vrelo_ka_vili": 6.61,
+   "poredjenje": "Kanal C na Medijani meren 2-13 promila (Jeremic 1988). Nasih 0,9 promila do kasteluma je ISPOD merenog opsega — znacajno blazi i od v0.24 procene (2,57). Kanal sa padom 0,9 promila radi, ali zahteva precizno zidanje i osetljiv je na zatrupevanje.",
+   "kriticni_uslov_v024_razresen": "Vrelo je i dalje iznad dna bazena A (208,0), ali sa marginom od samo ~1,5 m umesto ranjivih 2,57 promila. Gravitacioni dovod izvodljiv uz uslov da kaptaza nije bila nize od ~208,5 m. GNSS na terenu ostaje jedina potpuna potvrda."
+  },
+  "kapacitet_manning_v025": {
+   "model": "Manning-Strickler, pravougaoni kanal, n=0,014; iste tri dimenzije kao v0.24, novi nagib.",
+   "nagib_promila": 0.88,
+   "scenariji": [
+    {
+     "kota_vrela": 209.5,
+     "nagib_promila": 0.88,
+     "sirina_m": 0.3,
+     "dubina_m": 0.2,
+     "A": 0.06,
+     "R": 0.0857,
+     "v": 0.411,
+     "Q_l_s": 24.7,
+     "Q_m3_dan": 2132
+    },
+    {
+     "kota_vrela": 209.5,
+     "nagib_promila": 0.88,
+     "sirina_m": 0.4,
+     "dubina_m": 0.3,
+     "A": 0.12,
+     "R": 0.12,
+     "v": 0.515,
+     "Q_l_s": 61.8,
+     "Q_m3_dan": 5336
+    },
+    {
+     "kota_vrela": 209.5,
+     "nagib_promila": 0.88,
+     "sirina_m": 0.6,
+     "dubina_m": 0.3,
+     "A": 0.18,
+     "R": 0.15,
+     "v": 0.597,
+     "Q_l_s": 107.5,
+     "Q_m3_dan": 9288
+    }
+   ]
+  },
+  "promena_u_odnosu_na_v024": "Kota vrela 212,4 -> 209,5 (opseg 202-211). Pad 2,57 -> 0,9 promila. Q 42-184 -> 24.7-107.5 l/s. Najmanji kanal (0,3x0,2) i dalje preko donje granice kapaciteta kanala E (17 l/s), ali bez duplog prekovai — zakljucak o potvrdi ustava slabi na 'konzistentno', ne 'obavezno'."
  }
 }

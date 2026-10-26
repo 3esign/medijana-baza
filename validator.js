@@ -477,3 +477,21 @@ if (hidr?.dovod_v024) {
   if (!hidr.konflikti?.find(k => k.id === 'duzina-dovoda-45km-vs-171km')) greske.push('dovod_v024: fali konflikt-zapis duzina-dovoda-45km-vs-171km');
   if (!d.poredjenje_sa_jeremicem?.jeremic_hipoteza) greske.push('dovod_v024: nema poredjenja sa Jeremicem 4,5 km');
 }
+
+// --- v0.25: fizika razresenog vrela ---
+try {
+  const ukr = JSON.parse(fs.readFileSync(path.join(DIR, 'dem_izvor_ukrstteni_v025.json'), 'utf8'));
+  const hid = JSON.parse(fs.readFileSync(path.join(DIR, 'hidraulika_sloj.json'), 'utf8'));
+  const dem = JSON.parse(fs.readFileSync(path.join(DIR, 'dem_sloj.json'), 'utf8'));
+  const tacke = ukr.izmereno.filter(x => x.kota != null).map(x => x.kota);
+  const kota = hid.dovod_v025.kandidat_razresen.kota_prihvacena_m;
+  if (!tacke.length) greske.push('v025: ukrstteni test nema izmerenih tacaka');
+  if (kota < Math.min(...tacke) - 1 || kota > Math.max(...tacke) + 1) greske.push('v025: prihvacena kota van opsega nezavisnih merenja');
+  if (!dem.korekcija_v025 || dem.korekcija_v025.prihvacena_kota_m !== kota) greske.push('v025: korekcija_v025 u dem_sloju ne slaze se sa hidraulikom');
+  const nag = hid.dovod_v025.nagibi_promila.vrelo_ka_kastelumu;
+  if (nag <= 0) greske.push('v025: negativan nagib mora biti NEIZVODLJIVO, a razresenje kaze izvodljivo');
+  if (nag > 13) greske.push('v025: nagib iznad maksimuma merenog kanala C (13 promila)');
+  for (const s of hid.dovod_v025.kapacitet_manning_v025.scenariji) {
+    if (!(s.Q_l_s > 0) || s.v <= 0.1 || s.v > 4) greske.push('v025: Q/brzina van fizickog opsega u scenariju ' + s.sirina_m + 'x' + s.dubina_m);
+  }
+} catch (e) { greske.push('v025: ' + e.message); }

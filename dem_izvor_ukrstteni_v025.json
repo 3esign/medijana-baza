@@ -1,0 +1,82 @@
+{
+  "opis": "v0.25 ukršteni test kote vrela node 4115176757 (razrešenje nesklada 212,4/207,6 iz v0.24)",
+  "lat": 43.31663,
+  "lon": 21.96736,
+  "izmereno": [
+    {
+      "izvor": "open-meteo (Copernicus GLO-30)",
+      "kota": 211
+    },
+    {
+      "izvor": "srtm90m",
+      "kota": 209
+    },
+    {
+      "izvor": "srtm30m",
+      "kota": 209
+    },
+    {
+      "izvor": "ned10m",
+      "kota": null
+    },
+    {
+      "izvor": "??",
+      "greska": "Cannot read properties of undefined (reading '0')"
+    },
+    {
+      "izvor": "open-elevation (SRTM)",
+      "kota": 202.284439
+    },
+    {
+      "izvor": "open-meteo 3x3 grid (±50 m)",
+      "grid": [
+        {
+          "lat": 43.31618,
+          "lon": 21.96691,
+          "kota": 211
+        },
+        {
+          "lat": 43.31618,
+          "lon": 21.96736,
+          "kota": 211
+        },
+        {
+          "lat": 43.31618,
+          "lon": 21.96781,
+          "kota": 210
+        },
+        {
+          "lat": 43.31663,
+          "lon": 21.96691,
+          "kota": 211
+        },
+        {
+          "lat": 43.31663,
+          "lon": 21.96736,
+          "kota": 211
+        },
+        {
+          "lat": 43.31663,
+          "lon": 21.96781,
+          "kota": 210
+        },
+        {
+          "lat": 43.31708,
+          "lon": 21.96691,
+          "kota": 218
+        },
+        {
+          "lat": 43.31708,
+          "lon": 21.96736,
+          "kota": 218
+        },
+        {
+          "lat": 43.31708,
+          "lon": 21.96781,
+          "kota": 218
+        }
+      ]
+    }
+  ],
+  "datum": "2026-10-26"
+}

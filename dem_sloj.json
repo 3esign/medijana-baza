@@ -1,6 +1,6 @@
 {
  "sloj": "dem_glo30",
- "verzija": "0.24",
+ "verzija": "0.25",
  "izvor": "Copernicus GLO-30 (DSM, 30 m GSD), AWS opendata copernicus-dem-30m",
  "licence": "Copernicus/ESA besplatna javna upotreba",
  "tiles": [
@@ -394,5 +394,12 @@
    "upozorenje": "GLO-30 kota node-a je kota terena, ne visina istoka; anticki vrela mogu biti nize/dalje od oznacenog node-a"
   },
   "vreme": "2026-10-26"
+ },
+ "korekcija_v025": {
+  "nadlezno": "razresava nesklad unutar izvorista_kandidati_v023 (212,4 vs 207,6 na node 4115176757)",
+  "nalaz": "Nezavisni ukrstteni test (SRTM 90 m: 209; SRTM 30 m: 209; GLO-30: 211; open-elevation: 202,3) — teren na vrelu 209-211 m. 3x3 grid pokazuje banku 218 m na 50 m severno: vrelo je u podnozju padine, pa ±50 m pomaka koordinate znaci ±5-7 m kote.",
+  "dokaz": "dem_izvor_ukrstteni_v025.json (6 servisa + 9-celicni grid)",
+  "prihvacena_kota_m": 209.5,
+  "posledica": "Nagib dovoda vrelo->kastelum ~0,9 promila — ispod Jeremicem merenog opsega kanala C (2-13), gravitacija radi uz malu marginu."
  }
 }
