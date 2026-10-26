@@ -1,6 +1,6 @@
 {
   "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
-  "verzija": "0.27",
+  "verzija": "0.28",
   "datum": "2026-10-26",
   "autor": "Svemir / dr Poturak Semir",
   "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
@@ -948,6 +948,11 @@
       "verzija": "0.20",
       "datum": "2026-10-26",
       "sadrzaj": "KOREKCIJA DEM sloja: kote iz v0.18 pogrešno uzorkovane (pogrešne koordinate Niške Banje). Nove kote potvrđene nezavisno (Open-Meteo/Copernicus): vila 187,8 m, izvorišna zona Banje ~248 m, dolinsko dno ~200 m. Profil trase rebuilt 7,8 km, pad ~60 m. EDH Heidelberg živ ali 0 pogodaka za Mediana (negativan nalaz); EDCS i dalje nedostupan iz ove mreže."
+    },
+    {
+      "verzija": "0.28",
+      "datum": "2026-10-26",
+      "sadrzaj": "NOVI SLOJ vodosnabdevanje_naisusa_v028.json: primarni rad Janković–Aleksić 2022 (GSAD 38, PDF sačuvan u izvori_pdf/) + ZZSK saopštenje 12.09.2025. Kaptaza Srećkovo vrelo (Devojačko ždrelo) — kameno-opečni rezervoar, pečati VII legije, kraj 2./poč. 3. v., NEPOVRATNO uništena 1960-ih. Novi segmenti trase: Забрце 1936, Klaudijev vodovod 1978 (dve faze, orijentacija SZ–JZ), Podvinik 2 stratigrafija (mlađi kanal presekao stariji cevovod). Autonomna potvrda dva odvojena sistema: autori tretiraju medijanski castellum kao isključivo vilu, bez direktne veze sa gradom — sukob vinik-vs-banja jača za zasebne sisteme. Hipoteza ZZSK: odredište gradskog akvadukta Pantelejska kasarna. Novi stratigrafski nalaz: mlađi inženjeri znali za stariju trasu."
     }
   ],
   "azurirano": "2026-10-26"

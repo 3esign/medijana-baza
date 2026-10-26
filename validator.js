@@ -499,6 +499,25 @@ if (kmz) {
   if (!vk.izvori?.some(z => /https?:\/\//.test(z.url || ''))) greske.push('vinik-fizika: bez izvora');
   console.log(`vinik-fizika: greben ${vk.trasa_1?.max_medjukota}/${vk.trasa_2?.max_medjukota} m vs vrelo ${vk.start?.kota_dem} m — trasa ZZSK bez tunela neizvodljiva`);
 }
+// --- v0.28: vodosnabdevanje Naisusa (Jankovic–Aleksic 2022 + ZZSK 2025) ---
+try {
+  const vod = JSON.parse(fs.readFileSync(path.join(__dirname, 'vodosnabdevanje_naisusa_v028.json'), 'utf8'));
+  if (vod.verzija !== baza?.verzija) greske.push(`vodosnabdevanje sloj verzija ${vod.verzija} != ${baza?.verzija}`);
+  if (vod.kaptaza_sreckovo_vrelo?.stanje && !/UNIŠTEN|UNISTEN/.test(vod.kaptaza_sreckovo_vrelo.stanje))
+    greske.push('v028: kaptaza Sreckovog vrela mora nositi podatak o nepovratnom unistenju');
+  if (!vod.kaptaza_sreckovo_vrelo?.datovanje || !/VII|Седмој|2\./.test(vod.kaptaza_sreckovo_vrelo.datovanje))
+    greske.push('v028: kaptaza bez datovanja (pecati VII legije / 2-3. v.)');
+  if (!Array.isArray(vod.segmenti_trase_ne) || vod.segmenti_trase_ne.length < 4)
+    greske.push('v028: manje od 4 segmenta trase NE akvadukta');
+  if (!vod.sistem_medijana_u_radu_2022?.tvrdnja_autora)
+    greske.push('v028: fali tvrdnja autora o odvojenosti Medijane od gradskog vodosnabdevanja');
+  if (!vod.uticaj_na_postojecu_bazu?.sukob_vinik_vs_banja)
+    greske.push('v028: fali veza ka sukobu vinik-vs-banja');
+  if (vod.zzsk_2025_dopuna?.ukupno_iskopano_m !== 300)
+    greske.push('v028: ZZSK ukupno iskopano mora biti 300 m (saopstenje 12.09.2025)');
+  console.log(`vodosnabdevanje: kaptaza ${vod.kaptaza_sreckovo_vrelo?.nazivi?.[0]} — ${vod.segmenti_trase_ne.length} segmenta, 2 faze, medijanski sistem odvojen`);
+} catch (e) { greske.push('v028: ' + e.message); }
+
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

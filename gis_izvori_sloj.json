@@ -1,6 +1,6 @@
 {
   "svrha": "pregled javno dostupnih prostornih izvora za Medijanu i okolinu (GIS, daljinska detekcija, istorijske karte) — ulaz za 3D rekonstrukciju",
-  "verzija": "0.27",
+  "verzija": "0.28",
   "datum": "2026-10-26",
   "autor": "Svemir / dr Poturak Semir; prikupljanje: GLM roj (gis_udaljena — sesija bez mrežnih ovlašćenja)",
   "upozorenje": "status_provere=kandidat znaci: URL NIJE otvoren u ovoj sesiji; ne tretirati kao postojeći dok se ne otvori. DEM uzorkovanje nije izvršeno (0 piksela).",
