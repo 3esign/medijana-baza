@@ -1,6 +1,6 @@
 {
  "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
- "verzija": "0.29",
+ "verzija": "0.31",
  "datum": "2026-10-26",
  "autor": "Svemir / dr Poturak Semir",
  "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
@@ -944,6 +944,11 @@
   "v0.17: epigrafski sloj — 9 natpisa sa statusima dokaza; korpusni brojevi (CIL III/IMS/AE) ostaju OTVORENA RUPA sa potvrdjenim EDCS/EDH/LSA obrascima za sledeci talas"
  ],
  "changelog": [
+  {
+   "verzija": "0.31",
+   "datum": "2026-10-26",
+   "sadrzaj": "akvadukt koordinate: lanac relativnih polozaja (ZZSK 12.09.2025); tr-03 sidro OSM way 108165624; tr-04 Ardija korigovana ~1 km; novi tr-06 (gradiliste 2025); Godišnjak ZZSK nije na mreži"
+  },
   {
    "verzija": "0.20",
    "datum": "2026-10-26",

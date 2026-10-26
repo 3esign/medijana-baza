@@ -1,122 +1,125 @@
 {
-  "sloj": "vodosnabdevanje_naisusa",
-  "verzija": "0.29",
-  "izvor": {
-    "primarni": {
-      "rad": "Јанковић, М. А. и Алексић, А. 2022. Водоснабдевање античког Наисуса / Janković, M. A. and Aleksić, A. 2022. Water Supply of Ancient Naissus. GSAD/JSAS 38: 71–98",
-      "url_rad": "https://reff.f.bg.ac.rs/handle/123456789/4550",
-      "url_pdf": "https://reff.f.bg.ac.rs/bitstream/handle/123456789/4550/gsad-2022-38-3.pdf",
-      "lokalno": "izvori_pdf/Jankovic_2022_vodosnabdevanje_Naissusa_GSAD38.pdf (28 str., tekst izvučen: izvori_pdf/Jankovic_2022_TEKST.txt)",
-      "poverenje": "PRIMARNI — recenzirani rad rukovodilaca aktuelnih ZZSK iskopavanja akvadukta (prof. dr Marko Janković, Odeljenje za arheologiju FF BU; mr Aleksandar Aleksić, ZZSK Niš)"
-    },
-    "sekundarni": {
-      "zzsk_sajt": {
-        "url": "https://www.zzsknis.rs/zai-rimski-akvadukt-gornjomatejevacka.php",
-        "datum": "2025-09-12",
-        "autor": "Janković i Aleksić (saopštenje ZZSK Niš)"
-      }
-    }
+ "sloj": "vodosnabdevanje_naisusa",
+ "verzija": "0.31",
+ "izvor": {
+  "primarni": {
+   "rad": "Јанковић, М. А. и Алексић, А. 2022. Водоснабдевање античког Наисуса / Janković, M. A. and Aleksić, A. 2022. Water Supply of Ancient Naissus. GSAD/JSAS 38: 71–98",
+   "url_rad": "https://reff.f.bg.ac.rs/handle/123456789/4550",
+   "url_pdf": "https://reff.f.bg.ac.rs/bitstream/handle/123456789/4550/gsad-2022-38-3.pdf",
+   "lokalno": "izvori_pdf/Jankovic_2022_vodosnabdevanje_Naissusa_GSAD38.pdf (28 str., tekst izvučen: izvori_pdf/Jankovic_2022_TEKST.txt)",
+   "poverenje": "PRIMARNI — recenzirani rad rukovodilaca aktuelnih ZZSK iskopavanja akvadukta (prof. dr Marko Janković, Odeljenje za arheologiju FF BU; mr Aleksandar Aleksić, ZZSK Niš)"
   },
-  "licence": "rad u otvorenom pristupu (GSAD/JSAS, reff.f.bg.ac.rs)",
-  "kontekst_v028": "Prvi celoviti pregled vodosnabdevanja Naissusa, sa kaptazom Srećkovog vrela opisanom iz svedočenja i arhiva — direktno se ukršta sa našim sukobom vinik-vs-banja (v0.26) i hipotezom ZZSK (v0.27).",
-
-  "kaptaza_sreckovo_vrelo": {
-    "nazivi": ["Девојачко ждрело (predratno)", "Srećkovo Vrelo (posle 1945, po narodnom heroju Srećku — meštani već tako zvali)"],
-    "opis_izvora": "rezervoar od kamena i opeke iz koga je voda vođena keramičkim cevovodom ka jugu, kroz Donji i Gornji Matejevac",
-    "datovanje": "kraj 2. — početak 3. veka (pečati legije VII Claudiae na cevima; Riznić 1889; Petrović 1999, 60)",
-    "datum_istrazivanja": "19. vek (Riznić 1889) — prvi pomen rimskog vrela kod Naissusa",
-    "stanje": "NEPOVRATNO UNIŠTENO krajem 1960-ih: klizanje terena pa devastacija mašinama pri čišćenju izvora",
-    "svedok": "Novica Mitić, meštanin (usmeno svedočenje, Janković–Aleksić 2022, fn 3)",
-    "posledica": "svaka rekonstrukcija kaptaze zavisi isključivo od arhive 19. veka — teren više ne može razrešiti kaptazu Srećkovog vrela",
-    "poverenje": "PROVERENO (iz teksta rada, fn 3)"
-  },
-
-  "segmenti_trase_ne": [
-    {
-      "id": "devojacko-zdrelo",
-      "opis": "kaptaza: kameno-opečni rezervoar, keramičke cevi sa pečatom legije VII Claudia",
-      "datovanje": "kraj 2./poč. 3. v.",
-      "izvor_str": "Janković–Aleksić 2022, 76–77, fn 3"
-    },
-    {
-      "id": "zabrance-gornji-matejevac",
-      "opis": "keramičke cevi (2 kom) pronađene 1936. na potesu Забрце, kod ušća каменичке reke u Matejevačku, zapadno od sela iza 'stare rimske crkve' (verovatno Latinska crkva, spolije u zidovima objekta iz 11. v.)",
-      "arhiva": "Arhiv Narodnog muzeja Niš, dopis upravi Istorjsko-etnografskog muzeja Niš, 15.05.1936",
-      "koordinate": null,
-      "napomena": "tačne koordinate nikad objavljene — aproksimacija po ataru sela",
-      "izvor_str": "Janković–Aleksić 2022, 78, fn 4–5"
-    },
-    {
-      "id": "klaudijev-vodovod",
-      "opis": "1978, severna obilaznica, ~400 m JZ od današnje naplatne stanice Niš–Istok: kanal od lomljenog kamena (očuvan ~0,40 m visine), dno od podužno postavljenih opeka, unutrašnjost obložena tankim slojem hidroizolacionog maltera; pored kanala keramičke cevi (~2,5 m) — dve faze na istom mestu",
-      "orijentacija": "SZ–JZ (mesto promena pravca trase: od južnog ka zapadnom, ka Podviniku)",
-      "duzina_iskopana_m": 2,
-      "naziv": "'Клаудијев водовод' — naziv iz dokumentacije ZZSK, razlog nejasan (pretpostavka: pečati VII legije)",
-      "povezivanje": "između Devojačkog ždrela i Podvinika — autori smatraju verovatnim da sve tri lokacije čine isti vodovod (starija faza)",
-      "izvor_str": "Janković–Aleksić 2022, 78–79, sl. 2"
-    },
-    {
-      "id": "podvinik-2",
-      "opis": "obe faze dokumentovane, sa stratigrafijom: reviziono okno mlađeg kanala preseklo je stariji keramički cevovod",
-      "nalaz": "mlađi inženjeri znali za stariju trasu — mlađi kanal postavljen uz južnu stranu starijeg",
-      "izvor_str": "Janković–Aleksić 2022, 97, sl. 7–9"
-    },
-    {
-      "id": "podvinik-1",
-      "opis": "~150 m JZ od Podvinika 2; stariji cevovod skoro bez traga (pretpostavka: unisten mlađim objektom); odavde <1 km do tvrđave",
-      "izvor_str": "Janković–Aleksić 2022, 97"
-    }
+  "sekundarni": {
+   "zzsk_sajt": {
+    "url": "https://www.zzsknis.rs/zai-rimski-akvadukt-gornjomatejevacka.php",
+    "datum": "2025-09-12",
+    "autor": "Janković i Aleksić (saopštenje ZZSK Niš)"
+   }
+  }
+ },
+ "licence": "rad u otvorenom pristupu (GSAD/JSAS, reff.f.bg.ac.rs)",
+ "kontekst_v028": "Prvi celoviti pregled vodosnabdevanja Naissusa, sa kaptazom Srećkovog vrela opisanom iz svedočenja i arhiva — direktno se ukršta sa našim sukobom vinik-vs-banja (v0.26) i hipotezom ZZSK (v0.27).",
+ "kaptaza_sreckovo_vrelo": {
+  "nazivi": [
+   "Девојачко ждрело (predratno)",
+   "Srećkovo Vrelo (posle 1945, po narodnom heroju Srećku — meštani već tako zvali)"
   ],
-
-  "sistem_medijana_u_radu_2022": {
-    "tvrdnja_autora": "објекти на Медијани немају директне везе са снабдевањем водом античког Наисуса; водоторањ саграђен искључиво за потребе виле",
-    "castellum_opis": "dva spojena bazena: A (južni, veći) i B (severni, manji); dva gravitaciona dovoda C i D sa istočne strane u A; distribucija iz B kanalom E; dren F (zidani kanal, B) i G (olovna cev, A); dno bazena A pokriveno krupnim komadima kamena iznad kojih svetlomrka zemlja sa oblozima — filter i mehanička nečistoća",
-    "dimenzije": { "osa_sever_jug_m": 47, "max_sirina_m": 18.5, "debljina_zidova_m": "1–1,5" },
-    "analogija": "Mali Ribnik: castellum iskopan početkom 20. veka, ~500 m SZ od luksuzne vile otkrivene 1970-ih — autori tumače da je vodovod išao toj vili (Vinik villa, lokalitet 7), ne gradu; 'скоро идентична ситуација' sa Medijanom",
-    "poređenje_u_srbiji": "jedini poznati castellum aquae u Srbiji pored Medijane: Sirmium (Lucić 2018), znatno lošije očuvan",
-    "znacaj_za_nas": "autonomna potvrda naše hipoteze o dva odvojena sistema (v0.26): NE akvadukt ide Naissusu; Medijana ima svoj dovod. Autori NE tvrde odakle medijanska grana kreće — pitanje ostaje otvoreno.",
-    "izvor_str": "Janković–Aleksić 2022, 79–80 i 97"
+  "opis_izvora": "rezervoar od kamena i opeke iz koga je voda vođena keramičkim cevovodom ka jugu, kroz Donji i Gornji Matejevac",
+  "datovanje": "kraj 2. — početak 3. veka (pečati legije VII Claudiae na cevima; Riznić 1889; Petrović 1999, 60)",
+  "datum_istrazivanja": "19. vek (Riznić 1889) — prvi pomen rimskog vrela kod Naissusa",
+  "stanje": "NEPOVRATNO UNIŠTENO krajem 1960-ih: klizanje terena pa devastacija mašinama pri čišćenju izvora",
+  "svedok": "Novica Mitić, meštanin (usmeno svedočenje, Janković–Aleksić 2022, fn 3)",
+  "posledica": "svaka rekonstrukcija kaptaze zavisi isključivo od arhive 19. veka — teren više ne može razrešiti kaptazu Srećkovog vrela",
+  "poverenje": "PROVERENO (iz teksta rada, fn 3)"
+ },
+ "segmenti_trase_ne": [
+  {
+   "id": "devojacko-zdrelo",
+   "opis": "kaptaza: kameno-opečni rezervoar, keramičke cevi sa pečatom legije VII Claudia",
+   "datovanje": "kraj 2./poč. 3. v.",
+   "izvor_str": "Janković–Aleksić 2022, 76–77, fn 3"
   },
-
-  "zzsk_2025_dopuna": {
-    "ukupno_iskopano_m": 300,
-    "kampanje": 7,
-    "razdoblje": "2020–2025",
-    "hronologija_faza": {
-      "starija": "keramički cevovod — period municipaliteta Naissusa (2–3. v.)",
-      "mlađa": "zidani kanal — doba Konstantina (kraj 3./poč. 4. v.)",
-      "napomena": "iste dve faze koje opisuje rad iz 2022; faze nisu bile istovremeno u funkciji"
-    },
-    "hipoteza_odredista": "kastellum/cisterna verovatno na prostoru današnje Pantelejske kasarne, odakle distributivni akvadukti manjeg obzira ka Naissusu i objektima u njemu",
-    "status_hipoteze": "bez pisanih tragova od oslobođenja od Turaka — pretpostavka, ne nalaz",
-    "kvalitet_trase": "са великом сигурношћу установљена траса (ZZSK, 12.09.2025)",
-    "url": "https://www.zzsknis.rs/zai-rimski-akvadukt-gornjomatejevacka.php"
+  {
+   "id": "zabrance-gornji-matejevac",
+   "opis": "keramičke cevi (2 kom) pronađene 1936. na potesu Забрце, kod ušća каменичке reke u Matejevačku, zapadno od sela iza 'stare rimske crkve' (verovatno Latinska crkva, spolije u zidovima objekta iz 11. v.)",
+   "arhiva": "Arhiv Narodnog muzeja Niš, dopis upravi Istorjsko-etnografskog muzeja Niš, 15.05.1936",
+   "koordinate": null,
+   "napomena": "tačne koordinate nikad objavljene — aproksimacija po ataru sela",
+   "izvor_str": "Janković–Aleksić 2022, 78, fn 4–5"
   },
-
-  "drugi_sistemi": {
-    "severo_zapadni": "akvadukt sa SZ (Mali Ribnik → tvrđava; Kanitz pominje rimski akvadukt kod Vinik kapije tvrđave) — odvojen sistem, ne naš predmet",
-    "vinik_vila": "lokalna linija za kasnoantičku villu rustiku kod Vinika (Mali Ribnik castellum) — analogija Medijani, NE ista građevina",
-    "kasniji_sa_mogucim_rimskim_fazama": ["Veliki Ribnik", "Gradsko Polje", "Niš-Auto"]
+  {
+   "id": "klaudijev-vodovod",
+   "opis": "1978, severna obilaznica, ~400 m JZ od današnje naplatne stanice Niš–Istok: kanal od lomljenog kamena (očuvan ~0,40 m visine), dno od podužno postavljenih opeka, unutrašnjost obložena tankim slojem hidroizolacionog maltera; pored kanala keramičke cevi (~2,5 m) — dve faze na istom mestu",
+   "orijentacija": "SZ–JZ (mesto promena pravca trase: od južnog ka zapadnom, ka Podviniku)",
+   "duzina_iskopana_m": 2,
+   "naziv": "'Клаудијев водовод' — naziv iz dokumentacije ZZSK, razlog nejasan (pretpostavka: pečati VII legije)",
+   "povezivanje": "između Devojačkog ždrela i Podvinika — autori smatraju verovatnim da sve tri lokacije čine isti vodovod (starija faza)",
+   "izvor_str": "Janković–Aleksić 2022, 78–79, sl. 2"
   },
-
-  "uticaj_na_postojecu_bazu": {
-    "sukob_vinik_vs_banja": "jačan: vodeći stručnjaci za akvadukt (rukovodioci svih 7 kampanja) tretiraju medijanski castellum kao odvojen sistem bez direktne veze sa gradskim vodosnabdevanjem — podrška hipotezi o zasebnoj medijanskoj grani (naš v0.23 kandidat vrela ostaje validan za nju)",
-    "hipoteza_zzsk_pantelej": "njihovo odredište (Pantelejska kasarna) odnosi se na gradski NE akvadukt, ne na medijansku granu — nema sudara sa našim modelom",
-    "sreckovo_vrelo_za_medijanu": "rad NE povezuje Srećkovo vrelo sa Medijanom (samo sa gradskim NE akvaduktom) — nas v0.27 nalaz da je trasa preko grebena 490–505 m neizvodljiva bez tunela sada ide u istom smeru kao i tumačenje struke",
-    "korekcija": "nijedna — potvrda; kota i hidraulika v0.25 ostaju"
+  {
+   "id": "podvinik-2",
+   "opis": "obe faze dokumentovane, sa stratigrafijom: reviziono okno mlađeg kanala preseklo je stariji keramički cevovod",
+   "nalaz": "mlađi inženjeri znali za stariju trasu — mlađi kanal postavljen uz južnu stranu starijeg",
+   "izvor_str": "Janković–Aleksić 2022, 97, sl. 7–9"
   },
-
-  "konflikti_dopuna": {
-    "id": "sukob-vinik-vs-banja",
-    "status": "otvoren",
-    "novi_argument_za_zasebne_sisteme": "Janković–Aleksić 2022, 79: medijanski objekti bez direktne veze sa snabdevanjem Naissusa; castellum isključivo za vilu",
-    "razresenje": "iskop spoja/ustave medijanske grane"
+  {
+   "id": "podvinik-1",
+   "opis": "~150 m JZ od Podvinika 2; stariji cevovod skoro bez traga (pretpostavka: unisten mlađim objektom); odavde <1 km do tvrđave",
+   "izvor_str": "Janković–Aleksić 2022, 97"
+  }
+ ],
+ "sistem_medijana_u_radu_2022": {
+  "tvrdnja_autora": "објекти на Медијани немају директне везе са снабдевањем водом античког Наисуса; водоторањ саграђен искључиво за потребе виле",
+  "castellum_opis": "dva spojena bazena: A (južni, veći) i B (severni, manji); dva gravitaciona dovoda C i D sa istočne strane u A; distribucija iz B kanalom E; dren F (zidani kanal, B) i G (olovna cev, A); dno bazena A pokriveno krupnim komadima kamena iznad kojih svetlomrka zemlja sa oblozima — filter i mehanička nečistoća",
+  "dimenzije": {
+   "osa_sever_jug_m": 47,
+   "max_sirina_m": 18.5,
+   "debljina_zidova_m": "1–1,5"
   },
-
-  "otvorene_niti": [
-    "Riznić 1889 — originalni opis Devojačkog ždrela sa pečatima VII legije (pristupiti preko Narodnog muzeja Niš / digitalizacija-zzsknis.rs)",
-    "tačne koordinate 'Klaudijevog vodovoda' iz dokumentacije ZZSK 1978 (neobjavljeno) — za zamenu aproksimacija u akvadukt_trasa_v026.json",
-    "hipoteza Pantelejske kasarne — DEM provera kote kasarne prema dnu kanala na Podviniku (da li gravitacija radi)",
-    "drugo vrelo NE sistema — rad pominje 'two springs to the north-east' (porodični izvori Devojačko ždrelo + ?) — identifikovati drugo"
+  "analogija": "Mali Ribnik: castellum iskopan početkom 20. veka, ~500 m SZ od luksuzne vile otkrivene 1970-ih — autori tumače da je vodovod išao toj vili (Vinik villa, lokalitet 7), ne gradu; 'скоро идентична ситуација' sa Medijanom",
+  "poređenje_u_srbiji": "jedini poznati castellum aquae u Srbiji pored Medijane: Sirmium (Lucić 2018), znatno lošije očuvan",
+  "znacaj_za_nas": "autonomna potvrda naše hipoteze o dva odvojena sistema (v0.26): NE akvadukt ide Naissusu; Medijana ima svoj dovod. Autori NE tvrde odakle medijanska grana kreće — pitanje ostaje otvoreno.",
+  "izvor_str": "Janković–Aleksić 2022, 79–80 i 97"
+ },
+ "zzsk_2025_dopuna": {
+  "ukupno_iskopano_m": 300,
+  "kampanje": 7,
+  "razdoblje": "2020–2025",
+  "hronologija_faza": {
+   "starija": "keramički cevovod — period municipaliteta Naissusa (2–3. v.)",
+   "mlađa": "zidani kanal — doba Konstantina (kraj 3./poč. 4. v.)",
+   "napomena": "iste dve faze koje opisuje rad iz 2022; faze nisu bile istovremeno u funkciji"
+  },
+  "hipoteza_odredista": "kastellum/cisterna verovatno na prostoru današnje Pantelejske kasarne, odakle distributivni akvadukti manjeg obzira ka Naissusu i objektima u njemu",
+  "status_hipoteze": "bez pisanih tragova od oslobođenja od Turaka — pretpostavka, ne nalaz",
+  "kvalitet_trase": "са великом сигурношћу установљена траса (ZZSK, 12.09.2025)",
+  "url": "https://www.zzsknis.rs/zai-rimski-akvadukt-gornjomatejevacka.php"
+ },
+ "drugi_sistemi": {
+  "severo_zapadni": "akvadukt sa SZ (Mali Ribnik → tvrđava; Kanitz pominje rimski akvadukt kod Vinik kapije tvrđave) — odvojen sistem, ne naš predmet",
+  "vinik_vila": "lokalna linija za kasnoantičku villu rustiku kod Vinika (Mali Ribnik castellum) — analogija Medijani, NE ista građevina",
+  "kasniji_sa_mogucim_rimskim_fazama": [
+   "Veliki Ribnik",
+   "Gradsko Polje",
+   "Niš-Auto"
   ]
+ },
+ "uticaj_na_postojecu_bazu": {
+  "sukob_vinik_vs_banja": "jačan: vodeći stručnjaci za akvadukt (rukovodioci svih 7 kampanja) tretiraju medijanski castellum kao odvojen sistem bez direktne veze sa gradskim vodosnabdevanjem — podrška hipotezi o zasebnoj medijanskoj grani (naš v0.23 kandidat vrela ostaje validan za nju)",
+  "hipoteza_zzsk_pantelej": "njihovo odredište (Pantelejska kasarna) odnosi se na gradski NE akvadukt, ne na medijansku granu — nema sudara sa našim modelom",
+  "sreckovo_vrelo_za_medijanu": "rad NE povezuje Srećkovo vrelo sa Medijanom (samo sa gradskim NE akvaduktom) — nas v0.27 nalaz da je trasa preko grebena 490–505 m neizvodljiva bez tunela sada ide u istom smeru kao i tumačenje struke",
+  "korekcija": "nijedna — potvrda; kota i hidraulika v0.25 ostaju"
+ },
+ "konflikti_dopuna": {
+  "id": "sukob-vinik-vs-banja",
+  "status": "otvoren",
+  "novi_argument_za_zasebne_sisteme": "Janković–Aleksić 2022, 79: medijanski objekti bez direktne veze sa snabdevanjem Naissusa; castellum isključivo za vilu",
+  "razresenje": "iskop spoja/ustave medijanske grane"
+ },
+ "otvorene_niti": [
+  "Riznić 1889 — originalni opis Devojačkog ždrela sa pečatima VII legije (pristupiti preko Narodnog muzeja Niš / digitalizacija-zzsknis.rs)",
+  "tačne koordinate 'Klaudijevog vodovoda' iz dokumentacije ZZSK 1978 (neobjavljeno) — za zamenu aproksimacija u akvadukt_trasa_v026.json",
+  "hipoteza Pantelejske kasarne — DEM provera kote kasarne prema dnu kanala na Podviniku (da li gravitacija radi)",
+  "drugo vrelo NE sistema — rad pominje 'two springs to the north-east' (porodični izvori Devojačko ždrelo + ?) — identifikovati drugo"
+ ]
 }

@@ -46,10 +46,11 @@
    "godina": 2024,
    "napomena": "na kraju istoimene ulice; >90 m otkriveno 2025",
    "koordinate": [
-    21.9269635,
-    43.3404803
+    21.9291714,
+    43.3408125
    ],
-   "geokod": "ulica Gornjomatejevacka"
+   "geokod": "SIDRO OSM way 108165624 NE kraj (v0.31, ranije centroid istog way-a)",
+   "koordinate_v031": "tacna geometrija ulice"
   },
   {
    "id": "tr-04",
@@ -57,10 +58,11 @@
    "godina": 2025,
    "napomena": "izmedju Gornjomatejevacke i zeleznickog nadvoznjaka, pruga Nis-Zajecar; ~40 m istrazeno",
    "koordinate": [
-    21.9158347,
-    43.340042
+    21.9291714,
+    43.3424005
    ],
-   "geokod": "centar Panteleja (Ardija nije u Nominatim)"
+   "geokod": "KOREKCIJA v0.31: ofset 250 m NE od tr-03 po relativnim razdaljinama ZZSK (staro: centar Panteleja, ~1 km zapadnije)",
+   "korekcija_v031": "stara koordinate [21.9158347,43.340042] bila kod centra Panteleja; saopstenje: Ardija 150 m NE od gradilista 2025"
   },
   {
    "id": "tr-05",
@@ -73,6 +75,18 @@
    ],
    "geokod": "APROKSIMACIJA; status: HIPOTEZA ZZSK, nedokazano",
    "korekcija_v029": "tacan geokod preko Nominatim, gravitacioni test u pantelej_kasarna_gravitacija_v029.json"
+  },
+  {
+   "id": "tr-06",
+   "lokalitet": "Rimski akvadukt - Gornjomatejevacka (gradiliste 2025)",
+   "godina": 2025,
+   "napomena": "parcela Highland invest doo, >90 m akvadukta, sep 2025; ukupno ~300 m na celoj trasi",
+   "koordinate": [
+    21.9291714,
+    43.3414477
+   ],
+   "geokod": "ofset 100 m NE od tr-03 (v0.31, lanac relativnih polozaja)",
+   "kota_srtm90m": 248
   }
  ],
  "hronologija": [
@@ -118,5 +132,6 @@
    "tr-04": 5.58
   },
   "mere_jedn": "km od Sreckovog vrela do segmenta (kratka linija)"
- }
+ },
+ "geokodiranje_v031": "tr-03 sidro OSM geometrija; tr-04 korigovan; tr-06 novi; vidi akvadukt_koordinate_v031.json"
 }

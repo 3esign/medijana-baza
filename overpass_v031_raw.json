@@ -1,0 +1,1128 @@
+{
+ "ulica": null,
+ "pruga": {
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+   "timestamp_osm_base": "2026-10-26T06:54:05Z",
+   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+   {
+    "type": "way",
+    "id": 135704089,
+    "bounds": {
+     "minlat": 43.3211877,
+     "minlon": 21.8871391,
+     "maxlat": 43.3217598,
+     "maxlon": 21.8874119
+    },
+    "geometry": [
+     {
+      "lat": 43.3217598,
+      "lon": 21.8874119
+     },
+     {
+      "lat": 43.3211877,
+      "lon": 21.8871391
+     }
+    ],
+    "tags": {
+     "bridge": "yes",
+     "bridge:structure": "truss",
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "layer": "1",
+     "maxspeed": "60",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 135704092,
+    "bounds": {
+     "minlat": 43.3167044,
+     "minlon": 21.8818645,
+     "maxlat": 43.3211877,
+     "maxlon": 21.8871391
+    },
+    "geometry": [
+     {
+      "lat": 43.3211877,
+      "lon": 21.8871391
+     },
+     {
+      "lat": 43.3196386,
+      "lon": 21.8864248
+     },
+     {
+      "lat": 43.3192265,
+      "lon": 21.8862236
+     },
+     {
+      "lat": 43.3190585,
+      "lon": 21.8861504
+     },
+     {
+      "lat": 43.3188042,
+      "lon": 21.8860141
+     },
+     {
+      "lat": 43.3184265,
+      "lon": 21.8858361
+     },
+     {
+      "lat": 43.3183129,
+      "lon": 21.885776
+     },
+     {
+      "lat": 43.3181703,
+      "lon": 21.8856828
+     },
+     {
+      "lat": 43.318034,
+      "lon": 21.8855854
+     },
+     {
+      "lat": 43.3177634,
+      "lon": 21.8853482
+     },
+     {
+      "lat": 43.3175547,
+      "lon": 21.8850939
+     },
+     {
+      "lat": 43.3173513,
+      "lon": 21.8847891
+     },
+     {
+      "lat": 43.3171829,
+      "lon": 21.8844873
+     },
+     {
+      "lat": 43.3170157,
+      "lon": 21.8840913
+     },
+     {
+      "lat": 43.3169033,
+      "lon": 21.8837315
+     },
+     {
+      "lat": 43.3168313,
+      "lon": 21.8834327
+     },
+     {
+      "lat": 43.3167949,
+      "lon": 21.8832666
+     },
+     {
+      "lat": 43.3167497,
+      "lon": 21.8829554
+     },
+     {
+      "lat": 43.3167268,
+      "lon": 21.8826783
+     },
+     {
+      "lat": 43.3167157,
+      "lon": 21.8823921
+     },
+     {
+      "lat": 43.3167044,
+      "lon": 21.8818645
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "maxspeed": "60",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 136727884,
+    "bounds": {
+     "minlat": 43.3236188,
+     "minlon": 21.888151,
+     "maxlat": 43.3236863,
+     "maxlon": 21.8881659
+    },
+    "geometry": [
+     {
+      "lat": 43.3236863,
+      "lon": 21.8881659
+     },
+     {
+      "lat": 43.3236188,
+      "lon": 21.888151
+     }
+    ],
+    "tags": {
+     "bridge": "yes",
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "layer": "1",
+     "maxspeed": "60",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 136727887,
+    "bounds": {
+     "minlat": 43.3217598,
+     "minlon": 21.8874119,
+     "maxlat": 43.3236188,
+     "maxlon": 21.888151
+    },
+    "geometry": [
+     {
+      "lat": 43.3236188,
+      "lon": 21.888151
+     },
+     {
+      "lat": 43.3231676,
+      "lon": 21.888024
+     },
+     {
+      "lat": 43.3225593,
+      "lon": 21.8877766
+     },
+     {
+      "lat": 43.3221664,
+      "lon": 21.8876043
+     },
+     {
+      "lat": 43.3217598,
+      "lon": 21.8874119
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "maxspeed": "60",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 203589952,
+    "bounds": {
+     "minlat": 43.3270882,
+     "minlon": 21.8878953,
+     "maxlat": 43.3271768,
+     "maxlon": 21.8879241
+    },
+    "geometry": [
+     {
+      "lat": 43.3271768,
+      "lon": 21.8878953
+     },
+     {
+      "lat": 43.3270882,
+      "lon": 21.8879241
+     }
+    ],
+    "tags": {
+     "bridge": "yes",
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "layer": "1",
+     "maxspeed": "60",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 203589953,
+    "bounds": {
+     "minlat": 43.3236863,
+     "minlon": 21.8879241,
+     "maxlat": 43.3270882,
+     "maxlon": 21.8883295
+    },
+    "geometry": [
+     {
+      "lat": 43.3270882,
+      "lon": 21.8879241
+     },
+     {
+      "lat": 43.3266978,
+      "lon": 21.888065
+     },
+     {
+      "lat": 43.3265192,
+      "lon": 21.8881173
+     },
+     {
+      "lat": 43.325943,
+      "lon": 21.8882464
+     },
+     {
+      "lat": 43.325383,
+      "lon": 21.8883255
+     },
+     {
+      "lat": 43.3247255,
+      "lon": 21.8883295
+     },
+     {
+      "lat": 43.324303,
+      "lon": 21.8882907
+     },
+     {
+      "lat": 43.3240707,
+      "lon": 21.8882538
+     },
+     {
+      "lat": 43.3237445,
+      "lon": 21.8881792
+     },
+     {
+      "lat": 43.3236863,
+      "lon": 21.8881659
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "maxspeed": "60",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 399226843,
+    "bounds": {
+     "minlat": 43.3167499,
+     "minlon": 21.8818624,
+     "maxlat": 43.3211995,
+     "maxlon": 21.8870899
+    },
+    "geometry": [
+     {
+      "lat": 43.3167499,
+      "lon": 21.8818624
+     },
+     {
+      "lat": 43.3167576,
+      "lon": 21.8823838
+     },
+     {
+      "lat": 43.3167751,
+      "lon": 21.8827083
+     },
+     {
+      "lat": 43.3167986,
+      "lon": 21.8829685
+     },
+     {
+      "lat": 43.3168366,
+      "lon": 21.8832238
+     },
+     {
+      "lat": 43.3168669,
+      "lon": 21.883395
+     },
+     {
+      "lat": 43.3169313,
+      "lon": 21.8836739
+     },
+     {
+      "lat": 43.3170329,
+      "lon": 21.8840067
+     },
+     {
+      "lat": 43.3171481,
+      "lon": 21.8842937
+     },
+     {
+      "lat": 43.3172981,
+      "lon": 21.884602
+     },
+     {
+      "lat": 43.3174349,
+      "lon": 21.8848381
+     },
+     {
+      "lat": 43.3176283,
+      "lon": 21.8850906
+     },
+     {
+      "lat": 43.3177587,
+      "lon": 21.8852446
+     },
+     {
+      "lat": 43.3178797,
+      "lon": 21.8853728
+     },
+     {
+      "lat": 43.3182381,
+      "lon": 21.8856582
+     },
+     {
+      "lat": 43.318362,
+      "lon": 21.885738
+     },
+     {
+      "lat": 43.3184571,
+      "lon": 21.8857915
+     },
+     {
+      "lat": 43.3188577,
+      "lon": 21.8859854
+     },
+     {
+      "lat": 43.3192213,
+      "lon": 21.886171
+     },
+     {
+      "lat": 43.3196737,
+      "lon": 21.886375
+     },
+     {
+      "lat": 43.3198563,
+      "lon": 21.8864561
+     },
+     {
+      "lat": 43.3201085,
+      "lon": 21.8865683
+     },
+     {
+      "lat": 43.3211995,
+      "lon": 21.8870899
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400053048,
+    "bounds": {
+     "minlat": 43.3271768,
+     "minlon": 21.882725,
+     "maxlat": 43.3318185,
+     "maxlon": 21.8878953
+    },
+    "geometry": [
+     {
+      "lat": 43.3271768,
+      "lon": 21.8878953
+     },
+     {
+      "lat": 43.327506,
+      "lon": 21.8877619
+     },
+     {
+      "lat": 43.3277333,
+      "lon": 21.887642
+     },
+     {
+      "lat": 43.3282912,
+      "lon": 21.8873199
+     },
+     {
+      "lat": 43.3289639,
+      "lon": 21.8868496
+     },
+     {
+      "lat": 43.3294117,
+      "lon": 21.8864419
+     },
+     {
+      "lat": 43.3298175,
+      "lon": 21.8860115
+     },
+     {
+      "lat": 43.3300922,
+      "lon": 21.8857084
+     },
+     {
+      "lat": 43.330335,
+      "lon": 21.8854012
+     },
+     {
+      "lat": 43.3303675,
+      "lon": 21.88536
+     },
+     {
+      "lat": 43.330394,
+      "lon": 21.8853224
+     },
+     {
+      "lat": 43.3308212,
+      "lon": 21.8847173
+     },
+     {
+      "lat": 43.3310248,
+      "lon": 21.8843791
+     },
+     {
+      "lat": 43.331215,
+      "lon": 21.8840198
+     },
+     {
+      "lat": 43.3318185,
+      "lon": 21.882725
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "maxspeed": "60",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400063012,
+    "bounds": {
+     "minlat": 43.3270746,
+     "minlon": 21.8878554,
+     "maxlat": 43.3271716,
+     "maxlon": 21.8878897
+    },
+    "geometry": [
+     {
+      "lat": 43.3270746,
+      "lon": 21.8878897
+     },
+     {
+      "lat": 43.3271716,
+      "lon": 21.8878554
+     }
+    ],
+    "tags": {
+     "bridge": "yes",
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "layer": "1",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400063013,
+    "bounds": {
+     "minlat": 43.3271716,
+     "minlon": 21.8827507,
+     "maxlat": 43.331758,
+     "maxlon": 21.8878554
+    },
+    "geometry": [
+     {
+      "lat": 43.3271716,
+      "lon": 21.8878554
+     },
+     {
+      "lat": 43.3274914,
+      "lon": 21.8877223
+     },
+     {
+      "lat": 43.3277324,
+      "lon": 21.8875996
+     },
+     {
+      "lat": 43.328015,
+      "lon": 21.8874398
+     },
+     {
+      "lat": 43.3284503,
+      "lon": 21.8871598
+     },
+     {
+      "lat": 43.3290396,
+      "lon": 21.8867189
+     },
+     {
+      "lat": 43.3293473,
+      "lon": 21.8864366
+     },
+     {
+      "lat": 43.329641,
+      "lon": 21.8861415
+     },
+     {
+      "lat": 43.3300566,
+      "lon": 21.8856775
+     },
+     {
+      "lat": 43.3303081,
+      "lon": 21.8853501
+     },
+     {
+      "lat": 43.3303397,
+      "lon": 21.8853089
+     },
+     {
+      "lat": 43.3303652,
+      "lon": 21.8852755
+     },
+     {
+      "lat": 43.3304565,
+      "lon": 21.8851558
+     },
+     {
+      "lat": 43.3306177,
+      "lon": 21.8849242
+     },
+     {
+      "lat": 43.330764,
+      "lon": 21.8847114
+     },
+     {
+      "lat": 43.3309103,
+      "lon": 21.884487
+     },
+     {
+      "lat": 43.3310523,
+      "lon": 21.8842392
+     },
+     {
+      "lat": 43.3312859,
+      "lon": 21.8837727
+     },
+     {
+      "lat": 43.3313952,
+      "lon": 21.8835371
+     },
+     {
+      "lat": 43.3315062,
+      "lon": 21.8832942
+     },
+     {
+      "lat": 43.331758,
+      "lon": 21.8827507
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400063014,
+    "bounds": {
+     "minlat": 43.323619,
+     "minlon": 21.8880996,
+     "maxlat": 43.3236936,
+     "maxlon": 21.8881177
+    },
+    "geometry": [
+     {
+      "lat": 43.323619,
+      "lon": 21.8880996
+     },
+     {
+      "lat": 43.3236936,
+      "lon": 21.8881177
+     }
+    ],
+    "tags": {
+     "bridge": "yes",
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "layer": "1",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400063015,
+    "bounds": {
+     "minlat": 43.3236936,
+     "minlon": 21.8878897,
+     "maxlat": 43.3270746,
+     "maxlon": 21.8882786
+    },
+    "geometry": [
+     {
+      "lat": 43.3236936,
+      "lon": 21.8881177
+     },
+     {
+      "lat": 43.3238522,
+      "lon": 21.8881555
+     },
+     {
+      "lat": 43.3242899,
+      "lon": 21.8882303
+     },
+     {
+      "lat": 43.3247313,
+      "lon": 21.8882759
+     },
+     {
+      "lat": 43.3249801,
+      "lon": 21.8882786
+     },
+     {
+      "lat": 43.3253977,
+      "lon": 21.8882732
+     },
+     {
+      "lat": 43.3259216,
+      "lon": 21.8882062
+     },
+     {
+      "lat": 43.3264212,
+      "lon": 21.8880958
+     },
+     {
+      "lat": 43.3266792,
+      "lon": 21.8880328
+     },
+     {
+      "lat": 43.3269524,
+      "lon": 21.8879396
+     },
+     {
+      "lat": 43.3270746,
+      "lon": 21.8878897
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400063016,
+    "bounds": {
+     "minlat": 43.3217759,
+     "minlon": 21.887345,
+     "maxlat": 43.323619,
+     "maxlon": 21.8880996
+    },
+    "geometry": [
+     {
+      "lat": 43.3217759,
+      "lon": 21.887345
+     },
+     {
+      "lat": 43.3221857,
+      "lon": 21.8875358
+     },
+     {
+      "lat": 43.3225826,
+      "lon": 21.8877092
+     },
+     {
+      "lat": 43.3231837,
+      "lon": 21.887971
+     },
+     {
+      "lat": 43.3235549,
+      "lon": 21.8880848
+     },
+     {
+      "lat": 43.323619,
+      "lon": 21.8880996
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400063017,
+    "bounds": {
+     "minlat": 43.3211995,
+     "minlon": 21.8870899,
+     "maxlat": 43.3217759,
+     "maxlon": 21.887345
+    },
+    "geometry": [
+     {
+      "lat": 43.3211995,
+      "lon": 21.8870899
+     },
+     {
+      "lat": 43.3217759,
+      "lon": 21.887345
+     }
+    ],
+    "tags": {
+     "bridge": "yes",
+     "bridge:structure": "truss",
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "layer": "1",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "2",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1098300088,
+    "bounds": {
+     "minlat": 43.3358377,
+     "minlon": 21.8699624,
+     "maxlat": 43.337636,
+     "maxlon": 21.8737993
+    },
+    "geometry": [
+     {
+      "lat": 43.3358377,
+      "lon": 21.8737993
+     },
+     {
+      "lat": 43.3359443,
+      "lon": 21.8735657
+     },
+     {
+      "lat": 43.3367042,
+      "lon": 21.8719911
+     },
+     {
+      "lat": 43.337636,
+      "lon": 21.8699624
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Crveni Krst—Nis ranzirna",
+     "name": "Црвени Крст—Ниш ранжирна",
+     "name:sr": "Црвени Крст—Ниш ранжирна",
+     "name:sr-Latn": "Crveni Krst—Niš ranžirna",
+     "operator": "Инфраструктура железнице Србије",
+     "passenger_lines": "1",
+     "railway": "rail",
+     "ref": "126",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1146980305,
+    "bounds": {
+     "minlat": 43.331758,
+     "minlon": 21.8734557,
+     "maxlat": 43.336048,
+     "maxlon": 21.8827507
+    },
+    "geometry": [
+     {
+      "lat": 43.331758,
+      "lon": 21.8827507
+     },
+     {
+      "lat": 43.331945,
+      "lon": 21.8823469
+     },
+     {
+      "lat": 43.3321473,
+      "lon": 21.8818898
+     },
+     {
+      "lat": 43.3355663,
+      "lon": 21.8743675
+     },
+     {
+      "lat": 43.3358377,
+      "lon": 21.8737993
+     },
+     {
+      "lat": 43.3359,
+      "lon": 21.8736976
+     },
+     {
+      "lat": 43.336048,
+      "lon": 21.8734557
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1148051800,
+    "bounds": {
+     "minlat": 43.3326356,
+     "minlon": 21.8699742,
+     "maxlat": 43.3376804,
+     "maxlon": 21.8809213
+    },
+    "geometry": [
+     {
+      "lat": 43.3326356,
+      "lon": 21.8809213
+     },
+     {
+      "lat": 43.3351905,
+      "lon": 21.8753019
+     },
+     {
+      "lat": 43.3358138,
+      "lon": 21.8739538
+     },
+     {
+      "lat": 43.3359851,
+      "lon": 21.8735927
+     },
+     {
+      "lat": 43.336048,
+      "lon": 21.8734557
+     },
+     {
+      "lat": 43.3361284,
+      "lon": 21.8732805
+     },
+     {
+      "lat": 43.3367507,
+      "lon": 21.8720131
+     },
+     {
+      "lat": 43.3376804,
+      "lon": 21.8699742
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1418996080,
+    "bounds": {
+     "minlat": 43.3318185,
+     "minlon": 21.8809213,
+     "maxlat": 43.3326356,
+     "maxlon": 21.882725
+    },
+    "geometry": [
+     {
+      "lat": 43.3318185,
+      "lon": 21.882725
+     },
+     {
+      "lat": 43.3319081,
+      "lon": 21.8825233
+     },
+     {
+      "lat": 43.3323811,
+      "lon": 21.8814811
+     },
+     {
+      "lat": 43.3326356,
+      "lon": 21.8809213
+     }
+    ],
+    "tags": {
+     "electrified": "contact_line",
+     "frequency": "50",
+     "gauge": "1435",
+     "int_name": "Beograd—Nis",
+     "maxspeed": "20",
+     "name": "Београд—Ниш",
+     "name:en": "Belgrade - Nis",
+     "name:sr": "Београд—Ниш",
+     "name:sr-Latn": "Beograd—Niš",
+     "operator": "Инфраструктура железнице Србије",
+     "railway": "rail",
+     "ref": "102",
+     "usage": "main",
+     "voltage": "25000"
+    }
+   }
+  ]
+ },
+ "somborski": {
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+   "timestamp_osm_base": "2026-10-26T06:54:05Z",
+   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": []
+ }
+}

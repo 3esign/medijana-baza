@@ -1,0 +1,73 @@
+{
+ "version": "0.31",
+ "datum": "2026-10-26",
+ "sloj": "akvadukt_koordinate_v031",
+ "metod": "lanac relativnih polozaja: ZZSK saopstenje 12.09.2025 daje medjusobne razdaljine gradilista; sidro je severoistocni kraj OSM track way 108165624 (Gornjomatejevacka), ostale tacke izvedene ofsetom po azimutu 45° (ka severoistoku, uzbrdo ka izvoru)",
+ "nalaz": {
+  "greska_tr04_otkrivena": "tr-04 (Ardija) u v0.26 geokodiran na centar Panteleja [21.9158,43.3400], ~950 m zapadno od tr-03; saopstenje kaze Ardija je 150 m severoistocno od gradilista Gornjomatejevacka 2025 -> stara koordinate pogresna za ~1 km",
+  "sidro": {
+   "osm_way": 108165624,
+   "koordinate": [
+    21.9291714,
+    43.3408125
+   ],
+   "opis": "severnoistocni kraj track way Gornjomatejevacka (nastavak residential way 293286423)",
+   "utemeljenje": "ZZSK: decembar 2024. drugo gradiliste na kraju istoimene ulice"
+  },
+  "gradilista": [
+   {
+    "id": "tr-03",
+    "lokalitet": "Rimski akvadukt - Gornjomatejevacka (dec 2024)",
+    "koordinate": [
+     21.9291714,
+     43.3408125
+    ],
+    "metod": "SIDRO (OSM geometrija, ne aproksimacija)",
+    "kota_srtm90m": 248
+   },
+   {
+    "id": "tr-06",
+    "lokalitet": "Rimski akvadukt - Gornjomatejevacka (sep 2025, >90 m)",
+    "koordinate": [
+     21.9291714,
+     43.3414477
+    ],
+    "metod": "ofset 100 m ka severoistoku od sidra (saopstenje: dec 2024 gradiliste ~100 m jugozapadno = 2025 je 100 m severoistocno)",
+    "kota_srtm90m": 248
+   },
+   {
+    "id": "tr-04",
+    "lokalitet": "Rimski akvadukt - Ardija (maj 2025, ~40 m)",
+    "koordinate": [
+     21.9291714,
+     43.3424005
+    ],
+    "metod": "ofset 250 m ka severoistoku od sidra (100 m do 2025 + 150 m ka Ardiji)",
+    "kota_srtm90m": 256,
+    "korekcija": "zamenjuje v0.26 koordinate [21.9158347,43.340042] (centar Panteleja) — bila ~1 km zapadnije"
+   }
+  ],
+  "sanity_dem": "SRTM 90 m: Ardija 256 > Gornjomatejevacka 248 > kasarna Knjaz Mihailo 206 — monoton silazak ka gradu, smer lanca ka severoistoku je uzbrdo ka izvoru (saglasno trasi)",
+  "ostalo_bez_promene": "tr-01 (Podvinik), tr-02 (Prevalac/gasovod), tr-05 (kasarna) zadrzavaju v0.26/v0.29 koordinate; njihove medjusobne razdaljine saopstenje ne daje"
+ },
+ "nesigurnost": "azimut 45° je pretpostavka (saopstenje kaze samo severoistočno/jugozapadno); stvarni azimut trase ide uz padinu, greska do ~30% razdaljine poprecno na trasu; kota SRTM 90 m gruba na padini",
+ "sukob_vinik_banja": "otvoren (nepromenjen); odlucuje iskop spoja/ustave",
+ "izvori": [
+  {
+   "naziv": "ZZSK Nis — Rimski akvadukt Gornjomatejevacka (saopstenje 12.09.2025, relativne razdaljine gradilista)",
+   "url": "https://www.zzsknis.rs/zai-rimski-akvadukt-gornjomatejevacka.php"
+  },
+  {
+   "naziv": "sveoarheologiji.com — otkrice 90 m segmenta (13.09.2025)",
+   "url": "https://sveoarheologiji.com/otkrice-u-nisu-ostaci-rimskog-akvadukta"
+  },
+  {
+   "naziv": "OSM way 108165624 (track Gornjomatejevacka) — sidro geometrije, Nominatim",
+   "url": "https://www.openstreetmap.org/way/108165624"
+  },
+  {
+   "naziv": "OpenTopoData SRTM 90 m — kote lanca",
+   "url": "https://api.opentopodata.org/v1/srtm90m?locations=43.3408,21.9292"
+  }
+ ]
+}

@@ -1,474 +1,474 @@
 {
-  "version": "0.29",
-  "srpski": "Vizuelni sloj — Wikimedia Commons, strukturno vredne fotografije",
-  "datum_upisa": "2026-10-25T17:25:55.721Z",
-  "kategorija": "Category:Mediana (200 fajlova ukupno, popis u vizuelni_commons_popis.txt)",
-  "slike": [
-    {
-      "naslov": "File:Mediana in Niš, walls.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Mediana_in_Ni%C5%A1%2C_walls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 5616,
-      "h": 3744,
-      "licenca": "CC BY-SA 3.0",
-      "datum_snimka": "2016-07-06 10:56:48",
-      "opis": "Mediana in Niš, the remains of the walls"
-    },
-    {
-      "naslov": "File:Mediana, entrance.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mediana%2C_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3264,
-      "h": 2448,
-      "licenca": "CC BY-SA 3.0",
-      "datum_snimka": "2013-07-26 14:50:21",
-      "opis": "The entrance of Mediana"
-    },
-    {
-      "naslov": "File:Mediana, Nis, walls in the ground.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Mediana%2C_Nis%2C_walls_in_the_ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3264,
-      "h": 2448,
-      "licenca": "CC BY-SA 3.0",
-      "datum_snimka": "2013-07-26 14:55:05",
-      "opis": "remainders of an old wall"
-    },
-    {
-      "naslov": "File:Medijana - Sala za gozbe.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Medijana_-_Sala_za_gozbe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 4032,
-      "h": 3024,
-      "licenca": "CC BY 4.0",
-      "datum_snimka": "2025",
-      "opis": "Arheološki park Medijana, Sala za gozbe"
-    },
-    {
-      "naslov": "File:Medijana mozaik.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Medijana_mozaik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 357,
-      "h": 502,
-      "licenca": "CC BY-SA 3.0",
-      "datum_snimka": null,
-      "opis": null
-    },
-    {
-      "naslov": "File:Medijana.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Medijana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 2048,
-      "h": 1536,
-      "licenca": "CC BY-SA 2.0",
-      "datum_snimka": "2005-06-10 11:05",
-      "opis": "Medijana, archeological site near Niš"
-    },
-    {
-      "naslov": "File:Medijana1.JPG",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Medijana1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 1840,
-      "h": 1232,
-      "licenca": "CC BY-SA 3.0",
-      "datum_snimka": "2005-04-22 18:57:07",
-      "opis": "Medijana - podni mozaik"
-    },
-    {
-      "naslov": "File:Medijana2.JPG",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Medijana2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 1232,
-      "h": 1840,
-      "licenca": "CC BY-SA 3.0",
-      "datum_snimka": "2005-04-22 18:57:10",
-      "opis": "Medijana - ostatci stubova"
-    },
-    {
-      "naslov": "File:Mozaik iz vile sa Konhama, Medijana, Niš.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Mozaik_iz_vile_sa_Konhama%2C_Medijana%2C_Ni%C5%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 4032,
-      "h": 3024,
-      "licenca": "CC BY 4.0",
-      "datum_snimka": "2025",
-      "opis": "Arheološki park Medijana, Mozaik iz vile sa Konhama"
-    },
-    {
-      "naslov": "File:Nis, vila oktogonalnog oblika.JPG",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Nis%2C_vila_oktogonalnog_oblika.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3264,
-      "h": 2448,
-      "licenca": "CC BY-SA 3.0",
-      "datum_snimka": "2013-02-10 07:44:37",
-      "opis": "Građevina tipa vile, oktogonalnog oblika koja je u sebi nosila obiežja objekta javnog karaktera, otkrivena je tokom 1987 i 1988. između turske tvrđave i kompleksa tehničkih fakulteta, na lokalitetu \"Gradsko polje\" oko 300 m u smeru severozapada od središnjeg dela antičkog grada Naisa."
-    },
-    {
-      "naslov": "File:The Nymphaeum at Mediana (I) (7369183228).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Nymphaeum_at_Mediana_%28I%29_%287369183228%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Nymphaeum at Mediana (I)\nOne of the decorated mosaic floor panels inside the Nymphaeum at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Nymphaeum at Mediana (II) (7183949517).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Nymphaeum_at_Mediana_%28II%29_%287183949517%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Nymphaeum at Mediana (II)\nThe interior of the Nymphaeum at Mediana, with the foundation of the fountain visible in the center of the chamber. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Nymphaeum at Mediana (III) (7369183572).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/The_Nymphaeum_at_Mediana_%28III%29_%287369183572%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Nymphaeum at Mediana (III)\nOne of the decorated mosaic floor panels inside the Nymphaeum at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Nymphaeum at Mediana (IV) (7183949769).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/The_Nymphaeum_at_Mediana_%28IV%29_%287183949769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Nymphaeum at Mediana (IV)\nOne of the decorated mosaic floor panels inside the Nymphaeum at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Nymphaeum at Mediana (V) (7183949925).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/The_Nymphaeum_at_Mediana_%28V%29_%287183949925%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Nymphaeum at Mediana (V)\nOne of the decorated mosaic floor panels inside the Nymphaeum at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Nymphaeum at Mediana (VI) (7369183998).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/The_Nymphaeum_at_Mediana_%28VI%29_%287369183998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Nymphaeum at Mediana (VI)\nA detail of the decorated mosaic floor of the Nymphaeum at Mediana, depicting the base and pipe of a fountain. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Nymphaeum at Mediana (VII) (7183950215).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/The_Nymphaeum_at_Mediana_%28VII%29_%287183950215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Nymphaeum at Mediana (VII)\nThe interior of the Nymphaeum at Mediana, with the foundation of the fountain visible in the center of the chamber. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (I) (7183942423).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/The_Villa_at_Mediana_%28I%29_%287183942423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (I)\nThe apse of the main villa at the center of Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (II) (7183945525).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Villa_at_Mediana_%28II%29_%287183945525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (II)\nA large room attached to the peristyle court of the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (III) (7369181292).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/The_Villa_at_Mediana_%28III%29_%287369181292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (III)\nPartially collapsed rooms from the main villa at Mediana, built with fired brick. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (IV) (7369181554).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_Villa_at_Mediana_%28IV%29_%287369181554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (IV)\nPartially collapsed rooms from the main villa at Mediana, built with fired brick. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (IX) (7183948685).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/The_Villa_at_Mediana_%28IX%29_%287183948685%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (IX)\nA detail of the peristyle courtyard in the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (V) (7183947863).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/The_Villa_at_Mediana_%28V%29_%287183947863%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (V)\nThe main villa at Mediana, with part of the peristyle courtyard visible. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (VI) (7369182006).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/The_Villa_at_Mediana_%28VI%29_%287369182006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (VI)\nThe main villa at Mediana, with a view of the peristyle courtyard. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (VII) (7183948351).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/The_Villa_at_Mediana_%28VII%29_%287183948351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (VII)\nA red tile floor in the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (VIII) (7183948533).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/The_Villa_at_Mediana_%28VIII%29_%287183948533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (VIII)\nThe peristyle courtyard at the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (X) (7369176660).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/The_Villa_at_Mediana_%28X%29_%287369176660%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (X)\nThe apse at the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XI) (7369177212).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/The_Villa_at_Mediana_%28XI%29_%287369177212%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 2736,
-      "h": 3648,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2012-06-13 13:14",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XI)\nA view from the apse down the axis of the main villa at Mediana. by \nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XII) (7369177376).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Villa_at_Mediana_%28XII%29_%287369177376%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XII)\nThe center of the peristyle courtyard at the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XIII) (7183943799).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/The_Villa_at_Mediana_%28XIII%29_%287183943799%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XIII)\nPart of the peristyle courtyard at the main villa at Mediana, with a view of the mountains in the background. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XIV) (7183943951).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/The_Villa_at_Mediana_%28XIV%29_%287183943951%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XIV)\nA stone structure at the main villa at Mediana, possibly part of a gateway. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XIV) (7183949113).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/The_Villa_at_Mediana_%28XIV%29_%287183949113%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 2736,
-      "h": 3648,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XIV) by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XIX) (7183945323).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/The_Villa_at_Mediana_%28XIX%29_%287183945323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XIX)\nSeveral stone and fired-brick chambers, part of the main villa complex at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XV) (7369178362).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Villa_at_Mediana_%28XV%29_%287369178362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XV)\nA stone structure at the main villa at Mediana, possibly part of a gateway. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XVI) (7369178606).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/The_Villa_at_Mediana_%28XVI%29_%287369178606%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XVI)\nStone and brick structures at the main villa at Mediana, possibly representing an entryway to the complex. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XVII) (7369178822).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Villa_at_Mediana_%28XVII%29_%287369178822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XVII)\nThe center of the peristyle courtyard at the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XVIII) (7369179072).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Villa_at_Mediana_%28XVIII%29_%287369179072%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XVIII)\nPartially collapsed brick chambers, part of the main villa complex at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XX) (7183946793).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Villa_at_Mediana_%28XX%29_%287183946793%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XX)\nThe stone wall of the granary at Mediana, surrounding the primary storage chamber. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XXI) (7369180792).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_Villa_at_Mediana_%28XXI%29_%287369180792%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XXI)\nA storage basin within the large granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XXII) (7369181086).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/The_Villa_at_Mediana_%28XXII%29_%287369181086%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XXII)\nStorage pits within the large granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XXIII) (7183948853).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/The_Villa_at_Mediana_%28XXIII%29_%287183948853%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 2736,
-      "h": 3648,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2009-09-02 00:00",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XXIV) (7369180496).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_Villa_at_Mediana_%28XXIV%29_%287369180496%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2012-06-13 13:15",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XXV) (7183946507).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Villa_at_Mediana_%28XXV%29_%287183946507%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2012-06-13 13:15",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XXVI) (7183946239).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/The_Villa_at_Mediana_%28XXVI%29_%287183946239%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2012-06-13 13:15",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    },
-    {
-      "naslov": "File:The Villa at Mediana (XXVII) (7369179830).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/The_Villa_at_Mediana_%28XXVII%29_%287369179830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "w": 3648,
-      "h": 2736,
-      "licenca": "CC BY 2.0",
-      "datum_snimka": "2012-06-13 13:15",
-      "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
-    }
-  ],
-  "veza_na_objekte": {
-    "peristil_i_mozaici": [
-      "File:Medijana mozaik.jpg"
-    ],
-    "vila_sa_oktogonom": [
-      "File:Nis, vila oktogonalnog oblika.JPG"
-    ],
-    "vila_sa_konhama": [
-      "File:Medijana - Sala za gozbe.jpg",
-      "File:Mozaik iz vile sa Konhama, Medijana, Niš.jpg"
-    ],
-    "nimfej": [
-      "File:The Nymphaeum at Mediana (I) (7369183228).jpg",
-      "File:The Nymphaeum at Mediana (II) (7183949517).jpg",
-      "File:The Nymphaeum at Mediana (III) (7369183572).jpg",
-      "File:The Nymphaeum at Mediana (IV) (7183949769).jpg",
-      "File:The Nymphaeum at Mediana (V) (7183949925).jpg",
-      "File:The Nymphaeum at Mediana (VI) (7369183998).jpg",
-      "File:The Nymphaeum at Mediana (VII) (7183950215).jpg"
-    ],
-    "zidine_i_teren": [
-      "File:Mediana in Niš, walls.jpg",
-      "File:Mediana, Nis, walls in the ground.jpg"
-    ],
-    "opste": [
-      "File:Mediana, entrance.jpg",
-      "File:Medijana.jpg",
-      "File:Medijana1.JPG",
-      "File:Medijana2.JPG",
-      "File:The Villa at Mediana (I) (7183942423).jpg",
-      "File:The Villa at Mediana (II) (7183945525).jpg",
-      "File:The Villa at Mediana (III) (7369181292).jpg",
-      "File:The Villa at Mediana (IV) (7369181554).jpg",
-      "File:The Villa at Mediana (IX) (7183948685).jpg",
-      "File:The Villa at Mediana (V) (7183947863).jpg",
-      "File:The Villa at Mediana (VI) (7369182006).jpg",
-      "File:The Villa at Mediana (VII) (7183948351).jpg",
-      "File:The Villa at Mediana (VIII) (7183948533).jpg",
-      "File:The Villa at Mediana (X) (7369176660).jpg",
-      "File:The Villa at Mediana (XI) (7369177212).jpg",
-      "File:The Villa at Mediana (XII) (7369177376).jpg",
-      "File:The Villa at Mediana (XIII) (7183943799).jpg",
-      "File:The Villa at Mediana (XIV) (7183943951).jpg",
-      "File:The Villa at Mediana (XIV) (7183949113).jpg",
-      "File:The Villa at Mediana (XIX) (7183945323).jpg",
-      "File:The Villa at Mediana (XV) (7369178362).jpg",
-      "File:The Villa at Mediana (XVI) (7369178606).jpg",
-      "File:The Villa at Mediana (XVII) (7369178822).jpg",
-      "File:The Villa at Mediana (XVIII) (7369179072).jpg",
-      "File:The Villa at Mediana (XX) (7183946793).jpg",
-      "File:The Villa at Mediana (XXI) (7369180792).jpg",
-      "File:The Villa at Mediana (XXII) (7369181086).jpg",
-      "File:The Villa at Mediana (XXIII) (7183948853).jpg",
-      "File:The Villa at Mediana (XXIV) (7369180496).jpg",
-      "File:The Villa at Mediana (XXV) (7183946507).jpg",
-      "File:The Villa at Mediana (XXVI) (7183946239).jpg",
-      "File:The Villa at Mediana (XXVII) (7369179830).jpg"
-    ]
+ "version": "0.31",
+ "srpski": "Vizuelni sloj — Wikimedia Commons, strukturno vredne fotografije",
+ "datum_upisa": "2026-10-25T17:25:55.721Z",
+ "kategorija": "Category:Mediana (200 fajlova ukupno, popis u vizuelni_commons_popis.txt)",
+ "slike": [
+  {
+   "naslov": "File:Mediana in Niš, walls.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Mediana_in_Ni%C5%A1%2C_walls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 5616,
+   "h": 3744,
+   "licenca": "CC BY-SA 3.0",
+   "datum_snimka": "2016-07-06 10:56:48",
+   "opis": "Mediana in Niš, the remains of the walls"
   },
-  "verzija": "0.29",
-  "datum": "2026-10-26"
+  {
+   "naslov": "File:Mediana, entrance.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mediana%2C_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3264,
+   "h": 2448,
+   "licenca": "CC BY-SA 3.0",
+   "datum_snimka": "2013-07-26 14:50:21",
+   "opis": "The entrance of Mediana"
+  },
+  {
+   "naslov": "File:Mediana, Nis, walls in the ground.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Mediana%2C_Nis%2C_walls_in_the_ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3264,
+   "h": 2448,
+   "licenca": "CC BY-SA 3.0",
+   "datum_snimka": "2013-07-26 14:55:05",
+   "opis": "remainders of an old wall"
+  },
+  {
+   "naslov": "File:Medijana - Sala za gozbe.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Medijana_-_Sala_za_gozbe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 4032,
+   "h": 3024,
+   "licenca": "CC BY 4.0",
+   "datum_snimka": "2025",
+   "opis": "Arheološki park Medijana, Sala za gozbe"
+  },
+  {
+   "naslov": "File:Medijana mozaik.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Medijana_mozaik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 357,
+   "h": 502,
+   "licenca": "CC BY-SA 3.0",
+   "datum_snimka": null,
+   "opis": null
+  },
+  {
+   "naslov": "File:Medijana.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Medijana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 2048,
+   "h": 1536,
+   "licenca": "CC BY-SA 2.0",
+   "datum_snimka": "2005-06-10 11:05",
+   "opis": "Medijana, archeological site near Niš"
+  },
+  {
+   "naslov": "File:Medijana1.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Medijana1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 1840,
+   "h": 1232,
+   "licenca": "CC BY-SA 3.0",
+   "datum_snimka": "2005-04-22 18:57:07",
+   "opis": "Medijana - podni mozaik"
+  },
+  {
+   "naslov": "File:Medijana2.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Medijana2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 1232,
+   "h": 1840,
+   "licenca": "CC BY-SA 3.0",
+   "datum_snimka": "2005-04-22 18:57:10",
+   "opis": "Medijana - ostatci stubova"
+  },
+  {
+   "naslov": "File:Mozaik iz vile sa Konhama, Medijana, Niš.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Mozaik_iz_vile_sa_Konhama%2C_Medijana%2C_Ni%C5%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 4032,
+   "h": 3024,
+   "licenca": "CC BY 4.0",
+   "datum_snimka": "2025",
+   "opis": "Arheološki park Medijana, Mozaik iz vile sa Konhama"
+  },
+  {
+   "naslov": "File:Nis, vila oktogonalnog oblika.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Nis%2C_vila_oktogonalnog_oblika.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3264,
+   "h": 2448,
+   "licenca": "CC BY-SA 3.0",
+   "datum_snimka": "2013-02-10 07:44:37",
+   "opis": "Građevina tipa vile, oktogonalnog oblika koja je u sebi nosila obiežja objekta javnog karaktera, otkrivena je tokom 1987 i 1988. između turske tvrđave i kompleksa tehničkih fakulteta, na lokalitetu \"Gradsko polje\" oko 300 m u smeru severozapada od središnjeg dela antičkog grada Naisa."
+  },
+  {
+   "naslov": "File:The Nymphaeum at Mediana (I) (7369183228).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Nymphaeum_at_Mediana_%28I%29_%287369183228%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Nymphaeum at Mediana (I)\nOne of the decorated mosaic floor panels inside the Nymphaeum at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Nymphaeum at Mediana (II) (7183949517).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Nymphaeum_at_Mediana_%28II%29_%287183949517%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Nymphaeum at Mediana (II)\nThe interior of the Nymphaeum at Mediana, with the foundation of the fountain visible in the center of the chamber. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Nymphaeum at Mediana (III) (7369183572).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/The_Nymphaeum_at_Mediana_%28III%29_%287369183572%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Nymphaeum at Mediana (III)\nOne of the decorated mosaic floor panels inside the Nymphaeum at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Nymphaeum at Mediana (IV) (7183949769).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/The_Nymphaeum_at_Mediana_%28IV%29_%287183949769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Nymphaeum at Mediana (IV)\nOne of the decorated mosaic floor panels inside the Nymphaeum at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Nymphaeum at Mediana (V) (7183949925).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/The_Nymphaeum_at_Mediana_%28V%29_%287183949925%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Nymphaeum at Mediana (V)\nOne of the decorated mosaic floor panels inside the Nymphaeum at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Nymphaeum at Mediana (VI) (7369183998).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/The_Nymphaeum_at_Mediana_%28VI%29_%287369183998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Nymphaeum at Mediana (VI)\nA detail of the decorated mosaic floor of the Nymphaeum at Mediana, depicting the base and pipe of a fountain. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Nymphaeum at Mediana (VII) (7183950215).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/The_Nymphaeum_at_Mediana_%28VII%29_%287183950215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Nymphaeum at Mediana (VII)\nThe interior of the Nymphaeum at Mediana, with the foundation of the fountain visible in the center of the chamber. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (I) (7183942423).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/The_Villa_at_Mediana_%28I%29_%287183942423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (I)\nThe apse of the main villa at the center of Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (II) (7183945525).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Villa_at_Mediana_%28II%29_%287183945525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (II)\nA large room attached to the peristyle court of the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (III) (7369181292).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/The_Villa_at_Mediana_%28III%29_%287369181292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (III)\nPartially collapsed rooms from the main villa at Mediana, built with fired brick. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (IV) (7369181554).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_Villa_at_Mediana_%28IV%29_%287369181554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (IV)\nPartially collapsed rooms from the main villa at Mediana, built with fired brick. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (IX) (7183948685).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/The_Villa_at_Mediana_%28IX%29_%287183948685%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (IX)\nA detail of the peristyle courtyard in the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (V) (7183947863).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/The_Villa_at_Mediana_%28V%29_%287183947863%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (V)\nThe main villa at Mediana, with part of the peristyle courtyard visible. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (VI) (7369182006).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/The_Villa_at_Mediana_%28VI%29_%287369182006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (VI)\nThe main villa at Mediana, with a view of the peristyle courtyard. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (VII) (7183948351).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/The_Villa_at_Mediana_%28VII%29_%287183948351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (VII)\nA red tile floor in the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (VIII) (7183948533).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/The_Villa_at_Mediana_%28VIII%29_%287183948533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (VIII)\nThe peristyle courtyard at the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (X) (7369176660).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/The_Villa_at_Mediana_%28X%29_%287369176660%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (X)\nThe apse at the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XI) (7369177212).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/The_Villa_at_Mediana_%28XI%29_%287369177212%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 2736,
+   "h": 3648,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2012-06-13 13:14",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XI)\nA view from the apse down the axis of the main villa at Mediana. by \nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XII) (7369177376).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Villa_at_Mediana_%28XII%29_%287369177376%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XII)\nThe center of the peristyle courtyard at the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XIII) (7183943799).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/The_Villa_at_Mediana_%28XIII%29_%287183943799%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XIII)\nPart of the peristyle courtyard at the main villa at Mediana, with a view of the mountains in the background. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XIV) (7183943951).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/The_Villa_at_Mediana_%28XIV%29_%287183943951%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XIV)\nA stone structure at the main villa at Mediana, possibly part of a gateway. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XIV) (7183949113).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/The_Villa_at_Mediana_%28XIV%29_%287183949113%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 2736,
+   "h": 3648,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XIV) by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XIX) (7183945323).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/The_Villa_at_Mediana_%28XIX%29_%287183945323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XIX)\nSeveral stone and fired-brick chambers, part of the main villa complex at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XV) (7369178362).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Villa_at_Mediana_%28XV%29_%287369178362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XV)\nA stone structure at the main villa at Mediana, possibly part of a gateway. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XVI) (7369178606).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/The_Villa_at_Mediana_%28XVI%29_%287369178606%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XVI)\nStone and brick structures at the main villa at Mediana, possibly representing an entryway to the complex. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XVII) (7369178822).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Villa_at_Mediana_%28XVII%29_%287369178822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XVII)\nThe center of the peristyle courtyard at the main villa at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XVIII) (7369179072).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Villa_at_Mediana_%28XVIII%29_%287369179072%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XVIII)\nPartially collapsed brick chambers, part of the main villa complex at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XX) (7183946793).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Villa_at_Mediana_%28XX%29_%287183946793%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XX)\nThe stone wall of the granary at Mediana, surrounding the primary storage chamber. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XXI) (7369180792).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_Villa_at_Mediana_%28XXI%29_%287369180792%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XXI)\nA storage basin within the large granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XXII) (7369181086).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/The_Villa_at_Mediana_%28XXII%29_%287369181086%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XXII)\nStorage pits within the large granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XXIII) (7183948853).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/The_Villa_at_Mediana_%28XXIII%29_%287183948853%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 2736,
+   "h": 3648,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2009-09-02 00:00",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XXIV) (7369180496).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_Villa_at_Mediana_%28XXIV%29_%287369180496%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2012-06-13 13:15",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XXV) (7183946507).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Villa_at_Mediana_%28XXV%29_%287183946507%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2012-06-13 13:15",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XXVI) (7183946239).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/The_Villa_at_Mediana_%28XXVI%29_%287183946239%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2012-06-13 13:15",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  },
+  {
+   "naslov": "File:The Villa at Mediana (XXVII) (7369179830).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/The_Villa_at_Mediana_%28XXVII%29_%287369179830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 3648,
+   "h": 2736,
+   "licenca": "CC BY 2.0",
+   "datum_snimka": "2012-06-13 13:15",
+   "opis": "AWIB-ISAW: The Villa at Mediana (XXIII)\nThe large primary chamber of the granary at Mediana. by Anne Chen (2009)\ncopyright: 2009 Anne Chen (used with permission)\nphotographed place: Naissus (Nis) pleiades.stoa.org/places/207303\n\nPublished by the Institute for the Study of the Ancient World as part of the Ancient World Image Bank (AWIB). Further information: www.nyu.edu/isaw/awib.htm."
+  }
+ ],
+ "veza_na_objekte": {
+  "peristil_i_mozaici": [
+   "File:Medijana mozaik.jpg"
+  ],
+  "vila_sa_oktogonom": [
+   "File:Nis, vila oktogonalnog oblika.JPG"
+  ],
+  "vila_sa_konhama": [
+   "File:Medijana - Sala za gozbe.jpg",
+   "File:Mozaik iz vile sa Konhama, Medijana, Niš.jpg"
+  ],
+  "nimfej": [
+   "File:The Nymphaeum at Mediana (I) (7369183228).jpg",
+   "File:The Nymphaeum at Mediana (II) (7183949517).jpg",
+   "File:The Nymphaeum at Mediana (III) (7369183572).jpg",
+   "File:The Nymphaeum at Mediana (IV) (7183949769).jpg",
+   "File:The Nymphaeum at Mediana (V) (7183949925).jpg",
+   "File:The Nymphaeum at Mediana (VI) (7369183998).jpg",
+   "File:The Nymphaeum at Mediana (VII) (7183950215).jpg"
+  ],
+  "zidine_i_teren": [
+   "File:Mediana in Niš, walls.jpg",
+   "File:Mediana, Nis, walls in the ground.jpg"
+  ],
+  "opste": [
+   "File:Mediana, entrance.jpg",
+   "File:Medijana.jpg",
+   "File:Medijana1.JPG",
+   "File:Medijana2.JPG",
+   "File:The Villa at Mediana (I) (7183942423).jpg",
+   "File:The Villa at Mediana (II) (7183945525).jpg",
+   "File:The Villa at Mediana (III) (7369181292).jpg",
+   "File:The Villa at Mediana (IV) (7369181554).jpg",
+   "File:The Villa at Mediana (IX) (7183948685).jpg",
+   "File:The Villa at Mediana (V) (7183947863).jpg",
+   "File:The Villa at Mediana (VI) (7369182006).jpg",
+   "File:The Villa at Mediana (VII) (7183948351).jpg",
+   "File:The Villa at Mediana (VIII) (7183948533).jpg",
+   "File:The Villa at Mediana (X) (7369176660).jpg",
+   "File:The Villa at Mediana (XI) (7369177212).jpg",
+   "File:The Villa at Mediana (XII) (7369177376).jpg",
+   "File:The Villa at Mediana (XIII) (7183943799).jpg",
+   "File:The Villa at Mediana (XIV) (7183943951).jpg",
+   "File:The Villa at Mediana (XIV) (7183949113).jpg",
+   "File:The Villa at Mediana (XIX) (7183945323).jpg",
+   "File:The Villa at Mediana (XV) (7369178362).jpg",
+   "File:The Villa at Mediana (XVI) (7369178606).jpg",
+   "File:The Villa at Mediana (XVII) (7369178822).jpg",
+   "File:The Villa at Mediana (XVIII) (7369179072).jpg",
+   "File:The Villa at Mediana (XX) (7183946793).jpg",
+   "File:The Villa at Mediana (XXI) (7369180792).jpg",
+   "File:The Villa at Mediana (XXII) (7369181086).jpg",
+   "File:The Villa at Mediana (XXIII) (7183948853).jpg",
+   "File:The Villa at Mediana (XXIV) (7369180496).jpg",
+   "File:The Villa at Mediana (XXV) (7183946507).jpg",
+   "File:The Villa at Mediana (XXVI) (7183946239).jpg",
+   "File:The Villa at Mediana (XXVII) (7369179830).jpg"
+  ]
+ },
+ "verzija": "0.31",
+ "datum": "2026-10-26"
 }

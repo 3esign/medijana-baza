@@ -1,5 +1,5 @@
 {
- "verzija": "0.29",
+ "verzija": "0.31",
  "datum": "2026-10-26",
  "sloj": "gravitaciona provera gradskog akvadukta — terminus Pantelejska kasarna (test hipoteze ZZSK iz v0.28)",
  "metod": "open-elevation API (SRTM/DEM), jednostrecne uzorke po tackama; geokodiranje kasarne preko Nominatim (OSM way 302167418, ne aproksimacija)",

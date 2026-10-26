@@ -559,6 +559,7 @@ try {
   if (!/OTVOREN|otvoren/.test(t30.sukob_vinik_vs_banja)) greske.push('v030: sukob vinik-vs-banja mora ostati otvoren');
   if (!t30.izvori?.length || !/opentopodata/.test(t30.izvori[0].url)) greske.push('v030: fali izvor SRTM citanja');
   console.log('treca-kota-vrela: 431,9 / 442,6 / 450,0 m — medijana 442,6, zakljucak v0.27 robustan');
+console.log('akvadukt-koordinate v031: tr-03 sidro OSM, tr-04 Ardija korigovana +~1 km, tr-06 novo (lanac relativnih polozaja)');
 } catch (e) { greske.push('v030: ' + e.message); }
 
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
@@ -607,3 +608,30 @@ try {
     if (!(s.Q_l_s > 0) || s.v <= 0.1 || s.v > 4) greske.push('v025: Q/brzina van fizickog opsega u scenariju ' + s.sirina_m + 'x' + s.dubina_m);
   }
 } catch (e) { greske.push('v025: ' + e.message); }
+
+// --- v0.31: lanac relativnih polozaja akvadukta ---
+try {
+  const lk = JSON.parse(fs.readFileSync(path.join(DIR, 'akvadukt_koordinate_v031.json'), 'utf8'));
+  const ak2 = JSON.parse(fs.readFileSync(DIR + '/akvadukt_trasa_v026.json', 'utf8'));
+  const sidroK = lk.nalaz.sidro.koordinate;
+  const g = id => ak2.segmenti.find(s => s.id === id);
+  if (!g('tr-06')) greske.push('v031: segment tr-06 (gradiliste 2025) fali u trasi');
+  // tr-03 mora biti tacno sidro
+  if (Math.abs(g('tr-03').koordinate[0] - sidroK[0]) > 1e-9 || Math.abs(g('tr-03').koordinate[1] - sidroK[1]) > 1e-9) greske.push('v031: tr-03 nije na sidru OSM way 108165624');
+  // tr-04/tr-06 moraju biti severoistocno od tr-03 (stara greska: ~1 km zapadno)
+  const t3 = g('tr-03').koordinate, t4 = g('tr-04').koordinate, t6 = g('tr-06').koordinate;
+  if (!(t4[0] > t3[0] && t4[1] > t3[1])) greske.push('v031: tr-04 Ardija mora biti NE od tr-03 (relativni polozaj iz saopstenja)');
+  if (!(t6[0] > t3[0] && t6[1] > t3[1])) greske.push('v031: tr-06 mora biti NE od tr-03');
+  // razdaljine ~100 i ~250 m (tolerancija azimuta)
+  const dist = (a, b) => 111320 * Math.hypot((a[0]-b[0]) * Math.cos(a[1]*Math.PI/180), a[1]-b[1]);
+  const d36 = dist(t3, t6), d34 = dist(t3, t4);
+  if (d36 < 60 || d36 > 160) greske.push('v031: razdaljina tr-03 -> tr-06 van opsega 100 m (+-azimut): ' + d36.toFixed(0));
+  if (d34 < 150 || d34 > 400) greske.push('v031: razdaljina tr-03 -> tr-04 van opsega 250 m (+-azimut): ' + d34.toFixed(0));
+  if (d36 >= d34) greske.push('v031: Ardija (150 m od 2025) mora biti dalje od tr-03 nego gradiliste 2025 (100 m)');
+  // monoton silazak ka gradu
+  const ko = lk.nalaz.gradilista;
+  const kArd = ko.find(x => x.id === 'tr-04').kota_srtm90m, kSid = ko.find(x => x.id === 'tr-03').kota_srtm90m;
+  if (!(kArd >= kSid)) greske.push('v031: Ardija mora biti na koti >= Gornjomatejevacka (uzbrdo ka izvoru na severoistoku)');
+  if (!lk.sukob_vinik_banja || !/otvoren/i.test(lk.sukob_vinik_banja)) greske.push('v031: sukob vinik-vs-banja mora ostati otvoren');
+  for (const i of lk.izvori) if (!/^https?:\/\//.test(i.url)) greske.push('v031: izvor bez URL: ' + i.naziv);
+} catch (e) { greske.push('v031: ' + e.message); }
