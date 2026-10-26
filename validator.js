@@ -483,6 +483,22 @@ if (kmz) {
   }
   console.log(`trasa: ${ids.size} segmenata, obilje ${tr.obilje_iskopano_m} m, sukob otvoren`);
 }
+// v0.27: fizika trase Sreckovo vrelo -> Vinik (test hipoteze ZZSK)
+{
+  const vk = JSON.parse(fs.readFileSync(__dirname + '/vinik_trasa_fizika_v027.json', 'utf8'));
+  if (vk.start?.osm_node !== '4027319493') greske.push('vinik-fizika: start nije Sreckovo vrelo (node 4027319493)');
+  if (vk.cilj?.kota == null || !(vk.cilj.kota > 300 && vk.cilj.kota < 500)) greske.push('vinik-fizika: kota cilja van opsega');
+  for (const ime of ['trasa_1', 'trasa_2']) {
+    const t = vk[ime];
+    if (!t || t.max_medjukota == null) greske.push(`vinik-fizika: ${ime} bez merenja`);
+    else if (t.max_medjukota <= (vk.start?.kota_dem || 0)) greske.push(`vinik-fizika: ${ime} — greben ispod vrela, protivi se merenju`);
+  }
+  if (vk.trasa_1?.max_medjukota <= vk.start?.kota_dem || vk.trasa_2?.max_medjukota <= vk.start?.kota_dem)
+    greske.push('vinik-fizika: nijedan greben ne premasuje vrelo — zakljucak o blokadi ne stoji');
+  if (vk.nalaz?.status !== undefined && !/OTVOREN/.test(vk.nalaz.status)) greske.push('vinik-fizika: sukob mora ostati otvoren');
+  if (!vk.izvori?.some(z => /https?:\/\//.test(z.url || ''))) greske.push('vinik-fizika: bez izvora');
+  console.log(`vinik-fizika: greben ${vk.trasa_1?.max_medjukota}/${vk.trasa_2?.max_medjukota} m vs vrelo ${vk.start?.kota_dem} m — trasa ZZSK bez tunela neizvodljiva`);
+}
 console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
 console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
 greske.forEach(g => console.log('  ✗ ' + g));

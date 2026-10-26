@@ -1,223 +1,223 @@
 {
- "svrha": "Monetarna hronologija Medijane: novac po sondama/slojevima/kotama iz Tabela Starinara LXIV/2014 + monografije; vertikalna kontrola slojeva A-E i horizonta 1-3; najmlađi numizmatički datum baze 425-450 (skrivnica, 198,89)",
- "verzija": "0.26",
- "datum": "2026-10-26",
- "autor": "Svemir / dr Poturak Semir; korpust i analiza: GLM roj (numizmatika)",
- "izvor_glavni": "Starinar LXIV/2014, 231-263 (Milošević i dr., Iskopavanja Medijane u 2010. i 2011. godini, Tabele 1a, 2a, 6, 8; lokalno pdf/milosevic_iskopi.txt)",
- "metod": {
-  "korpus": "milosevic_iskopi.txt (tabele novca), milosevic_vila.txt (monografija, FINDS OF ROMAN COINS), stibadium.txt (Starinar LXVI/2016), pop_lazic.txt, ap11_zotovic.txt, evidencija baze",
-  "skala_poverenja": "visoko = podatak sa sondom/kotom iz iskopnog izveštaja; srednje = preko fusnote/monografije bez kataloga ili bez sonde; nisko = opšti okvir bez potvrde"
- },
- "novac": [
-  {
-   "id": "num-001",
-   "carevi_period": "271-275 (kraj krize 3. veka: Aurelijan i savremenici)",
-   "nalaz_sonda_soba_ako_ima": "sonda 75, prostorija w-9, sloj C, kota 198,49 m n.m.v.",
-   "znacaj_za_hronologiju": "Najstariji novac iskopavanja 2010/2011. Lezi u sloju C ispod nivoa zivota vile: dokaz aktivnosti na Medijani pre prve decenije 4. veka, dakle pre horizonta 1 vile. Ne datuje gradnju - samo potvrdjuje stariji zivot na prostoru.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Milosevic i dr., Iskopavanja Medijane u 2010. i 2011. godini, Tabela 6; tacan ID clanka NIJE potvrdjen - pristup webu blokiran ovoj sesiji)",
-   "poverenje": "visoko (iskopni izvestaj sa sondom, slojem i kotom)"
+  "svrha": "Monetarna hronologija Medijane: novac po sondama/slojevima/kotama iz Tabela Starinara LXIV/2014 + monografije; vertikalna kontrola slojeva A-E i horizonta 1-3; najmlađi numizmatički datum baze 425-450 (skrivnica, 198,89)",
+  "verzija": "0.27",
+  "datum": "2026-10-26",
+  "autor": "Svemir / dr Poturak Semir; korpust i analiza: GLM roj (numizmatika)",
+  "izvor_glavni": "Starinar LXIV/2014, 231-263 (Milošević i dr., Iskopavanja Medijane u 2010. i 2011. godini, Tabele 1a, 2a, 6, 8; lokalno pdf/milosevic_iskopi.txt)",
+  "metod": {
+    "korpus": "milosevic_iskopi.txt (tabele novca), milosevic_vila.txt (monografija, FINDS OF ROMAN COINS), stibadium.txt (Starinar LXVI/2016), pop_lazic.txt, ap11_zotovic.txt, evidencija baze",
+    "skala_poverenja": "visoko = podatak sa sondom/kotom iz iskopnog izveštaja; srednje = preko fusnote/monografije bez kataloga ili bez sonde; nisko = opšti okvir bez potvrde"
   },
-  {
-   "id": "num-002",
-   "carevi_period": "294-307 (tetrarhija: Dioklecijan, Maksimijan, Konstancije I Hlor, Galerije)",
-   "nalaz_sonda_soba_ako_ima": "sonda 104 (severoistocni sektor), sloj C, kota 198,81 m n.m.v.; u bazi isti interval vezan i na w-9",
-   "znacaj_za_hronologiju": "Drugi pre-vilski numizmaticki datum. Zajedno sa num-001 pokazuje da horizont 1 vile pociva na starijoj aktivnosti. Severni zid je u sondi 104 ukopan do 197,94 - novac iz sloja C ispod strukturno pripada pre-vili, ne tetrarhijskoj gradnji.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 2a; tacan ID clanka NIJE potvrdjen - pristup webu blokiran ovoj sesiji)",
-   "poverenje": "visoko (iskopni izvestaj sa sondom, slojem i kotom)"
-  },
-  {
-   "id": "num-003",
-   "carevi_period": "324-330 (Krisp, cezar)",
-   "nalaz_sonda_soba_ako_ima": "spisak nalaza monografije (bez sonde i kote u dostupnom izvodu)",
-   "znacaj_za_hronologiju": "Terminus post quem za aktivnosti horizonta 1: monografija belezi porast cirkulacije novca od 310 do 324, pad 320-324 i novi rast od 330-ih, u vezi sa boravcima Konstantina u Naisusu. Krispov novac uklapa se u pocetak vile.",
-   "izvor_url": "https://rai.ai.ac.rs/handle/123456789/1539 (Vasic/Milosevic/Gavrilovic Vitas/Crnoglavac, Constantine's Villa at Mediana, Narodni muzej Nis; engleski rezime, FINDS OF ROMAN COINS)",
-   "poverenje": "srednje (nalaz potvrdjen, ali bez sonde/kote u dostupnom izvodu)"
-  },
-  {
-   "id": "num-004",
-   "carevi_period": "330-335 (Konstantin Veliki)",
-   "nalaz_sonda_soba_ako_ima": "sonda 103 (severoistocni sektor), sloj C, kota 198,85; jos dva komada u sloju D severozapadnog sektora, kote 198,76 i 198,67",
-   "znacaj_za_hronologiju": "Novac oko 330 u slojevima ispod i na nivou podova - saglasno sa datovanjem druge faze vile (prepravke, stibadijumi A i B) na AD 330-378. Podrska horizontu 2 koji pociva oko 330.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabele 1a i 2a) + https://doi.org/10.2298/STA1666081G (Stibadium B ..., Starinar LXVI/2016: druga faza AD 330-378)",
-   "poverenje": "visoko (kote i slojevi iskopnog izvestaja)"
-  },
-  {
-   "id": "num-005",
-   "carevi_period": "335-336 (i 335-337) - Konstantin Veliki, kov novca oko Tricennalije; pitanje VOT XX vs VOT XXX otvoreno",
-   "nalaz_sonda_soba_ako_ima": "sonda 75, prostorija w-9, sloj B, kota 198,75 m n.m.v.; drugi primerak u sloju B SZ sektora na koti 199,03",
-   "znacaj_za_hronologiju": "KLJUCNO ZA KONFLIKT baze 'Vicennalia (325/6) vs Tricennalia (335/6)'. Interval 335-336 su godine Tricennalije (VOT XXX); 325-326 godine Vicennalije (VOT XX). Zatvorena celina u sloju B w-9 (ispod podnog nivoa) sa novcem 335-336 govori za podivanje oko 335/6 i saglasna je sa fazom 2 (330-378). Ako bi revers bio VOT XX, podovi bi se pomerali deset godina ranije. Izvuceni tekst ne citira reversnu legendu - konflikt ostaje OTVOREN; resenje je u katalogu Jankovic-Mihaldzic 2008.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabele 6 i 1a) + katalog: Jankovic-Mihaldzic, Pojedinacni nalazi rimskog novca na Medijani, Naissus I, Nis 2008, 25-73 (nije bio dostupan online ovoj sesiji)",
-   "poverenje": "visoko za nalaz (sonda, sloj, kota); konflikt datovanja OTVOREN"
-  },
-  {
-   "id": "num-006",
-   "carevi_period": "341-346 (Konstans)",
-   "nalaz_sonda_soba_ako_ima": "sloj D severozapadnog sektora, kota 198,69 m n.m.v.",
-   "znacaj_za_hronologiju": "Kontinuitet sredinom 4. veka, u vreme boravka Konstantinovih sinova na Podunavlju (Konstancije II i Konstans potpisali edikt u Naisusu, zima 340). Sloj D je nivo zivota vile - novac ga datuje u puni horizont 2.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a) + https://en.wikipedia.org/wiki/Mediana (uzivo procitano 2026-10-25: edikt iz 340, Vetranio 350, Julijan 361, Valentinijan I i Valens 364)",
-   "poverenje": "visoko (kota i sloj); istorijski kontekst srednje (wikipedia)"
-  },
-  {
-   "id": "num-007",
-   "carevi_period": "355-361 (Konstancije II, zatim Julijan Apostata)",
-   "nalaz_sonda_soba_ako_ima": "sonda 76, prostorija w-10, sloj B, 4 komada, kote 198,52 / 198,53 / 198,54 / 198,54 m n.m.v.",
-   "znacaj_za_hronologiju": "ZATVORENA CELINA od 4 primeraka: pod prostorije w-10 polazen/nivelacija posle 361. Jedan od najjaci numizmatickih argumenata da je vila u punoj funkciji sredinom 6. decenije, pre rusenja.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 6, iskop 2010)",
-   "poverenje": "visoko (zatvorena celina sa sonde-po-sonde kotama)"
-  },
-  {
-   "id": "num-008",
-   "carevi_period": "355-361 (Konstancije II / Julijan)",
-   "nalaz_sonda_soba_ako_ima": "sonda 97 sloj C kota 198,86; sonda 98 sloj C kota 198,76; trem sloj D kota 198,41; sloj B SZ sektora kota 199,47",
-   "znacaj_za_hronologiju": "Rasuti primerci istog intervala u rusevinskim (B), zivucim (D) i medjuslojevima (C) - potvrda da je sredina 6. decenije gusto zastupljena kroz kompleks, ne samo u jednoj prostoriji.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabele 1a, 2a i 8)",
-   "poverenje": "visoko (tabele sa kotama)"
-  },
-  {
-   "id": "num-009",
-   "carevi_period": "360-361 (Julijan Apostata)",
-   "nalaz_sonda_soba_ako_ima": "jugozapadni sektor (iskop 2011), prostorija w-21, sloj D, kota 198,52 m n.m.v.",
-   "znacaj_za_hronologiju": "Novac Julijanovog uspona - poklapa se sa boravkom Julijana u Naisusu krajem 361. U bazi je postavka bronzane ograde sa hermama datovana upravo na 361 (boravak Julijana): ovaj primerak je numizmaticko okruzenje tog datuma.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 6, iskop 2011) + lokalno: medijana_baza (odluka o ogradu: izrada pre 325, postavka 361, zakop 378)",
-   "poverenje": "srednje (kota i sloj potvrdjeni; veza na ogradu je interpretacija baze)"
-  },
-  {
-   "id": "num-010",
-   "carevi_period": "364-375 (Valentinijan I, Valens, Gracijan)",
-   "nalaz_sonda_soba_ako_ima": "prostorija w-21, sloj D, 4 komada (kote 198,46 x3 i 198,45) + sonda 78, prostorija 21/22, sokl, kota 198,59",
-   "znacaj_za_hronologiju": "Najbrojnija grupa novca iskopavanja 2010/2011. Zatvorena celina u sloju D jugozapadnog sektora daje terminus post quem 375 za zatvaranje tog nivoa - temelj datuma rusenja 378.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 6)",
-   "poverenje": "visoko (kote i slojevi iskopnog izvestaja)"
-  },
-  {
-   "id": "num-011",
-   "carevi_period": "364-375 (Valentinijanska dinastija)",
-   "nalaz_sonda_soba_ako_ima": "prefurnijum stibadijuma B kota 198,51; sloj B kota 199,43; sloj D kote 198,93 / 198,91 (x2) / 198,84 (x2)",
-   "znacaj_za_hronologiju": "Rasuti primerci poslednje funkcije vile i u reprezentativnom delu (stibadium B) i u severnim prostorijama. Sloj D sa ovim novcem koriscen je i posle 378 - v. num-016.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a) + https://doi.org/10.2298/STA1666081G (stibadium B: kote i hronologija AD 330-378)",
-   "poverenje": "visoko (tabele sa kotama)"
-  },
-  {
-   "id": "num-012",
-   "carevi_period": "364-367 (Valentinijan I / Valens)",
-   "nalaz_sonda_soba_ako_ima": "sonda 45, prostorija w-24a, kota 198,96 m n.m.v.; drugi primerak sloj D kota 198,83",
-   "znacaj_za_hronologiju": "Uzi interval 364-367: poslednja vidljiva aktivnost u severozapadnim prostorijama pre rusevinskog sloja. Saglasno sa boravkom Valentinijana I i Valensa u vili 364 (podela carstva).",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a) + https://en.wikipedia.org/wiki/Mediana (uzivo procitano 2026-10-25)",
-   "poverenje": "visoko (kota i sloj)"
-  },
-  {
-   "id": "num-013",
-   "carevi_period": "366-367 (Valens, revers GLORIA ROMANORUM)",
-   "nalaz_sonda_soba_ako_ima": "nivo poda jugozapadnog dela prostorije otvorene ka ulaznom prostoru peristila (stariji iskop, prema Dnevniku)",
-   "znacaj_za_hronologiju": "Pojedinacni nalaz iz kataloga Jankovic-Mihaldzic 2008, br. 111/448, citiran preko fusnote 14 Starinara LXIV/2014. Poslednji dokaz funkcije reprezentativnih prostorija vile neposredno pre 378; most izmedju zatvorenih celina 364-375 i rusevina.",
-   "izvor_url": "katalog: Jankovic-Mihaldzic, Pojedinacni nalazi rimskog novca na Medijani, Naissus I, Nis 2008, str. 51, br. 111/448 (nije bio dostupan online ovoj sesiji); citiran u: https://doiserbia.nb.rs/ Starinar LXIV/2014, fusnota 14",
-   "poverenje": "srednje (citirano preko fusnote; sam katalog nije procitan)"
-  },
-  {
-   "id": "num-014",
-   "carevi_period": "364-375 i 367-375 (Valentinijan I, Valens, Gracijan)",
-   "nalaz_sonda_soba_ako_ima": "sonda 81, juzni trem vile, sloj B, kota 198,59 m n.m.v. (2 komada)",
-   "znacaj_za_hronologiju": "ZATVORENA CELINA trema - izvor izvlaci zakljucak direktno iz nje: vecina novca 364-375, 'neposredno pred prvo rusenje vile, koje upravo zbog ovih nalaza mozemo da pripisemo provali Gota posle hadrijanopolske bitke 378. godine'. Ovo je primarni numizmaticki argument za datum 378 u bazi; ali on daje TPQ 375, a 378 je istorijska interpretacija (v. nalaz.md, pitanje 3).",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 8)",
-   "poverenje": "visoko (zatvorena celina + izrecna interpretacija autora iskopavanja)"
-  },
-  {
-   "id": "num-015",
-   "carevi_period": "271 (stariji novac u recentnom sloju - artefakt formiranja)",
-   "nalaz_sonda_soba_ako_ima": "sonda 81, uz zid 49, sloj A, kota zapisana kao '0' (artefakt formiranja)",
-   "znacaj_za_hronologiju": "Novac iz najnovijeg sloja A - dokaz prevrnutog materijala. Upozorenje za ceo sloj: sloj A ne sme se datovati po novcu; u 3D modelu je recentni horizont van anticke faze.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 8, iskop 2011)",
-   "poverenje": "visoko (upisano u tabeli sa oznakom artefakta formiranja)"
-  },
-  {
-   "id": "num-016",
-   "carevi_period": "382-389 (Teodosije I)",
-   "nalaz_sonda_soba_ako_ima": "sonda 46, ulaz u stibadium B, kota 198,85 m n.m.v. (sloj B); jos 2 komada u gornjem nivou sloja D jugozapadnog sektora",
-   "znacaj_za_hronologiju": "Prvi novac POSLE rusevina 378: dokaz da zivot na kompleksu nije prestao 378 - horizont 3 pocinje teodosijskim novcem (posle 383). Uporedno: srpska wikipedia belezi pozar kraja 4. veka i obnovu posle 386.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a) + https://sr.wikipedia.org/wiki/Medijana_(Ni%C5%A1) (iz evidencije baze; ovoj sesiji nije ponovo procitan)",
-   "poverenje": "visoko (kota i sloj); obnova-posle-386 srednje (wikipedia preko baze)"
-  },
-  {
-   "id": "num-017",
-   "carevi_period": "404-406 (Arkadije / Honorije)",
-   "nalaz_sonda_soba_ako_ima": "severozapadni sektor, sloj B, kota 199,14 m n.m.v.",
-   "znacaj_za_hronologiju": "Novac pocetka 5. veka u rusevinskom sloju - zivot na kompleksu traje i posle 400; horizont 3 nije epizoda.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a)",
-   "poverenje": "visoko (kota i sloj)"
-  },
-  {
-   "id": "num-018",
-   "carevi_period": "404-450 (kraj 4. - sredina 5. veka)",
-   "nalaz_sonda_soba_ako_ima": "gornji nivo sloja D jugozapadnog sektora (2 komada)",
-   "znacaj_za_hronologiju": "Sirok interval koji prelazi 441: sloj D se zatvara tek hunskim upadom (441/443), ne gotskim ratom. Zajedno sa num-019 pokriva poslednju fazu zivota.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, tekst o skrivnici) + https://en.wikipedia.org/wiki/Mediana (uzivo procitano 2026-10-25: napusteno posle atilinog rusenja 442)",
-   "poverenje": "srednje (sirok interval, komadi bez preciznije datacije u izvodu)"
-  },
-  {
-   "id": "num-019",
-   "carevi_period": "425-450 (Teodosije II / Valentinijan III)",
-   "nalaz_sonda_soba_ako_ima": "dno kasete (skrivnica), kota 198,89 m n.m.v., ispod tegula",
-   "znacaj_za_hronologiju": "Najmladji numizmaticki datum baze i celog iskopavanja: u tankom sloju zemlje na dnu kasete skrivnice. Zatvara hronologiju vile na hunsko rusenje 441/443 - to je pravi kraj, a ne 378.",
-   "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, tekst o skrivnici)",
-   "poverenje": "visoko (eksplicitna kota i kontekst ispod tegula)"
-  },
-  {
-   "id": "num-020",
-   "carevi_period": "ostava novca - kasni 4. vek do prve polovine 5. veka (sastav i broj primeraka nisu u dostupnom izvodu)",
-   "nalaz_sonda_soba_ako_ima": "horreum (zgrada 91x27 m, ~150 m zapadno od vile), jedna prostorija (sonda nije navedena u izvodu)",
-   "znacaj_za_hronologiju": "Monografija datuje poslednji horizont vile 'vremenom ostave novca u horreumu': maksimum cirkulacije novca pada naglo 441, sa provalom Huna. Ostava je numizmaticka kicma horizonta 3 (posle 383 - 441/443). Pitanje gde se ostava cuva (Narodni muzej Nis?) ostaje otvoreno - muzejski fondovi nisu provereni ovoj sesiji.",
-   "izvor_url": "https://rai.ai.ac.rs/handle/123456789/1539 (Constantine's Villa at Mediana, engleski rezime: 'the hoard of money found in one of the rooms [of the horreum]... Maximum circulation of... coincided with invasion of the Huns and demolition of Mediana in year 441')",
-   "poverenje": "srednje (nalaz potvrdjen u monografiji; sastav, broj primeraka i sadasnja lokacija nepoznati iz dostupnog izvoda)"
-  },
-  {
-   "id": "num-021",
-   "carevi_period": "Aurelijan, Konstantin, Konstancije II (kraj 3. - sredina 4. veka)",
-   "nalaz_sonda_soba_ako_ima": "castellum aquae (vodotoranj), ~500 m JZ od vile",
-   "znacaj_za_hronologiju": "Novac iz vodenog tornja pokriva vreme gradnje i punog rada hidrosistema - saglasno sa vodnim slojem baze (gravitacija castellum -> vila). Numizmaticki dokaz da je voda tekla za vreme horizonta 1 i 2.",
-   "izvor_url": "lokalno: medijana_baza/baza_podataka.json (objekat castellum aquae; izvor: Pop-Lazic 2018, Roman Limes and Cities in Serbia, repozitorijum Arheoloskog instituta https://rai.ai.ac.rs - handle nije potvrdjen ovoj sesiji)",
-   "poverenje": "srednje (bez sonde/kote u bazi; kroz prethodnu obradu baze)"
-  },
-  {
-   "id": "num-022",
-   "carevi_period": "nijedan primerak mladji od 350 (novac 4. veka)",
-   "nalaz_sonda_soba_ako_ima": "prijemni deo vile - novac nadjen 1970-ih pri konzervaciji mozaika",
-   "znacaj_za_hronologiju": "APSENCIJA kao argument: u prijemnom delu sa mozaicima nije nadjen novac mladji od 350. Baza to cita kao znak da prijemni deo vise nije funkcionisao posle 350 - ali to je u napetosti sa novcem 364-375 u prostorijama istog dela vile (num-010/011/014). Najverovatnije se radi o razlicitim okolnostima nalazenja (konzervacija vs iskop), ne o stratigrafiji. Konflikt UPISAN, otvoren.",
-   "izvor_url": "lokalno: medijana_baza/baza_podataka.json (nalaz 'novac, 1970-e pri konzervaciji mozaika')",
-   "poverenje": "srednje (apsencija je slab dokaz; bez stratigrafske kontekstualizacije u bazi)"
-  }
- ],
- "konflikti": [
-  {
-   "id": "vicennalia-vs-tricennalia",
-   "status": "OTVOREN (num-005)",
-   "obrazlozenje": "Zatvorena celina w-9 sloj B (198,75) sa novcem 335-336 saglasna je sa Tricennalijskim horizontom (335/6, VOT XXX) i fazom 2 (330-378); da bi revers bio VOT XX, podovi bi se pomerili deset godina ranije. Izvučeni tekst ne citira reversnu legendu — rešenje je u katalogu Janković-Mihaldžić 2008 (Naissus I, 25-73); jedini citirani broj Starinara LXIV/2014 je br. 111/448 = Valens 366-367."
-  },
-  {
-   "id": "rusenje-378-vs-tpq-375",
-   "status": "DELIČNO REŠENO",
-   "obrazlozenje": "Zatvorena celina trema (num-014) daje terminus post quem 375, ne godinu rušenja; 378 je istorijska interpretacija autora iskopavanja (Hadrijanopol). Numizmatički se jednako dobro uklapa bilo koja godina 375-382. Preporuka za bazu: rušenje upisivati kao \"posle 375, najverovatnije 376-382 (istorijski: 378)\"."
-  },
-  {
-   "id": "konzervacija-1970e-vs-novac-364-375",
-   "status": "OTVOREN (num-022)",
-   "obrazlozenje": "U prijemnom delu (mozaici, konzervacija 1970-ih) nije nađen novac mlađi od 350 — u napetosti sa novcem 364-375 u prostorijama istog dela (num-010/011/014). Verovatno različiti konteksti nalazenja (konzervacija vs iskop), ne stratigrafija; tražiti primarni spisak."
-  },
-  {
-   "id": "378-vs-zivot-do-441",
-   "status": "REŠENO HORIZONTIMA",
-   "obrazlozenje": "378 = kraj reprezentativne funkcije (slojevi B/C); horizont 3 (posle 383) traje do hunskog rušenja 441/443 — novac to potkrepljuje (num-016/017/018/019, ostava u horreumu num-020)."
-  }
- ],
- "ostave": [
-  "ostava novca u horreumu — monografija njome datuje poslednji horizont (maksimum cirkulacije pada 441); sastav, broj primeraka i muzejska lokacija nisu u dostupnim izvodima (num-020)",
-  "ostava delova bronzane ograde sa 4 herme (~250 m SZ, zakop 378) — metal, ne novac; Julijanov novac 360-361 (num-009) numizmatičko je okruženje postavke iz 361",
-  "pop_lazic.txt ~red 1638 i ~red 2304 pominju ostave bez pročitanog konteksta — samo pointer, ne koristiti bez konteksta"
- ],
- "ogranicenja": [
-  "web istraživanje blokirano roju: doiserbia ID Starinara LXIV/2014 nepotvrđen; svi URL-ovi iz evidencije baze ili označeni kao nepotvrđeni",
-  "kovnice i denominacije nisu u dostupnim izvodima; \"očekivane kovnice Moezije\" (Siscia, Thessalonica, Constantinopolis, Rome, Heraclea) su opšti okvir, NE nalaz — poverenje nisko",
-  "sastav ostave iz horreuma nepročitan (ćirilni OCR monografije pokvaren)",
-  "brojevi prebrojani iz tabela — moguće manje razlike"
- ],
- "za_3d": "faza 1: pre 330 (TPQ Krisp 324-330); faza 2: 330-378; faza 3: posle 383-441/443; kote novca 198,41-199,47 u opsegu vertikale baze — direktna veza na sobe w-9, w-10, w-21, w-24a, trem i stibadium B"
+  "novac": [
+    {
+      "id": "num-001",
+      "carevi_period": "271-275 (kraj krize 3. veka: Aurelijan i savremenici)",
+      "nalaz_sonda_soba_ako_ima": "sonda 75, prostorija w-9, sloj C, kota 198,49 m n.m.v.",
+      "znacaj_za_hronologiju": "Najstariji novac iskopavanja 2010/2011. Lezi u sloju C ispod nivoa zivota vile: dokaz aktivnosti na Medijani pre prve decenije 4. veka, dakle pre horizonta 1 vile. Ne datuje gradnju - samo potvrdjuje stariji zivot na prostoru.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Milosevic i dr., Iskopavanja Medijane u 2010. i 2011. godini, Tabela 6; tacan ID clanka NIJE potvrdjen - pristup webu blokiran ovoj sesiji)",
+      "poverenje": "visoko (iskopni izvestaj sa sondom, slojem i kotom)"
+    },
+    {
+      "id": "num-002",
+      "carevi_period": "294-307 (tetrarhija: Dioklecijan, Maksimijan, Konstancije I Hlor, Galerije)",
+      "nalaz_sonda_soba_ako_ima": "sonda 104 (severoistocni sektor), sloj C, kota 198,81 m n.m.v.; u bazi isti interval vezan i na w-9",
+      "znacaj_za_hronologiju": "Drugi pre-vilski numizmaticki datum. Zajedno sa num-001 pokazuje da horizont 1 vile pociva na starijoj aktivnosti. Severni zid je u sondi 104 ukopan do 197,94 - novac iz sloja C ispod strukturno pripada pre-vili, ne tetrarhijskoj gradnji.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 2a; tacan ID clanka NIJE potvrdjen - pristup webu blokiran ovoj sesiji)",
+      "poverenje": "visoko (iskopni izvestaj sa sondom, slojem i kotom)"
+    },
+    {
+      "id": "num-003",
+      "carevi_period": "324-330 (Krisp, cezar)",
+      "nalaz_sonda_soba_ako_ima": "spisak nalaza monografije (bez sonde i kote u dostupnom izvodu)",
+      "znacaj_za_hronologiju": "Terminus post quem za aktivnosti horizonta 1: monografija belezi porast cirkulacije novca od 310 do 324, pad 320-324 i novi rast od 330-ih, u vezi sa boravcima Konstantina u Naisusu. Krispov novac uklapa se u pocetak vile.",
+      "izvor_url": "https://rai.ai.ac.rs/handle/123456789/1539 (Vasic/Milosevic/Gavrilovic Vitas/Crnoglavac, Constantine's Villa at Mediana, Narodni muzej Nis; engleski rezime, FINDS OF ROMAN COINS)",
+      "poverenje": "srednje (nalaz potvrdjen, ali bez sonde/kote u dostupnom izvodu)"
+    },
+    {
+      "id": "num-004",
+      "carevi_period": "330-335 (Konstantin Veliki)",
+      "nalaz_sonda_soba_ako_ima": "sonda 103 (severoistocni sektor), sloj C, kota 198,85; jos dva komada u sloju D severozapadnog sektora, kote 198,76 i 198,67",
+      "znacaj_za_hronologiju": "Novac oko 330 u slojevima ispod i na nivou podova - saglasno sa datovanjem druge faze vile (prepravke, stibadijumi A i B) na AD 330-378. Podrska horizontu 2 koji pociva oko 330.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabele 1a i 2a) + https://doi.org/10.2298/STA1666081G (Stibadium B ..., Starinar LXVI/2016: druga faza AD 330-378)",
+      "poverenje": "visoko (kote i slojevi iskopnog izvestaja)"
+    },
+    {
+      "id": "num-005",
+      "carevi_period": "335-336 (i 335-337) - Konstantin Veliki, kov novca oko Tricennalije; pitanje VOT XX vs VOT XXX otvoreno",
+      "nalaz_sonda_soba_ako_ima": "sonda 75, prostorija w-9, sloj B, kota 198,75 m n.m.v.; drugi primerak u sloju B SZ sektora na koti 199,03",
+      "znacaj_za_hronologiju": "KLJUCNO ZA KONFLIKT baze 'Vicennalia (325/6) vs Tricennalia (335/6)'. Interval 335-336 su godine Tricennalije (VOT XXX); 325-326 godine Vicennalije (VOT XX). Zatvorena celina u sloju B w-9 (ispod podnog nivoa) sa novcem 335-336 govori za podivanje oko 335/6 i saglasna je sa fazom 2 (330-378). Ako bi revers bio VOT XX, podovi bi se pomerali deset godina ranije. Izvuceni tekst ne citira reversnu legendu - konflikt ostaje OTVOREN; resenje je u katalogu Jankovic-Mihaldzic 2008.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabele 6 i 1a) + katalog: Jankovic-Mihaldzic, Pojedinacni nalazi rimskog novca na Medijani, Naissus I, Nis 2008, 25-73 (nije bio dostupan online ovoj sesiji)",
+      "poverenje": "visoko za nalaz (sonda, sloj, kota); konflikt datovanja OTVOREN"
+    },
+    {
+      "id": "num-006",
+      "carevi_period": "341-346 (Konstans)",
+      "nalaz_sonda_soba_ako_ima": "sloj D severozapadnog sektora, kota 198,69 m n.m.v.",
+      "znacaj_za_hronologiju": "Kontinuitet sredinom 4. veka, u vreme boravka Konstantinovih sinova na Podunavlju (Konstancije II i Konstans potpisali edikt u Naisusu, zima 340). Sloj D je nivo zivota vile - novac ga datuje u puni horizont 2.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a) + https://en.wikipedia.org/wiki/Mediana (uzivo procitano 2026-10-25: edikt iz 340, Vetranio 350, Julijan 361, Valentinijan I i Valens 364)",
+      "poverenje": "visoko (kota i sloj); istorijski kontekst srednje (wikipedia)"
+    },
+    {
+      "id": "num-007",
+      "carevi_period": "355-361 (Konstancije II, zatim Julijan Apostata)",
+      "nalaz_sonda_soba_ako_ima": "sonda 76, prostorija w-10, sloj B, 4 komada, kote 198,52 / 198,53 / 198,54 / 198,54 m n.m.v.",
+      "znacaj_za_hronologiju": "ZATVORENA CELINA od 4 primeraka: pod prostorije w-10 polazen/nivelacija posle 361. Jedan od najjaci numizmatickih argumenata da je vila u punoj funkciji sredinom 6. decenije, pre rusenja.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 6, iskop 2010)",
+      "poverenje": "visoko (zatvorena celina sa sonde-po-sonde kotama)"
+    },
+    {
+      "id": "num-008",
+      "carevi_period": "355-361 (Konstancije II / Julijan)",
+      "nalaz_sonda_soba_ako_ima": "sonda 97 sloj C kota 198,86; sonda 98 sloj C kota 198,76; trem sloj D kota 198,41; sloj B SZ sektora kota 199,47",
+      "znacaj_za_hronologiju": "Rasuti primerci istog intervala u rusevinskim (B), zivucim (D) i medjuslojevima (C) - potvrda da je sredina 6. decenije gusto zastupljena kroz kompleks, ne samo u jednoj prostoriji.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabele 1a, 2a i 8)",
+      "poverenje": "visoko (tabele sa kotama)"
+    },
+    {
+      "id": "num-009",
+      "carevi_period": "360-361 (Julijan Apostata)",
+      "nalaz_sonda_soba_ako_ima": "jugozapadni sektor (iskop 2011), prostorija w-21, sloj D, kota 198,52 m n.m.v.",
+      "znacaj_za_hronologiju": "Novac Julijanovog uspona - poklapa se sa boravkom Julijana u Naisusu krajem 361. U bazi je postavka bronzane ograde sa hermama datovana upravo na 361 (boravak Julijana): ovaj primerak je numizmaticko okruzenje tog datuma.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 6, iskop 2011) + lokalno: medijana_baza (odluka o ogradu: izrada pre 325, postavka 361, zakop 378)",
+      "poverenje": "srednje (kota i sloj potvrdjeni; veza na ogradu je interpretacija baze)"
+    },
+    {
+      "id": "num-010",
+      "carevi_period": "364-375 (Valentinijan I, Valens, Gracijan)",
+      "nalaz_sonda_soba_ako_ima": "prostorija w-21, sloj D, 4 komada (kote 198,46 x3 i 198,45) + sonda 78, prostorija 21/22, sokl, kota 198,59",
+      "znacaj_za_hronologiju": "Najbrojnija grupa novca iskopavanja 2010/2011. Zatvorena celina u sloju D jugozapadnog sektora daje terminus post quem 375 za zatvaranje tog nivoa - temelj datuma rusenja 378.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 6)",
+      "poverenje": "visoko (kote i slojevi iskopnog izvestaja)"
+    },
+    {
+      "id": "num-011",
+      "carevi_period": "364-375 (Valentinijanska dinastija)",
+      "nalaz_sonda_soba_ako_ima": "prefurnijum stibadijuma B kota 198,51; sloj B kota 199,43; sloj D kote 198,93 / 198,91 (x2) / 198,84 (x2)",
+      "znacaj_za_hronologiju": "Rasuti primerci poslednje funkcije vile i u reprezentativnom delu (stibadium B) i u severnim prostorijama. Sloj D sa ovim novcem koriscen je i posle 378 - v. num-016.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a) + https://doi.org/10.2298/STA1666081G (stibadium B: kote i hronologija AD 330-378)",
+      "poverenje": "visoko (tabele sa kotama)"
+    },
+    {
+      "id": "num-012",
+      "carevi_period": "364-367 (Valentinijan I / Valens)",
+      "nalaz_sonda_soba_ako_ima": "sonda 45, prostorija w-24a, kota 198,96 m n.m.v.; drugi primerak sloj D kota 198,83",
+      "znacaj_za_hronologiju": "Uzi interval 364-367: poslednja vidljiva aktivnost u severozapadnim prostorijama pre rusevinskog sloja. Saglasno sa boravkom Valentinijana I i Valensa u vili 364 (podela carstva).",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a) + https://en.wikipedia.org/wiki/Mediana (uzivo procitano 2026-10-25)",
+      "poverenje": "visoko (kota i sloj)"
+    },
+    {
+      "id": "num-013",
+      "carevi_period": "366-367 (Valens, revers GLORIA ROMANORUM)",
+      "nalaz_sonda_soba_ako_ima": "nivo poda jugozapadnog dela prostorije otvorene ka ulaznom prostoru peristila (stariji iskop, prema Dnevniku)",
+      "znacaj_za_hronologiju": "Pojedinacni nalaz iz kataloga Jankovic-Mihaldzic 2008, br. 111/448, citiran preko fusnote 14 Starinara LXIV/2014. Poslednji dokaz funkcije reprezentativnih prostorija vile neposredno pre 378; most izmedju zatvorenih celina 364-375 i rusevina.",
+      "izvor_url": "katalog: Jankovic-Mihaldzic, Pojedinacni nalazi rimskog novca na Medijani, Naissus I, Nis 2008, str. 51, br. 111/448 (nije bio dostupan online ovoj sesiji); citiran u: https://doiserbia.nb.rs/ Starinar LXIV/2014, fusnota 14",
+      "poverenje": "srednje (citirano preko fusnote; sam katalog nije procitan)"
+    },
+    {
+      "id": "num-014",
+      "carevi_period": "364-375 i 367-375 (Valentinijan I, Valens, Gracijan)",
+      "nalaz_sonda_soba_ako_ima": "sonda 81, juzni trem vile, sloj B, kota 198,59 m n.m.v. (2 komada)",
+      "znacaj_za_hronologiju": "ZATVORENA CELINA trema - izvor izvlaci zakljucak direktno iz nje: vecina novca 364-375, 'neposredno pred prvo rusenje vile, koje upravo zbog ovih nalaza mozemo da pripisemo provali Gota posle hadrijanopolske bitke 378. godine'. Ovo je primarni numizmaticki argument za datum 378 u bazi; ali on daje TPQ 375, a 378 je istorijska interpretacija (v. nalaz.md, pitanje 3).",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 8)",
+      "poverenje": "visoko (zatvorena celina + izrecna interpretacija autora iskopavanja)"
+    },
+    {
+      "id": "num-015",
+      "carevi_period": "271 (stariji novac u recentnom sloju - artefakt formiranja)",
+      "nalaz_sonda_soba_ako_ima": "sonda 81, uz zid 49, sloj A, kota zapisana kao '0' (artefakt formiranja)",
+      "znacaj_za_hronologiju": "Novac iz najnovijeg sloja A - dokaz prevrnutog materijala. Upozorenje za ceo sloj: sloj A ne sme se datovati po novcu; u 3D modelu je recentni horizont van anticke faze.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 8, iskop 2011)",
+      "poverenje": "visoko (upisano u tabeli sa oznakom artefakta formiranja)"
+    },
+    {
+      "id": "num-016",
+      "carevi_period": "382-389 (Teodosije I)",
+      "nalaz_sonda_soba_ako_ima": "sonda 46, ulaz u stibadium B, kota 198,85 m n.m.v. (sloj B); jos 2 komada u gornjem nivou sloja D jugozapadnog sektora",
+      "znacaj_za_hronologiju": "Prvi novac POSLE rusevina 378: dokaz da zivot na kompleksu nije prestao 378 - horizont 3 pocinje teodosijskim novcem (posle 383). Uporedno: srpska wikipedia belezi pozar kraja 4. veka i obnovu posle 386.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a) + https://sr.wikipedia.org/wiki/Medijana_(Ni%C5%A1) (iz evidencije baze; ovoj sesiji nije ponovo procitan)",
+      "poverenje": "visoko (kota i sloj); obnova-posle-386 srednje (wikipedia preko baze)"
+    },
+    {
+      "id": "num-017",
+      "carevi_period": "404-406 (Arkadije / Honorije)",
+      "nalaz_sonda_soba_ako_ima": "severozapadni sektor, sloj B, kota 199,14 m n.m.v.",
+      "znacaj_za_hronologiju": "Novac pocetka 5. veka u rusevinskom sloju - zivot na kompleksu traje i posle 400; horizont 3 nije epizoda.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, Tabela 1a)",
+      "poverenje": "visoko (kota i sloj)"
+    },
+    {
+      "id": "num-018",
+      "carevi_period": "404-450 (kraj 4. - sredina 5. veka)",
+      "nalaz_sonda_soba_ako_ima": "gornji nivo sloja D jugozapadnog sektora (2 komada)",
+      "znacaj_za_hronologiju": "Sirok interval koji prelazi 441: sloj D se zatvara tek hunskim upadom (441/443), ne gotskim ratom. Zajedno sa num-019 pokriva poslednju fazu zivota.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, tekst o skrivnici) + https://en.wikipedia.org/wiki/Mediana (uzivo procitano 2026-10-25: napusteno posle atilinog rusenja 442)",
+      "poverenje": "srednje (sirok interval, komadi bez preciznije datacije u izvodu)"
+    },
+    {
+      "id": "num-019",
+      "carevi_period": "425-450 (Teodosije II / Valentinijan III)",
+      "nalaz_sonda_soba_ako_ima": "dno kasete (skrivnica), kota 198,89 m n.m.v., ispod tegula",
+      "znacaj_za_hronologiju": "Najmladji numizmaticki datum baze i celog iskopavanja: u tankom sloju zemlje na dnu kasete skrivnice. Zatvara hronologiju vile na hunsko rusenje 441/443 - to je pravi kraj, a ne 378.",
+      "izvor_url": "https://doiserbia.nb.rs/ (Starinar LXIV/2014, 231-263, tekst o skrivnici)",
+      "poverenje": "visoko (eksplicitna kota i kontekst ispod tegula)"
+    },
+    {
+      "id": "num-020",
+      "carevi_period": "ostava novca - kasni 4. vek do prve polovine 5. veka (sastav i broj primeraka nisu u dostupnom izvodu)",
+      "nalaz_sonda_soba_ako_ima": "horreum (zgrada 91x27 m, ~150 m zapadno od vile), jedna prostorija (sonda nije navedena u izvodu)",
+      "znacaj_za_hronologiju": "Monografija datuje poslednji horizont vile 'vremenom ostave novca u horreumu': maksimum cirkulacije novca pada naglo 441, sa provalom Huna. Ostava je numizmaticka kicma horizonta 3 (posle 383 - 441/443). Pitanje gde se ostava cuva (Narodni muzej Nis?) ostaje otvoreno - muzejski fondovi nisu provereni ovoj sesiji.",
+      "izvor_url": "https://rai.ai.ac.rs/handle/123456789/1539 (Constantine's Villa at Mediana, engleski rezime: 'the hoard of money found in one of the rooms [of the horreum]... Maximum circulation of... coincided with invasion of the Huns and demolition of Mediana in year 441')",
+      "poverenje": "srednje (nalaz potvrdjen u monografiji; sastav, broj primeraka i sadasnja lokacija nepoznati iz dostupnog izvoda)"
+    },
+    {
+      "id": "num-021",
+      "carevi_period": "Aurelijan, Konstantin, Konstancije II (kraj 3. - sredina 4. veka)",
+      "nalaz_sonda_soba_ako_ima": "castellum aquae (vodotoranj), ~500 m JZ od vile",
+      "znacaj_za_hronologiju": "Novac iz vodenog tornja pokriva vreme gradnje i punog rada hidrosistema - saglasno sa vodnim slojem baze (gravitacija castellum -> vila). Numizmaticki dokaz da je voda tekla za vreme horizonta 1 i 2.",
+      "izvor_url": "lokalno: medijana_baza/baza_podataka.json (objekat castellum aquae; izvor: Pop-Lazic 2018, Roman Limes and Cities in Serbia, repozitorijum Arheoloskog instituta https://rai.ai.ac.rs - handle nije potvrdjen ovoj sesiji)",
+      "poverenje": "srednje (bez sonde/kote u bazi; kroz prethodnu obradu baze)"
+    },
+    {
+      "id": "num-022",
+      "carevi_period": "nijedan primerak mladji od 350 (novac 4. veka)",
+      "nalaz_sonda_soba_ako_ima": "prijemni deo vile - novac nadjen 1970-ih pri konzervaciji mozaika",
+      "znacaj_za_hronologiju": "APSENCIJA kao argument: u prijemnom delu sa mozaicima nije nadjen novac mladji od 350. Baza to cita kao znak da prijemni deo vise nije funkcionisao posle 350 - ali to je u napetosti sa novcem 364-375 u prostorijama istog dela vile (num-010/011/014). Najverovatnije se radi o razlicitim okolnostima nalazenja (konzervacija vs iskop), ne o stratigrafiji. Konflikt UPISAN, otvoren.",
+      "izvor_url": "lokalno: medijana_baza/baza_podataka.json (nalaz 'novac, 1970-e pri konzervaciji mozaika')",
+      "poverenje": "srednje (apsencija je slab dokaz; bez stratigrafske kontekstualizacije u bazi)"
+    }
+  ],
+  "konflikti": [
+    {
+      "id": "vicennalia-vs-tricennalia",
+      "status": "OTVOREN (num-005)",
+      "obrazlozenje": "Zatvorena celina w-9 sloj B (198,75) sa novcem 335-336 saglasna je sa Tricennalijskim horizontom (335/6, VOT XXX) i fazom 2 (330-378); da bi revers bio VOT XX, podovi bi se pomerili deset godina ranije. Izvučeni tekst ne citira reversnu legendu — rešenje je u katalogu Janković-Mihaldžić 2008 (Naissus I, 25-73); jedini citirani broj Starinara LXIV/2014 je br. 111/448 = Valens 366-367."
+    },
+    {
+      "id": "rusenje-378-vs-tpq-375",
+      "status": "DELIČNO REŠENO",
+      "obrazlozenje": "Zatvorena celina trema (num-014) daje terminus post quem 375, ne godinu rušenja; 378 je istorijska interpretacija autora iskopavanja (Hadrijanopol). Numizmatički se jednako dobro uklapa bilo koja godina 375-382. Preporuka za bazu: rušenje upisivati kao \"posle 375, najverovatnije 376-382 (istorijski: 378)\"."
+    },
+    {
+      "id": "konzervacija-1970e-vs-novac-364-375",
+      "status": "OTVOREN (num-022)",
+      "obrazlozenje": "U prijemnom delu (mozaici, konzervacija 1970-ih) nije nađen novac mlađi od 350 — u napetosti sa novcem 364-375 u prostorijama istog dela (num-010/011/014). Verovatno različiti konteksti nalazenja (konzervacija vs iskop), ne stratigrafija; tražiti primarni spisak."
+    },
+    {
+      "id": "378-vs-zivot-do-441",
+      "status": "REŠENO HORIZONTIMA",
+      "obrazlozenje": "378 = kraj reprezentativne funkcije (slojevi B/C); horizont 3 (posle 383) traje do hunskog rušenja 441/443 — novac to potkrepljuje (num-016/017/018/019, ostava u horreumu num-020)."
+    }
+  ],
+  "ostave": [
+    "ostava novca u horreumu — monografija njome datuje poslednji horizont (maksimum cirkulacije pada 441); sastav, broj primeraka i muzejska lokacija nisu u dostupnim izvodima (num-020)",
+    "ostava delova bronzane ograde sa 4 herme (~250 m SZ, zakop 378) — metal, ne novac; Julijanov novac 360-361 (num-009) numizmatičko je okruženje postavke iz 361",
+    "pop_lazic.txt ~red 1638 i ~red 2304 pominju ostave bez pročitanog konteksta — samo pointer, ne koristiti bez konteksta"
+  ],
+  "ogranicenja": [
+    "web istraživanje blokirano roju: doiserbia ID Starinara LXIV/2014 nepotvrđen; svi URL-ovi iz evidencije baze ili označeni kao nepotvrđeni",
+    "kovnice i denominacije nisu u dostupnim izvodima; \"očekivane kovnice Moezije\" (Siscia, Thessalonica, Constantinopolis, Rome, Heraclea) su opšti okvir, NE nalaz — poverenje nisko",
+    "sastav ostave iz horreuma nepročitan (ćirilni OCR monografije pokvaren)",
+    "brojevi prebrojani iz tabela — moguće manje razlike"
+  ],
+  "za_3d": "faza 1: pre 330 (TPQ Krisp 324-330); faza 2: 330-378; faza 3: posle 383-441/443; kote novca 198,41-199,47 u opsegu vertikale baze — direktna veza na sobe w-9, w-10, w-21, w-24a, trem i stibadium B"
 }

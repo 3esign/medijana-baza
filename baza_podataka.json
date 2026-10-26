@@ -1,953 +1,954 @@
 {
- "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
- "verzija": "0.26",
- "datum": "2026-10-26",
- "autor": "Svemir / dr Poturak Semir",
- "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
- "izvori": [
-  {
-   "id": "wiki-en",
-   "url": "https://en.wikipedia.org/wiki/Mediana",
-   "jezik": "en",
-   "tip": "enciklopedija",
-   "pristup": "2026-10-25"
+  "projekat": "Medijana — rekonstrukcija iz javno dostupnih podataka",
+  "verzija": "0.27",
+  "datum": "2026-10-26",
+  "autor": "Svemir / dr Poturak Semir",
+  "metod": "triangulacija vise izvora (sr i en), svaka tvrdnja ima izvor, poverenje i konflikt",
+  "izvori": [
+    {
+      "id": "wiki-en",
+      "url": "https://en.wikipedia.org/wiki/Mediana",
+      "jezik": "en",
+      "tip": "enciklopedija",
+      "pristup": "2026-10-25"
+    },
+    {
+      "id": "wiki-sr",
+      "url": "https://sr.wikipedia.org/wiki/Medijana_(Niš)",
+      "jezik": "sr",
+      "tip": "enciklopedija",
+      "pristup": "2026-10-25"
+    },
+    {
+      "id": "web-sr-sinteza",
+      "tip": "web pretraga (sr)",
+      "pristup": "2026-10-25",
+      "napomena": "agregat: Wikipedia sr, Narodni muzej Niš, Panacomp, PUPNI 2023/24"
+    },
+    {
+      "id": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q960839",
+      "tip": "strojno citljiv sloj",
+      "pristup": "2026-10-25",
+      "fajl": "wd_q960839.json"
+    },
+    {
+      "id": "osm",
+      "url": "https://www.openstreetmap.org/way/296184228",
+      "tip": "strojno citljiv sloj",
+      "pristup": "2026-10-25",
+      "fajl": "osm_way_full.json"
+    },
+    {
+      "id": "nasledje",
+      "url": "https://nasledje.gov.rs/index.cfm/spomenici/pregled_spomenika?spomenik_id=109383",
+      "tip": "primarni drzavni registar",
+      "pristup": "2026-10-25",
+      "status": "NEDOSTUPAN 2026-10-25 — portal eUprava u nadogradji sistema; ponoviti"
+    },
+    {
+      "id": "unesco-romuliana",
+      "url": "https://whc.unesco.org/en/list/1253",
+      "tip": "komparativni lokalitet",
+      "pristup": "2026-10-25"
+    },
+    {
+      "id": "unesco-casale",
+      "url": "https://whc.unesco.org/en/list/1024",
+      "tip": "komparativni lokalitet",
+      "pristup": "2026-10-25"
+    },
+    {
+      "id": "seindal",
+      "url": "https://sights.seindal.dk/italy/sicily/piazza-armerina/villa-romana-del-casale/peristyle",
+      "tip": "komparativni lokalitet — merenja peristila",
+      "pristup": "2026-10-25"
+    },
+    {
+      "id": "ammianus",
+      "url": "Ammianus Marcellinus 26.5.1 („Mediana a civitate tertio lapide“)",
+      "tip": "antički primarni izvor",
+      "provereno": "2026-10-25, doslovno"
+    },
+    {
+      "id": "starinar",
+      "tip": "primarna arheološka literatura (doiserbia.nb.rs, open access)",
+      "status": "PREKID 2026-10-25: preuzimanje 8 PDF-ova palo zbog iscrpljenih kredita; ponoviti — traženi radovi: Mirković, Starinar o Medijani; Vasić o horreumu"
+    },
+    {
+      "id": "gavrilovic-2016-stibadium",
+      "tip": "primarni recenzirani rad",
+      "citat": "Gavrilovic Vitas N., Milosevic Jevtic G., Crnoglavac V., Stibadium B of villa with peristyle at Mediana, Starinar LXVI (2016), 81-102",
+      "doi": "10.2298/STA1666081G",
+      "url": "https://doiserbia.nb.rs/ft.aspx?id=0350-02411666081G",
+      "dostupnost": "open access, tekst + figure, lokalno pdf/stibadium_B_gavrilovic_2016.pdf",
+      "novine": "stibadijum A i B, mere, apsolutni nivoi m n.m.v., grejanje, opus mixtum, druga faza AD 330-378"
+    },
+    {
+      "id": "monografija-vila-2011",
+      "naziv": "Constantine's Villa at Mediana (Vasic, Milosevic, Gavrilovic Vitas, Crnoglavac)",
+      "izdavac": "Narodni muzej Nis",
+      "strana": 108,
+      "url": "https://rai.ai.ac.rs/handle/123456789/1539",
+      "jezik": "en",
+      "tip": "monografija",
+      "pristup": "2026-10-25",
+      "napomena": "puni tekst izvucen lokalno: pdf/milosevic_vila.txt (161.700 znakova); nosi situacioni plan sa 9 elemenata i osnovu rezidencijalnog kompleksa"
+    },
+    {
+      "id": "iskopi-2010-2011",
+      "naziv": "Iskopavanja Medijane u 2010. i 2011. godini (Vasic, Milosevic, Gavrilovic)",
+      "url": "https://rai.ai.ac.rs/handle/123456789/210",
+      "jezik": "sr",
+      "tip": "iskopni izvestaj",
+      "pristup": "2026-10-25",
+      "napomena": "pdf/milosevic_iskopi.txt; 9 meseci iskopavanja, plan vile sa sondama"
+    },
+    {
+      "id": "carska-ideologija",
+      "naziv": "Carska ideologija u arhitekturi, umetnosti i skulpturi rimske vile na Medijani (Milosevic)",
+      "url": "https://rai.ai.ac.rs/handle/123456789/1555",
+      "jezik": "sr",
+      "tip": "rad",
+      "pristup": "2026-10-25",
+      "napomena": "pdf/milosevic_ideologija.txt; bronzana ograda sa hermama, skulpturski program"
+    },
+    {
+      "id": "geofizika-2011",
+      "url": "https://doiserbia.nb.rs/ft.aspx?id=0350-02411161275M",
+      "jezik": "en+sr",
+      "tip": "clanak (Starinar LXI/2011, 275-284)",
+      "pristup": "2026-10-25",
+      "napomena": "Gordana Milosevic (Arhitektonski fakultet) + RGK DAI (Peters, Wendling); geomagnetna prospekcija april 2010, 16 ha; DOI 10.2298/STA1161275M"
+    },
+    {
+      "id": "ap11-zotovic-1969",
+      "url": "https://files.catbox.moe/0j6r0o.pdf",
+      "jezik": "sr",
+      "tip": "iskopni izvestaj (Arheoloski pregled 11, 1969, 185-186)",
+      "pristup": "2026-10-25",
+      "napomena": "Lj. Zotovic i N. Petrovic; iskopavanja 1969: severni deo peristila, juzni deo centralne sale, ekonomske prostorije; konzervacija termi iz 1967"
+    },
+    {
+      "id": "jeremic-1988-castellum",
+      "url": "https://viminacium.org.rs (arhiva Starinara — sken bez tekstualnog sloja)",
+      "jezik": "sr+fr",
+      "tip": "monografska iskopna obrada (Starinar XXXIX/1988, 59-84)",
+      "pristup": "2026-10-25",
+      "napomena": "M. Jeremić, Castellum aquae antičke Medijane; očitano vizuelno sa rendera str. 62-81 (starinar39/); jedina monografska obrada kasteluma sa merenjima i kotama"
+    },
+    {
+      "id": "jeremic-2006-mozaici",
+      "url": "https://www.nisandbyzantium.org.rs/doc/zbornik4/PDF-IV/Gordana Jeremic.pdf",
+      "jezik": "sr",
+      "tip": "članak (Niš i Vizantija IV, 2006, 145-158)",
+      "pristup": "2026-10-25",
+      "napomena": "G. Jeremić, Mozaici Medijane — neka razmatranja; bibliografski rešen, tri živa URL-a PDF-a; prvi pasus (naselje ~40 ha) verbatim preko DDG indeksa; pun tekst skinuti ručno"
+    },
+    {
+      "id": "jankovic-mihaldzic-2008",
+      "url": "https://bibliografije.nb.rs/bibliografija/tekuca/clanci/serijaA/y2007/zapisi027.html",
+      "jezik": "sr",
+      "tip": "katalog (Naissus 1/2008, 25-73 i 75-95, ISSN 1820-9025; COBISS.SR-ID 157322252, 157323532)",
+      "pristup": "2026-10-25",
+      "napomena": "D. Janković-Mihaldžić, Pojedinačni nalazi rimskog novca na Mediani + Skupni nalaz — verovatno \"Mediana Numismatic Catalogue\"; nedigitalizovano; ključ za zatvaranje Vicennalia/Tricennalia i datovanje po objektima"
+    },
+    {
+      "id": "glm-epigrafika",
+      "rad": "GLM roj: epigrafika Medijane (nalaz iz transkripta)",
+      "put": "roj_glm/epigrafika/nalaz.md",
+      "tip": "primarni-pregled",
+      "datum": "2026-10-26"
+    }
+  ],
+  "osnova": {
+    "naziv": "Mediana (klasicno: rezidencijalno predgradje Naissusa)",
+    "koordinate": {
+      "lat": 43.31027778,
+      "lon": 21.94888889,
+      "izvor": "wikidata P625 / wiki-sr 43°18'35\" N 21°56'55\" E",
+      "osm_center": {
+        "lat": 43.3095654,
+        "lon": 21.9485401
+      }
+    },
+    "osm_bbox": {
+      "min_lat": 43.3084686,
+      "min_lon": 21.9470328,
+      "max_lat": 43.3113572,
+      "max_lon": 21.9504661,
+      "izvor": "osm way 296184228",
+      "napomena": "obuhvata samo zaštićeno jezgro, ne celu 40 ha zonu"
+    },
+    "lokacija": "3,5 rimske milje (~4,5 km) istočno od centra Naisa, put za Nišku Banju, lesna terasa visoka 35 m",
+    "povrsina_lokaliteta_m2": {
+      "vrednost": 400000,
+      "poverenje": "visoko",
+      "izvor": "wiki-en + wiki-sr (~40 ha)",
+      "napomena": "rimski Niš tada 20-25 ha; otkriveno preko 80 objekata (wiki-sr)"
+    },
+    "zastita": {
+      "program": "AN 22, „Bresje-Mediana. Brzi Brod“ (potvrdeno: Wikidata P4245 'AN 22' + OSM ref:RS:nkd + wiki-sr)",
+      "nivo1_1949": {
+        "datum": "1949-02-09",
+        "opis": "Rešenje Zavoda za zaštitu spomenika NR Srbije br. 220/49 — nepokretno kulturno dobro",
+        "izvor": "wiki-sr",
+        "poverenje": "visoko"
+      },
+      "nivo2_1979": {
+        "datum": "1979-03-29",
+        "opis": "Odluka Narodne skupštine SR Srbije br. 29",
+        "izvor": "wiki-sr",
+        "poverenje": "visoko"
+      },
+      "nivo3_1981": {
+        "datum": "1981-12-19",
+        "opis": "kategorisano kao dobro od izuzetnog znacaja, broj AN 22",
+        "izvor": "wiki-sr + OSM heritage:RS:inscription_date",
+        "poverenje": "visoko"
+      },
+      "jurisdikcija": "Republički zavod za zaštitu spomenika kulture – Beograd (OSM); lokalno Zavod za zaštitu spomenika kulture Niš (wiki-sr)",
+      "kriterijum": "izuzetan (OSM heritage:RS:criteria)"
+    },
+    "poseta_danas": {
+      "radno_vreme": "ut-sub 10-18 (sred). sub-ned 10-15 u OSM-u; uporediti sa aktuelnim sajtom",
+      "telefon": "+381 18 550 433",
+      "izvor": "osm",
+      "napomena": "park bio 10 godina zatvoren, otvoren krajem decembra 2022 (wiki-sr)"
+    }
   },
-  {
-   "id": "wiki-sr",
-   "url": "https://sr.wikipedia.org/wiki/Medijana_(Niš)",
-   "jezik": "sr",
-   "tip": "enciklopedija",
-   "pristup": "2026-10-25"
+  "hronologija": [
+    {
+      "godina": 269,
+      "dogadjaj": "pobeda Klaudija II nad Gotima kod Naissusa — kontekst",
+      "poverenje": "visoko",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": "kraj 3. v",
+      "dogadjaj": "nastanak kompleksa (kraj 3 / pocetak 4 veka)",
+      "poverenje": "visoko",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": "306-337",
+      "dogadjaj": "izgradnja za Konstantina Velikog, rodjenog u Naissusu",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": 315,
+      "dogadjaj": "Konstantin u Naissusu izdaje zakone",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": 319,
+      "dogadjaj": "zakoni u Naissusu",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": 324,
+      "dogadjaj": "zakoni u Naissusu",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": 334,
+      "dogadjaj": "zakoni u Naissusu; poseta porodice",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": 340,
+      "dogadjaj": "Konstancije II i Konstans zimuju, edikt potpisan",
+      "poverenje": "srednje",
+      "izvor": "wiki-en",
+      "konflikt": "sr sinteza ne pominje; proveriti u CIL/leges"
+    },
+    {
+      "godina": 350,
+      "dogadjaj": "Vetranio predaje insignije Konstanciju II u Naissusu",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": "330-361",
+      "dogadjaj": "vrhunac aktivnosti lokaliteta",
+      "poverenje": "srednje",
+      "konflikt": "sr sinteza daje opseg 330-361; wiki-en niz dogadjaja dopusta do 364"
+    },
+    {
+      "godina": "kraj 361",
+      "dogadjaj": "Julijan Apostata 2 meseca, poslanice Senatu i grckim gradovima",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": 364,
+      "dogadjaj": "Valentinijan I i Valens dele carstvo u vili",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": "kraj 4. v",
+      "dogadjaj": "pozar; obnova posle 386",
+      "poverenje": "srednje",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": 350,
+      "dogadjaj": "castellum aquae u upotrebi od kraja 3. do sredine 4. veka — novac Aurelijana, Konstantina, Konstancija II",
+      "poverenje": "srednje",
+      "izvor": "wiki-sr",
+      "napomena": "datum zapisan kao meta; vidi castellum"
+    },
+    {
+      "godina": "posle 378",
+      "dogadjaj": "dve ranohriscanske bazilike podignute istovremeno",
+      "poverenje": "srednje",
+      "konflikt": "sr sinteza daje kapislu 361-425 — uskladiti"
+    },
+    {
+      "godina": 441,
+      "dogadjaj": "hunsko rusenje Naissusa (Attila); lokalitet napusten do 442",
+      "poverenje": "visoko",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": "548-551",
+      "dogadjaj": "slovenski upadi",
+      "poverenje": "visoko",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": "7. - pocetak 8. v",
+      "dogadjaj": "prestanak zivota na lokalitetu",
+      "poverenje": "srednje",
+      "izvor": "wiki-sr"
+    },
+    {
+      "period": "330-334",
+      "dogadjaj": "prva gradjevinska faza vile sa oktogonom (datiranje iz monografije; mozaik sobe 2 isto iz te faze)",
+      "izvor": "monografija-vila-2011",
+      "poverenje": "srednje"
+    }
+  ],
+  "objekti": {
+    "vila_sa_peristilom": {
+      "dimenzije_m": [
+        98.6,
+        63
+      ],
+      "osa": "sever-jug",
+      "povrsina_m2": [
+        {
+          "vrednost": 6000,
+          "izvor": "wiki-en"
+        },
+        {
+          "vrednost": 6800,
+          "izvor": "wiki-sr"
+        }
+      ],
+      "mozaici_m2": {
+        "ukupno": 945,
+        "trem_peristila": 450,
+        "hodnik": 100,
+        "triklinijum": 55,
+        "izvor": "wiki-sr",
+        "konflikt": "wiki-en spominje samo 450 m2 (trem) — 945 je ukupno, nije protivurecje nego druga velicina"
+      },
+      "auditorijum": "centralni sesougao 3.2 m po stranici, sesougaona fontana sa olovnim vodom",
+      "triklinijum": "sa apsidom, podijum od tri stepenika, hipokaust",
+      "grejanje": "ceo severni deo, hipokaust",
+      "dekor": "mermer, visebojni mermer na zidovima, freske, figuralni mozaici na ulazu u prijemnu salu",
+      "izvor": "wiki-en + wiki-sr"
+    },
+    "terme": {
+      "polozaj": "severozapadno od vile, verovatno spojene, jug ulaz",
+      "prostorije": [
+        "apodyterium",
+        "palestra",
+        "tepidarium",
+        "caldarium",
+        "frigidarium",
+        "sudatorium",
+        "praefurnium"
+      ],
+      "podovi": "geometrijski mozaik istog kvaliteta kao peristil",
+      "vodovod": "izvor na brdu Oblik (ne klasican akvadukt); wiki-sr navodi akvedukt sa termalnih izvora Niske Banje",
+      "izvor": "sr-sinteza + wiki-en",
+      "konflikt": "Oblik vs Niska Banja za izvor vode — otvoreno"
+    },
+    "vila_sa_oktogonom": {
+      "polozaj": "severno od vile",
+      "opis": "oktagonalne i kruzne prostorije",
+      "istrazivano_m2": 3150,
+      "otkrio": "Felix Kanic",
+      "uz_nju": "cetvrtasto dvoriste",
+      "izvor": "wiki-en + wiki-sr",
+      "nedostaje": "kompletne dimenzije, datum — potrebna literatura"
+    },
+    "vila_sa_konhama": {
+      "otkriveno": 1975,
+      "kontekst": "zasticna iskopavanja puta Niš-Niška Banja",
+      "duzina_m": 32.5,
+      "osa": "istok-zapad",
+      "grejanje": "nema — sezonska upotreba",
+      "izvor": "wiki-sr"
+    },
+    "horreum": {
+      "udaljenost_m": 150,
+      "dimenzije_m": [
+        91,
+        27
+      ],
+      "osa": "istok-zapad",
+      "iskop": 1936,
+      "dolii": "dva reda stubaca, visina ~2 m",
+      "bazeni": "uz zapadni zid, dubina 1.40 m, za vino i ulje",
+      "izvor": "wiki-en + wiki-sr"
+    },
+    "castellum_aquae": {
+      "opis": "vodotoranj na kraju akvadukta, osovina S-J",
+      "udaljenost_m": 500,
+      "smer": "jugozapadno od centra",
+      "pad_10m": "razlika visine toranj-dolina = pritisak za fontane",
+      "bazeni": "dva bazena-filtera sa lomljenim pescarom i krecnjakom, hidroizolacioni crvenkasti malter",
+      "upotreba": "kraj 3. - sredina 4. veka (novac Aurelijana, Konstantina, Konstancija II)",
+      "izvor": "wiki-en + wiki-sr"
+    },
+    "bazilike": [
+      {
+        "otkriveno": 2000,
+        "nalaz": "hi-ro monogram"
+      },
+      {
+        "otkriveno": 2007,
+        "udaljenost_m": 8,
+        "nalaz": "bronzano prsten sa krstom"
+      }
+    ],
+    "muzej": {
+      "godina": 1936,
+      "opis": "zgrada Muzeja Medijane podignuta nad triklinijumom vile sa peristilom",
+      "izvor": "wiki-sr"
+    },
+    "novo_2006": {
+      "opis": "juzno od ulaza otkrivena gradevina — hipoteza: carski ulaz",
+      "izvor": "wiki-sr"
+    },
+    "nimfej": {
+      "polozaj": "istočno",
+      "mozaik": "stilizovani lotos, trostruki unutrasnji okvir",
+      "izvor": "wiki-en"
+    },
+    "ostava_zito_1969": {
+      "naziv": "Ostava za žitarice u zapadnom krilu palate",
+      "opis": "u malternom podu kružna ležišta za pitose prečnika 1,50 m",
+      "izvor": "ap11-zotovic-1969",
+      "poverenje": "visoko",
+      "za_3d": "pod sa kružnim udubljenjima Ø 1,50 m + pitosi u zapadnom krilu"
+    }
   },
-  {
-   "id": "web-sr-sinteza",
-   "tip": "web pretraga (sr)",
-   "pristup": "2026-10-25",
-   "napomena": "agregat: Wikipedia sr, Narodni muzej Niš, Panacomp, PUPNI 2023/24"
-  },
-  {
-   "id": "wikidata",
-   "url": "https://www.wikidata.org/wiki/Q960839",
-   "tip": "strojno citljiv sloj",
-   "pristup": "2026-10-25",
-   "fajl": "wd_q960839.json"
-  },
-  {
-   "id": "osm",
-   "url": "https://www.openstreetmap.org/way/296184228",
-   "tip": "strojno citljiv sloj",
-   "pristup": "2026-10-25",
-   "fajl": "osm_way_full.json"
-  },
-  {
-   "id": "nasledje",
-   "url": "https://nasledje.gov.rs/index.cfm/spomenici/pregled_spomenika?spomenik_id=109383",
-   "tip": "primarni drzavni registar",
-   "pristup": "2026-10-25",
-   "status": "NEDOSTUPAN 2026-10-25 — portal eUprava u nadogradji sistema; ponoviti"
-  },
-  {
-   "id": "unesco-romuliana",
-   "url": "https://whc.unesco.org/en/list/1253",
-   "tip": "komparativni lokalitet",
-   "pristup": "2026-10-25"
-  },
-  {
-   "id": "unesco-casale",
-   "url": "https://whc.unesco.org/en/list/1024",
-   "tip": "komparativni lokalitet",
-   "pristup": "2026-10-25"
-  },
-  {
-   "id": "seindal",
-   "url": "https://sights.seindal.dk/italy/sicily/piazza-armerina/villa-romana-del-casale/peristyle",
-   "tip": "komparativni lokalitet — merenja peristila",
-   "pristup": "2026-10-25"
-  },
-  {
-   "id": "ammianus",
-   "url": "Ammianus Marcellinus 26.5.1 („Mediana a civitate tertio lapide“)",
-   "tip": "antički primarni izvor",
-   "provereno": "2026-10-25, doslovno"
-  },
-  {
-   "id": "starinar",
-   "tip": "primarna arheološka literatura (doiserbia.nb.rs, open access)",
-   "status": "PREKID 2026-10-25: preuzimanje 8 PDF-ova palo zbog iscrpljenih kredita; ponoviti — traženi radovi: Mirković, Starinar o Medijani; Vasić o horreumu"
-  },
-  {
-   "id": "gavrilovic-2016-stibadium",
-   "tip": "primarni recenzirani rad",
-   "citat": "Gavrilovic Vitas N., Milosevic Jevtic G., Crnoglavac V., Stibadium B of villa with peristyle at Mediana, Starinar LXVI (2016), 81-102",
-   "doi": "10.2298/STA1666081G",
-   "url": "https://doiserbia.nb.rs/ft.aspx?id=0350-02411666081G",
-   "dostupnost": "open access, tekst + figure, lokalno pdf/stibadium_B_gavrilovic_2016.pdf",
-   "novine": "stibadijum A i B, mere, apsolutni nivoi m n.m.v., grejanje, opus mixtum, druga faza AD 330-378"
-  },
-  {
-   "id": "monografija-vila-2011",
-   "naziv": "Constantine's Villa at Mediana (Vasic, Milosevic, Gavrilovic Vitas, Crnoglavac)",
-   "izdavac": "Narodni muzej Nis",
-   "strana": 108,
-   "url": "https://rai.ai.ac.rs/handle/123456789/1539",
-   "jezik": "en",
-   "tip": "monografija",
-   "pristup": "2026-10-25",
-   "napomena": "puni tekst izvucen lokalno: pdf/milosevic_vila.txt (161.700 znakova); nosi situacioni plan sa 9 elemenata i osnovu rezidencijalnog kompleksa"
-  },
-  {
-   "id": "iskopi-2010-2011",
-   "naziv": "Iskopavanja Medijane u 2010. i 2011. godini (Vasic, Milosevic, Gavrilovic)",
-   "url": "https://rai.ai.ac.rs/handle/123456789/210",
-   "jezik": "sr",
-   "tip": "iskopni izvestaj",
-   "pristup": "2026-10-25",
-   "napomena": "pdf/milosevic_iskopi.txt; 9 meseci iskopavanja, plan vile sa sondama"
-  },
-  {
-   "id": "carska-ideologija",
-   "naziv": "Carska ideologija u arhitekturi, umetnosti i skulpturi rimske vile na Medijani (Milosevic)",
-   "url": "https://rai.ai.ac.rs/handle/123456789/1555",
-   "jezik": "sr",
-   "tip": "rad",
-   "pristup": "2026-10-25",
-   "napomena": "pdf/milosevic_ideologija.txt; bronzana ograda sa hermama, skulpturski program"
-  },
-  {
-   "id": "geofizika-2011",
-   "url": "https://doiserbia.nb.rs/ft.aspx?id=0350-02411161275M",
-   "jezik": "en+sr",
-   "tip": "clanak (Starinar LXI/2011, 275-284)",
-   "pristup": "2026-10-25",
-   "napomena": "Gordana Milosevic (Arhitektonski fakultet) + RGK DAI (Peters, Wendling); geomagnetna prospekcija april 2010, 16 ha; DOI 10.2298/STA1161275M"
-  },
-  {
-   "id": "ap11-zotovic-1969",
-   "url": "https://files.catbox.moe/0j6r0o.pdf",
-   "jezik": "sr",
-   "tip": "iskopni izvestaj (Arheoloski pregled 11, 1969, 185-186)",
-   "pristup": "2026-10-25",
-   "napomena": "Lj. Zotovic i N. Petrovic; iskopavanja 1969: severni deo peristila, juzni deo centralne sale, ekonomske prostorije; konzervacija termi iz 1967"
-  },
-  {
-   "id": "jeremic-1988-castellum",
-   "url": "https://viminacium.org.rs (arhiva Starinara — sken bez tekstualnog sloja)",
-   "jezik": "sr+fr",
-   "tip": "monografska iskopna obrada (Starinar XXXIX/1988, 59-84)",
-   "pristup": "2026-10-25",
-   "napomena": "M. Jeremić, Castellum aquae antičke Medijane; očitano vizuelno sa rendera str. 62-81 (starinar39/); jedina monografska obrada kasteluma sa merenjima i kotama"
-  },
-  {
-   "id": "jeremic-2006-mozaici",
-   "url": "https://www.nisandbyzantium.org.rs/doc/zbornik4/PDF-IV/Gordana Jeremic.pdf",
-   "jezik": "sr",
-   "tip": "članak (Niš i Vizantija IV, 2006, 145-158)",
-   "pristup": "2026-10-25",
-   "napomena": "G. Jeremić, Mozaici Medijane — neka razmatranja; bibliografski rešen, tri živa URL-a PDF-a; prvi pasus (naselje ~40 ha) verbatim preko DDG indeksa; pun tekst skinuti ručno"
-  },
-  {
-   "id": "jankovic-mihaldzic-2008",
-   "url": "https://bibliografije.nb.rs/bibliografija/tekuca/clanci/serijaA/y2007/zapisi027.html",
-   "jezik": "sr",
-   "tip": "katalog (Naissus 1/2008, 25-73 i 75-95, ISSN 1820-9025; COBISS.SR-ID 157322252, 157323532)",
-   "pristup": "2026-10-25",
-   "napomena": "D. Janković-Mihaldžić, Pojedinačni nalazi rimskog novca na Mediani + Skupni nalaz — verovatno \"Mediana Numismatic Catalogue\"; nedigitalizovano; ključ za zatvaranje Vicennalia/Tricennalia i datovanje po objektima"
-  },
-  {
-   "id": "glm-epigrafika",
-   "rad": "GLM roj: epigrafika Medijane (nalaz iz transkripta)",
-   "put": "roj_glm/epigrafika/nalaz.md",
-   "tip": "primarni-pregled",
-   "datum": "2026-10-26"
-  }
- ],
- "osnova": {
-  "naziv": "Mediana (klasicno: rezidencijalno predgradje Naissusa)",
-  "koordinate": {
-   "lat": 43.31027778,
-   "lon": 21.94888889,
-   "izvor": "wikidata P625 / wiki-sr 43°18'35\" N 21°56'55\" E",
-   "osm_center": {
-    "lat": 43.3095654,
-    "lon": 21.9485401
-   }
-  },
-  "osm_bbox": {
-   "min_lat": 43.3084686,
-   "min_lon": 21.9470328,
-   "max_lat": 43.3113572,
-   "max_lon": 21.9504661,
-   "izvor": "osm way 296184228",
-   "napomena": "obuhvata samo zaštićeno jezgro, ne celu 40 ha zonu"
-  },
-  "lokacija": "3,5 rimske milje (~4,5 km) istočno od centra Naisa, put za Nišku Banju, lesna terasa visoka 35 m",
-  "povrsina_lokaliteta_m2": {
-   "vrednost": 400000,
-   "poverenje": "visoko",
-   "izvor": "wiki-en + wiki-sr (~40 ha)",
-   "napomena": "rimski Niš tada 20-25 ha; otkriveno preko 80 objekata (wiki-sr)"
-  },
-  "zastita": {
-   "program": "AN 22, „Bresje-Mediana. Brzi Brod“ (potvrdeno: Wikidata P4245 'AN 22' + OSM ref:RS:nkd + wiki-sr)",
-   "nivo1_1949": {
-    "datum": "1949-02-09",
-    "opis": "Rešenje Zavoda za zaštitu spomenika NR Srbije br. 220/49 — nepokretno kulturno dobro",
+  "mozaici_motivi": {
+    "geometrijski": [
+      "oktogoni",
+      "rombovi",
+      "kvadrati",
+      "propeler",
+      "vegetabilni"
+    ],
+    "figuralni": [
+      "Leda i labud",
+      "recno bozanstvo (Fluvius)",
+      "glava Meduze"
+    ],
     "izvor": "wiki-sr",
-    "poverenje": "visoko"
-   },
-   "nivo2_1979": {
-    "datum": "1979-03-29",
-    "opis": "Odluka Narodne skupštine SR Srbije br. 29",
-    "izvor": "wiki-sr",
-    "poverenje": "visoko"
-   },
-   "nivo3_1981": {
-    "datum": "1981-12-19",
-    "opis": "kategorisano kao dobro od izuzetnog znacaja, broj AN 22",
-    "izvor": "wiki-sr + OSM heritage:RS:inscription_date",
-    "poverenje": "visoko"
-   },
-   "jurisdikcija": "Republički zavod za zaštitu spomenika kulture – Beograd (OSM); lokalno Zavod za zaštitu spomenika kulture Niš (wiki-sr)",
-   "kriterijum": "izuzetan (OSM heritage:RS:criteria)"
+    "figuralni_izvor_v014": "svi motivi potvrdjeni nezavisno u monografiji-vila-2011 (ranije samo wiki-sr); novi: ptice sa biljnim ukrasima (uglovi aule), morski crv (postolje fontane stibadiuma A), ptica u mozaiku 6 peristila",
+    "zbirna_povrsina_m2": {
+      "monografija": "oko 1000",
+      "zbir_kataloga": 780.9,
+      "napomena": "bez apside aule, terme i vila sa oktogonom/konhama"
+    }
   },
-  "poseta_danas": {
-   "radno_vreme": "ut-sub 10-18 (sred). sub-ned 10-15 u OSM-u; uporediti sa aktuelnim sajtom",
-   "telefon": "+381 18 550 433",
-   "izvor": "osm",
-   "napomena": "park bio 10 godina zatvoren, otvoren krajem decembra 2022 (wiki-sr)"
-  }
- },
- "hronologija": [
-  {
-   "godina": 269,
-   "dogadjaj": "pobeda Klaudija II nad Gotima kod Naissusa — kontekst",
-   "poverenje": "visoko",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": "kraj 3. v",
-   "dogadjaj": "nastanak kompleksa (kraj 3 / pocetak 4 veka)",
-   "poverenje": "visoko",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": "306-337",
-   "dogadjaj": "izgradnja za Konstantina Velikog, rodjenog u Naissusu",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": 315,
-   "dogadjaj": "Konstantin u Naissusu izdaje zakone",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": 319,
-   "dogadjaj": "zakoni u Naissusu",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": 324,
-   "dogadjaj": "zakoni u Naissusu",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": 334,
-   "dogadjaj": "zakoni u Naissusu; poseta porodice",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": 340,
-   "dogadjaj": "Konstancije II i Konstans zimuju, edikt potpisan",
-   "poverenje": "srednje",
-   "izvor": "wiki-en",
-   "konflikt": "sr sinteza ne pominje; proveriti u CIL/leges"
-  },
-  {
-   "godina": 350,
-   "dogadjaj": "Vetranio predaje insignije Konstanciju II u Naissusu",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": "330-361",
-   "dogadjaj": "vrhunac aktivnosti lokaliteta",
-   "poverenje": "srednje",
-   "konflikt": "sr sinteza daje opseg 330-361; wiki-en niz dogadjaja dopusta do 364"
-  },
-  {
-   "godina": "kraj 361",
-   "dogadjaj": "Julijan Apostata 2 meseca, poslanice Senatu i grckim gradovima",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": 364,
-   "dogadjaj": "Valentinijan I i Valens dele carstvo u vili",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": "kraj 4. v",
-   "dogadjaj": "pozar; obnova posle 386",
-   "poverenje": "srednje",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": 350,
-   "dogadjaj": "castellum aquae u upotrebi od kraja 3. do sredine 4. veka — novac Aurelijana, Konstantina, Konstancija II",
-   "poverenje": "srednje",
-   "izvor": "wiki-sr",
-   "napomena": "datum zapisan kao meta; vidi castellum"
-  },
-  {
-   "godina": "posle 378",
-   "dogadjaj": "dve ranohriscanske bazilike podignute istovremeno",
-   "poverenje": "srednje",
-   "konflikt": "sr sinteza daje kapislu 361-425 — uskladiti"
-  },
-  {
-   "godina": 441,
-   "dogadjaj": "hunsko rusenje Naissusa (Attila); lokalitet napusten do 442",
-   "poverenje": "visoko",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": "548-551",
-   "dogadjaj": "slovenski upadi",
-   "poverenje": "visoko",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": "7. - pocetak 8. v",
-   "dogadjaj": "prestanak zivota na lokalitetu",
-   "poverenje": "srednje",
-   "izvor": "wiki-sr"
-  },
-  {
-   "period": "330-334",
-   "dogadjaj": "prva gradjevinska faza vile sa oktogonom (datiranje iz monografije; mozaik sobe 2 isto iz te faze)",
-   "izvor": "monografija-vila-2011",
-   "poverenje": "srednje"
-  }
- ],
- "objekti": {
-  "vila_sa_peristilom": {
-   "dimenzije_m": [
-    98.6,
-    63
-   ],
-   "osa": "sever-jug",
-   "povrsina_m2": [
+  "nalazi": [
     {
-     "vrednost": 6000,
-     "izvor": "wiki-en"
+      "nalaz": "bronzana glava Konstantina",
+      "godina": 1900,
+      "kontekst": "kod gradnje mosta",
+      "izvor": "wiki-sr",
+      "poverenje": "visoko",
+      "napomena_poverenja": "jedan izvor, dobra provera datuma"
     },
     {
-     "vrednost": 6800,
-     "izvor": "wiki-sr"
+      "nalaz": "grupni nalaz skulptura od mermera i porfira",
+      "godina": 1972,
+      "hipoteza": "hram Asklepija i Higijeje",
+      "izvor": "wiki-sr",
+      "poverenje": "srednje"
+    },
+    {
+      "nalaz": "statua Letece Nike",
+      "gde": "lokalni muzej / NM Niš",
+      "poverenje": "srednje"
+    },
+    {
+      "nalaz": "skulpture: Hekata, Asklepije, Harpokrates, Dionis, glava Jupitera",
+      "poverenje": "srednje"
+    },
+    {
+      "nalaz": "gravirani stakleni pehar sa predstavom Naissusa (recni bog i nimfe), 4. vek",
+      "gde": "Narodni muzej Beograd",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "par staklenih bisti",
+      "poverenje": "nisko-srednje"
+    },
+    {
+      "nalaz": "novac (1970-e, pri konzervaciji mozaika): nijedan primerak mladji od 350. godine",
+      "znacenje": "argument da prijemni deo vise nije funkcionisao posle 350",
+      "izvor": "wiki-sr",
+      "poverenje": "srednje"
+    },
+    {
+      "nalaz": "porfirna glava (deo) — kompozicija dijarhije Konstantin i Licinije, Iovii et Herculii",
+      "kontekst": "hram na forumu Naisusa, NE Medijana",
+      "hronologija": "311-316 (decenija vladavine 315)",
+      "izvor": "carska-ideologija",
+      "poverenje": "srednje",
+      "napomena_poverenja": "identifikacija stilski argumentovana; \"dvojna herma?\" hipoteza autora"
+    },
+    {
+      "nalaz": "Dea Dardanica — statua na ulazu u vilu",
+      "znacaj": "dea patriae; poreklo dinastije (Konstancije Hlor, Dardanac)",
+      "hronologija": "pripisana prepravci oko 330",
+      "izvor": "carska-ideologija",
+      "poverenje": "srednje-visoko"
+    },
+    {
+      "nalaz": "skulpture uglavnom DEKAPITIRANE (netrpeljivost hriscana prema paganskim kultovima)",
+      "znacaj": "broj ocuvanih glava NI merilo broja statua — pravilo za rekonstrukciju opreme",
+      "izvor": "carska-ideologija",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "skulpturni program vile medju najbogatijim u celom carstvu (mermer + porfir)",
+      "izvor": "Vasic 1975 (Starinar n.s. XXIV-XXV, 58-60) preko carska-ideologija",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "marmerna glava Venere (S-4/11, sl. 30)",
+      "kontekst": "prostorija w-1, sloj C, polozena na desni obraz, lice ka severu, kota 199.12",
+      "izvor": "iskopi-2010-2011",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "gvozdeni vrh koplja (C-2)",
+      "kontekst": "prostorija w-1, sloj C, kota 199.14",
+      "izvor": "iskopi-2010-2011",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "dve gvozdene strelce plosnatog trouglastog oblika (S-327/10, S-332/10)",
+      "kontekst": "sonda 88, sloj A; analogije Pontes i Ušce Porecke reke",
+      "znacaj": "sloj najkasnijeg vadjenja zidova — oruzje u sloju koji zatvara zivot vile",
+      "izvor": "iskopi-2010-2011",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "kasnolatenska fibula s posuvracenom nogom (sl. 31)",
+      "znacaj": "PRERIMSKI nalaz na Medijani — naselje pre rimskog perioda",
+      "izvor": "iskopi-2010-2011",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "novac 271-275 u sloju C sonde 75 (w-9)",
+      "znacaj": "najstariji novac u bazi — dokaz aktivnosti PRE izgradnje vile",
+      "izvor": "iskopi-2010-2011, tabela 6",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "novac 294-307 u sloju C sonde 104 (sektor 2)",
+      "znacaj": "drugi pre-vila novac — potvrda aktivnosti pre prve decenije 4. veka",
+      "izvor": "iskopi-2010-2011, tabela 2a",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "proslaak zapecene zemlje 0,05 m preko poda w-1 sa vecim komadima fresaka",
+      "znacaj": "DOKAZ MEDJUSPRATNE KONSTRUKCIJE stradale u pozaru — argument za spratnost vile",
+      "izvor": "iskopi-2010-2011, 3.1.2",
+      "poverenje": "srednje-visoko",
+      "napomena_poverenja": "jedan proslojak u jednoj prostoriji; obim spratnosti ostaje otvoren"
+    },
+    {
+      "nalaz": "bronzana drska u obliku poprsja zenske figure (sl. 28)",
+      "kontekst": "pokretni materijal 2010/11",
+      "izvor": "iskopi-2010-2011",
+      "poverenje": "visoko"
     }
-   ],
-   "mozaici_m2": {
-    "ukupno": 945,
-    "trem_peristila": 450,
-    "hodnik": 100,
-    "triklinijum": 55,
-    "izvor": "wiki-sr",
-    "konflikt": "wiki-en spominje samo 450 m2 (trem) — 945 je ukupno, nije protivurecje nego druga velicina"
-   },
-   "auditorijum": "centralni sesougao 3.2 m po stranici, sesougaona fontana sa olovnim vodom",
-   "triklinijum": "sa apsidom, podijum od tri stepenika, hipokaust",
-   "grejanje": "ceo severni deo, hipokaust",
-   "dekor": "mermer, visebojni mermer na zidovima, freske, figuralni mozaici na ulazu u prijemnu salu",
-   "izvor": "wiki-en + wiki-sr"
-  },
-  "terme": {
-   "polozaj": "severozapadno od vile, verovatno spojene, jug ulaz",
-   "prostorije": [
-    "apodyterium",
-    "palestra",
-    "tepidarium",
-    "caldarium",
-    "frigidarium",
-    "sudatorium",
-    "praefurnium"
-   ],
-   "podovi": "geometrijski mozaik istog kvaliteta kao peristil",
-   "vodovod": "izvor na brdu Oblik (ne klasican akvadukt); wiki-sr navodi akvedukt sa termalnih izvora Niske Banje",
-   "izvor": "sr-sinteza + wiki-en",
-   "konflikt": "Oblik vs Niska Banja za izvor vode — otvoreno"
-  },
-  "vila_sa_oktogonom": {
-   "polozaj": "severno od vile",
-   "opis": "oktagonalne i kruzne prostorije",
-   "istrazivano_m2": 3150,
-   "otkrio": "Felix Kanic",
-   "uz_nju": "cetvrtasto dvoriste",
-   "izvor": "wiki-en + wiki-sr",
-   "nedostaje": "kompletne dimenzije, datum — potrebna literatura"
-  },
-  "vila_sa_konhama": {
-   "otkriveno": 1975,
-   "kontekst": "zasticna iskopavanja puta Niš-Niška Banja",
-   "duzina_m": 32.5,
-   "osa": "istok-zapad",
-   "grejanje": "nema — sezonska upotreba",
-   "izvor": "wiki-sr"
-  },
-  "horreum": {
-   "udaljenost_m": 150,
-   "dimenzije_m": [
-    91,
-    27
-   ],
-   "osa": "istok-zapad",
-   "iskop": 1936,
-   "dolii": "dva reda stubaca, visina ~2 m",
-   "bazeni": "uz zapadni zid, dubina 1.40 m, za vino i ulje",
-   "izvor": "wiki-en + wiki-sr"
-  },
-  "castellum_aquae": {
-   "opis": "vodotoranj na kraju akvadukta, osovina S-J",
-   "udaljenost_m": 500,
-   "smer": "jugozapadno od centra",
-   "pad_10m": "razlika visine toranj-dolina = pritisak za fontane",
-   "bazeni": "dva bazena-filtera sa lomljenim pescarom i krecnjakom, hidroizolacioni crvenkasti malter",
-   "upotreba": "kraj 3. - sredina 4. veka (novac Aurelijana, Konstantina, Konstancija II)",
-   "izvor": "wiki-en + wiki-sr"
-  },
-  "bazilike": [
-   {
-    "otkriveno": 2000,
-    "nalaz": "hi-ro monogram"
-   },
-   {
-    "otkriveno": 2007,
-    "udaljenost_m": 8,
-    "nalaz": "bronzano prsten sa krstom"
-   }
   ],
-  "muzej": {
-   "godina": 1936,
-   "opis": "zgrada Muzeja Medijane podignuta nad triklinijumom vile sa peristilom",
-   "izvor": "wiki-sr"
+  "genetika": {
+    "studija": "Olalde et al. 2021",
+    "uzorak": "2 muskarca, kraj 4 - pocetak 5. veka, deformisane lobanje, gotski krug",
+    "haplogrupe": [
+      {
+        "y": "I1a2a1a1a / I-Z141",
+        "mt": "H5b"
+      },
+      {
+        "y": null,
+        "mt": "H41a"
+      }
+    ],
+    "znacenje": "I1 ranije nepoznat na Balkanu — severni genski dotok"
   },
-  "novo_2006": {
-   "opis": "juzno od ulaza otkrivena gradevina — hipoteza: carski ulaz",
-   "izvor": "wiki-sr"
-  },
-  "nimfej": {
-   "polozaj": "istočno",
-   "mozaik": "stilizovani lotos, trostruki unutrasnji okvir",
-   "izvor": "wiki-en"
-  },
-  "ostava_zito_1969": {
-   "naziv": "Ostava za žitarice u zapadnom krilu palate",
-   "opis": "u malternom podu kružna ležišta za pitose prečnika 1,50 m",
-   "izvor": "ap11-zotovic-1969",
-   "poverenje": "visoko",
-   "za_3d": "pod sa kružnim udubljenjima Ø 1,50 m + pitosi u zapadnom krilu"
-  }
- },
- "mozaici_motivi": {
-  "geometrijski": [
-   "oktogoni",
-   "rombovi",
-   "kvadrati",
-   "propeler",
-   "vegetabilni"
+  "istrazivanja": [
+    {
+      "godina": 1864,
+      "opis": "prva iskopavanja — Feliks Kanic; 150 godina istrazivackih radova navrseno 2014",
+      "izvor": "iskopi-2010-2011 (Starinar 64/2014, uvod)",
+      "poverenje": "visoko",
+      "resava": "konflikt pocetak istrazivanja (1803/04)"
+    },
+    {
+      "godina": "1803/1804",
+      "opis": "prva istrazivanja",
+      "poverenje": "srednje",
+      "konflikt": "neobično rano; Kanic tek 19. vek kasnije — proveriti literaturu"
+    },
+    {
+      "godina": 1900,
+      "opis": "nalaz bronzane glave Konstantina pri gradnji mosta",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": 1936,
+      "opis": "iskop horreuma; podignut Muzej Medijane",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": "1975-1985",
+      "opis": "intenzivna iskopavanja; 1975 vila sa konhama"
+    },
+    {
+      "godina": 2000,
+      "opis": "prva bazilika"
+    },
+    {
+      "godina": 2006,
+      "opis": "gradevina juzno od ulaza (carski ulaz?)",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": 2007,
+      "opis": "druga bazilika"
+    },
+    {
+      "godina": "2010-2011",
+      "opis": "devet meseci iskopavanja vile sa peristilom — sonde 42/2004-91, pet sektora, tri horizonta",
+      "izvor": "iskopi-2010-2011 (Starinar 64/2014, 231-263)",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": 2011,
+      "opis": "novi radovi"
+    },
+    {
+      "godina": "~2012-2022",
+      "opis": "park zatvoren ~10 godina (rekonstrukcija), otvoren krajem decembra 2022",
+      "izvor": "wiki-sr"
+    },
+    {
+      "godina": 1969,
+      "opis": "Zotović i Petrović (Arheološki institut + SO Niš, 45.000 dinara): severni deo peristila atrijuma, južni deo centralne sale, ekonomske prostorije; ~50 m² mozaika otkriveno; PRVI figuralni mozaici na Medijani (mitološke teme, centralna sala); konzervacija severnog dela termi (otkrivene 1967) — utvrđena TRI nivoa poda = faze kupatila",
+      "izvor": "ap11-zotovic-1969",
+      "poverenje": "visoko"
+    }
   ],
-  "figuralni": [
-   "Leda i labud",
-   "recno bozanstvo (Fluvius)",
-   "glava Meduze"
+  "strojno_citljiv_sloj": {
+    "wikidata": {
+      "qid": "Q960839",
+      "label_sr": "Medijana",
+      "label_en": "Mediana",
+      "tip": "Q839954 (archaeological site)",
+      "drzava": "Q403 (Serbia)",
+      "heritage_designation": "Q32459",
+      "commons": "Category:Mediana",
+      "sitelinks_wp": "sr:Medijana (Niš)",
+      "fajl": "wd_q960839.json",
+      "claims_dump": "wd_claims.txt"
+    },
+    "osm": {
+      "way_id": 296184228,
+      "historic": "archaeological_site",
+      "archaeological_site": "roman_villa",
+      "name_sr": "Medijana",
+      "wikidata": "Q960839",
+      "heritage": "2",
+      "protect_class": "22",
+      "polygon_nodes": 6,
+      "procenjena_povrsina_ogranichenja_m2": 57242,
+      "napomena": "OSM poligon je samo jezgro (~5,7 ha) od 40 ha zone — potencijalni konflikt granica",
+      "fajl": "osm_way_coords.json"
+    },
+    "spisak_fajlova": [
+      "wd_search.json",
+      "wd_q960839.json",
+      "wd_claims.txt",
+      "osm_nominatim.json",
+      "osm_way_full.json",
+      "osm_way_coords.json"
+    ]
+  },
+  "konflikti_izmedju_izvora": [
+    {
+      "tema": "zastita",
+      "a": "1949 zakonom + 1979 izuzetno znacajno (wiki-en)",
+      "b": "samo 1979 (sr sinteza)",
+      "resenje": "RESENO: tri nivoa — 1949-02-09 (br. 220/49), 1979-03-29 (br. 29), 1981-12-19 (AN 22)",
+      "poverenje": "visoko"
+    },
+    {
+      "tema": "povrsina vile",
+      "a": "6000 m2 (wiki-en)",
+      "b": "6800 m2 (wiki-sr)",
+      "resenje": "otvoreno; razlika ~13% — verovatno razlicite definicije obrisa"
+    },
+    {
+      "tema": "kvadratura mozaika",
+      "a": "450 m2",
+      "b": "945 m2 ukupno / 450 trem",
+      "resenje": "RESENO: 450 je trem peristila, 945 ukupno pod mozaikom"
+    },
+    {
+      "tema": "hronologija bazilika",
+      "a": "posle 378",
+      "b": "361-425",
+      "resenje": "otvoreno"
+    },
+    {
+      "tema": "pocetak istrazivanja",
+      "a": "1803/04",
+      "b": "nepoznato",
+      "resenje": "RESENO: iskopavanja zapoceta 1864. (Feliks Kanic) — 150 godina navrseno 2014 (Vasic/Milosevic/Gavrilovic, Starinar 64/2014, uvodni pasus); 1803/04 ostaje bez primarnog izvora i tretira se kao greska agregata",
+      "status": "resen",
+      "izvor": "iskopi-2010-2011"
+    },
+    {
+      "tema": "izvor vodovoda",
+      "a": "brdo Oblik (sr sinteza)",
+      "b": "termalni izvori Niske Banje (wiki-sr)",
+      "resenje": "otvoreno — mozda dva sistema"
+    },
+    {
+      "tema": "granica zastite",
+      "a": "40 ha zona",
+      "b": "OSM poligon ~5,7 ha jezgro",
+      "resenje": "razliciti nivoi: zona vs fizicki ogradjen lokalitet"
+    },
+    {
+      "tema": "vodeni izvor — Niška Banja",
+      "opis": "monografija put via publica opisuje \"od Nais do termalnih izvora Niške Banje\" kao mikro-klimatski povoljan pojas, ali NE tvrdi da vodovod vodi iz Banje; konflikt Oblik vs Niška Banja ostaje otvoren",
+      "izvor": "monografija-vila-2011",
+      "status": "otvoren"
+    },
+    {
+      "tema": "broj horreuma",
+      "opis": "ranije baza: jedan horreum 91x27 m; monografija: DVA — zapadni (150 m od vile, centar dvorista) i istocni (u istocnom kompleksu baraka, sa javnim termama)",
+      "izvor": "monografija-vila-2011",
+      "status": "resen (dva objekta)"
+    },
+    {
+      "tema": "datum bronzane ograde sa hermama",
+      "a": "oko 324 (Vasic, Bronze Railing — datum izrade)",
+      "b": "izrada pre 325, postavka na Medijanu 361 (boravak Julijana u Nisu), zakopana 378 pred Gote (Milosevic, Carska ideologija, fusnota 21)",
+      "resenje": "RESENO: tri datuma, jedan predmet — izrada (~324) nije postavka (361) ni zakop (378); stub u vodenom sloju azuriran",
+      "status": "resen",
+      "poverenje": "visoko"
+    },
+    {
+      "tema": "hronologija vile sa peristilom",
+      "a": "vila nastala reorganizacijom oko 330 (monografija: prepravka i prosirenje trema zapoceta oko 330)",
+      "b": "osnovni plan vile u horizontu 1 = prve decenije 4. veka, \"suprotno ranijim misljenjima\" (Starinar 64/2014)",
+      "resenje": "RESENO: dve faze — pre reorganizacije oko 330 na mestu je bila monumentalna zgrada jednostavne izduzene forme sa velikim dvoristem (pretorium?), verovatno iz vremena dvovlasca Konstantin i Licinije; oko 330 velika prepravka; horizont 2 (330-378) prepravke stibadijumi A i B",
+      "status": "resen",
+      "poverenje": "visoko",
+      "izvor": "iskopi-2010-2011 + carska-ideologija"
+    },
+    {
+      "tema": "spratnost vile sa peristilom",
+      "a": "analogija Casale: 1 sprat + moguci termalni sprat (prostorni sloj v0.3, poverenje NISKO)",
+      "b": "proslojak zapecene zemlje 0,05 m preko poda w-1 tretiran kao ostatak medjuspratne konstrukcije stradale u pozaru (Starinar 64/2014, 3.1.2)",
+      "status": "delimicno resen",
+      "resenje": "postojanje medjuspratne konstrukcije u w-1 sada ima terenski dokaz; opseg spratnosti (deba vile?) ostaje otvoren — poverenje podize se sa nisko na srednje za \"barem jedan sprat iznad w-1\"",
+      "poverenje": "srednje"
+    },
+    {
+      "tema": "ukupna povrsina mozaika",
+      "a": "945 m2 (wiki-sr)",
+      "b": "450 m2 (wiki-en, samo peristil) i \"oko 1.000 m2\" (monografija)",
+      "resenje": "RESENO v0.14: to su tri recenice o istoj stvari — 450 m2 je sacuvani deo peristila, 945 m2 wiki-sr zbir za kompleks, monografija kaze \"oko 1.000 m2\"; zbir pojedinacnih katalogizovanih povrsina iz monografije 780,9 m2 + apsida aule + terme (povrsine ne citljive) + vila sa oktogonom/konhama popunjava do ~1.000",
+      "poverenje": "visoko",
+      "detalji": "mozaici_sloj.json, zbirna_provera"
+    },
+    {
+      "id": "zidovi-pre-1930",
+      "tema": "kada su zidovi palate razoreni",
+      "varijante": [
+        {
+          "stavka": "zidovi palate povađeni do nivoa temelja još PRE 1930. godine (nerazjašnjeno ko; temelji mestimično uopšte ne postoje, mozaici na nivou iznad ostataka zidova nezaštićeni)",
+          "izvor": "ap11-zotovic-1969"
+        },
+        {
+          "stavka": "iskopavanja počela 1933/34 (Oršić-Slavetić)",
+          "izvor": "geofizika-2011, f. 3"
+        },
+        {
+          "stavka": "Muzej podignut 1936 (bazen sa mozaikom preko koga je podignut muzej = sastavni deo palate)",
+          "izvor": "sr-wiki + ap11-zotovic-1969"
+        }
+      ],
+      "status": "otvoreno: razaranje pre 1930 + gradnja muzeja 1936 preko bazena — delovi palate uništeni pre i tokom prvih istraživanja; za 3D: nadzemni zidovi palate NE SMEJU se rekonstruisati kao sačuvani"
+    },
+    {
+      "id": "izvor-vode-oblik-vs-niska-banja",
+      "tema": "izvor vodovoda Medijane",
+      "varijante": [
+        {
+          "stavka": "Oblik (wiki-sr) — bez poznatog primarnog izvora; u Jeremiću se ne pominje",
+          "izvor": "wiki-sr"
+        },
+        {
+          "stavka": "NIJE ogranak vodovoda Naissusa; dovodni kanal C prilazi sa istoka; izvorište u pravcu Niške Banje, ~4,5 km; kalcinacija u bazenu B = tvrda kraško-termalna voda",
+          "izvor": "jeremic-1988-castellum (str. 64)"
+        }
+      ],
+      "status": "REŠENO ZA SMER (v0.16): Niška Banja (visoko — jedini iskopni izvor); tačna kaptaza otvorena (trasa nikad iskopana); prethodni otvoreni konflikti o izvoru vode ostaju zabeleženi",
+      "izvor": "jeremic-1988-castellum"
+    },
+    {
+      "id": "dva-kanala-dovod-vs-odvod",
+      "tema": "dva kanala kod kasteluma",
+      "varijante": [
+        {
+          "stavka": "glavni + revizioni kanal PREMA naselju (izlazna strana)",
+          "izvor": "poplazic-2018 / monografija-vila-2011"
+        },
+        {
+          "stavka": "DVA DOVODNA kanala (C glavni + D negirani, sa fazama) + izlazni E distributivni + F drenažni + cev G",
+          "izvor": "jeremic-1988-castellum (str. 71-79)"
+        }
+      ],
+      "status": "RAZLIČIT OPIS, NE PROTIVREČJE — Pop-Lazić opisuje izlaznu, Jeremić dovodnu stranu; za 3D: 2 dovodne + 1 izlazna + 1 drenažna linija",
+      "izvor": "jeremic-1988-castellum"
+    },
+    {
+      "id": "pad-vodovoda-2-ili-1-8-posto",
+      "tema": "pad vodovodne linije kastelum-vila",
+      "varijante": [
+        {
+          "stavka": "~10 m na ~500 m ≈ 2% (procena po terenu, starija baza)",
+          "izvor": "web-sr-sinteza"
+        },
+        {
+          "stavka": "8,87 m na ~500 m ≈ 17,7‰ (~1,8%) — dno kanala E 207,36 → olovna cev u vili 198,49 (voda putuje po dnu kanala)",
+          "izvor": "jeremic-1988-castellum"
+        }
+      ],
+      "status": "REŠENO PRECIZNOM KOTOM (v0.16): koristiti 8,9 m pad linije i 2,4‰ lokalni nagib E; strmi linijski nagib = VIŠE dostupne statike, ne problem",
+      "izvor": "jeremic-1988-castellum"
+    },
+    {
+      "id": "vicennalia-tricennalia",
+      "tema": "Vicennalia (325/6) vs Tricennalia (335/6) kao datum glavne faze",
+      "varijante": [
+        {
+          "stavka": "novac 335-336 u zatvorenoj celini w-9 (sloj B, 198,75) — saglasno Tricennaliji i fazi 2 (330-378)",
+          "izvor": "iskopi-2010-2011"
+        },
+        {
+          "stavka": "tekst Pop-Lazića \"trideset godina vladavine\" uz termin Vicennalia — protivurečje u okviru samog teksta",
+          "izvor": "poplazic-2018"
+        }
+      ],
+      "status": "OTVORENO — presudan revers zavetnog novca (VOT XX vs VOT XXX) iz kataloga Janković-Mihaldžić 2008; zavetne emisije cirkulišu i po deset godina posle slavlja, pa VOT XX ne bi značio gradnju 325/6",
+      "izvor": "numizmaticki_sloj.json (num-005)"
+    },
+    {
+      "id": "povrsina-naselja-40-vs-80-ha",
+      "tema": "površina kasnoantičkog naselja Medijana",
+      "varijante": [
+        {
+          "stavka": "~40 ha (prvi pasus verbatim: \"Prostire se na površini od oko 40 hektara\")",
+          "izvor": "jeremic-2006-mozaici"
+        },
+        {
+          "stavka": "~80 ha",
+          "izvor": "FASTI/AUS 2011; jeremic-2017 (Ante portam auream)"
+        }
+      ],
+      "status": "OTVORENO — \"~80 građevina\" (Drča 2004, SANU) je broj objekata, ne hektara; pazi na mešanje ova dva broja",
+      "izvor": "jeremic-2006-mozaici"
+    },
+    {
+      "id": "povrsina-vile-6500-vs-6800",
+      "tema": "površina vile sa peristilom — suženje postojećeg konflikta 6000/6800",
+      "varijante": [
+        {
+          "stavka": "6.800 m² (poziva Jeremić 2006)",
+          "izvor": "wiki-sr → jeremic-2006-mozaici"
+        },
+        {
+          "stavka": "~6.500 m²",
+          "izvor": "FASTI/AUS 2011"
+        },
+        {
+          "stavka": "6.000 m² (starija stavka baze)",
+          "izvor": "wiki-en"
+        }
+      ],
+      "status": "OTVORENO — razlika ~5-13%, verovatno različite definicije obrisa; mere osnove 98,6×63,0 m (Jeremić 2006) upisane na stub vila-peristil",
+      "izvor": "jeremic-2006-mozaici"
+    }
   ],
-  "izvor": "wiki-sr",
-  "figuralni_izvor_v014": "svi motivi potvrdjeni nezavisno u monografiji-vila-2011 (ranije samo wiki-sr); novi: ptice sa biljnim ukrasima (uglovi aule), morski crv (postolje fontane stibadiuma A), ptica u mozaiku 6 peristila",
-  "zbirna_povrsina_m2": {
-   "monografija": "oko 1000",
-   "zbir_kataloga": 780.9,
-   "napomena": "bez apside aule, terme i vila sa oktogonom/konhama"
-  }
- },
- "nalazi": [
-  {
-   "nalaz": "bronzana glava Konstantina",
-   "godina": 1900,
-   "kontekst": "kod gradnje mosta",
-   "izvor": "wiki-sr",
-   "poverenje": "visoko",
-   "napomena_poverenja": "jedan izvor, dobra provera datuma"
-  },
-  {
-   "nalaz": "grupni nalaz skulptura od mermera i porfira",
-   "godina": 1972,
-   "hipoteza": "hram Asklepija i Higijeje",
-   "izvor": "wiki-sr",
-   "poverenje": "srednje"
-  },
-  {
-   "nalaz": "statua Letece Nike",
-   "gde": "lokalni muzej / NM Niš",
-   "poverenje": "srednje"
-  },
-  {
-   "nalaz": "skulpture: Hekata, Asklepije, Harpokrates, Dionis, glava Jupitera",
-   "poverenje": "srednje"
-  },
-  {
-   "nalaz": "gravirani stakleni pehar sa predstavom Naissusa (recni bog i nimfe), 4. vek",
-   "gde": "Narodni muzej Beograd",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "par staklenih bisti",
-   "poverenje": "nisko-srednje"
-  },
-  {
-   "nalaz": "novac (1970-e, pri konzervaciji mozaika): nijedan primerak mladji od 350. godine",
-   "znacenje": "argument da prijemni deo vise nije funkcionisao posle 350",
-   "izvor": "wiki-sr",
-   "poverenje": "srednje"
-  },
-  {
-   "nalaz": "porfirna glava (deo) — kompozicija dijarhije Konstantin i Licinije, Iovii et Herculii",
-   "kontekst": "hram na forumu Naisusa, NE Medijana",
-   "hronologija": "311-316 (decenija vladavine 315)",
-   "izvor": "carska-ideologija",
-   "poverenje": "srednje",
-   "napomena_poverenja": "identifikacija stilski argumentovana; \"dvojna herma?\" hipoteza autora"
-  },
-  {
-   "nalaz": "Dea Dardanica — statua na ulazu u vilu",
-   "znacaj": "dea patriae; poreklo dinastije (Konstancije Hlor, Dardanac)",
-   "hronologija": "pripisana prepravci oko 330",
-   "izvor": "carska-ideologija",
-   "poverenje": "srednje-visoko"
-  },
-  {
-   "nalaz": "skulpture uglavnom DEKAPITIRANE (netrpeljivost hriscana prema paganskim kultovima)",
-   "znacaj": "broj ocuvanih glava NI merilo broja statua — pravilo za rekonstrukciju opreme",
-   "izvor": "carska-ideologija",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "skulpturni program vile medju najbogatijim u celom carstvu (mermer + porfir)",
-   "izvor": "Vasic 1975 (Starinar n.s. XXIV-XXV, 58-60) preko carska-ideologija",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "marmerna glava Venere (S-4/11, sl. 30)",
-   "kontekst": "prostorija w-1, sloj C, polozena na desni obraz, lice ka severu, kota 199.12",
-   "izvor": "iskopi-2010-2011",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "gvozdeni vrh koplja (C-2)",
-   "kontekst": "prostorija w-1, sloj C, kota 199.14",
-   "izvor": "iskopi-2010-2011",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "dve gvozdene strelce plosnatog trouglastog oblika (S-327/10, S-332/10)",
-   "kontekst": "sonda 88, sloj A; analogije Pontes i Ušce Porecke reke",
-   "znacaj": "sloj najkasnijeg vadjenja zidova — oruzje u sloju koji zatvara zivot vile",
-   "izvor": "iskopi-2010-2011",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "kasnolatenska fibula s posuvracenom nogom (sl. 31)",
-   "znacaj": "PRERIMSKI nalaz na Medijani — naselje pre rimskog perioda",
-   "izvor": "iskopi-2010-2011",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "novac 271-275 u sloju C sonde 75 (w-9)",
-   "znacaj": "najstariji novac u bazi — dokaz aktivnosti PRE izgradnje vile",
-   "izvor": "iskopi-2010-2011, tabela 6",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "novac 294-307 u sloju C sonde 104 (sektor 2)",
-   "znacaj": "drugi pre-vila novac — potvrda aktivnosti pre prve decenije 4. veka",
-   "izvor": "iskopi-2010-2011, tabela 2a",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "proslaak zapecene zemlje 0,05 m preko poda w-1 sa vecim komadima fresaka",
-   "znacaj": "DOKAZ MEDJUSPRATNE KONSTRUKCIJE stradale u pozaru — argument za spratnost vile",
-   "izvor": "iskopi-2010-2011, 3.1.2",
-   "poverenje": "srednje-visoko",
-   "napomena_poverenja": "jedan proslojak u jednoj prostoriji; obim spratnosti ostaje otvoren"
-  },
-  {
-   "nalaz": "bronzana drska u obliku poprsja zenske figure (sl. 28)",
-   "kontekst": "pokretni materijal 2010/11",
-   "izvor": "iskopi-2010-2011",
-   "poverenje": "visoko"
-  }
- ],
- "genetika": {
-  "studija": "Olalde et al. 2021",
-  "uzorak": "2 muskarca, kraj 4 - pocetak 5. veka, deformisane lobanje, gotski krug",
-  "haplogrupe": [
-   {
-    "y": "I1a2a1a1a / I-Z141",
-    "mt": "H5b"
-   },
-   {
-    "y": null,
-    "mt": "H41a"
-   }
+  "rupe_za_rekonstrukciju": [
+    "nema digitalne osnove/GIS objekata A-D kao otvorenih podataka (OSM daje samo spoljasnje jezgro) [v0.9: delimicno popunjeno — situacioni plan monografije daje raspored 9 elemenata; numericke mere za C-D i dalje bez javne osnove] [v0.16: slovni sistem A-D i dalje nerešen iz otvorenih izvora — negativni nalaz, ključevi Zbornik NMN 9/10 i monografija 2016; 13 skupina mera upisano u objekti_cd_sloj.json]",
+    "dimenzije vile sa oktogonom (samo 3.150 m2 istrazeno) i ekonomskih objekata V/G/D",
+    "kompletan opis figuralnih mozaika (ikonografija, datum, sadašnja lokacija) — Leda, Fluvius, Medusa",
+    "vodozahvat — trasa i kapacitet (Oblik vs Niska Banja) [v0.16: smer rešen — pravac Niške Banje ~4,5 km, Jeremić 1988; kaptaza, trasa i kapacitet i dalje otvoreni — hidraulika_sloj.json]",
+    "3D rekonstrukcija — nigde javno dostupan model",
+    "spisak svih nalaza po muzejima (NM Niš, NM Beograd, lokalni lapidarijum)",
+    "primarni registar nasledje.gov.rs — trenutno van mreze; ponoviti za zvanicne granice i dokument",
+    {
+      "id": "zenica-zamka",
+      "tema": "zamka pri pretrazi: \"objekat A 17,20×14,60 m, objekat B 20,30×14,18, objekat C delimično\" je iz Mlinčića-Tisina kod Zenice (D. i C. Trajković, Arheološki pregled 11), NE sa Medijane — ne uvoziti u bazu",
+      "status": "zabeleženo da se ne ponovi"
+    }
   ],
-  "znacenje": "I1 ranije nepoznat na Balkanu — severni genski dotok"
- },
- "istrazivanja": [
-  {
-   "godina": 1864,
-   "opis": "prva iskopavanja — Feliks Kanic; 150 godina istrazivackih radova navrseno 2014",
-   "izvor": "iskopi-2010-2011 (Starinar 64/2014, uvod)",
-   "poverenje": "visoko",
-   "resava": "konflikt pocetak istrazivanja (1803/04)"
-  },
-  {
-   "godina": "1803/1804",
-   "opis": "prva istrazivanja",
-   "poverenje": "srednje",
-   "konflikt": "neobično rano; Kanic tek 19. vek kasnije — proveriti literaturu"
-  },
-  {
-   "godina": 1900,
-   "opis": "nalaz bronzane glave Konstantina pri gradnji mosta",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": 1936,
-   "opis": "iskop horreuma; podignut Muzej Medijane",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": "1975-1985",
-   "opis": "intenzivna iskopavanja; 1975 vila sa konhama"
-  },
-  {
-   "godina": 2000,
-   "opis": "prva bazilika"
-  },
-  {
-   "godina": 2006,
-   "opis": "gradevina juzno od ulaza (carski ulaz?)",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": 2007,
-   "opis": "druga bazilika"
-  },
-  {
-   "godina": "2010-2011",
-   "opis": "devet meseci iskopavanja vile sa peristilom — sonde 42/2004-91, pet sektora, tri horizonta",
-   "izvor": "iskopi-2010-2011 (Starinar 64/2014, 231-263)",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": 2011,
-   "opis": "novi radovi"
-  },
-  {
-   "godina": "~2012-2022",
-   "opis": "park zatvoren ~10 godina (rekonstrukcija), otvoren krajem decembra 2022",
-   "izvor": "wiki-sr"
-  },
-  {
-   "godina": 1969,
-   "opis": "Zotović i Petrović (Arheološki institut + SO Niš, 45.000 dinara): severni deo peristila atrijuma, južni deo centralne sale, ekonomske prostorije; ~50 m² mozaika otkriveno; PRVI figuralni mozaici na Medijani (mitološke teme, centralna sala); konzervacija severnog dela termi (otkrivene 1967) — utvrđena TRI nivoa poda = faze kupatila",
-   "izvor": "ap11-zotovic-1969",
-   "poverenje": "visoko"
-  }
- ],
- "strojno_citljiv_sloj": {
-  "wikidata": {
-   "qid": "Q960839",
-   "label_sr": "Medijana",
-   "label_en": "Mediana",
-   "tip": "Q839954 (archaeological site)",
-   "drzava": "Q403 (Serbia)",
-   "heritage_designation": "Q32459",
-   "commons": "Category:Mediana",
-   "sitelinks_wp": "sr:Medijana (Niš)",
-   "fajl": "wd_q960839.json",
-   "claims_dump": "wd_claims.txt"
-  },
-  "osm": {
-   "way_id": 296184228,
-   "historic": "archaeological_site",
-   "archaeological_site": "roman_villa",
-   "name_sr": "Medijana",
-   "wikidata": "Q960839",
-   "heritage": "2",
-   "protect_class": "22",
-   "polygon_nodes": 6,
-   "procenjena_povrsina_ogranichenja_m2": 57242,
-   "napomena": "OSM poligon je samo jezgro (~5,7 ha) od 40 ha zone — potencijalni konflikt granica",
-   "fajl": "osm_way_coords.json"
-  },
-  "spisak_fajlova": [
-   "wd_search.json",
-   "wd_q960839.json",
-   "wd_claims.txt",
-   "osm_nominatim.json",
-   "osm_way_full.json",
-   "osm_way_coords.json"
-  ]
- },
- "konflikti_izmedju_izvora": [
-  {
-   "tema": "zastita",
-   "a": "1949 zakonom + 1979 izuzetno znacajno (wiki-en)",
-   "b": "samo 1979 (sr sinteza)",
-   "resenje": "RESENO: tri nivoa — 1949-02-09 (br. 220/49), 1979-03-29 (br. 29), 1981-12-19 (AN 22)",
-   "poverenje": "visoko"
-  },
-  {
-   "tema": "povrsina vile",
-   "a": "6000 m2 (wiki-en)",
-   "b": "6800 m2 (wiki-sr)",
-   "resenje": "otvoreno; razlika ~13% — verovatno razlicite definicije obrisa"
-  },
-  {
-   "tema": "kvadratura mozaika",
-   "a": "450 m2",
-   "b": "945 m2 ukupno / 450 trem",
-   "resenje": "RESENO: 450 je trem peristila, 945 ukupno pod mozaikom"
-  },
-  {
-   "tema": "hronologija bazilika",
-   "a": "posle 378",
-   "b": "361-425",
-   "resenje": "otvoreno"
-  },
-  {
-   "tema": "pocetak istrazivanja",
-   "a": "1803/04",
-   "b": "nepoznato",
-   "resenje": "RESENO: iskopavanja zapoceta 1864. (Feliks Kanic) — 150 godina navrseno 2014 (Vasic/Milosevic/Gavrilovic, Starinar 64/2014, uvodni pasus); 1803/04 ostaje bez primarnog izvora i tretira se kao greska agregata",
-   "status": "resen",
-   "izvor": "iskopi-2010-2011"
-  },
-  {
-   "tema": "izvor vodovoda",
-   "a": "brdo Oblik (sr sinteza)",
-   "b": "termalni izvori Niske Banje (wiki-sr)",
-   "resenje": "otvoreno — mozda dva sistema"
-  },
-  {
-   "tema": "granica zastite",
-   "a": "40 ha zona",
-   "b": "OSM poligon ~5,7 ha jezgro",
-   "resenje": "razliciti nivoi: zona vs fizicki ogradjen lokalitet"
-  },
-  {
-   "tema": "vodeni izvor — Niška Banja",
-   "opis": "monografija put via publica opisuje \"od Nais do termalnih izvora Niške Banje\" kao mikro-klimatski povoljan pojas, ali NE tvrdi da vodovod vodi iz Banje; konflikt Oblik vs Niška Banja ostaje otvoren",
-   "izvor": "monografija-vila-2011",
-   "status": "otvoren"
-  },
-  {
-   "tema": "broj horreuma",
-   "opis": "ranije baza: jedan horreum 91x27 m; monografija: DVA — zapadni (150 m od vile, centar dvorista) i istocni (u istocnom kompleksu baraka, sa javnim termama)",
-   "izvor": "monografija-vila-2011",
-   "status": "resen (dva objekta)"
-  },
-  {
-   "tema": "datum bronzane ograde sa hermama",
-   "a": "oko 324 (Vasic, Bronze Railing — datum izrade)",
-   "b": "izrada pre 325, postavka na Medijanu 361 (boravak Julijana u Nisu), zakopana 378 pred Gote (Milosevic, Carska ideologija, fusnota 21)",
-   "resenje": "RESENO: tri datuma, jedan predmet — izrada (~324) nije postavka (361) ni zakop (378); stub u vodenom sloju azuriran",
-   "status": "resen",
-   "poverenje": "visoko"
-  },
-  {
-   "tema": "hronologija vile sa peristilom",
-   "a": "vila nastala reorganizacijom oko 330 (monografija: prepravka i prosirenje trema zapoceta oko 330)",
-   "b": "osnovni plan vile u horizontu 1 = prve decenije 4. veka, \"suprotno ranijim misljenjima\" (Starinar 64/2014)",
-   "resenje": "RESENO: dve faze — pre reorganizacije oko 330 na mestu je bila monumentalna zgrada jednostavne izduzene forme sa velikim dvoristem (pretorium?), verovatno iz vremena dvovlasca Konstantin i Licinije; oko 330 velika prepravka; horizont 2 (330-378) prepravke stibadijumi A i B",
-   "status": "resen",
-   "poverenje": "visoko",
-   "izvor": "iskopi-2010-2011 + carska-ideologija"
-  },
-  {
-   "tema": "spratnost vile sa peristilom",
-   "a": "analogija Casale: 1 sprat + moguci termalni sprat (prostorni sloj v0.3, poverenje NISKO)",
-   "b": "proslojak zapecene zemlje 0,05 m preko poda w-1 tretiran kao ostatak medjuspratne konstrukcije stradale u pozaru (Starinar 64/2014, 3.1.2)",
-   "status": "delimicno resen",
-   "resenje": "postojanje medjuspratne konstrukcije u w-1 sada ima terenski dokaz; opseg spratnosti (deba vile?) ostaje otvoren — poverenje podize se sa nisko na srednje za \"barem jedan sprat iznad w-1\"",
-   "poverenje": "srednje"
-  },
-  {
-   "tema": "ukupna povrsina mozaika",
-   "a": "945 m2 (wiki-sr)",
-   "b": "450 m2 (wiki-en, samo peristil) i \"oko 1.000 m2\" (monografija)",
-   "resenje": "RESENO v0.14: to su tri recenice o istoj stvari — 450 m2 je sacuvani deo peristila, 945 m2 wiki-sr zbir za kompleks, monografija kaze \"oko 1.000 m2\"; zbir pojedinacnih katalogizovanih povrsina iz monografije 780,9 m2 + apsida aule + terme (povrsine ne citljive) + vila sa oktogonom/konhama popunjava do ~1.000",
-   "poverenje": "visoko",
-   "detalji": "mozaici_sloj.json, zbirna_provera"
-  },
-  {
-   "id": "zidovi-pre-1930",
-   "tema": "kada su zidovi palate razoreni",
-   "varijante": [
+  "nacin_daljeg_rada": [
+    "1. uvuci OpenStreetMap/ Wikidata entitet i koordinate kao strojno citljiv sloj — URADJENO (v0.2)",
+    "2. dodati GNSS/plan iskopavanja iz publikacija Arheološkog instituta",
+    "3. svaki novi izvor ide u ovaj JSON sa izvorom i nivoom poverenja",
+    "4. rekonstrukcija (crtezi/3D) se pravi SAMO iz polja sa poverenjem visoko/srednje",
+    "5. ponovno citanje nasledje.gov.rs kad portal proradi",
+    "6. slika iz Wikimedia Commons (P18: Medijana mozaik.jpg) — vizuelni sloj",
+    "Petrović P. 1994, Mediana — rezidencija rimskih careva, Beograd — standardna monografija, tražiti pun tekst",
+    "Drča S. 2000, Medijana — objekat B, Zbornik Narodnog muzeja Niš 9, 21-36 + Janković-Mihaldžić 2001 (novac sa objekta B), Zbornik NN 10, 27-38",
+    "Jeremić G. 2006, Mozaici Medijane — neka razmatranja, Niš i Vizantija 4, 145-158",
+    "Vasić M. 2007, Mediana — Die kaiserliche Villa bei Niš, u: Roms Erbe auf dem Balkan, Mainz, 96-107",
+    "Vasić M. 2005, Mediana — domaine impérial ou bien privé?, Beograd, 167-176",
+    "Skinuti ručno (browser) tri PDF-a Jeremić 2006 (nisandbyzantium.org.rs / ubnt legacy / Scribd) — otvara šest objekata sa mozaicima i nepouzdani trag \"objekta C\"",
+    "Otvoriti monografiju 2016 (rai.ai.ac.rs/bitstream/id/4423/bitstream_4423.pdf) — proverava hipotezu doma rada Milošević \"Urbanism...\" + terme i antičku kapiju kao kandidate za muzejska slova",
+    "Pročitati skinuto/aus2015.pdf str. 77-85 (bilo kojim čitačem) — stibadium B, grejanje definisano 2015",
+    "Nabaviti fizički Zbornik NMN 9/10 + Naissus 1/2008 (Janković-Mihaldžić katalog) — jedini put do sadržaja objekta B i zatvaranja Vicennalia/Tricennalia",
+    "GIS: dem-uzorkovanje GLO-30 vs SRTM vs AW3D30 za kote vode (vila, castellum, 3-4 tačke ka Nišavi) — 0 piksela urađeno; redosled u gis_izvori_sloj.json",
+    "Identifikovati časopis Gavrilović-Vitas 2019 (sv. 35, 65-83, terme)"
+  ],
+  "napredak_v017": [
+    "v0.17: epigrafski sloj — 9 natpisa sa statusima dokaza; korpusni brojevi (CIL III/IMS/AE) ostaju OTVORENA RUPA sa potvrdjenim EDCS/EDH/LSA obrascima za sledeci talas"
+  ],
+  "changelog": [
     {
-     "stavka": "zidovi palate povađeni do nivoa temelja još PRE 1930. godine (nerazjašnjeno ko; temelji mestimično uopšte ne postoje, mozaici na nivou iznad ostataka zidova nezaštićeni)",
-     "izvor": "ap11-zotovic-1969"
-    },
-    {
-     "stavka": "iskopavanja počela 1933/34 (Oršić-Slavetić)",
-     "izvor": "geofizika-2011, f. 3"
-    },
-    {
-     "stavka": "Muzej podignut 1936 (bazen sa mozaikom preko koga je podignut muzej = sastavni deo palate)",
-     "izvor": "sr-wiki + ap11-zotovic-1969"
+      "verzija": "0.20",
+      "datum": "2026-10-26",
+      "sadrzaj": "KOREKCIJA DEM sloja: kote iz v0.18 pogrešno uzorkovane (pogrešne koordinate Niške Banje). Nove kote potvrđene nezavisno (Open-Meteo/Copernicus): vila 187,8 m, izvorišna zona Banje ~248 m, dolinsko dno ~200 m. Profil trase rebuilt 7,8 km, pad ~60 m. EDH Heidelberg živ ali 0 pogodaka za Mediana (negativan nalaz); EDCS i dalje nedostupan iz ove mreže."
     }
-   ],
-   "status": "otvoreno: razaranje pre 1930 + gradnja muzeja 1936 preko bazena — delovi palate uništeni pre i tokom prvih istraživanja; za 3D: nadzemni zidovi palate NE SMEJU se rekonstruisati kao sačuvani"
-  },
-  {
-   "id": "izvor-vode-oblik-vs-niska-banja",
-   "tema": "izvor vodovoda Medijane",
-   "varijante": [
-    {
-     "stavka": "Oblik (wiki-sr) — bez poznatog primarnog izvora; u Jeremiću se ne pominje",
-     "izvor": "wiki-sr"
-    },
-    {
-     "stavka": "NIJE ogranak vodovoda Naissusa; dovodni kanal C prilazi sa istoka; izvorište u pravcu Niške Banje, ~4,5 km; kalcinacija u bazenu B = tvrda kraško-termalna voda",
-     "izvor": "jeremic-1988-castellum (str. 64)"
-    }
-   ],
-   "status": "REŠENO ZA SMER (v0.16): Niška Banja (visoko — jedini iskopni izvor); tačna kaptaza otvorena (trasa nikad iskopana); prethodni otvoreni konflikti o izvoru vode ostaju zabeleženi",
-   "izvor": "jeremic-1988-castellum"
-  },
-  {
-   "id": "dva-kanala-dovod-vs-odvod",
-   "tema": "dva kanala kod kasteluma",
-   "varijante": [
-    {
-     "stavka": "glavni + revizioni kanal PREMA naselju (izlazna strana)",
-     "izvor": "poplazic-2018 / monografija-vila-2011"
-    },
-    {
-     "stavka": "DVA DOVODNA kanala (C glavni + D negirani, sa fazama) + izlazni E distributivni + F drenažni + cev G",
-     "izvor": "jeremic-1988-castellum (str. 71-79)"
-    }
-   ],
-   "status": "RAZLIČIT OPIS, NE PROTIVREČJE — Pop-Lazić opisuje izlaznu, Jeremić dovodnu stranu; za 3D: 2 dovodne + 1 izlazna + 1 drenažna linija",
-   "izvor": "jeremic-1988-castellum"
-  },
-  {
-   "id": "pad-vodovoda-2-ili-1-8-posto",
-   "tema": "pad vodovodne linije kastelum-vila",
-   "varijante": [
-    {
-     "stavka": "~10 m na ~500 m ≈ 2% (procena po terenu, starija baza)",
-     "izvor": "web-sr-sinteza"
-    },
-    {
-     "stavka": "8,87 m na ~500 m ≈ 17,7‰ (~1,8%) — dno kanala E 207,36 → olovna cev u vili 198,49 (voda putuje po dnu kanala)",
-     "izvor": "jeremic-1988-castellum"
-    }
-   ],
-   "status": "REŠENO PRECIZNOM KOTOM (v0.16): koristiti 8,9 m pad linije i 2,4‰ lokalni nagib E; strmi linijski nagib = VIŠE dostupne statike, ne problem",
-   "izvor": "jeremic-1988-castellum"
-  },
-  {
-   "id": "vicennalia-tricennalia",
-   "tema": "Vicennalia (325/6) vs Tricennalia (335/6) kao datum glavne faze",
-   "varijante": [
-    {
-     "stavka": "novac 335-336 u zatvorenoj celini w-9 (sloj B, 198,75) — saglasno Tricennaliji i fazi 2 (330-378)",
-     "izvor": "iskopi-2010-2011"
-    },
-    {
-     "stavka": "tekst Pop-Lazića \"trideset godina vladavine\" uz termin Vicennalia — protivurečje u okviru samog teksta",
-     "izvor": "poplazic-2018"
-    }
-   ],
-   "status": "OTVORENO — presudan revers zavetnog novca (VOT XX vs VOT XXX) iz kataloga Janković-Mihaldžić 2008; zavetne emisije cirkulišu i po deset godina posle slavlja, pa VOT XX ne bi značio gradnju 325/6",
-   "izvor": "numizmaticki_sloj.json (num-005)"
-  },
-  {
-   "id": "povrsina-naselja-40-vs-80-ha",
-   "tema": "površina kasnoantičkog naselja Medijana",
-   "varijante": [
-    {
-     "stavka": "~40 ha (prvi pasus verbatim: \"Prostire se na površini od oko 40 hektara\")",
-     "izvor": "jeremic-2006-mozaici"
-    },
-    {
-     "stavka": "~80 ha",
-     "izvor": "FASTI/AUS 2011; jeremic-2017 (Ante portam auream)"
-    }
-   ],
-   "status": "OTVORENO — \"~80 građevina\" (Drča 2004, SANU) je broj objekata, ne hektara; pazi na mešanje ova dva broja",
-   "izvor": "jeremic-2006-mozaici"
-  },
-  {
-   "id": "povrsina-vile-6500-vs-6800",
-   "tema": "površina vile sa peristilom — suženje postojećeg konflikta 6000/6800",
-   "varijante": [
-    {
-     "stavka": "6.800 m² (poziva Jeremić 2006)",
-     "izvor": "wiki-sr → jeremic-2006-mozaici"
-    },
-    {
-     "stavka": "~6.500 m²",
-     "izvor": "FASTI/AUS 2011"
-    },
-    {
-     "stavka": "6.000 m² (starija stavka baze)",
-     "izvor": "wiki-en"
-    }
-   ],
-   "status": "OTVORENO — razlika ~5-13%, verovatno različite definicije obrisa; mere osnove 98,6×63,0 m (Jeremić 2006) upisane na stub vila-peristil",
-   "izvor": "jeremic-2006-mozaici"
-  }
- ],
- "rupe_za_rekonstrukciju": [
-  "nema digitalne osnove/GIS objekata A-D kao otvorenih podataka (OSM daje samo spoljasnje jezgro) [v0.9: delimicno popunjeno — situacioni plan monografije daje raspored 9 elemenata; numericke mere za C-D i dalje bez javne osnove] [v0.16: slovni sistem A-D i dalje nerešen iz otvorenih izvora — negativni nalaz, ključevi Zbornik NMN 9/10 i monografija 2016; 13 skupina mera upisano u objekti_cd_sloj.json]",
-  "dimenzije vile sa oktogonom (samo 3.150 m2 istrazeno) i ekonomskih objekata V/G/D",
-  "kompletan opis figuralnih mozaika (ikonografija, datum, sadašnja lokacija) — Leda, Fluvius, Medusa",
-  "vodozahvat — trasa i kapacitet (Oblik vs Niska Banja) [v0.16: smer rešen — pravac Niške Banje ~4,5 km, Jeremić 1988; kaptaza, trasa i kapacitet i dalje otvoreni — hidraulika_sloj.json]",
-  "3D rekonstrukcija — nigde javno dostupan model",
-  "spisak svih nalaza po muzejima (NM Niš, NM Beograd, lokalni lapidarijum)",
-  "primarni registar nasledje.gov.rs — trenutno van mreze; ponoviti za zvanicne granice i dokument",
-  {
-   "id": "zenica-zamka",
-   "tema": "zamka pri pretrazi: \"objekat A 17,20×14,60 m, objekat B 20,30×14,18, objekat C delimično\" je iz Mlinčića-Tisina kod Zenice (D. i C. Trajković, Arheološki pregled 11), NE sa Medijane — ne uvoziti u bazu",
-   "status": "zabeleženo da se ne ponovi"
-  }
- ],
- "nacin_daljeg_rada": [
-  "1. uvuci OpenStreetMap/ Wikidata entitet i koordinate kao strojno citljiv sloj — URADJENO (v0.2)",
-  "2. dodati GNSS/plan iskopavanja iz publikacija Arheološkog instituta",
-  "3. svaki novi izvor ide u ovaj JSON sa izvorom i nivoom poverenja",
-  "4. rekonstrukcija (crtezi/3D) se pravi SAMO iz polja sa poverenjem visoko/srednje",
-  "5. ponovno citanje nasledje.gov.rs kad portal proradi",
-  "6. slika iz Wikimedia Commons (P18: Medijana mozaik.jpg) — vizuelni sloj",
-  "Petrović P. 1994, Mediana — rezidencija rimskih careva, Beograd — standardna monografija, tražiti pun tekst",
-  "Drča S. 2000, Medijana — objekat B, Zbornik Narodnog muzeja Niš 9, 21-36 + Janković-Mihaldžić 2001 (novac sa objekta B), Zbornik NN 10, 27-38",
-  "Jeremić G. 2006, Mozaici Medijane — neka razmatranja, Niš i Vizantija 4, 145-158",
-  "Vasić M. 2007, Mediana — Die kaiserliche Villa bei Niš, u: Roms Erbe auf dem Balkan, Mainz, 96-107",
-  "Vasić M. 2005, Mediana — domaine impérial ou bien privé?, Beograd, 167-176",
-  "Skinuti ručno (browser) tri PDF-a Jeremić 2006 (nisandbyzantium.org.rs / ubnt legacy / Scribd) — otvara šest objekata sa mozaicima i nepouzdani trag \"objekta C\"",
-  "Otvoriti monografiju 2016 (rai.ai.ac.rs/bitstream/id/4423/bitstream_4423.pdf) — proverava hipotezu doma rada Milošević \"Urbanism...\" + terme i antičku kapiju kao kandidate za muzejska slova",
-  "Pročitati skinuto/aus2015.pdf str. 77-85 (bilo kojim čitačem) — stibadium B, grejanje definisano 2015",
-  "Nabaviti fizički Zbornik NMN 9/10 + Naissus 1/2008 (Janković-Mihaldžić katalog) — jedini put do sadržaja objekta B i zatvaranja Vicennalia/Tricennalia",
-  "GIS: dem-uzorkovanje GLO-30 vs SRTM vs AW3D30 za kote vode (vila, castellum, 3-4 tačke ka Nišavi) — 0 piksela urađeno; redosled u gis_izvori_sloj.json",
-  "Identifikovati časopis Gavrilović-Vitas 2019 (sv. 35, 65-83, terme)"
- ],
- "napredak_v017": [
-  "v0.17: epigrafski sloj — 9 natpisa sa statusima dokaza; korpusni brojevi (CIL III/IMS/AE) ostaju OTVORENA RUPA sa potvrdjenim EDCS/EDH/LSA obrascima za sledeci talas"
- ],
- "changelog": [
-  {
-   "verzija": "0.20",
-   "datum": "2026-10-26",
-   "sadrzaj": "KOREKCIJA DEM sloja: kote iz v0.18 pogrešno uzorkovane (pogrešne koordinate Niške Banje). Nove kote potvrđene nezavisno (Open-Meteo/Copernicus): vila 187,8 m, izvorišna zona Banje ~248 m, dolinsko dno ~200 m. Profil trase rebuilt 7,8 km, pad ~60 m. EDH Heidelberg živ ali 0 pogodaka za Mediana (negativan nalaz); EDCS i dalje nedostupan iz ove mreže."
-  }
- ]
+  ],
+  "azurirano": "2026-10-26"
 }

@@ -1,270 +1,270 @@
 {
- "svrha": "Digitalni pasos Konstantinove vile (Medijana) — strukturisana 'vila znanja': materijali, uticaji, graditelji/alati, slojevi poverenja. Cilj: da iz ovog fajla (uz ostale u folderu) 3D rekonstrukcija moze nastati bez dodatnog coveka-u-petlji.",
- "verzija": "0.26",
- "datum": "2026-10-26",
- "autor": "Svemir / dr Poturak Semir",
- "identitet": {
-  "ime": "Mediana (Naissus)",
-  "wikidata": "Q960839",
-  "osm": "way/296184228",
-  "spomenik": "AN 22 (dobro od izuzetnog znacaja, SRB)",
-  "osnivanje": "kraj 3 - pocetak 4. v, u doba Konstantina Velikog (roden u Naisu ~272)",
-  "kraj": "441/442 hunsko rusenje; odumiranje do 7-8 v"
- },
- "materijali": [
-  {
-   "materijal": "les",
-   "upotreba": "podloga/terasa (35 m iznad Nisave)",
-   "izvor": "wiki-sr",
-   "poverenje": "visoko",
-   "3d_hint": "teren, ne gradjevinski materijal"
+  "svrha": "Digitalni pasos Konstantinove vile (Medijana) — strukturisana 'vila znanja': materijali, uticaji, graditelji/alati, slojevi poverenja. Cilj: da iz ovog fajla (uz ostale u folderu) 3D rekonstrukcija moze nastati bez dodatnog coveka-u-petlji.",
+  "verzija": "0.27",
+  "datum": "2026-10-26",
+  "autor": "Svemir / dr Poturak Semir",
+  "identitet": {
+    "ime": "Mediana (Naissus)",
+    "wikidata": "Q960839",
+    "osm": "way/296184228",
+    "spomenik": "AN 22 (dobro od izuzetnog znacaja, SRB)",
+    "osnivanje": "kraj 3 - pocetak 4. v, u doba Konstantina Velikog (roden u Naisu ~272)",
+    "kraj": "441/442 hunsko rusenje; odumiranje do 7-8 v"
   },
-  {
-   "materijal": "visebojni mermer",
-   "upotreba": "zidna obloga prijemnih prostorija",
-   "izvor": "wiki-sr",
-   "poverenje": "visoko",
-   "3d_hint": "teksture: dok su porjeklo kamena ne dokumentovano, koristiti opseg (prokonesski? belo-vencacki?) — poverenje NISKO",
-   "vizuelna_potvrda": "slike/Nis,_vila_oktogonalnog_oblika.JPG (opus mixtum: redovi opeke u kamenoj breči, 2026-10-25)"
-  },
-  {
-   "materijal": "mozaik (tesera)",
-   "upotreba": "945 m2 ukupno; 450 m2 trem peristila",
-   "izvor": "wiki-sr",
-   "poverenje": "visoko",
-   "3d_hint": "geometrijski program pouzdan; figuralni ikonografski program NE-DOKUMENTOVAN javno — najveca rupa za vizuelnu rekonstrukciju"
-  },
-  {
-   "materijal": "olovo",
-   "upotreba": "vodovodne cevi/fontana",
-   "izvor": "wiki-sr (olovna voda fontane)",
-   "poverenje": "visoko",
-   "vizuelna_potvrda": "kadar VI — otvor cevi u dnu heksagonalnog bazena"
-  },
-  {
-   "materijal": "opeka",
-   "upotreba": "hipokaust pilone, zidovi (implicitno za period)",
-   "poverenje": "nisko",
-   "napomena_poverenja": "inferencija iz tipologije, nije direktno u izvorima"
-  },
-  {
-   "materijal": "bronza",
-   "upotreba": "portretna glava Konstantina (nalaz 1900) — implikuje skulptorsku dekoraciju",
-   "izvor": "wiki-sr",
-   "poverenje": "visoko"
-  },
-  {
-   "stavka": "pozlaćen stakleni mozaik polukalote (stibadium B)",
-   "potvrda": "Gavrilovic-Vitas 2016, Starinar LXVI",
-   "poverenje": "visoko"
-  },
-  {
-   "stavka": "opus sectile listoliki mermer (stibadium B, soba w-26)",
-   "potvrda": "nadjena listolika mermerna pločica, 2015",
-   "poverenje": "visoko"
-  },
-  {
-   "stavka": "ravan prozorski staklo (visoki sloj rasvete)",
-   "potvrda": "mnoštvo fragmenata u slojevima razaranja",
-   "poverenje": "visoko"
-  },
-  {
-   "stavka": "mermerne oplate zidova bele sa zuto-oker nijansom",
-   "potvrda": "mermerne ploce nadjene u slojevima razaranja stibadiuma B i sobe w-26 (Gavrilovic-Vitas 2016)",
-   "poverenje": "visoko"
-  },
-  {
-   "stavka": "porfir (glava kompozicije dijarhije; porfirne statue sa grckim natpisima — uvozena dela)",
-   "potvrda": "Milosevic, Carska ideologija; Vasic 1975",
-   "poverenje": "visoko"
-  }
- ],
- "uticaji": [
-  {
-   "uticaj": "tetrarhijsko-konstantinovska palatna arhitektura",
-   "dokaz": "slicnosti sa Felix Romulianom (Gamzigrad), 110 km istocno, isti period",
-   "poverenje": "srednje"
-  },
-  {
-   "uticaj": "vila sa peristilom — mediteranska villa rustica/urbana tipologija",
-   "dokaz": "tipoloski paralela Villa del Casale (3.500 m2 mozaika, peristil 40x30)",
-   "poverenje": "srednje",
-   "napomena_poverenja": "visoko za tipologiju, nisko za direktan kontakt"
-  },
-  {
-   "uticaj": "ranohriscanstvo",
-   "dokaz": "dve bazilike posle 378 na lokalu — rezidencija je preuzela crkvenu funkciju",
-   "poverenje": "visoko"
-  },
-  {
-   "uticaj": "imperijalna rezidencija Naissus",
-   "dokaz": "boravci Konstantina 315-334, Julijan 361, podela carstva 364 — vila je bila drzavni objekat, ne samo villa",
-   "poverenje": "visoko"
-  },
-  "carska ideologija Konstantina I u arhitekturi Medijane — kapija kao trijumfalna kapija, dinasticki program urodjen u Naisu (v0.9, monografija + rad \"Carska ideologija\")",
-  {
-   "uticaj": "carski adventus i dvorski ceremonijal Dioklecijana",
-   "dokaz": "kapija-slavoluk -> salutatorium -> peristil -> consitorium i triclinium; proskineza; arhitektura podredjena ceremonijalu",
-   "izvor": "carska-ideologija",
-   "poverenje": "visoko"
-  },
-  {
-   "uticaj": "solarni kult (Sol Invictus) uz dvorsko hriscanstvo",
-   "dokaz": "ograda sa hermama Sol/Eskulap; Fluvius i Meduza u auli; radialna kruna na slavoluku i novcu",
-   "izvor": "carska-ideologija",
-   "poverenje": "visoko"
-  },
-  {
-   "uticaj": "dardanska dinastijska ideologija",
-   "dokaz": "Dea Dardanica na ulazu — poreklo dinastije od Konstancija Hlora",
-   "izvor": "carska-ideologija",
-   "poverenje": "srednje-visoko"
-  }
- ],
- "graditelji_alati": {
-  "status": "Imena arhitekata i majstora NISU zabelezena nigde za Medijanu — ocekivano za period; unos je inferencija",
-  "inferencije": [
-   {
-    "poverenje": "nisko-srednje",
-    "stavka": "radionica mozaika verovatno iz imperijske mreze (kvalitet 450 m2 trem-a)"
-   },
-   {
-    "poverenje": "tipolosko visoko, za konkretan objekat nisko",
-    "stavka": "alati: klasicni rimski set — libella (nivo), groma (orasnicenje), zupcana pila, dleto, tegla-zig; hipokaust zahteva specijalizovane pecare"
-   },
-   {
-    "poverenje": "nisko",
-    "stavka": "gradnja: kolona merzila radna snaga lokalne stanovnine + vojske (imperijalni projekat)"
-   }
+  "materijali": [
+    {
+      "materijal": "les",
+      "upotreba": "podloga/terasa (35 m iznad Nisave)",
+      "izvor": "wiki-sr",
+      "poverenje": "visoko",
+      "3d_hint": "teren, ne gradjevinski materijal"
+    },
+    {
+      "materijal": "visebojni mermer",
+      "upotreba": "zidna obloga prijemnih prostorija",
+      "izvor": "wiki-sr",
+      "poverenje": "visoko",
+      "3d_hint": "teksture: dok su porjeklo kamena ne dokumentovano, koristiti opseg (prokonesski? belo-vencacki?) — poverenje NISKO",
+      "vizuelna_potvrda": "slike/Nis,_vila_oktogonalnog_oblika.JPG (opus mixtum: redovi opeke u kamenoj breči, 2026-10-25)"
+    },
+    {
+      "materijal": "mozaik (tesera)",
+      "upotreba": "945 m2 ukupno; 450 m2 trem peristila",
+      "izvor": "wiki-sr",
+      "poverenje": "visoko",
+      "3d_hint": "geometrijski program pouzdan; figuralni ikonografski program NE-DOKUMENTOVAN javno — najveca rupa za vizuelnu rekonstrukciju"
+    },
+    {
+      "materijal": "olovo",
+      "upotreba": "vodovodne cevi/fontana",
+      "izvor": "wiki-sr (olovna voda fontane)",
+      "poverenje": "visoko",
+      "vizuelna_potvrda": "kadar VI — otvor cevi u dnu heksagonalnog bazena"
+    },
+    {
+      "materijal": "opeka",
+      "upotreba": "hipokaust pilone, zidovi (implicitno za period)",
+      "poverenje": "nisko",
+      "napomena_poverenja": "inferencija iz tipologije, nije direktno u izvorima"
+    },
+    {
+      "materijal": "bronza",
+      "upotreba": "portretna glava Konstantina (nalaz 1900) — implikuje skulptorsku dekoraciju",
+      "izvor": "wiki-sr",
+      "poverenje": "visoko"
+    },
+    {
+      "stavka": "pozlaćen stakleni mozaik polukalote (stibadium B)",
+      "potvrda": "Gavrilovic-Vitas 2016, Starinar LXVI",
+      "poverenje": "visoko"
+    },
+    {
+      "stavka": "opus sectile listoliki mermer (stibadium B, soba w-26)",
+      "potvrda": "nadjena listolika mermerna pločica, 2015",
+      "poverenje": "visoko"
+    },
+    {
+      "stavka": "ravan prozorski staklo (visoki sloj rasvete)",
+      "potvrda": "mnoštvo fragmenata u slojevima razaranja",
+      "poverenje": "visoko"
+    },
+    {
+      "stavka": "mermerne oplate zidova bele sa zuto-oker nijansom",
+      "potvrda": "mermerne ploce nadjene u slojevima razaranja stibadiuma B i sobe w-26 (Gavrilovic-Vitas 2016)",
+      "poverenje": "visoko"
+    },
+    {
+      "stavka": "porfir (glava kompozicije dijarhije; porfirne statue sa grckim natpisima — uvozena dela)",
+      "potvrda": "Milosevic, Carska ideologija; Vasic 1975",
+      "poverenje": "visoko"
+    }
   ],
-  "uvezene-radionice-skulptora": {
-   "stavka": "uvezene radionice skulptora visokog kvaliteta (porfirne statue sa grckim natpisima na bazama) — imena nepoznata, uvoz dokazan natpisima",
-   "poverenje": "srednje-visoko"
-  }
- },
- "nalazi": [
-  {
-   "nalaz": "bronzana glava Konstantina",
-   "godina": 1900,
-   "gde": "narodni muzej Nis (prema wiki-sr)",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "skulpture",
-   "godina": 1972,
-   "poverenje": "srednje"
-  },
-  {
-   "nalaz": "novac",
-   "najmladji": "350.",
-   "implikacija": "NE postoji novac posle 350 u slojevima vile — ogranicava datum funkcije",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "genetika (Olalde 2021)",
-   "implikacija": "kontekst populacije, ne objekta",
-   "poverenje": "srednje"
-  },
-  "Vizuelna provera v0.5: Flickr set naslovi nisu pouzdana prostorna veza (nimfej I = mozaik pod) — vidi vizuelni_nalazi.json",
-  {
-   "tekst": "mozaik sobe 2 vile sa oktogonom: sredina mramorne ploce sa fontanom — kombinacija mramor + mozaik + voda u jednoj sobi (v0.9, monografija)",
-   "poverenje": "srednje"
-  },
-  {
-   "nalaz": "tubulusima — zidno grejanje potvrdjeno revizionim iskopavanjima sektora 4",
-   "izvor": "iskopi-2010-2011",
-   "poverenje": "visoko",
-   "3d_hint": "sistem cevi u debeljini zidova, paralelno sa hipokaustom poda"
-  },
-  {
-   "nalaz": "dvostruke podnice e-23 (malmerna 198.95 preko opeka 198.82)",
-   "znacaj": "rekonstrukcija faza: stariji hipokaust negiran, novi pod preko",
-   "izvor": "iskopi-2010-2011",
-   "poverenje": "visoko"
-  },
-  {
-   "nalaz": "stubovi juznog tremca od OPEKE na kamenim bazama; baza zapadnog stuba ulaza u sondi 101 sa otiskom u zidu z-50",
-   "znacaj": "prvi materijal i presek stubova vile iz terena",
-   "izvor": "iskopi-2010-2011",
-   "poverenje": "visoko"
-  }
- ],
- "teorije_rekonstrukcije": {
-  "ideal": "TEORETSKI ORIJENTIR: sveobuhvatna super-inteligencija bi iz ovog pasoša + literature mogla rekonstruisati 3D sa maksimalno inferencijom. Nije dostignuce, jeste mera koliko smo blizu.",
-  "stadijumi": [
-   {
-    "nivo": 0,
-    "naziv": "rupe",
-    "opis": "neobradjeni podaci",
-    "postignuto": false
-   },
-   {
-    "nivo": 1,
-    "naziv": "kurirani podaci sa izvorima",
-    "opis": "baza_podataka.json + ovaj pasoš",
-    "postignuto": true
-   },
-   {
-    "nivo": 2,
-    "naziv": "prostorna veza",
-    "opis": "prostorni_sloj.json + DEM",
-    "postignuto": true
-   },
-   {
-    "nivo": 3,
-    "naziv": "komparativna kalibracija",
-    "opis": "komparativni_lokaliteti.json",
-    "postignuto": true
-   },
-   {
-    "nivo": 4,
-    "naziv": "parametarski 3D stubovi",
-    "opis": "objekti sa dimenzijama + poverenjem (prostorni_sloj)",
-    "postignuto": true
-   },
-   {
-    "nivo": 5,
-    "naziv": "vizuelni izvori (Commons, iskopni planovi)",
-    "opis": "potrebno jos",
-    "postignuto": false,
-    "napomena_v010": "dekorativni sloj dobio prvi program: skulpturni program (skulpturski_program.json) + mozaicki motivi Fluvius i Meduza sa pozicijama",
-    "napomena_v011": "registar svih 31 slike Starinara 64/2014 popisan iz potpisa (sonde_sloj.registar_slika): profili sondi 2,3,4,7,8,11 + situacioni plan Sl. 1 — slike i dalje bez geometrije, samo opisi"
-   },
-   {
-    "nivo": 6,
-    "naziv": "GIS osnova objekata A-D",
-    "opis": "nigde javno — rupe",
-    "postignuto": false,
-    "napomena_v011": "temelj severnog zida 197.94 + sokl 198.02 + podovi 198.70-198.94 (v0.11): vertikalna osnova vile sada izmerena i povezana sa DEM"
-   },
-   {
-    "nivo": 7,
-    "naziv": "pun digital twin sa figuralnim mozaicima i materijalnim teksturama",
-    "opis": "cilj",
-    "postignuto": false
-   }
-  ]
- },
- "izvor": [
-  "baza_podataka.json",
-  "komparativni_lokaliteti.json",
-  "prostorni_sloj.json",
-  "wiki-sr",
-  "wiki-en",
-  "UNESCO",
-  "OSM",
-  "Wikidata"
- ],
- "figuralni_dekor": {
-  "dopuna": "v0.14 — ikonografija figuralnih mozaika, do tada otvorena rupa, delimicno popunjena iz monografije",
-  "scene": [
-   "Leda sa labudom i recni bog — podijum ulaza u aulu (moz-03)",
-   "glava Meduze u kruznom medaljonu — centar aule (moz-07)",
-   "ptice sa biljnim ukrasima — uglovi aule (moz-07)",
-   "morski crv — postolje mermerne fontane stibadijuma A (moz-10)"
+  "uticaji": [
+    {
+      "uticaj": "tetrarhijsko-konstantinovska palatna arhitektura",
+      "dokaz": "slicnosti sa Felix Romulianom (Gamzigrad), 110 km istocno, isti period",
+      "poverenje": "srednje"
+    },
+    {
+      "uticaj": "vila sa peristilom — mediteranska villa rustica/urbana tipologija",
+      "dokaz": "tipoloski paralela Villa del Casale (3.500 m2 mozaika, peristil 40x30)",
+      "poverenje": "srednje",
+      "napomena_poverenja": "visoko za tipologiju, nisko za direktan kontakt"
+    },
+    {
+      "uticaj": "ranohriscanstvo",
+      "dokaz": "dve bazilike posle 378 na lokalu — rezidencija je preuzela crkvenu funkciju",
+      "poverenje": "visoko"
+    },
+    {
+      "uticaj": "imperijalna rezidencija Naissus",
+      "dokaz": "boravci Konstantina 315-334, Julijan 361, podela carstva 364 — vila je bila drzavni objekat, ne samo villa",
+      "poverenje": "visoko"
+    },
+    "carska ideologija Konstantina I u arhitekturi Medijane — kapija kao trijumfalna kapija, dinasticki program urodjen u Naisu (v0.9, monografija + rad \"Carska ideologija\")",
+    {
+      "uticaj": "carski adventus i dvorski ceremonijal Dioklecijana",
+      "dokaz": "kapija-slavoluk -> salutatorium -> peristil -> consitorium i triclinium; proskineza; arhitektura podredjena ceremonijalu",
+      "izvor": "carska-ideologija",
+      "poverenje": "visoko"
+    },
+    {
+      "uticaj": "solarni kult (Sol Invictus) uz dvorsko hriscanstvo",
+      "dokaz": "ograda sa hermama Sol/Eskulap; Fluvius i Meduza u auli; radialna kruna na slavoluku i novcu",
+      "izvor": "carska-ideologija",
+      "poverenje": "visoko"
+    },
+    {
+      "uticaj": "dardanska dinastijska ideologija",
+      "dokaz": "Dea Dardanica na ulazu — poreklo dinastije od Konstancija Hlora",
+      "izvor": "carska-ideologija",
+      "poverenje": "srednje-visoko"
+    }
   ],
-  "poruka_programa": "mitoloski+apotropejski program na hoda-osi posetioca: ulaz (Leda, recni bog) -> centar (Meduza) -> trpezarija (fontana sa morskim crvom)",
-  "poverenje": "visoko",
-  "izvor": "monografija-vila-2011"
- }
+  "graditelji_alati": {
+    "status": "Imena arhitekata i majstora NISU zabelezena nigde za Medijanu — ocekivano za period; unos je inferencija",
+    "inferencije": [
+      {
+        "poverenje": "nisko-srednje",
+        "stavka": "radionica mozaika verovatno iz imperijske mreze (kvalitet 450 m2 trem-a)"
+      },
+      {
+        "poverenje": "tipolosko visoko, za konkretan objekat nisko",
+        "stavka": "alati: klasicni rimski set — libella (nivo), groma (orasnicenje), zupcana pila, dleto, tegla-zig; hipokaust zahteva specijalizovane pecare"
+      },
+      {
+        "poverenje": "nisko",
+        "stavka": "gradnja: kolona merzila radna snaga lokalne stanovnine + vojske (imperijalni projekat)"
+      }
+    ],
+    "uvezene-radionice-skulptora": {
+      "stavka": "uvezene radionice skulptora visokog kvaliteta (porfirne statue sa grckim natpisima na bazama) — imena nepoznata, uvoz dokazan natpisima",
+      "poverenje": "srednje-visoko"
+    }
+  },
+  "nalazi": [
+    {
+      "nalaz": "bronzana glava Konstantina",
+      "godina": 1900,
+      "gde": "narodni muzej Nis (prema wiki-sr)",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "skulpture",
+      "godina": 1972,
+      "poverenje": "srednje"
+    },
+    {
+      "nalaz": "novac",
+      "najmladji": "350.",
+      "implikacija": "NE postoji novac posle 350 u slojevima vile — ogranicava datum funkcije",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "genetika (Olalde 2021)",
+      "implikacija": "kontekst populacije, ne objekta",
+      "poverenje": "srednje"
+    },
+    "Vizuelna provera v0.5: Flickr set naslovi nisu pouzdana prostorna veza (nimfej I = mozaik pod) — vidi vizuelni_nalazi.json",
+    {
+      "tekst": "mozaik sobe 2 vile sa oktogonom: sredina mramorne ploce sa fontanom — kombinacija mramor + mozaik + voda u jednoj sobi (v0.9, monografija)",
+      "poverenje": "srednje"
+    },
+    {
+      "nalaz": "tubulusima — zidno grejanje potvrdjeno revizionim iskopavanjima sektora 4",
+      "izvor": "iskopi-2010-2011",
+      "poverenje": "visoko",
+      "3d_hint": "sistem cevi u debeljini zidova, paralelno sa hipokaustom poda"
+    },
+    {
+      "nalaz": "dvostruke podnice e-23 (malmerna 198.95 preko opeka 198.82)",
+      "znacaj": "rekonstrukcija faza: stariji hipokaust negiran, novi pod preko",
+      "izvor": "iskopi-2010-2011",
+      "poverenje": "visoko"
+    },
+    {
+      "nalaz": "stubovi juznog tremca od OPEKE na kamenim bazama; baza zapadnog stuba ulaza u sondi 101 sa otiskom u zidu z-50",
+      "znacaj": "prvi materijal i presek stubova vile iz terena",
+      "izvor": "iskopi-2010-2011",
+      "poverenje": "visoko"
+    }
+  ],
+  "teorije_rekonstrukcije": {
+    "ideal": "TEORETSKI ORIJENTIR: sveobuhvatna super-inteligencija bi iz ovog pasoša + literature mogla rekonstruisati 3D sa maksimalno inferencijom. Nije dostignuce, jeste mera koliko smo blizu.",
+    "stadijumi": [
+      {
+        "nivo": 0,
+        "naziv": "rupe",
+        "opis": "neobradjeni podaci",
+        "postignuto": false
+      },
+      {
+        "nivo": 1,
+        "naziv": "kurirani podaci sa izvorima",
+        "opis": "baza_podataka.json + ovaj pasoš",
+        "postignuto": true
+      },
+      {
+        "nivo": 2,
+        "naziv": "prostorna veza",
+        "opis": "prostorni_sloj.json + DEM",
+        "postignuto": true
+      },
+      {
+        "nivo": 3,
+        "naziv": "komparativna kalibracija",
+        "opis": "komparativni_lokaliteti.json",
+        "postignuto": true
+      },
+      {
+        "nivo": 4,
+        "naziv": "parametarski 3D stubovi",
+        "opis": "objekti sa dimenzijama + poverenjem (prostorni_sloj)",
+        "postignuto": true
+      },
+      {
+        "nivo": 5,
+        "naziv": "vizuelni izvori (Commons, iskopni planovi)",
+        "opis": "potrebno jos",
+        "postignuto": false,
+        "napomena_v010": "dekorativni sloj dobio prvi program: skulpturni program (skulpturski_program.json) + mozaicki motivi Fluvius i Meduza sa pozicijama",
+        "napomena_v011": "registar svih 31 slike Starinara 64/2014 popisan iz potpisa (sonde_sloj.registar_slika): profili sondi 2,3,4,7,8,11 + situacioni plan Sl. 1 — slike i dalje bez geometrije, samo opisi"
+      },
+      {
+        "nivo": 6,
+        "naziv": "GIS osnova objekata A-D",
+        "opis": "nigde javno — rupe",
+        "postignuto": false,
+        "napomena_v011": "temelj severnog zida 197.94 + sokl 198.02 + podovi 198.70-198.94 (v0.11): vertikalna osnova vile sada izmerena i povezana sa DEM"
+      },
+      {
+        "nivo": 7,
+        "naziv": "pun digital twin sa figuralnim mozaicima i materijalnim teksturama",
+        "opis": "cilj",
+        "postignuto": false
+      }
+    ]
+  },
+  "izvor": [
+    "baza_podataka.json",
+    "komparativni_lokaliteti.json",
+    "prostorni_sloj.json",
+    "wiki-sr",
+    "wiki-en",
+    "UNESCO",
+    "OSM",
+    "Wikidata"
+  ],
+  "figuralni_dekor": {
+    "dopuna": "v0.14 — ikonografija figuralnih mozaika, do tada otvorena rupa, delimicno popunjena iz monografije",
+    "scene": [
+      "Leda sa labudom i recni bog — podijum ulaza u aulu (moz-03)",
+      "glava Meduze u kruznom medaljonu — centar aule (moz-07)",
+      "ptice sa biljnim ukrasima — uglovi aule (moz-07)",
+      "morski crv — postolje mermerne fontane stibadijuma A (moz-10)"
+    ],
+    "poruka_programa": "mitoloski+apotropejski program na hoda-osi posetioca: ulaz (Leda, recni bog) -> centar (Meduza) -> trpezarija (fontana sa morskim crvom)",
+    "poverenje": "visoko",
+    "izvor": "monografija-vila-2011"
+  }
 }

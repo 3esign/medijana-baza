@@ -1,0 +1,42 @@
+{
+  "version": "0.27",
+  "datum": "2026-10-26",
+  "sloj": "fizicka izvodljivost trase Sreckovo vrelo -> Pantelej/Vinik (test hipoteze ZZSK)",
+  "pitanje": "Da li hipoteza ZZSK (Sreckovo vrelo kao izvor akvadukta za Naisus, trasa preko Vinika) prolazi gravitaciono bez tunela?",
+  "metoda": "open-elevation API (Copernicus DEM 30m, isti izvor kao ukrsteni test v025) — profil duz dve kandidate trase, 42 uzorka svaka",
+  "start": { "vrelo": "Sreckovo vrelo", "osm_node": "4027319493", "lat": 43.38523, "lon": 21.94579, "kota_dem": 442.6, "kota_glo30_openmeteo_v023": 431.9, "napomena": "razlika 10.7 m izmedju dva cita istog terena — konzistentno sa obalskom nesigurnoscu iz v024/v025" },
+  "cilj": { "segment": "tr-01 Pod Vinik", "lat": 43.352, "lon": 21.916, "kota": 362.5 },
+  "trasa_1": {
+    "ime": "pravolinijska: vrelo -> Prevalac (tr-02) -> Pod Vinik",
+    "uzoraka": 42,
+    "kota_vrela": 442.6,
+    "max_medjukota": 495.7,
+    "pozicija_maxa": "uzorak 2-3, ~130-260 m JZ od vrela — greben odmah iznad izvora",
+    "min_posle_grebena": 290.8,
+    "zakljucak": "BLOKIRANA bez tunela: greben 495.7 m je ~53 m iznad vrela; drugi greben ~407 m na prilazu Pod Viniku, dok dolina medju njima pada na 291 m"
+  },
+  "trasa_2": {
+    "ime": "zaobilazak dolinom Kamenice (zapadno od grebena)",
+    "uzoraka": 50,
+    "kota_vrela": 442.6,
+    "max_medjukota": 504.7,
+    "min_us_dolini": 316.1,
+    "kota_cilja": 362.5,
+    "zakljucak": "TAKODJE BLOKIRANA bez tunela: i zapadni zaobilazak vodi preko uzvisenja 490-505 m. Uz to, dno doline Kamenice (316-357 m) je ISPOD kote cilja (362.5) — gravitaciona trasa mora voziti po padini, ne dnom."
+  },
+  "nalaz": {
+    "glavni": "Sreckovo vrelo lezi u zatvorenom karstnom vidiku prema severu — SVAKI pravac ka Viniku/Panteleju prelazi greben 490-505 m, ~55-62 m iznad kote vrela. Trasa ZZSK-a bez tunela je po DEM-u neizvodljiva; sa tunelom (~0.5-1 km pod grebenom) izvodljiva, ali to je znatan inzenjerski poduhvat koji bi arheoloski bio vidljiv.",
+    "posledica_za_medijanu": "Ovo JACA poziciju naseg v0.23 kandidata (node 4115176757, kontakt Suve Planine, 209.5 m, pad 0.88%): vrelo iznad Medijane postoji i nema grebensku prepreku — dok vrelo iznad Vinika zahteva tunel.",
+    "posledica_za_sukob": "Konflikt 'sukob-vinik-vs-banja' se suzuje: dva sistema i dalje moguca, ali ZZSK hipoteza o Sreckovom vrelu kao jedinom izvoru dobija fizicku protivtezinu. Alternativa ZZSK-a: vrelo u dolini Kamenice nize kote (nije identifikovano) — ostaje otvoreno.",
+    "status": "sukob ostaje OTVOREN, odlucuje iskop spoja/ustave — ali sada sa merljivim argumentom"
+  },
+  "ogranacenja": [
+    "uzorkovanje po pravim linijama sa 42-50 tacaka — prava rimska trasa se penje konturno, ali ni konturna trasa ne moze preskociti greben 490-505 m",
+    "open-elevation i Open-Meteo GLO-30 se razlikuju do ~10 m na istoj tacki — apsolutne kote nesigurne, ali ODNOJ vrelo/greben (~55 m) je robustan jer je vece od greske",
+    "islopne koordinate segmenata ostaju aproksimacija po naseljima (v026 napomena)"
+  ],
+  "izvori": [
+    { "id": "open-elevation", "url": "https://api.open-elevation.com", "koriscenje": "profil DEM" },
+    { "id": "zzsk-2025-sveoarheologiji", "url": "https://sveoarheologiji.com/arheolosko-otkrice-u-nisu-jos-jedan-deo-rimskog-akvadukta", "koriscenje": "hipoteza Sreckovo vrelo" }
+  ]
+}
