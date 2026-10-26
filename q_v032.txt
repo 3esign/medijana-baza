@@ -1,0 +1,1 @@
+[out:json][timeout:80];way["highway"]["name"](43.335,21.905,43.365,21.945);out center tags;

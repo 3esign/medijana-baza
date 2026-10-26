@@ -24,10 +24,14 @@
    "godina": 2020,
    "napomena": "zapadni krak Somborskog bulevara, severno od Pantelejske kasarne; 2022 nastavak istrazivanja",
    "koordinate": [
+    21.9155,
+    43.3445
+   ],
+   "geokod": "KOREKCIJA v0.32: ~1.2 km N od kasare Knjaz Mihailo, koridor Vinik grida; bulevar bez OSM geometrije, nesigurnost ~300 m",
+   "koordinate_v031_staro": [
     21.916,
     43.352
-   ],
-   "geokod": "APROKSIMACIJA po opisu lokacije"
+   ]
   },
   {
    "id": "tr-02",

@@ -1,0 +1,46 @@
+{
+ "version": "0.32",
+ "datum": "2026-10-26",
+ "sloj": "podvinik_somborski_bulevar_v032",
+ "cilj": "tr-01 (Pod Vinik / Pod Vinik 2, 2020) - zameniti aproksimaciju metarskom osnovom gde je izvodljivo",
+ "nalazi": [
+  {
+   "id": "osm-odsustvo",
+   "tekst": "'Somborski bulevar' NE POSTOJI u OSM ni pod kojim varijantom: Overpass (mail.ru mirror) regex 'Sombors*'/cirilicno 'Сомборс*' na bbox 43.30-43.40 x 21.85-22.00 = 0 elemenata; Nominatim latinica+cirilica = 0 rezultata. Overpass.de i kumi.systems timeout (504). Novi bulevar na Viniku je van OSM imena (planska saobracajnica).",
+   "izvori": [
+    "overpass_v032_somborski.json",
+    "overpass_v032_okolina.json"
+   ]
+  },
+  {
+   "id": "koridor-vinik-grid",
+   "tekst": "Novi Vinik grid severno od Pantelejske kasarne (Knjaz Mihailo, 43.3341/21.8971, 206 m) koristi vojvodjanska imena (Becejska 43.3415/21.9180, Suboticka 43.3369/21.9107, Kamenicka 43.3400/21.9133, Borska 43.3420/21.9181) - 'Somborski' pripada istom nomenklaturnom paketu buduceg bulevara. Zapadni krak odgovara koridoru lon ~21.912-21.918, lat ~43.338-43.346.",
+   "izvori": [
+    "overpass_v032_okolina.json"
+   ]
+  },
+  {
+   "id": "tr01-korekcija",
+   "tekst": "tr-01 pomerena sa [21.916, 43.352] (~2.2 km od kasarne, preduboko u brdo) na [21.9155, 43.3445]: ~1.2 km severno od kasarne, unutar koridora, na padini ispod Vinika (~250-270 m nv). Ogranicenje 'severno od Pantelejske kasarne' iz saopstenja ZZSK sada ispostovano; poprecna nesigurnost i dalje ~300 m jer bulevar nema geometriju u OSM."
+  },
+  {
+   "id": "diskrepancija-duzina",
+   "tekst": "sveoarheologiji.com (05/2025): ukupno ~200 m akvadukta dokumentovano na svim lokalitetima; ZZSK saopstenje 09/2025 (v0.28): 300 m. Razlika ~100 m = verovatno novi Ardija segment (40 m) + Gornjomatejevacka (>90 m) mereno od maja do septembra 2025. Oba broja upisana kao raspon 200-300 m."
+  }
+ ],
+ "izvori": [
+  {
+   "id": "sveoarheologiji-2025",
+   "url": "https://sveoarheologiji.com/arheolosko-otkrice-u-nisu-jos-jedan-deo-rimskog-akvadukta"
+  },
+  {
+   "id": "overpass-mailru",
+   "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+  },
+  {
+   "id": "nistv-somborski",
+   "url": "https://nistv.rs/izmene-autobuskih-trasa-na-panteleju-somborski-bulevar-i-knjazevacka-pod-posebnim-rezimom"
+  }
+ ],
+ "sukob": "vinik-vs-banja ostaje OTVOREN; ovaj sloj ne menja fiziku v0.27/v0.30"
+}

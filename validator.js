@@ -635,3 +635,23 @@ try {
   if (!lk.sukob_vinik_banja || !/otvoren/i.test(lk.sukob_vinik_banja)) greske.push('v031: sukob vinik-vs-banja mora ostati otvoren');
   for (const i of lk.izvori) if (!/^https?:\/\//.test(i.url)) greske.push('v031: izvor bez URL: ' + i.naziv);
 } catch (e) { greske.push('v031: ' + e.message); }
+
+// ---------- v0.32: Pod Vinik / Somborski bulevar ----------
+try {
+  const l32 = JSON.parse(fs.readFileSync(path.join(DIR, 'podvinik_bulevar_v032.json'), 'utf8'));
+  const t26b = JSON.parse(fs.readFileSync(path.join(DIR, 'akvadukt_trasa_v026.json'), 'utf8'));
+  const tr01 = t26b.segmenti.find(s => s.id === 'tr-01');
+  if (!tr01) greske.push('v032: tr-01 fali u trasi');
+  const k = tr01.koordinate, kS = [21.8971, 43.3341]; // kasarna Knjaz Mihailo
+  const dKm = Math.hypot((k[0]-kS[0])*111*Math.cos(43.34*Math.PI/180), (k[1]-kS[1])*111);
+  if (dKm < 0.8 || dKm > 1.6) greske.push('v032: tr-01 mora biti ~1.2 km severno od kasarne (d=' + dKm.toFixed(2) + ')');
+  if (!(k[1] > kS[1])) greske.push('v032: tr-01 mora biti severno od kasarne');
+  if (Math.abs(k[1] - 43.352) < 0.004) greske.push('v032: tr-01 nije korigovana (stara vrednost 43.352)');
+  if (!tr01.geokod || !/v0\.32/.test(tr01.geokod)) greske.push('v032: geokod tr-01 mora nositi oznaku v0.32');
+  const n_osm = l32.nalazi.find(n => n.id === 'osm-odsustvo');
+  if (!n_osm || !/0 elemenata/.test(n_osm.tekst)) greske.push('v032: mora biti upisano da bulevar ne postoji u OSM');
+  const disk = l32.nalazi.find(n => n.id === 'diskrepancija-duzina');
+  if (!disk || !/200/.test(disk.tekst) || !/300/.test(disk.tekst)) greske.push('v032: diskrepancija 200 vs 300 m mora biti upisana');
+  if (!/OTVOREN|otvoren/.test(l32.sukob)) greske.push('v032: sukob vinik-vs-banja mora ostati otvoren');
+  for (const i of l32.izvori) if (!/^https?:\/\//.test(i.url)) greske.push('v032: izvor bez URL: ' + i.id);
+} catch (e) { greske.push('v032: ' + e.message); }

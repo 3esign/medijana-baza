@@ -1,0 +1,3651 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-26T07:55:27Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 108165624,
+  "center": {
+    "lat": 43.3403365,
+    "lon": 21.9269785
+  },
+  "tags": {
+    "highway": "track",
+    "int_name": "Gornjomatejevacka",
+    "name": "Горњоматејевачка",
+    "name:sr": "Горњоматејевачка",
+    "name:sr-Latn": "Gornjomatejevačka",
+    "ref:RS:ulica": "792012000172",
+    "surface": "ground",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 112672895,
+  "center": {
+    "lat": 43.3350337,
+    "lon": 21.9421140
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Lala",
+    "name": "Лала",
+    "name:sr": "Лала",
+    "name:sr-Latn": "Lala",
+    "ref:RS:ulica": "729094005802"
+  }
+},
+{
+  "type": "way",
+  "id": 112674203,
+  "center": {
+    "lat": 43.3378800,
+    "lon": 21.9097475
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Bitoljska",
+    "name": "Битољска",
+    "name:sr": "Битољска",
+    "name:sr-Latn": "Bitoljska",
+    "ref:RS:ulica": "792012000034"
+  }
+},
+{
+  "type": "way",
+  "id": 112681697,
+  "center": {
+    "lat": 43.3369079,
+    "lon": 21.9106920
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Suboticka",
+    "name": "Суботичка",
+    "name:sr": "Суботичка",
+    "name:sr-Latn": "Subotička",
+    "ref:RS:ulica": "792012000694"
+  }
+},
+{
+  "type": "way",
+  "id": 112682231,
+  "center": {
+    "lat": 43.3364751,
+    "lon": 21.9125263
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Djure Djakovica",
+    "name": "Ђуре Ђаковића",
+    "name:sr": "Ђуре Ђаковића",
+    "name:sr-Latn": "Đure Đakovića",
+    "ref:RS:ulica": "792012000262"
+  }
+},
+{
+  "type": "way",
+  "id": 112682950,
+  "center": {
+    "lat": 43.3379692,
+    "lon": 21.9117398
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Palih boraca",
+    "name": "Палих бораца",
+    "name:sr": "Палих бораца",
+    "name:sr-Latn": "Palih boraca",
+    "ref:RS:ulica": "792012000551"
+  }
+},
+{
+  "type": "way",
+  "id": 112683455,
+  "center": {
+    "lat": 43.3412326,
+    "lon": 21.9136166
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Lovacka",
+    "name": "Ловачка",
+    "name:sr": "Ловачка",
+    "name:sr-Latn": "Lovačka",
+    "ref:RS:ulica": "792012000423"
+  }
+},
+{
+  "type": "way",
+  "id": 112683670,
+  "center": {
+    "lat": 43.3403923,
+    "lon": 21.9152456
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Moravicka",
+    "name": "Моравичка",
+    "name:sr": "Моравичка",
+    "name:sr-Latn": "Moravička",
+    "ref:RS:ulica": "792012000499"
+  }
+},
+{
+  "type": "way",
+  "id": 112684663,
+  "center": {
+    "lat": 43.3408432,
+    "lon": 21.9177243
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Javorska",
+    "name": "Јаворска",
+    "name:sr": "Јаворска",
+    "name:sr-Latn": "Javorska",
+    "ref:RS:ulica": "792012000310"
+  }
+},
+{
+  "type": "way",
+  "id": 112685405,
+  "center": {
+    "lat": 43.3415013,
+    "lon": 21.9180407
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Becejska",
+    "name": "Бечејска",
+    "name:sr": "Бечејска",
+    "name:sr-Latn": "Bečejska",
+    "ref:RS:ulica": "792012000030"
+  }
+},
+{
+  "type": "way",
+  "id": 112685867,
+  "center": {
+    "lat": 43.3407474,
+    "lon": 21.9138654
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Loznicka",
+    "name": "Лозничка",
+    "name:sr": "Лозничка",
+    "name:sr-Latn": "Loznička",
+    "ref:RS:ulica": "792012000429"
+  }
+},
+{
+  "type": "way",
+  "id": 112686105,
+  "center": {
+    "lat": 43.3409199,
+    "lon": 21.9148562
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Dunavska",
+    "name": "Дунавска",
+    "name:sr": "Дунавска",
+    "name:sr-Latn": "Dunavska",
+    "ref:RS:ulica": "792012000244"
+  }
+},
+{
+  "type": "way",
+  "id": 112686362,
+  "center": {
+    "lat": 43.3410234,
+    "lon": 21.9130005
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Neretvljanska",
+    "name": "Неретвљанска",
+    "name:sr": "Неретвљанска",
+    "name:sr-Latn": "Neretvljanska",
+    "ref:RS:ulica": "792012000516"
+  }
+},
+{
+  "type": "way",
+  "id": 112686565,
+  "center": {
+    "lat": 43.3401636,
+    "lon": 21.9135434
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Boracka",
+    "name": "Борачка",
+    "name:sr": "Борачка",
+    "name:sr-Latn": "Boračka",
+    "ref:RS:ulica": "792012000052"
+  }
+},
+{
+  "type": "way",
+  "id": 112687102,
+  "center": {
+    "lat": 43.3384950,
+    "lon": 21.9121788
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Unska",
+    "name": "Унска",
+    "name:sr": "Унска",
+    "name:sr-Latn": "Unska",
+    "ref:RS:ulica": "792012000421"
+  }
+},
+{
+  "type": "way",
+  "id": 112687533,
+  "center": {
+    "lat": 43.3388111,
+    "lon": 21.9123198
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Pecka",
+    "name": "Пећка",
+    "name:sr": "Пећка",
+    "name:sr-Latn": "Pećka",
+    "ref:RS:ulica": "792012000568"
+  }
+},
+{
+  "type": "way",
+  "id": 114472271,
+  "center": {
+    "lat": 43.3364786,
+    "lon": 21.9196887
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Tihomira Brankovica Joce",
+    "name": "Тихомира Бранковића Јоце",
+    "name:sr": "Тихомира Бранковића Јоце",
+    "name:sr-Latn": "Tihomira Brankovića Joce",
+    "ref:RS:ulica": "792012000708"
+  }
+},
+{
+  "type": "way",
+  "id": 114568200,
+  "center": {
+    "lat": 43.3369780,
+    "lon": 21.9207766
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Novice Zigica Boze",
+    "name": "Новице Жигића Боже",
+    "name:sr": "Новице Жигића Боже",
+    "name:sr-Latn": "Novice Žigića Bože"
+  }
+},
+{
+  "type": "way",
+  "id": 114582456,
+  "center": {
+    "lat": 43.3362309,
+    "lon": 21.9189220
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Borislava Nikolica Serjoze",
+    "name": "Борислава Николића Серјоже",
+    "name:sr": "Борислава Николића Серјоже",
+    "name:sr-Latn": "Borislava Nikolića Serjože",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000060"
+  }
+},
+{
+  "type": "way",
+  "id": 114583468,
+  "center": {
+    "lat": 43.3361651,
+    "lon": 21.9186867
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Borislava Nikolica Serjoze",
+    "name": "Борислава Николића Серјоже",
+    "name:sr": "Борислава Николића Серјоже",
+    "name:sr-Latn": "Borislava Nikolića Serjože",
+    "ref:RS:ulica": "792012000060"
+  }
+},
+{
+  "type": "way",
+  "id": 114814364,
+  "center": {
+    "lat": 43.3353410,
+    "lon": 21.9275237
+  },
+  "tags": {
+    "highway": "residential",
+    "horse": "no",
+    "int_name": "Koce Kapetana",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Коче Капетана",
+    "name:sr": "Коче Капетана",
+    "name:sr-Latn": "Koče Kapetana",
+    "ref:RS:ulica": "792012000386"
+  }
+},
+{
+  "type": "way",
+  "id": 114814911,
+  "center": {
+    "lat": 43.3359389,
+    "lon": 21.9411620
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Djordja Stamenkovica",
+    "lanes": "2",
+    "name": "Ђорђа Стаменковића",
+    "name:sr": "Ђорђа Стаменковића",
+    "name:sr-Latn": "Đorđa Stamenkovića",
+    "ref:RS:ulica": "729094005804",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 114939650,
+  "center": {
+    "lat": 43.3414530,
+    "lon": 21.9143049
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Lapovacka",
+    "name": "Лаповачка",
+    "name:sr": "Лаповачка",
+    "name:sr-Latn": "Lapovačka",
+    "ref:RS:ulica": "792012000415"
+  }
+},
+{
+  "type": "way",
+  "id": 114939914,
+  "center": {
+    "lat": 43.3447211,
+    "lon": 21.9167298
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Svetog Prokopija",
+    "name": "Светог Прокопија",
+    "name:sr": "Светог Прокопија",
+    "name:sr-Latn": "Svetog Prokopija",
+    "ref:RS:ulica": "729205047374"
+  }
+},
+{
+  "type": "way",
+  "id": 114940085,
+  "center": {
+    "lat": 43.3412792,
+    "lon": 21.9158099
+  },
+  "tags": {
+    "alt_name": "Тринаести мај",
+    "alt_name:sr": "Тринаести мај",
+    "alt_name:sr-Latn": "Trinaesti maj",
+    "highway": "residential",
+    "int_name": "13. maj",
+    "name": "13. мај",
+    "name:sr": "13. мај",
+    "name:sr-Latn": "13. maj",
+    "ref:RS:ulica": "792012005910"
+  }
+},
+{
+  "type": "way",
+  "id": 115541129,
+  "center": {
+    "lat": 43.3367094,
+    "lon": 21.9204748
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Novice Zigica Boze",
+    "name": "Новице Жигића Боже",
+    "name:sr": "Новице Жигића Боже",
+    "name:sr-Latn": "Novice Žigića Bože",
+    "ref:RS:ulica": "792012000527"
+  }
+},
+{
+  "type": "way",
+  "id": 115561005,
+  "center": {
+    "lat": 43.3347718,
+    "lon": 21.9292845
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Grckog prijateljstva",
+    "name": "Грчког пријатељства",
+    "name:sr": "Грчког пријатељства",
+    "name:sr-Latn": "Grčkog prijateljstva",
+    "ref:RS:ulica": "792012000058"
+  }
+},
+{
+  "type": "way",
+  "id": 115561034,
+  "center": {
+    "lat": 43.3385490,
+    "lon": 21.9183946
+  },
+  "tags": {
+    "alt_name": "Горњоматејевачка седми прилаз",
+    "alt_name:sr": "Горњоматејевачка седми прилаз",
+    "alt_name:sr-Latn": "Gornjomatejevačka sedmi prilaz",
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka 7. prilaz",
+    "name": "Горњоматејевачка 7. прилаз",
+    "name:sr": "Горњоматејевачка 7. прилаз",
+    "name:sr-Latn": "Gornjomatejevačka 7. prilaz",
+    "ref:RS:ulica": "792012000179",
+    "short_name": "Горњоматејевачка 7 прилаз",
+    "short_name:sr": "Горњоматејевачка 7 прилаз",
+    "short_name:sr-Latn": "Gornjomatejevačka 7 prilaz"
+  }
+},
+{
+  "type": "way",
+  "id": 115561035,
+  "center": {
+    "lat": 43.3382589,
+    "lon": 21.9178035
+  },
+  "tags": {
+    "alt_name": "Горњоматејевачка шести прилаз",
+    "alt_name:sr": "Горњоматејевачка шести прилаз",
+    "alt_name:sr-Latn": "Gornjomatejevačka šesti prilaz",
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka 6. prilaz",
+    "name": "Горњоматејевачка 6. прилаз",
+    "name:sr": "Горњоматејевачка 6. прилаз",
+    "name:sr-Latn": "Gornjomatejevačka 6. prilaz",
+    "ref:RS:ulica": "792012000178",
+    "short_name": "Горњоматејевачка 6 прилаз",
+    "short_name:sr": "Горњоматејевачка 6 прилаз",
+    "short_name:sr-Latn": "Gornjomatejevačka 6 prilaz"
+  }
+},
+{
+  "type": "way",
+  "id": 115561036,
+  "center": {
+    "lat": 43.3382478,
+    "lon": 21.9174062
+  },
+  "tags": {
+    "alt_name": "Горњоматејевачка пети прилаз",
+    "alt_name:sr": "Горњоматејевачка пети прилаз",
+    "alt_name:sr-Latn": "Gornjomatejevačka peti prilaz",
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka 5. prilaz",
+    "name": "Горњоматејевачка 5. прилаз",
+    "name:sr": "Горњоматејевачка 5. прилаз",
+    "name:sr-Latn": "Gornjomatejevačka 5. prilaz",
+    "ref:RS:ulica": "792012000177",
+    "short_name": "Горњоматејевачка 5 прилаз",
+    "short_name:sr": "Горњоматејевачка 5 прилаз",
+    "short_name:sr-Latn": "Gornjomatejevačka 5 prilaz"
+  }
+},
+{
+  "type": "way",
+  "id": 115561037,
+  "center": {
+    "lat": 43.3388312,
+    "lon": 21.9156934
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Niska",
+    "name": "Нишка",
+    "name:sr": "Нишка",
+    "name:sr-Latn": "Niška",
+    "ref:RS:ulica": "792012000524"
+  }
+},
+{
+  "type": "way",
+  "id": 115561038,
+  "center": {
+    "lat": 43.3377557,
+    "lon": 21.9162964
+  },
+  "tags": {
+    "alt_name": "Горњоматејевачка трећи прилаз",
+    "alt_name:sr": "Горњоматејевачка трећи прилаз",
+    "alt_name:sr-Latn": "Gornjomatejevačka treći prilaz",
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka 3. prilaz",
+    "name": "Горњоматејевачка 3. прилаз",
+    "name:sr": "Горњоматејевачка 3. прилаз",
+    "name:sr-Latn": "Gornjomatejevačka 3. prilaz",
+    "ref:RS:ulica": "792012000175",
+    "short_name": "Горњоматејевачка 3 прилаз",
+    "short_name:sr": "Горњоматејевачка 3 прилаз",
+    "short_name:sr-Latn": "Gornjomatejevačka 3 prilaz"
+  }
+},
+{
+  "type": "way",
+  "id": 115561039,
+  "center": {
+    "lat": 43.3374266,
+    "lon": 21.9159828
+  },
+  "tags": {
+    "alt_name": "Горњоматејевачка други прилаз",
+    "alt_name:sr": "Горњоматејевачка други прилаз",
+    "alt_name:sr-Latn": "Gornjomatejevačka drugi prilaz",
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka 2. prilaz",
+    "name": "Горњоматејевачка 2. прилаз",
+    "name:sr": "Горњоматејевачка 2. прилаз",
+    "name:sr-Latn": "Gornjomatejevačka 2. prilaz",
+    "ref:RS:ulica": "792012000174",
+    "short_name": "Горњоматејевачка 2 прилаз",
+    "short_name:sr": "Горњоматејевачка 2 прилаз",
+    "short_name:sr-Latn": "Gornjomatejevačka 2 prilaz"
+  }
+},
+{
+  "type": "way",
+  "id": 115561040,
+  "center": {
+    "lat": 43.3373486,
+    "lon": 21.9154009
+  },
+  "tags": {
+    "alt_name": "Горњоматејевачка први прилаз",
+    "alt_name:sr": "Горњоматејевачка први прилаз",
+    "alt_name:sr-Latn": "Gornjomatejevačka prvi prilaz",
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka 1. prilaz",
+    "name": "Горњоматејевачка 1. прилаз",
+    "name:sr": "Горњоматејевачка 1. прилаз",
+    "name:sr-Latn": "Gornjomatejevačka 1. prilaz",
+    "ref:RS:ulica": "792012000173",
+    "short_name": "Горњоматејевачка 1 прилаз",
+    "short_name:sr": "Горњоматејевачка 1 прилаз",
+    "short_name:sr-Latn": "Gornjomatejevačka 1 prilaz",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115561041,
+  "center": {
+    "lat": 43.3372631,
+    "lon": 21.9137154
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Kraljevacka",
+    "name": "Краљевачка",
+    "name:sr": "Краљевачка",
+    "name:sr-Latn": "Kraljevačka",
+    "ref:RS:ulica": "792012000393"
+  }
+},
+{
+  "type": "way",
+  "id": 115561043,
+  "center": {
+    "lat": 43.3370479,
+    "lon": 21.9212488
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Studenicka",
+    "name": "Студеничка",
+    "name:sr": "Студеничка",
+    "name:sr-Latn": "Studenička",
+    "ref:RS:ulica": "792012000693"
+  }
+},
+{
+  "type": "way",
+  "id": 115561044,
+  "center": {
+    "lat": 43.3326576,
+    "lon": 21.9236510
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Milana Blagojevica",
+    "name": "Милана Благојевића",
+    "name:sr": "Милана Благојевића",
+    "name:sr-Latn": "Milana Blagojevića",
+    "ref:RS:ulica": "792012005085"
+  }
+},
+{
+  "type": "way",
+  "id": 115561045,
+  "center": {
+    "lat": 43.3348538,
+    "lon": 21.9199247
+  },
+  "tags": {
+    "highway": "secondary",
+    "horse": "no",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115561046,
+  "center": {
+    "lat": 43.3349221,
+    "lon": 21.9114348
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Karlovacka",
+    "name": "Карловачка",
+    "name:sr": "Карловачка",
+    "name:sr-Latn": "Karlovačka",
+    "ref:RS:ulica": "792012000348"
+  }
+},
+{
+  "type": "way",
+  "id": 115561047,
+  "center": {
+    "lat": 43.3350263,
+    "lon": 21.9124378
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Vrsacka",
+    "name": "Вршачка",
+    "name:sr": "Вршачка",
+    "name:sr-Latn": "Vršačka",
+    "ref:RS:ulica": "792012000144"
+  }
+},
+{
+  "type": "way",
+  "id": 115561048,
+  "center": {
+    "lat": 43.3351329,
+    "lon": 21.9133956
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Pancevacka",
+    "name": "Панчевачка",
+    "name:sr": "Панчевачка",
+    "name:sr-Latn": "Pančevačka",
+    "ref:RS:ulica": "792012000555"
+  }
+},
+{
+  "type": "way",
+  "id": 115561049,
+  "center": {
+    "lat": 43.3355197,
+    "lon": 21.9141216
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Monahinje Jefimije",
+    "name": "Монахиње Јефимије",
+    "name:sr": "Монахиње Јефимије",
+    "name:sr-Latn": "Monahinje Jefimije",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000554"
+  }
+},
+{
+  "type": "way",
+  "id": 115561050,
+  "center": {
+    "lat": 43.3352141,
+    "lon": 21.9158761
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Fridriha Barbarose",
+    "name": "Фридриха Барбаросе",
+    "name:sr": "Фридриха Барбаросе",
+    "name:sr-Latn": "Fridriha Barbarose",
+    "ref:RS:ulica": "792012000750"
+  }
+},
+{
+  "type": "way",
+  "id": 115561051,
+  "center": {
+    "lat": 43.3356247,
+    "lon": 21.9155323
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Dojranska",
+    "name": "Дојранска",
+    "name:sr": "Дојранска",
+    "name:sr-Latn": "Dojranska",
+    "ref:RS:ulica": "792012000218"
+  }
+},
+{
+  "type": "way",
+  "id": 115561083,
+  "center": {
+    "lat": 43.3332074,
+    "lon": 21.9307788
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Zarka Zrenjanina",
+    "name": "Жарка Зрењанина",
+    "name:sr": "Жарка Зрењанина",
+    "name:sr-Latn": "Žarka Zrenjanina",
+    "ref:RS:ulica": "792012000267"
+  }
+},
+{
+  "type": "way",
+  "id": 115561159,
+  "center": {
+    "lat": 43.3357431,
+    "lon": 21.9148232
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Rastka Nemanjica",
+    "name": "Растка Немањића",
+    "name:sr": "Растка Немањића",
+    "name:sr-Latn": "Rastka Nemanjića",
+    "ref:RS:ulica": "792012000615"
+  }
+},
+{
+  "type": "way",
+  "id": 115561251,
+  "center": {
+    "lat": 43.3324077,
+    "lon": 21.9245669
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ivana Gorana Kovacica",
+    "name": "Ивана Горана Ковачића",
+    "name:sr": "Ивана Горана Ковачића",
+    "name:sr-Latn": "Ivana Gorana Kovačića",
+    "ref:RS:ulica": "792012000292"
+  }
+},
+{
+  "type": "way",
+  "id": 115561252,
+  "center": {
+    "lat": 43.3323894,
+    "lon": 21.9253228
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Zikice Jovanovica Spanca",
+    "name": "Жикице Јовановића Шпанца",
+    "name:sr": "Жикице Јовановића Шпанца",
+    "name:sr-Latn": "Žikice Jovanovića Španca",
+    "ref:RS:ulica": "792012000271"
+  }
+},
+{
+  "type": "way",
+  "id": 115561253,
+  "center": {
+    "lat": 43.3324064,
+    "lon": 21.9260882
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ozrenska",
+    "name": "Озренска",
+    "name:sr": "Озренска",
+    "name:sr-Latn": "Ozrenska",
+    "ref:RS:ulica": "792012000539"
+  }
+},
+{
+  "type": "way",
+  "id": 115561254,
+  "center": {
+    "lat": 43.3355580,
+    "lon": 21.9269810
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Despota Djurdja",
+    "name": "Деспота Ђурђа",
+    "name:sr": "Деспота Ђурђа",
+    "name:sr-Latn": "Despota Đurđa",
+    "ref:RS:ulica": "792012000307"
+  }
+},
+{
+  "type": "way",
+  "id": 115561286,
+  "center": {
+    "lat": 43.3369421,
+    "lon": 21.9129542
+  },
+  "tags": {
+    "alt_name": "Девети мај",
+    "alt_name:sr": "Девети мај",
+    "alt_name:sr-Latn": "Deveti maj",
+    "highway": "residential",
+    "int_name": "9. maj",
+    "name": "9. мај",
+    "name:sr": "9. мај",
+    "name:sr-Latn": "9. maj",
+    "ref:RS:ulica": "792012000201",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115561288,
+  "center": {
+    "lat": 43.3365920,
+    "lon": 21.9200761
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Tihomira Brankovica Joce",
+    "name": "Тихомира Бранковића Јоце",
+    "name:sr": "Тихомира Бранковића Јоце",
+    "name:sr-Latn": "Tihomira Brankovića Joce",
+    "source:name": "local_knowledge"
+  }
+},
+{
+  "type": "way",
+  "id": 115561295,
+  "center": {
+    "lat": 43.3344707,
+    "lon": 21.9335720
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Despota Stefana",
+    "name": "Деспота Стефана",
+    "name:sr": "Деспота Стефана",
+    "name:sr-Latn": "Despota Stefana",
+    "ref:RS:ulica": "792012000471"
+  }
+},
+{
+  "type": "way",
+  "id": 115561369,
+  "center": {
+    "lat": 43.3378316,
+    "lon": 21.9134140
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Begejska",
+    "name": "Бегејска",
+    "name:sr": "Бегејска",
+    "name:sr-Latn": "Begejska",
+    "ref:RS:ulica": "792012000023"
+  }
+},
+{
+  "type": "way",
+  "id": 115561370,
+  "center": {
+    "lat": 43.3381246,
+    "lon": 21.9140848
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Branka Denica Deve",
+    "name": "Бранка Денића Деве",
+    "name:sr": "Бранка Денића Деве",
+    "name:sr-Latn": "Branka Denića Deve",
+    "ref:RS:ulica": "792012000069"
+  }
+},
+{
+  "type": "way",
+  "id": 115561371,
+  "center": {
+    "lat": 43.3382675,
+    "lon": 21.9142098
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Bore Djordjevica Kokana",
+    "name": "Боре Ђорђевића Кокана",
+    "name:sr": "Боре Ђорђевића Кокана",
+    "name:sr-Latn": "Bore Đorđevića Kokana",
+    "ref:RS:ulica": "792012000054"
+  }
+},
+{
+  "type": "way",
+  "id": 115561372,
+  "center": {
+    "lat": 43.3383617,
+    "lon": 21.9145256
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Despotovacka",
+    "name": "Деспотовачка",
+    "name:sr": "Деспотовачка",
+    "name:sr-Latn": "Despotovačka",
+    "ref:RS:ulica": "792012000205"
+  }
+},
+{
+  "type": "way",
+  "id": 115561373,
+  "center": {
+    "lat": 43.3385804,
+    "lon": 21.9147721
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Posavska",
+    "name": "Посавска",
+    "name:sr": "Посавска",
+    "name:sr-Latn": "Posavska",
+    "ref:RS:ulica": "792012000578"
+  }
+},
+{
+  "type": "way",
+  "id": 115561455,
+  "center": {
+    "lat": 43.3353650,
+    "lon": 21.9423926
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ruza",
+    "name": "Ружа",
+    "name:sr": "Ружа",
+    "name:sr-Latn": "Ruža",
+    "ref:RS:ulica": "729094005805"
+  }
+},
+{
+  "type": "way",
+  "id": 115561512,
+  "center": {
+    "lat": 43.3413302,
+    "lon": 21.9178976
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Koparska",
+    "name": "Копарска",
+    "name:sr": "Копарска",
+    "name:sr-Latn": "Koparska",
+    "ref:RS:ulica": "792012000373"
+  }
+},
+{
+  "type": "way",
+  "id": 115561514,
+  "center": {
+    "lat": 43.3410977,
+    "lon": 21.9183690
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Fruskogorska",
+    "name": "Фрушкогорска",
+    "name:sr": "Фрушкогорска",
+    "name:sr-Latn": "Fruškogorska",
+    "ref:RS:ulica": "792012000752"
+  }
+},
+{
+  "type": "way",
+  "id": 115561516,
+  "center": {
+    "lat": 43.3405975,
+    "lon": 21.9158653
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Staroplaninska",
+    "name": "Старопланинска",
+    "name:sr": "Старопланинска",
+    "name:sr-Latn": "Staroplaninska",
+    "ref:RS:ulica": "792012005908"
+  }
+},
+{
+  "type": "way",
+  "id": 115561525,
+  "center": {
+    "lat": 43.3405398,
+    "lon": 21.9135794
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Vinogradarska",
+    "name": "Виноградарска",
+    "name:sr": "Виноградарска",
+    "name:sr-Latn": "Vinogradarska",
+    "ref:RS:ulica": "792012000117"
+  }
+},
+{
+  "type": "way",
+  "id": 115561526,
+  "center": {
+    "lat": 43.3420540,
+    "lon": 21.9180907
+  },
+  "tags": {
+    "bicycle": "permissive",
+    "cutting": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "no",
+    "int_name": "Borska",
+    "lanes": "2",
+    "name": "Борска",
+    "name:sr": "Борска",
+    "name:sr-Latn": "Borska",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115561528,
+  "center": {
+    "lat": 43.3369210,
+    "lon": 21.9098606
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Krfska",
+    "name": "Крфска",
+    "name:sr": "Крфска",
+    "name:sr-Latn": "Krfska",
+    "ref:RS:ulica": "792012000403"
+  }
+},
+{
+  "type": "way",
+  "id": 115561532,
+  "center": {
+    "lat": 43.3375666,
+    "lon": 21.9080863
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Milana Andonovica",
+    "name": "Милана Андоновића",
+    "name:sr": "Милана Андоновића",
+    "name:sr-Latn": "Milana Andonovića",
+    "ref:RS:ulica": "792012026978"
+  }
+},
+{
+  "type": "way",
+  "id": 115561536,
+  "center": {
+    "lat": 43.3372121,
+    "lon": 21.9131159
+  },
+  "tags": {
+    "alt_name": "Седам секретара СКОЈ-а",
+    "alt_name:sr": "Седам секретара СКОЈ-а",
+    "alt_name:sr-Latn": "Sedam sekretara SKOJ-a",
+    "highway": "residential",
+    "int_name": "7 sekretara SKOJ-a",
+    "name": "7 секретара СКОЈ-а",
+    "name:sr": "7 секретара СКОЈ-а",
+    "name:sr-Latn": "7 sekretara SKOJ-a",
+    "ref:RS:ulica": "792012000648",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115561540,
+  "center": {
+    "lat": 43.3386959,
+    "lon": 21.9150252
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Kicevska",
+    "name": "Кичевска",
+    "name:sr": "Кичевска",
+    "name:sr-Latn": "Kičevska",
+    "ref:RS:ulica": "792012000354"
+  }
+},
+{
+  "type": "way",
+  "id": 115561543,
+  "center": {
+    "lat": 43.3392829,
+    "lon": 21.9144494
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Bokeljska",
+    "name": "Бокељска",
+    "name:sr": "Бокељска",
+    "name:sr-Latn": "Bokeljska",
+    "ref:RS:ulica": "792012000050"
+  }
+},
+{
+  "type": "way",
+  "id": 115561544,
+  "center": {
+    "lat": 43.3392396,
+    "lon": 21.9137076
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ozrenskih partizana",
+    "name": "Озренских партизана",
+    "name:sr": "Озренских партизана",
+    "name:sr-Latn": "Ozrenskih partizana",
+    "ref:RS:ulica": "792012000541"
+  }
+},
+{
+  "type": "way",
+  "id": 115561595,
+  "center": {
+    "lat": 43.3361650,
+    "lon": 21.9079942
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Taska Uzunovica",
+    "name": "Таска Узуновића",
+    "name:sr": "Таска Узуновића",
+    "name:sr-Latn": "Taska Uzunovića",
+    "ref:RS:ulica": "792012026979"
+  }
+},
+{
+  "type": "way",
+  "id": 115561597,
+  "center": {
+    "lat": 43.3349901,
+    "lon": 21.9166928
+  },
+  "tags": {
+    "highway": "service",
+    "int_name": "Svetog Klimenta i Nauma",
+    "name": "Светог Климента и Наума",
+    "name:sr": "Светог Климента и Наума",
+    "name:sr-Latn": "Svetog Klimenta i Nauma",
+    "ref:RS:ulica": "792012090001"
+  }
+},
+{
+  "type": "way",
+  "id": 115561714,
+  "center": {
+    "lat": 43.3356093,
+    "lon": 21.9071419
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ilindenska",
+    "name": "Илинденска",
+    "name:sr": "Илинденска",
+    "name:sr-Latn": "Ilindenska",
+    "ref:RS:ulica": "792012000303"
+  }
+},
+{
+  "type": "way",
+  "id": 115561719,
+  "center": {
+    "lat": 43.3356072,
+    "lon": 21.9057182
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ludviga Hirsfelda",
+    "name": "Лудвига Хиршфелда",
+    "name:sr": "Лудвига Хиршфелда",
+    "name:sr-Latn": "Ludviga Hiršfelda",
+    "ref:RS:ulica": "792012007002",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115684379,
+  "center": {
+    "lat": 43.3389452,
+    "lon": 21.9128401
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Udarnicka",
+    "name": "Ударничка",
+    "name:sr": "Ударничка",
+    "name:sr-Latn": "Udarnička",
+    "ref:RS:ulica": "792012000733"
+  }
+},
+{
+  "type": "way",
+  "id": 115684390,
+  "center": {
+    "lat": 43.3359774,
+    "lon": 21.9099767
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Krfska",
+    "name": "Крфска",
+    "name:sr": "Крфска",
+    "name:sr-Latn": "Krfska",
+    "ref:RS:ulica": "792012000403"
+  }
+},
+{
+  "type": "way",
+  "id": 115684395,
+  "center": {
+    "lat": 43.3393120,
+    "lon": 21.9125977
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Udarnicka",
+    "name": "Ударничка",
+    "name:sr": "Ударничка",
+    "name:sr-Latn": "Udarnička",
+    "ref:RS:ulica": "792012000733"
+  }
+},
+{
+  "type": "way",
+  "id": 115684398,
+  "center": {
+    "lat": 43.3399598,
+    "lon": 21.9132685
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Kamenicka",
+    "name": "Каменичка",
+    "name:sr": "Каменичка",
+    "name:sr-Latn": "Kamenička",
+    "ref:RS:ulica": "792012000340"
+  }
+},
+{
+  "type": "way",
+  "id": 116933885,
+  "center": {
+    "lat": 43.3354372,
+    "lon": 21.9416411
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ruza",
+    "name": "Ружа",
+    "name:sr": "Ружа",
+    "name:sr-Latn": "Ruža",
+    "ref:RS:ulica": "729094005805"
+  }
+},
+{
+  "type": "way",
+  "id": 116935784,
+  "center": {
+    "lat": 43.3397303,
+    "lon": 21.9169750
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Gnjilanska",
+    "name": "Гњиланска",
+    "name:sr": "Гњиланска",
+    "name:sr-Latn": "Gnjilanska",
+    "ref:RS:ulica": "792012000167"
+  }
+},
+{
+  "type": "way",
+  "id": 148327757,
+  "center": {
+    "lat": 43.3355851,
+    "lon": 21.9407359
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ruza",
+    "lanes": "2",
+    "name": "Ружа",
+    "name:sr": "Ружа",
+    "name:sr-Latn": "Ruža",
+    "ref:RS:ulica": "729094005805",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 158532277,
+  "center": {
+    "lat": 43.3429376,
+    "lon": 21.9191314
+  },
+  "tags": {
+    "cutting": "yes",
+    "highway": "tertiary",
+    "int_name": "Borska",
+    "name": "Борска",
+    "name:sr": "Борска",
+    "name:sr-Latn": "Borska",
+    "ref:RS:ulica": "729205026973",
+    "source": "gps"
+  }
+},
+{
+  "type": "way",
+  "id": 162119238,
+  "center": {
+    "lat": 43.3354753,
+    "lon": 21.9313588
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 173348109,
+  "center": {
+    "lat": 43.3347945,
+    "lon": 21.9203491
+  },
+  "tags": {
+    "highway": "secondary",
+    "horse": "no",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 173348112,
+  "center": {
+    "lat": 43.3354166,
+    "lon": 21.9246970
+  },
+  "tags": {
+    "highway": "secondary",
+    "horse": "no",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 173353224,
+  "center": {
+    "lat": 43.3476506,
+    "lon": 21.9255971
+  },
+  "tags": {
+    "alt_name": "Борска трећи прилаз",
+    "alt_name:sr": "Борска трећи прилаз",
+    "alt_name:sr-Latn": "Borska treći prilaz",
+    "highway": "residential",
+    "incline": "10%",
+    "int_name": "Borska 3. prilaz",
+    "name": "Борска 3. прилаз",
+    "name:sr": "Борска 3. прилаз",
+    "name:sr-Latn": "Borska 3. prilaz",
+    "ref:RS:ulica": "729205005836",
+    "surface": "asphalt",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 173353226,
+  "center": {
+    "lat": 43.3484803,
+    "lon": 21.9249839
+  },
+  "tags": {
+    "alt_name": "Борска трећи прилаз",
+    "alt_name:sr": "Борска трећи прилаз",
+    "alt_name:sr-Latn": "Borska treći prilaz",
+    "highway": "residential",
+    "incline": "up",
+    "int_name": "Borska 3. prilaz",
+    "name": "Борска 3. прилаз",
+    "name:sr": "Борска 3. прилаз",
+    "name:sr-Latn": "Borska 3. prilaz",
+    "ref:RS:ulica": "729205005836",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 183318636,
+  "center": {
+    "lat": 43.3353190,
+    "lon": 21.9389918
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Borivoja Stevanovica",
+    "lanes": "2",
+    "name": "Боривоја Стевановића",
+    "name:sr": "Боривоја Стевановића",
+    "name:sr-Latn": "Borivoja Stevanovića",
+    "ref:RS:ulica": "729094005794",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 221865827,
+  "center": {
+    "lat": 43.3353761,
+    "lon": 21.9220964
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 236320908,
+  "center": {
+    "lat": 43.3359418,
+    "lon": 21.9174153
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Vase Pelagica",
+    "name": "Васе Пелагића",
+    "name:sr": "Васе Пелагића",
+    "name:sr-Latn": "Vase Pelagića",
+    "ref:RS:ulica": "792012000101"
+  }
+},
+{
+  "type": "way",
+  "id": 251699854,
+  "center": {
+    "lat": 43.3358614,
+    "lon": 21.9396422
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ruza",
+    "name": "Ружа",
+    "name:sr": "Ружа",
+    "name:sr-Latn": "Ruža",
+    "ref:RS:ulica": "729094005805"
+  }
+},
+{
+  "type": "way",
+  "id": 251699855,
+  "center": {
+    "lat": 43.3351485,
+    "lon": 21.9396528
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Prolecna",
+    "name": "Пролећна",
+    "name:sr": "Пролећна",
+    "name:sr-Latn": "Prolećna",
+    "ref:RS:ulica": "729094006346"
+  }
+},
+{
+  "type": "way",
+  "id": 251699856,
+  "center": {
+    "lat": 43.3350104,
+    "lon": 21.9433672
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ruza",
+    "name": "Ружа",
+    "name:sr": "Ружа",
+    "name:sr-Latn": "Ruža",
+    "ref:RS:ulica": "729094005805"
+  }
+},
+{
+  "type": "way",
+  "id": 264478119,
+  "center": {
+    "lat": 43.3482933,
+    "lon": 21.9101940
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Stevana Milcica",
+    "name": "Стевана Милчића",
+    "name:sr": "Стевана Милчића",
+    "name:sr-Latn": "Stevana Milčića",
+    "ref:RS:ulica": "729205047381"
+  }
+},
+{
+  "type": "way",
+  "id": 264478120,
+  "center": {
+    "lat": 43.3581733,
+    "lon": 21.9466294
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Zivojina Djokica",
+    "name": "Живојина Ђокића",
+    "name:sr": "Живојина Ђокића",
+    "name:sr-Latn": "Živojina Đokića",
+    "ref:RS:ulica": "729175055601"
+  }
+},
+{
+  "type": "way",
+  "id": 264478955,
+  "center": {
+    "lat": 43.3407437,
+    "lon": 21.9143744
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Lapovacka",
+    "name": "Лаповачка",
+    "name:sr": "Лаповачка",
+    "name:sr-Latn": "Lapovačka",
+    "ref:RS:ulica": "792012000415"
+  }
+},
+{
+  "type": "way",
+  "id": 264478957,
+  "center": {
+    "lat": 43.3416402,
+    "lon": 21.9156547
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Lapovacka",
+    "name": "Лаповачка",
+    "name:sr": "Лаповачка",
+    "name:sr-Latn": "Lapovačka",
+    "ref:RS:ulica": "792012000415"
+  }
+},
+{
+  "type": "way",
+  "id": 264478960,
+  "center": {
+    "lat": 43.3391175,
+    "lon": 21.9075888
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Temska",
+    "name": "Темска",
+    "name:sr": "Темска",
+    "name:sr-Latn": "Temska",
+    "ref:RS:ulica": "792012090007",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 266132258,
+  "center": {
+    "lat": 43.3509916,
+    "lon": 21.9255978
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Miroslava Mitica",
+    "name": "Мирослава Митића",
+    "name:sr": "Мирослава Митића",
+    "name:sr-Latn": "Miroslava Mitića",
+    "ref:RS:ulica": "729175055291",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 266132275,
+  "center": {
+    "lat": 43.3557823,
+    "lon": 21.9477892
+  },
+  "tags": {
+    "highway": "tertiary",
+    "int_name": "Kralja Aleksandra",
+    "lanes": "2",
+    "name": "Краља Александра",
+    "name:sr": "Краља Александра",
+    "name:sr-Latn": "Kralja Aleksandra",
+    "old_ref": "R274",
+    "oneway": "no",
+    "ref": "426",
+    "ref:RS:ulica": "729175055610",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 293286405,
+  "center": {
+    "lat": 43.3388966,
+    "lon": 21.9207274
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Milovana Jaksica",
+    "name": "Милована Јакшића",
+    "name:sr": "Милована Јакшића",
+    "name:sr-Latn": "Milovana Jakšića",
+    "ref:RS:ulica": "792012090003",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 293286410,
+  "center": {
+    "lat": 43.3393384,
+    "lon": 21.9209211
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Vladislava Petkovica Disa",
+    "name": "Владислава Петковића Диса",
+    "name:sr": "Владислава Петковића Диса",
+    "name:sr-Latn": "Vladislava Petkovića Disa",
+    "ref:RS:ulica": "792012047576",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 293286411,
+  "center": {
+    "lat": 43.3367638,
+    "lon": 21.9056323
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Zagorke Nikolic",
+    "name": "Загорке Николић",
+    "name:sr": "Загорке Николић",
+    "name:sr-Latn": "Zagorke Nikolić",
+    "ref:RS:ulica": "792012047625"
+  }
+},
+{
+  "type": "way",
+  "id": 293286415,
+  "center": {
+    "lat": 43.3395825,
+    "lon": 21.9223047
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Kapetana Srboljuba Bihica",
+    "name": "Капетана Србољуба Бихића",
+    "name:sr": "Капетана Србољуба Бихића",
+    "name:sr-Latn": "Kapetana Srboljuba Bihića",
+    "ref:RS:ulica": "792012090002",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 293286417,
+  "center": {
+    "lat": 43.3393405,
+    "lon": 21.9212357
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Vladislava Petkovica Disa",
+    "name": "Владислава Петковића Диса",
+    "name:sr": "Владислава Петковића Диса",
+    "name:sr-Latn": "Vladislava Petkovića Disa",
+    "ref:RS:ulica": "792012047576",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 293286418,
+  "center": {
+    "lat": 43.3395030,
+    "lon": 21.9202890
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Studenicka",
+    "name": "Студеничка",
+    "name:sr": "Студеничка",
+    "name:sr-Latn": "Studenička",
+    "ref:RS:ulica": "792012000693",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 293286421,
+  "center": {
+    "lat": 43.3371841,
+    "lon": 21.9097930
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Jasenovackih zrtava",
+    "name": "Јасеновачких жртава",
+    "name:sr": "Јасеновачких жртава",
+    "name:sr-Latn": "Jasenovačkih žrtava",
+    "ref:RS:ulica": "792012000116"
+  }
+},
+{
+  "type": "way",
+  "id": 293286422,
+  "center": {
+    "lat": 43.3352895,
+    "lon": 21.9065185
+  },
+  "tags": {
+    "highway": "service",
+    "int_name": "Vojni put",
+    "name": "Војни пут",
+    "name:sr": "Војни пут",
+    "name:sr-Latn": "Vojni put",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 293286423,
+  "center": {
+    "lat": 43.3380277,
+    "lon": 21.9192742
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka",
+    "maxspeed:backward": "30",
+    "name": "Горњоматејевачка",
+    "name:sr": "Горњоматејевачка",
+    "name:sr-Latn": "Gornjomatejevačka",
+    "ref:RS:ulica": "792012000172",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 293286424,
+  "center": {
+    "lat": 43.3378852,
+    "lon": 21.9168489
+  },
+  "tags": {
+    "alt_name": "Горњоматејевачка четврти прилаз",
+    "alt_name:sr": "Горњоматејевачка четврти прилаз",
+    "alt_name:sr-Latn": "Gornjomatejevačka četvrti prilaz",
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka 4. prilaz",
+    "name": "Горњоматејевачка 4. прилаз",
+    "name:sr": "Горњоматејевачка 4. прилаз",
+    "name:sr-Latn": "Gornjomatejevačka 4. prilaz",
+    "ref:RS:ulica": "792012000176",
+    "short_name": "Горњоматејевачка 4 прилаз",
+    "short_name:sr": "Горњоматејевачка 4 прилаз",
+    "short_name:sr-Latn": "Gornjomatejevačka 4 prilaz"
+  }
+},
+{
+  "type": "way",
+  "id": 293286425,
+  "center": {
+    "lat": 43.3396616,
+    "lon": 21.9194417
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Severni bulevar",
+    "name": "Северни булевар",
+    "name:sr": "Северни булевар",
+    "name:sr-Latn": "Severni bulevar",
+    "ref:RS:ulica": "792012006342",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 293286426,
+  "center": {
+    "lat": 43.3385362,
+    "lon": 21.9083397
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Vojnika Radeta Bogdanovica",
+    "name": "Војника Радета Богдановића",
+    "name:sr": "Војника Радета Богдановића",
+    "name:sr-Latn": "Vojnika Radeta Bogdanovića",
+    "ref:RS:ulica": "792012090006"
+  }
+},
+{
+  "type": "way",
+  "id": 293888625,
+  "center": {
+    "lat": 43.3353666,
+    "lon": 21.9380246
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Momcila Milovanovica",
+    "name": "Момчила Миловановића",
+    "name:sr": "Момчила Миловановића",
+    "name:sr-Latn": "Momčila Milovanovića",
+    "ref:RS:ulica": "792012047398",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 293888627,
+  "center": {
+    "lat": 43.3350128,
+    "lon": 21.9321197
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Janisa Janulisa prilaz",
+    "name": "Јаниса Јанулиса прилаз",
+    "name:sr": "Јаниса Јанулиса прилаз",
+    "name:sr-Latn": "Janisa Janulisa prilaz",
+    "ref:RS:ulica": "792012005813"
+  }
+},
+{
+  "type": "way",
+  "id": 293888631,
+  "center": {
+    "lat": 43.3322689,
+    "lon": 21.9222124
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Studenicka",
+    "name": "Студеничка",
+    "name:sr": "Студеничка",
+    "name:sr-Latn": "Studenička",
+    "ref:RS:ulica": "792012000693"
+  }
+},
+{
+  "type": "way",
+  "id": 302121114,
+  "center": {
+    "lat": 43.3442286,
+    "lon": 21.9185509
+  },
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "int_name": "Mustarska",
+    "name": "Муштарска",
+    "name:sr": "Муштарска",
+    "name:sr-Latn": "Muštarska",
+    "ref:RS:ulica": "729205055293",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 302123152,
+  "center": {
+    "lat": 43.3462601,
+    "lon": 21.9201876
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Aleksandra Sakica",
+    "name": "Александра Шакића",
+    "name:sr": "Александра Шакића",
+    "name:sr-Latn": "Aleksandra Šakića",
+    "ref:RS:ulica": "729205047377",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 302123467,
+  "center": {
+    "lat": 43.3468551,
+    "lon": 21.9210718
+  },
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "int_name": "Riste Bojadzica",
+    "name": "Ристе Бојаџића",
+    "name:sr": "Ристе Бојаџића",
+    "name:sr-Latn": "Riste Bojadžića",
+    "ref:RS:ulica": "729205047378",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 302129149,
+  "center": {
+    "lat": 43.3439745,
+    "lon": 21.9315602
+  },
+  "tags": {
+    "highway": "unclassified",
+    "int_name": "Milovana Spasica",
+    "name": "Милована Спасића",
+    "name:sr": "Милована Спасића",
+    "name:sr-Latn": "Milovana Spasića",
+    "ref:RS:ulica": "792012090014",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 302167405,
+  "center": {
+    "lat": 43.3427686,
+    "lon": 21.9169099
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Zivorada Lukica",
+    "name": "Живорада Лукића",
+    "name:sr": "Живорада Лукића",
+    "name:sr-Latn": "Živorada Lukića",
+    "ref:RS:ulica": "729205055294",
+    "surface": "gravel",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 302167406,
+  "center": {
+    "lat": 43.3434660,
+    "lon": 21.9193664
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Mustarska",
+    "name": "Муштарска",
+    "name:sr": "Муштарска",
+    "name:sr-Latn": "Muštarska",
+    "ref:RS:ulica": "729205055293",
+    "surface": "gravel",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 302837927,
+  "center": {
+    "lat": 43.3349379,
+    "lon": 21.9086745
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ilindenska",
+    "name": "Илинденска",
+    "name:sr": "Илинденска",
+    "name:sr-Latn": "Ilindenska"
+  }
+},
+{
+  "type": "way",
+  "id": 302837932,
+  "center": {
+    "lat": 43.3541472,
+    "lon": 21.9303093
+  },
+  "tags": {
+    "highway": "tertiary",
+    "int_name": "Dragana Baraca",
+    "name": "Драгана Бараћа",
+    "name:sr": "Драгана Бараћа",
+    "name:sr-Latn": "Dragana Baraća",
+    "ref:RS:ulica": "729175055211",
+    "source": "gps"
+  }
+},
+{
+  "type": "way",
+  "id": 302837933,
+  "center": {
+    "lat": 43.3379238,
+    "lon": 21.9134689
+  },
+  "tags": {
+    "bicycle": "permissive",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "no",
+    "int_name": "Borska",
+    "lanes": "2",
+    "name": "Борска",
+    "name:sr": "Борска",
+    "name:sr-Latn": "Borska",
+    "ref:RS:ulica": "792012000061",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 302837934,
+  "center": {
+    "lat": 43.3373959,
+    "lon": 21.9071230
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Temska",
+    "name": "Темска",
+    "name:sr": "Темска",
+    "name:sr-Latn": "Temska",
+    "ref:RS:ulica": "792012090007"
+  }
+},
+{
+  "type": "way",
+  "id": 303460952,
+  "center": {
+    "lat": 43.3400809,
+    "lon": 21.9382377
+  },
+  "tags": {
+    "highway": "proposed",
+    "int_name": "Matejevacki put",
+    "maxspeed": "60",
+    "name": "Матејевачки пут",
+    "name:sr": "Матејевачки пут",
+    "name:sr-Latn": "Matejevački put",
+    "oneway": "yes",
+    "proposed": "secondary"
+  }
+},
+{
+  "type": "way",
+  "id": 330446513,
+  "center": {
+    "lat": 43.3361857,
+    "lon": 21.9161964
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Svetog Klimenta i Nauma",
+    "name": "Светог Климента и Наума",
+    "name:sr": "Светог Климента и Наума",
+    "name:sr-Latn": "Svetog Klimenta i Nauma",
+    "ref:RS:ulica": "792012090001"
+  }
+},
+{
+  "type": "way",
+  "id": 380652948,
+  "center": {
+    "lat": 43.3582662,
+    "lon": 21.9418853
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Nikole Zivkovica",
+    "name": "Николе Живковића",
+    "name:sr": "Николе Живковића",
+    "name:sr-Latn": "Nikole Živkovića",
+    "ref:RS:ulica": "729175055602",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 415776176,
+  "center": {
+    "lat": 43.3382038,
+    "lon": 21.9220782
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Jagodinmalska",
+    "name": "Јагодинмалска",
+    "name:sr": "Јагодинмалска",
+    "name:sr-Latn": "Jagodinmalska",
+    "ref:RS:ulica": "792012055262"
+  }
+},
+{
+  "type": "way",
+  "id": 415776320,
+  "center": {
+    "lat": 43.3363197,
+    "lon": 21.9231781
+  },
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "no",
+    "int_name": "Franca Vintera",
+    "lanes": "2",
+    "motor_vehicle": "yes",
+    "name": "Франца Винтера",
+    "name:sr": "Франца Винтера",
+    "name:sr-Latn": "Franca Vintera",
+    "ref:RS:ulica": "792012055264",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 417216174,
+  "center": {
+    "lat": 43.3325134,
+    "lon": 21.9269240
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Despota Djurdja",
+    "name": "Деспота Ђурђа",
+    "name:sr": "Деспота Ђурђа",
+    "name:sr-Latn": "Despota Đurđa",
+    "ref:RS:ulica": "792012000307"
+  }
+},
+{
+  "type": "way",
+  "id": 417216203,
+  "center": {
+    "lat": 43.3355545,
+    "lon": 21.9246746
+  },
+  "tags": {
+    "highway": "secondary",
+    "horse": "no",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 417216209,
+  "center": {
+    "lat": 43.3353261,
+    "lon": 21.9315684
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 417316202,
+  "center": {
+    "lat": 43.3355105,
+    "lon": 21.9411799
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Djordja Stamenkovica",
+    "lanes": "2",
+    "name": "Ђорђа Стаменковића",
+    "name:sr": "Ђорђа Стаменковића",
+    "name:sr-Latn": "Đorđa Stamenkovića",
+    "ref:RS:ulica": "729094005804",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 417316228,
+  "center": {
+    "lat": 43.3360876,
+    "lon": 21.9402763
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Borova",
+    "lanes": "2",
+    "name": "Борова",
+    "name:sr": "Борова",
+    "name:sr-Latn": "Borova",
+    "ref:RS:ulica": "729094006200",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 418594629,
+  "center": {
+    "lat": 43.3559118,
+    "lon": 21.9237134
+  },
+  "tags": {
+    "highway": "track",
+    "int_name": "Zorana Randjelovica",
+    "name": "Зорана Ранђеловића",
+    "name:sr": "Зорана Ранђеловића",
+    "name:sr-Latn": "Zorana Ranđelovića",
+    "ref:RS:ulica": "729175055292"
+  }
+},
+{
+  "type": "way",
+  "id": 418594631,
+  "center": {
+    "lat": 43.3545428,
+    "lon": 21.9270286
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Zorana Randjelovica",
+    "name": "Зорана Ранђеловића",
+    "name:sr": "Зорана Ранђеловића",
+    "name:sr-Latn": "Zorana Ranđelovića",
+    "ref:RS:ulica": "729175055292"
+  }
+},
+{
+  "type": "way",
+  "id": 418596257,
+  "center": {
+    "lat": 43.3438785,
+    "lon": 21.9320929
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Raletinacka",
+    "name": "Ралетиначка",
+    "name:sr": "Ралетиначка",
+    "name:sr-Latn": "Raletinačka",
+    "ref:RS:ulica": "729205055292"
+  }
+},
+{
+  "type": "way",
+  "id": 450193524,
+  "center": {
+    "lat": 43.3393412,
+    "lon": 21.9085350
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Antonija Hadzica",
+    "name": "Антонија Хаџића",
+    "name:sr": "Антонија Хаџића",
+    "name:sr-Latn": "Antonija Hadžića",
+    "ref:RS:ulica": "792012090008"
+  }
+},
+{
+  "type": "way",
+  "id": 450193556,
+  "center": {
+    "lat": 43.3374532,
+    "lon": 21.9222604
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Milovana Krstica",
+    "name": "Милована Крстића",
+    "name:sr": "Милована Крстића",
+    "name:sr-Latn": "Milovana Krstića",
+    "ref:RS:ulica": "792012055263"
+  }
+},
+{
+  "type": "way",
+  "id": 460790568,
+  "center": {
+    "lat": 43.3451383,
+    "lon": 21.9052633
+  },
+  "tags": {
+    "highway": "track",
+    "int_name": "Miloja Jovanovica",
+    "motor_vehicle": "no",
+    "name": "Милоја Јовановића",
+    "name:sr": "Милоја Јовановића",
+    "name:sr-Latn": "Miloja Jovanovića",
+    "ref:RS:ulica": "792039047379"
+  }
+},
+{
+  "type": "way",
+  "id": 460790572,
+  "center": {
+    "lat": 43.3535228,
+    "lon": 21.9276136
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Branislava Menkovica",
+    "name": "Бранислава Менковића",
+    "name:sr": "Бранислава Менковића",
+    "name:sr-Latn": "Branislava Menkovića",
+    "ref:RS:ulica": "729175055293",
+    "surface": "ground",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 470720179,
+  "center": {
+    "lat": 43.3517228,
+    "lon": 21.9416476
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "int_name": "Kralja Aleksandra",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Краља Александра",
+    "name:sr": "Краља Александра",
+    "name:sr-Latn": "Kralja Aleksandra",
+    "old_ref": "R274",
+    "oneway": "no",
+    "ref": "426",
+    "ref:RS:ulica": "729175055610",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 470726935,
+  "center": {
+    "lat": 43.3498158,
+    "lon": 21.9350227
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Dragana Lakovica",
+    "name": "Драгана Лаковића",
+    "name:sr": "Драгана Лаковића",
+    "name:sr-Latn": "Dragana Lakovića",
+    "ref:RS:ulica": "729175090015",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 470726936,
+  "center": {
+    "lat": 43.3513164,
+    "lon": 21.9327805
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Predraga Lakovica",
+    "name": "Предрага Лаковића",
+    "name:sr": "Предрага Лаковића",
+    "name:sr-Latn": "Predraga Lakovića",
+    "ref:RS:ulica": "729175090016",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 470726939,
+  "center": {
+    "lat": 43.3526872,
+    "lon": 21.9326875
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Dragana Stamenkovica",
+    "name": "Драгана Стаменковића",
+    "name:sr": "Драгана Стаменковића",
+    "name:sr-Latn": "Dragana Stamenkovića",
+    "ref:RS:ulica": "729175055290",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 470726940,
+  "center": {
+    "lat": 43.3502235,
+    "lon": 21.9326377
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Svetog Luke",
+    "name": "Светог Луке",
+    "name:sr": "Светог Луке",
+    "name:sr-Latn": "Svetog Luke",
+    "ref:RS:ulica": "729175047608",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 544253103,
+  "center": {
+    "lat": 43.3542575,
+    "lon": 21.9416794
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ivana Pavlova",
+    "name": "Ивана Павлова",
+    "name:sr": "Ивана Павлова",
+    "name:sr-Latn": "Ivana Pavlova",
+    "ref:RS:ulica": "729175090022"
+  }
+},
+{
+  "type": "way",
+  "id": 548951028,
+  "center": {
+    "lat": 43.3450751,
+    "lon": 21.9103078
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Petra Bozovica",
+    "name": "Петра Божовића",
+    "name:sr": "Петра Божовића",
+    "name:sr-Latn": "Petra Božovića",
+    "ref:RS:ulica": "729205047380"
+  }
+},
+{
+  "type": "way",
+  "id": 607394070,
+  "center": {
+    "lat": 43.3476503,
+    "lon": 21.9389955
+  },
+  "tags": {
+    "highway": "tertiary",
+    "int_name": "Kralja Aleksandra",
+    "lanes": "2",
+    "name": "Краља Александра",
+    "name:sr": "Краља Александра",
+    "name:sr-Latn": "Kralja Aleksandra",
+    "old_ref": "R274",
+    "oneway": "no",
+    "ref": "426",
+    "ref:RS:ulica": "729175055610",
+    "surface": "asphalt",
+    "vehicle": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 695499831,
+  "center": {
+    "lat": 43.3365093,
+    "lon": 21.9058809
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Ludviga Hirsfelda",
+    "name": "Лудвига Хиршфелда",
+    "name:sr": "Лудвига Хиршфелда",
+    "name:sr-Latn": "Ludviga Hiršfelda",
+    "ref:RS:ulica": "792012007002"
+  }
+},
+{
+  "type": "way",
+  "id": 695499833,
+  "center": {
+    "lat": 43.3344652,
+    "lon": 21.9432247
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Visibaba",
+    "name": "Висибаба",
+    "name:sr": "Висибаба",
+    "name:sr-Latn": "Visibaba",
+    "ref:RS:ulica": "729094006349"
+  }
+},
+{
+  "type": "way",
+  "id": 695509696,
+  "center": {
+    "lat": 43.3563649,
+    "lon": 21.9299418
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Zorana Randjelovica",
+    "name": "Зорана Ранђеловића",
+    "name:sr": "Зорана Ранђеловића",
+    "name:sr-Latn": "Zorana Ranđelovića",
+    "ref:RS:ulica": "729175055292"
+  }
+},
+{
+  "type": "way",
+  "id": 695509697,
+  "center": {
+    "lat": 43.3524623,
+    "lon": 21.9279492
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Miroslava Mitica",
+    "name": "Мирослава Митића",
+    "name:sr": "Мирослава Митића",
+    "name:sr-Latn": "Miroslava Mitića",
+    "ref:RS:ulica": "729175055291",
+    "surface": "ground",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 695509702,
+  "center": {
+    "lat": 43.3480101,
+    "lon": 21.9057518
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Miloja Jovanovica",
+    "name": "Милоја Јовановића",
+    "name:sr": "Милоја Јовановића",
+    "name:sr-Latn": "Miloja Jovanovića",
+    "ref:RS:ulica": "792039047379"
+  }
+},
+{
+  "type": "way",
+  "id": 695509703,
+  "center": {
+    "lat": 43.3485406,
+    "lon": 21.9075057
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Miloja Jovanovica",
+    "name": "Милоја Јовановића",
+    "name:sr": "Милоја Јовановића",
+    "name:sr-Latn": "Miloja Jovanovića",
+    "ref:RS:ulica": "792039047379"
+  }
+},
+{
+  "type": "way",
+  "id": 695515390,
+  "center": {
+    "lat": 43.3360198,
+    "lon": 21.9246519
+  },
+  "tags": {
+    "highway": "service",
+    "int_name": "Ilije Vojinovica",
+    "name": "Илије Војиновића",
+    "name:sr": "Илије Војиновића",
+    "name:sr-Latn": "Ilije Vojinovića",
+    "ref:RS:ulica": "792012055287"
+  }
+},
+{
+  "type": "way",
+  "id": 696476028,
+  "center": {
+    "lat": 43.3369219,
+    "lon": 21.9226893
+  },
+  "tags": {
+    "highway": "residential",
+    "horse": "no",
+    "int_name": "Milovana Krstica",
+    "lanes": "2",
+    "name": "Милована Крстића",
+    "name:sr": "Милована Крстића",
+    "name:sr-Latn": "Milovana Krstića",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 699133303,
+  "center": {
+    "lat": 43.3455832,
+    "lon": 21.9147953
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Bozidara Knezevica",
+    "name": "Божидара Кнежевића",
+    "name:sr": "Божидара Кнежевића",
+    "name:sr-Latn": "Božidara Kneževića",
+    "ref:RS:ulica": "729205047376"
+  }
+},
+{
+  "type": "way",
+  "id": 722468070,
+  "center": {
+    "lat": 43.3382989,
+    "lon": 21.9377932
+  },
+  "tags": {
+    "highway": "secondary",
+    "horse": "no",
+    "int_name": "Matejevacki put",
+    "lanes": "2",
+    "name": "Матејевачки пут",
+    "name:sr": "Матејевачки пут",
+    "name:sr-Latn": "Matejevački put",
+    "oneway": "no",
+    "ref:RS:ulica": "792012005833",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 725999868,
+  "center": {
+    "lat": 43.3577886,
+    "lon": 21.9408041
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Blagoja Kostadinovica",
+    "name": "Благоја Костадиновића",
+    "name:sr": "Благоја Костадиновића",
+    "name:sr-Latn": "Blagoja Kostadinovića",
+    "ref:RS:ulica": "729175055603",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 816835115,
+  "center": {
+    "lat": 43.3399755,
+    "lon": 21.9210807
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Severni bulevar",
+    "name": "Северни булевар",
+    "name:sr": "Северни булевар",
+    "name:sr-Latn": "Severni bulevar",
+    "ref:RS:ulica": "792012006342",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 816835116,
+  "center": {
+    "lat": 43.3387922,
+    "lon": 21.9190886
+  },
+  "tags": {
+    "alt_name": "Горњоматејевачка осми прилаз",
+    "alt_name:sr": "Горњоматејевачка осми прилаз",
+    "alt_name:sr-Latn": "Gornjomatejevačka osmi prilaz",
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka 8. prilaz",
+    "name": "Горњоматејевачка 8. прилаз",
+    "name:sr": "Горњоматејевачка 8. прилаз",
+    "name:sr-Latn": "Gornjomatejevačka 8. prilaz",
+    "ref:RS:ulica": "792012005870",
+    "short_name": "Горњоматејевачка 8 прилаз",
+    "short_name:sr": "Горњоматејевачка 8 прилаз",
+    "short_name:sr-Latn": "Gornjomatejevačka 8 prilaz"
+  }
+},
+{
+  "type": "way",
+  "id": 819020757,
+  "center": {
+    "lat": 43.3556885,
+    "lon": 21.9445809
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Zivka Grujica",
+    "name": "Живка Грујића",
+    "name:sr": "Живка Грујића",
+    "name:sr-Latn": "Živka Grujića",
+    "ref:RS:ulica": "729175055600",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 824798059,
+  "center": {
+    "lat": 43.3609916,
+    "lon": 21.9437623
+  },
+  "tags": {
+    "highway": "unclassified",
+    "int_name": "Zivka Grujica",
+    "name": "Живка Грујића",
+    "name:sr": "Живка Грујића",
+    "name:sr-Latn": "Živka Grujića",
+    "ref:RS:ulica": "729175055600",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 824798060,
+  "center": {
+    "lat": 43.3594440,
+    "lon": 21.9390564
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Nikole Zivkovica",
+    "name": "Николе Живковића",
+    "name:sr": "Николе Живковића",
+    "name:sr-Latn": "Nikole Živkovića",
+    "ref:RS:ulica": "729175055602",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 824798061,
+  "center": {
+    "lat": 43.3661877,
+    "lon": 21.9342903
+  },
+  "tags": {
+    "highway": "tertiary",
+    "int_name": "Varoska",
+    "name": "Варошка",
+    "name:sr": "Варошка",
+    "name:sr-Latn": "Varoška",
+    "ref:RS:ulica": "729205006470",
+    "source": "gps"
+  }
+},
+{
+  "type": "way",
+  "id": 888915379,
+  "center": {
+    "lat": 43.3366605,
+    "lon": 21.9232943
+  },
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "no",
+    "int_name": "Gospodska",
+    "lanes": "2",
+    "motor_vehicle": "yes",
+    "name": "Господска",
+    "name:sr": "Господска",
+    "name:sr-Latn": "Gospodska",
+    "ref:RS:ulica": "792012055265",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 888915380,
+  "center": {
+    "lat": 43.3381220,
+    "lon": 21.9230216
+  },
+  "tags": {
+    "highway": "service",
+    "int_name": "Gornjomatejevacka",
+    "name": "Горњоматејевачка",
+    "name:sr": "Горњоматејевачка",
+    "name:sr-Latn": "Gornjomatejevačka"
+  }
+},
+{
+  "type": "way",
+  "id": 931222476,
+  "center": {
+    "lat": 43.3349696,
+    "lon": 21.9403302
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Borova",
+    "lanes": "2",
+    "name": "Борова",
+    "name:sr": "Борова",
+    "name:sr-Latn": "Borova",
+    "ref:RS:ulica": "729094006200",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 931224901,
+  "center": {
+    "lat": 43.3352921,
+    "lon": 21.9222821
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 931224902,
+  "center": {
+    "lat": 43.3355129,
+    "lon": 21.9222257
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 931224908,
+  "center": {
+    "lat": 43.3354162,
+    "lon": 21.9224007
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "junction": "roundabout",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 962171176,
+  "center": {
+    "lat": 43.3529414,
+    "lon": 21.9292691
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Miroslava Mitica",
+    "name": "Мирослава Митића",
+    "name:sr": "Мирослава Митића",
+    "name:sr-Latn": "Miroslava Mitića",
+    "ref:RS:ulica": "729175055291",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 988516072,
+  "center": {
+    "lat": 43.3352317,
+    "lon": 21.9103938
+  },
+  "tags": {
+    "bicycle": "permissive",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "no",
+    "int_name": "Borska",
+    "lanes": "2",
+    "name": "Борска",
+    "name:sr": "Борска",
+    "name:sr-Latn": "Borska",
+    "ref:RS:ulica": "792012000061",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 991087917,
+  "center": {
+    "lat": 43.3362559,
+    "lon": 21.9055436
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Taska Uzunovica",
+    "name": "Таска Узуновића",
+    "name:sr": "Таска Узуновића",
+    "name:sr-Latn": "Taska Uzunovića",
+    "ref:RS:ulica": "792012026979"
+  }
+},
+{
+  "type": "way",
+  "id": 991087918,
+  "center": {
+    "lat": 43.3508417,
+    "lon": 21.9130332
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Petra Bozovica",
+    "name": "Петра Божовића",
+    "name:sr": "Петра Божовића",
+    "name:sr-Latn": "Petra Božovića",
+    "ref:RS:ulica": "729205047380"
+  }
+},
+{
+  "type": "way",
+  "id": 991087919,
+  "center": {
+    "lat": 43.3510454,
+    "lon": 21.9222497
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Miroslava Mitica",
+    "name": "Мирослава Митића",
+    "name:sr": "Мирослава Митића",
+    "name:sr-Latn": "Miroslava Mitića",
+    "ref:RS:ulica": "729205055291",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 991087922,
+  "center": {
+    "lat": 43.3596271,
+    "lon": 21.9324236
+  },
+  "tags": {
+    "highway": "tertiary",
+    "int_name": "Varoska",
+    "name": "Варошка",
+    "name:sr": "Варошка",
+    "name:sr-Latn": "Varoška",
+    "ref:RS:ulica": "729205006470",
+    "source": "gps"
+  }
+},
+{
+  "type": "way",
+  "id": 1090867889,
+  "center": {
+    "lat": 43.3356924,
+    "lon": 21.9120173
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Gornjomatejevacka",
+    "name": "Горњоматејевачка",
+    "name:sr": "Горњоматејевачка",
+    "name:sr-Latn": "Gornjomatejevačka",
+    "ref:RS:ulica": "792012000172",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1103753305,
+  "center": {
+    "lat": 43.3348175,
+    "lon": 21.9412064
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Djordja Stamenkovica",
+    "lanes": "2",
+    "name": "Ђорђа Стаменковића",
+    "name:sr": "Ђорђа Стаменковића",
+    "name:sr-Latn": "Đorđa Stamenkovića",
+    "ref:RS:ulica": "729094005804",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1171807054,
+  "center": {
+    "lat": 43.3362564,
+    "lon": 21.9369790
+  },
+  "tags": {
+    "check_date": "2023-08-30",
+    "highway": "proposed",
+    "int_name": "Matejevacki put",
+    "maxspeed": "60",
+    "name": "Матејевачки пут",
+    "name:sr": "Матејевачки пут",
+    "name:sr-Latn": "Matejevački put",
+    "oneway": "yes",
+    "proposed": "secondary"
+  }
+},
+{
+  "type": "way",
+  "id": 1204986415,
+  "center": {
+    "lat": 43.3352325,
+    "lon": 21.9369236
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Matejevacki put",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Матејевачки пут",
+    "name:sr": "Матејевачки пут",
+    "name:sr-Latn": "Matejevački put",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012005833",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1204986416,
+  "center": {
+    "lat": 43.3352353,
+    "lon": 21.9368486
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Matejevacki put",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Матејевачки пут",
+    "name:sr": "Матејевачки пут",
+    "name:sr-Latn": "Matejevački put",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012005833",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1266751936,
+  "center": {
+    "lat": 43.3474418,
+    "lon": 21.9372021
+  },
+  "tags": {
+    "highway": "unclassified",
+    "int_name": "Milovana Spasica",
+    "name": "Милована Спасића",
+    "name:sr": "Милована Спасића",
+    "name:sr-Latn": "Milovana Spasića",
+    "ref:RS:ulica": "729175090014",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1266751938,
+  "center": {
+    "lat": 43.3530697,
+    "lon": 21.9309453
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Dragana Stamenkovica",
+    "name": "Драгана Стаменковића",
+    "name:sr": "Драгана Стаменковића",
+    "name:sr-Latn": "Dragana Stamenkovića",
+    "ref:RS:ulica": "729175055290",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1266752270,
+  "center": {
+    "lat": 43.3465010,
+    "lon": 21.9240205
+  },
+  "tags": {
+    "highway": "tertiary",
+    "int_name": "Borska",
+    "name": "Борска",
+    "name:sr": "Борска",
+    "name:sr-Latn": "Borska",
+    "ref:RS:ulica": "729205026973",
+    "source": "gps"
+  }
+},
+{
+  "type": "way",
+  "id": 1266752891,
+  "center": {
+    "lat": 43.3587558,
+    "lon": 21.9296430
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Anrija Dinana",
+    "name": "Анрија Динана",
+    "name:sr": "Анрија Динана",
+    "name:sr-Latn": "Anrija Dinana",
+    "ref:RS:ulica": "729175090032"
+  }
+},
+{
+  "type": "way",
+  "id": 1278092833,
+  "center": {
+    "lat": 43.3365715,
+    "lon": 21.9369657
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Matejevacki put",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Матејевачки пут",
+    "name:sr": "Матејевачки пут",
+    "name:sr-Latn": "Matejevački put",
+    "oneway": "no",
+    "ref:RS:ulica": "792012005833",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1278092834,
+  "center": {
+    "lat": 43.3355871,
+    "lon": 21.9368396
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Matejevacki put",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Матејевачки пут",
+    "name:sr": "Матејевачки пут",
+    "name:sr-Latn": "Matejevački put",
+    "oneway": "no",
+    "ref:RS:ulica": "792012005833",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1278100926,
+  "center": {
+    "lat": 43.3522158,
+    "lon": 21.9423143
+  },
+  "tags": {
+    "highway": "tertiary",
+    "int_name": "Kralja Aleksandra",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Краља Александра",
+    "name:sr": "Краља Александра",
+    "name:sr-Latn": "Kralja Aleksandra",
+    "old_ref": "R274",
+    "oneway": "no",
+    "ref": "426",
+    "ref:RS:ulica": "729175055610",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1278101092,
+  "center": {
+    "lat": 43.3531221,
+    "lon": 21.9437398
+  },
+  "tags": {
+    "highway": "tertiary",
+    "int_name": "Kralja Aleksandra",
+    "lanes": "2",
+    "maxspeed:conditional": "40 @ snow",
+    "name": "Краља Александра",
+    "name:sr": "Краља Александра",
+    "name:sr-Latn": "Kralja Aleksandra",
+    "old_ref": "R274",
+    "oneway": "no",
+    "ref": "426",
+    "ref:RS:ulica": "729175055610",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1283865673,
+  "center": {
+    "lat": 43.3380407,
+    "lon": 21.9057246
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Milana Andonovica",
+    "name": "Милана Андоновића",
+    "name:sr": "Милана Андоновића",
+    "name:sr-Latn": "Milana Andonovića",
+    "ref:RS:ulica": "792012026978",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1283866668,
+  "center": {
+    "lat": 43.3403572,
+    "lon": 21.9103300
+  },
+  "tags": {
+    "alt_name": "Каменичка други прилаз",
+    "alt_name:sr": "Каменичка други прилаз",
+    "alt_name:sr-Latn": "Kamenička drugi prilaz",
+    "highway": "residential",
+    "int_name": "Kamenicka 2. prilaz",
+    "name": "Каменичка 2. прилаз",
+    "name:sr": "Каменичка 2. прилаз",
+    "name:sr-Latn": "Kamenička 2. prilaz",
+    "ref:RS:ulica": "792012000342"
+  }
+},
+{
+  "type": "way",
+  "id": 1283866669,
+  "center": {
+    "lat": 43.3400645,
+    "lon": 21.9107720
+  },
+  "tags": {
+    "alt_name": "Каменичка први прилаз",
+    "alt_name:sr": "Каменичка први прилаз",
+    "alt_name:sr-Latn": "Kamenička prvi prilaz",
+    "highway": "service",
+    "int_name": "Kamenicka 1. prilaz",
+    "name": "Каменичка 1. прилаз",
+    "name:sr": "Каменичка 1. прилаз",
+    "name:sr-Latn": "Kamenička 1. prilaz",
+    "ref:RS:ulica": "792012000341"
+  }
+},
+{
+  "type": "way",
+  "id": 1361919738,
+  "center": {
+    "lat": 43.3428245,
+    "lon": 21.9235716
+  },
+  "tags": {
+    "highway": "unclassified",
+    "int_name": "Milovana Spasica",
+    "name": "Милована Спасића",
+    "name:sr": "Милована Спасића",
+    "name:sr-Latn": "Milovana Spasića",
+    "ref:RS:ulica": "729205090014",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1417971552,
+  "center": {
+    "lat": 43.3414494,
+    "lon": 21.9193748
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Becejska",
+    "name": "Бечејска",
+    "name:sr": "Бечејска",
+    "name:sr-Latn": "Bečejska",
+    "ref:RS:ulica": "792012000030",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1419407820,
+  "center": {
+    "lat": 43.3402204,
+    "lon": 21.9161041
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Kamenicka",
+    "name": "Каменичка",
+    "name:sr": "Каменичка",
+    "name:sr-Latn": "Kamenička",
+    "ref:RS:ulica": "792012000340"
+  }
+},
+{
+  "type": "way",
+  "id": 1434944637,
+  "center": {
+    "lat": 43.3409382,
+    "lon": 21.9168633
+  },
+  "tags": {
+    "bicycle": "permissive",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "no",
+    "int_name": "Borska",
+    "lanes": "2",
+    "name": "Борска",
+    "name:sr": "Борска",
+    "name:sr-Latn": "Borska",
+    "ref:RS:ulica": "792012000061",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1444493365,
+  "center": {
+    "lat": 43.3367176,
+    "lon": 21.9142451
+  },
+  "tags": {
+    "alt_name": "Девети мај",
+    "alt_name:sr": "Девети мај",
+    "alt_name:sr-Latn": "Deveti maj",
+    "highway": "residential",
+    "int_name": "9. maj",
+    "name": "9. мај",
+    "name:sr": "9. мај",
+    "name:sr-Latn": "9. maj",
+    "ref:RS:ulica": "792012000201",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1444494457,
+  "center": {
+    "lat": 43.3360899,
+    "lon": 21.9389637
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Borivoja Stevanovica",
+    "lanes": "2",
+    "name": "Боривоја Стевановића",
+    "name:sr": "Боривоја Стевановића",
+    "name:sr-Latn": "Borivoja Stevanovića",
+    "ref:RS:ulica": "792012005794",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459615280,
+  "center": {
+    "lat": 43.3462877,
+    "lon": 21.9155274
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Dimitrija Mitka Kocica",
+    "name": "Димитрија Митка Коцића",
+    "name:sr": "Димитрија Митка Коцића",
+    "name:sr-Latn": "Dimitrija Mitka Kocića",
+    "ref:RS:ulica": "729205047375"
+  }
+},
+{
+  "type": "way",
+  "id": 1459619451,
+  "center": {
+    "lat": 43.3480938,
+    "lon": 21.9192859
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Srdjana Lazarevica",
+    "name": "Срђана Лазаревића",
+    "name:sr": "Срђана Лазаревића",
+    "name:sr-Latn": "Srđana Lazarevića",
+    "ref:RS:ulica": "729205055284",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1459904650,
+  "center": {
+    "lat": 43.3476273,
+    "lon": 21.9183628
+  },
+  "tags": {
+    "highway": "residential",
+    "incline": "up",
+    "int_name": "Svetog Prokopija",
+    "name": "Светог Прокопија",
+    "name:sr": "Светог Прокопија",
+    "name:sr-Latn": "Svetog Prokopija",
+    "ref:RS:ulica": "729205047374",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1459904651,
+  "center": {
+    "lat": 43.3473757,
+    "lon": 21.9184121
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Svetog Prokopija",
+    "name": "Светог Прокопија",
+    "name:sr": "Светог Прокопија",
+    "name:sr-Latn": "Svetog Prokopija",
+    "ref:RS:ulica": "729205047374",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1527567760,
+  "center": {
+    "lat": 43.3350310,
+    "lon": 21.9231489
+  },
+  "tags": {
+    "highway": "residential",
+    "int_name": "Milana Blagojevica",
+    "name": "Милана Благојевића"
+  }
+},
+{
+  "type": "way",
+  "id": 1544075308,
+  "center": {
+    "lat": 43.3349736,
+    "lon": 21.9364148
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1544075309,
+  "center": {
+    "lat": 43.3351205,
+    "lon": 21.9362245
+  },
+  "tags": {
+    "highway": "secondary",
+    "int_name": "Bulevar Svetog Pantelejmona",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Булевар Светог Пантелејмона",
+    "name:sr": "Булевар Светог Пантелејмона",
+    "name:sr-Latn": "Bulevar Svetog Pantelejmona",
+    "oneway": "yes",
+    "ref:RS:ulica": "792012000672",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}
