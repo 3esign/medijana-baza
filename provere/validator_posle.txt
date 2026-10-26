@@ -1,0 +1,23 @@
+mozaici: 25 unosa, zbir 780.9 m2
+geofizika: 16 struktura
+hidraulika: 28 cvorova, 7 konflikata
+numizmatika: 22 unosa, 4 konflikata
+objekti_cd: 13 skupina mera, 4 konflikata
+gis izvori: 27 izvora (21 kandidata, 6 provereno ranije)
+komparativni sloj: 13 lokaliteta
+epigrafski sloj: 9 natpisa
+dem sloj: 2 kotnih tacaka, prag trase 253.6 m
+komparativni korpus: 5 stavki
+trasa: 6 segmenata, obilje 300 m, dve odvojene hipoteze sistema
+vodosnabdevanje: kaptaza Девојачко ждрело (predratno) — 5 segmenta, 2 faze, medijanski sistem odvojen
+Paket 0.33: 44 JSON fajlova; strukturna provera nije potvrda istorijske istine.
+=== VALIDACIJA MEDIJANA paket 0.33 (istorijska verzija jezgra 0.31) ===
+Greske: 0
+Upozorenja (7):
+  ! K03: Pod Vinik nije lociran metarskom preciznoscu
+  ! K04: Stari profil ne prati nove koordinate
+  ! K05: Dve trase ne dokazuju sve moguce trase
+  ! K06: Kota vrela i identitet kaptaze ostaju neizvesni
+  ! K07: Kapacitet kanala nije izdasnost izvora
+  ! K09: Nominatim sidro lokaliteta nije merena tacka vile
+  ! K10: Komparativni mozaici i regionalna jedinstvenost

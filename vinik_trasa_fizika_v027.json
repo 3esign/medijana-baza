@@ -4,8 +4,21 @@
   "sloj": "fizicka izvodljivost trase Sreckovo vrelo -> Pantelej/Vinik (test hipoteze ZZSK)",
   "pitanje": "Da li hipoteza ZZSK (Sreckovo vrelo kao izvor akvadukta za Naisus, trasa preko Vinika) prolazi gravitaciono bez tunela?",
   "metoda": "open-elevation API (Copernicus DEM 30m, isti izvor kao ukrsteni test v025) — profil duz dve kandidate trase, 42 uzorka svaka",
-  "start": { "vrelo": "Sreckovo vrelo", "osm_node": "4027319493", "lat": 43.38523, "lon": 21.94579, "kota_dem": 442.6, "kota_glo30_openmeteo_v023": 431.9, "napomena": "razlika 10.7 m izmedju dva cita istog terena — konzistentno sa obalskom nesigurnoscu iz v024/v025" },
-  "cilj": { "segment": "tr-01 Pod Vinik", "lat": 43.352, "lon": 21.916, "kota": 362.5 },
+  "start": {
+    "vrelo": "Sreckovo vrelo",
+    "osm_node": "4027319493",
+    "lat": 43.38523,
+    "lon": 21.94579,
+    "kota_dem": 442.6,
+    "kota_glo30_openmeteo_v023": 431.9,
+    "napomena": "razlika 10.7 m izmedju dva cita istog terena — konzistentno sa obalskom nesigurnoscu iz v024/v025"
+  },
+  "cilj": {
+    "segment": "tr-01 Pod Vinik",
+    "lat": 43.352,
+    "lon": 21.916,
+    "kota": 362.5
+  },
   "trasa_1": {
     "ime": "pravolinijska: vrelo -> Prevalac (tr-02) -> Pod Vinik",
     "uzoraka": 42,
@@ -25,18 +38,31 @@
     "zakljucak": "TAKODJE BLOKIRANA bez tunela: i zapadni zaobilazak vodi preko uzvisenja 490-505 m. Uz to, dno doline Kamenice (316-357 m) je ISPOD kote cilja (362.5) — gravitaciona trasa mora voziti po padini, ne dnom."
   },
   "nalaz": {
-    "glavni": "Sreckovo vrelo lezi u zatvorenom karstnom vidiku prema severu — SVAKI pravac ka Viniku/Panteleju prelazi greben 490-505 m, ~55-62 m iznad kote vrela. Trasa ZZSK-a bez tunela je po DEM-u neizvodljiva; sa tunelom (~0.5-1 km pod grebenom) izvodljiva, ali to je znatan inzenjerski poduhvat koji bi arheoloski bio vidljiv.",
-    "posledica_za_medijanu": "Ovo JACA poziciju naseg v0.23 kandidata (node 4115176757, kontakt Suve Planine, 209.5 m, pad 0.88%): vrelo iznad Medijane postoji i nema grebensku prepreku — dok vrelo iznad Vinika zahteva tunel.",
-    "posledica_za_sukob": "Konflikt 'sukob-vinik-vs-banja' se suzuje: dva sistema i dalje moguca, ali ZZSK hipoteza o Sreckovom vrelu kao jedinom izvoru dobija fizicku protivtezinu. Alternativa ZZSK-a: vrelo u dolini Kamenice nize kote (nije identifikovano) — ostaje otvoreno.",
+    "glavni": "Sacuvani sazetak prijavljuje prepreke na dve ispitane trase. Ne dokazuje prepreku na svim mogucim koridorima niti potrebu za tunelom odredjene duzine.",
+    "posledica_za_medijanu": "Nema dokazne posledice za identitet medijanske kaptaze; gradski i medijanski sistem su odvojene hipoteze.",
+    "posledica_za_sukob": "Potrebna je nova provera pravih koridora; stara tacka Pod Vinika je promenjena.",
     "status": "sukob ostaje OTVOREN, odlucuje iskop spoja/ustave — ali sada sa merljivim argumentom"
   },
   "ogranacenja": [
-    "uzorkovanje po pravim linijama sa 42-50 tacaka — prava rimska trasa se penje konturno, ali ni konturna trasa ne moze preskociti greben 490-505 m",
+    "Sazeti uzorci dve polilinije nisu iscrpna analiza koridora. Puni nizovi koordinata i kota nisu u ovom fajlu.",
     "open-elevation i Open-Meteo GLO-30 se razlikuju do ~10 m na istoj tacki — apsolutne kote nesigurne, ali ODNOJ vrelo/greben (~55 m) je robustan jer je vece od greske",
     "islopne koordinate segmenata ostaju aproksimacija po naseljima (v026 napomena)"
   ],
   "izvori": [
-    { "id": "open-elevation", "url": "https://api.open-elevation.com", "koriscenje": "profil DEM" },
-    { "id": "zzsk-2025-sveoarheologiji", "url": "https://sveoarheologiji.com/arheolosko-otkrice-u-nisu-jos-jedan-deo-rimskog-akvadukta", "koriscenje": "hipoteza Sreckovo vrelo" }
-  ]
+    {
+      "id": "open-elevation",
+      "url": "https://api.open-elevation.com",
+      "koriscenje": "profil DEM"
+    },
+    {
+      "id": "zzsk-2025-sveoarheologiji",
+      "url": "https://sveoarheologiji.com/arheolosko-otkrice-u-nisu-jos-jedan-deo-rimskog-akvadukta",
+      "koriscenje": "hipoteza Sreckovo vrelo"
+    }
+  ],
+  "revizija_v033": {
+    "status": "istorijski_proracun_ne_koristiti_za_aktuelnu_trasu",
+    "razlog": "Stare koordinate i/ili nedovoljan obuhvat trase; K04 i K05 u konsolidacija.json. Sacuvana citanja nisu ponovljena.",
+    "nova_mrezna_provera": false
+  }
 }

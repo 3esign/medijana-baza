@@ -1,0 +1,236 @@
+{
+  "izdanje": "0.33",
+  "datum": "2026-10-26",
+  "obuhvat": "Lokalna revizija svih projektnih fajlova; bez novog web istrazivanja i bez ponovnog citanja svih primarnih publikacija.",
+  "pitanja": [
+    {
+      "id": "K01",
+      "tema": "Validator nije izvrsavao sve provere",
+      "status": "ispravljeno",
+      "putanje": [
+        "validator.js"
+      ],
+      "razlog": "process.exit je prethodio blokovima v024/v025/v031/v032; DIR nije bio definisan.",
+      "sledece": "Kontraproba mora pokvariti podatak iz kasnog bloka i dobiti neuspeh."
+    },
+    {
+      "id": "K02",
+      "tema": "Pomeraj NE bio je pomeraj N",
+      "status": "ispravljena_racunica",
+      "putanje": [
+        "akvadukt_koordinate_v031.json",
+        "akvadukt_trasa_v026.json"
+      ],
+      "razlog": "Longitude je ostao isti; realne duzine bile su oko 71 i 177 m umesto 100 i 250 m.",
+      "sledece": "Azimut 45 stepeni ostaje pretpostavka; potrebne su iskopne koordinate."
+    },
+    {
+      "id": "K03",
+      "tema": "Pod Vinik nije lociran metarskom preciznoscu",
+      "status": "otvoreno",
+      "putanje": [
+        "podvinik_bulevar_v032.json",
+        "akvadukt_trasa_v026.json"
+      ],
+      "razlog": "Rastojanje do kasarne je oko 1,88 km. Nomenklatura okolnih ulica nije dokaz polozaja gradilista.",
+      "sledece": "Georeferenciran plan ili katastarska parcela; novu kotu meriti tek za potvrdjen polozaj."
+    },
+    {
+      "id": "K04",
+      "tema": "Stari profil ne prati nove koordinate",
+      "status": "zastarelo",
+      "putanje": [
+        "vinik_trasa_fizika_v027.json",
+        "pantelej_kasarna_gravitacija_v029.json",
+        "treca_kota_vrela_v030.json"
+      ],
+      "razlog": "Pod Vinik [21.916,43.352] zamenjen je u v032; Ardija i Gornjomatejevacka takodje pomerene. Stare kote nisu kote novih tacaka.",
+      "sledece": "Ponoviti profile sa dokazanim koordinatama i sacuvati sve uzorke."
+    },
+    {
+      "id": "K05",
+      "tema": "Dve trase ne dokazuju sve moguce trase",
+      "status": "otvoreno",
+      "putanje": [
+        "vinik_trasa_fizika_v027.json",
+        "treca_kota_vrela_v030.json"
+      ],
+      "razlog": "Sazeci dve uzorkovane polilinije ne dokazuju da svaki pravac zahteva tunel; nema pune geometrije uzoraka u ovom sloju.",
+      "sledece": "Analiza koridora uz reljef, nivo kanala, vertikalni datum i arheoloske tacke."
+    },
+    {
+      "id": "K06",
+      "tema": "Kota vrela i identitet kaptaze ostaju neizvesni",
+      "status": "otvoreno",
+      "putanje": [
+        "dem_sloj.json",
+        "hidraulika_sloj.json",
+        "dem_izvor_ukrstteni_v025.json"
+      ],
+      "razlog": "209,5 m je odabrana scenarijska vrednost. Sacuvani opseg 202,284439–211 m prelazi ispod dna bazena 208 m. SRTM30 i SRTM90 nisu nezavisne misije.",
+      "sledece": "Utvrditi kotu istoka vode i uliva kanala C, ne samo DSM teren."
+    },
+    {
+      "id": "K07",
+      "tema": "Kapacitet kanala nije izdasnost izvora",
+      "status": "otvoreno",
+      "putanje": [
+        "hidraulika_sloj.json"
+      ],
+      "razlog": "Pretpostavljen presek i nagib daju uslovni Manning kapacitet. Nema merenja izdasnosti izvora; rastojanje vrelo–vila nije izmerena duzina vrelo–kastelum.",
+      "sledece": "Meriti kaptazu, trasu, kanal i sezonski protok; ne tvrditi da je vode bilo dovoljno."
+    },
+    {
+      "id": "K08",
+      "tema": "Dva sistema nisu sama po sebi sukob",
+      "status": "preformulisano",
+      "putanje": [
+        "akvadukt_trasa_v026.json",
+        "vodosnabdevanje_naisusa_v028.json"
+      ],
+      "razlog": "Navodi o gradskom i medijanskom sistemu mogu oba biti tacna. Nalaz jednog ne potvrdjuje ili opovrgava kandidata drugog.",
+      "sledece": "Voditi odvojeno poreklo i trasu svakog sistema; spoj je zasebna hipoteza."
+    },
+    {
+      "id": "K09",
+      "tema": "Nominatim sidro lokaliteta nije merena tacka vile",
+      "status": "otvoreno",
+      "putanje": [
+        "osm_nominatim.json",
+        "dem_sloj.json"
+      ],
+      "razlog": "Sacuvani odgovor identifikuje archaeological_site; ne dokazuje da je reprezentativna tacka geometrijski centroid ili polozaj konkretne vile.",
+      "sledece": "Georeferencirati plan vile; zatim uzorkovati DEM sa navedenim datumom i metodom."
+    },
+    {
+      "id": "K10",
+      "tema": "Komparativni mozaici i regionalna jedinstvenost",
+      "status": "otvoreno",
+      "putanje": [
+        "mozaici_sloj.json"
+      ],
+      "razlog": "Neproveren motiv Meduze i nedefinisana regionalna granica ne mogu oboriti ili potvrditi tvrdnju o jedinstvenosti.",
+      "sledece": "Primarna publikacija, konkretna tabla i stranica za svaki komparativni motiv."
+    },
+    {
+      "id": "K11",
+      "tema": "Nula pogodaka nije dokaz nepostojanja",
+      "status": "preformulisano",
+      "putanje": [
+        "podvinik_bulevar_v032.json",
+        "epigrafski_sloj.json"
+      ],
+      "razlog": "Ogranicen upit i nedostupnost hosta ne dokazuju odsustvo ulice, natpisa ili publikacije.",
+      "sledece": "Cuvati upit, vreme i obuhvat; ne generalizovati negativan nalaz."
+    }
+  ],
+  "premestanja": [
+    {
+      "iz": "popravka_v013.js",
+      "u": "istorija/skripte/popravka_v013.js",
+      "sha256": "fccb69d6cd3189ce5165fde8d979a587dee4a9814b4732975e915fa93343b698"
+    },
+    {
+      "iz": "talas_v010.js",
+      "u": "istorija/skripte/talas_v010.js",
+      "sha256": "c00ee960a1a82dababcbf98c15d419f62a00bc4824e6d17ef4067b6beb37b558"
+    },
+    {
+      "iz": "talas_v011.js",
+      "u": "istorija/skripte/talas_v011.js",
+      "sha256": "2d07ecaee84d1ee7dfc34826a96c02b54c2ee4856a4e3e9d71de32cb0f7360ea"
+    },
+    {
+      "iz": "talas_v013.js",
+      "u": "istorija/skripte/talas_v013.js",
+      "sha256": "4daf3c99966ebeae841b16d5b246d62865560dc398c2345cbacbe95cbcbc6bbd"
+    },
+    {
+      "iz": "talas_v014.js",
+      "u": "istorija/skripte/talas_v014.js",
+      "sha256": "ea12d3968a248700aca4ad266b2b0397060739d369b9f6b4abefa170951ef8dc"
+    },
+    {
+      "iz": "talas_v015.js",
+      "u": "istorija/skripte/talas_v015.js",
+      "sha256": "3ff5de9147b918a2bdaedd4d71389fb7a46322715a31c641bc61495cb949c22f"
+    },
+    {
+      "iz": "talas_v016.js",
+      "u": "istorija/skripte/talas_v016.js",
+      "sha256": "3356364c8e3ced3b307f7a50b4d2c00c65c8debb12a1bf4bba0d66f9fbb4f2f8"
+    },
+    {
+      "iz": "talas_v017.js",
+      "u": "istorija/skripte/talas_v017.js",
+      "sha256": "16f215dd09f23f5df735836530ca061b1d48f9fa0731bfe9ea16cf5b62492000"
+    },
+    {
+      "iz": "talas_v019.js",
+      "u": "istorija/skripte/talas_v019.js",
+      "sha256": "38131536a7ab37cda024539bbb58354d2d0fe521ccf5f78b6bc0c36c51f0d0d9"
+    },
+    {
+      "iz": "talas_v021.js",
+      "u": "istorija/skripte/talas_v021.js",
+      "sha256": "4ef0c29553a926ba0c29a680a59a74de3aac2978dcc10e227071b76b899fdb5c"
+    },
+    {
+      "iz": "talas_v021_izvorista.py",
+      "u": "istorija/skripte/talas_v021_izvorista.py",
+      "sha256": "6882febf44fe5b158599097994e53f8c6a71aa0a9ccbef93488aa29825ef92f1"
+    },
+    {
+      "iz": "talas_v021b.js",
+      "u": "istorija/skripte/talas_v021b.js",
+      "sha256": "a1ba0bc19824f3190042e819dcc88cec3125261cfc065d958989c5d8cf6ef5ae"
+    },
+    {
+      "iz": "talas_v022.js",
+      "u": "istorija/skripte/talas_v022.js",
+      "sha256": "91d926a7a6dc51655528bb816cae9d7c6205cafec6e7636c817e739900dd35ca"
+    },
+    {
+      "iz": "talas_v023_izvori.py",
+      "u": "istorija/skripte/talas_v023_izvori.py",
+      "sha256": "f802af27daae5b22e022e127f010b3279d2bb92fb59af90655f3dcb9180b5531"
+    },
+    {
+      "iz": "talas_v023_popravka.py",
+      "u": "istorija/skripte/talas_v023_popravka.py",
+      "sha256": "84d14375fbf1a12378a44e05a81da928a330179f6c14d96c2d74500fcb790f73"
+    },
+    {
+      "iz": "talas_v024.js",
+      "u": "istorija/skripte/talas_v024.js",
+      "sha256": "567aa7fd41fd627d774bcf87b0dbf5364a75c17911bcc155e54dce09f130b30e"
+    },
+    {
+      "iz": "talas_v025.js",
+      "u": "istorija/skripte/talas_v025.js",
+      "sha256": "5b13cd8c8c8cb4da7d7f13cb5c39359723b8edf3301ba3f7edde955dc474ae92"
+    },
+    {
+      "iz": "talas_v025b.js",
+      "u": "istorija/skripte/talas_v025b.js",
+      "sha256": "22f85ca54a54264a7fd9101891220a1be3a9d49edf7d5d16b8915b218cfcec8f"
+    },
+    {
+      "iz": "talas_v031.js",
+      "u": "istorija/skripte/talas_v031.js",
+      "sha256": "817d671142a4c7a92d06bd47c5570e091a68c5f72f1f925e451ece9c99223178"
+    },
+    {
+      "iz": "talas_v031.py",
+      "u": "istorija/skripte/talas_v031.py",
+      "sha256": "ea2dc3278a2e78380445f71134b82c5e7325ffacb743850ffbdf9762feda44ac"
+    },
+    {
+      "iz": "talas_v09.js",
+      "u": "istorija/skripte/talas_v09.js",
+      "sha256": "041b3023c760767ebffbe536191a74c4e9db6e94be45b508eae93d7e502038f2"
+    }
+  ],
+  "istorija": "istorija/pre-konsolidacije-v032/",
+  "pravilo": "Revizija v033 ima prednost nad starim narativnim zakljuccima; izvorna citanja ostaju istorijski dokaz."
+}

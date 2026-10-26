@@ -1,0 +1,1400 @@
+{
+  "head": "62220c31f63f3eb1db94e76c0ba9734d9e980136",
+  "fajlovi": [
+    {
+      "putanja": ".gitignore",
+      "bajtova": 89,
+      "sha256": "deab99439321a606792aad969148004eb899b9737bc42f5833aa2bd82fa17974"
+    },
+    {
+      "putanja": "akvadukt_koordinate_v031.json",
+      "bajtova": 3175,
+      "sha256": "681c444d29bf2ac4007432de2c8e4debcee32a1e21c9853f66c655befdb2c4bc"
+    },
+    {
+      "putanja": "akvadukt_trasa_v026.json",
+      "bajtova": 5260,
+      "sha256": "9961e9548b8d4249c7f8918480a976c6d7d539c57a748cb9f69371bcea1a0c06"
+    },
+    {
+      "putanja": "baza_podataka.json",
+      "bajtova": 37047,
+      "sha256": "57435e9592c82e3f487ca8afdcb6e72eaa87b662331c07f480e1f118d7733f2c"
+    },
+    {
+      "putanja": "crtezi/sl11_istocni_profil_81.png",
+      "bajtova": 461558,
+      "sha256": "f04714eab808b3002820b7768922582c158b0cc44bc7b167adec023c17a2e059"
+    },
+    {
+      "putanja": "crtezi/sl11_istocni_profil_81_crop.png",
+      "bajtova": 426857,
+      "sha256": "9ef5abc5532fc05a451959e4dbcfe59847862abb15d585685d0cbecc986c110c"
+    },
+    {
+      "putanja": "crtezi/sl1_plan.png",
+      "bajtova": 725515,
+      "sha256": "c164f58c41baad7852adcb801a4bacce7f8a6d3f1b64383321800ebbebfb2f14"
+    },
+    {
+      "putanja": "crtezi/sl1_plan_crop.png",
+      "bajtova": 845766,
+      "sha256": "d9e326b2e4eeefc4af098031b2bec8a9e5ce20b8f4313275ee2949dbc058fc5b"
+    },
+    {
+      "putanja": "crtezi/sl2_severni_profil_73_90_87.png",
+      "bajtova": 408360,
+      "sha256": "8b9c4efff9bc9a4ade0ecd0651c13ddb2d53b6841b22d77ad9e8f17820544e41"
+    },
+    {
+      "putanja": "crtezi/sl2_severni_profil_73_90_87_crop.png",
+      "bajtova": 350136,
+      "sha256": "611387cb7ca74f9f3de6ec9dd3a16bb61584b71d191ce255f3e2061d15661587"
+    },
+    {
+      "putanja": "crtezi/sl3_zapadni_profil_86.png",
+      "bajtova": 405790,
+      "sha256": "8639ad913909debbe6a61621400f02a04d13328f7aad95dad96b6bd67d273955"
+    },
+    {
+      "putanja": "crtezi/sl3_zapadni_profil_86_crop.png",
+      "bajtova": 430849,
+      "sha256": "68f6fe82d2a452c332f5e7f18d07d4fcd992e93c0001e5900f9ff5f770342604"
+    },
+    {
+      "putanja": "crtezi/sl4_istocni_profil_87.png",
+      "bajtova": 818232,
+      "sha256": "8794d285374732286b56808edfe1e0f1e3851d3b9d720f7eead26a34f4b44083"
+    },
+    {
+      "putanja": "crtezi/sl4_istocni_profil_87_crop.png",
+      "bajtova": 679408,
+      "sha256": "27bbf25238cdd0b964626d3dc0a9a4dadd5c3b9054bda9c51614ed53057497cb"
+    },
+    {
+      "putanja": "crtezi/sl7_istocni_profil_103.png",
+      "bajtova": 442420,
+      "sha256": "e156d337b149d290097537be4da13b6efa4ad6fe63d0d8c259de9bf9ab8282bb"
+    },
+    {
+      "putanja": "crtezi/sl7_istocni_profil_103_crop.png",
+      "bajtova": 371439,
+      "sha256": "a5bdfdfc7eb1823817fb7134a0c1a558b717450b434cd52130fdf4ba3eb405f8"
+    },
+    {
+      "putanja": "crtezi/sl8_istocni_profil_46_w24.png",
+      "bajtova": 451135,
+      "sha256": "01860f9ff35ca8839774880fc16a72a2855d1bac95c557bc9bad6bb5498d7664"
+    },
+    {
+      "putanja": "crtezi/sl8_istocni_profil_46_w24_crop.png",
+      "bajtova": 394397,
+      "sha256": "31b5731c58362e2464b1f506a276084cb2eeb3c7937738891cda65499925389f"
+    },
+    {
+      "putanja": "crtezi_sloj.json",
+      "bajtova": 15393,
+      "sha256": "998f2b7553e4d17febaa738c406dd207fa5c026f38a098dcc66d2a94d7391833"
+    },
+    {
+      "putanja": "dem/Copernicus_DSM_COG_10_N43_00_E021_00_DEM.tif",
+      "bajtova": 44038957,
+      "sha256": "9a2888f929da5c58cbc056e4d247adab6af3eecd929031434630b3f36413504a"
+    },
+    {
+      "putanja": "dem/Copernicus_DSM_COG_10_N43_00_E022_00_DEM.tif",
+      "bajtova": 43676174,
+      "sha256": "91edeb07307c16e2e42f7bba5892b758f8bd39852db807fe125ea54cb8612334"
+    },
+    {
+      "putanja": "dem_izvor_ukrstteni_v025.json",
+      "bajtova": 1577,
+      "sha256": "8251cdbc01047b5a5bdf28cf857428df399321a8d680b0b9023e5641d2d0d96a"
+    },
+    {
+      "putanja": "dem_izvori_kandidati_v023.json",
+      "bajtova": 1258,
+      "sha256": "5819799dab4f73904f3194ad0a4e97be2fb85efc09547844d2aba93f4944a657"
+    },
+    {
+      "putanja": "dem_izvorista_v021.json",
+      "bajtova": 3764,
+      "sha256": "202659101a48f9fc05a46099941ddf87910a2d9a806a3f7664900aa56125422e"
+    },
+    {
+      "putanja": "dem_profil_vrelo1_vila_v023.json",
+      "bajtova": 1475,
+      "sha256": "ac9e54a1619fd38ce0574f343acf8e45a139a23b43af6e4eab408550af8520c5"
+    },
+    {
+      "putanja": "dem_sloj.json",
+      "bajtova": 9712,
+      "sha256": "426f72a2cc82faf5df03aea8f608fcdab5e8eee3dc5cc167036e2cbdf37451a5"
+    },
+    {
+      "putanja": "digitalni_pasos.json",
+      "bajtova": 9886,
+      "sha256": "d879e822e273a4769b445918badf692d82ac2ccab67ca090c299d2fc3341fbf1"
+    },
+    {
+      "putanja": "epigrafski_sloj.json",
+      "bajtova": 4835,
+      "sha256": "3562db4be886af86dcaff7b8f3665dc0ac5a08beefa45d4839527a2c2b0af622"
+    },
+    {
+      "putanja": "geofizika_sloj.json",
+      "bajtova": 13655,
+      "sha256": "96d09a7f591f3e38aed7d3b26c1c54704dafaec7f2eb33cee99b328415005a2c"
+    },
+    {
+      "putanja": "gis_izvori_sloj.json",
+      "bajtova": 14863,
+      "sha256": "f9563d66d2f29ceb197a07d668775520acb13eb9371ec2e2a88c65b7cf90088e"
+    },
+    {
+      "putanja": "hidraulika_sloj.json",
+      "bajtova": 41633,
+      "sha256": "1bd6f2e71f9e89ba8ab8cb63039333c68d86acf4879da69a35cf6f945eef8cfd"
+    },
+    {
+      "putanja": "ivanisevic_anteus_2018.pdf",
+      "bajtova": 1710534,
+      "sha256": "430aabf206d59e2a42e62c17d5e29870f5de744b4e7e1949455ff736202493f4"
+    },
+    {
+      "putanja": "izvori_nominatim.json",
+      "bajtova": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "putanja": "izvori_nominatim_v026.json",
+      "bajtova": 1622,
+      "sha256": "253b4cf0c6bdd351c835d7da3b6e5731ae510630041bea6ff75cc09af35c6e36"
+    },
+    {
+      "putanja": "izvori_overpass.json",
+      "bajtova": 1412,
+      "sha256": "368a2c7a05d52071e2798e6c8747347e75d5c5e3aa78054d50b03ad2e8940a4e"
+    },
+    {
+      "putanja": "izvori_pdf/_gsad_clean.txt",
+      "bajtova": 54038,
+      "sha256": "5d15e682af5d46340fcb577dc3ae8a7d2524e7570d452aaa9672a48996995bed"
+    },
+    {
+      "putanja": "izvori_pdf/Jankovic_2022_TEKST.txt",
+      "bajtova": 102679,
+      "sha256": "901e45e80d60d66a0748c92cc4a079a88b81a90b50039d861d2303c144d00ebd"
+    },
+    {
+      "putanja": "izvori_pdf/Jankovic_2022_vodosnabdevanje_Naissusa_GSAD38.pdf",
+      "bajtova": 5067143,
+      "sha256": "c4c82724223b54303202d1bfe6ad5d209665505402941b401877333c8b572123"
+    },
+    {
+      "putanja": "izvori_pdf/Jankovic_2022_vodosnabdevanje_Naissusa_GSAD38.pdf.txt",
+      "bajtova": 1248083,
+      "sha256": "33321d5a1cab3a6e79025f9eeb0f24c6122c8a50dbf9538a506e4c61ee7227dd"
+    },
+    {
+      "putanja": "izvori_popis.txt",
+      "bajtova": 244,
+      "sha256": "db34df2151becf72539ef64beb20ab8696eca58ee193db8e94b652350159118d"
+    },
+    {
+      "putanja": "komparativni_lokaliteti.json",
+      "bajtova": 36800,
+      "sha256": "a060c37d95aecfd17ca6797ad87d98346ae63d35d807fc3a060260c2258c852d"
+    },
+    {
+      "putanja": "mozaici_sloj.json",
+      "bajtova": 26803,
+      "sha256": "e5c966ca82c82a063f284aa91b755467f4ace8c2014131b9b4cd6be1f73a48c8"
+    },
+    {
+      "putanja": "nb_anchor.json",
+      "bajtova": 598,
+      "sha256": "cfbda79c83951b05e120d826e61cba3cc15b1b7e2ca0de3307b3013101663b89"
+    },
+    {
+      "putanja": "nominatim_v031.json",
+      "bajtova": 6465,
+      "sha256": "24f5b9fb3e2413fc45496b691066e47b9c670768323fe86758895c27ff3d9e5b"
+    },
+    {
+      "putanja": "numizmaticki_sloj.json",
+      "bajtova": 19380,
+      "sha256": "93f302f4b8965c2e0f82321f2808b8aaa4e15583b258e392b60e8a3921f5405b"
+    },
+    {
+      "putanja": "objekti_cd_sloj.json",
+      "bajtova": 11297,
+      "sha256": "dc2711387f1d0ded8ca7be38df37460ff77ede0782456a350df474d0cd250709"
+    },
+    {
+      "putanja": "osm_nominatim.json",
+      "bajtova": 1313,
+      "sha256": "c9c660df3b20f37a8ac5d4ac722faf70e1f4cf538aecaf49c8f364f0b77fa7e4"
+    },
+    {
+      "putanja": "osm_way_coords.json",
+      "bajtova": 154,
+      "sha256": "e696e4f7be2e81164982fb296598cee3dc77962ee23cd6d25dd9ac0b7464e086"
+    },
+    {
+      "putanja": "osm_way_full.json",
+      "bajtova": 2799,
+      "sha256": "edc053d76816a137aae6f57ba5e7adaeeffec0a9aa701dc47712ad85382ec176"
+    },
+    {
+      "putanja": "overpass_v031_raw.json",
+      "bajtova": 23955,
+      "sha256": "7d02f73fb39956e80707af78d35ca38c82703234d86ff5432aaa9ad5de9807aa"
+    },
+    {
+      "putanja": "overpass_v032_okolina.json",
+      "bajtova": 83395,
+      "sha256": "e6d565393aaf1286db5debe9c180daf7a4792142818439406f3eccb3666b438d"
+    },
+    {
+      "putanja": "overpass_v032_somborski.json",
+      "bajtova": 366,
+      "sha256": "252879aa65347c3e0626815e9ce8656b00da76a879dc237f415f55c8c030f917"
+    },
+    {
+      "putanja": "pantelej_kasarna_gravitacija_v029.json",
+      "bajtova": 3806,
+      "sha256": "e78c579afd5035014e665c0ff759e82130f8d726490f1146bae9b6063072c994"
+    },
+    {
+      "putanja": "pdf/ap11/p179.png",
+      "bajtova": 807934,
+      "sha256": "5dd7c634e5096f3077126667fe888e2e9d7c55fc4d8bec39d159ffcc5fb3e590"
+    },
+    {
+      "putanja": "pdf/ap11/p180.png",
+      "bajtova": 696356,
+      "sha256": "bbd04426df3478cebbf2fac87bbbd5a3162a19c412deccee863cf52f63598e00"
+    },
+    {
+      "putanja": "pdf/ap11/p181.png",
+      "bajtova": 803614,
+      "sha256": "a341e76579c84f2e2ba9c1d82ecdc0aed656bba896cd8cf7953d1993ab7e66b9"
+    },
+    {
+      "putanja": "pdf/ap11/p182.png",
+      "bajtova": 648222,
+      "sha256": "2969bb36afadf9b71b21ae30bc0d519e4ec3b2baa36e51999f9ac11b7cbb9fed"
+    },
+    {
+      "putanja": "pdf/ap11/p183.png",
+      "bajtova": 791201,
+      "sha256": "c4d53127523ccacde3bc14d2cdda55b676505a12d3902eccf07515e9f7ee00e6"
+    },
+    {
+      "putanja": "pdf/ap11/p184.png",
+      "bajtova": 731152,
+      "sha256": "937c6ee5456a5a9064c6712b497d05be1eb6097734c3211efaaa4639e701264a"
+    },
+    {
+      "putanja": "pdf/ap11/p185.png",
+      "bajtova": 759652,
+      "sha256": "366083806f5e05df5406f80d974f8e1f7303757aa840962282fc8d92e14d843b"
+    },
+    {
+      "putanja": "pdf/ap11/p186.png",
+      "bajtova": 787409,
+      "sha256": "f4d01efaae484adffc5b78aa40a936241e722cbbcfea747158a4c4c18299df20"
+    },
+    {
+      "putanja": "pdf/ap11/p187.png",
+      "bajtova": 753214,
+      "sha256": "2a576559e0fff0c0ad7d40c7dcf69daec1a00bfa655fbff717c6cf2212eeddd6"
+    },
+    {
+      "putanja": "pdf/ap11/p188.png",
+      "bajtova": 843799,
+      "sha256": "9e59335ca31ec63d2e1b2d9a416396225b57339267daf9c035aa6683fcb873c4"
+    },
+    {
+      "putanja": "pdf/ap11/p189.png",
+      "bajtova": 755382,
+      "sha256": "109d211b110c53b19e1644141c71f9fc74e0049410e10c488dcf6479d067003b"
+    },
+    {
+      "putanja": "pdf/ap11/p190.png",
+      "bajtova": 756047,
+      "sha256": "388066fd74e7e16407a39fbfef359c7a6d9d6ced95c6f4321d698a81110e145b"
+    },
+    {
+      "putanja": "pdf/ap11/p191.png",
+      "bajtova": 721393,
+      "sha256": "3bafba03114232d1888f6966157d04e976978f5a49588fe0f8f5b8c5c473229d"
+    },
+    {
+      "putanja": "pdf/ap11/p192.png",
+      "bajtova": 837387,
+      "sha256": "d6d063846255e10f2e969782e92d76bcf19409d625bd770fb1d75320103ee28a"
+    },
+    {
+      "putanja": "pdf/ap11/p193.png",
+      "bajtova": 795426,
+      "sha256": "681f239a4af7cced45e90148e30cff4145653f2fd7e889a79802d27bb78b675b"
+    },
+    {
+      "putanja": "pdf/ap11/p194.png",
+      "bajtova": 811014,
+      "sha256": "73253363c521af4e773426d6428162c6d7bfec0d9ffdf8763504f786267d41d5"
+    },
+    {
+      "putanja": "pdf/ap11/p195.png",
+      "bajtova": 725094,
+      "sha256": "b7483adaf528824ad8d5f2babc432b10b40b95a989befeedaf1e6c07455c1fc2"
+    },
+    {
+      "putanja": "pdf/ap11/p196.png",
+      "bajtova": 838573,
+      "sha256": "cd4b979218b6ccab047ac3f6179a28c6033b1aa7068d9bad7acab66ead1e0be6"
+    },
+    {
+      "putanja": "pdf/ap11/p197.png",
+      "bajtova": 763242,
+      "sha256": "27285349640cc8cc773d3382c1f1c9c2a948946fb9bdbb3eaf5b51b1ea0a05d3"
+    },
+    {
+      "putanja": "pdf/ap11/p198.png",
+      "bajtova": 808005,
+      "sha256": "90023016f22c91411499ffe6a90c42be2c01724d63bf90974b1d79c1800c11e8"
+    },
+    {
+      "putanja": "pdf/ap11/p199.png",
+      "bajtova": 767747,
+      "sha256": "fd450eb958ad4162b5a8cef5d66bb324c580bbe31a4925b0de94d1ccf34c2d35"
+    },
+    {
+      "putanja": "pdf/ap11/p200.png",
+      "bajtova": 755137,
+      "sha256": "80c1cf8e06e42660af38d6df8dc8daf4515f3bd761f2294be7a229fd10a9ba69"
+    },
+    {
+      "putanja": "pdf/ap11/p201.png",
+      "bajtova": 768926,
+      "sha256": "d9056c288603e735024f84415026348fb799283be6fd2356ca2182d0fc4b855b"
+    },
+    {
+      "putanja": "pdf/ap11/p202.png",
+      "bajtova": 727182,
+      "sha256": "22117a21f18823d112d1109bae280ac7387b89bd1b852916fe80a306172ce2a6"
+    },
+    {
+      "putanja": "pdf/ap11/p203.png",
+      "bajtova": 697399,
+      "sha256": "d5ffa2d74ec9902c79db1f125a746abfdf7eecf108fc466477c32f4395f21fde"
+    },
+    {
+      "putanja": "pdf/ap11/p204.png",
+      "bajtova": 811976,
+      "sha256": "978029f5e584227fb945512422b9ef50f622cae654072c4b08065bd63ac52dfd"
+    },
+    {
+      "putanja": "pdf/ap11/p205.png",
+      "bajtova": 741060,
+      "sha256": "ba222602e96b493ad8890c84cd025c6f6018b72aed1f07cccf0d648853445e31"
+    },
+    {
+      "putanja": "pdf/ap11/p206.png",
+      "bajtova": 816673,
+      "sha256": "61a8c6b4e541284446d78179b3ac9b2f723bff9a2dcc21ded43a46ac03040053"
+    },
+    {
+      "putanja": "pdf/ap11/p207.png",
+      "bajtova": 691892,
+      "sha256": "ea88d8db6be8d4e29e04748bf9b133fe098471097babd2b8627317beb10b63ce"
+    },
+    {
+      "putanja": "pdf/ap11/p208.png",
+      "bajtova": 776299,
+      "sha256": "74f02fc14c46dc15b717ea26be5585e921faea2927b3d8b3297bc6066c118a60"
+    },
+    {
+      "putanja": "pdf/ap11_search.txt",
+      "bajtova": 37098,
+      "sha256": "eb00deb0c45b38faaa1866f0527d80ac9e5419c352d9408385b953dea3808516"
+    },
+    {
+      "putanja": "pdf/ap11_zotovic.txt",
+      "bajtova": 19349,
+      "sha256": "6c3db0d907ae52827204a884c47693d34990d6058b29c470cf7f6cf3008e6ee4"
+    },
+    {
+      "putanja": "pdf/arheoloski_pregled_11.pdf",
+      "bajtova": 59394425,
+      "sha256": "39e3c242ede2883cd0f478f33316c5fac4dc5ee88c0f01f8ac1aad090a089b25"
+    },
+    {
+      "putanja": "pdf/geofizika_milosevic_2011.pdf",
+      "bajtova": 458141,
+      "sha256": "ace9b6ea8655468d675d59d919e76147f68e56cbc5723f46b09bdaa454cbcd78"
+    },
+    {
+      "putanja": "pdf/geofizika_milosevic_2011.txt",
+      "bajtova": 28642,
+      "sha256": "c4ca4410a3914975a2919f2d9dc7d28906b3e871d809532e93c9a91e9fdd0bc9"
+    },
+    {
+      "putanja": "pdf/izvuci_meduza.py",
+      "bajtova": 318,
+      "sha256": "9a423dec589b65bbabc35efdddb0a4219e3c5271fbfad770b076cc6e7eadaa5d"
+    },
+    {
+      "putanja": "pdf/izvuci_slike_meduza.py",
+      "bajtova": 692,
+      "sha256": "37c745e883f79ba6fba0a5313057670dd032184e0955baf6834310d350f3d565"
+    },
+    {
+      "putanja": "pdf/jeremic_meduza_2017.pdf",
+      "bajtova": 6150208,
+      "sha256": "378cf2265f724883182d78b224521f83e2bef40ee14d082d3ee0d84dd3c7432e"
+    },
+    {
+      "putanja": "pdf/jeremic_meduza_2017_raw.txt",
+      "bajtova": 300106,
+      "sha256": "aa4b5ba137ba0f01a9d0bbf10d40c20ca78c6e6d67e34af5bf5fa5630910f6e0"
+    },
+    {
+      "putanja": "pdf/jeremic_meduza_2017_tj.txt",
+      "bajtova": 1445,
+      "sha256": "88046da205e0780df5026e3908672fd6a28d747d2834377e03bd0900192f67e7"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_00_2008x1546.jpg",
+      "bajtova": 2101500,
+      "sha256": "8cb48d773213dda8519b242a8608fc8c0b0f442fb895f49fafeba136dd0c4ec4"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_01_1099x824.jpg",
+      "bajtova": 441477,
+      "sha256": "7739ac114e4b8ab2fd637063f6b82000540778637e1f0dcc94bf7247b58a0c27"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_02_1038x874.jpg",
+      "bajtova": 129897,
+      "sha256": "870b219afaca4f0c0a26396a53adae5334f1f832b51835008353d099d0b6c059"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_03_693x951.jpg",
+      "bajtova": 46748,
+      "sha256": "e0695b430d26162d6f21a6697aed3cd7d6a534c906700adfbdad103a1fa0ffff"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_04_992x660.jpg",
+      "bajtova": 757860,
+      "sha256": "077a73591ec5511097ce8bfb0c2a44e4409151101794c191957fef17804df141"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_05_992x660.jpg",
+      "bajtova": 865992,
+      "sha256": "c00eea1d1e2d3988e2261c8a6e71e0db35398c39190b72d747b503ad136855ea"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_06_272x217.jpg",
+      "bajtova": 44587,
+      "sha256": "027eee0d989eafd59de7e7aa5bff88f0a2c8b0585c6af38cdf4a07d18573fd02"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_07_758x762.jpg",
+      "bajtova": 325878,
+      "sha256": "fe3fa22be1bb54ade0e327597cb4d0681bc51fc44c99904e248e1d094a15f9ff"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_08_1973x1317.jpg",
+      "bajtova": 716046,
+      "sha256": "850a70ddc72c3c836fb7ba5cd963dc7ad863d69a79c134572462472ec802043d"
+    },
+    {
+      "putanja": "pdf/meduza_slike/img_09_1720x1509.jpg",
+      "bajtova": 563082,
+      "sha256": "24b1b135101897c18e457a7c61d051e9b2406ab8b8847bfcf72270a194c09047"
+    },
+    {
+      "putanja": "pdf/milosevic_ideologija.pdf",
+      "bajtova": 1516346,
+      "sha256": "72f533d2460725893fb68b82cb0ea56e2ceb5f2f8b21bc2d6b6ba98424e2909c"
+    },
+    {
+      "putanja": "pdf/milosevic_ideologija.txt",
+      "bajtova": 40385,
+      "sha256": "12dc1013c2513773d3984b5f89c881c86743d3e0fa49039ff9b66920d4962aff"
+    },
+    {
+      "putanja": "pdf/milosevic_iskopi.txt",
+      "bajtova": 98573,
+      "sha256": "421a2785783d8257d05329f0842d72d30abc1f751c69bb37eeb2b6f4de35cd5e"
+    },
+    {
+      "putanja": "pdf/milosevic_iskopi_2010_2011.pdf",
+      "bajtova": 5742520,
+      "sha256": "d30e57fad7fb3c01b16e9981775f817857a9e49d754722c6e542820e78c659a9"
+    },
+    {
+      "putanja": "pdf/milosevic_vila.txt",
+      "bajtova": 180179,
+      "sha256": "1f1289a466edcbce5e09d953020cf7280e6b551c2bdaf0f5511636231afa71cc"
+    },
+    {
+      "putanja": "pdf/milosevic_vila_2011.pdf",
+      "bajtova": 16308346,
+      "sha256": "b89cea3c683bd9cffc5238b66e496f6bb7321720855eac1cc82fcb0ba3d8a7ff"
+    },
+    {
+      "putanja": "pdf/pop-lazic_limes_2018.pdf",
+      "bajtova": 24143751,
+      "sha256": "ff9f45dea8cb1bacff339fac3e0cf818f27fd8fdff10b18fd1874dff99f5d156"
+    },
+    {
+      "putanja": "pdf/pop_lazic.txt",
+      "bajtova": 1155444,
+      "sha256": "de94258dc232e20fac5e6288e5c05172b411785f5ea22a302bd001025e4af2dd"
+    },
+    {
+      "putanja": "pdf/starinar39.txt",
+      "bajtova": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "putanja": "pdf/Starinar_39_1988.pdf",
+      "bajtova": 24942640,
+      "sha256": "c72860dbe8f4046d9653bfd2a4e5d90232e97446dbb0b3fbca378168bb6ed2cf"
+    },
+    {
+      "putanja": "pdf/stibadium.txt",
+      "bajtova": 53939,
+      "sha256": "f3c5daf032fad2d8bcd803e1d7e0f25d0424b3ce7c0049202757ff6c42cd78cc"
+    },
+    {
+      "putanja": "pdf/stibadium_B_gavrilovic_2016.pdf",
+      "bajtova": 2265603,
+      "sha256": "d00f674697cea278596d5bfe8e1af39eb5aa5f44deb8d5a8ffb7e29ba96b54bf"
+    },
+    {
+      "putanja": "podvinik_bulevar_v032.json",
+      "bajtova": 2425,
+      "sha256": "715d791f2053297fe6bcfc751c5267b69ad54447030a3c38a72ce905c32ced78"
+    },
+    {
+      "putanja": "popravka_v013.js",
+      "bajtova": 1689,
+      "sha256": "fccb69d6cd3189ce5165fde8d979a587dee4a9814b4732975e915fa93343b698"
+    },
+    {
+      "putanja": "prostorni_sloj.json",
+      "bajtova": 21993,
+      "sha256": "3eb21c9a1a38834183cdc91147c71fbede87a627d0e03c45d9d1a7b836b3fec2"
+    },
+    {
+      "putanja": "q_v032.txt",
+      "bajtova": 91,
+      "sha256": "f81f92b9adcddfc3cc3f003acb0dc293ff36520ae03032bd8b44c1e74dc3bca5"
+    },
+    {
+      "putanja": "README.md",
+      "bajtova": 6430,
+      "sha256": "73c3bcb5f379676b3956144918942d5cb6752a9bfbaf6a0c5b48562b5754f4c8"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/epigrafika.lasttext.txt",
+      "bajtova": 74182,
+      "sha256": "0eb205fb7f111ea7c5cc708d1aedfb916e7460df8ee82652afabc55a9d443e28"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/epigrafika.writes.json",
+      "bajtova": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/epigrafika_tekstovi.txt",
+      "bajtova": 102382,
+      "sha256": "b4b82cd86825979b08bcd6141c624a95d6cad16b12f5c3f493ef3ed169378d4c"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/izvuci.js",
+      "bajtova": 1046,
+      "sha256": "65a074d978d81e30d5751b794380ccc930e67488110f7cf540a25c4d89ffc854"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/izvuci_nalaz.js",
+      "bajtova": 1261,
+      "sha256": "8f1e1e9259faaf92c03d9aa26a8c533d2699b44afe203fd8b499160224e5161d"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/materijalizuj.js",
+      "bajtova": 730,
+      "sha256": "c7a963e71fdd75201da0f17a2f50e6bfe1f4f21eac50d1d1d61c99242f48a9e2"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/numizmatika.lasttext.txt",
+      "bajtova": 29221,
+      "sha256": "f237d1e557dcd464ab93abaf2d2d5c336118ad4926bd2cb783e7fa0f46985dd5"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/numizmatika.writes.json",
+      "bajtova": 50079,
+      "sha256": "748144840993820d595532f6cf80d702f1a2c2d8489728e2e12feb90277919ff"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/objekti_CD.lasttext.txt",
+      "bajtova": 6066,
+      "sha256": "e6d1b433541664ae6c1892e9cbf1a9b20483ca41fbd207fbc5b43335466d77c0"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/objekti_CD.writes.json",
+      "bajtova": 132116,
+      "sha256": "25208249799d9508dd156d0bdf50f678bba7a8fe0425da6f51a7caed308ff8a5"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/vodeni_sistem.lasttext.txt",
+      "bajtova": 46268,
+      "sha256": "5316b9f9829fa27f452dc5c93189798318254352f2f86a992d6ff875a95d34b3"
+    },
+    {
+      "putanja": "roj_glm/_izvuceno/vodeni_sistem.writes.json",
+      "bajtova": 72142,
+      "sha256": "2d6e5971d13dabef62c156729366fc1ecdd577b587826697a4496224d26f89ba"
+    },
+    {
+      "putanja": "roj_glm/epigrafika/izvrsavanje.log",
+      "bajtova": 6645374,
+      "sha256": "3c8a117969df923a7233eb1c58777f2f48168d5969f582cb939cab171b3c5419"
+    },
+    {
+      "putanja": "roj_glm/epigrafika/nalaz.md",
+      "bajtova": 3444,
+      "sha256": "56d6704f62384fe6419319f87e955886036226d9c86a6ab1f45b608c86dbec4e"
+    },
+    {
+      "putanja": "roj_glm/epigrafika/natpisi.json",
+      "bajtova": 3474,
+      "sha256": "67bf80b69a668c51dd3ed2f8d3521922e63754f56a3063d8a7a07ebb56b54a39"
+    },
+    {
+      "putanja": "roj_glm/epigrafika/ZADATAK.md",
+      "bajtova": 1673,
+      "sha256": "66a0fac42da747a33915fd38b5fb090bb4d8a1bbb6fc222ea419d35e2d0e248a"
+    },
+    {
+      "putanja": "roj_glm/gis_udaljena/izvrsavanje.log",
+      "bajtova": 2573955,
+      "sha256": "533fa4201817bf787307e28c03bcc91efcbcc42ce8c69f519b5126f329b2f3d4"
+    },
+    {
+      "putanja": "roj_glm/gis_udaljena/nalaz.md",
+      "bajtova": 28513,
+      "sha256": "2207b96a01cc75da24c8a5954cb0657147a1a4689bebf39272d2e05e6e259a6c"
+    },
+    {
+      "putanja": "roj_glm/gis_udaljena/prostorni_izvori.json",
+      "bajtova": 16002,
+      "sha256": "a5a6e138e482195f99cd0b3fb58022641c2fc2ca094409a9a2626292f385be9e"
+    },
+    {
+      "putanja": "roj_glm/gis_udaljena/ZADATAK.md",
+      "bajtova": 2080,
+      "sha256": "b5f337653132943d7ada2f1ce57cf548ade490cf37737738025b4a1bc2697c9b"
+    },
+    {
+      "putanja": "roj_glm/komparativni_korpus/korpus.json",
+      "bajtova": 30380,
+      "sha256": "3270a2965eb133cc2de3e519c0fbac0c74e13231c957183a691b43d549950ede"
+    },
+    {
+      "putanja": "roj_glm/komparativni_korpus/nalaz.md",
+      "bajtova": 16231,
+      "sha256": "c086cdde6d07eb0911d10567ce17c3d77da8fa6b06846e17d9cd6fb07a56b6fa"
+    },
+    {
+      "putanja": "roj_glm/komparativni_korpus/ZADATAK.md",
+      "bajtova": 1959,
+      "sha256": "feaabb248a870c103738cd6053b2132f0acb534d4fd4ed0cd09ad198a736d7f2"
+    },
+    {
+      "putanja": "roj_glm/numizmatika/izvrsavanje.log",
+      "bajtova": 8191665,
+      "sha256": "3593b8208ceb43f9784089c6dfb0a6a5e16f76198269323e243121dc66eaa604"
+    },
+    {
+      "putanja": "roj_glm/numizmatika/nalaz.md",
+      "bajtova": 11459,
+      "sha256": "25793c04d342c7126c93b10ba5ac6ec0cc8fff72a3474e2af849660fdc646c0b"
+    },
+    {
+      "putanja": "roj_glm/numizmatika/novac.json",
+      "bajtova": 15785,
+      "sha256": "e6898efa4ad796e495299f287420c65890c30c8adb6a7d7bd889dee3e8dc660d"
+    },
+    {
+      "putanja": "roj_glm/numizmatika/probe_agent.txt",
+      "bajtova": 9,
+      "sha256": "c0b24eb6967e5989628517e84a3ccd3338135ce10e16c472a6da54308ccbba73"
+    },
+    {
+      "putanja": "roj_glm/numizmatika/ZADATAK.md",
+      "bajtova": 1798,
+      "sha256": "4159f692770b8be7d20fce0c695cc1ecd16b0846a3085669969fd414193c63ba"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/academia_urbanism.html",
+      "bajtova": 5899,
+      "sha256": "12a0ac2d5bda46cf23d6a858d2a33c8ba913799e604cc93bd2758a08d852d235"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/fasti_mediana.json",
+      "bajtova": 80,
+      "sha256": "123d0f6fe56c280a402782b39bf7941cc2e839acafccf3307d3f051bddb72b91"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/fasti_n.html",
+      "bajtova": 3756,
+      "sha256": "cb9d50093d878fa8c293749ed4207fbfe9b3408697778bbd4f4bd77200bf4bf7"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/fasti_search.html",
+      "bajtova": 12528,
+      "sha256": "ecb612e33956e756a0279f81441e872f0b8446c204d147a4def03c7f3b505b33"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/gb1.json",
+      "bajtova": 1306,
+      "sha256": "52fc9882b96be0f24fe1912d4156210ece90235cab9f8f1c32ef5b58d335aba0"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/gb2.json",
+      "bajtova": 1306,
+      "sha256": "a23a47e9685d563f46111813402d8f8d6687afadca167a3ec0c0a6f9cf27d236"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/hathi1.json",
+      "bajtova": 712,
+      "sha256": "ace41fdabf6c8332f15ac72754e4d7b0d645e8760bbc8191edb2b7b23f5e2ea8"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/ia1.json",
+      "bajtova": 5287,
+      "sha256": "0bbf9af3c2ca9f8fff94dbfd05bf2a19cfb59f7aa21217d7248c1390dacb5913"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/izvrsavanje.log",
+      "bajtova": 14993346,
+      "sha256": "d29841672e8bf522d6f83524fd93493ed36b75f4626a9f69204175596627637b"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/medijana-objekti-cd-nalaz-pending.md",
+      "bajtova": 2014,
+      "sha256": "9df478cdef92761336b97c38fc6c5fa28094a7753dd655339fe86d14fd589827"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/MEMORY.md",
+      "bajtova": 228,
+      "sha256": "6355276590cae43f0b8dd8f1246bf7734011f8e2bab398af5714630248f76ed2"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/mera.json",
+      "bajtova": 5498,
+      "sha256": "c657c162973520ca7b559d8d9f16847f55e0ec34f14285be11551896e77a6d8e"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/nalaz.md",
+      "bajtova": 19693,
+      "sha256": "8f240da41dbf3e89c95f702f9204a4fc04eb23c033cfebee8050bf83b873293a"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/oai_2020.xml",
+      "bajtova": 580,
+      "sha256": "9150ea177fe4d07a2004e906b954540d527f39caf5a81c887b80e4d43454964e"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/oai_all.xml",
+      "bajtova": 513309,
+      "sha256": "768aa5ceb80562c344c435d16bd20eb5e7328b5a6408e4693d2344fc2cd0962c"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/oai_full.xml",
+      "bajtova": 7839617,
+      "sha256": "fd8372984dd19749d2f78e0e5687151a158d25a8a02489a789c3a45269b3bb40"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/openaire1.json",
+      "bajtova": 588,
+      "sha256": "dae8f0216d7a55290e9bd73da6252a1a61517e8dba12f2130c87f393222b5361"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/procitaj_log.js",
+      "bajtova": 788,
+      "sha256": "b9c77e201e5dc07e7ad58d3cc7bd3dc4eda0228c9fc586824bbaf868f3435402"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/rai_1184.html",
+      "bajtova": 29705,
+      "sha256": "3537033ff08c49e9daf998f110e38f207930cc824e903f6826a0e52a3d9fea66"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/rai_3503.html",
+      "bajtova": 12257,
+      "sha256": "0fbd6de7cce1186b4182856c3434e58ef2c5f2d33778ee4a97c04715c7d50988"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/rai_783.html",
+      "bajtova": 28687,
+      "sha256": "cdf09cd32d116f3645317012e5f9bedd11b5e627cb9f51262761644460130395"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/rai_api_mediana.json",
+      "bajtova": 11457,
+      "sha256": "107486ae6ae334711cb769dd707b7853ed8ba22e1f82b4a2a7a7b9d041b7e622"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/rai_search.html",
+      "bajtova": 12785,
+      "sha256": "8ac835d25f0d03ec8ef6505801c1293dccf2ce506faeb464efbf5b15012ef82e"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/rai_search2.html",
+      "bajtova": 12739,
+      "sha256": "a1027b365fd4d1ae2dc8f79ac9ca61ec99d3530eebf02ce534a0850a395e9ea0"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/rai_test.html",
+      "bajtova": 31200,
+      "sha256": "6fd6c5be08e95fe1dcd51f510e3c742ac790f4ec604e2149c76b8794615f1c45"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/scindeks1.html",
+      "bajtova": 7857,
+      "sha256": "0bf97d6f8ea6f7a5437b04ba815b2832ca6a631587fec2235fe54181f4e2fc1d"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2011.pdf",
+      "bajtova": 205122,
+      "sha256": "6abe3d7cfb013239fd29f66a57de39cf39f41fe433fade3159f5fa452ea3ddc1"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2011.txt",
+      "bajtova": 24098,
+      "sha256": "4e6a830fa2f33e068748f7a11739e48ec1a343d29f6272f5a0df8831b4c4ac9c"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2015.pdf",
+      "bajtova": 734131,
+      "sha256": "0f93319df1d6b714edba3efdde9af6cb90c423472952c44f27fb41a3af8d3b10"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2015.txt",
+      "bajtova": 19133,
+      "sha256": "9aec6a0b9a0fcb623ebc2fc6e3a0d73cf6012539b679ead6865124ace2bb3edd"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2015_mediana.txt",
+      "bajtova": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2016.pdf",
+      "bajtova": 144618453,
+      "sha256": "f37b9dabcbb44f30845adafc1e6409bb8b4522b7be8e73ed797aaebfd1e3fe1d"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2016.txt",
+      "bajtova": 302058,
+      "sha256": "9ecb0b3707ce3869cd2c2e2e480168909b8ee1eb690e3751dcbfb29ec57c4028"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2017.pdf",
+      "bajtova": 5831980,
+      "sha256": "b9fd06352e59fae83431938684dfd4005bba076fd590a072c91621b50828f3a8"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2017.txt",
+      "bajtova": 450477,
+      "sha256": "13ab651bc407e69c15427b0147792b605b79cd5c415c8cda6af9c535e48e4ba2"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2018.pdf",
+      "bajtova": 29812059,
+      "sha256": "66c64e4239de83fd38d08ef4600941a5fc2e90d4954bfb32baf7e10c38eef4b4"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2018.txt",
+      "bajtova": 605934,
+      "sha256": "679d9bec6e6af64d5673f5dd8769b0c6250195be9594bfa318b2ba185a43726f"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2019.pdf",
+      "bajtova": 13652824,
+      "sha256": "8ee65c83d3407d384bb7eae16c9178814e54a4180e0f9d73777c8ac22c60b3c7"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2019.txt",
+      "bajtova": 596509,
+      "sha256": "8aa6d3f0d6457b00cf5fb8a9df6317909c627a7e42bfc75974f43babac2ed606"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2020.pdf",
+      "bajtova": 5543535,
+      "sha256": "2d98c45611a0795421e94bf062dc790acb003e29aeb1e46b121cb3d0447023a5"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2020.txt",
+      "bajtova": 391158,
+      "sha256": "48e9d2cc7986cee2816d6fb5b90e1079b497e1c4488c4635b8419003f2d137e0"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2021.pdf",
+      "bajtova": 20734915,
+      "sha256": "19e01b7e27032cf4f0b94acb098a8626860f13e4433e77a0e470e2744a20886f"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/aus2021.txt",
+      "bajtova": 460943,
+      "sha256": "87edde6512bbcc2d3e236f3021e3e7fc78c12b8fe2a4d46836cdfecc4a009c69"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/jeremic_meduza_2017.pdf",
+      "bajtova": 6150208,
+      "sha256": "378cf2265f724883182d78b224521f83e2bef40ee14d082d3ee0d84dd3c7432e"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/jeremic_meduza_2017.txt",
+      "bajtova": 37395,
+      "sha256": "d11f45e16ca593e5eb91e501f5b930834d301e512935740749f007aa993c4637"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/jeremic_mozaici_2009.pdf",
+      "bajtova": 210129,
+      "sha256": "975a2a59030c4ce9e9a26108a4f72a1a2dfc04eff5bfb7ae2e61c78b27927723"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/jeremic_mozaici_2009.txt",
+      "bajtova": 2159,
+      "sha256": "95982085ed4eafd350d19c9c39cb6038a3f53d9618505d0078d96a6c68ceadbd"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/tapavicki_2011.txt",
+      "bajtova": 4834,
+      "sha256": "2ad78edf3d868fd13e895e845b08a65122150a71df41dd65f54ac220e1795ac6"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/skinuto/tapavicki_medijana_2011_fasti.pdf",
+      "bajtova": 446584,
+      "sha256": "4b3a84746b8906e3e048d00c89c8d61b4f240560a105fab444531ceca29df5e6"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/srwiki_medijana.wikitext",
+      "bajtova": 135616,
+      "sha256": "a10b2b828b41bf0310d9dcfd19439e9d262509c20275966cdfe21918ef66f798"
+    },
+    {
+      "putanja": "roj_glm/objekti_CD/ZADATAK.md",
+      "bajtova": 1893,
+      "sha256": "6b082acae3c3ad3a3a1b143858843162073839536878b1c9dd756ed3be906a83"
+    },
+    {
+      "putanja": "roj_glm/PLAN_PRAVACA.md",
+      "bajtova": 1499,
+      "sha256": "31cd754f27c74ed95500acc10bb3925f74eee61e739559de66f3e5fb27fb8232"
+    },
+    {
+      "putanja": "roj_glm/sync_bridge.log",
+      "bajtova": 28441,
+      "sha256": "2c0e55e0ca1f2ae4e9147ab99ba7a5693e41ddee232b30d9ac1313eb75006cc7"
+    },
+    {
+      "putanja": "roj_glm/sync_glm_panel.js",
+      "bajtova": 4982,
+      "sha256": "ad3ab96ccf45db04368fcb60a03e9cf79a1f92006db32e8e49bbdca8ac3876da"
+    },
+    {
+      "putanja": "roj_glm/sync_glm_zivo.js",
+      "bajtova": 7773,
+      "sha256": "508a7e7a0268d77d8783c6df02a6fd502efa6d07c69b0970eaca15f38ded7807"
+    },
+    {
+      "putanja": "roj_glm/sync_state.json",
+      "bajtova": 4000,
+      "sha256": "5cc4b3d2bd5ce68ec9c60b08a2ef7c0b5f2af6d06986b02174ebb932fa28a247"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/hidraulika.json",
+      "bajtova": 34286,
+      "sha256": "9f66af7ad289f4a5dff24cd152d9cb5c082d76305dab0f682e28662ce7e474a5"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/izvrsavanje.log",
+      "bajtova": 37904104,
+      "sha256": "722d59770f46d3214714b58b7b1a6263287db8c037e2af9abe54d4dad9140699"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/nalaz.md",
+      "bajtova": 11358,
+      "sha256": "4e9259754e1ddbec01f15a6391933cb428d432a8ecf347522d877b631c26618c"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/proba_p058.png",
+      "bajtova": 444770,
+      "sha256": "80d0c767275ca59a6f81214cc26cb86b87654e85ae1b942bb2928d57f094cbb1"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/proba_p060.png",
+      "bajtova": 634184,
+      "sha256": "dd77fdb89e12e4ab539ee1714224220ea56e39d4dcb7ea339561339374a773cb"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/proba_p062.png",
+      "bajtova": 732354,
+      "sha256": "e0255da70f5a156cee97c8c554da4d5fcb9a9f56b4b385936c94a4c37b814e19"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str065.png",
+      "bajtova": 1341726,
+      "sha256": "3276e86d0b91461e64c22403f1c105f13132a00a3a048e9a998eb1e892d66b9e"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str066.png",
+      "bajtova": 640174,
+      "sha256": "e48bbe2c237081544f4d11b4d725501cb2d6cc68524145587650e747138a4f24"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str067.png",
+      "bajtova": 1314567,
+      "sha256": "e4f53e4d3b4070b78182511f08720a33fa8e971d64b3f5f00214bff6a970315a"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str068.png",
+      "bajtova": 1295201,
+      "sha256": "bd157712eec11d1cc91aa7f168e56439b064bcf6fcf3e0d7ddae81070f6a3eae"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str069.png",
+      "bajtova": 570914,
+      "sha256": "4751c763629c20e790b1e888402e33877f4ecb62203176a2c9e73d29d3b5a2f9"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str070.png",
+      "bajtova": 1399784,
+      "sha256": "d2b3d8896f00f3912b21c717a105b90fd127322a7ad82b754ff8bcfb221856dd"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str071.png",
+      "bajtova": 1205505,
+      "sha256": "56b594ea0f739254d047f85f48ccb5caf92b9e4ce7fc643da86aa7450341a2d1"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str072.png",
+      "bajtova": 1260678,
+      "sha256": "8e3ba7af565b21c5fe268aec19ae503ffb456872666db965377ad42eb96c60be"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str073.png",
+      "bajtova": 1257351,
+      "sha256": "4adf244b3f4231d037dc8085d7ff7162cf7183d5713b6fbc4a240a3f65b01111"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str074.png",
+      "bajtova": 1110773,
+      "sha256": "9489967aa439f363ed706027a6e9325208f9dee69b50f697a8653b129f896047"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str075.png",
+      "bajtova": 1197792,
+      "sha256": "fcf340122733198d92f3919c638ff9c2976c6ab3e151c2fc389c3a5fcd00e295"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str076.png",
+      "bajtova": 1103485,
+      "sha256": "0917dfa156229684bdd13671667a80b9dfda69b1bb03e5403c794788487d5967"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str077.png",
+      "bajtova": 1202690,
+      "sha256": "fcd4e76766c281bf986804726b01f437124d74e909626d0efda2bfbc02c1b231"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str078.png",
+      "bajtova": 1315309,
+      "sha256": "63eeed8370b04c0f940cedf754af10c8bdedff13126793d2c61a90a75626a695"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str079.png",
+      "bajtova": 1105584,
+      "sha256": "7bdb938b1cb9373b7e738f31ab7c6adb7f6f00701a46364b825c7e6b4c5074d5"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str080.png",
+      "bajtova": 1298869,
+      "sha256": "3d6358f215fbc07704f374b17b66090d3b8f9f7678ed70d25cb011b1d9127a5d"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str081.png",
+      "bajtova": 1174203,
+      "sha256": "0ed4b3e72c50edca67b3562b3dcbba5a92244201207425669898f0722b16bb05"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str082.png",
+      "bajtova": 1215002,
+      "sha256": "f792c93c21755089c3f23da47bd1d629064ed801ca6148b3582044238db2b0bf"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str083.png",
+      "bajtova": 1281971,
+      "sha256": "a61df7ce01ccb3b15fb4bc1769f507e10fb4264ac63900f6fe6e199cb9f7054f"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str084.png",
+      "bajtova": 822272,
+      "sha256": "986b8682f0dae8cbaf7c0d7f79c5c5b56fb500c22048ec2fc55d7d4d957d865b"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str085.png",
+      "bajtova": 1450983,
+      "sha256": "ea5b46adc598300b52c7b037f31c496550ec487279d2d9e0e3140a5473f0baab"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str086.png",
+      "bajtova": 1381103,
+      "sha256": "c274601ef8a51b21e947a0b161731dbf2411847057ab3bd672423b2149636aa7"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/starinar39/str087.png",
+      "bajtova": 1195596,
+      "sha256": "f6cfdd7affbeb29e3108ed7c7870a545bb408f8a30c3b6fac4917f279c9f57d6"
+    },
+    {
+      "putanja": "roj_glm/vodeni_sistem/ZADATAK.md",
+      "bajtova": 1899,
+      "sha256": "c3aa93bab815fa870e2254da4fd20c02f42a8cc089feb9431d2c96a580ceae7a"
+    },
+    {
+      "putanja": "SINTEZA.md",
+      "bajtova": 33028,
+      "sha256": "60d57ac2a960e72eb71b65d4c16f14e834295ed905aedad9cec3749a63bbe253"
+    },
+    {
+      "putanja": "skulpturski_program.json",
+      "bajtova": 8947,
+      "sha256": "36dafcccbe54c34597f44813d86b06271a40d7d97008aa6e558729c28507194f"
+    },
+    {
+      "putanja": "slike/_preuzmi.txt",
+      "bajtova": 1855,
+      "sha256": "7ed4186e87cd7d5895d462c0f8694e0dcb8643cf51aa52976b486e8389b7653d"
+    },
+    {
+      "putanja": "slike/Nis,_vila_oktogonalnog_oblika.JPG.jpg",
+      "bajtova": 2110944,
+      "sha256": "2c69524087bb4171f3a85e767b9e154b380afd902b517d036467c385ec614de2"
+    },
+    {
+      "putanja": "slike/The_Nymphaeum_at_Mediana_I_7369183228_.jpg.jpg",
+      "bajtova": 6804841,
+      "sha256": "d0ca0b8e42d1b8a6bf72f04b9055baba24f96a54c9f30c367a84b080f38bf764"
+    },
+    {
+      "putanja": "slike/The_Nymphaeum_at_Mediana_II_7183949517_.jpg.jpg",
+      "bajtova": 6612754,
+      "sha256": "fc02351b115b967484355d85c5804c6f47d62453cc62882f6ef8756486cb289c"
+    },
+    {
+      "putanja": "slike/The_Nymphaeum_at_Mediana_III_7369183572_.jpg.jpg",
+      "bajtova": 6317961,
+      "sha256": "2acb1be72a8d800aa37846589ed131ed0642936bde2d2909c9c99f550cdcd072"
+    },
+    {
+      "putanja": "slike/The_Nymphaeum_at_Mediana_IV_7183949769_.jpg.jpg",
+      "bajtova": 6617460,
+      "sha256": "54d34f4aa4f0eb20d5e55288e64aeca8efb3bdefcc6f930e1488ce321bcd9984"
+    },
+    {
+      "putanja": "slike/The_Nymphaeum_at_Mediana_V_7183949925_.jpg.jpg",
+      "bajtova": 6624626,
+      "sha256": "286471d67e3bc152b18ee977d9f3427b7ad66490cf5dccce1496896314d90c8b"
+    },
+    {
+      "putanja": "slike/The_Nymphaeum_at_Mediana_VI_7369183998_.jpg.jpg",
+      "bajtova": 5560690,
+      "sha256": "ef0d9b7fa6242726f9ad99f26bacb0720fb4e170c80663b43439f25a14ef9dd9"
+    },
+    {
+      "putanja": "slike/The_Nymphaeum_at_Mediana_VII.jpg",
+      "bajtova": 6733331,
+      "sha256": "e83b32c8f08f229c233f00ede17878b0500e666b195d89acc565ba36f23a3acb"
+    },
+    {
+      "putanja": "sobe_sloj.json",
+      "bajtova": 22758,
+      "sha256": "9cefbf45d05a1eb3a583220bf98d793cf2f4c991a081b966cad92761b29df1be"
+    },
+    {
+      "putanja": "sonde_sloj.json",
+      "bajtova": 19541,
+      "sha256": "497cca194f910bb519e39bbe5b031f3f41bf3dfda281294bef40e036e2a342a2"
+    },
+    {
+      "putanja": "talas_v010.js",
+      "bajtova": 8201,
+      "sha256": "c00ee960a1a82dababcbf98c15d419f62a00bc4824e6d17ef4067b6beb37b558"
+    },
+    {
+      "putanja": "talas_v011.js",
+      "bajtova": 22040,
+      "sha256": "2d07ecaee84d1ee7dfc34826a96c02b54c2ee4856a4e3e9d71de32cb0f7360ea"
+    },
+    {
+      "putanja": "talas_v013.js",
+      "bajtova": 4222,
+      "sha256": "4daf3c99966ebeae841b16d5b246d62865560dc398c2345cbacbe95cbcbc6bbd"
+    },
+    {
+      "putanja": "talas_v014.js",
+      "bajtova": 7558,
+      "sha256": "ea12d3968a248700aca4ad266b2b0397060739d369b9f6b4abefa170951ef8dc"
+    },
+    {
+      "putanja": "talas_v015.js",
+      "bajtova": 25690,
+      "sha256": "3ff5de9147b918a2bdaedd4d71389fb7a46322715a31c641bc61495cb949c22f"
+    },
+    {
+      "putanja": "talas_v016.js",
+      "bajtova": 33718,
+      "sha256": "3356364c8e3ced3b307f7a50b4d2c00c65c8debb12a1bf4bba0d66f9fbb4f2f8"
+    },
+    {
+      "putanja": "talas_v017.js",
+      "bajtova": 3688,
+      "sha256": "16f215dd09f23f5df735836530ca061b1d48f9fa0731bfe9ea16cf5b62492000"
+    },
+    {
+      "putanja": "talas_v019.js",
+      "bajtova": 3871,
+      "sha256": "38131536a7ab37cda024539bbb58354d2d0fe521ccf5f78b6bc0c36c51f0d0d9"
+    },
+    {
+      "putanja": "talas_v021.js",
+      "bajtova": 3494,
+      "sha256": "4ef0c29553a926ba0c29a680a59a74de3aac2978dcc10e227071b76b899fdb5c"
+    },
+    {
+      "putanja": "talas_v021_izvorista.py",
+      "bajtova": 1311,
+      "sha256": "6882febf44fe5b158599097994e53f8c6a71aa0a9ccbef93488aa29825ef92f1"
+    },
+    {
+      "putanja": "talas_v021b.js",
+      "bajtova": 926,
+      "sha256": "a1ba0bc19824f3190042e819dcc88cec3125261cfc065d958989c5d8cf6ef5ae"
+    },
+    {
+      "putanja": "talas_v022.js",
+      "bajtova": 5244,
+      "sha256": "91d926a7a6dc51655528bb816cae9d7c6205cafec6e7636c817e739900dd35ca"
+    },
+    {
+      "putanja": "talas_v023_izvori.py",
+      "bajtova": 1818,
+      "sha256": "f802af27daae5b22e022e127f010b3279d2bb92fb59af90655f3dcb9180b5531"
+    },
+    {
+      "putanja": "talas_v023_popravka.py",
+      "bajtova": 1941,
+      "sha256": "84d14375fbf1a12378a44e05a81da928a330179f6c14d96c2d74500fcb790f73"
+    },
+    {
+      "putanja": "talas_v024.js",
+      "bajtova": 6210,
+      "sha256": "567aa7fd41fd627d774bcf87b0dbf5364a75c17911bcc155e54dce09f130b30e"
+    },
+    {
+      "putanja": "talas_v025.js",
+      "bajtova": 3171,
+      "sha256": "5b13cd8c8c8cb4da7d7f13cb5c39359723b8edf3301ba3f7edde955dc474ae92"
+    },
+    {
+      "putanja": "talas_v025b.js",
+      "bajtova": 6167,
+      "sha256": "22f85ca54a54264a7fd9101891220a1be3a9d49edf7d5d16b8915b218cfcec8f"
+    },
+    {
+      "putanja": "talas_v031.js",
+      "bajtova": 7444,
+      "sha256": "817d671142a4c7a92d06bd47c5570e091a68c5f72f1f925e451ece9c99223178"
+    },
+    {
+      "putanja": "talas_v031.py",
+      "bajtova": 1259,
+      "sha256": "ea2dc3278a2e78380445f71134b82c5e7325ffacb743850ffbdf9762feda44ac"
+    },
+    {
+      "putanja": "talas_v09.js",
+      "bajtova": 12340,
+      "sha256": "041b3023c760767ebffbe536191a74c4e9db6e94be45b508eae93d7e502038f2"
+    },
+    {
+      "putanja": "tools_pdf_extract.js",
+      "bajtova": 916,
+      "sha256": "768a263c3e9ebd95e356b650845f7b2f8b8cf3ed68df2cad0ba0c29cc219c623"
+    },
+    {
+      "putanja": "treca_kota_vrela_v030.json",
+      "bajtova": 2095,
+      "sha256": "601300a0dbe9395a010caf11223cb3d01d5525a0a262dab783691e9d3b0d4487"
+    },
+    {
+      "putanja": "validator.js",
+      "bajtova": 43243,
+      "sha256": "2e56a74f8e198ec4b717d632e5a8dbad9869bb5c3a8f2a510d51b1c7e036af1c"
+    },
+    {
+      "putanja": "vinik_trasa_fizika_v027.json",
+      "bajtova": 3358,
+      "sha256": "b6181503130a6ff34365a78b922a69c3878307c4a6bca51c7076bbd9b989d5a1"
+    },
+    {
+      "putanja": "vizuelni_commons_popis.txt",
+      "bajtova": 7942,
+      "sha256": "328714694884535db1cbca45f3ff10bfeb39b928a6f82fb3030db6d3019e3fa8"
+    },
+    {
+      "putanja": "vizuelni_nalazi.json",
+      "bajtova": 4096,
+      "sha256": "cc842f4029795fdbfb05630a4272953ac2d3ba2dc26cc447c0b638f2f27706bc"
+    },
+    {
+      "putanja": "vizuelni_sloj.json",
+      "bajtova": 34061,
+      "sha256": "e92581cecf9cd083d4e249a8d30324234685fd0203439bd794d0c6b8df614123"
+    },
+    {
+      "putanja": "vodeni_linijski_sloj.json",
+      "bajtova": 15912,
+      "sha256": "f9880caae27203560b28939aa4f07b592e3340a1abc5db560a8ab0b0dc86eb00"
+    },
+    {
+      "putanja": "vodosnabdevanje_naisusa_v028.json",
+      "bajtova": 8787,
+      "sha256": "c72191e0790de34d4c8004f7d3e1ee1752950e11fae11e55aa3cfdd6b148e799"
+    },
+    {
+      "putanja": "wd_claims.txt",
+      "bajtova": 634,
+      "sha256": "fc8bc56ef60141ed1d950286629f50804628fc191f8f38e1c316c32148de4ae8"
+    },
+    {
+      "putanja": "wd_q960839.json",
+      "bajtova": 14265,
+      "sha256": "3538676a92c63ff457090ba78ef3f8280315a80e57648960dadfc541c76704bd"
+    },
+    {
+      "putanja": "wd_search.json",
+      "bajtova": 4798,
+      "sha256": "40aa15b729afd924d8df8091e06f81da6fd52036cf02304e49bfdc1cd2c31ed8"
+    }
+  ]
+}

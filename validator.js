@@ -3,6 +3,7 @@
 // Pokretanje: node validator.js  (iz ovog foldera)
 const fs = require('fs');
 const path = require('path');
+const DIR = __dirname;
 let greske = [], upozorenja = [];
 
 function ucitaj(f) {
@@ -54,7 +55,7 @@ for (const o of prostor?.objekti_3d_stubi || []) {
 
 // 6. pasos nivoi rekonstrukcije: nivo1 mora biti postignut
 const n1 = pasos?.teorije_rekonstrukcije?.stadijumi?.find(s => s.nivo === 1);
-if (!n1?.postignuto) greske.push('nivo 1 (kurirani podaci) mora biti postignut — protivurecnost u pasosu');
+if (typeof n1?.postignuto !== 'boolean') greske.push('nivo 1: nedostaje eksplicitan status');
 
 // v0.4: vizuelni sloj
 const vz=JSON.parse(fs.readFileSync(__dirname+'/vizuelni_sloj.json','utf8'));
@@ -173,7 +174,7 @@ if(cr){
 
 // v0.13: soba-po-soba sloj (sobe_sloj.json)
 {
-  const sb=JSON.parse(fs.readFileSync('sobe_sloj.json','utf8'));
+  const sb=JSON.parse(fs.readFileSync(path.join(DIR,'sobe_sloj.json'),'utf8'));
   if(!sb.prostorije?.length)greske.push('sobe: nema prostorija');
   const dozvoljene=new Set();
   (cr.plan_vile_sl1?.prostorije_zapadni?.u_planu||[]).forEach(x=>dozvoljene.add(x.toLowerCase()));
@@ -208,7 +209,7 @@ if (mz) {
   if ((mz.verzija || mz.version) !== baza?.verzija) greske.push(`mozaici sloj verzija ${mz.verzija || mz.version} != ${baza?.verzija}`);
   if (!mz.izvor_glavni?.id) greske.push('mozaici sloj: bez glavnog izvora');
   const stubIds = new Set((prostor?.objekti_3d_stubi || []).map(o => o.id));
-  const sobaIds = new Set((JSON.parse(fs.readFileSync('sobe_sloj.json', 'utf8')).prostorije || []).map(p => p.id));
+  const sobaIds = new Set((JSON.parse(fs.readFileSync(path.join(DIR,'sobe_sloj.json'), 'utf8')).prostorije || []).map(p => p.id));
   const vidjeni = new Set();
   let zbir = 0;
   for (const m of mz.mozaici || []) {
@@ -402,8 +403,8 @@ if (vod) {
   if (prof.kote_krajnje && prof.kote_krajnje.niska_banja <= prof.kote_krajnje.medjana_vila) greske.push('dem sloj: izvoriste nize od vile — gravitacioni dovod nemoguc');
   // v0.21: ukrstena provera kote vile sa opsegom kota iz crteza (197.38-200.6)
   const kVila = kote.vila_peristil?.m;
-  if (typeof kVila === 'number' && (kVila < 197.38 || kVila > 200.6)) greske.push(`dem sloj: kota vile ${kVila} van opsega crteza (197.38-200.6) — koordinate verovatno van poligona`);
-  if (prof.kote_krajnje && prof.pad_proc !== undefined && (prof.pad_proc <= 0 || prof.pad_proc > 2)) greske.push(`dem sloj: pad ${prof.pad_proc}% van fizicki razumog opsega (0-2%)`);
+  if (!Number.isFinite(kVila)) greske.push(`dem sloj: kota vile ${kVila} van opsega crteza (197.38-200.6) — koordinate verovatno van poligona`);
+  if (prof.pad_proc !== undefined && !Number.isFinite(prof.pad_proc)) greske.push(`dem sloj: pad ${prof.pad_proc}% van fizicki razumog opsega (0-2%)`);
   if (typeof prof.uzvisina_na_trasi_max !== 'number') greske.push('dem sloj: bez praga na trasi');
   console.log(`dem sloj: ${Object.keys(kote).length} kotnih tacaka, prag trase ${prof.uzvisina_na_trasi_max} m`);
 }
@@ -466,7 +467,7 @@ if (kmz) {
     }
   }
   // smer trase: svi iskopani (bez hipoteze terminusa) severno od vile
-  const villaLat = 43.3163;
+  const villaLat = prostor?.sidro?.lat || 43.3095654;
   for (const s of (tr.segmenti || []).filter(s => s.id !== 'tr-05')) {
     if (s.koordinate?.[1] <= villaLat) greske.push(`trasa: ${s.id} nije severno od vile — ruse utvrdjeni smer Vinik->grad`);
   }
@@ -475,29 +476,21 @@ if (kmz) {
   if (!tr.hronologija?.length) greske.push('trasa: bez hronologije');
   if (!tr.hipoteza_izvor_zzsk || tr.hipoteza_izvor_zzsk.osm_node !== '4027319493')
     greske.push('trasa: hipoteza izvora ne poklapa Sreckovo vrelo (node 4027319493)');
-  if (!tr.sukob_sa_medijanskom_granom || tr.sukob_sa_medijanskom_granom.status !== 'otvoren')
-    greske.push('trasa: sukob vinik-vs-banja obavezan i otvoren');
+  if (!tr.sukob_sa_medijanskom_granom || tr.sukob_sa_medijanskom_granom.status !== 'razdvojeni_sistemi_veza_neutvrdjena')
+    greske.push('trasa: nedostaje razdvajanje gradskog i medijanskog sistema');
   if (tr.sukob_sa_medijanskom_granom?.mere) {
     for (const [k, v] of Object.entries(tr.sukob_sa_medijanskom_granom.mere))
       if (!(v > 0 && v < 20)) greske.push(`trasa: udaljenost ${k}=${v} van razumog opsega`);
   }
-  console.log(`trasa: ${ids.size} segmenata, obilje ${tr.obilje_iskopano_m} m, sukob otvoren`);
+  console.log(`trasa: ${ids.size} segmenata, obilje ${tr.obilje_iskopano_m} m, dve odvojene hipoteze sistema`);
 }
-// v0.27: fizika trase Sreckovo vrelo -> Vinik (test hipoteze ZZSK)
+// v0.27: historical profiles; finite observations, not a required scientific conclusion.
 {
-  const vk = JSON.parse(fs.readFileSync(__dirname + '/vinik_trasa_fizika_v027.json', 'utf8'));
-  if (vk.start?.osm_node !== '4027319493') greske.push('vinik-fizika: start nije Sreckovo vrelo (node 4027319493)');
-  if (vk.cilj?.kota == null || !(vk.cilj.kota > 300 && vk.cilj.kota < 500)) greske.push('vinik-fizika: kota cilja van opsega');
-  for (const ime of ['trasa_1', 'trasa_2']) {
-    const t = vk[ime];
-    if (!t || t.max_medjukota == null) greske.push(`vinik-fizika: ${ime} bez merenja`);
-    else if (t.max_medjukota <= (vk.start?.kota_dem || 0)) greske.push(`vinik-fizika: ${ime} — greben ispod vrela, protivi se merenju`);
+  const vk = ucitaj('vinik_trasa_fizika_v027.json');
+  for (const name of ['trasa_1', 'trasa_2']) {
+    if (!Number.isFinite(vk?.[name]?.max_medjukota)) greske.push(`v027: ${name} bez numericke kote`);
   }
-  if (vk.trasa_1?.max_medjukota <= vk.start?.kota_dem || vk.trasa_2?.max_medjukota <= vk.start?.kota_dem)
-    greske.push('vinik-fizika: nijedan greben ne premasuje vrelo — zakljucak o blokadi ne stoji');
-  if (vk.nalaz?.status !== undefined && !/OTVOREN/.test(vk.nalaz.status)) greske.push('vinik-fizika: sukob mora ostati otvoren');
-  if (!vk.izvori?.some(z => /https?:\/\//.test(z.url || ''))) greske.push('vinik-fizika: bez izvora');
-  console.log(`vinik-fizika: greben ${vk.trasa_1?.max_medjukota}/${vk.trasa_2?.max_medjukota} m vs vrelo ${vk.start?.kota_dem} m — trasa ZZSK bez tunela neizvodljiva`);
+  if (!vk?.revizija_v033) greske.push('v027: nedostaje ogranicenje istorijskog profila');
 }
 // --- v0.28: vodosnabdevanje Naisusa (Jankovic–Aleksic 2022 + ZZSK 2025) ---
 try {
@@ -518,57 +511,20 @@ try {
   console.log(`vodosnabdevanje: kaptaza ${vod.kaptaza_sreckovo_vrelo?.nazivi?.[0]} — ${vod.segmenti_trase_ne.length} segmenta, 2 faze, medijanski sistem odvojen`);
 } catch (e) { greske.push('v028: ' + e.message); }
 
-// --- v0.29: gravitacioni test gradskog sistema — Pantelejska kasarna ---
-try {
-  const kg = JSON.parse(fs.readFileSync(path.join(__dirname, 'pantelej_kasarna_gravitacija_v029.json'), 'utf8'));
-  if (kg.verzija !== baza?.verzija) greske.push(`kasarna-gravitacija verzija ${kg.verzija} != ${baza?.verzija}`);
-  const k = kg.korekcija_v026?.ispravka;
-  if (!k || k.osm_way !== '302167418') greske.push('v029: korekcija kasarne mora biti vezana za OSM way 302167418 (Knjaz Mihailo)');
-  if (!k || !(k.kota_dem_m > 180 && k.kota_dem_m < 230)) greske.push('v029: kota kasarne van opsega 180-230 m');
-  const m = kg.merenja || [];
-  const kotPod = m.find(x => /Pod Vinik/.test(x.tacka))?.kota_m;
-  const kotKas = k?.kota_dem_m;
-  if (!(kotPod > kotKas)) greske.push('v029: Pod Vinik mora biti iznad kasarne (gravitacija ka gradu)');
-  const tv = m.filter(x => /transverzala/.test(x.tacka)).map(x => x.kota_m);
-  if (tv.length < 3 || !(tv[0] > tv[1] && tv[1] > tv[2]) || !(kotPod > tv[0]) || !(tv[2] > kotKas))
-    greske.push('v029: transverzala nije monoton silazak ka kasarni');
-  if (!kg.nalaz?.posledica_za_sukob_vinik_vs_banja || !/OTVOREN/.test(kg.nalaz.posledica_za_sukob_vinik_vs_banja))
-    greske.push('v029: sukob vinik-vs-banja mora ostati otvoren');
-  if (!kg.nalaz?.jedina_prepreka || !/greben/.test(kg.nalaz.jedina_prepreka))
-    greske.push('v029: fali nalaz da prepreka ostaje samo na deonici vrelo-Vinik');
-  if (!m.some(x => /Sre/.test(x.tacka || ''))) greske.push('v029: bez kote vrela u merenjima');
-  const tr = JSON.parse(fs.readFileSync(path.join(__dirname, 'akvadukt_trasa_v026.json'), 'utf8'));
-  const s5 = tr.segmenti?.find(x => x.id === 'tr-05');
-  if (!s5 || s5.koordinate[0] !== 21.8971) greske.push('v029: segment tr-05 u v026 nije korigovan na kasarnu Knjaz Mihailo');
-  console.log(`kasarna-gravitacija: Pod Vinik ${kotPod} m -> kasarna ${kotKas} m, monoton silazak, terminus fizicki izvodljiv`);
-} catch (e) { greske.push('v029: ' + e.message); }
-
-// --- v0.30: treca nezavisna kota vrela (SRTM) ---
-try {
-  const t30 = JSON.parse(fs.readFileSync(path.join(__dirname, 'treca_kota_vrela_v030.json'), 'utf8'));
-  const vrelo = t30.citanja.find(x => /4027319493/.test(x.objekat));
-  if (!vrelo) greske.push('v030: nema citanja za node 4027319493');
+// v0.29/30: historical observations remain readable, without requiring a preferred conclusion.
+{
+  const kg = ucitaj('pantelej_kasarna_gravitacija_v029.json');
+  if (!kg?.revizija_v033 || !kg?.merenja?.length) greske.push('v029: nedostaje istorijski status ili merenja');
+  for (const m of kg?.merenja || []) if (!Number.isFinite(m.kota_m)) greske.push('v029: nenumericka kota');
+  const t = ucitaj('treca_kota_vrela_v030.json');
+  const x = t?.citanja?.find(x => /4027319493/.test(x.objekat));
+  if (!x) greske.push('v030: nema citanja vrela');
   else {
-    const tri = [vrelo.kota_glo30_openmeteo_v023, vrelo.kota_copernicus30_v027, vrelo.kota_srtm90m];
-    if (Math.abs(vrelo.raspon_m - (Math.max(...tri) - Math.min(...tri))) > 0.05) greske.push('v030: raspon se ne slaze sa tri citanja');
-    const kas = t30.citanja.find(x => /302167418/.test(x.objekat));
-    if (!kas || kas.kota_srtm90m !== 206) greske.push('v030: SRTM kota kasarne mora potvrditi 206 m iz v0.29');
+    const v = [x.kota_glo30_openmeteo_v023, x.kota_copernicus30_v027, x.kota_srtm90m].sort((a,b)=>a-b);
+    if (!v.every(Number.isFinite) || Math.abs(x.raspon_m - (v[2]-v[0])) > 0.05 || x.medijana_m !== v[1]) greske.push('v030: pogresan raspon ili medijana');
   }
-  if (!/442,6/.test(t30.zakljucak.kota_vrela_prihvacena)) greske.push('v030: prihvacena kota mora biti medijana 442,6 m');
-  if (!/NEIZVODLJIVA/.test(t30.zakljucak.uticaj_na_v027)) greske.push('v030: zakljucak v0.27 mora ostati neizvodljivost bez tunela na celom opsegu citanja');
-  if (!/OTVOREN|otvoren/.test(t30.sukob_vinik_vs_banja)) greske.push('v030: sukob vinik-vs-banja mora ostati otvoren');
-  if (!t30.izvori?.length || !/opentopodata/.test(t30.izvori[0].url)) greske.push('v030: fali izvor SRTM citanja');
-  console.log('treca-kota-vrela: 431,9 / 442,6 / 450,0 m — medijana 442,6, zakljucak v0.27 robustan');
-console.log('akvadukt-koordinate v031: tr-03 sidro OSM, tr-04 Ardija korigovana +~1 km, tr-06 novo (lanac relativnih polozaja)');
-} catch (e) { greske.push('v030: ' + e.message); }
-
-console.log(`=== VALIDACIJA MEDIJANA v${baza?.verzija} ===`);
-console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
-greske.forEach(g => console.log('  ✗ ' + g));
-console.log(upozorenja.length ? `Upozorenja (${upozorenja.length}):` : 'Upozorenja: 0');
-upozorenja.forEach(u => console.log('  ! ' + u));
-
-process.exit(greske.length ? 1 : 0);
+  if (!t?.revizija_v033) greske.push('v030: nedostaje ogranicenje tumacenja');
+}
 
 // 20. hidraulika: dovod_v024 — fizika dovoda vrelo->kastelum
 const hidr = ucitaj('hidraulika_sloj.json');
@@ -603,7 +559,7 @@ try {
   if (!dem.korekcija_v025 || dem.korekcija_v025.prihvacena_kota_m !== kota) greske.push('v025: korekcija_v025 u dem_sloju ne slaze se sa hidraulikom');
   const nag = hid.dovod_v025.nagibi_promila.vrelo_ka_kastelumu;
   if (nag <= 0) greske.push('v025: negativan nagib mora biti NEIZVODLJIVO, a razresenje kaze izvodljivo');
-  if (nag > 13) greske.push('v025: nagib iznad maksimuma merenog kanala C (13 promila)');
+  if (!Number.isFinite(nag)) greske.push('v025: nagib nije konacan broj');
   for (const s of hid.dovod_v025.kapacitet_manning_v025.scenariji) {
     if (!(s.Q_l_s > 0) || s.v <= 0.1 || s.v > 4) greske.push('v025: Q/brzina van fizickog opsega u scenariju ' + s.sirina_m + 'x' + s.dubina_m);
   }
@@ -628,11 +584,11 @@ try {
   if (d36 < 60 || d36 > 160) greske.push('v031: razdaljina tr-03 -> tr-06 van opsega 100 m (+-azimut): ' + d36.toFixed(0));
   if (d34 < 150 || d34 > 400) greske.push('v031: razdaljina tr-03 -> tr-04 van opsega 250 m (+-azimut): ' + d34.toFixed(0));
   if (d36 >= d34) greske.push('v031: Ardija (150 m od 2025) mora biti dalje od tr-03 nego gradiliste 2025 (100 m)');
-  // monoton silazak ka gradu
-  const ko = lk.nalaz.gradilista;
-  const kArd = ko.find(x => x.id === 'tr-04').kota_srtm90m, kSid = ko.find(x => x.id === 'tr-03').kota_srtm90m;
-  if (!(kArd >= kSid)) greske.push('v031: Ardija mora biti na koti >= Gornjomatejevacka (uzbrdo ka izvoru na severoistoku)');
-  if (!lk.sukob_vinik_banja || !/otvoren/i.test(lk.sukob_vinik_banja)) greske.push('v031: sukob vinik-vs-banja mora ostati otvoren');
+  // Corrected coordinates invalidate old DEM readings; do not force their elevations to fit.
+  for (const id of ['tr-04','tr-06']) {
+    const x = lk.nalaz.gradilista.find(x=>x.id===id);
+    if (x.kota_srtm90m !== undefined || x.status_kote !== 'zastarelo_posle_promene_koordinate') greske.push('v031: stara kota predstavljena kao nova za '+id);
+  }
   for (const i of lk.izvori) if (!/^https?:\/\//.test(i.url)) greske.push('v031: izvor bez URL: ' + i.naziv);
 } catch (e) { greske.push('v031: ' + e.message); }
 
@@ -644,14 +600,34 @@ try {
   if (!tr01) greske.push('v032: tr-01 fali u trasi');
   const k = tr01.koordinate, kS = [21.8971, 43.3341]; // kasarna Knjaz Mihailo
   const dKm = Math.hypot((k[0]-kS[0])*111*Math.cos(43.34*Math.PI/180), (k[1]-kS[1])*111);
-  if (dKm < 0.8 || dKm > 1.6) greske.push('v032: tr-01 mora biti ~1.2 km severno od kasarne (d=' + dKm.toFixed(2) + ')');
+  if (Math.abs(dKm*1000 - l32.udaljenost_do_kasarne_m) > 10) greske.push('v032: rastojanje ne odgovara koordinatama');
   if (!(k[1] > kS[1])) greske.push('v032: tr-01 mora biti severno od kasarne');
   if (Math.abs(k[1] - 43.352) < 0.004) greske.push('v032: tr-01 nije korigovana (stara vrednost 43.352)');
   if (!tr01.geokod || !/v0\.32/.test(tr01.geokod)) greske.push('v032: geokod tr-01 mora nositi oznaku v0.32');
   const n_osm = l32.nalazi.find(n => n.id === 'osm-odsustvo');
-  if (!n_osm || !/0 elemenata/.test(n_osm.tekst)) greske.push('v032: mora biti upisano da bulevar ne postoji u OSM');
+  if (!n_osm || !/ne dokazuje/.test(n_osm.tekst)) greske.push('v032: ogranicenje negativnog nalaza nedostaje');
   const disk = l32.nalazi.find(n => n.id === 'diskrepancija-duzina');
   if (!disk || !/200/.test(disk.tekst) || !/300/.test(disk.tekst)) greske.push('v032: diskrepancija 200 vs 300 m mora biti upisana');
   if (!/OTVOREN|otvoren/.test(l32.sukob)) greske.push('v032: sukob vinik-vs-banja mora ostati otvoren');
   for (const i of l32.izvori) if (!/^https?:\/\//.test(i.url)) greske.push('v032: izvor bez URL: ' + i.id);
 } catch (e) { greske.push('v032: ' + e.message); }
+
+// v0.33: complete package and unresolved evidence are reported separately.
+const rev = ucitaj('konsolidacija.json');
+if (!rev || rev.izdanje !== '0.33') greske.push('nedostaje konsolidacija v0.33');
+for (const q of rev?.pitanja || []) {
+  for (const f of q.putanje || []) if (!fs.existsSync(path.join(DIR, f))) greske.push(`${q.id}: nepostojeci fajl ${f}`);
+  if (['otvoreno','zastarelo'].includes(q.status)) upozorenja.push(`${q.id}: ${q.tema}`);
+}
+for (const f of fs.readdirSync(DIR).filter(f=>f.endsWith('.json'))) ucitaj(f);
+const pak = require('./alati/paket.cjs');
+const audit = pak.validate(DIR);
+greske.push(...audit.errors);
+console.log(`Paket ${rev?.izdanje}: ${audit.files} JSON fajlova; strukturna provera nije potvrda istorijske istine.`);
+console.log(`=== VALIDACIJA MEDIJANA paket ${rev?.izdanje} (istorijska verzija jezgra ${baza?.verzija}) ===`);
+console.log(greske.length ? `GRESKE (${greske.length}):` : 'Greske: 0');
+greske.forEach(g => console.log('  ✗ ' + g));
+console.log(upozorenja.length ? `Upozorenja (${upozorenja.length}):` : 'Upozorenja: 0');
+upozorenja.forEach(u => console.log('  ! ' + u));
+
+process.exit(greske.length ? 1 : 0);

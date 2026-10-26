@@ -1,141 +1,169 @@
 {
- "version": "0.26",
- "datum": "2026-10-26",
- "sloj": "iskopani segmenti akvadukta Naisus (ZZSK Nis 2020-2025)",
- "napomena": "GEOKODIRANJE APROKSIMATIVNO — po nazivu naselja/ulice iz saopstenja ZZSK, ne po iskopnim koordinatama. Sluzi za red velicine i smer trase, ne za metarsku preciznost.",
- "izvori": [
-  {
-   "id": "zzsk-2025-gornjomatejevacka",
-   "tip": "novinski saopstenje ZZSK Nis",
-   "url": "https://gradskiportal018.rs/najnovije-otkrice-u-nisu-otkriven-rimski-akvadukt-dug-vise-od-90-metara",
-   "datum": "2025-09-15"
-  },
-  {
-   "id": "zzsk-2025-sveoarheologiji",
-   "tip": "strucni portal, saopstenje ZZSK Nis",
-   "url": "https://sveoarheologiji.com/arheolosko-otkrice-u-nisu-jos-jedan-deo-rimskog-akvadukta",
-   "datum": "2025-05-23"
-  }
- ],
- "segmenti": [
-  {
-   "id": "tr-01",
-   "lokalitet": "Pod Vinik / Pod Vinik 2",
-   "godina": 2020,
-   "napomena": "zapadni krak Somborskog bulevara, severno od Pantelejske kasarne; 2022 nastavak istrazivanja",
-   "koordinate": [
-    21.9155,
-    43.3445
-   ],
-   "geokod": "KOREKCIJA v0.32: ~1.2 km N od kasare Knjaz Mihailo, koridor Vinik grida; bulevar bez OSM geometrije, nesigurnost ~300 m",
-   "koordinate_v031_staro": [
-    21.916,
-    43.352
-   ]
-  },
-  {
-   "id": "tr-02",
-   "lokalitet": "Rimski akvadukt - Prevalac",
-   "godina": 2023,
-   "napomena": "kod Donjeg Matejevca, trasa gasovoda Nis-Dimitrovgrad",
-   "koordinate": [
-    21.9509719,
-    43.3620473
-   ],
-   "geokod": "centar Donjeg Matejevca"
-  },
-  {
-   "id": "tr-03",
-   "lokalitet": "Rimski akvadukt - Gornjomatejevacka",
-   "godina": 2024,
-   "napomena": "na kraju istoimene ulice; >90 m otkriveno 2025",
-   "koordinate": [
-    21.9291714,
-    43.3408125
-   ],
-   "geokod": "SIDRO OSM way 108165624 NE kraj (v0.31, ranije centroid istog way-a)",
-   "koordinate_v031": "tacna geometrija ulice"
-  },
-  {
-   "id": "tr-04",
-   "lokalitet": "Rimski akvadukt - Ardija",
-   "godina": 2025,
-   "napomena": "izmedju Gornjomatejevacke i zeleznickog nadvoznjaka, pruga Nis-Zajecar; ~40 m istrazeno",
-   "koordinate": [
-    21.9291714,
-    43.3424005
-   ],
-   "geokod": "KOREKCIJA v0.31: ofset 250 m NE od tr-03 po relativnim razdaljinama ZZSK (staro: centar Panteleja, ~1 km zapadnije)",
-   "korekcija_v031": "stara koordinate [21.9158347,43.340042] bila kod centra Panteleja; saopstenje: Ardija 150 m NE od gradilista 2025"
-  },
-  {
-   "id": "tr-05",
-   "lokalitet": "pretpostavljen rezervoar (terminus)",
-   "godina": null,
-   "napomena": "Kasarna Knjaz Mihailo (OSM way 302167418), kota ~206 m; korigovano u v0.29 (originalna koordinate [21.921,43.356] je padala na viniksku padinu 399 m); status: HIPOTEZA ZZSK, nedokazano",
-   "koordinate": [
-    21.8971,
-    43.3341
-   ],
-   "geokod": "APROKSIMACIJA; status: HIPOTEZA ZZSK, nedokazano",
-   "korekcija_v029": "tacan geokod preko Nominatim, gravitacioni test u pantelej_kasarna_gravitacija_v029.json"
-  },
-  {
-   "id": "tr-06",
-   "lokalitet": "Rimski akvadukt - Gornjomatejevacka (gradiliste 2025)",
-   "godina": 2025,
-   "napomena": "parcela Highland invest doo, >90 m akvadukta, sep 2025; ukupno ~300 m na celoj trasi",
-   "koordinate": [
-    21.9291714,
-    43.3414477
-   ],
-   "geokod": "ofset 100 m NE od tr-03 (v0.31, lanac relativnih polozaja)",
-   "kota_srtm90m": 248
-  }
- ],
- "hronologija": [
-  {
-   "faza": "keramicki cevovod",
-   "datiranje": "period municipiuma (pre Konstantina)",
-   "izvor": "zzsk-2025-gornjomatejevacka"
-  },
-  {
-   "faza": "zidani kanal",
-   "datiranje": "vladavina Konstantina Velikog",
-   "izvor": "zzsk-2025-sveoarheologiji"
-  },
-  {
-   "faza": "napustanje",
-   "datiranje": "sredina 5. veka — hunske najezde",
-   "izvor": "zzsk-2025-sveoarheologiji"
-  }
- ],
- "obilje_iskopano_m": 300,
- "smer_trase": "svi iskopani segmenti leze SEVERNO i SEVEROZAPADNO od grada (Pantelej, Donji Matejevac, Vinik) — trasa dolazi sa strane ViniKA/Kamenice, NE iz Niske Banje",
- "hipoteza_izvor_zzsk": {
-  "vrelo": "Sreckovo vrelo",
-  "lokacija": "iznad sela Kamenica, obronci Vinika",
-  "osm_node": "4027319493",
-  "koordinate": [
-   21.94579,
-   43.38523
+  "version": "0.26",
+  "datum": "2026-10-26",
+  "sloj": "iskopani segmenti akvadukta Naisus (ZZSK Nis 2020-2025)",
+  "napomena": "GEOKODIRANJE APROKSIMATIVNO — po nazivu naselja/ulice iz saopstenja ZZSK, ne po iskopnim koordinatama. Sluzi za red velicine i smer trase, ne za metarsku preciznost.",
+  "izvori": [
+    {
+      "id": "zzsk-2025-gornjomatejevacka",
+      "tip": "novinski saopstenje ZZSK Nis",
+      "url": "https://gradskiportal018.rs/najnovije-otkrice-u-nisu-otkriven-rimski-akvadukt-dug-vise-od-90-metara",
+      "datum": "2025-09-15"
+    },
+    {
+      "id": "zzsk-2025-sveoarheologiji",
+      "tip": "strucni portal, saopstenje ZZSK Nis",
+      "url": "https://sveoarheologiji.com/arheolosko-otkrice-u-nisu-jos-jedan-deo-rimskog-akvadukta",
+      "datum": "2025-05-23"
+    }
   ],
-  "kota_glo30_m": 431.9,
-  "status": "HIPOTEZA ZZSK — izvor jos uvek nije sigurno utvrdjen (citat: njegovo izvorsrte jos uvek nije sa sigurnoscu utvrdjeno)"
- },
- "sukob_sa_medijanskom_granom": {
-  "id": "sukob-vinik-vs-banja",
-  "status": "otvoren",
-  "strana_a": "Jeremic 1988/2017: medijanski akvadukt ide iz Niske Banje (kanal A-D, castellum aquae na Medijani)",
-  "strana_b": "ZZSK 2020-2025: glavni pravac vodosnabdevanja Naisusa ide sa Vinika (Sreckovo vrelo) preko Panteleja — iskopana trasa lezi severno od grada",
-  "resenje": "moguca DVA sistema: gradski (Vinik) i medijanski (Banja) — ili jedan sistem sa granom. Odlucuje samo nalaz spoja/ustave. Nasa kandidat-vrelo v023 (node 4115176757 kod Banje, 1.71 km, pad 0.83%) ostaje validna SAMO za medijansku granu.",
-  "mere": {
-   "tr-01": 6.11,
-   "tr-02": 2.61,
-   "tr-03": 5.2,
-   "tr-04": 5.58
+  "segmenti": [
+    {
+      "id": "tr-01",
+      "lokalitet": "Pod Vinik / Pod Vinik 2",
+      "godina": 2020,
+      "napomena": "zapadni krak Somborskog bulevara, severno od Pantelejske kasarne; 2022 nastavak istrazivanja",
+      "koordinate": [
+        21.9155,
+        43.3445
+      ],
+      "geokod": "v0.32 hipoteza koridora zadrzana; v0.33: oko 1,88 km NE od kasarne, ne 1,2 km. Nesigurnost 300 m nije izmerena.",
+      "koordinate_v031_staro": [
+        21.916,
+        43.352
+      ],
+      "status_polozaja": "priblizno_nepotvrdjen_iskop",
+      "za_preciznu_rekonstrukciju": false,
+      "udaljenost_do_kasarne_m": 1884.6
+    },
+    {
+      "id": "tr-02",
+      "lokalitet": "Rimski akvadukt - Prevalac",
+      "godina": 2023,
+      "napomena": "kod Donjeg Matejevca, trasa gasovoda Nis-Dimitrovgrad",
+      "koordinate": [
+        21.9509719,
+        43.3620473
+      ],
+      "geokod": "centar Donjeg Matejevca",
+      "status_polozaja": "priblizno_nepotvrdjen_iskop",
+      "za_preciznu_rekonstrukciju": false
+    },
+    {
+      "id": "tr-03",
+      "lokalitet": "Rimski akvadukt - Gornjomatejevacka",
+      "godina": 2024,
+      "napomena": "na kraju istoimene ulice; >90 m otkriveno 2025",
+      "koordinate": [
+        21.9291714,
+        43.3408125
+      ],
+      "geokod": "SIDRO OSM way 108165624 NE kraj (v0.31, ranije centroid istog way-a)",
+      "koordinate_v031": "tacna geometrija ulice",
+      "status_polozaja": "priblizno_nepotvrdjen_iskop",
+      "za_preciznu_rekonstrukciju": false
+    },
+    {
+      "id": "tr-04",
+      "lokalitet": "Rimski akvadukt - Ardija",
+      "godina": 2025,
+      "napomena": "izmedju Gornjomatejevacke i zeleznickog nadvoznjaka, pruga Nis-Zajecar; ~40 m istrazeno",
+      "koordinate": [
+        21.93135738,
+        43.34240227
+      ],
+      "geokod": "KOREKCIJA v0.31: ofset 250 m NE od tr-03 po relativnim razdaljinama ZZSK (staro: centar Panteleja, ~1 km zapadnije)",
+      "korekcija_v031": "stara koordinate [21.9158347,43.340042] bila kod centra Panteleja; saopstenje: Ardija 150 m NE od gradilista 2025",
+      "koordinate_pre_v033": [
+        21.9291714,
+        43.3424005
+      ],
+      "status_polozaja": "izvedena_hipoteza",
+      "azimut_pretpostavljen_deg": 45,
+      "udaljenost_od_sidra_m": 250,
+      "za_preciznu_rekonstrukciju": false
+    },
+    {
+      "id": "tr-05",
+      "lokalitet": "pretpostavljen rezervoar (terminus)",
+      "godina": null,
+      "napomena": "Kasarna Knjaz Mihailo (OSM way 302167418), kota ~206 m; korigovano u v0.29 (originalna koordinate [21.921,43.356] je padala na viniksku padinu 399 m); status: HIPOTEZA ZZSK, nedokazano",
+      "koordinate": [
+        21.8971,
+        43.3341
+      ],
+      "geokod": "APROKSIMACIJA; status: HIPOTEZA ZZSK, nedokazano",
+      "korekcija_v029": "tacan geokod preko Nominatim, gravitacioni test u pantelej_kasarna_gravitacija_v029.json",
+      "status_polozaja": "hipoteza_terminusa",
+      "za_preciznu_rekonstrukciju": false
+    },
+    {
+      "id": "tr-06",
+      "lokalitet": "Rimski akvadukt - Gornjomatejevacka (gradiliste 2025)",
+      "godina": 2025,
+      "napomena": "parcela Highland invest doo, >90 m akvadukta, sep 2025; ukupno ~300 m na celoj trasi",
+      "koordinate": [
+        21.93004578,
+        43.34144841
+      ],
+      "geokod": "ofset 100 m NE od tr-03 (v0.31, lanac relativnih polozaja)",
+      "koordinate_pre_v033": [
+        21.9291714,
+        43.3414477
+      ],
+      "status_polozaja": "izvedena_hipoteza",
+      "azimut_pretpostavljen_deg": 45,
+      "udaljenost_od_sidra_m": 100,
+      "kota_stare_tacke_srtm90m": 248,
+      "status_kote": "zastarelo_posle_promene_koordinate",
+      "za_preciznu_rekonstrukciju": false
+    }
+  ],
+  "hronologija": [
+    {
+      "faza": "keramicki cevovod",
+      "datiranje": "period municipiuma (pre Konstantina)",
+      "izvor": "zzsk-2025-gornjomatejevacka"
+    },
+    {
+      "faza": "zidani kanal",
+      "datiranje": "vladavina Konstantina Velikog",
+      "izvor": "zzsk-2025-sveoarheologiji"
+    },
+    {
+      "faza": "napustanje",
+      "datiranje": "sredina 5. veka — hunske najezde",
+      "izvor": "zzsk-2025-sveoarheologiji"
+    }
+  ],
+  "obilje_iskopano_m": 300,
+  "smer_trase": "svi iskopani segmenti leze SEVERNO i SEVEROZAPADNO od grada (Pantelej, Donji Matejevac, Vinik) — trasa dolazi sa strane ViniKA/Kamenice, NE iz Niske Banje",
+  "hipoteza_izvor_zzsk": {
+    "vrelo": "Sreckovo vrelo",
+    "lokacija": "iznad sela Kamenica, obronci Vinika",
+    "osm_node": "4027319493",
+    "koordinate": [
+      21.94579,
+      43.38523
+    ],
+    "kota_glo30_m": 431.9,
+    "status": "HIPOTEZA ZZSK — izvor jos uvek nije sigurno utvrdjen (citat: njegovo izvorsrte jos uvek nije sa sigurnoscu utvrdjeno)"
   },
-  "mere_jedn": "km od Sreckovog vrela do segmenta (kratka linija)"
- },
- "geokodiranje_v031": "tr-03 sidro OSM geometrija; tr-04 korigovan; tr-06 novi; vidi akvadukt_koordinate_v031.json"
+  "sukob_sa_medijanskom_granom": {
+    "id": "sukob-vinik-vs-banja",
+    "status": "razdvojeni_sistemi_veza_neutvrdjena",
+    "strana_a": "Jeremic 1988/2017: medijanski akvadukt ide iz Niske Banje (kanal A-D, castellum aquae na Medijani)",
+    "strana_b": "ZZSK 2020-2025: glavni pravac vodosnabdevanja Naisusa ide sa Vinika (Sreckovo vrelo) preko Panteleja — iskopana trasa lezi severno od grada",
+    "resenje": "Voditi gradski i medijanski sistem odvojeno. Razliciti smerovi nisu logicka protivrečnost. Kandidat node 4115176757 nije identifikovana anticka kaptaza.",
+    "mere": {
+      "tr-01": 5.149,
+      "tr-02": 2.612,
+      "tr-03": 5.118,
+      "tr-04": 4.903,
+      "tr-05": 6.915,
+      "tr-06": 5.032
+    },
+    "mere_jedn": "km od Sreckovog vrela do segmenta (kratka linija)"
+  },
+  "geokodiranje_v031": "tr-03 sidro OSM geometrija; tr-04 korigovan; tr-06 novi; vidi akvadukt_koordinate_v031.json"
 }

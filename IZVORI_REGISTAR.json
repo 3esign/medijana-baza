@@ -1,0 +1,1855 @@
+{
+  "napomena": "Jedinstveni URL zapisi sa mestom pojavljivanja. Broj URL-ova nije broj nezavisnih izvora; dostupnost i bibliografska ispravnost nisu ovde proverene.",
+  "izvori": [
+    {
+      "url": "http://mapy.amzp.pl",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/9/url"
+        }
+      ]
+    },
+    {
+      "url": "http://rai.ai.ac.rs/bitstream/id/4423/bitstream_4423.pdf",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/7/izvor"
+        }
+      ]
+    },
+    {
+      "url": "http://rai.ai.ac.rs/bitstream/id/92/207.pdf)",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/12/izvor"
+        }
+      ]
+    },
+    {
+      "url": "http://www.fastionline.org",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/24/url"
+        }
+      ]
+    },
+    {
+      "url": "http://www.ubnt.ni.ac.rs/images/pdf/nisivizantija/Nis%20i%20Vizantija%20-%2004_2005/10_Jeremic_Gordana.pdf",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/0/izvor"
+        }
+      ]
+    },
+    {
+      "url": "https://api.opentopodata.org/v1/srtm90m?locations=43.3408,21.9292",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "akvadukt_koordinate_v031.json",
+          "polje": "/izvori/3/url"
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/search?query=R%C3%B6mische+Funde+in+Serbien",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/5/url"
+        }
+      ]
+    },
+    {
+      "url": "https://bibliografije.nb.rs/bibliografija/tekuca/clanci/serijaA/y2007/zapisi027.html",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/19/url"
+        }
+      ]
+    },
+    {
+      "url": "https://browser.dataspace.copernicus.eu",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/13/url"
+        }
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/index.php?search=Kanitz+Mediana",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/6/url"
+        }
+      ]
+    },
+    {
+      "url": "https://data.gov.rs",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/16/url"
+        }
+      ]
+    },
+    {
+      "url": "https://data.onb.ac.at/akon",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/8/url"
+        }
+      ]
+    },
+    {
+      "url": "https://db.edcs.eu/epigr/epi.php?s_sprache=en&p_ort=Mediana",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "epigrafski_sloj.json",
+          "polje": "/korpusne_veze/EDCS/url_obrazac"
+        }
+      ]
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Villa_Romana_del_Casale",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/korpus_v016/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/korpus_v016/mere/4/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/korpus_v016/mere/5/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/korpus_v016/mere/6/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2298/STA1161275M",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/3/url"
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2298/STA1666081G",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "hidraulika_sloj.json",
+          "polje": "/kratki_izvori/stibadiumB2016"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/3/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/10/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://doiserbia.nb.rs/",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/0/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/1/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/3/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/4/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/5/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/6/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/7/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/8/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/9/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/10/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/11/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/12/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/13/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/14/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/15/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/16/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/17/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/18/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://doiserbia.nb.rs/ft.aspx?id=0350-02411161275M",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/15/url"
+        }
+      ]
+    },
+    {
+      "url": "https://doiserbia.nb.rs/ft.aspx?id=0350-02411666081G",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/11/url"
+        }
+      ]
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/11/url"
+        },
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/18/url"
+        }
+      ]
+    },
+    {
+      "url": "https://edh-www.adw.uni-heidelberg.de/data/api/search?find_location=Naissus",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "epigrafski_sloj.json",
+          "polje": "/korpusne_veze/EDH/url_obrazac"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Arch_of_Galerius",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/8/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/9/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/10/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/11/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/12/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/14/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/15/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/8"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/9"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/10"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/11"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/12"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/14"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/15"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Aula_Palatina",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/6/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/6/izvor/0"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Basilica_of_Maxentius",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/10/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/10/mere/1/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/10/mere/2/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/10/mere/3/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/10/izvor/0"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/10/izvor/1"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/10/izvor/2"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/10/izvor/3"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/9/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/9/mere/1/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/9/mere/2/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/9/mere/3/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/9/izvor/0"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/9/izvor/1"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/9/izvor/2"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/9/izvor/3"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gamzigrad",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/0/izvor/1"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/0/korpus_v016/mere/1/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mediana",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/0/url"
+        },
+        {
+          "fajl": "hidraulika_sloj.json",
+          "polje": "/kratki_izvori/wiki_en"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/5/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/11/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/17/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicomedia",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/7/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/7/izvor/0"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sirmium",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/4/mere/1/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/4/izvor/1"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stobi",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/komparativni_korpus/stavke/4/izvori/0"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Villa_Armira",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/8/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/8/izvor/0"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Villa_Romana_del_Casale",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/izvor/0"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/korpus_v016/mere/1/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://files.catbox.moe/0j6r0o.pdf",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/16/url"
+        }
+      ]
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Villa_romaine_du_Casale",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/korpus_v016/mere/3/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://geoportal.rgz.gov.rs",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/23/url"
+        }
+      ]
+    },
+    {
+      "url": "https://geoportal.rs",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/10/url"
+        }
+      ]
+    },
+    {
+      "url": "https://geosrbija.rs",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/16/url"
+        }
+      ]
+    },
+    {
+      "url": "https://gradskiportal018.rs/najnovije-otkrice-u-nisu-otkriven-rimski-akvadukt-dug-vise-od-90-metara",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "akvadukt_trasa_v026.json",
+          "polje": "/izvori/0/url"
+        }
+      ]
+    },
+    {
+      "url": "https://helenmilesmosaics.org/ancient-mosaics/heraclea-lyncestis-mosaics/",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/komparativni_korpus/stavke/0/izvori/1"
+        }
+      ]
+    },
+    {
+      "url": "https://helenmilesmosaics.org/blog/stobi-mosaics",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/komparativni_korpus/stavke/4/izvori/1"
+        }
+      ]
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Villa_romana_del_Casale",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/korpus_v016/mere/2/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://land.copernicus.eu/imagery-in-situ/eu-dem",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/20/url"
+        }
+      ]
+    },
+    {
+      "url": "https://laststatues.classics.ox.ac.uk/database/record.php?rec=NNNN",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "epigrafski_sloj.json",
+          "polje": "/korpusne_veze/LSA/url_obrazac"
+        }
+      ]
+    },
+    {
+      "url": "https://mapire.eu",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/7/url"
+        }
+      ]
+    },
+    {
+      "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "podvinik_bulevar_v032.json",
+          "polje": "/izvori/1/url"
+        }
+      ]
+    },
+    {
+      "url": "https://muzejbitola.mk/en/mosaic-nartex",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/komparativni_korpus/stavke/0/izvori/0"
+        }
+      ]
+    },
+    {
+      "url": "https://nasledje.gov.rs",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/22/url"
+        }
+      ]
+    },
+    {
+      "url": "https://nasledje.gov.rs/index.cfm/spomenici/pregled_spomenika?spomenik_id=109383",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/5/url"
+        }
+      ]
+    },
+    {
+      "url": "https://nistv.rs/izmene-autobuskih-trasa-na-panteleju-somborski-bulevar-i-knjazevacka-pod-posebnim-rezimom",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "podvinik_bulevar_v032.json",
+          "polje": "/izvori/2/url"
+        }
+      ]
+    },
+    {
+      "url": "https://pleiades.stoa.org",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/25/url"
+        }
+      ]
+    },
+    {
+      "url": "https://rai.ai.ac.rs",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/20/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://rai.ai.ac.rs/bitstream/id/2194/ROMAN_LIMES_AND_CITIES_ON_THE_TERRITORY.pdf",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/2/url"
+        },
+        {
+          "fajl": "hidraulika_sloj.json",
+          "polje": "/kratki_izvori/poplazic2018"
+        },
+        {
+          "fajl": "vodeni_linijski_sloj.json",
+          "polje": "/primarni_izvor/url"
+        }
+      ]
+    },
+    {
+      "url": "https://rai.ai.ac.rs/handle/123456789/1539",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/12/url"
+        },
+        {
+          "fajl": "hidraulika_sloj.json",
+          "polje": "/kratki_izvori/monografija2011"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/2/izvor_url"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/19/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://rai.ai.ac.rs/handle/123456789/1555",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/14/url"
+        },
+        {
+          "fajl": "skulpturski_program.json",
+          "polje": "/izvor_glavni/url"
+        }
+      ]
+    },
+    {
+      "url": "https://rai.ai.ac.rs/handle/123456789/210",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/13/url"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/12/izvor"
+        },
+        {
+          "fajl": "sonde_sloj.json",
+          "polje": "/izvor_glavni/url"
+        }
+      ]
+    },
+    {
+      "url": "https://reff.f.bg.ac.rs/bitstream/handle/123456789/4550/gsad-2022-38-3.pdf",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vodosnabdevanje_naisusa_v028.json",
+          "polje": "/izvor/primarni/url_pdf"
+        }
+      ]
+    },
+    {
+      "url": "https://reff.f.bg.ac.rs/handle/123456789/4550",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vodosnabdevanje_naisusa_v028.json",
+          "polje": "/izvor/primarni/url_rad"
+        }
+      ]
+    },
+    {
+      "url": "https://sights.seindal.dk/italy/sicily/piazza-armerina/villa-romana-del-casale/peristyle",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/8/url"
+        }
+      ]
+    },
+    {
+      "url": "https://spacedata.copernicus.eu",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/17/url"
+        }
+      ]
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D1%83%D0%BC",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/11/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/11/mere/1/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/11/mere/2/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/11/izvor/0"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/11/izvor/1"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/11/izvor/2"
+        }
+      ]
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/%D0%93%D0%B0%D0%BC%D0%B7%D0%B8%D0%B3%D1%80%D0%B0%D0%B4",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/0/korpus_v016/mere/0/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%B8%D1%80%D0%BC%D0%B8%D1%98%D1%83%D0%BC",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/4/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/4/mere/2/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/4/izvor/0"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/4/izvor/2"
+        }
+      ]
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BC%D0%B0%D0%BA%D1%83%D0%BC_%D0%9C%D0%B8%D0%BD%D1%83%D1%81",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/12/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/12/mere/1/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/12/izvor/0"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/12/izvor/1"
+        }
+      ]
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%D0%A8%D0%B0%D1%80%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/3/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/3/izvor/0"
+        }
+      ]
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/Medijana_(Ni%C5%A1)",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "hidraulika_sloj.json",
+          "polje": "/kratki_izvori/wiki_sr"
+        },
+        {
+          "fajl": "numizmaticki_sloj.json",
+          "polje": "/novac/15/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/Medijana_(Niš)",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/1/url"
+        }
+      ]
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/Медијана",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/0/izvor"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/1/izvor"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/4/izvor"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/5/izvor"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/6/izvor"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/7/izvor"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/8/izvor"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/9/izvor"
+        },
+        {
+          "fajl": "objekti_cd_sloj.json",
+          "polje": "/mere/11/izvor"
+        }
+      ]
+    },
+    {
+      "url": "https://sveoarheologiji.com/arheolosko-otkrice-u-nisu-jos-jedan-deo-rimskog-akvadukta",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "akvadukt_trasa_v026.json",
+          "polje": "/izvori/1/url"
+        },
+        {
+          "fajl": "podvinik_bulevar_v032.json",
+          "polje": "/izvori/0/url"
+        }
+      ]
+    },
+    {
+      "url": "https://sveoarheologiji.com/arheolozi-otkrili-naselje-pored-carske-palate-feliks-romulijane/",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/0/korpus_v016/mere/3/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/0/korpus_v016/mere/4/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://sveoarheologiji.com/otkrice-u-nisu-ostaci-rimskog-akvadukta",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "akvadukt_koordinate_v031.json",
+          "polje": "/izvori/1/url"
+        }
+      ]
+    },
+    {
+      "url": "https://sveoarheologiji.com/sarkamen-skriveni-dragulj-na-istoku-srbije",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/3/mere/1/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/3/mere/2/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/3/izvor/1"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/3/izvor/2"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Medijana2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/7/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Medijana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/5/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Villa_at_Mediana_%28XVII%29_%287369178822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/35/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/The_Nymphaeum_at_Mediana_%28VII%29_%287183950215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/16/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Villa_at_Mediana_%28XII%29_%287369177376%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/28/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Villa_at_Mediana_%28XVIII%29_%287369179072%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/36/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/The_Villa_at_Mediana_%28XXIII%29_%287183948853%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/40/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_Villa_at_Mediana_%28IV%29_%287369181554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/20/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_Villa_at_Mediana_%28XXIV%29_%287369180496%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/41/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/The_Villa_at_Mediana_%28XIV%29_%287183949113%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/31/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/The_Nymphaeum_at_Mediana_%28VI%29_%287369183998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/15/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/The_Villa_at_Mediana_%28VI%29_%287369182006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/23/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Nymphaeum_at_Mediana_%28I%29_%287369183228%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/10/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Villa_at_Mediana_%28II%29_%287183945525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/18/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/The_Nymphaeum_at_Mediana_%28V%29_%287183949925%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/14/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/The_Villa_at_Mediana_%28XIII%29_%287183943799%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/29/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/The_Nymphaeum_at_Mediana_%28IV%29_%287183949769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/13/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/The_Villa_at_Mediana_%28IX%29_%287183948685%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/21/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Mozaik_iz_vile_sa_Konhama%2C_Medijana%2C_Ni%C5%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/8/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Villa_at_Mediana_%28XV%29_%287369178362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/33/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Villa_at_Mediana_%28XXV%29_%287183946507%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/42/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/The_Villa_at_Mediana_%28V%29_%287183947863%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/22/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/The_Nymphaeum_at_Mediana_%28III%29_%287369183572%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/12/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/The_Villa_at_Mediana_%28XXVI%29_%287183946239%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/43/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/The_Villa_at_Mediana_%28XXII%29_%287369181086%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/39/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Medijana_-_Sala_za_gozbe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/3/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mediana%2C_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/1/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_Villa_at_Mediana_%28XXI%29_%287369180792%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/38/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/The_Villa_at_Mediana_%28I%29_%287183942423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/17/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/The_Villa_at_Mediana_%28X%29_%287369176660%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/26/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Nymphaeum_at_Mediana_%28II%29_%287183949517%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/11/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Mediana_in_Ni%C5%A1%2C_walls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/0/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/The_Villa_at_Mediana_%28XXVII%29_%287369179830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/44/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/The_Villa_at_Mediana_%28VIII%29_%287183948533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/25/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/The_Villa_at_Mediana_%28XVI%29_%287369178606%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/34/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Medijana1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/6/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/The_Villa_at_Mediana_%28XIX%29_%287183945323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/32/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Mediana%2C_Nis%2C_walls_in_the_ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/2/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Villa_at_Mediana_%28XX%29_%287183946793%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/37/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/The_Villa_at_Mediana_%28VII%29_%287183948351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/24/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Nis%2C_vila_oktogonalnog_oblika.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/9/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Medijana_mozaik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/4/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/The_Villa_at_Mediana_%28XI%29_%287369177212%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/27/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/The_Villa_at_Mediana_%28XIV%29_%287183943951%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/30/url"
+        }
+      ]
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/The_Villa_at_Mediana_%28III%29_%287369181292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "vizuelni_sloj.json",
+          "polje": "/slike/19/url"
+        }
+      ]
+    },
+    {
+      "url": "https://viminacium.org.rs",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/17/url"
+        },
+        {
+          "fajl": "hidraulika_sloj.json",
+          "polje": "/primarni_izvor/url"
+        }
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1024",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/7/url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/1/izvor/1"
+        }
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1253",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/6/url"
+        },
+        {
+          "fajl": "hidraulika_sloj.json",
+          "polje": "/kratki_izvori/unesco_romuliana"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/0/izvor/0"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/0/korpus_v016/mere/2/izvor_url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academia.edu/37672696/Representation_of_Medusa_on_a_mosaic_floor_in_Mediana",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/meduza_2017/izvor/academia"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academia.edu/43882278/",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/komparativni_korpus/stavke/0/izvori/3"
+        }
+      ]
+    },
+    {
+      "url": "https://www.artnews.com/art-news/news/ancient-mosaics-of-medusa-discovered-in-roman-villa-1234663310/",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/komparativni_korpus/stavke/1/izvori/0"
+        }
+      ]
+    },
+    {
+      "url": "https://www.eorc.jaxa.jp/ALOS/en/aw3d30/",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/19/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.geosrbija.rs",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/10/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.getty.edu/art/collection/object/103SQK",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/komparativni_korpus/stavke/2/izvori/0"
+        }
+      ]
+    },
+    {
+      "url": "https://www.google.com/earth/versions/",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/15/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence-airbusds.com",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/14/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.joycerain.com/uploads/2/3/2/0/23207256/05_ante_portam_auream_2017_representation_of_medusa_on_a_mosaic_floor.pdf",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/meduza_2017/izvor/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jpost.com/archaeology/article-738757",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "mozaici_sloj.json",
+          "polje": "/komparativni_korpus/stavke/1/izvori/1"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nisandbyzantium.org.rs/doc/zbornik4/PDF-IV/Gordana",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/18/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.openstreetmap.org",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/0/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.openstreetmap.org/way/108165624",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "akvadukt_koordinate_v031.json",
+          "polje": "/izvori/2/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.openstreetmap.org/way/296184228",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/4/url"
+        },
+        {
+          "fajl": "hidraulika_sloj.json",
+          "polje": "/kratki_izvori/osm"
+        }
+      ]
+    },
+    {
+      "url": "https://www.opentopodata.org",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/21/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.thebyzantinelegacy.com/galerius-palace",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/0/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/1/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/2/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/3/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/4/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/5/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/6/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/7/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/mere/13/izvor_url"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/0"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/1"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/2"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/3"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/4"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/5"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/6"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/7"
+        },
+        {
+          "fajl": "komparativni_lokaliteti.json",
+          "polje": "/lokaliteti/5/izvor/13"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q960839",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "baza_podataka.json",
+          "polje": "/izvori/3/url"
+        },
+        {
+          "fajl": "gis_izvori_sloj.json",
+          "polje": "/izvori/1/url"
+        }
+      ]
+    },
+    {
+      "url": "https://www.zzsknis.rs/zai-rimski-akvadukt-gornjomatejevacka.php",
+      "status": "zabelezen_u_bazi_nije_ponovo_otvoren",
+      "pojavljivanja": [
+        {
+          "fajl": "akvadukt_koordinate_v031.json",
+          "polje": "/izvori/0/url"
+        },
+        {
+          "fajl": "vodosnabdevanje_naisusa_v028.json",
+          "polje": "/izvor/sekundarni/zzsk_sajt/url"
+        },
+        {
+          "fajl": "vodosnabdevanje_naisusa_v028.json",
+          "polje": "/zzsk_2025_dopuna/url"
+        }
+      ]
+    }
+  ]
+}

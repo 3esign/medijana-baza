@@ -1,548 +1,554 @@
 {
- "svrha": "Katalog mozaickih podova Medijane iz monografije 'Constantine's Villa at Mediana' (Vasic/Milosevic/Gavrilovic Vitas/Crnoglavac, Narodni muzej Nis) — svaki mozaik vezan na prostorni stub ili sobu; ulaz za 3D podni sloj i kalibraciju ukupne povrsine",
- "verzija": "0.31",
- "datum": "2026-10-26",
- "autor": "Svemir (za dr Poturka Semira)",
- "izvor_glavni": {
-  "id": "monografija-vila-2011",
-  "rad": "Constantine's Villa at Mediana — research of the imperial palace and late antique villas, Mediana 2001-2011",
-  "autori": "Miloje Vasic, Gordana Milosevic, Nadezda Gavrilovic Vitas, Maja Crnoglavac",
-  "izdavac": "Narodni muzej Nis",
-  "tekst": "pdf/milosevic_vila.txt",
-  "napomena": "dvojezicno izdanje; srpski deo u PDF ekstrakciji ostecen (glifovi), engleski deo citljiv — svi unosi ispod iz engleskog teksta; dekodirane cifre oznacene posebno"
- },
- "kalibracija_dekodiranja": {
-  "opis": "U PDF ekstrakciji neke cifre su zamenjene glifovima. Kalibrisano po bezbedno citljivim datumima: s=1, {=9, y=7, w=8, v=6, t=4 (npr. 's{yt-s{yv' = 1974-1976, 's{yw-s{yy' = 1978-1979). Ista mapa primenjena i na povrsine — ti unosi nose poverenje 'srednje' dok se ne provere u stampanom izdanju.",
-  "primena": "aula centralni deo 'tyr' procitano kao 47; stibadium A ukupno 'vw' procitano kao 68"
- },
- "zbirna_provera": {
-  "monografija_tvrdnja": "ukupno oko 1.000 m2 podova bilo presvuceno mozaikom (kamen, keramika i staklene tesere), tehnike opus tessellatum i opus segmentatum",
-  "zbir_pojedinacnih_m2": 780.9,
-  "napomena": "zbir popisanih pojedinacnih 780,9 m2 (bez apside aule, bez termi cija je povrsina nečitljiva u ekstrakciji, bez vila sa oktogonom i konhama) — u saglasnosti sa 'oko 1.000 m2' monografije i sa 945 m2 srpske Vikipedije; konflikt 945 vs 1000 se resava: to je ista velicina citirana razlicitim zaokruzenjem",
-  "poverenje": "srednje-visoko"
- },
- "mozaici": [
-  {
-   "id": "moz-01",
-   "broj_u_katalogu": 1,
-   "prostor": "peristil — zapadni, severozapadni i jugozapadni deo",
-   "veza_na_stub": "vila-peristil",
-   "povrsina_m2": 238,
-   "tehnika": "opus tessellatum, kamene tesere",
-   "boje": "crna, bela, crvena, rozna, siva",
-   "kompozicija": "mreza manjih osmouglova povezanih pravougaonicima, unutra cetiri sestoougla i kvadrat po sredini",
-   "motivi": "unutar osmougla raznovrsni motivi (spisak delimicno ostecen u ekstrakciji); spoljasnji okvir beo, unutrasnji: tanak red malih sivih tesera, sira bela traka, ponovljeni red malih sivih tesera",
-   "o_cuvanost": "sacuvan, deo in situ",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
+  "svrha": "Katalog mozaickih podova Medijane iz monografije 'Constantine's Villa at Mediana' (Vasic/Milosevic/Gavrilovic Vitas/Crnoglavac, Narodni muzej Nis) — svaki mozaik vezan na prostorni stub ili sobu; ulaz za 3D podni sloj i kalibraciju ukupne povrsine",
+  "verzija": "0.31",
+  "datum": "2026-10-26",
+  "autor": "Svemir (za dr Poturka Semira)",
+  "izvor_glavni": {
+    "id": "monografija-vila-2011",
+    "rad": "Constantine's Villa at Mediana — research of the imperial palace and late antique villas, Mediana 2001-2011",
+    "autori": "Miloje Vasic, Gordana Milosevic, Nadezda Gavrilovic Vitas, Maja Crnoglavac",
+    "izdavac": "Narodni muzej Nis",
+    "tekst": "pdf/milosevic_vila.txt",
+    "napomena": "dvojezicno izdanje; srpski deo u PDF ekstrakciji ostecen (glifovi), engleski deo citljiv — svi unosi ispod iz engleskog teksta; dekodirane cifre oznacene posebno"
   },
-  {
-   "id": "moz-02",
-   "broj_u_katalogu": 2,
-   "prostor": "peristil — zapadna strana severnog dela",
-   "veza_na_stub": "vila-peristil",
-   "povrsina_m2": 18.4,
-   "tehnika": "opus tessellatum, kamene tesere",
-   "boje": "bela, crvena, siva",
-   "kompozicija": "mreza kvadrata i latinskih krstova ciji se poprecni kraci spajaju sestoouglima",
-   "motivi": "u kvadratima: cvet od cetiri lista (kvatrefoil), sestolist, svastika, ukrstena vretena, Solomonski cvor; okvir sa motivom meandra",
-   "o_cuvanost": "nastavak mozaika 1",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
+  "kalibracija_dekodiranja": {
+    "opis": "U PDF ekstrakciji neke cifre su zamenjene glifovima. Kalibrisano po bezbedno citljivim datumima: s=1, {=9, y=7, w=8, v=6, t=4 (npr. 's{yt-s{yv' = 1974-1976, 's{yw-s{yy' = 1978-1979). Ista mapa primenjena i na povrsine — ti unosi nose poverenje 'srednje' dok se ne provere u stampanom izdanju.",
+    "primena": "aula centralni deo 'tyr' procitano kao 47; stibadium A ukupno 'vw' procitano kao 68"
   },
-  {
-   "id": "moz-03",
-   "broj_u_katalogu": 3,
-   "prostor": "podijum ulaza u salu za prijem (aulu), severni deo peristila",
-   "veza_na_prostoriju": "aula-triklinijum",
-   "veza_na_stub": "vila-peristil",
-   "povrsina_m2": 5,
-   "tehnika": "kamene i staklene tesere",
-   "boje": "bela, crna, crvena, siva, braon, oker, zuta",
-   "figuralni_program": {
-    "scena": "mitoloska: recni bog i Leda sa labudom",
-    "detalji": "recni bog u lezecem polusedecem stavu, venac od sabljastih listova na glavi, u levoj ruci trska; Leda sa labudom (Zevs) u donjem levom uglu, najverovatnije u trenutku pripreme za kupanje u reci Eurot; sredisnji deo jako ostecen — moguce da je nosio glavnu figuru",
-    "znacaj": "prvi figuralni mozaik sa imenovanom ikonografijom u bazi — ranije je ikonografija figuralnih mozaika bila otvorena rupa"
-   },
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
+  "zbirna_provera": {
+    "monografija_tvrdnja": "ukupno oko 1.000 m2 podova bilo presvuceno mozaikom (kamen, keramika i staklene tesere), tehnike opus tessellatum i opus segmentatum",
+    "zbir_pojedinacnih_m2": 780.9,
+    "napomena": "zbir popisanih pojedinacnih 780,9 m2 (bez apside aule, bez termi cija je povrsina nečitljiva u ekstrakciji, bez vila sa oktogonom i konhama) — u saglasnosti sa 'oko 1.000 m2' monografije i sa 945 m2 srpske Vikipedije; konflikt 945 vs 1000 se resava: to je ista velicina citirana razlicitim zaokruzenjem",
+    "poverenje": "srednje-visoko"
   },
-  {
-   "id": "moz-04",
-   "broj_u_katalogu": 4,
-   "prostor": "peristil — istocna strana severnog dela",
-   "veza_na_stub": "vila-peristil",
-   "povrsina_m2": 38,
-   "tehnika": "opus tessellatum, kamene tesere",
-   "boje": "bela, crna, crvena, oker",
-   "kompozicija": "mreza kvadrata i cetvorokrakih zvezda (romboidnih); romboidni kraci sa cetiri koncentricna okvira",
-   "motivi": "u kvadratima Solomonski cvor, svastika, sahovnica, kvatrefoil; u centru romboida krug sa nazubljenim kvadratom, lozange i udubljeni osmouglovi; spoljasnji okvir sa motivom loze na juznoj strani",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-05",
-   "broj_u_katalogu": 5,
-   "prostor": "peristil — severna strana istocnog dela",
-   "veza_na_stub": "vila-peristil",
-   "povrsina_m2": 2.5,
-   "tehnika": "kamene tesere",
-   "boje": "bela, crna, crvena, oker",
-   "kompozicija": "niz medusobno isprepletanih osmouglova (svaki od cetiri sestoougla i kvadrata u sredini)",
-   "motivi": "naizmenicno svastika i pešani sat (klepsidra) u kvadratima, nazubljeni kvadrat u sestoouglu",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-06",
-   "broj_u_katalogu": 6,
-   "prostor": "peristil — istocni i jugoistocni deo",
-   "veza_na_stub": "vila-peristil",
-   "povrsina_m2": 215,
-   "tehnika": "kamene tesere",
-   "boje": "bela, crvena, crna, siva, oker",
-   "kompozicija": "mreza dijagonalno postavljenih kvadrata izmedju kojih meandar; unutra cetiri nepravilna sestoougla",
-   "motivi": "u kvadratima ptica u sredini, kvatrefoil, svastika (deo spiska ostecen u ekstrakciji)",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-07",
-   "broj_u_katalogu": 7,
-   "prostor": "sala za prijem (aula) — centralni deo",
-   "veza_na_prostoriju": "aula-triklinijum",
-   "povrsina_m2": 47,
-   "povrsina_napomena": "broj dekodiran iz ostecene ekstrakcije ('tyr' procitano kao 47 po kalibru) — poverenje srednje, proveriti u stampanom izdanju",
-   "tehnika": "opus tessellatum, kamene tesere",
-   "o_cuvanost": "sacuvano oko 50% in situ, konzervirano 1978-1979 (godine dekodirane)",
-   "kompozicija": "tri kvadratna panela u nizu; unutra sestougao koca sa cetvorolistom srcolikih latica, lozange, nepravilno isprepletani sestouglovi; unutrasnja zona svastika-meandar",
-   "figuralni_program": {
-    "scena": "glava Meduze u kruznom medaljonu unutar cetvorokrake zvezde",
-    "detalji": "ovalno lice, zmije umesto pletenica, velike oci, izrazit horizontalni nab na celu, krila rasirena na temenu; bela, crvena, siva i oker kamena plus crne staklene tesere",
-    "pozicija": "u sredisnjem delu sale (potvrdjuje raniji nalaz iz skulpturskog programa: Meduza u sredini aule)"
-   },
-   "uglovi": "SZ i JI ugao: posuda (kantharos) sa apstraktnim motivom; SI i JZ ugao: schematizovane ptice sa biljnim ukrasima",
-   "poverenje": "srednje-visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-08",
-   "broj_u_katalogu": 8,
-   "prostor": "sala za prijem (aula) — apsidalni deo",
-   "veza_na_prostoriju": "aula-triklinijum",
-   "povrsina_m2": null,
-   "povrsina_napomena": "nije data u citljivom delu teksta",
-   "tehnika": "kamene tesere",
-   "boje": "bela, crvena, crna",
-   "kompozicija": "polukruzna zona sa mrezom dijagonalno postavljenih kvadrata (nazubljeni kvadrat unutra) + okvir u obliku povezanog guilosa; sacuvan duz apsidalnog zida",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-09",
-   "broj_u_katalogu": 9,
-   "prostor": "stibadium A — ulazna prostorija",
-   "veza_na_stub": null,
-   "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji, granica rekonstrukcije iz v0.8; osnova sale po crtezu R. Bratanica iz 1936",
-   "tehnika": "opus tessellatum",
-   "kompozicija": "dva kvadrata od guilosa koja se presecaju i formiraju osmokraku zvezdu, u centru osmougao sa rozetom u okviru prouglog Z-meandra (grcki ukras)",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-10",
-   "broj_u_katalogu": 10,
-   "prostor": "stibadium A — centralna sestoougaona sala",
-   "veza_na_stub": null,
-   "veza_napomena": "vidi moz-09 — objekat unisten 1936",
-   "tehnika": "opus tessellatum",
-   "kompozicija": "tri koncentricne zone i sira bela spoljasnja bordura; talasasti ukrasi, guilos, Z-meandar sa nazubljenim kvadratima i cvetnim motivima",
-   "figuralni_program": {
-    "scena": "u centru sale na postolju ukrasenom morskim crvom stajala je MERMERNA FONTANA",
-    "znacaj": "nova tacka vodenog sloja: fontana unutar stibadijuma A, vezana na podni mozaik — voda je bila deo trpezarijskog iskustva"
-   },
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-11",
-   "broj_u_katalogu": 11,
-   "prostor": "stibadium A — istocna prostorija",
-   "veza_na_stub": null,
-   "tehnika": "opus tessellatum",
-   "kompozicija": "mreza kvadrata vertikalno i dijagonalno izmedju krstova sa kosim zavrsecima; u vecim kvadratima kvatrefoil, rozeta sa srcolikim listovima, Solomonski cvor; u dijagonalnim kvadratima klepsidra",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011",
-   "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji (granica iz v0.8); osnova po crtezu R. Bratanica iz 1936, prilozenom uz monografiju"
-  },
-  {
-   "id": "moz-12",
-   "broj_u_katalogu": 12,
-   "prostor": "stibadium A — severna prostorija sa apsidom",
-   "veza_na_stub": null,
-   "tehnika": "opus tessellatum",
-   "kompozicija": "jedna polukruzna i jedna pravougaona zona pod zajednickom sirokom belom okvirnom trakom; cetvorokrake zvezde u kvadratima, dijagonalna guilos traka",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011",
-   "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji (granica iz v0.8); osnova po crtezu R. Bratanica iz 1936, prilozenom uz monografiju"
-  },
-  {
-   "id": "moz-13",
-   "broj_u_katalogu": 13,
-   "prostor": "stibadium A — zapadna prostorija",
-   "veza_na_stub": null,
-   "tehnika": "opus tessellatum",
-   "kompozicija": "centralna: mreza dijagonalno postavljenih sestouglova; trake crna-bela, sira traka sa svastika-meandrom u koji su upisani kvadrati i pravougaonici",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011",
-   "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji (granica iz v0.8); osnova po crtezu R. Bratanica iz 1936, prilozenom uz monografiju"
-  },
-  {
-   "id": "moz-ukupno-stibadium-A",
-   "tip": "zbirni_unos",
-   "prostor": "stibadium A — sve prostorije (moz-09 do moz-13)",
-   "veza_na_stub": null,
-   "povrsina_m2": 68,
-   "povrsina_napomena": "broj dekodiran iz ostecene ekstrakcije ('vw' procitano kao 68 po kalibru) — poverenje srednje",
-   "o_cuvanost": "konzerviran 2014 i prezentovan in situ u zgradi Muzeja na Medijani",
-   "poverenje": "srednje",
-   "izvor": "monografija-vila-2011",
-   "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji (granica iz v0.8); osnova po crtezu R. Bratanica iz 1936, prilozenom uz monografiju"
-  },
-  {
-   "id": "moz-14",
-   "broj_u_katalogu": 14,
-   "prostor": "stibadium B — ulaz (juzna strana)",
-   "veza_na_stub": "stibadium-B",
-   "tehnika": "kombinacija opus tessellatum i opus sectile",
-   "o_cuvanost": "sacuvan deo bordure na zapadnoj strani: duzina 115 cm, sirina oko 15 cm; fragmenti mermernih ploca u centralnom delu prostora",
-   "boje_okvira": "crvena, bela, crna",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-15",
-   "broj_u_katalogu": 15,
-   "prostor": "stibadium B — centralna (kruzna) sala",
-   "veza_na_stub": "stibadium-B",
-   "tehnika": "opus tessellatum",
-   "kompozicija": "kruzna zona sa talasastim ukrasima, redom naslaganih jednakokrakih trouglova, dvodelnim guilosom; u krugovima naizmenicno Solomonski cvor, cetvorolisna rozeta i 'stit' od polukrugova-luceva; sredisnji deo jako ostecen — fragmenti ukazuju na centralnu rozetu",
-   "o_cuvanost": "konzerviran 2015, prezentovan in situ",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-16",
-   "broj_u_katalogu": 16,
-   "prostor": "stibadium B — istocna prostorija",
-   "veza_na_stub": "stibadium-B",
-   "tehnika": "opus tessellatum",
-   "o_cuvanost": "uglavnom unisten; po fragmentima: pravougaona mreza osmouglova povezanih kvadratima",
-   "motivi": "Solomonski cvorovi, cetiri sferna udubljenja popunjena crvenim i belim teserama",
-   "poverenje": "srednje",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-17",
-   "broj_u_katalogu": 17,
-   "prostor": "stibadium B — zapadna prostorija",
-   "veza_na_stub": "stibadium-B",
-   "tehnika": "opus tessellatum",
-   "kompozicija": "pravougaona: motiv visedelne guilos trake uokvirene trakom sa talasastim ukrasom",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-ukupno-stibadium-B",
-   "tip": "zbirni_unos",
-   "prostor": "stibadium B — sve prostorije (moz-14 do moz-17)",
-   "veza_na_stub": "stibadium-B",
-   "povrsina_m2": 45,
-   "o_cuvanost": "konzerviran 2015, prezentovan in situ",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-18",
-   "broj_u_katalogu": 18,
-   "prostor": "zapadni hodnik (trem) ka termama — juzni deo",
-   "veza_na_stub": "vila-peristil",
-   "veza_napomena": "hodnik vezuje vilu sa peristilom i terme (stub: terme); v0.11 je zabelezio opus mixtum na SZ sobama ka termi — ovde se potvrdjuje i podna veza",
-   "povrsina_zajedno_sa_moz19_m2": 104,
-   "tehnika": "opus tessellatum, kamene tesere i plocice",
-   "boje": "bela, crvena, siva",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-19",
-   "broj_u_katalogu": 19,
-   "prostor": "zapadni hodnik (trem) ka termama — severni deo",
-   "veza_na_stub": "vila-peristil",
-   "tehnika": "opus segmentatum (nepravilne kamene plocice) sa ugradjenim kvadratnim panelom opus tessellatum",
-   "motivi": "sahovnica crveno-bela, uokvirena belom i plavom trakom",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-20",
-   "prostor": "terme — frigidarium (hladna soba) i palestra",
-   "veza_na_stub": "terme",
-   "tehnika": "opus tessellatum (frigidarium); opus segmentatum od bojenih mermernih plocica (palestra)",
-   "kompozicija": "frigidarium: dva reda krugova od cetiri vretena; palestra: sacuvan samo mali fragment 3,6 x 2,3 m, konzerviran i prezentovan in situ",
-   "povrsina_m2": null,
-   "povrsina_napomena": "ukupna povrsina mozaika termi nečitljiva u ekstrakciji (van opsega kalibracije)",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-21",
-   "prostor": "vila sa oktogonom — oktagonalna sala",
-   "veza_na_stub": "villa-oktagon",
-   "tehnika": "kamene tesere",
-   "boje": "braon i bela",
-   "kompozicija": "talasasti ukras",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-22",
-   "prostor": "vila sa oktogonom — prostorija 2",
-   "veza_na_stub": "villa-oktagon",
-   "povrsina_m2": null,
-   "povrsina_napomena": "sama prostorija ima oko 200 m2 otkrivenog poda",
-   "tehnika": "mermerne plocice + opus tessellatum",
-   "kompozicija": "centralni deo poda od mermernih ploca sa fontanom u sredini; oko centra tri razlicite mozaike kompozicije: talasaste linije i sestolisna rozeta u sredini (jug), mreza kvadrata i cetvorokrakih romboidnih zvezda (zapad)",
-   "znacaj": "monografija daje 'idealnu rekonstrukciju mozaičkog poda prostorije 2' — prvi izvor koji direktno nudi rekonstruisan podni raspored za 3D",
-   "poverenje": "visoko",
-   "izvor": "monografija-vila-2011"
-  },
-  {
-   "id": "moz-23",
-   "prostor": "vila sa konhama — prostorije sa mozaicima",
-   "veza_na_stub": "vila-konhe",
-   "tehnika": "opus tessellatum, bojene kamene tesere",
-   "kompozicija": "deo teksta o vili sa konhama ostecen u ekstrakciji; spominje se obojen postolje (triklinijum-podijum)",
-   "poverenje": "nisko",
-   "izvor": "monografija-vila-2011"
-  }
- ],
- "figuralni_rezime": {
-  "pre": "do v0.13: ikonografija figuralnih mozaika bila otvorena rupa u digitalnom pasosu",
-  "sad": [
-   "Leda sa labudom — podijum ulaza u aulu (moz-03)",
-   "recni bog — podijum ulaza u aulu (moz-03)",
-   "glava Meduze — centar aule (moz-07)",
-   "ptice sa biljnim ukrasima — uglovi aule (moz-07)",
-   "ptica — mozaik 6, istocni peristil (delimicno ocitano)"
-  ],
-  "implikacija_3d": "podovi nose figuralni program na ulaznoj osi: mitoloska scena na podijumu, apotropejska Meduza u sredini — redosled kojim je posetilac hodao kroz rezidenciju"
- },
- "pravila": [
-  "svaki mozaik mora nositi vezu na stub ili prostoriju (ili izrazitu granicu kao stibadium A)",
-  "povrsine u m2 se sabiraju u zbirnu proveru; unos bez broja ne kvari zbir ali mora biti obrazlozen",
-  "dekodirani brojevi iz ostecene ekstrakcije nose poverenje 'srednje' i polje povrsina_napomena",
-  "naslovi slika i dalje ne sluze kao prostorna veza bez provere sadrzaja (pravilo iz v0.5)"
- ],
- "nacin_daljeg_rada": [
-  "proveriti dekodirane povrsine (47, 68) u stampanom izdanju ili PDF-u sa ispravnim fontom",
-  "veza moz-18/19 na zapadni hodnik otvara pitanje: da li hodnik ima svoju prostoriju-ID u Sl. 1 numeraciji (proveriti na crtezu)",
-  "mozaici spremni za vizuelnu proveru: porediti in situ fotografije (Commons) sa opisima kompozicija"
- ],
- "istorijat_otkrica": [
-  {
-   "godina": 1969,
-   "opis": "prvi figuralni mozaici na Medijani otkriveni u centralnoj sali — mitološke teme; ~50 m² mozaika te godine; peristil sa geometrijskim ornamentom",
-   "izvor": "ap11-zotovic-1969",
-   "poverenje": "visoko"
-  },
-  {
-   "godina": 2017,
-   "opis": "Gordana Jeremic objavljuje posveceni rad o meduzi sa mozaickog poda Medijane (Ante portam auream, 251-262); PDF u bazi, 10 ploca izvuceno",
-   "izvor": "jeremic-meduza-2017",
-   "poverenje": "visoko (bibliografija), sadrzaj neproveren (ostecena ekstrakcija)"
-  }
- ],
- "meduza_2017": {
-  "izvor": {
-   "id": "jeremic-meduza-2017",
-   "rad": "Representation of Medusa on a mosaic floor in Mediana",
-   "autor": "Gordana Jeremic",
-   "zbornik": "Ante portam auream. Studia in honorem professoris Aleksandara Jovanovica, ur. M. B. Vujovic",
-   "izdavac": "Filozofski fakultet Univerziteta u Beogradu",
-   "godina": 2017,
-   "strane": "251-262",
-   "pdf_lokalno": "pdf/jeremic_meduza_2017.pdf",
-   "url": "https://www.joycerain.com/uploads/2/3/2/0/23207256/05_ante_portam_auream_2017_representation_of_medusa_on_a_mosaic_floor.pdf",
-   "academia": "https://www.academia.edu/37672696/Representation_of_Medusa_on_a_mosaic_floor_in_Mediana"
-  },
-  "ograda_izvora": "Tekstualni sloj PDF-a je ostecen (podskupni fontovi bez ToUnicode mape — dijakritika i vecina slova ispadaju). Za bazu su korisceni: citljivi fragmenti (reference, godine, UDC 904:738.5.032.042(497.11)), bibliografski podaci sa Academia.edu i VIZUELNA analiza 10 ugradjenih ploca. Sadrzajni nalazi iz teksta ostaju [NEPROVERENO] do pristupa citljivom izdanju.",
-  "povezani_unos": "moz-07",
-  "ploce_izvucene": [
-   {
-    "fajl": "pdf/meduza_slike/img_00_2008x1546.jpg",
-    "opis": "Glava Meduze — emblema u mozaickom podu (glavna ploca rada)",
-    "vizuelno_potvrdjeno": "meduza sa zmijama u kosi, kruzni okvir, okolina od tesera"
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_01_1099x824.jpg",
-    "opis": "Detalj mozaika (druga ploca)",
-    "vizuelno_potvrdjeno": false
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_02_1038x874.jpg",
-    "opis": "Detalj mozaika (treca ploca)",
-    "vizuelno_potvrdjeno": false
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_03_693x951.jpg",
-    "opis": "Stranica teksta rada",
-    "vizuelno_potvrdjeno": false
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_04_992x660.jpg",
-    "opis": "Poredbeni mozaik (komparativni korpus)",
-    "vizuelno_potvrdjeno": false
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_05_992x660.jpg",
-    "opis": "Poredbeni mozaik (komparativni korpus)",
-    "vizuelno_potvrdjeno": false
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_06_272x217.jpg",
-    "opis": "Mala ploca (detalj/paralela)",
-    "vizuelno_potvrdjeno": false
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_07_758x762.jpg",
-    "opis": "Plan vile sa peristilom",
-    "vizuelno_potvrdjeno": "osnova vile, peristil sa fontanom u dvoristu"
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_08_1973x1317.jpg",
-    "opis": "Aerofotografija lokaliteta Medijana",
-    "vizuelno_potvrdjeno": "celokupna osnova vile sa peristilom iz vazduha"
-   },
-   {
-    "fajl": "pdf/meduza_slike/img_09_1720x1509.jpg",
-    "opis": "Fotografija lokaliteta/iskopa",
-    "vizuelno_potvrdjeno": false
-   }
-  ],
-  "fragmenti_citljivi_iz_teksta": {
-   "udc": "904:738.5.032.042(497.11)",
-   "reference_uocljive": [
-    "2010, 106-108",
-    "2002, 206-241",
-    "2005, 119-130",
-    "Starinar LXI 2011, 275-284",
-    "Arheoloski pregled 11 1969, 185-186",
-    "1954, 209-221",
-    "1894, 569-614",
-    "1938, 199-204"
-   ],
-   "napomena": "referencni paralela iz kasnoantickog korpusa; puna imena autora izgubljena u ekstrakciji"
-  },
-  "nove_niti": [
-   "uporediti meduzu Medijane sa poredbenim mozaicima sa ploca img_04/img_05 kad se identifikuju",
-   "pribaviti citljivo izdanje zbornika za datiranje i konzervaciju embleme"
-  ],
-  "poverenje": "srednje (vizuelno potvrđene ploce: visoko za identifikaciju, nisko za tvrdnje iz teksta)",
-  "vizuelni_pregled_ploca": {
-   "datum": "2026-10-26",
-   "metod": "direktan vizuelni pregled izvučenih ploča",
-   "nalazi": [
+  "mozaici": [
     {
-     "ploca": "img_04",
-     "sadrzaj": "detalj glave Meduze (emblema) — krupni kadar, zmije u kosi vidljive",
-     "komparativni": false,
-     "napomena": "NIJE poredbeni mozaik iz drugog lokaliteta"
+      "id": "moz-01",
+      "broj_u_katalogu": 1,
+      "prostor": "peristil — zapadni, severozapadni i jugozapadni deo",
+      "veza_na_stub": "vila-peristil",
+      "povrsina_m2": 238,
+      "tehnika": "opus tessellatum, kamene tesere",
+      "boje": "crna, bela, crvena, rozna, siva",
+      "kompozicija": "mreza manjih osmouglova povezanih pravougaonicima, unutra cetiri sestoougla i kvadrat po sredini",
+      "motivi": "unutar osmougla raznovrsni motivi (spisak delimicno ostecen u ekstrakciji); spoljasnji okvir beo, unutrasnji: tanak red malih sivih tesera, sira bela traka, ponovljeni red malih sivih tesera",
+      "o_cuvanost": "sacuvan, deo in situ",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
     },
     {
-     "ploca": "img_05",
-     "sadrzaj": "isti medaljon u kontekstu poda — oktagonalno polje sa medaljonom u sredini, trougaona (ugonentа) polja oko njega",
-     "komparativni": false,
-     "napomena": "kontekst istog medijanskog poda — potvrđuje da je emblema bila u medaljonu poligonalnog panela"
+      "id": "moz-02",
+      "broj_u_katalogu": 2,
+      "prostor": "peristil — zapadna strana severnog dela",
+      "veza_na_stub": "vila-peristil",
+      "povrsina_m2": 18.4,
+      "tehnika": "opus tessellatum, kamene tesere",
+      "boje": "bela, crvena, siva",
+      "kompozicija": "mreza kvadrata i latinskih krstova ciji se poprecni kraci spajaju sestoouglima",
+      "motivi": "u kvadratima: cvet od cetiri lista (kvatrefoil), sestolist, svastika, ukrstena vretena, Solomonski cvor; okvir sa motivom meandra",
+      "o_cuvanost": "nastavak mozaika 1",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-03",
+      "broj_u_katalogu": 3,
+      "prostor": "podijum ulaza u salu za prijem (aulu), severni deo peristila",
+      "veza_na_prostoriju": "aula-triklinijum",
+      "veza_na_stub": "vila-peristil",
+      "povrsina_m2": 5,
+      "tehnika": "kamene i staklene tesere",
+      "boje": "bela, crna, crvena, siva, braon, oker, zuta",
+      "figuralni_program": {
+        "scena": "mitoloska: recni bog i Leda sa labudom",
+        "detalji": "recni bog u lezecem polusedecem stavu, venac od sabljastih listova na glavi, u levoj ruci trska; Leda sa labudom (Zevs) u donjem levom uglu, najverovatnije u trenutku pripreme za kupanje u reci Eurot; sredisnji deo jako ostecen — moguce da je nosio glavnu figuru",
+        "znacaj": "prvi figuralni mozaik sa imenovanom ikonografijom u bazi — ranije je ikonografija figuralnih mozaika bila otvorena rupa"
+      },
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-04",
+      "broj_u_katalogu": 4,
+      "prostor": "peristil — istocna strana severnog dela",
+      "veza_na_stub": "vila-peristil",
+      "povrsina_m2": 38,
+      "tehnika": "opus tessellatum, kamene tesere",
+      "boje": "bela, crna, crvena, oker",
+      "kompozicija": "mreza kvadrata i cetvorokrakih zvezda (romboidnih); romboidni kraci sa cetiri koncentricna okvira",
+      "motivi": "u kvadratima Solomonski cvor, svastika, sahovnica, kvatrefoil; u centru romboida krug sa nazubljenim kvadratom, lozange i udubljeni osmouglovi; spoljasnji okvir sa motivom loze na juznoj strani",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-05",
+      "broj_u_katalogu": 5,
+      "prostor": "peristil — severna strana istocnog dela",
+      "veza_na_stub": "vila-peristil",
+      "povrsina_m2": 2.5,
+      "tehnika": "kamene tesere",
+      "boje": "bela, crna, crvena, oker",
+      "kompozicija": "niz medusobno isprepletanih osmouglova (svaki od cetiri sestoougla i kvadrata u sredini)",
+      "motivi": "naizmenicno svastika i pešani sat (klepsidra) u kvadratima, nazubljeni kvadrat u sestoouglu",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-06",
+      "broj_u_katalogu": 6,
+      "prostor": "peristil — istocni i jugoistocni deo",
+      "veza_na_stub": "vila-peristil",
+      "povrsina_m2": 215,
+      "tehnika": "kamene tesere",
+      "boje": "bela, crvena, crna, siva, oker",
+      "kompozicija": "mreza dijagonalno postavljenih kvadrata izmedju kojih meandar; unutra cetiri nepravilna sestoougla",
+      "motivi": "u kvadratima ptica u sredini, kvatrefoil, svastika (deo spiska ostecen u ekstrakciji)",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-07",
+      "broj_u_katalogu": 7,
+      "prostor": "sala za prijem (aula) — centralni deo",
+      "veza_na_prostoriju": "aula-triklinijum",
+      "povrsina_m2": 47,
+      "povrsina_napomena": "broj dekodiran iz ostecene ekstrakcije ('tyr' procitano kao 47 po kalibru) — poverenje srednje, proveriti u stampanom izdanju",
+      "tehnika": "opus tessellatum, kamene tesere",
+      "o_cuvanost": "sacuvano oko 50% in situ, konzervirano 1978-1979 (godine dekodirane)",
+      "kompozicija": "tri kvadratna panela u nizu; unutra sestougao koca sa cetvorolistom srcolikih latica, lozange, nepravilno isprepletani sestouglovi; unutrasnja zona svastika-meandar",
+      "figuralni_program": {
+        "scena": "glava Meduze u kruznom medaljonu unutar cetvorokrake zvezde",
+        "detalji": "ovalno lice, zmije umesto pletenica, velike oci, izrazit horizontalni nab na celu, krila rasirena na temenu; bela, crvena, siva i oker kamena plus crne staklene tesere",
+        "pozicija": "u sredisnjem delu sale (potvrdjuje raniji nalaz iz skulpturskog programa: Meduza u sredini aule)"
+      },
+      "uglovi": "SZ i JI ugao: posuda (kantharos) sa apstraktnim motivom; SI i JZ ugao: schematizovane ptice sa biljnim ukrasima",
+      "poverenje": "srednje-visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-08",
+      "broj_u_katalogu": 8,
+      "prostor": "sala za prijem (aula) — apsidalni deo",
+      "veza_na_prostoriju": "aula-triklinijum",
+      "povrsina_m2": null,
+      "povrsina_napomena": "nije data u citljivom delu teksta",
+      "tehnika": "kamene tesere",
+      "boje": "bela, crvena, crna",
+      "kompozicija": "polukruzna zona sa mrezom dijagonalno postavljenih kvadrata (nazubljeni kvadrat unutra) + okvir u obliku povezanog guilosa; sacuvan duz apsidalnog zida",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-09",
+      "broj_u_katalogu": 9,
+      "prostor": "stibadium A — ulazna prostorija",
+      "veza_na_stub": null,
+      "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji, granica rekonstrukcije iz v0.8; osnova sale po crtezu R. Bratanica iz 1936",
+      "tehnika": "opus tessellatum",
+      "kompozicija": "dva kvadrata od guilosa koja se presecaju i formiraju osmokraku zvezdu, u centru osmougao sa rozetom u okviru prouglog Z-meandra (grcki ukras)",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-10",
+      "broj_u_katalogu": 10,
+      "prostor": "stibadium A — centralna sestoougaona sala",
+      "veza_na_stub": null,
+      "veza_napomena": "vidi moz-09 — objekat unisten 1936",
+      "tehnika": "opus tessellatum",
+      "kompozicija": "tri koncentricne zone i sira bela spoljasnja bordura; talasasti ukrasi, guilos, Z-meandar sa nazubljenim kvadratima i cvetnim motivima",
+      "figuralni_program": {
+        "scena": "u centru sale na postolju ukrasenom morskim crvom stajala je MERMERNA FONTANA",
+        "znacaj": "nova tacka vodenog sloja: fontana unutar stibadijuma A, vezana na podni mozaik — voda je bila deo trpezarijskog iskustva"
+      },
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-11",
+      "broj_u_katalogu": 11,
+      "prostor": "stibadium A — istocna prostorija",
+      "veza_na_stub": null,
+      "tehnika": "opus tessellatum",
+      "kompozicija": "mreza kvadrata vertikalno i dijagonalno izmedju krstova sa kosim zavrsecima; u vecim kvadratima kvatrefoil, rozeta sa srcolikim listovima, Solomonski cvor; u dijagonalnim kvadratima klepsidra",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011",
+      "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji (granica iz v0.8); osnova po crtezu R. Bratanica iz 1936, prilozenom uz monografiju"
+    },
+    {
+      "id": "moz-12",
+      "broj_u_katalogu": 12,
+      "prostor": "stibadium A — severna prostorija sa apsidom",
+      "veza_na_stub": null,
+      "tehnika": "opus tessellatum",
+      "kompozicija": "jedna polukruzna i jedna pravougaona zona pod zajednickom sirokom belom okvirnom trakom; cetvorokrake zvezde u kvadratima, dijagonalna guilos traka",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011",
+      "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji (granica iz v0.8); osnova po crtezu R. Bratanica iz 1936, prilozenom uz monografiju"
+    },
+    {
+      "id": "moz-13",
+      "broj_u_katalogu": 13,
+      "prostor": "stibadium A — zapadna prostorija",
+      "veza_na_stub": null,
+      "tehnika": "opus tessellatum",
+      "kompozicija": "centralna: mreza dijagonalno postavljenih sestouglova; trake crna-bela, sira traka sa svastika-meandrom u koji su upisani kvadrati i pravougaonici",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011",
+      "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji (granica iz v0.8); osnova po crtezu R. Bratanica iz 1936, prilozenom uz monografiju"
+    },
+    {
+      "id": "moz-ukupno-stibadium-A",
+      "tip": "zbirni_unos",
+      "prostor": "stibadium A — sve prostorije (moz-09 do moz-13)",
+      "veza_na_stub": null,
+      "povrsina_m2": 68,
+      "povrsina_napomena": "broj dekodiran iz ostecene ekstrakcije ('vw' procitano kao 68 po kalibru) — poverenje srednje",
+      "o_cuvanost": "konzerviran 2014 i prezentovan in situ u zgradi Muzeja na Medijani",
+      "poverenje": "srednje",
+      "izvor": "monografija-vila-2011",
+      "veza_napomena": "stibadium A fizicki unistio Muzej 1936 — stub ne postoji (granica iz v0.8); osnova po crtezu R. Bratanica iz 1936, prilozenom uz monografiju"
+    },
+    {
+      "id": "moz-14",
+      "broj_u_katalogu": 14,
+      "prostor": "stibadium B — ulaz (juzna strana)",
+      "veza_na_stub": "stibadium-B",
+      "tehnika": "kombinacija opus tessellatum i opus sectile",
+      "o_cuvanost": "sacuvan deo bordure na zapadnoj strani: duzina 115 cm, sirina oko 15 cm; fragmenti mermernih ploca u centralnom delu prostora",
+      "boje_okvira": "crvena, bela, crna",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-15",
+      "broj_u_katalogu": 15,
+      "prostor": "stibadium B — centralna (kruzna) sala",
+      "veza_na_stub": "stibadium-B",
+      "tehnika": "opus tessellatum",
+      "kompozicija": "kruzna zona sa talasastim ukrasima, redom naslaganih jednakokrakih trouglova, dvodelnim guilosom; u krugovima naizmenicno Solomonski cvor, cetvorolisna rozeta i 'stit' od polukrugova-luceva; sredisnji deo jako ostecen — fragmenti ukazuju na centralnu rozetu",
+      "o_cuvanost": "konzerviran 2015, prezentovan in situ",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-16",
+      "broj_u_katalogu": 16,
+      "prostor": "stibadium B — istocna prostorija",
+      "veza_na_stub": "stibadium-B",
+      "tehnika": "opus tessellatum",
+      "o_cuvanost": "uglavnom unisten; po fragmentima: pravougaona mreza osmouglova povezanih kvadratima",
+      "motivi": "Solomonski cvorovi, cetiri sferna udubljenja popunjena crvenim i belim teserama",
+      "poverenje": "srednje",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-17",
+      "broj_u_katalogu": 17,
+      "prostor": "stibadium B — zapadna prostorija",
+      "veza_na_stub": "stibadium-B",
+      "tehnika": "opus tessellatum",
+      "kompozicija": "pravougaona: motiv visedelne guilos trake uokvirene trakom sa talasastim ukrasom",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-ukupno-stibadium-B",
+      "tip": "zbirni_unos",
+      "prostor": "stibadium B — sve prostorije (moz-14 do moz-17)",
+      "veza_na_stub": "stibadium-B",
+      "povrsina_m2": 45,
+      "o_cuvanost": "konzerviran 2015, prezentovan in situ",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-18",
+      "broj_u_katalogu": 18,
+      "prostor": "zapadni hodnik (trem) ka termama — juzni deo",
+      "veza_na_stub": "vila-peristil",
+      "veza_napomena": "hodnik vezuje vilu sa peristilom i terme (stub: terme); v0.11 je zabelezio opus mixtum na SZ sobama ka termi — ovde se potvrdjuje i podna veza",
+      "povrsina_zajedno_sa_moz19_m2": 104,
+      "tehnika": "opus tessellatum, kamene tesere i plocice",
+      "boje": "bela, crvena, siva",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-19",
+      "broj_u_katalogu": 19,
+      "prostor": "zapadni hodnik (trem) ka termama — severni deo",
+      "veza_na_stub": "vila-peristil",
+      "tehnika": "opus segmentatum (nepravilne kamene plocice) sa ugradjenim kvadratnim panelom opus tessellatum",
+      "motivi": "sahovnica crveno-bela, uokvirena belom i plavom trakom",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-20",
+      "prostor": "terme — frigidarium (hladna soba) i palestra",
+      "veza_na_stub": "terme",
+      "tehnika": "opus tessellatum (frigidarium); opus segmentatum od bojenih mermernih plocica (palestra)",
+      "kompozicija": "frigidarium: dva reda krugova od cetiri vretena; palestra: sacuvan samo mali fragment 3,6 x 2,3 m, konzerviran i prezentovan in situ",
+      "povrsina_m2": null,
+      "povrsina_napomena": "ukupna povrsina mozaika termi nečitljiva u ekstrakciji (van opsega kalibracije)",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-21",
+      "prostor": "vila sa oktogonom — oktagonalna sala",
+      "veza_na_stub": "villa-oktagon",
+      "tehnika": "kamene tesere",
+      "boje": "braon i bela",
+      "kompozicija": "talasasti ukras",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-22",
+      "prostor": "vila sa oktogonom — prostorija 2",
+      "veza_na_stub": "villa-oktagon",
+      "povrsina_m2": null,
+      "povrsina_napomena": "sama prostorija ima oko 200 m2 otkrivenog poda",
+      "tehnika": "mermerne plocice + opus tessellatum",
+      "kompozicija": "centralni deo poda od mermernih ploca sa fontanom u sredini; oko centra tri razlicite mozaike kompozicije: talasaste linije i sestolisna rozeta u sredini (jug), mreza kvadrata i cetvorokrakih romboidnih zvezda (zapad)",
+      "znacaj": "monografija daje 'idealnu rekonstrukciju mozaičkog poda prostorije 2' — prvi izvor koji direktno nudi rekonstruisan podni raspored za 3D",
+      "poverenje": "visoko",
+      "izvor": "monografija-vila-2011"
+    },
+    {
+      "id": "moz-23",
+      "prostor": "vila sa konhama — prostorije sa mozaicima",
+      "veza_na_stub": "vila-konhe",
+      "tehnika": "opus tessellatum, bojene kamene tesere",
+      "kompozicija": "deo teksta o vili sa konhama ostecen u ekstrakciji; spominje se obojen postolje (triklinijum-podijum)",
+      "poverenje": "nisko",
+      "izvor": "monografija-vila-2011"
     }
-   ],
-   "zakljucak": "pretpostavka iz v0.19 da ploče img_04/05 nose komparativni materijal je POGREŠNA — obe su Mediana. Komparativni korpus Meduza mozaika (Stobi, Herakleia, Panonija) ostaje otvoren i traži nove izvore."
-  }
- },
- "komparativni_korpus": {
-  "svrha": "Poređenje medijanske Meduze (moz-07 / meduza_2017) sa drugim mozaicima sa glavom Meduze/Gorgone; utvrđivanje tipa, hronologije i radionica.",
-  "nacin": "Web pretraga (otvoreni izvori) 2026-10-26; nijedan primerak nije viđen uživo ni u primarnoj publikaciji — sve su tipološke/reference tvrdnje.",
-  "stavke": [
-   {
-    "id": "kmz-01",
-    "lokalitet": "Heraclea Lyncestis (Bitola, Severna Makedonija)",
-    "objekat": "peristilska vila izvan zidina (profani kompleks villa + thermae)",
-    "sadrzaj": "glava Meduze (gorgoneion) u figuralnom panelu, uz prizore lova i životinja",
-    "hronologija": "4. vek (muzej: profani mozaici „dated to the 4th century A.D.\")",
-    "tehnika": "opus tessellatum/sygninum/sectile (muzej: raznovrsne tehnike)",
-    "iskop": "1964 [NEPROVERENO — samo WebSearch]",
-    "status": "NAJBLIZI POREDBENI PRIMER — profana peristilska vila, isti vek, ista apotropaic funkcija",
-    "izvori": [
-     "https://muzejbitola.mk/en/mosaic-nartex [PROVERENO — stranica muzeja potvrđuje villa+thermae, 4. vek, tehnike; NE pominje Meduzu eksplicitno]",
-     "https://helenmilesmosaics.org/ancient-mosaics/heraclea-lyncestis-mosaics/ [NEPROVERENO]",
-     "G. Cvetković-Tomašević 2002 (detaljna prezentacija mozaika Herakleje) [NEPROVERENO — citat posredan]",
-     "https://www.academia.edu/43882278/ (The Mosaics of ancient Heraclea Lyncestis) [NEPROVERENO]"
-    ],
-    "poverenje": "srednje"
-   },
-   {
-    "id": "kmz-02",
-    "lokalitet": "Villa of the Antonines, Rim (Via Appia)",
-    "objekat": "kružna soba (⌀ 21 m), niše u zidu",
-    "sadrzaj": "dva mozaika sa glavom Meduze, otkrivena 2023",
-    "hronologija": "2. vek",
-    "status": "poredbena tačka za „prelepu\" (classicizing) Meduzu; ne panel poda nego niša",
-    "izvori": [
-     "https://www.artnews.com/art-news/news/ancient-mosaics-of-medusa-discovered-in-roman-villa-1234663310/ [NEPROVERENO]",
-     "https://www.jpost.com/archaeology/article-738757 [NEPROVERENO]"
-    ],
-    "poverenje": "nisko-srednje"
-   },
-   {
-    "id": "kmz-03",
-    "lokalitet": "J. Paul Getty Museum (Villa), kolekcija",
-    "objekat": "podni mozaik (kolekcijski predmet, bez lokaliteta)",
-    "sadrzaj": "Medusa poprsje u centru štita od koncentričnih krugova — klasičan apotropaic gorgoneion raspored",
-    "hronologija": "115–150",
-    "status": "tipološki paradigma: medaljon-štit oko glave — ista shema kao medijanski oktagonalni panel sa medaljonom (vizuelni nalaz v0.21: ploče img_04/05)",
-    "izvori": [
-     "https://www.getty.edu/art/collection/object/103SQK [NEPROVERENO]"
-    ],
-    "poverenje": "nisko-srednje"
-   },
-   {
-    "id": "kmz-04",
-    "lokalitet": "Felix Romuliana (Gamzigrad, Srbija)",
-    "sadrzaj": "gorgoneion potvrđen na arhitektonskom/kamenom elementu, NE kao mozaik [NEPROVERENO — negativan mozaik nalaz je samo izostanak pogotka]",
-    "status": "isključen iz mozaik korpusa (za sada)",
-    "izvori": [
-     "WebSearch 2026-10-26, bez primarne publikacije"
-    ],
-    "poverenje": "nisko"
-   },
-   {
-    "id": "kmz-05",
-    "lokalitet": "Stobi (Severna Makedonija)",
-    "sadrzaj": "nema potvrđenog mozaika sa Meduzom u dostupnim izvorima [NEGATIVAN NALAZ]",
-    "status": "isključen; poznati mozaici su bazilike/Theodosian palace, drugi program",
-    "izvori": [
-     "https://en.wikipedia.org/wiki/Stobi [NEPROVERENO]",
-     "https://helenmilesmosaics.org/blog/stobi-mosaics [NEPROVERENO]"
-    ],
-    "poverenje": "nisko"
-   }
   ],
-  "sudar_tvrdnji": {
-   "pitanje": "Jeremić 2017 tvrdi da je medijanska Meduza „jedini nalaz ove mitološke figure u mozaiku u Centralnom Balkanu\". Heraclea Lyncestis ima mozaik Meduze iz 4. veka.",
-   "resenje": "Nema pravog sudara — Herakleja je Makedonija, van Jeremićevog „Centralnog Balkana\" (Srbija). Ali važno upozorenje: ako korpus širimo na Balkan u celini, tvrdnja jedinstvenosti Medijane pada na „jedinstvena u Srbiji\".",
-   "status": "[PROVERENO kao logičko razjašnjenje; sama klasifikacija regiona je konvencija autora]"
+  "figuralni_rezime": {
+    "pre": "do v0.13: ikonografija figuralnih mozaika bila otvorena rupa u digitalnom pasosu",
+    "sad": [
+      "Leda sa labudom — podijum ulaza u aulu (moz-03)",
+      "recni bog — podijum ulaza u aulu (moz-03)",
+      "glava Meduze — centar aule (moz-07)",
+      "ptice sa biljnim ukrasima — uglovi aule (moz-07)",
+      "ptica — mozaik 6, istocni peristil (delimicno ocitano)"
+    ],
+    "implikacija_3d": "podovi nose figuralni program na ulaznoj osi: mitoloska scena na podijumu, apotropejska Meduza u sredini — redosled kojim je posetilac hodao kroz rezidenciju"
   },
-  "zakljucak": "Medijanska Meduza ostaje unikatna u Srbiji kao podni mozaik; najsrodniji poredbeni primer u regionu je Heraclea Lyncestis (profana peristilska vila, 4. vek) — paralela koja podržava datovanje medijanskog poda u isti horizont.",
-  "poverenje": "srednje"
- }
+  "pravila": [
+    "svaki mozaik mora nositi vezu na stub ili prostoriju (ili izrazitu granicu kao stibadium A)",
+    "povrsine u m2 se sabiraju u zbirnu proveru; unos bez broja ne kvari zbir ali mora biti obrazlozen",
+    "dekodirani brojevi iz ostecene ekstrakcije nose poverenje 'srednje' i polje povrsina_napomena",
+    "naslovi slika i dalje ne sluze kao prostorna veza bez provere sadrzaja (pravilo iz v0.5)"
+  ],
+  "nacin_daljeg_rada": [
+    "proveriti dekodirane povrsine (47, 68) u stampanom izdanju ili PDF-u sa ispravnim fontom",
+    "veza moz-18/19 na zapadni hodnik otvara pitanje: da li hodnik ima svoju prostoriju-ID u Sl. 1 numeraciji (proveriti na crtezu)",
+    "mozaici spremni za vizuelnu proveru: porediti in situ fotografije (Commons) sa opisima kompozicija"
+  ],
+  "istorijat_otkrica": [
+    {
+      "godina": 1969,
+      "opis": "prvi figuralni mozaici na Medijani otkriveni u centralnoj sali — mitološke teme; ~50 m² mozaika te godine; peristil sa geometrijskim ornamentom",
+      "izvor": "ap11-zotovic-1969",
+      "poverenje": "visoko"
+    },
+    {
+      "godina": 2017,
+      "opis": "Gordana Jeremic objavljuje posveceni rad o meduzi sa mozaickog poda Medijane (Ante portam auream, 251-262); PDF u bazi, 10 ploca izvuceno",
+      "izvor": "jeremic-meduza-2017",
+      "poverenje": "visoko (bibliografija), sadrzaj neproveren (ostecena ekstrakcija)"
+    }
+  ],
+  "meduza_2017": {
+    "izvor": {
+      "id": "jeremic-meduza-2017",
+      "rad": "Representation of Medusa on a mosaic floor in Mediana",
+      "autor": "Gordana Jeremic",
+      "zbornik": "Ante portam auream. Studia in honorem professoris Aleksandara Jovanovica, ur. M. B. Vujovic",
+      "izdavac": "Filozofski fakultet Univerziteta u Beogradu",
+      "godina": 2017,
+      "strane": "251-262",
+      "pdf_lokalno": "pdf/jeremic_meduza_2017.pdf",
+      "url": "https://www.joycerain.com/uploads/2/3/2/0/23207256/05_ante_portam_auream_2017_representation_of_medusa_on_a_mosaic_floor.pdf",
+      "academia": "https://www.academia.edu/37672696/Representation_of_Medusa_on_a_mosaic_floor_in_Mediana"
+    },
+    "ograda_izvora": "Tekstualni sloj PDF-a je ostecen (podskupni fontovi bez ToUnicode mape — dijakritika i vecina slova ispadaju). Za bazu su korisceni: citljivi fragmenti (reference, godine, UDC 904:738.5.032.042(497.11)), bibliografski podaci sa Academia.edu i VIZUELNA analiza 10 ugradjenih ploca. Sadrzajni nalazi iz teksta ostaju [NEPROVERENO] do pristupa citljivom izdanju.",
+    "povezani_unos": "moz-07",
+    "ploce_izvucene": [
+      {
+        "fajl": "pdf/meduza_slike/img_00_2008x1546.jpg",
+        "opis": "Glava Meduze — emblema u mozaickom podu (glavna ploca rada)",
+        "vizuelno_potvrdjeno": "meduza sa zmijama u kosi, kruzni okvir, okolina od tesera"
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_01_1099x824.jpg",
+        "opis": "Detalj mozaika (druga ploca)",
+        "vizuelno_potvrdjeno": false
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_02_1038x874.jpg",
+        "opis": "Detalj mozaika (treca ploca)",
+        "vizuelno_potvrdjeno": false
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_03_693x951.jpg",
+        "opis": "Stranica teksta rada",
+        "vizuelno_potvrdjeno": false
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_04_992x660.jpg",
+        "opis": "Poredbeni mozaik (komparativni korpus)",
+        "vizuelno_potvrdjeno": false
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_05_992x660.jpg",
+        "opis": "Poredbeni mozaik (komparativni korpus)",
+        "vizuelno_potvrdjeno": false
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_06_272x217.jpg",
+        "opis": "Mala ploca (detalj/paralela)",
+        "vizuelno_potvrdjeno": false
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_07_758x762.jpg",
+        "opis": "Plan vile sa peristilom",
+        "vizuelno_potvrdjeno": "osnova vile, peristil sa fontanom u dvoristu"
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_08_1973x1317.jpg",
+        "opis": "Aerofotografija lokaliteta Medijana",
+        "vizuelno_potvrdjeno": "celokupna osnova vile sa peristilom iz vazduha"
+      },
+      {
+        "fajl": "pdf/meduza_slike/img_09_1720x1509.jpg",
+        "opis": "Fotografija lokaliteta/iskopa",
+        "vizuelno_potvrdjeno": false
+      }
+    ],
+    "fragmenti_citljivi_iz_teksta": {
+      "udc": "904:738.5.032.042(497.11)",
+      "reference_uocljive": [
+        "2010, 106-108",
+        "2002, 206-241",
+        "2005, 119-130",
+        "Starinar LXI 2011, 275-284",
+        "Arheoloski pregled 11 1969, 185-186",
+        "1954, 209-221",
+        "1894, 569-614",
+        "1938, 199-204"
+      ],
+      "napomena": "referencni paralela iz kasnoantickog korpusa; puna imena autora izgubljena u ekstrakciji"
+    },
+    "nove_niti": [
+      "uporediti meduzu Medijane sa poredbenim mozaicima sa ploca img_04/img_05 kad se identifikuju",
+      "pribaviti citljivo izdanje zbornika za datiranje i konzervaciju embleme"
+    ],
+    "poverenje": "srednje (vizuelno potvrđene ploce: visoko za identifikaciju, nisko za tvrdnje iz teksta)",
+    "vizuelni_pregled_ploca": {
+      "datum": "2026-10-26",
+      "metod": "direktan vizuelni pregled izvučenih ploča",
+      "nalazi": [
+        {
+          "ploca": "img_04",
+          "sadrzaj": "detalj glave Meduze (emblema) — krupni kadar, zmije u kosi vidljive",
+          "komparativni": false,
+          "napomena": "NIJE poredbeni mozaik iz drugog lokaliteta"
+        },
+        {
+          "ploca": "img_05",
+          "sadrzaj": "isti medaljon u kontekstu poda — oktagonalno polje sa medaljonom u sredini, trougaona (ugonentа) polja oko njega",
+          "komparativni": false,
+          "napomena": "kontekst istog medijanskog poda — potvrđuje da je emblema bila u medaljonu poligonalnog panela"
+        }
+      ],
+      "zakljucak": "pretpostavka iz v0.19 da ploče img_04/05 nose komparativni materijal je POGREŠNA — obe su Mediana. Komparativni korpus Meduza mozaika (Stobi, Herakleia, Panonija) ostaje otvoren i traži nove izvore."
+    }
+  },
+  "komparativni_korpus": {
+    "svrha": "Poređenje medijanske Meduze (moz-07 / meduza_2017) sa drugim mozaicima sa glavom Meduze/Gorgone; utvrđivanje tipa, hronologije i radionica.",
+    "nacin": "Web pretraga (otvoreni izvori) 2026-10-26; nijedan primerak nije viđen uživo ni u primarnoj publikaciji — sve su tipološke/reference tvrdnje.",
+    "stavke": [
+      {
+        "id": "kmz-01",
+        "lokalitet": "Heraclea Lyncestis (Bitola, Severna Makedonija)",
+        "objekat": "peristilska vila izvan zidina (profani kompleks villa + thermae)",
+        "sadrzaj": "glava Meduze (gorgoneion) u figuralnom panelu, uz prizore lova i životinja",
+        "hronologija": "4. vek (muzej: profani mozaici „dated to the 4th century A.D.\")",
+        "tehnika": "opus tessellatum/sygninum/sectile (muzej: raznovrsne tehnike)",
+        "iskop": "1964 [NEPROVERENO — samo WebSearch]",
+        "status": "NAJBLIZI POREDBENI PRIMER — profana peristilska vila, isti vek, ista apotropaic funkcija",
+        "izvori": [
+          "https://muzejbitola.mk/en/mosaic-nartex [PROVERENO — stranica muzeja potvrđuje villa+thermae, 4. vek, tehnike; NE pominje Meduzu eksplicitno]",
+          "https://helenmilesmosaics.org/ancient-mosaics/heraclea-lyncestis-mosaics/ [NEPROVERENO]",
+          "G. Cvetković-Tomašević 2002 (detaljna prezentacija mozaika Herakleje) [NEPROVERENO — citat posredan]",
+          "https://www.academia.edu/43882278/ (The Mosaics of ancient Heraclea Lyncestis) [NEPROVERENO]"
+        ],
+        "poverenje": "srednje"
+      },
+      {
+        "id": "kmz-02",
+        "lokalitet": "Villa of the Antonines, Rim (Via Appia)",
+        "objekat": "kružna soba (⌀ 21 m), niše u zidu",
+        "sadrzaj": "dva mozaika sa glavom Meduze, otkrivena 2023",
+        "hronologija": "2. vek",
+        "status": "poredbena tačka za „prelepu\" (classicizing) Meduzu; ne panel poda nego niša",
+        "izvori": [
+          "https://www.artnews.com/art-news/news/ancient-mosaics-of-medusa-discovered-in-roman-villa-1234663310/ [NEPROVERENO]",
+          "https://www.jpost.com/archaeology/article-738757 [NEPROVERENO]"
+        ],
+        "poverenje": "nisko-srednje"
+      },
+      {
+        "id": "kmz-03",
+        "lokalitet": "J. Paul Getty Museum (Villa), kolekcija",
+        "objekat": "podni mozaik (kolekcijski predmet, bez lokaliteta)",
+        "sadrzaj": "Medusa poprsje u centru štita od koncentričnih krugova — klasičan apotropaic gorgoneion raspored",
+        "hronologija": "115–150",
+        "status": "tipološki paradigma: medaljon-štit oko glave — ista shema kao medijanski oktagonalni panel sa medaljonom (vizuelni nalaz v0.21: ploče img_04/05)",
+        "izvori": [
+          "https://www.getty.edu/art/collection/object/103SQK [NEPROVERENO]"
+        ],
+        "poverenje": "nisko-srednje"
+      },
+      {
+        "id": "kmz-04",
+        "lokalitet": "Felix Romuliana (Gamzigrad, Srbija)",
+        "sadrzaj": "gorgoneion potvrđen na arhitektonskom/kamenom elementu, NE kao mozaik [NEPROVERENO — negativan mozaik nalaz je samo izostanak pogotka]",
+        "status": "isključen iz mozaik korpusa (za sada)",
+        "izvori": [
+          "WebSearch 2026-10-26, bez primarne publikacije"
+        ],
+        "poverenje": "nisko"
+      },
+      {
+        "id": "kmz-05",
+        "lokalitet": "Stobi (Severna Makedonija)",
+        "sadrzaj": "nema potvrđenog mozaika sa Meduzom u dostupnim izvorima [NEGATIVAN NALAZ]",
+        "status": "isključen; poznati mozaici su bazilike/Theodosian palace, drugi program",
+        "izvori": [
+          "https://en.wikipedia.org/wiki/Stobi [NEPROVERENO]",
+          "https://helenmilesmosaics.org/blog/stobi-mosaics [NEPROVERENO]"
+        ],
+        "poverenje": "nisko"
+      }
+    ],
+    "sudar_tvrdnji": {
+      "pitanje": "Jeremić 2017 tvrdi da je medijanska Meduza „jedini nalaz ove mitološke figure u mozaiku u Centralnom Balkanu\". Heraclea Lyncestis ima mozaik Meduze iz 4. veka.",
+      "resenje": "Nema pravog sudara — Herakleja je Makedonija, van Jeremićevog „Centralnog Balkana\" (Srbija). Ali važno upozorenje: ako korpus širimo na Balkan u celini, tvrdnja jedinstvenosti Medijane pada na „jedinstvena u Srbiji\".",
+      "status": "[PROVERENO kao logičko razjašnjenje; sama klasifikacija regiona je konvencija autora]"
+    },
+    "zakljucak": "Medijanska Meduza ostaje unikatna u Srbiji kao podni mozaik; najsrodniji poredbeni primer u regionu je Heraclea Lyncestis (profana peristilska vila, 4. vek) — paralela koja podržava datovanje medijanskog poda u isti horizont.",
+    "poverenje": "srednje"
+  },
+  "revizija_v033": {
+    "pitanja": [
+      "K10"
+    ],
+    "status": "Komparativni motivi sa oznakom NEPROVERENO ostaju kandidati. Regionalna jedinstvenost nije resena."
+  }
 }

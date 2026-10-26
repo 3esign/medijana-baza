@@ -1,0 +1,492 @@
+{
+  "izdanje": "0.33",
+  "hash_format": "SHA256 UTF-8 text with CRLF normalized to LF; preservation audit uses original raw bytes.",
+  "pravilo": "Verzija sadrzaja je istorijska; izdanje paketa ne znaci novu proveru izvora.",
+  "fajlovi": [
+    {
+      "putanja": "akvadukt_koordinate_v031.json",
+      "grupa": "Voda i reljef",
+      "sha256": "0f48724947c60beef52cc4b1837da8d25830a3d048f8cdf181441da37b7d73e5",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "izvori": 4
+      }
+    },
+    {
+      "putanja": "akvadukt_trasa_v026.json",
+      "grupa": "Voda i reljef",
+      "sha256": "2b3f1be8fc17970efef4feb229bff3d181f63dbf9614883b9c1546ad0cbddfd4",
+      "verzija_sadrzaja": "0.26",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "izvori": 2,
+        "segmenti": 6,
+        "hronologija": 3
+      }
+    },
+    {
+      "putanja": "baza_podataka.json",
+      "grupa": "Osnova i prostor",
+      "sha256": "57435e9592c82e3f487ca8afdcb6e72eaa87b662331c07f480e1f118d7733f2c",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "izvori": 21,
+        "hronologija": 19,
+        "nalazi": 19,
+        "istrazivanja": 12,
+        "konflikti_izmedju_izvora": 20,
+        "rupe_za_rekonstrukciju": 8,
+        "nacin_daljeg_rada": 17,
+        "napredak_v017": 1,
+        "changelog": 4
+      }
+    },
+    {
+      "putanja": "crtezi_sloj.json",
+      "grupa": "Osnova i prostor",
+      "sha256": "998f2b7553e4d17febaa738c406dd207fa5c026f38a098dcc66d2a94d7391833",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "profili": 6,
+        "implikacije_3d": 4
+      }
+    },
+    {
+      "putanja": "dem_izvor_ukrstteni_v025.json",
+      "grupa": "Sačuvana DEM očitavanja",
+      "sha256": "8251cdbc01047b5a5bdf28cf857428df399321a8d680b0b9023e5641d2d0d96a",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "izmereno": 7
+      }
+    },
+    {
+      "putanja": "dem_izvori_kandidati_v023.json",
+      "grupa": "Sačuvana DEM očitavanja",
+      "sha256": "dc2c4c9dd85f63688ce368a9d6da165f0cc9b204e17b47fde294f4d7979bb5a7",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {}
+    },
+    {
+      "putanja": "dem_izvorista_v021.json",
+      "grupa": "Sačuvana DEM očitavanja",
+      "sha256": "da4b79455ee5a300fbc07b228ddfb0a9a06d4d17f2a8f9136ed5993ddaa25ab1",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "grid": 11,
+        "profil_kontakt_vila": 21
+      }
+    },
+    {
+      "putanja": "dem_profil_vrelo1_vila_v023.json",
+      "grupa": "Sačuvana DEM očitavanja",
+      "sha256": "a2339cd15787cf5ebe7c6af2818abdf461bcb60080e46d2100c4373779d8e77b",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {}
+    },
+    {
+      "putanja": "dem_sloj.json",
+      "grupa": "Voda i reljef",
+      "sha256": "812eb4e8fa487298c3e639613d958d7167456ecb9c471d86ed4576ce1ea3b64c",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "tiles": 2,
+        "otvorena_pitanja": 3
+      }
+    },
+    {
+      "putanja": "digitalni_pasos.json",
+      "grupa": "Osnova i prostor",
+      "sha256": "d879e822e273a4769b445918badf692d82ac2ccab67ca090c299d2fc3341fbf1",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "materijali": 11,
+        "uticaji": 8,
+        "nalazi": 9,
+        "izvor": 8
+      }
+    },
+    {
+      "putanja": "epigrafski_sloj.json",
+      "grupa": "Nalazi i poređenja",
+      "sha256": "3562db4be886af86dcaff7b8f3665dc0ac5a08beefa45d4839527a2c2b0af622",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "natpisi": 9,
+        "otvoreni_zadaci": 4,
+        "sinteza": 4,
+        "veze_sa_slojevima": 3
+      }
+    },
+    {
+      "putanja": "geofizika_sloj.json",
+      "grupa": "Osnova i prostor",
+      "sha256": "96d09a7f591f3e38aed7d3b26c1c54704dafaec7f2eb33cee99b328415005a2c",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "pravila_poverenja": 3,
+        "strukture": 16,
+        "otvoreno": 2
+      }
+    },
+    {
+      "putanja": "gis_izvori_sloj.json",
+      "grupa": "Voda i reljef",
+      "sha256": "f9563d66d2f29ceb197a07d668775520acb13eb9371ec2e2a88c65b7cf90088e",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "izvori": 27,
+        "otvoreni_zadaci": 4
+      }
+    },
+    {
+      "putanja": "hidraulika_sloj.json",
+      "grupa": "Voda i reljef",
+      "sha256": "663426ca58c076374efe41dd2a95c5af66db8d7e2352b9f2ead90dc8c71b88e6",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "cvorovi": 28,
+        "konflikti": 7,
+        "ogranicenja": 9
+      }
+    },
+    {
+      "putanja": "izvori_nominatim.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {}
+    },
+    {
+      "putanja": "izvori_nominatim_v026.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "bddca6aa9af30be066d60db5b5f098cf8c396ac2d9750c9364044ae7ede30470",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {}
+    },
+    {
+      "putanja": "izvori_overpass.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "4c6e8a35271088fae676184515e5994723c7f600b0f15833ceab70ddd04dc72c",
+      "verzija_sadrzaja": "0.26",
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "elements": 6
+      }
+    },
+    {
+      "putanja": "komparativni_lokaliteti.json",
+      "grupa": "Nalazi i poređenja",
+      "sha256": "a060c37d95aecfd17ca6797ad87d98346ae63d35d807fc3a060260c2258c852d",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "lokaliteti": 13,
+        "kalibraciona_pravila": 6
+      }
+    },
+    {
+      "putanja": "konsolidacija.json",
+      "grupa": "Revizija i otvorena pitanja",
+      "sha256": "3a06f7df40005607dec13f0ee4a51ac9967bf94fe55e3b4d284c1ee05155ebd5",
+      "verzija_sadrzaja": null,
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "pitanja": 11,
+        "premestanja": 21
+      }
+    },
+    {
+      "putanja": "mozaici_sloj.json",
+      "grupa": "Nalazi i poređenja",
+      "sha256": "af57b109f5e5fcf6c6bb055fb44d01a145e33b51ba5814bec9065fad27ce099b",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "mozaici": 25,
+        "pravila": 4,
+        "nacin_daljeg_rada": 3,
+        "istorijat_otkrica": 2
+      }
+    },
+    {
+      "putanja": "nb_anchor.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "cfbda79c83951b05e120d826e61cba3cc15b1b7e2ca0de3307b3013101663b89",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {}
+    },
+    {
+      "putanja": "nominatim_v031.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "442d875aabd70246b6745be94a838a4f0dfb3e6faca529887da315b0d90fe21d",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "Gornjomatejevačka, Pantelej, Niš": 4,
+        "Somborski bulevar, Niš": 0,
+        "pruga Niš-Zajčar nadvožnjak Pantelej": 0
+      }
+    },
+    {
+      "putanja": "numizmaticki_sloj.json",
+      "grupa": "Nalazi i poređenja",
+      "sha256": "93f302f4b8965c2e0f82321f2808b8aaa4e15583b258e392b60e8a3921f5405b",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "novac": 22,
+        "konflikti": 4,
+        "ostave": 3,
+        "ogranicenja": 4
+      }
+    },
+    {
+      "putanja": "objekti_cd_sloj.json",
+      "grupa": "Osnova i prostor",
+      "sha256": "dc2711387f1d0ded8ca7be38df37460ff77ede0782456a350df474d0cd250709",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "mere": 13,
+        "konflikti": 4,
+        "bibliografija_status": 7,
+        "ogranicenja": 5
+      }
+    },
+    {
+      "putanja": "osm_nominatim.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "c9c660df3b20f37a8ac5d4ac722faf70e1f4cf538aecaf49c8f364f0b77fa7e4",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {}
+    },
+    {
+      "putanja": "osm_way_coords.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "e696e4f7be2e81164982fb296598cee3dc77962ee23cd6d25dd9ac0b7464e086",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2
+      }
+    },
+    {
+      "putanja": "osm_way_full.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "1676958f9ff9cbd25edd0ce84dc636e6663d5967921953a769d04966bc5d34e1",
+      "verzija_sadrzaja": "0.26",
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "elements": 6
+      }
+    },
+    {
+      "putanja": "overpass_v031_raw.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "c747db0ccbdb7da234e488bba26ca3969bde0cb0faee9868e6105a51576b5bb7",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {}
+    },
+    {
+      "putanja": "overpass_v032_okolina.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "e6d565393aaf1286db5debe9c180daf7a4792142818439406f3eccb3666b438d",
+      "verzija_sadrzaja": 0.6,
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "elements": 208
+      }
+    },
+    {
+      "putanja": "overpass_v032_somborski.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "252879aa65347c3e0626815e9ce8656b00da76a879dc237f415f55c8c030f917",
+      "verzija_sadrzaja": 0.6,
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "elements": 0
+      }
+    },
+    {
+      "putanja": "pantelej_kasarna_gravitacija_v029.json",
+      "grupa": "Istorijski proračuni — nisu aktuelna trasa",
+      "sha256": "3301f72863f7fc3bff8953e0d2859885f9b718f424e7f89034b9466537d245fd",
+      "verzija_sadrzaja": "0.31",
+      "status": "istorijski",
+      "nizovi": {
+        "merenja": 9,
+        "izvori": 4
+      }
+    },
+    {
+      "putanja": "podvinik_bulevar_v032.json",
+      "grupa": "Voda i reljef",
+      "sha256": "0239cc95916bd7324f677ae950e3247c5fe26231fe8d59cb68558e1bc43c2e8e",
+      "verzija_sadrzaja": "0.32",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "nalazi": 4,
+        "izvori": 3
+      }
+    },
+    {
+      "putanja": "prostorni_sloj.json",
+      "grupa": "Osnova i prostor",
+      "sha256": "3eb21c9a1a38834183cdc91147c71fbede87a627d0e03c45d9d1a7b836b3fec2",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "objekti_3d_stubi": 21,
+        "prostorne_implikacije_3d": 6,
+        "izvor": 6
+      }
+    },
+    {
+      "putanja": "skulpturski_program.json",
+      "grupa": "Nalazi i poređenja",
+      "sha256": "36dafcccbe54c34597f44813d86b06271a40d7d97008aa6e558729c28507194f",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "mozaicki_i_fresko_program": 4
+      }
+    },
+    {
+      "putanja": "sobe_sloj.json",
+      "grupa": "Osnova i prostor",
+      "sha256": "9cefbf45d05a1eb3a583220bf98d793cf2f4c991a081b966cad92761b29df1be",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "izvori": 2,
+        "veza_sonda_prostorija": 14,
+        "prostorije": 21,
+        "pravila": 5,
+        "implikacije_3d": 4,
+        "nacin_daljeg_rada": 3
+      }
+    },
+    {
+      "putanja": "sonde_sloj.json",
+      "grupa": "Osnova i prostor",
+      "sha256": "497cca194f910bb519e39bbe5b031f3f41bf3dfda281294bef40e036e2a342a2",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "hronologija_horizonti": 3,
+        "sektori": 5,
+        "sonde_sa_vezom": 6,
+        "stratigrafija_sektor_1": 4,
+        "implikacije_3d": 4,
+        "registar_slika": 31
+      }
+    },
+    {
+      "putanja": "treca_kota_vrela_v030.json",
+      "grupa": "Istorijski proračuni — nisu aktuelna trasa",
+      "sha256": "17d8b905bc6526aa4d4fd96847ceb628e5cd2a0786581bbd1b64a3cb2a4e996d",
+      "verzija_sadrzaja": "0.30",
+      "status": "istorijski",
+      "nizovi": {
+        "citanja": 3,
+        "izvori": 1
+      }
+    },
+    {
+      "putanja": "vinik_trasa_fizika_v027.json",
+      "grupa": "Istorijski proračuni — nisu aktuelna trasa",
+      "sha256": "b10d8a71595cf240c948f84e97194cd4ab0d5cfab77d368918fe465e2dd4ecee",
+      "verzija_sadrzaja": "0.27",
+      "status": "istorijski",
+      "nizovi": {
+        "ogranacenja": 3,
+        "izvori": 2
+      }
+    },
+    {
+      "putanja": "vizuelni_nalazi.json",
+      "grupa": "Nalazi i poređenja",
+      "sha256": "2505bb415c0811c26c50b07801bcb10133a5985987c71d065fa457652836cfe8",
+      "verzija_sadrzaja": "0.26",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "opazanja": 8,
+        "promene": 2
+      }
+    },
+    {
+      "putanja": "vizuelni_sloj.json",
+      "grupa": "Nalazi i poređenja",
+      "sha256": "e92581cecf9cd083d4e249a8d30324234685fd0203439bd794d0c6b8df614123",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "slike": 45
+      }
+    },
+    {
+      "putanja": "vodeni_linijski_sloj.json",
+      "grupa": "Voda i reljef",
+      "sha256": "f9880caae27203560b28939aa4f07b592e3340a1abc5db560a8ab0b0dc86eb00",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "novi_citativni_dokazi": 11,
+        "otvorena_pitanja": 6
+      }
+    },
+    {
+      "putanja": "vodosnabdevanje_naisusa_v028.json",
+      "grupa": "Voda i reljef",
+      "sha256": "c72191e0790de34d4c8004f7d3e1ee1752950e11fae11e55aa3cfdd6b148e799",
+      "verzija_sadrzaja": "0.31",
+      "status": "radni_sloj_sa_ogranicenjima",
+      "nizovi": {
+        "segmenti_trase_ne": 5,
+        "otvorene_niti": 4
+      }
+    },
+    {
+      "putanja": "wd_q960839.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "3538676a92c63ff457090ba78ef3f8280315a80e57648960dadfc541c76704bd",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {}
+    },
+    {
+      "putanja": "wd_search.json",
+      "grupa": "Sirovi odgovori servisa",
+      "sha256": "40aa15b729afd924d8df8091e06f81da6fd52036cf02304e49bfdc1cd2c31ed8",
+      "verzija_sadrzaja": null,
+      "status": "sacuvani_izvor",
+      "nizovi": {
+        "search": 10
+      }
+    }
+  ]
+}

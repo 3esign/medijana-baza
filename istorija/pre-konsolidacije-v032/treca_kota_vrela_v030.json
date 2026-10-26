@@ -1,0 +1,49 @@
+{
+  "version": "0.30",
+  "datum": "2026-10-26",
+  "sloj": "treca nezavisna DEM kota na Sreckovom vrelu (node 4027319493)",
+  "pitanje": "Koliko je kota Sreckovog vrela sigurna posle neslaganja 442,6 m (Copernicus 30) vs 431,9 m (GLO30)? Treca nezavisna citanja treba da razrese opseg.",
+  "metoda": "Open Topo Data API, dataset srtm90m (SRTM misija, nezavisan od Copernicusa i GLO30)",
+  "citanja": [
+    {
+      "objekat": "Sreckovo vrelo (node 4027319493)",
+      "lat": 43.38523,
+      "lon": 21.94579,
+      "kota_srtm90m": 450.0,
+      "kota_copernicus30_v027": 442.6,
+      "kota_glo30_openmeteo_v023": 431.9,
+      "opseg_m": [431.9, 450.0],
+      "raspon_m": 18.1,
+      "medijana_m": 442.6
+    },
+    {
+      "objekat": "Pod Vinik (tr-01)",
+      "lat": 43.352,
+      "lon": 21.916,
+      "kota_srtm90m": 386.0,
+      "kota_copernicus30_v026": 362.5,
+      "napomena": "SRTM 90m grublja rezolucija gladi padinske vrhove; 386 m je verovatno precica kote na kosini — koristimo samo kao red velicine"
+    },
+    {
+      "objekat": "Kasarna Knjaz Mihailo (way 302167418)",
+      "lat": 43.3341,
+      "lon": 21.8971,
+      "kota_srtm90m": 206.0,
+      "kota_v029": 206.0,
+      "napomena": "SAGLASNO do metra sa v0.29 — jaka potvrda terminusa gradskog sistema"
+    }
+  ],
+  "zakljucak": {
+    "kota_vrela_prihvacena": "442,6 m (medijana tri nezavisna citanja: 431,9 / 442,6 / 450,0)",
+    "nesigurnost_m": 9,
+    "uticaj_na_v027": "NULA na pravac zakljucka: i na najnizoj citanju (431,9 m) greben 490–505 m ostaje 60–70 m iznad vrela — trasa ZZSK bez tunela i dalje NEIZVODLJIVA. Na najvisoj (450 m) ispod 45 m. Zakljucak v0.27 robustan na celu nesigurnost citanja.",
+    "uticaj_na_v023_hidrauliku": "kandidatsko vrelo Medijane (node 4115176757, 209,5 m) nije predmet ovog citanja; njegova kota je razresena u v0.25 sa tri slanja citanja"
+  },
+  "sukob_vinik_vs_banja": "ostaje otvoren; odlucuje iskop spoja/ustave",
+  "izvori": [
+    {
+      "naziv": "Open Topo Data — SRTM 90 m",
+      "url": "https://api.opentopodata.org/v1/srtm90m?locations=43.38523,21.94579"
+    }
+  ]
+}
