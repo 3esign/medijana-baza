@@ -1,6 +1,6 @@
 {
  "svrha": "Hidraulicki linijski model vodenog sistema Medijane za 3D: izvor -> kaptaza -> kanal C/D -> castellum aquae (bazeni A+B, ustave) -> kanal E -> vila (nimfej, terme, fontane). Niz cvorova sa kotama + racunica protoka. Dopuna vodeni_linijski_sloj.json v0.15 — ne menja ga.",
- "verzija": "0.23",
+ "verzija": "0.24",
  "datum": "2026-10-26",
  "autor": "Svemir / dr Poturak Semir; očitavanje i računica: GLM roj (Claude Agent SDK, model glm-5.3-flash)",
  "primarni_izvor": {
@@ -360,6 +360,12 @@
    "status": "OTVORENO — gde je danas spomenik?",
    "obrazlozenje": "Premesten 'nekoliko stotina metara ka severozapadu na mnogo nizi plato' posle iskopavanja (str. 81). Danasnja lokacija reasembliranog objekta nije identifikovana (nema mreznog pristupa u sesiji). Za GIS/3D obavezno odvojiti originalnu i danasnju poziciju.",
    "poverenje": "visoko (da je premesten); nisko (gde je danas)"
+  },
+  {
+   "id": "duzina-dovoda-45km-vs-171km",
+   "status": "OTVOREN, SUZEN — kandidat identifikovan, potvrda samo iskopom/rekognosciranjem",
+   "obrazlozenje": "Jeremic 1988 procenjuje kaptazu na ~4,5 km u pravcu Niske Banje (bez istrazivanja trase). V0.23 nalazi OSM node 4115176757 na 1,71 km, kota 207,6-212,4 m, sa monotonim profilom bez prepreke (dem_profil_vrelo1_vila_v023.json). Hidraulicki, oba rešenja rade; kandidat je po distanci i nagibu blizi merenom opsegu kanala C (2-13 promila).",
+   "ostaje_otvoreno": "nema arheoloskog dokaza da JE ovaj node bio kaptaza; rimska kaptaza u Banji (fn 12, preko Nenadovica) je tacno nepoznata"
   }
  ],
  "ogranicenja": [
@@ -373,5 +379,112 @@
   "Broj korisnika kompleksa (300-800) je autorska procena za red velicine potraznje; nikad publikovana.",
   "Starinar 39/1988 postoji samo kao lokalni renderi (starinar39/*.png) — reprodukcija sloja zahteva taj folder; tacan URL skena na viminacium.org.rs ostaje za razresiti (arhiva, 206 strana bez tekstualnog sloja)."
  ],
- "odnos_prema_vodenom_sloju": "dopuna vodeni_linijski_sloj.json (v0.16): ne menja ga — ovaj sloj je puna hidraulička mreža 27 čvorova sa kotama i računicom; vodeni_linijski_sloj zadržava stavove Pop-Lazića 2018 uz upisane konflikte gde se izvori razilaze"
+ "odnos_prema_vodenom_sloju": "dopuna vodeni_linijski_sloj.json (v0.16): ne menja ga — ovaj sloj je puna hidraulička mreža 27 čvorova sa kotama i računicom; vodeni_linijski_sloj zadržava stavove Pop-Lazića 2018 uz upisane konflikte gde se izvori razilaze",
+ "dovod_v024": {
+  "svrha": "Spaja v0.23 kandidat izvorista (OSM node 4115176757) sa hidraulickim modelom: kapacitet dovoda Manning-om i sudar sa Jeremicovom hipotezom 4,5 km / ~250 m.",
+  "kandidat": {
+   "osm_node": "4115176757",
+   "lat": 43.31663,
+   "lon": 21.96736,
+   "kota_glo30_kandidat": 212.4,
+   "kota_glo30_prva_tacka_profila": 207.6,
+   "nesklad_kote": 4.8,
+   "nesklad_napomena": "Dva uzorkovanja GLO-30 na istoj koordinati daju 212,4 vs 207,6 m (4,8 m razlike) — verovatno edge-piksel/rezample. Svi scenariji racunati za obe vrednosti; kvalitativan zakljucak ne zavisi od izbora.",
+   "kota_susedna": 217.7,
+   "udaljenost_km": 1.71
+  },
+  "reference": {
+   "kota_vila": 198.2,
+   "kota_kastelum_dno_bazen_A": 208,
+   "napomena": "Kastelum je na putu vrelo->vila; kanal C dockanduje kastelumu iznad dna bazena. Nagib racunat do dna bazena A kao konzervativna donja granica."
+  },
+  "nagibi_promila": {
+   "vrelo_ka_kastelumu_212": 2.57,
+   "vrelo_ka_kastelumu_207": -0.23,
+   "vrelo_ka_vili_212": 8.3,
+   "poredjenje": "Kanal C na Medijani meren 2-13 promila (Jeremic 1988); nasi nagibi 1,4-2,6 promila su na mekom kraju tog opsega — fizicki saglasno.",
+   "kriticni_uslov": "Ako je stvarna kota vrela 207,6 m (drugo uzorkovanje), vrelo je ISPOD dna bazena A kasteluma (208,0) — gravitacioni dovod NE MOZE raditi i kandidat pada. Ako je 212,4 m — radi sa nagibom 2,6 promila. Kandidat je dakle uslovno validan: od 6 scenarija 3 rade, 3 su neizvodljiva. Razresenje trazi novo uzorkovanje DEM-a bez edge-piksela ili GNSS merenje na terenu."
+  },
+  "kapacitet_manning": {
+   "model": "Manning-Strickler, pravougaoni kanal, n=0,014; dimenzije NISU merene na trasi (nikad iskopana) — opseg pokriva zidane rimske kanale tog ranga (kanal E je 0,32 m sirine).",
+   "scenariji": [
+    {
+     "kota_vrela": "kota_kandidata_212.4",
+     "nagib_promila": 2.57,
+     "sirina_m": 0.3,
+     "dubina_m": 0.2,
+     "A": 0.06,
+     "R": 0.0857,
+     "v": 0.704,
+     "Q_l_s": 42.2,
+     "Q_m3_dan": 3649
+    },
+    {
+     "kota_vrela": "kota_kandidata_212.4",
+     "nagib_promila": 2.57,
+     "sirina_m": 0.4,
+     "dubina_m": 0.3,
+     "A": 0.12,
+     "R": 0.12,
+     "v": 0.881,
+     "Q_l_s": 105.7,
+     "Q_m3_dan": 9134
+    },
+    {
+     "kota_vrela": "kota_kandidata_212.4",
+     "nagib_promila": 2.57,
+     "sirina_m": 0.6,
+     "dubina_m": 0.3,
+     "A": 0.18,
+     "R": 0.15,
+     "v": 1.022,
+     "Q_l_s": 184,
+     "Q_m3_dan": 15898
+    },
+    {
+     "kota_vrela": "kota_profila_207.6",
+     "nagib_promila": -0.23,
+     "sirina_m": 0.3,
+     "dubina_m": 0.2,
+     "A": 0.06,
+     "R": 0.0857,
+     "v": null,
+     "Q_l_s": null,
+     "Q_m3_dan": null,
+     "status": "NEIZVODLJIVO — vrelo ispod cilja, gravitacioni dovod nemoguc"
+    },
+    {
+     "kota_vrela": "kota_profila_207.6",
+     "nagib_promila": -0.23,
+     "sirina_m": 0.4,
+     "dubina_m": 0.3,
+     "A": 0.12,
+     "R": 0.12,
+     "v": null,
+     "Q_l_s": null,
+     "Q_m3_dan": null,
+     "status": "NEIZVODLJIVO — vrelo ispod cilja, gravitacioni dovod nemoguc"
+    },
+    {
+     "kota_vrela": "kota_profila_207.6",
+     "nagib_promila": -0.23,
+     "sirina_m": 0.6,
+     "dubina_m": 0.3,
+     "A": 0.18,
+     "R": 0.15,
+     "v": null,
+     "Q_l_s": null,
+     "Q_m3_dan": null,
+     "status": "NEIZVODLJIVO — vrelo ispod cilja, gravitacioni dovod nemoguc"
+    }
+   ]
+  },
+  "poredjenje_sa_jeremicem": {
+   "jeremic_hipoteza": "kaptaza ~4,5 km, izvor ~250 m n.m.v. (procena bez merenja) -> nagib ~9 promila",
+   "nas_nalaz": "kandidat 1,71 km, 207,6-212,4 m -> nagib 1,4-2,6 promila",
+   "status": "NE PROTIVURECNO, ALI SE RAZLIKUJE: Jeremicova brojka je procena rastojanja, ne merenje; nas kandidat je kraci i blazi. Ako je kaptaza bila dalje (do 4,5 km) nagib je jos blazi i dalje izvodljiv. U svakom slucaju kapacitet > potraznja za redove velicine.",
+   "zakljucak_kapaciteta": "U izvodljivim scenarijima (kota 212,4, nagib 2,6 promila): 42-184 l/s (3.600-15.900 m3/dan) — najmanji scenarij (0,3 x 0,2 m) vec duplo preko kapaciteta merenog kanal E (17-45 l/s). Dovod nikad nije bio usko grlo; regulacija ustavama je bila obavezna, sto potvrdjuje arheologiju (ustave I/II, prelivnici 1-2-3)."
+  },
+  "poverenje": "srednje — kota vrela je kota terena (ne istoca), dimenzije kanala pretpostavljene, trasa pravolinijska (stvarna duzina do ~+15%)"
+ }
 }

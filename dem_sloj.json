@@ -1,6 +1,6 @@
 {
  "sloj": "dem_glo30",
- "verzija": "0.23",
+ "verzija": "0.24",
  "izvor": "Copernicus GLO-30 (DSM, 30 m GSD), AWS opendata copernicus-dem-30m",
  "licence": "Copernicus/ESA besplatna javna upotreba",
  "tiles": [
@@ -223,7 +223,7 @@
     "ime": "Рупчина",
     "lat": 43.26197,
     "lon": 21.92822,
-    "kota_glo30": 383.0,
+    "kota_glo30": 383,
     "udaljenost_km": 5.51,
     "visinska_razlika_m": 184.8,
     "kota_susedna": 406.2
@@ -269,7 +269,7 @@
    "pad_procenat": 0.83,
    "profil": [
     {
-     "f": 0.0,
+     "f": 0,
      "lat": 43.31663,
      "lon": 21.96736,
      "m": 207.6
@@ -368,7 +368,7 @@
      "f": 0.889,
      "lat": 43.31035,
      "lon": 21.95063,
-     "m": 199.0
+     "m": 199
     },
     {
      "f": 0.944,
@@ -377,7 +377,7 @@
      "m": 198.8
     },
     {
-     "f": 1.0,
+     "f": 1,
      "lat": 43.30957,
      "lon": 21.94854,
      "m": 198.2

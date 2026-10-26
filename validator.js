@@ -456,3 +456,24 @@ console.log(upozorenja.length ? `Upozorenja (${upozorenja.length}):` : 'Upozoren
 upozorenja.forEach(u => console.log('  ! ' + u));
 
 process.exit(greske.length ? 1 : 0);
+
+// 20. hidraulika: dovod_v024 — fizika dovoda vrelo->kastelum
+const hidr = ucitaj('hidraulika_sloj.json');
+if (hidr?.dovod_v024) {
+  const d = hidr.dovod_v024;
+  if (!d.kandidat?.osm_node) greske.push('hidraulika dovod_v024: nema kandidata');
+  if (!d.kapacitet_manning?.scenariji?.length) greske.push('hidraulika dovod_v024: nema scenarija');
+  for (const s of d.kapacitet_manning.scenariji || []) {
+    if (s.nagib_promila > 0) {
+      if (!(s.Q_l_s > 0) || s.Q_l_s > 2000) greske.push(`dovod scenarij ${s.kota_vrela} ${s.sirina_m}x${s.dubina_m}: Q van fizikog opsega (${s.Q_l_s})`);
+      if (!(s.v > 0.1 && s.v < 4)) greske.push(`dovod scenarij ${s.kota_vrela} ${s.sirina_m}x${s.dubina_m}: brzina van opsega rimskog kanala (${s.v})`);
+    } else if (!/NEIZVODLJIVO/.test(s.status || '')) {
+      greske.push(`dovod scenarij sa negativnim nagibom bez oznake NEIZVODLJIVO: ${s.kota_vrela}`);
+    }
+  }
+  const izv = (require('./dem_izvori_kandidati_v023.json')).find(k => k.osm_node === d.kandidat.osm_node);
+  if (!izv) greske.push('dovod_v024: kandidat ne postoji u dem_izvori_kandidati_v023.json');
+  else if (izv.kota_glo30 !== d.kandidat.kota_glo30_kandidat) greske.push('dovod_v024: kota kandidata ne slaze se sa dem_izvori_kandidati_v023');
+  if (!hidr.konflikti?.find(k => k.id === 'duzina-dovoda-45km-vs-171km')) greske.push('dovod_v024: fali konflikt-zapis duzina-dovoda-45km-vs-171km');
+  if (!d.poredjenje_sa_jeremicem?.jeremic_hipoteza) greske.push('dovod_v024: nema poredjenja sa Jeremicem 4,5 km');
+}
